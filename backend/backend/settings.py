@@ -167,6 +167,7 @@ if DEBUG:
 else:
     # For production, add your frontend URL here
     CORS_ALLOWED_ORIGINS = [
+        "https://hangout-2jy4.onrender.com",  # Your actual Render frontend URL
         "https://your-frontend-url.netlify.app",  # Update this with your actual frontend URL
         "https://your-frontend-url.vercel.app",   # or Vercel URL
     ]
