@@ -1,0 +1,2788 @@
+{
+  "id": 83,
+  "name": "Time, Habits, and Life Organization",
+  "icon": "⏳",
+  "subcategories": [
+    {
+      "name": "Time Management",
+      "icon": "⏰",
+      "subcategories": [
+        {
+          "name": "Time Philosophy & Mindset",
+          "icon": "🧠",
+          "subcategories": [
+            {
+              "name": "Time Abundance Mindset",
+              "icon": "⏳♾️",
+              "subcategories": []
+            },
+            {
+              "name": "Present Moment Awareness",
+              "icon": "🧘‍♂️🧘‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Time Perception Training",
+              "icon": "🕰️",
+              "subcategories": []
+            },
+            {
+              "name": "Chronotype Understanding",
+              "icon": "🦉",
+              "subcategories": []
+            },
+            {
+              "name": "Time Values Clarification",
+              "icon": "💖",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Time Structuring Systems",
+          "icon": "🗓️",
+          "subcategories": [
+            {
+              "name": "Calendaring Systems",
+              "icon": "📅",
+              "subcategories": [
+                {
+                  "name": "Digital Calendar Management",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Paper Planning Systems",
+                  "icon": "📝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hybrid Calendar Approaches",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Calendar Blocking Methods",
+                  "icon": "🧱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Theme Days Implementation",
+                  "icon": "🗓️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Multi-Calendar Integration",
+                  "icon": "🔗",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Time Blocking Workshops",
+              "icon": "⏳",
+              "subcategories": [
+                {
+                  "name": "Task Batching Techniques",
+                  "icon": "🧱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Day Theming",
+                  "icon": "🗓️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Week Planning",
+                  "icon": "🗓️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Month Planning",
+                  "icon": "🗓️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Quarterly Time Allocation",
+                  "icon": "🗓️",
+                  "subcategories": []
+                },
+                {
+                  "name": "MIT (Most Important Tasks) Prioritization",
+                  "icon": "🎯",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Specialized Time Approaches",
+              "icon": "⏱️",
+              "subcategories": [
+                {
+                  "name": "Timeboxing",
+                  "icon": "📦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pomodoro Technique Sessions",
+                  "icon": "🍅",
+                  "subcategories": [
+                    {
+                      "name": "Traditional Pomodoro (25/5)",
+                      "icon": "🍅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Modified Intervals",
+                      "icon": "🔢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Task-Specific Pomodoro",
+                      "icon": "🎯",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Team Pomodoro Sessions",
+                      "icon": "🧑‍🤝‍🧑",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Time Budgeting",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Time Mapping",
+                  "icon": "🗺️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Prioritization Frameworks",
+          "icon": "🔢",
+          "subcategories": [
+            {
+              "name": "Eisenhower Matrix (Urgent/Important)",
+              "icon": "⚖️",
+              "subcategories": []
+            },
+            {
+              "name": "Value-Based Prioritization",
+              "icon": "💖",
+              "subcategories": []
+            },
+            {
+              "name": "Energy-Based Prioritization",
+              "icon": "⚡️",
+              "subcategories": []
+            },
+            {
+              "name": "Warren Buffett 5/25 Rule",
+              "icon": "👴",
+              "subcategories": []
+            },
+            {
+              "name": "ABCDE Method",
+              "icon": "🔤",
+              "subcategories": []
+            },
+            {
+              "name": "MoSCoW Method (Must, Should, Could, Won't)",
+              "icon": "🔢",
+              "subcategories": []
+            },
+            {
+              "name": "Opportunity Cost Analysis",
+              "icon": "❓",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Deep Work & Focus",
+          "icon": "🧘‍♂️🧘‍♀️",
+          "subcategories": [
+            {
+              "name": "Deep Work Practice",
+              "icon": "🧘‍♀️🧘‍♂️",
+              "subcategories": [
+                {
+                  "name": "Flow State Cultivation",
+                  "icon": "🌊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Depth Planning",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Single-Tasking Methods",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Deliberate Practice Scheduling",
+                  "icon": "🧠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Distraction Elimination",
+              "icon": "🚫",
+              "subcategories": [
+                {
+                  "name": "Digital Distraction Management",
+                  "icon": "📱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Environmental Distraction Reduction",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Internal Distraction Handling",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Attention Training",
+                  "icon": "🎯",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Focus Enhancement",
+              "icon": "🎯",
+              "subcategories": [
+                {
+                  "name": "Focus Sprints",
+                  "icon": "🏃‍♂️🏃‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Focused Attention Practice",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Background Optimization",
+                  "icon": "🎧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Focus Environment Design",
+                  "icon": "🏞️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Personal Scheduling",
+          "icon": "📅",
+          "subcategories": [
+            {
+              "name": "Schedule Auditing",
+              "icon": "🔍",
+              "subcategories": [
+                {
+                  "name": "Time Tracking",
+                  "icon": "⏱️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Time Diary Analysis",
+                  "icon": "📝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Time Leakage Identification",
+                  "icon": "💧",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Energy Management",
+              "icon": "⚡️⚖️",
+              "subcategories": [
+                {
+                  "name": "Energy Mapping",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ultradian Rhythm Planning",
+                  "icon": "🌊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Energy Peak Utilization",
+                  "icon": "⚡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Energy Recovery Planning",
+                  "icon": "🧘‍♀️🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Energy Preservation Techniques",
+                  "icon": "🔋",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Work-Life Integration",
+              "icon": "⚖️",
+              "subcategories": [
+                {
+                  "name": "Work-Life Boundary Setting",
+                  "icon": "🚧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Role Transition Management",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Life Domain Balancing",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Holistic Schedule Design",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seasonal Scheduling Approaches",
+                  "icon": "🍂",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Productivity Enhancement",
+          "icon": "🚀",
+          "subcategories": [
+            {
+              "name": "Delegation Strategies",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Task Delegation Framework",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Outsourcing Systems",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Team Coordination",
+                  "icon": "🧑‍🤝‍🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Automated Delegation",
+                  "icon": "🤖",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Efficiency Systems",
+              "icon": "⚙️",
+              "subcategories": [
+                {
+                  "name": "Process Optimization",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Workflow Design",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Standard Operating Procedures",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Personal Efficiency Ratio Analysis",
+                  "icon": "📊",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Meeting Optimization",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Meeting Reduction Strategies",
+                  "icon": "📉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Meeting-Free Blocks",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Meeting Preparation Systems",
+                  "icon": "📋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Meeting Follow-Up Protocols",
+                  "icon": "✅",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Habit Building",
+      "icon": "🔁",
+      "subcategories": [
+        {
+          "name": "Habit Science & Psychology",
+          "icon": "🧠",
+          "subcategories": [
+            {
+              "name": "Habit Loop Understanding",
+              "icon": "🔄",
+              "subcategories": [
+                {
+                  "name": "Cue Identification",
+                  "icon": "🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Routine Analysis",
+                  "icon": "🧐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reward Evaluation",
+                  "icon": "🎁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Craving Recognition",
+                  "icon": "🤤",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Neuroplasticity Applications",
+              "icon": "🧠",
+              "subcategories": []
+            },
+            {
+              "name": "Behavioral Psychology Principles",
+              "icon": "💡",
+              "subcategories": []
+            },
+            {
+              "name": "Identity-Based Habit Formation",
+              "icon": "🧑",
+              "subcategories": []
+            },
+            {
+              "name": "Habit Stacking Techniques",
+              "icon": "🧱",
+              "subcategories": [
+                {
+                  "name": "Sequential Habit Stacking",
+                  "icon": "➡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Parallel Habit Stacking",
+                  "icon": "⏸️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Contextual Habit Stacking",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Value-Based Habit Stacking",
+                  "icon": "💖",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Habit Implementation Frameworks",
+          "icon": "🏗️",
+          "subcategories": [
+            {
+              "name": "Tiny Habits Method",
+              "icon": "🤏",
+              "subcategories": []
+            },
+            {
+              "name": "Atomic Habits System",
+              "icon": "⚛️",
+              "subcategories": []
+            },
+            {
+              "name": "Four Laws of Behavior Change",
+              "icon": "⚖️",
+              "subcategories": []
+            },
+            {
+              "name": "Fogg Behavior Model",
+              "icon": "🧠",
+              "subcategories": []
+            },
+            {
+              "name": "The Power of Habit Framework",
+              "icon": "📖",
+              "subcategories": []
+            },
+            {
+              "name": "Habit Formation Protocols",
+              "icon": "📜",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Habit Development Phases",
+          "icon": "📈",
+          "subcategories": [
+            {
+              "name": "Habit Initiation Strategies",
+              "icon": "🏁",
+              "subcategories": [
+                {
+                  "name": "Minimum Viable Habits",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Micro-Habit Implementation",
+                  "icon": "🔬",
+                  "subcategories": [
+                    {
+                      "name": "Two-Minute Rule Applications",
+                      "icon": "⏱️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Habit Minimization Techniques",
+                      "icon": "🤏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Micro-Progress Tracking",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Micro-Commitment Development",
+                      "icon": "🤝",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Implementation Intentions",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "If-Then Planning",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Habit Announcement",
+                  "icon": "📣",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Habit Sustainability Methods",
+              "icon": "💪",
+              "subcategories": [
+                {
+                  "name": "Habit Tracking Groups",
+                  "icon": "📊",
+                  "subcategories": [
+                    {
+                      "name": "Social Accountability Systems",
+                      "icon": "👥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tracking App Communities",
+                      "icon": "📱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Habit Mastermind Groups",
+                      "icon": "🧠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Family Habit Support",
+                      "icon": "👨‍👩‍👧‍👦",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Commitment Devices",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Temptation Bundling",
+                  "icon": "🍩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Habit Contracts",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Progress Monitoring Systems",
+                  "icon": "📈",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Habit Integration Approaches",
+              "icon": "🔄",
+              "subcategories": [
+                {
+                  "name": "Lifestyle Integration",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Identity Reinforcement",
+                  "icon": "🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Value Alignment",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Environment Optimization",
+                  "icon": "🏡",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Trigger & Environment Management",
+          "icon": "🎯",
+          "subcategories": [
+            {
+              "name": "Trigger Identification",
+              "icon": "🔍",
+              "subcategories": [
+                {
+                  "name": "Personal Trigger Mapping",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Emotional Trigger Recognition",
+                  "icon": "😢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Situational Trigger Analysis",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Time-Based Trigger Assessment",
+                  "icon": "⏰",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Environmental Design",
+              "icon": "🏡",
+              "subcategories": [
+                {
+                  "name": "Choice Architecture",
+                  "icon": "🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Friction Reduction for Good Habits",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Friction Addition for Bad Habits",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Visual Trigger Placement",
+                  "icon": "🖼️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Environment Restructuring",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Context Switching Management",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Habit Evolution & Mastery",
+          "icon": "⬆️",
+          "subcategories": [
+            {
+              "name": "Habit Replacement Methods",
+              "icon": "🔄",
+              "subcategories": [
+                {
+                  "name": "Substitution Strategies",
+                  "icon": "↔️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Upgrade Techniques",
+                  "icon": "⬆️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Gradual Transition Methods",
+                  "icon": "🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Complete Pattern Disruption",
+                  "icon": "💥",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Keystone Habit Focus",
+              "icon": "🔑",
+              "subcategories": [
+                {
+                  "name": "Personal Keystone Identification",
+                  "icon": "🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Keystone Habit Leverage",
+                  "icon": "🗝️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Habit Cascade Planning",
+                  "icon": "🌊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cornerstone Habit Development",
+                  "icon": "🏛️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Advanced Habit Stacking",
+              "icon": "🧱",
+              "subcategories": [
+                {
+                  "name": "Cross-Domain Habit Chains",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Habit Super Stacks",
+                  "icon": "🧱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Context-Based Habit Networks",
+                  "icon": "🌐",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Specific Habit Development",
+          "icon": "🎯",
+          "subcategories": [
+            {
+              "name": "Morning Routines",
+              "icon": "🌅",
+              "subcategories": [
+                {
+                  "name": "Wake-Up Rituals",
+                  "icon": "☀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Morning Energy Practices",
+                  "icon": "⚡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cognitive Morning Routines",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Physical Morning Practices",
+                  "icon": "🏃‍♂️🏃‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Spiritual Morning Elements",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Productivity Morning Blocks",
+                  "icon": "🚀",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Evening Rituals",
+              "icon": "🌃",
+              "subcategories": [
+                {
+                  "name": "Wind-Down Sequences",
+                  "icon": "🌙",
+                  "subcategories": []
+                },
+                {
+                  "name": "Evening Reflection",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sleep Preparation",
+                  "icon": "😴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Next-Day Preparation",
+                  "icon": "📋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Evening Learning Blocks",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Relationship Connection Time",
+                  "icon": "💑",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Health Habit Development",
+              "icon": "❤️",
+              "subcategories": [
+                {
+                  "name": "Movement Habits",
+                  "icon": "🏃‍♀️🏃‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nutrition Habits",
+                  "icon": "🍎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sleep Habits",
+                  "icon": "😴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stress Management Habits",
+                  "icon": "🧘",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Productivity Habit Building",
+              "icon": "🚀",
+              "subcategories": [
+                {
+                  "name": "Deep Work Habits",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Learning Habits",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Creativity Habits",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Focus Habits",
+                  "icon": "🎯",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Relationship Habit Cultivation",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Connection Habits",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Communication Habits",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Appreciation Habits",
+                  "icon": "💖",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Financial Habit Formation",
+              "icon": "💰",
+              "subcategories": [
+                {
+                  "name": "Spending Awareness Habits",
+                  "icon": "🛒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Saving Habits",
+                  "icon": "🏦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Investment Habits",
+                  "icon": "📈",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Habit Maintenance & Troubleshooting",
+          "icon": "🔧",
+          "subcategories": [
+            {
+              "name": "Habit Tracking Systems",
+              "icon": "📊",
+              "subcategories": [
+                {
+                  "name": "Digital Tracking Tools",
+                  "icon": "📱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Analog Tracking Methods",
+                  "icon": "📝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Visual Progress Indicators",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Streak Maintenance",
+                  "icon": "🔥",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Accountability Partnerships",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Accountability Partner Selection",
+                  "icon": "🧑‍🤝‍🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Check-In Systems",
+                  "icon": "📞",
+                  "subcategories": []
+                },
+                {
+                  "name": "Consequence Setting",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Progress Sharing Protocols",
+                  "icon": "🗣️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Reward Systems Design",
+              "icon": "🎁",
+              "subcategories": [
+                {
+                  "name": "Intrinsic Reward Cultivation",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Extrinsic Reward Scheduling",
+                  "icon": "🎁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reward Progression",
+                  "icon": "⬆️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Celebration Rituals",
+                  "icon": "🎉",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Challenge Frameworks",
+              "icon": "🏆",
+              "subcategories": [
+                {
+                  "name": "21/30/66 Day Challenges",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Habit Sprints",
+                  "icon": "🏃‍♂️🏃‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Progressive Challenges",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Team Challenges",
+                  "icon": "🧑‍🤝‍🧑",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Habit Recovery Protocols",
+              "icon": "🔄",
+              "subcategories": [
+                {
+                  "name": "Relapse Prevention",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Slip Recovery Systems",
+                  "icon": "🩹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Habit Resurrection",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pattern Interruption",
+                  "icon": "💥",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Organization",
+      "icon": "📦",
+      "subcategories": [
+        {
+          "name": "Home Organization",
+          "icon": "🏠",
+          "subcategories": [
+            {
+              "name": "Decluttering Methods",
+              "icon": "🧹",
+              "subcategories": [
+                {
+                  "name": "KonMari Method",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Swedish Death Cleaning",
+                  "icon": "🇸🇪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Minimalist Game",
+                  "icon": "🎮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Four-Box Method",
+                  "icon": "📦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Zone Decluttering",
+                  "icon": "🗺️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Organizational Systems",
+              "icon": "📁",
+              "subcategories": [
+                {
+                  "name": "Category-Based Organization",
+                  "icon": "🏷️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Frequency-Based Organization",
+                  "icon": "⏰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Activity-Based Organization",
+                  "icon": "🎯",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Space Optimization",
+              "icon": "📐",
+              "subcategories": [
+                {
+                  "name": "Vertical Space Utilization",
+                  "icon": "⬆️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Multi-Purpose Space Design",
+                  "icon": "🛋️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dead Space Activation",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Flow Pattern Optimization",
+                  "icon": "➡️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Storage Solutions",
+              "icon": "📦",
+              "subcategories": [
+                {
+                  "name": "Container Systems",
+                  "icon": "🧺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Labeling Methods",
+                  "icon": "🏷️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Retrieval Optimization",
+                  "icon": "🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rotational Storage",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Maintenance Systems",
+              "icon": "🔄",
+              "subcategories": [
+                {
+                  "name": "Daily Reset Routines",
+                  "icon": "🌅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Weekly Maintenance",
+                  "icon": "🗓️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seasonal Organization",
+                  "icon": "🍂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Annual Deep Organization",
+                  "icon": "🧹",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Digital Organization",
+          "icon": "💻",
+          "subcategories": [
+            {
+              "name": "Digital Decluttering",
+              "icon": "🧹",
+              "subcategories": [
+                {
+                  "name": "Digital Minimalism Practices",
+                  "icon": "🧘‍♀️🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "File Purging Systems",
+                  "icon": "🗑️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Media Libraries Organization",
+                  "icon": "🖼️",
+                  "subcategories": []
+                },
+                {
+                  "name": "App Evaluation & Reduction",
+                  "icon": "📱",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Data Management",
+              "icon": "💾",
+              "subcategories": [
+                {
+                  "name": "File Naming Conventions",
+                  "icon": "🏷️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Folder Structure Systems",
+                  "icon": "📁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cloud Storage Organization",
+                  "icon": "☁️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Asset Management",
+                  "icon": "💎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Backup Systems",
+                  "icon": "💾",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Email Organization",
+              "icon": "✉️",
+              "subcategories": [
+                {
+                  "name": "Inbox Management Systems",
+                  "icon": "📥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Email Processing Workflows",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Email Batching",
+                  "icon": "📧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Filter & Folder Strategies",
+                  "icon": "📂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Email Templates",
+                  "icon": "📝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Digital Workspace Organization",
+              "icon": "🖥️",
+              "subcategories": [
+                {
+                  "name": "Desktop Organization",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bookmark Management",
+                  "icon": "⭐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Password Management",
+                  "icon": "🔑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Dashboard Creation",
+                  "icon": "📊",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Digital Maintenance",
+              "icon": "🔄",
+              "subcategories": [
+                {
+                  "name": "Digital Cleanup Schedules",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Device Optimization",
+                  "icon": "📱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Boundaries",
+                  "icon": "🚧",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Financial Organization",
+          "icon": "💰",
+          "subcategories": [
+            {
+              "name": "Budgeting Workshops",
+              "icon": "💸",
+              "subcategories": [
+                {
+                  "name": "Budget System Selection",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Zero-Based Budgeting",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Envelope Budgeting",
+                  "icon": "✉️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Value-Based Budgeting",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Anti-Budget Approach",
+                  "icon": "🙅‍♀️🙅‍♂️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Expense Tracking",
+              "icon": "🛒",
+              "subcategories": [
+                {
+                  "name": "Automated Tracking Systems",
+                  "icon": "🤖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Manual Tracking Methods",
+                  "icon": "📝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Category Development",
+                  "icon": "🏷️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Spending Analysis",
+                  "icon": "📊",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Financial Planning",
+              "icon": "📈",
+              "subcategories": [
+                {
+                  "name": "Emergency Fund Establishment",
+                  "icon": "🆘",
+                  "subcategories": []
+                },
+                {
+                  "name": "Retirement Planning",
+                  "icon": "👴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Goal-Based Saving",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Investment Organization",
+                  "icon": "🏦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tax Planning",
+                  "icon": "🧾",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Document Management",
+              "icon": "📄",
+              "subcategories": [
+                {
+                  "name": "Financial Document Organization",
+                  "icon": "📁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Record Retention Systems",
+                  "icon": "💾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Statement Management",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Receipt Organization",
+                  "icon": "🧾",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Information Management",
+          "icon": "ℹ️",
+          "subcategories": [
+            {
+              "name": "Personal Knowledge Management",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Note-Taking Systems",
+                  "icon": "📝",
+                  "subcategories": [
+                    {
+                      "name": "Zettelkasten Method",
+                      "icon": "🗃️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Evergreen Notes",
+                      "icon": "🌳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Progressive Summarization",
+                      "icon": "📑",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cornell Method",
+                      "icon": "🎓",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Knowledge Base Creation",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reference Systems",
+                  "icon": "📖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Personal Wiki Development",
+                  "icon": "🌐",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Paperless Systems",
+              "icon": "📄",
+              "subcategories": [
+                {
+                  "name": "Digital Document Management",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Scanning Workflows",
+                  "icon": "📷",
+                  "subcategories": []
+                },
+                {
+                  "name": "Physical-Digital Integration",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Paper Reduction Strategies",
+                  "icon": "📉",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Information Processing",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Information Triage",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Content Consumption Systems",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Information Extraction Methods",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Review Systems",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Life Administration",
+          "icon": "🧑‍💼",
+          "subcategories": [
+            {
+              "name": "Life Admin Systems",
+              "icon": "⚙️",
+              "subcategories": [
+                {
+                  "name": "Life Admin Hub Creation",
+                  "icon": "🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Administrative Task Batching",
+                  "icon": "🧱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Life Admin Days",
+                  "icon": "📅",
+                  "subcategories": [
+                    {
+                      "name": "Monthly Admin Day Design",
+                      "icon": "🗓️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Quarterly Deep Admin",
+                      "icon": "🗓️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Annual Administrative Review",
+                      "icon": "🗓️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Household Management Systems",
+                  "icon": "🏡",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Personal Operations",
+              "icon": "🧑",
+              "subcategories": [
+                {
+                  "name": "Standard Personal Procedures",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Life Maintenance Checklists",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Life Documentation",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Emergency Preparation",
+                  "icon": "🆘",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Automation Strategies",
+              "icon": "🤖",
+              "subcategories": [
+                {
+                  "name": "Personal Task Automation",
+                  "icon": "⚙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Service Integration",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Administrative Outsourcing",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "System Linking",
+                  "icon": "🔗",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Goal Setting & Achievement",
+      "icon": "🎯",
+      "subcategories": [
+        {
+          "name": "Vision Development",
+          "icon": "🔭",
+          "subcategories": [
+            {
+              "name": "Personal Vision Creation",
+              "icon": "✨",
+              "subcategories": [
+                {
+                  "name": "Life Vision Statement",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Domain-Specific Visions",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Purpose Clarification",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Values-Based Visioning",
+                  "icon": "💖",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Vision Expression Methods",
+              "icon": "🎨",
+              "subcategories": [
+                {
+                  "name": "Vision Boarding",
+                  "icon": "🖼️",
+                  "subcategories": [
+                    {
+                      "name": "Digital Vision Boards",
+                      "icon": "💻",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Physical Vision Boards",
+                      "icon": "🖼️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Theme-Based Boards",
+                      "icon": "🏷️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Time-Horizon Boards",
+                      "icon": "⏳",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Vision Scripting",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Future Self Visualization",
+                  "icon": "🧘",
+                  "subcategories": []
+                },
+                {
+                  "name": "Core Value Identification",
+                  "icon": "💖",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Goal Frameworks",
+          "icon": "🏗️",
+          "subcategories": [
+            {
+              "name": "SMART Goal Workshops",
+              "icon": "🎯",
+              "subcategories": [
+                {
+                  "name": "Specific Goal Crafting",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Measurable Goal Design",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Achievable Goal Setting",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Relevant Goal Alignment",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Time-Bound Goal Framing",
+                  "icon": "⏰",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "OKR (Objectives & Key Results) Method",
+              "icon": "🎯",
+              "subcategories": []
+            },
+            {
+              "name": "HARD Goals System",
+              "icon": "💪",
+              "subcategories": []
+            },
+            {
+              "name": "WOOP Framework",
+              "icon": "🧘‍♂️🧘‍♀️",
+              "subcategories": [
+                {
+                  "name": "Wish Identification",
+                  "icon": "💭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Outcome Visualization",
+                  "icon": "✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Obstacle Anticipation",
+                  "icon": "🚧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Plan Formation",
+                  "icon": "🗺️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Goal Hierarchy Development",
+              "icon": "🔺",
+              "subcategories": [
+                {
+                  "name": "Ultimate Goals",
+                  "icon": "🏆",
+                  "subcategories": []
+                },
+                {
+                  "name": "Performance Goals",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Process Goals",
+                  "icon": "⚙️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Goal Planning Systems",
+          "icon": "🗺️",
+          "subcategories": [
+            {
+              "name": "Backward Planning",
+              "icon": "⬅️",
+              "subcategories": []
+            },
+            {
+              "name": "Quarterly Planning",
+              "icon": "🗓️",
+              "subcategories": [
+                {
+                  "name": "13-Week Year Planning",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Quarter Goal Breakdown",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Quarterly Theme Setting",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "90-Day Achievement Systems",
+                  "icon": "⏳",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Annual Planning & Reviews",
+              "icon": "🗓️",
+              "subcategories": [
+                {
+                  "name": "Year Theme Selection",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Annual Goal Setting",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Year-End Review Process",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Past Year Integration",
+                  "icon": "🕰️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Five-Year Planning",
+              "icon": "📅",
+              "subcategories": []
+            },
+            {
+              "name": "Goal Sequencing",
+              "icon": "➡️",
+              "subcategories": [
+                {
+                  "name": "Goal Dependency Mapping",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sequential Goal Planning",
+                  "icon": "➡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Parallel Goal Development",
+                  "icon": "⏸️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Goal Achievement Strategies",
+          "icon": "🏆",
+          "subcategories": [
+            {
+              "name": "Goal Breakdown Techniques",
+              "icon": "🧩",
+              "subcategories": [
+                {
+                  "name": "Project Planning",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Milestone Development",
+                  "icon": "📍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Task Identification",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sub-Goal Creation",
+                  "icon": "🎯",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Implementation System",
+              "icon": "⚙️",
+              "subcategories": [
+                {
+                  "name": "Action Planning",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Resource Allocation",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Support Recruitment",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Progress Tracking System Design",
+                  "icon": "📊",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Obstacle Management",
+              "icon": "🚧",
+              "subcategories": [
+                {
+                  "name": "Premortem Analysis",
+                  "icon": "🔮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Contingency Planning",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Resistance Identification",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Motivation Strategy Development",
+                  "icon": "🔥",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Progress Monitoring",
+          "icon": "📈",
+          "subcategories": [
+            {
+              "name": "Tracking Systems",
+              "icon": "📊",
+              "subcategories": [
+                {
+                  "name": "Goal Journals",
+                  "icon": "📔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Trackers",
+                  "icon": "📱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Visual Progress Methods",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Habit-Goal Integration Tracking",
+                  "icon": "🔗",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Self-Tracking",
+              "icon": "📝",
+              "subcategories": [
+                {
+                  "name": "Personal Metrics",
+                  "icon": "📊",
+                  "subcategories": [
+                    {
+                      "name": "Key Performance Indicators",
+                      "icon": "🎯",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Leading vs. Lagging Indicators",
+                      "icon": "➡️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Quantitative Measurements",
+                      "icon": "🔢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Qualitative Assessments",
+                      "icon": "🗣️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Journal Methods",
+                  "icon": "📔",
+                  "subcategories": [
+                    {
+                      "name": "Bullet Journaling",
+                      "icon": "📓",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Goal Journaling",
+                      "icon": "🎯",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Reflection Journaling",
+                      "icon": "🤔",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Progress Logging",
+                      "icon": "📈",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Review Cadences",
+              "icon": "🔄",
+              "subcategories": [
+                {
+                  "name": "Weekly Reviews",
+                  "icon": "🗓️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Monthly Assessments",
+                  "icon": "🗓️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Quarterly Deep Reviews",
+                  "icon": "🗓️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Annual Life Auditing",
+                  "icon": "🗓️",
+                  "subcategories": [
+                    {
+                      "name": "Life Areas Assessment",
+                      "icon": "🏡",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Achievement Evaluation",
+                      "icon": "🏆",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Growth Recognition",
+                      "icon": "🌱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Course Correction",
+                      "icon": "🧭",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Goal Psychology & Mindset",
+          "icon": "🧠",
+          "subcategories": [
+            {
+              "name": "Motivation Management",
+              "icon": "🔥",
+              "subcategories": [
+                {
+                  "name": "Intrinsic Motivation Cultivation",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Extrinsic Motivation Design",
+                  "icon": "🎁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Motivation Maintenance",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Motivation Recovery",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Growth Mindset Development",
+              "icon": "🌱",
+              "subcategories": [
+                {
+                  "name": "Failure Reframing",
+                  "icon": "🧘‍♀️🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Learning Orientation",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Process Focus",
+                  "icon": "⚙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Feedback Utilization",
+                  "icon": "🗣️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Goal Achievement Identity",
+              "icon": "🧑",
+              "subcategories": [
+                {
+                  "name": "Self-Concept Alignment",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Identity Reinforcement",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Belief System Development",
+                  "icon": "🧠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Success Celebration",
+              "icon": "🎉",
+              "subcategories": [
+                {
+                  "name": "Milestone Celebrations",
+                  "icon": "🏁",
+                  "subcategories": [
+                    {
+                      "name": "Achievement Recognition Rituals",
+                      "icon": "🏆",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Reward Systems",
+                      "icon": "🎁",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Progress Documentation",
+                      "icon": "📄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Success Sharing",
+                      "icon": "🗣️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Achievement Integration",
+                  "icon": "🏆",
+                  "subcategories": [
+                    {
+                      "name": "Past Success Incorporation",
+                      "icon": "🕰️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Identity Evolution",
+                      "icon": "🔄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Success Pattern Recognition",
+                      "icon": "📈",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Life Systems Design",
+      "icon": "⚙️",
+      "subcategories": [
+        {
+          "name": "Personal Operating System",
+          "icon": "💻",
+          "subcategories": [
+            {
+              "name": "Life OS Development",
+              "icon": "🖥️",
+              "subcategories": [
+                {
+                  "name": "Core Principles Definition",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Decision-Making Frameworks",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Personal Policies Creation",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Default Responses",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Personal Management Dashboard",
+              "icon": "📊",
+              "subcategories": [
+                {
+                  "name": "Life Areas Overview",
+                  "icon": "🏡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Key Metric Tracking",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "System Integration",
+                  "icon": "🔗",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Meta-Systems Management",
+              "icon": "⚙️",
+              "subcategories": [
+                {
+                  "name": "System Evaluation",
+                  "icon": "🧐",
+                  "subcategories": []
+                },
+                {
+                  "name": "System Iteration",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "System Integration",
+                  "icon": "🔗",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Routine Design",
+          "icon": "📅",
+          "subcategories": [
+            {
+              "name": "Daily Routine Architecture",
+              "icon": "🌅",
+              "subcategories": [
+                {
+                  "name": "Morning Routine Design",
+                  "icon": "☀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Workday Structuring",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Evening Routine Creation",
+                  "icon": "🌙",
+                  "subcategories": []
+                },
+                {
+                  "name": "Transition Rituals",
+                  "icon": "🚪",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Weekly Routine Frameworks",
+              "icon": "🗓️",
+              "subcategories": [
+                {
+                  "name": "Weekly Planning Sessions",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Weekly Review Process",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Weekly Reset Rituals",
+                  "icon": "🧹",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Seasonal & Annual Routines",
+              "icon": "🍂",
+              "subcategories": [
+                {
+                  "name": "Seasonal Adjustments",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Annual Planning Retreat",
+                  "icon": "🏕️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Yearly Reset Process",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Productivity Workflows",
+          "icon": "🔄",
+          "subcategories": [
+            {
+              "name": "Task Management Systems",
+              "icon": "✅",
+              "subcategories": [
+                {
+                  "name": "Task Capture Methods",
+                  "icon": "📥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Task Processing Workflows",
+                  "icon": "⚙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Task Execution Systems",
+                  "icon": "🚀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Task Review Protocols",
+                  "icon": "🧐",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Project Management Approaches",
+              "icon": "🏗️",
+              "subcategories": [
+                {
+                  "name": "Personal Kanban",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "GTD (Getting Things Done)",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Agile Personal Management",
+                  "icon": "🏃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Personal Scrum",
+                  "icon": "🧑‍🤝‍🧑",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Specialized Workflows",
+              "icon": "🎯",
+              "subcategories": [
+                {
+                  "name": "Creative Work Flows",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Administrative Workflows",
+                  "icon": "🧑‍💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Learning Workflows",
+                  "icon": "📚",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lifestyle Design",
+          "icon": "🧘‍♂️🧘‍♀️",
+          "subcategories": [
+            {
+              "name": "Life Experimentation Systems",
+              "icon": "🧪",
+              "subcategories": [
+                {
+                  "name": "Personal Experiments Design",
+                  "icon": "🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Testing Frameworks",
+                  "icon": "🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Measurement Methods",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Implementation Protocols",
+                  "icon": "📜",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Lifestyle Optimization",
+              "icon": "📈",
+              "subcategories": [
+                {
+                  "name": "Energy Management",
+                  "icon": "⚡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Attention Management",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Relationship Systems",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Health Systems Integration",
+                  "icon": "❤️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Life Balance Architecture",
+              "icon": "⚖️",
+              "subcategories": [
+                {
+                  "name": "Domain Balance Design",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Role Integration",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Season-of-Life Adaptation",
+                  "icon": "🍂",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Personal Technology Systems",
+          "icon": "💻",
+          "subcategories": [
+            {
+              "name": "Tech Ecosystem Design",
+              "icon": "📱",
+              "subcategories": [
+                {
+                  "name": "Tool Selection Framework",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tool Integration Strategy",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Workflow Design",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Automation Strategies",
+              "icon": "🤖",
+              "subcategories": [
+                {
+                  "name": "Task Automation",
+                  "icon": "⚙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Information Automation",
+                  "icon": "ℹ️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Decision Automation",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trigger-Based Systems",
+                  "icon": "🔗",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Augmentation Approaches",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Second Brain Development",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "External Memory Systems",
+                  "icon": "💾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cognitive Enhancement Tools",
+                  "icon": "💡",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

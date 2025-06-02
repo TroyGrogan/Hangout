@@ -1,0 +1,603 @@
+#event-details-page {
+  background-color: #00B488;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navigation Bar */
+.nav-bar {
+  background-color: #3B5998;
+  padding: 1rem 2rem;
+  color: #FFFFF0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-back {
+  color: #FFFFF0;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-back:hover {
+  color: #ADB6C4;
+}
+
+/* Event Card */
+.event-card {
+  background-color: #FFFFF0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 900px;
+  width: calc(100% - 4rem);
+  overflow: hidden;
+}
+
+.event-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.event-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.event-info {
+  padding: 2rem;
+}
+
+#event-details-page .event-title {
+  color: #3B5998;
+  font-size: 2.5rem !important;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+/* Host Info Styling (Revised for new structure) */
+.hosted-by-content-wrapper {
+  display: flex; /* Align "Hosted by:" text and host-info inline */
+  align-items: center; /* Vertically align items */
+  gap: 0.5rem; /* Space between "Hosted by:" and avatar/username block */
+}
+
+.host-info { /* Already exists, ensure it works with the flex layout */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  /* margin-left: 0.5rem; /* This might not be needed anymore or adjusted */
+}
+
+.hosted-by-text {
+  /* font-weight: 600; /* Removed bolding */
+  color: #294C60;
+}
+
+.host-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.host-avatar-placeholder {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+.host-username {
+  font-weight: 500;
+  color: #333;
+}
+
+.event-details {
+  margin-bottom: 2rem;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #294C60;
+}
+
+.icon {
+  margin-right: 1rem;
+  color: #294C60;
+}
+
+.location-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.event-address {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+}
+
+/* Date and Time Info Styling */
+.date-time-info,
+.time-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.date-info {
+  /* font-weight: 600; /* Removed bolding */
+  color: #294C60;
+}
+
+.time-info {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Location Info Styling */
+.location-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.event-address {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+}
+
+/* Description Header Styling */
+.description-header {
+  color: #3B5998;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  margin-top: 0;
+}
+
+.event-description {
+  margin-bottom: 2rem;
+}
+
+.event-description p {
+  color: #444;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Map Section Styling */
+.event-map-section {
+  margin-bottom: 2rem; /* Consistent with event-description */
+}
+
+.map-header {
+  color: #3B5998; /* Matches description-header */
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  margin-top: 0;
+}
+
+/* Map Container */
+.event-map {
+  margin: 0; /* Reset margin as it's now handled by event-map-section */
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #E2E8F0;
+}
+
+.leaflet-container {
+  height: 400px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Enhanced RSVP Section */
+.rsvp-section {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rsvp-section h2 {
+  color: #294C60;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.rsvp-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.rsvp-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  min-width: 110px;
+}
+
+.rsvp-button.going {
+  background-color: #e6f4ea;
+  color: #137333;
+  border: 1px solid #137333;
+}
+
+.rsvp-button.going:hover {
+  background-color: #d4eadd;
+}
+
+.rsvp-button.going.active {
+  background-color: #137333;
+  color: #FFFFF0;
+}
+
+.rsvp-button.maybe {
+  background-color: #fef7e0;
+  color: #b06000;
+  border: 1px solid #b06000;
+}
+
+.rsvp-button.maybe:hover {
+  background-color: #fdf2cc;
+}
+
+.rsvp-button.maybe.active {
+  background-color: #b06000;
+  color: #FFFFF0;
+}
+
+.rsvp-button.not-going {
+  background-color: #fbe9e7;
+  color: #c53929;
+  border: 1px solid #c53929;
+}
+
+.rsvp-button.not-going:hover {
+  background-color: #f8ded9;
+}
+
+.rsvp-button.not-going.active {
+  background-color: #c53929;
+  color: #FFFFF0;
+}
+
+/* Action Buttons */
+.event-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.action-button {
+  background-color: #294C60;
+  color: #FFFFF0;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.action-button:hover {
+  background-color: #1d3a4c;
+}
+
+.action-button.active {
+  background-color: #55917f;
+}
+
+.action-button.disabled {
+  background-color: #ADB6C4;
+  cursor: not-allowed;
+}
+
+/* Loading State */
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #00B488;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(59, 89, 152, 0.1);
+  border-left-color: #3B5998;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+/* Error State */
+.error-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #00B488;
+}
+
+.error-card {
+  background-color: #FFFFF0;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.error-title {
+  color: #294C60;
+  margin-bottom: 1rem;
+}
+
+.error-message {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.back-link {
+  color: #294C60;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* Attendees Section */
+.attendees-section {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #E2E8F0;
+}
+
+.attendees-section h2 {
+  color: #294C60;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Attendee Groups */
+.attendee-group {
+  margin-bottom: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.attendee-group-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.attendee-group-icon {
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.attendee-group-icon.going {
+  color: #137333;
+}
+
+.attendee-group-icon.maybe {
+  color: #b06000;
+}
+
+.attendee-group-icon.not-going {
+  color: #c53929;
+}
+
+.attendees-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.attendee-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #333;
+  background-color: #FFFFF0;
+  padding: 0.5rem 0.75rem;
+  border-radius: 30px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  max-width: 100%;
+}
+
+.attendee-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.attendee-avatar-placeholder {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #E2E8F0;
+  padding: 8px;
+  color: #294C60;
+}
+
+.no-attendees {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  color: #666;
+}
+
+/* Friend action buttons */
+.friend-action {
+  margin-left: auto;
+}
+
+.friend-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s, opacity 0.2s;
+}
+
+.friend-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.friend-add {
+  background-color: rgba(41, 76, 96, 0.1);
+  color: #294C60;
+}
+
+.friend-add:hover:not(:disabled) {
+  background-color: rgba(41, 76, 96, 0.2);
+}
+
+.friend-remove {
+  background-color: rgba(229, 57, 53, 0.1);
+  color: #e53935;
+}
+
+.friend-remove:hover:not(:disabled) {
+  background-color: rgba(229, 57, 53, 0.2);
+}
+
+.friend-pending {
+  background-color: rgba(255, 152, 0, 0.1);
+  color: #ff9800;
+}
+
+.friend-pending:hover:not(:disabled) {
+  background-color: rgba(255, 152, 0, 0.2);
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .event-card {
+    width: calc(100% - 2rem);
+    margin: 1rem auto;
+  }
+  
+  .event-info {
+    padding: 1.5rem;
+  }
+  
+  .event-title {
+    font-size: 1.5rem;
+  }
+
+  .rsvp-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rsvp-button {
+    width: 100%;
+    max-width: 250px;
+  }
+}
+
+/* Event Category Tag Styling (mimicking profile preference tags) */
+.event-category-tag {
+  display: inline-flex; /* Use inline-flex to allow it to sit naturally in the .detail row */
+  align-items: center;
+  gap: 8px; /* Slightly more gap for better readability if font is a bit larger */
+  padding: 6px 12px; /* Slightly more padding */
+  background-color: rgb(234, 244, 235); /* Light green bubble */
+  border-radius: 20px; /* Rounded corners */
+  font-size: 0.9rem; /* Adjust as needed, slightly smaller than main detail text */
+  color: #36454F; /* Dark text color for contrast */
+  line-height: 1.4; /* Ensure text within bubble is well-spaced */
+}
+
+.event-category-icon {
+  font-size: 1.1rem; /* Emoji size, slightly larger than text */
+  display: inline-block; /* Helps with vertical alignment if needed */
+}
+
+/* Ensure it aligns well within the .detail flex container */
+.detail > .event-category-tag {
+  margin-left: 0; /* Or adjust if needed to align with other text elements in .detail */
+}
+
+/* Ensure Lucide icon for the row and category tag align nicely */
+.detail {
+  display: flex;
+  align-items: center; /* This should already be there */
+  margin-bottom: 1rem;
+  color: #294C60;
+}
+
+.icon { /* Lucide icon for the row */
+  margin-right: 1rem;
+  color: #294C60;
+  flex-shrink: 0; /* Prevent icon from shrinking */
+}

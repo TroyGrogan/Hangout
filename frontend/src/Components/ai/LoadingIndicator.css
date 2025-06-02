@@ -1,0 +1,180 @@
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.loading-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-dot {
+  background-color: #007bff;
+  border-radius: 50%;
+  margin: 0 4px;
+  animation: bounce 1.4s infinite ease-in-out both;
+}
+
+.loading-dot:nth-child(1) {
+  animation-delay: -0.32s;
+}
+
+.loading-dot:nth-child(2) {
+  animation-delay: -0.16s;
+}
+
+.loading-text {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Size variants */
+.loading-small .loading-dot {
+  width: 6px;
+  height: 6px;
+}
+
+.loading-medium .loading-dot {
+  width: 10px;
+  height: 10px;
+}
+
+.loading-large .loading-dot {
+  width: 14px;
+  height: 14px;
+}
+
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
+.loading-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(59, 89, 152, 0.2);
+  border-top-color: #3B5998;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 0.5rem;
+}
+
+.loading-indicator p {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Circular spinner for loading indicator */
+.loading-dots-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+
+.loading-dots-container.large {
+  height: 60px;
+}
+
+.loading-dot {
+  width: 8px;
+  height: 8px;
+  margin: 0 4px;
+  border-radius: 50%;
+  background-color: #007bff;
+  animation: fadeInOutHorizontal 1.8s infinite ease-in-out;
+}
+
+/* Circular spinner styles */
+.circular-spinner-container {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.circular-dot {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0.3;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+}
+
+@keyframes fadeInOutHorizontal {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+/* Paper airplane send button */
+.send-button {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+  background-color: #3B5998;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-left: 8px;
+}
+
+.send-button:hover {
+  background-color: #2E4578;
+}
+
+.send-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.paper-airplane {
+  width: 18px;
+  height: 18px;
+  fill: #FFFFF0;
+  transform: rotate(45deg);
+} 

@@ -1,0 +1,308 @@
+"Suggest some good books to read based on my interest in history."
+"Book recommendations"
+
+"Suggest some amazing biography books to read based on human history."
+"Biography Book recommendations"
+
+"What are some interesting hobbies I could start with a limited budget?"
+"Budget-friendly hobbies"
+
+"What are some hobbies that I can start at home, today, right now?"
+"Home hobbies you can do today"
+
+"Recommend me some strategy board games for a game night"
+"Strategy board games"
+
+"What are some outdoor recreational activities for beginners?"
+"Beginner outdoor activities"
+
+"Suggest team sports leagues or casual pickup games in my area."
+"Find Team Sports"
+
+"Suggest individual sports or activities I can try, like running, swimming, cycling, or climbing."
+"Try Individual Sports"
+
+"Suggest recreational physical activities like hiking, dancing, yoga, or recreational biking."
+"Recreational Physical Activities"
+
+"Suggest adventure or outdoor recreation ideas like camping, kayaking, fishing, or geocaching."
+"Outdoor Adventure Ideas"
+
+"Suggest fun lawn or outdoor games to play with friends or family."
+"Lawn/Outdoor Games"
+
+"Suggest classic schoolyard or party games for a group."
+"Party/Schoolyard Games"
+
+"Suggest indoor physical games like ping pong, air hockey, laser tag, or escape rooms."
+"Indoor Physical Games"
+
+"Suggest abstract strategy board games like Chess, Go, or Checkers."
+"Abstract Strategy Board Games"
+
+"Suggest area control or territory building board games like Risk, Catan, or Scythe."
+"Area Control Board Games"
+
+"Suggest resource management board games like Agricola, Puerto Rico, or Wingspan."
+"Resource Management Board Games"
+
+"Suggest board games suitable for parties or social gatherings."
+"Party/Social Board Games"
+
+"Suggest fun family board games or traditional games like Monopoly, Jenga, or Clue."
+"Family/Traditional Board Games"
+
+"Suggest popular modern 'Euro-style' board games like Ticket to Ride, Carcassonne, or Pandemic."
+"Euro-Style Board Games"
+
+"Suggest popular modern 'American-style' board games like Betrayal at House on the Hill or Cosmic Encounter."
+"American-Style Board Games"
+
+"Suggest board games with legacy or campaign elements like Pandemic Legacy or Gloomhaven."
+"Legacy/Campaign Board Games"
+
+"Explain the rules of traditional card games like Bridge, Hearts, Spades, or Rummy."
+"Traditional Card Game Rules"
+
+"Suggest popular collectible card games (CCGs) like Magic: The Gathering or Pokémon TCG."
+"Collectible Card Games (CCGs)"
+
+"Suggest popular living or expandable card games (LCGs/ECGs) like Arkham Horror LCG or Marvel Champions."
+"Living Card Games (LCGs)"
+
+"Suggest modern party card games like Cards Against Humanity, Exploding Kittens, or Codenames."
+"Modern Party Card Games"
+
+"Suggest fun dice games like Yahtzee, Farkle, or King of Tokyo."
+"Fun Dice Games"
+
+"Explain different ways to play Dominoes."
+"Domino Games"
+
+"Suggest popular tile-laying games like Carcassonne, Azul, or Qwirkle."
+"Tile-Laying Games"
+
+"Suggest popular tabletop role-playing games (TTRPGs) like Dungeons & Dragons, Pathfinder, or Call of Cthulhu."
+"Tabletop RPG Suggestions"
+
+"Suggest story-focused RPGs or story games like Fiasco or The Quiet Year."
+"Story Games (RPGs)"
+
+"Explain Live Action Role-Playing (LARP) and suggest ways to get involved."
+"Learn about LARP"
+
+"Suggest popular miniature wargames like Warhammer 40K, Age of Sigmar, or X-Wing."
+"Miniature Wargames"
+
+"Suggest resources for learning miniature painting or terrain building."
+"Learn Miniature Painting/Terrain Building"
+
+"Recommend video games for PlayStation, Xbox, or Nintendo Switch."
+"Console Video Game Recommendations"
+
+"Recommend popular PC games available on Steam or other platforms."
+"PC Game Recommendations"
+
+"Recommend fun mobile games for iOS or Android."
+"Mobile Game Recommendations"
+
+"Suggest popular VR games or experiences."
+"VR Game/Experience Recommendations"
+
+"Recommend action-adventure or platformer video games."
+"Action-Adventure/Platformer Games"
+
+"Recommend role-playing video games (Western RPGs, JRPGs, Action RPGs, MMORPGs)."
+"RPG Video Game Recommendations"
+
+"Recommend strategy video games (RTS, Turn-Based, 4X, Tower Defense)."
+"Strategy Video Game Recommendations"
+
+"Recommend simulation video games (Life Sims, City Builders, Vehicle Sims)."
+"Simulation Video Game Recommendations"
+
+"Recommend sports or racing video games."
+"Sports/Racing Video Game Recommendations"
+
+"Recommend puzzle or casual video games."
+"Puzzle/Casual Video Game Recommendations"
+
+"Explain eSports and suggest popular competitive games or tournaments to watch."
+"Learn about eSports"
+
+"Suggest ways to find online gaming communities, clans, or forums."
+"Find Gaming Communities"
+
+"Suggest resources for learning game development or level design."
+"Learn Game Development"
+
+"Recommend gaming content creators (Let's Plays, Reviews, Podcasts) to follow."
+"Gaming Content Creator Recommendations"
+
+"Recommend movies currently in theaters or available for streaming."
+"Movie Recommendations"
+
+"Suggest classic films or directors worth exploring based on genre interest."
+"Classic Film/Director Recommendations"
+
+"Suggest resources for learning about film history or film theory."
+"Learn Film History/Theory"
+
+"Suggest ways to get started with amateur filmmaking or video editing."
+"Start Amateur Filmmaking"
+
+"Recommend popular TV shows or series on streaming platforms like Netflix, Hulu, HBO Max, etc."
+"TV Show/Streaming Recommendations"
+
+"Suggest ways to find TV fan communities or discussions online."
+"Find TV Fan Communities"
+
+"Suggest resources for starting a web series, YouTube channel, or podcast."
+"Start Content Creation (Web Series, Podcast)"
+
+"Recommend new music releases or artists based on genre preference."
+"New Music Recommendations"
+
+"Suggest ways to discover new music (blogs, playlists, recommendations)."
+"Discover New Music"
+
+"Suggest resources for learning songwriting, music production, or DJing."
+"Learn Music Creation (Songwriting, Production)"
+
+"Recommend fiction or non-fiction books based on genre interest."
+"Book Genre Recommendations"
+
+"Suggest ways to find book clubs or reading communities."
+"Find Book Clubs/Reading Communities"
+
+"Suggest resources or prompts for creative writing, journaling, or blogging."
+"Creative Writing/Journaling Prompts"
+
+"Suggest ways to find local theater performances, musicals, or improv shows."
+"Find Local Theater/Performances"
+
+"Suggest ways to find stand-up comedy shows or comedy clubs."
+"Find Comedy Shows/Clubs"
+
+"Suggest local art galleries, museums, or art exhibitions to visit."
+"Find Local Art Galleries/Museums"
+
+"Suggest resources for learning digital art, animation, or web comics."
+"Learn Digital Art/Animation"
+
+"Suggest resources or tutorials for learning photography or photo editing."
+"Learn Photography/Photo Editing"
+
+"Suggest resources for learning drawing, sketching, or painting (watercolor, oil, acrylic)."
+"Learn Drawing/Painting"
+
+"Suggest resources for learning fiber arts like knitting, crochet, weaving, or embroidery."
+"Learn Fiber Arts (Knitting, Crochet)"
+
+"Suggest resources for learning sewing or quilting."
+"Learn Sewing/Quilting"
+
+"Suggest paper craft ideas like origami, card making, or scrapbooking."
+"Paper Craft Ideas"
+
+"Suggest resources for learning sculpture, pottery, woodcarving, or jewelry making."
+"Learn Sculpture/Pottery/Woodcarving"
+
+"Suggest DIY woodworking or furniture making projects for beginners."
+"Beginner Woodworking Projects"
+
+"Suggest DIY home improvement, decoration, or organization projects."
+"DIY Home Improvement Ideas"
+
+"Suggest beginner-friendly electronics projects using Arduino or Raspberry Pi."
+"Beginner Electronics Projects (Arduino/Pi)"
+
+"Suggest baking recipes or resources for learning specialized cuisines."
+"Baking Recipes/Learn Cuisines"
+
+"Suggest resources for learning about vegetable gardening, flower gardening, or indoor plants."
+"Gardening/Plant Care Resources"
+
+"Suggest resources or communities for learning creative writing (fiction, poetry, screenwriting)."
+"Creative Writing Resources/Communities"
+
+"Suggest ways to start learning a musical instrument or singing."
+"Start Learning Instrument/Singing"
+
+"Suggest ways to get involved in local acting, dance, or spoken word communities."
+"Join Performing Arts Communities"
+
+"Suggest resources for learning traditional or historical crafts."
+"Learn Traditional/Historical Crafts"
+
+"Suggest types of items to collect (antiques, memorabilia, coins, stamps, books, toys)."
+"Collecting Ideas"
+
+"Suggest ways to organize, display, or manage a collection."
+"Collection Management Tips"
+
+"Suggest ways to find collector clubs or communities online or locally."
+"Find Collector Communities"
+
+"Suggest ideas for social gatherings like dinner parties, game nights, or potlucks."
+"Social Gathering Ideas"
+
+"Suggest ways to find community sports leagues, fitness classes, or hiking/running clubs."
+"Find Community Recreation Groups"
+
+"Suggest group entertainment activities like karaoke, trivia nights, or escape rooms."
+"Group Entertainment Activities"
+
+"Suggest ways to find group learning opportunities like book clubs, language exchanges, or study groups."
+"Find Group Learning Opportunities"
+
+"Suggest local cultural events, historical sites, or museums to explore with a group."
+"Group Cultural Exploration Ideas"
+
+"Suggest craft workshops, cooking classes, or art lessons available locally or online."
+"Find Workshops/Classes"
+
+"Suggest local volunteer opportunities based on interests (environment, animals, social justice)."
+"Find Local Volunteer Opportunities"
+
+"Suggest ways to get involved in community improvement projects (cleanups, gardens, public art)."
+"Community Improvement Projects"
+
+"Suggest resources for mindful practices like guided meditation or breathwork."
+"Mindful Meditation/Breathwork Resources"
+
+"Suggest ways to incorporate spiritual recreation like prayer, sacred text study, or ceremony."
+"Spiritual Recreation Ideas"
+
+"Suggest ways to connect with nature mindfully (forest bathing, nature observation, stargazing)."
+"Mindful Nature Connection"
+
+"Suggest contemplative creative activities like mindful art, writing, or labyrinth walking."
+"Contemplative Creative Activities"
+
+"Suggest mind-body practices like Yoga, Tai Chi, or Qigong classes."
+"Mind-Body Practice Classes"
+
+"Suggest sensory experiences like sound baths, aromatherapy, or tea ceremonies."
+"Sensory Recreation Experiences"
+
+"Suggest 'slow living' activities like slow crafts, mindful cooking, or intentional reading."
+"Slow Living Activities"
+
+"Suggest restorative practices like spa treatments, flotation tanks, or planning a mindful retreat."
+"Restorative Practices/Retreats"
+
+"Suggest activities known to induce a state of 'flow' like flow arts, immersive creation, or deep play."
+"Find Flow State Activities"
+
+"Suggest ways to incorporate more unstructured play and spontaneity into recreation."
+"Incorporate Playfulness/Spontaneity"
+
+"Suggest ways to balance different types of recreation (active/passive, solo/social, indoor/outdoor)."
+"Balance Recreational Activities"
+
+"Suggest strategies for mindful consumption of media and entertainment."
+"Mindful Media Consumption"
+
+"Suggest ways to integrate recreation into daily life and create a sustainable work-play balance."
+"Integrate Recreation/Work-Play Balance"

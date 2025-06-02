@@ -1,0 +1,134 @@
+"Suggest resources for learning interior design fundamentals (space planning, color theory, design principles)."
+"Learn Interior Design Fundamentals"
+
+"Provide design ideas or inspiration for specific rooms (living room, bedroom, kitchen, home office)."
+"Room-Specific Design Ideas"
+
+"Suggest tips for furniture arrangement, layout optimization, and creating focal points."
+"Furniture Arrangement Tips"
+
+"Provide ideas for decor styling (accessories, art, textiles, seasonal decor, tablescaping)."
+"Decor Styling Ideas"
+
+"Explain different types of lighting (ambient, task, accent) and suggest fixture ideas."
+"Lighting Design Tips"
+
+"Suggest resources for learning about different materials and finishes (flooring, wall treatments, countertops)."
+"Learn Materials & Finishes"
+
+"Explain specialty design concepts like Biophilic Design, Universal Design, Feng Shui, or Minimalism/Maximalism."
+"Specialty Design Concepts"
+
+"Suggest ideas for starting a vegetable garden, including crop selection and planning."
+"Start a Vegetable Garden"
+
+"Suggest ideas for planning and planting a flower garden (annuals, perennials, bulbs)."
+"Plan a Flower Garden"
+
+"Provide ideas for specialty gardens (herb, berry, native plant, pollinator, rock, water gardens)."
+"Specialty Garden Ideas"
+
+"Suggest tips and ideas for container gardening (patios, window boxes, hanging baskets, vertical gardens)."
+"Container Gardening Tips"
+
+"Explain different gardening techniques like organic, square foot, raised bed, no-dig, or hydroponics."
+"Explore Gardening Techniques"
+
+"Suggest resources for learning garden planning, landscape design, or hardscaping/softscaping."
+"Learn Garden/Landscape Design"
+
+"Provide tips for starting seeds indoors or direct sowing, and saving seeds."
+"Seed Starting & Saving Tips"
+
+"Explain plant propagation methods like cuttings, division, layering, or grafting."
+"Learn Plant Propagation"
+
+"Suggest ways to improve soil health (testing, composting, mulching, cover crops)."
+"Improve Soil Health"
+
+"Explain different irrigation systems (drip, sprinkler) and water-saving techniques."
+"Garden Irrigation & Water Saving"
+
+"Provide guidance on pruning techniques for trees, shrubs, and vines."
+"Learn Pruning Techniques"
+
+"Suggest organic pest control methods and ways to manage weeds and plant diseases."
+"Organic Pest/Weed Management"
+
+"Provide tips on harvesting techniques and preserving garden produce."
+"Harvesting & Preservation Tips"
+
+"Suggest resources for plant identification or selecting climate-appropriate/native plants."
+"Plant Identification/Selection"
+
+"Suggest simple DIY home improvement projects for beginners or weekend warriors."
+"Beginner/Weekend DIY Projects"
+
+"Suggest resources for learning basic carpentry or woodworking skills."
+"Learn Carpentry/Woodworking"
+
+"Provide tips and techniques for interior or exterior painting, or furniture refinishing."
+"Painting Techniques & Tips"
+
+"Suggest resources for learning how to install tile (backsplash, floor, shower)."
+"Learn Tile Installation"
+
+"Suggest resources for learning basic plumbing skills (fixture replacement, pipe repair)."
+"Learn Basic Plumbing"
+
+"Suggest resources for learning basic electrical skills safely (outlet/light fixture installation)."
+"Learn Basic Electrical Skills"
+
+"Provide guidance on basic home repair skills (wall patching, door/window adjustments, floor repair)."
+"Basic Home Repair Skills"
+
+"Suggest ideas and resources for major home renovation projects (kitchen, bathroom, basement)."
+"Major Renovation Ideas/Resources"
+
+"Provide ideas for creating outdoor living spaces (decks, patios, outdoor kitchens, fire pits)."
+"Outdoor Living Space Ideas"
+
+"Suggest resources for learning how to use power tools and hand tools safely and effectively."
+"Learn Tool Skills"
+
+"Provide tips for budgeting and planning home improvement projects."
+"Home Improvement Budgeting/Planning"
+
+"Suggest ways to improve home energy efficiency (audits, insulation, windows, appliances)."
+"Improve Home Energy Efficiency"
+
+"Explain renewable energy options for homes (solar, wind, geothermal)."
+"Home Renewable Energy Options"
+
+"Suggest resources for learning different composting methods (hot, cold, bokashi, worm bins)."
+"Learn Composting Methods"
+
+"Provide tips and strategies for adopting a zero-waste or plastic-free lifestyle."
+"Zero-Waste/Plastic-Free Living Tips"
+
+"Suggest ways to set up effective home recycling systems and handle hard-to-recycle items."
+"Home Recycling Systems"
+
+"Suggest eco-friendly or non-toxic products for cleaning, home finishes, or textiles."
+"Eco-Friendly/Non-Toxic Products"
+
+"Explain principles of natural building methods (straw bale, cob, earthbag)."
+"Learn Natural Building Methods"
+
+"Suggest creative upcycling projects for furniture or repurposing materials."
+"Upcycling Project Ideas"
+
+"Explain methods for rainwater harvesting (rain barrels, cisterns)."
+"Learn Rainwater Harvesting"
+
+"Suggest ideas for drought-tolerant landscaping (xeriscaping)."
+"Drought-Tolerant Landscaping Ideas"
+
+"Explain greywater systems and how they can be used."
+"Learn About Greywater Systems"
+
+"Suggest ways to improve indoor air quality naturally."
+"Improve Indoor Air Quality"
+
+"Suggest ways to maximize natural lighting in the home."
+"Maximize Natural Lighting"

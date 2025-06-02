@@ -1,0 +1,1094 @@
+[
+  {
+    "id": 1,
+    "prompt": "Suggest things I can do to improve my money mindset.",
+    "displayText": "Improve Money Mindset",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 2,
+    "prompt": "Suggest things I can do to improve my financial literacy.",
+    "displayText": "Improve Financial Literacy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 3,
+    "prompt": "Suggest ways to find local or online personal finance courses or workshops.",
+    "displayText": "Find Finance Courses/Workshops",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 4,
+    "prompt": "Suggest ways I can track my income and expenses.",
+    "displayText": "Track Income & Expenses",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 5,
+    "prompt": "Suggest ways I can identify areas to reduce my spending.",
+    "displayText": "Reduce Spending",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 6,
+    "prompt": "Suggest things I can do to create a personal budget.",
+    "displayText": "Create Personal Budget",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 7,
+    "prompt": "Suggest things I can do to learn about different debt reduction strategies (like snowball, avalanche).",
+    "displayText": "Learn Debt Reduction Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 8,
+    "prompt": "Suggest ways I can check my credit report and score.",
+    "displayText": "Check Credit Report/Score",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 9,
+    "prompt": "Suggest ways I can build or improve my credit.",
+    "displayText": "Build/Improve Credit",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 10,
+    "prompt": "Suggest things I can do to calculate how much I need for an emergency fund.",
+    "displayText": "Calculate Emergency Fund",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 11,
+    "prompt": "Suggest effective ways I can automate my savings.",
+    "displayText": "Automate Savings",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 12,
+    "prompt": "Suggest ways I can start planning for retirement.",
+    "displayText": "Start Retirement Planning",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 13,
+    "prompt": "Suggest ways to find resources for planning major purchases like a house or car.",
+    "displayText": "Plan Major Purchases",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 14,
+    "prompt": "Suggest things I can do to understand the steps involved in basic estate planning (e.g., writing a will).",
+    "displayText": "Basic Estate Planning Steps",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 15,
+    "prompt": "Suggest things I can do to learn the basics of investing (stocks, bonds, etc.).",
+    "displayText": "Learn Investing Basics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 16,
+    "prompt": "Suggest ways I can find a financial advisor or coach.",
+    "displayText": "Find Financial Advisor/Coach",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 17,
+    "prompt": "Suggest ways to find resources for learning about different asset classes (stocks, real estate, crypto).",
+    "displayText": "Learn About Asset Classes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 18,
+    "prompt": "Suggest things I can do to open a brokerage or retirement account.",
+    "displayText": "Open Investment Account",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 19,
+    "prompt": "Suggest things I can do to learn about different investment strategies (passive vs. active).",
+    "displayText": "Learn Investment Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 20,
+    "prompt": "Suggest ways I can research socially responsible (ESG) investments.",
+    "displayText": "Research ESG Investments",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 21,
+    "prompt": "Suggest things I can do to learn the basic principles of microeconomics (supply/demand).",
+    "displayText": "Learn Microeconomics Basics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 22,
+    "prompt": "Suggest things I can do to learn about key macroeconomic indicators (GDP, inflation, unemployment).",
+    "displayText": "Learn Macroeconomic Indicators",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 23,
+    "prompt": "Suggest ways I can find reliable economic news and analysis.",
+    "displayText": "Find Economic News/Analysis",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 24,
+    "prompt": "Suggest ways to find resources for understanding fiscal and monetary policy.",
+    "displayText": "Understand Fiscal/Monetary Policy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 25,
+    "prompt": "Suggest ways I can learn about different economic systems (market, command, mixed).",
+    "displayText": "Learn About Economic Systems",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 26,
+    "prompt": "Suggest things I can do to learn basic political concepts like democracy, rights, and power.",
+    "displayText": "Learn Political Concepts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 27,
+    "prompt": "Suggest things I can do to understand how the government structure works in my country/region.",
+    "displayText": "Understand Government Structure",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 28,
+    "prompt": "Suggest ways I can find out who my elected representatives are.",
+    "displayText": "Find Elected Representatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 29,
+    "prompt": "Suggest ways I can learn about different political parties and their platforms.",
+    "displayText": "Learn About Political Parties",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 30,
+    "prompt": "Suggest ways I can get involved in local politics or community issues.",
+    "displayText": "Get Involved Locally",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 31,
+    "prompt": "Suggest things I can do to register to vote.",
+    "displayText": "Register to Vote",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 32,
+    "prompt": "Suggest ways to find information about upcoming elections in my area.",
+    "displayText": "Find Upcoming Elections Info",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 33,
+    "prompt": "Suggest ways I can track current legislation or policy proposals.",
+    "displayText": "Track Legislation/Policy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 34,
+    "prompt": "Suggest ways to find resources for understanding international relations or global issues.",
+    "displayText": "Understand International Relations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 35,
+    "prompt": "Suggest ways I can improve my ability to engage in civil political discussions.",
+    "displayText": "Improve Civil Discourse Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 36,
+    "prompt": "Suggest ways to find non-partisan organizations focused on civic education or engagement.",
+    "displayText": "Find Civic Education Groups",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 37,
+    "prompt": "Suggest ways I can practice evaluating political news sources for bias.",
+    "displayText": "Evaluate News Sources",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 38,
+    "prompt": "Suggest things I can do to clarify my financial values and how they relate to my goals.",
+    "displayText": "Clarify Financial Values",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 39,
+    "prompt": "Suggest ways to learn basic financial terminology I should know.",
+    "displayText": "Explain Financial Terms",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 40,
+    "prompt": "Suggest things I can do to understand how the banking system works.",
+    "displayText": "Understand Banking System",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 41,
+    "prompt": "Suggest ideas for diversifying my income streams or starting a side hustle.",
+    "displayText": "Explore Income Diversification/Side Hustles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 42,
+    "prompt": "Suggest ways to understand the difference between active and passive income.",
+    "displayText": "Active vs. Passive Income",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 43,
+    "prompt": "Suggest ways to learn about common tax deductions and credits I might be eligible for.",
+    "displayText": "Learn Tax Deductions/Credits",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 44,
+    "prompt": "Suggest ways to find trustworthy resources or help for tax filing.",
+    "displayText": "Find Tax Filing Help",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 45,
+    "prompt": "Suggest tips and strategies for negotiating my salary.",
+    "displayText": "Salary Negotiation Tips",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 46,
+    "prompt": "Suggest ways I can analyze and potentially optimize my employee compensation package.",
+    "displayText": "Optimize Compensation Package",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 47,
+    "prompt": "Suggest ways to learn about different budgeting methods like zero-based, envelope system, etc.",
+    "displayText": "Learn Budgeting Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 48,
+    "prompt": "Suggest things I can do to analyze my spending patterns and find areas for improvement.",
+    "displayText": "Analyze Spending Patterns",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 49,
+    "prompt": "Suggest ways I can better differentiate between needs and wants in my spending.",
+    "displayText": "Needs vs. Wants Analysis",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 50,
+    "prompt": "Suggest ways I can reduce fixed expenses like housing or insurance.",
+    "displayText": "Reduce Fixed Expenses",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 51,
+    "prompt": "Suggest ways I can practice mindful consumption.",
+    "displayText": "Practice Mindful Consumption",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 52,
+    "prompt": "Suggest ways to understand different types of debt (e.g., credit card, student loan, mortgage).",
+    "displayText": "Understand Debt Types",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 53,
+    "prompt": "Suggest ways to understand how interest works and impacts the total cost of debt.",
+    "displayText": "Understand Debt Interest",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 54,
+    "prompt": "Suggest ways to learn about debt consolidation and refinancing options.",
+    "displayText": "Debt Consolidation/Refinancing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 55,
+    "prompt": "Suggest ways to learn common strategies for credit repair.",
+    "displayText": "Learn Credit Repair Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 56,
+    "prompt": "Suggest ways I can protect myself from identity theft related to my credit.",
+    "displayText": "Credit Protection/ID Theft",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 57,
+    "prompt": "Suggest ideas for the best place to keep my emergency fund.",
+    "displayText": "Emergency Fund Location",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 58,
+    "prompt": "Suggest strategies for goal-based saving.",
+    "displayText": "Goal-Based Savings Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 59,
+    "prompt": "Suggest ways to explore different savings vehicles like HYSAs, CDs, or money market accounts.",
+    "displayText": "Explore Savings Vehicles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 60,
+    "prompt": "Suggest things I can do to assess my insurance needs (life, health, disability, property).",
+    "displayText": "Assess Insurance Needs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 61,
+    "prompt": "Suggest ways to learn basic financial risk management strategies for individuals.",
+    "displayText": "Financial Risk Management",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 62,
+    "prompt": "Suggest ways to find resources for funding education (loans, grants, scholarships).",
+    "displayText": "Find Education Funding Resources",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 63,
+    "prompt": "Suggest ways I should manage my finances during a career transition.",
+    "displayText": "Finances During Career Transition",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 64,
+    "prompt": "Suggest tips for merging finances with a partner or spouse.",
+    "displayText": "Merging Finances with Partner",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 65,
+    "prompt": "Suggest ways to learn about different types of trusts (revocable, irrevocable) and their uses.",
+    "displayText": "Learn About Trusts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 66,
+    "prompt": "Suggest ways to understand advance healthcare directives and why they are important.",
+    "displayText": "Understand Advance Directives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 67,
+    "prompt": "Suggest ways to learn the principles of the FI/RE (Financial Independence, Retire Early) movement.",
+    "displayText": "Learn About FI/RE Movement",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 68,
+    "prompt": "Suggest ways I can calculate my Financial Independence (FI) number.",
+    "displayText": "Calculate FI Number",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 69,
+    "prompt": "Suggest ways I can research and potentially optimize my Social Security benefits.",
+    "displayText": "Optimize Social Security",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 70,
+    "prompt": "Suggest ways to explore different potential retirement income sources beyond savings.",
+    "displayText": "Explore Retirement Income Sources",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 71,
+    "prompt": "Suggest ways I can better align my financial decisions with my life values.",
+    "displayText": "Align Finances & Values",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 72,
+    "prompt": "Suggest ways to explore the concept of 'enough' in personal finance and life design.",
+    "displayText": "Explore the Concept of 'Enough'",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 73,
+    "prompt": "Suggest ways to understand the importance of diversification and asset allocation in investing.",
+    "displayText": "Diversification & Asset Allocation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 74,
+    "prompt": "Suggest ways I can avoid common emotional investing mistakes.",
+    "displayText": "Avoid Emotional Investing Mistakes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 75,
+    "prompt": "Suggest ways to learn about common behavioral biases that affect investors.",
+    "displayText": "Behavioral Biases in Investing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 76,
+    "prompt": "Suggest ways to find resources for learning common investment terminology.",
+    "displayText": "Learn Investment Terminology",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 77,
+    "prompt": "Suggest effective methods for researching potential investments.",
+    "displayText": "Investment Research Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 78,
+    "prompt": "Suggest ways to learn about different stock investment approaches (value, growth, dividend).",
+    "displayText": "Stock Investment Approaches",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 79,
+    "prompt": "Suggest ways to learn common stock analysis methods (fundamental, technical).",
+    "displayText": "Stock Analysis Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 80,
+    "prompt": "Suggest ways to understand how bonds work and the different types of bonds.",
+    "displayText": "Understand Bonds",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 81,
+    "prompt": "Suggest different bond investment strategies.",
+    "displayText": "Bond Investment Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 82,
+    "prompt": "Suggest ways to learn different methods to invest in real estate (direct ownership, REITs).",
+    "displayText": "Real Estate Investment Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 83,
+    "prompt": "Suggest ways to analyze a potential real estate investment property.",
+    "displayText": "Analyze Real Estate Investments",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 84,
+    "prompt": "Suggest ways to learn about alternative investments like commodities or cryptocurrencies.",
+    "displayText": "Alternative Investments Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 85,
+    "prompt": "Suggest ways to understand NFTs and DeFi (Decentralized Finance).",
+    "displayText": "NFTs and DeFi Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 86,
+    "prompt": "Suggest ways to compare different retirement accounts (401k, IRA, Roth IRA, SEP IRA).",
+    "displayText": "Compare Retirement Accounts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 87,
+    "prompt": "Suggest ways to learn about education savings accounts like 529 plans and Coverdell ESAs.",
+    "displayText": "Education Savings Accounts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 88,
+    "prompt": "Suggest ways I can use a Health Savings Account (HSA) for investment purposes.",
+    "displayText": "HSA Investing Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 89,
+    "prompt": "Suggest ways to learn about index fund investing and its benefits/drawbacks.",
+    "displayText": "Index Fund Investing Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 90,
+    "prompt": "Suggest ways to understand what factor-based investing is.",
+    "displayText": "Factor-Based Investing Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 91,
+    "prompt": "Suggest ways to learn investment risk management techniques like stop-loss orders or hedging.",
+    "displayText": "Investment Risk Management Techniques",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 92,
+    "prompt": "Suggest income-focused investment strategies.",
+    "displayText": "Income-Focused Investing Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 93,
+    "prompt": "Suggest ways I can align my investment strategy with my current life stage.",
+    "displayText": "Life Stage Investing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 94,
+    "prompt": "Suggest ways to learn the different components of ESG (Environmental, Social, Governance) investing.",
+    "displayText": "ESG Components Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 95,
+    "prompt": "Suggest ways to understand what impact investing is and how it is measured.",
+    "displayText": "Impact Investing Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 96,
+    "prompt": "Suggest ways I can find sustainable investment opportunities (e.g., renewable energy).",
+    "displayText": "Find Sustainable Investments",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 97,
+    "prompt": "Suggest ways to understand how ethical investing differs from ESG or sustainable investing.",
+    "displayText": "Ethical vs. ESG Investing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 98,
+    "prompt": "Suggest ways to learn about portfolio rebalancing strategies and why they are used.",
+    "displayText": "Portfolio Rebalancing Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 99,
+    "prompt": "Suggest ways to understand what tax-loss harvesting is and how it works.",
+    "displayText": "Tax-Loss Harvesting Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 100,
+    "prompt": "Suggest ways to learn about different stock market order types (market, limit, stop).",
+    "displayText": "Stock Market Order Types",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 101,
+    "prompt": "Suggest ways to understand why creating an Investment Policy Statement (IPS) is important.",
+    "displayText": "Importance of Investment Policy Statement",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 102,
+    "prompt": "Suggest ways to understand the fiduciary standard and why it matters when choosing a financial advisor.",
+    "displayText": "Fiduciary Standard Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 103,
+    "prompt": "Suggest ways to understand the economic concept of opportunity cost with examples.",
+    "displayText": "Explain Opportunity Cost",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 104,
+    "prompt": "Suggest ways to understand the core ideas of different schools of economic thought (Keynesian, Austrian, etc.).",
+    "displayText": "Schools of Economic Thought",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 105,
+    "prompt": "Suggest ways to understand the concept of elasticity in microeconomics.",
+    "displayText": "Economic Elasticity Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 106,
+    "prompt": "Suggest ways to understand the concept of economies of scale for producers.",
+    "displayText": "Economies of Scale Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 107,
+    "prompt": "Suggest ways to compare different market structures (monopoly, oligopoly, perfect competition).",
+    "displayText": "Compare Market Structures",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 108,
+    "prompt": "Suggest ways to understand how wages are determined in labor markets.",
+    "displayText": "Labor Markets & Wages",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 109,
+    "prompt": "Suggest ways to learn about common market failures like externalities and public goods.",
+    "displayText": "Market Failures Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 110,
+    "prompt": "Suggest ways to learn what topics environmental economics covers.",
+    "displayText": "Environmental Economics Overview",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 111,
+    "prompt": "Suggest ways to learn the different ways Gross Domestic Product (GDP) is measured.",
+    "displayText": "GDP Measurement Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 112,
+    "prompt": "Suggest ways to learn the main factors that drive economic growth.",
+    "displayText": "Drivers of Economic Growth",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 113,
+    "prompt": "Suggest ways to learn different types of unemployment (frictional, structural, cyclical).",
+    "displayText": "Types of Unemployment",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 114,
+    "prompt": "Suggest ways to learn the primary causes of inflation.",
+    "displayText": "Causes of Inflation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 115,
+    "prompt": "Suggest ways to understand the concept of fiscal multipliers.",
+    "displayText": "Fiscal Multipliers Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 116,
+    "prompt": "Suggest ways to understand how a central bank conducts monetary policy.",
+    "displayText": "Central Bank Operations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 117,
+    "prompt": "Suggest ways to understand what Quantitative Easing (QE) is.",
+    "displayText": "Quantitative Easing (QE) Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 118,
+    "prompt": "Suggest ways to learn the theory of comparative advantage in international trade.",
+    "displayText": "Comparative Advantage Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 119,
+    "prompt": "Suggest ways to understand how foreign exchange rates are determined.",
+    "displayText": "Exchange Rate Determination",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 120,
+    "prompt": "Suggest ways to understand what econometrics is and what it is used for.",
+    "displayText": "Econometrics Overview",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 121,
+    "prompt": "Suggest ways to understand the use of game theory in economic analysis.",
+    "displayText": "Game Theory in Economics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 122,
+    "prompt": "Suggest ways I can find reliable sources of economic data.",
+    "displayText": "Find Economic Data Sources",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 123,
+    "prompt": "Suggest ways to learn how economic forecasts are typically made.",
+    "displayText": "Economic Forecasting Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 124,
+    "prompt": "Suggest ways to learn the key issues studied in developmental economics.",
+    "displayText": "Developmental Economics Issues",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 125,
+    "prompt": "Suggest ways to learn about Nudge Theory and its applications.",
+    "displayText": "Nudge Theory Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 126,
+    "prompt": "Suggest ways to understand what Public Choice Theory is.",
+    "displayText": "Public Choice Theory Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 127,
+    "prompt": "Suggest ways to learn what topics financial economics covers.",
+    "displayText": "Financial Economics Topics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 128,
+    "prompt": "Suggest ways to understand the role of institutions (like property rights) in economic performance.",
+    "displayText": "Role of Economic Institutions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 129,
+    "prompt": "Suggest ways to understand what political economy is.",
+    "displayText": "Political Economy Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 130,
+    "prompt": "Suggest ways to understand the core ideas of major political philosophies (liberalism, conservatism, socialism).",
+    "displayText": "Major Political Philosophies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 131,
+    "prompt": "Suggest ways to compare different types of democracy (direct, representative, liberal).",
+    "displayText": "Types of Democracy Compared",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 132,
+    "prompt": "Suggest ways to learn the common characteristics of authoritarian regimes.",
+    "displayText": "Authoritarian Regimes Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 133,
+    "prompt": "Suggest ways to understand the purpose and function of a constitution.",
+    "displayText": "Purpose of a Constitution",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 134,
+    "prompt": "Suggest ways to compare presidential and parliamentary systems of government.",
+    "displayText": "Presidential vs. Parliamentary Systems",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 135,
+    "prompt": "Suggest ways to learn about different electoral systems (proportional representation, first-past-the-post).",
+    "displayText": "Electoral Systems Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 136,
+    "prompt": "Suggest ways to understand the concept of federalism in government.",
+    "displayText": "Federalism Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 137,
+    "prompt": "Suggest ways to understand how local government typically functions.",
+    "displayText": "Local Government Basics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 138,
+    "prompt": "Suggest ways to understand the role of the civil service or public bureaucracy.",
+    "displayText": "Role of Civil Service",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 139,
+    "prompt": "Suggest ways everyday citizens can increase their political participation.",
+    "displayText": "Increase Political Participation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 140,
+    "prompt": "Suggest ways to understand how interest groups and lobbyists influence government policy.",
+    "displayText": "Interest Group Influence",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 141,
+    "prompt": "Suggest ways to understand how the media influences politics and public opinion.",
+    "displayText": "Media Influence on Politics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 142,
+    "prompt": "Suggest ways I can analyze political messaging and identify persuasive techniques.",
+    "displayText": "Analyze Political Messaging",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 143,
+    "prompt": "Suggest ways to learn the basics of election campaign strategy.",
+    "displayText": "Campaign Strategy Basics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 144,
+    "prompt": "Suggest ways to understand the typical stages of the public policy cycle.",
+    "displayText": "Policy Cycle Stages",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 145,
+    "prompt": "Suggest ways to learn the key areas typically covered by social policy.",
+    "displayText": "Social Policy Areas Overview",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 146,
+    "prompt": "Suggest ways to learn the main goals and tools of foreign policy.",
+    "displayText": "Foreign Policy Goals & Tools",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 147,
+    "prompt": "Suggest ways to understand how cost-benefit analysis is used in policy making.",
+    "displayText": "Cost-Benefit Analysis in Policy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 148,
+    "prompt": "Suggest ways to compare the main ideas of realism and liberalism in International Relations theory.",
+    "displayText": "Realism vs. Liberalism (IR Theory)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 149,
+    "prompt": "Suggest ways to understand the role of international organizations like the UN or WTO.",
+    "displayText": "Role of International Organizations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 150,
+    "prompt": "Suggest ways to learn key concepts in international political economy (IPE).",
+    "displayText": "IPE Concepts Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 151,
+    "prompt": "Suggest ways to compare traditional security concepts with human security.",
+    "displayText": "Traditional vs. Human Security",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 152,
+    "prompt": "Suggest ways to understand the concept of regional integration, using an example like the EU.",
+    "displayText": "Regional Integration Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 153,
+    "prompt": "Suggest ways I can critically analyze political arguments.",
+    "displayText": "Analyze Political Arguments Critically",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 154,
+    "prompt": "Suggest ways to find resources for improving media literacy skills.",
+    "displayText": "Improve Media Literacy Resources",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 155,
+    "prompt": "Suggest ways to learn different methods of political advocacy citizens can use.",
+    "displayText": "Political Advocacy Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 156,
+    "prompt": "Suggest ways to discuss key ethical issues and dilemmas in politics.",
+    "displayText": "Political Ethics Issues",
+    "isTemplate": false,
+    "type": "do"
+  }
+]

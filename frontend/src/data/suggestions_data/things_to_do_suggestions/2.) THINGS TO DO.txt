@@ -1,0 +1,1580 @@
+"Suggest things I can do to help with food distribution."
+"Food Distribution"
+
+"Suggest ways I can help with meal preparation for those in need."
+"Meal Preparation"
+
+"Suggest ways I can organize or participate in food drives."
+"Food Drives Organization"
+
+"Suggest ways I can find local food recovery programs to volunteer with."
+"Food Recovery Programs"
+
+"Suggest ways to find out if mobile food pantries need volunteers."
+"Mobile Food Pantries"
+
+"Suggest ways I can find volunteer opportunities at homeless shelters."
+"Homeless Shelters"
+
+"Suggest ways I can get involved with street outreach programs."
+"Street Outreach"
+
+"Suggest volunteer opportunities supporting transitional housing."
+"Transitional Housing Support"
+
+"Suggest ways I can volunteer to serve meals to the homeless."
+"Meal Services (Homeless)"
+
+"Suggest opportunities for clothing distribution volunteering."
+"Clothing Distribution"
+
+"Suggest ways I can volunteer to assemble hygiene kits."
+"Hygiene Kit Assembly"
+
+"Suggest ways to find out which senior centers need assistance."
+"Senior Center Assistance"
+
+"Suggest ways I can volunteer for meal delivery programs for seniors."
+"Meal Delivery Programs (Seniors)"
+
+"Suggest opportunities for companionship visits with the elderly."
+"Companionship Visits"
+
+"Suggest ways I can volunteer to provide transportation assistance for seniors."
+"Transportation Assistance (Seniors)"
+
+"Suggest ways I can volunteer to provide technology support for seniors."
+"Technology Support for Seniors"
+
+"Suggest volunteer opportunities related to accessibility assistance."
+"Accessibility Assistance"
+
+"Suggest ways I can volunteer with the Special Olympics."
+"Special Olympics Support"
+
+"Suggest ways I can find adaptive recreation programs needing volunteers."
+"Adaptive Recreation Programs"
+
+"Suggest volunteer opportunities involving assistive technology help."
+"Assistive Technology Help"
+
+"Suggest ways I can volunteer with local after-school programs."
+"After-School Programs"
+
+"Suggest ways to find out which youth centers need volunteers."
+"Youth Center Volunteering"
+
+"Suggest volunteer opportunities supporting youth recreation programs."
+"Recreation Program Support (Youth)"
+
+"Suggest ways I can become a teen mentor."
+"Teen Mentorship"
+
+"Suggest ways to find out which summer camps are looking for volunteers."
+"Summer Camp Volunteering"
+
+"Suggest ways I can join local emergency response teams."
+"Emergency Response Teams"
+
+"Suggest volunteer opportunities for evacuation assistance during disasters."
+"Evacuation Assistance"
+
+"Suggest ways I can volunteer at emergency shelters."
+"Shelter Operations"
+
+"Suggest ways I can volunteer for supply distribution during disaster relief."
+"Supply Distribution (Disaster)"
+
+"Suggest opportunities to help with rebuilding efforts after disasters."
+"Rebuilding Efforts"
+
+"Suggest ways I can volunteer for suicide prevention hotlines."
+"Suicide Prevention Lines"
+
+"Suggest volunteer opportunities available with domestic violence support hotlines."
+"Domestic Violence Support Hotlines"
+
+"Suggest ways I can volunteer for mental health crisis support lines."
+"Mental Health Crisis Support Lines"
+
+"Suggest volunteer opportunities with substance abuse helplines."
+"Substance Abuse Helplines"
+
+"Suggest ways I can volunteer to help with refugee resettlement."
+"Resettlement Assistance"
+
+"Suggest volunteer opportunities providing language support to refugees/immigrants."
+"Language Support (Refugee/Immigrant)"
+
+"Suggest ways I can volunteer helping with cultural orientation for newcomers."
+"Cultural Orientation"
+
+"Suggest ways I can volunteer connecting refugees/immigrants with resources."
+"Resource Connection (Refugee/Immigrant)"
+
+"Suggest ways I can find hospital volunteering opportunities."
+"Hospital Volunteering"
+
+"Suggest ways I can volunteer supporting blood drives."
+"Blood Drive Support"
+
+"Suggest ways I can find information on medical mission trips needing volunteers."
+"Medical Mission Trips"
+
+"Suggest volunteer opportunities available at vaccination clinics."
+"Vaccination Clinics"
+
+"Suggest ways I can volunteer at health screening events."
+"Health Screening Events"
+
+"Suggest ways I can find academic subject tutoring volunteer roles."
+"Academic Subject Tutoring"
+
+"Suggest volunteer opportunities available with literacy programs."
+"Literacy Programs"
+
+"Suggest ways I can volunteer teaching ESL."
+"ESL Instruction"
+
+"Suggest volunteer roles helping students with college preparation."
+"College Preparation"
+
+"Suggest opportunities for career mentoring volunteers."
+"Career Mentoring"
+
+"Suggest ways I can volunteer designing curriculum for educational programs."
+"Curriculum Design"
+
+"Suggest ways I can volunteer with STEM education initiatives."
+"STEM Education Initiatives"
+
+"Suggest volunteer opportunities supporting arts education programs."
+"Arts Education Programs"
+
+"Suggest ways I can volunteer to lead financial literacy workshops."
+"Financial Literacy Workshops"
+
+"Suggest volunteer opportunities providing digital literacy training."
+"Digital Literacy Training"
+
+"Suggest ways I can volunteer with library reading programs."
+"Library Reading Programs"
+
+"Suggest opportunities for research assistance volunteering at libraries."
+"Library Research Assistance"
+
+"Suggest ways I can volunteer supporting community programs at the library."
+"Library Community Programs Support"
+
+"Suggest ways I can volunteer organizing media at a library."
+"Library Media Organization"
+
+"Suggest ways I can find pro bono legal clinics needing volunteers."
+"Pro Bono Legal Clinics"
+
+"Suggest volunteer opportunities related to legal rights education."
+"Legal Rights Education"
+
+"Suggest ways I can volunteer assisting with legal document preparation."
+"Document Preparation Assistance"
+
+"Suggest ways I can volunteer providing court navigation support."
+"Court Navigation Support"
+
+"Suggest opportunities to volunteer with tax preparation assistance programs."
+"Tax Preparation Assistance"
+
+"Suggest ways I can volunteer providing financial counseling."
+"Financial Counseling"
+
+"Suggest ways I can volunteer supporting microfinance initiatives."
+"Microfinance Support"
+
+"Suggest ways I can volunteer assisting with business plan development for nonprofits/startups."
+"Business Plan Development"
+
+"Suggest opportunities for grant writing assistance volunteers."
+"Grant Writing Assistance"
+
+"Suggest ways I can volunteer at free or low-cost medical/dental clinics."
+"Medical/Dental Clinics"
+
+"Suggest volunteer opportunities available in mental health services."
+"Mental Health Services"
+
+"Suggest ways I can volunteer with public health initiatives."
+"Public Health Initiatives"
+
+"Suggest ways I can volunteer helping develop wellness programs."
+"Wellness Program Development"
+
+"Suggest ways I can volunteer providing marketing support for nonprofits."
+"Nonprofit Marketing Support"
+
+"Suggest opportunities for social media management volunteers."
+"Social Media Management (Volunteer)"
+
+"Suggest ways I can volunteer assisting nonprofits with public relations."
+"Public Relations Assistance"
+
+"Suggest volunteer roles in storytelling and content creation for nonprofits."
+"Storytelling & Content Creation"
+
+"Suggest opportunities for graphic design service volunteers."
+"Graphic Design Services (Volunteer)"
+
+"Suggest ways I can volunteer providing computer setup or repair assistance."
+"Computer Setup/Repair"
+
+"Suggest ways I can volunteer assisting with network installation."
+"Network Installation"
+
+"Suggest volunteer opportunities involving doing system security reviews."
+"System Security Review"
+
+"Suggest volunteer roles in database management for nonprofits."
+"Database Management"
+
+"Suggest volunteer opportunities in website development for nonprofits."
+"Website Development (Volunteer)"
+
+"Suggest ways I can volunteer providing software skill training."
+"Software Skill Training"
+
+"Suggest opportunities for hardware maintenance volunteers."
+"Hardware Maintenance"
+
+"Suggest ways I can volunteer leading digital tools workshops."
+"Digital Tools Workshops"
+
+"Suggest ways I can volunteer providing cybersecurity education."
+"Cybersecurity Education"
+
+"Suggest volunteer opportunities developing apps for nonprofits."
+"App Development for Nonprofits"
+
+"Suggest volunteer roles in data analysis for social impact."
+"Data Analysis for Social Impact"
+
+"Suggest ways I can volunteer designing technology solutions for nonprofits."
+"Technology Solution Design"
+
+"Suggest ways I can volunteer supporting digital transformation for nonprofits."
+"Digital Transformation Support"
+
+"Suggest ways I can find habitat restoration volunteer projects."
+"Habitat Restoration"
+
+"Suggest volunteer opportunities available in wildlife monitoring."
+"Wildlife Monitoring"
+
+"Suggest ways I can volunteer protecting endangered species."
+"Endangered Species Protection"
+
+"Suggest ways I can volunteer for invasive species removal efforts."
+"Invasive Species Removal"
+
+"Suggest opportunities to volunteer with ecological surveys."
+"Ecological Surveys"
+
+"Suggest ways I can volunteer for river or beach clean-up events."
+"River/Beach Clean-Ups"
+
+"Suggest ways I can volunteer with water quality monitoring programs."
+"Water Quality Monitoring"
+
+"Suggest volunteer opportunities in watershed restoration."
+"Watershed Restoration"
+
+"Suggest ways I can find marine conservation volunteer projects."
+"Marine Conservation"
+
+"Suggest ways I can volunteer with stormwater management initiatives."
+"Stormwater Management"
+
+"Suggest ways I can volunteer for trail maintenance."
+"Trail Maintenance"
+
+"Suggest volunteer opportunities available in park conservation."
+"Park Conservation"
+
+"Suggest ways I can volunteer for public land restoration projects."
+"Public Land Restoration"
+
+"Suggest ways I can volunteer with urban forestry programs."
+"Urban Forestry"
+
+"Suggest volunteer opportunities related to open space preservation."
+"Open Space Preservation"
+
+"Suggest ways I can volunteer helping develop a community garden."
+"Garden Development"
+
+"Suggest ways I can volunteer for planting and maintenance in community gardens."
+"Garden Planting & Maintenance"
+
+"Suggest opportunities to volunteer with harvest distribution from community gardens."
+"Garden Harvest Distribution"
+
+"Suggest ways I can volunteer providing garden education."
+"Garden Education"
+
+"Suggest ways I can volunteer with seed libraries."
+"Seed Libraries"
+
+"Suggest volunteer opportunities related to renewable energy projects."
+"Renewable Energy Projects"
+
+"Suggest ways I can volunteer with sustainable building projects."
+"Sustainable Building"
+
+"Suggest ways I can volunteer providing environmental education."
+"Environmental Education"
+
+"Suggest opportunities to volunteer with climate action initiatives."
+"Climate Action Initiatives"
+
+"Suggest ways I can participate in neighborhood clean-up events."
+"Neighborhood Clean-Ups"
+
+"Suggest ways I can volunteer for community beautification projects."
+"Beautification Projects"
+
+"Suggest ways I can get involved in public space activation."
+"Public Space Activation"
+
+"Suggest volunteer opportunities available with community art installations."
+"Community Art Installations"
+
+"Suggest ways I can volunteer for infrastructure improvement projects."
+"Infrastructure Improvement"
+
+"Suggest ways I can volunteer with new resident welcome programs."
+"New Resident Welcome Programs"
+
+"Suggest opportunities to volunteer with intergenerational programs."
+"Intergenerational Programs"
+
+"Suggest ways I can get involved with neighborhood associations."
+"Neighborhood Associations"
+
+"Suggest ways I can volunteer for cultural exchange events."
+"Cultural Exchange Events"
+
+"Suggest ways I can participate in community dialogues."
+"Community Dialogues"
+
+"Suggest ways I can volunteer supporting small businesses locally."
+"Small Business Support"
+
+"Suggest ways I can volunteer with job training programs."
+"Job Training Programs"
+
+"Suggest volunteer opportunities related to cooperative development."
+"Cooperative Development"
+
+"Suggest ways I can volunteer supporting local commerce initiatives."
+"Local Commerce Initiatives"
+
+"Suggest ways I can volunteer supporting social enterprises."
+"Social Enterprise Support"
+
+"Suggest ways I can volunteer at historic sites."
+"Historic Site Volunteering"
+
+"Suggest opportunities for cultural heritage documentation volunteering."
+"Cultural Heritage Documentation"
+
+"Suggest ways I can volunteer helping preserve traditional crafts."
+"Traditional Crafts Preservation"
+
+"Suggest ways I can volunteer with oral history collection projects."
+"Oral History Collection"
+
+"Suggest volunteer opportunities related to language preservation."
+"Language Preservation"
+
+"Suggest ways I can volunteer with a community theater group."
+"Community Theater"
+
+"Suggest ways I can volunteer with public art projects."
+"Public Art Projects"
+
+"Suggest volunteer opportunities supporting music programs."
+"Music Programs"
+
+"Suggest ways I can volunteer with local dance initiatives."
+"Dance Initiatives"
+
+"Suggest ways I can volunteer with literary arts events."
+"Literary Arts Events"
+
+"Suggest ways I can become a museum docent volunteer."
+"Museum Docents"
+
+"Suggest ways I can volunteer as a gallery assistant."
+"Gallery Assistants"
+
+"Suggest ways I can find library volunteer opportunities."
+"Library Volunteers"
+
+"Suggest ways I can volunteer supporting a cultural center."
+"Cultural Center Support"
+
+"Suggest opportunities for archive organization volunteers."
+"Archive Organization"
+
+"Suggest ways I can find virtual tutoring opportunities."
+"Virtual Tutoring"
+
+"Suggest ways I can volunteer as an online career coach."
+"Career Coaching (Online)"
+
+"Suggest opportunities for digital mentorship programs."
+"Digital Mentorship Programs"
+
+"Suggest ways I can volunteer for online ESL conversation practice."
+"Online ESL Conversation"
+
+"Suggest ways I can volunteer as a remote college advisor."
+"Remote College Advising"
+
+"Suggest ways I can volunteer providing virtual tech support."
+"Virtual Tech Support"
+
+"Suggest opportunities developing online training materials."
+"Online Training Development"
+
+"Suggest ways I can volunteer creating digital content remotely."
+"Digital Content Creation (Remote)"
+
+"Suggest ways I can volunteer managing social media accounts remotely."
+"Social Media Management (Remote)"
+
+"Suggest ways I can volunteer maintaining websites remotely."
+"Website Maintenance (Remote)"
+
+"Suggest ways I can volunteer for remote data analysis projects."
+"Data Analysis Projects (Remote)"
+
+"Suggest opportunities for remote research support."
+"Research Support (Remote)"
+
+"Suggest ways I can volunteer providing translation services online."
+"Translation Services (Online)"
+
+"Suggest ways I can volunteer doing grant research remotely."
+"Grant Research (Remote)"
+
+"Suggest ways I can volunteer performing policy analysis remotely."
+"Policy Analysis (Remote)"
+
+"Suggest ways I can volunteer for crisis text lines."
+"Crisis Text Lines"
+
+"Suggest opportunities for virtual companionship volunteering."
+"Virtual Companionship"
+
+"Suggest ways I can volunteer facilitating online support groups."
+"Online Support Groups"
+
+"Suggest ways I can find remote administrative support volunteer roles."
+"Remote Administrative Support"
+
+"Suggest ways I can volunteer for virtual fundraising efforts."
+"Virtual Fundraising"
+
+"Suggest ways I can find upcoming town hall meetings."
+"Town Halls"
+
+"Suggest ways to find out when the next council meetings are."
+"Council Meetings"
+
+"Suggest ways I can find information on upcoming public hearings."
+"Public Hearings"
+
+"Suggest ways to find out if any budget forums are scheduled."
+"Budget Forums"
+
+"Suggest ways to find out when the planning commission meetings are."
+"Planning Commission Meetings"
+
+"Suggest ways I can find the schedule for school board meetings."
+"School Board Meetings"
+
+"Suggest ways I can find information on special district meetings."
+"Special District Meetings"
+
+"Suggest ways I can help with voter registration drives."
+"Voter Registration Drives"
+
+"Suggest ways I can find local candidate forums."
+"Candidate Forums"
+
+"Suggest ways I can volunteer as a poll worker."
+"Poll Worker Volunteering"
+
+"Suggest ways I can find information on becoming an election observer."
+"Election Observer Roles"
+
+"Suggest ways I can get involved in local election campaigns."
+"Local Campaign Involvement"
+
+"Suggest ways I can join a citizen advisory board."
+"Citizen Advisory Boards"
+
+"Suggest ways I can get involved with neighborhood councils."
+"Neighborhood Councils"
+
+"Suggest ways I can find community planning groups to join."
+"Community Planning Groups"
+
+"Suggest ways I can participate in issue-specific task forces."
+"Issue-Specific Task Forces"
+
+"Suggest ways I can find information on joining youth commissions."
+"Youth Commissions"
+
+"Suggest ways I can join senior advisory committees."
+"Senior Advisory Committees"
+
+"Suggest ways I can learn about participatory budgeting processes in my area."
+"Participatory Budgeting"
+
+"Suggest ways I can get involved in community-based planning."
+"Community-Based Planning"
+
+"Suggest ways I can find information on citizen juries."
+"Citizen Juries"
+
+"Suggest ways I can participate in deliberative democracy forums."
+"Deliberative Democracy Forums"
+
+"Suggest ways I can participate in community decision-making processes."
+"Community Decision-Making"
+
+"Suggest ways I can find local government career opportunities."
+"Local Government Careers"
+
+"Suggest ways I can find information on public service positions."
+"Public Service Positions"
+
+"Suggest ways I can prepare for civil service examinations."
+"Civil Service Examination"
+
+"Suggest ways I can find government internship opportunities."
+"Government Internships"
+
+"Suggest ways I can get appointed to local commissions and boards."
+"Commissions & Boards (Appointed)"
+
+"Suggest ways I can find information on becoming a special representative."
+"Special Representatives"
+
+"Suggest ways I can become a program advisor for local government."
+"Program Advisors"
+
+"Suggest opportunities to serve as a community liaison."
+"Community Liaisons"
+
+"Suggest ways I can research local policies effectively."
+"Local Policy Research"
+
+"Suggest ways I can develop a position on a local issue."
+"Position Development"
+
+"Suggest ways I can mobilize stakeholders for local advocacy."
+"Stakeholder Mobilization"
+
+"Suggest ways I can learn about framing policy alternatives."
+"Policy Alternative Framing"
+
+"Suggest ways I can track local bills and ordinances."
+"Bill/Ordinance Tracking"
+
+"Suggest ways I can submit public comments on local legislation."
+"Public Comment Submission"
+
+"Suggest ways I can prepare testimony for local government meetings."
+"Testimony Preparation"
+
+"Suggest ways I can provide feedback on local regulations."
+"Regulatory Feedback"
+
+"Suggest ways I can analyze the local government budget."
+"Budget Analysis"
+
+"Suggest ways I can advocate for specific funding priorities in the local budget."
+"Funding Priorities Advocacy"
+
+"Suggest ways I can campaign for the expansion of local services."
+"Service Expansion Campaigns"
+
+"Suggest ways I can learn about fiscal transparency initiatives."
+"Fiscal Transparency Initiatives"
+
+"Suggest ways I can effectively attend and document public meetings."
+"Meeting Attendance & Documentation"
+
+"Suggest ways I can make public record requests."
+"Public Record Requests"
+
+"Suggest ways I can monitor the local government budget."
+"Budget Monitoring"
+
+"Suggest ways I can learn about performance measurement for local government."
+"Performance Measurement"
+
+"Suggest ways I can assess local government service delivery."
+"Service Delivery Assessment"
+
+"Suggest ways I can find independent government oversight groups."
+"Independent Oversight Groups"
+
+"Suggest ways I can participate in transparency campaigns."
+"Transparency Campaigns"
+
+"Suggest ways I can get involved with government accountability projects."
+"Accountability Projects"
+
+"Suggest ways I can learn about government ethics initiatives."
+"Government Ethics Initiatives"
+
+"Suggest ways I can utilize open government data."
+"Open Data Utilization"
+
+"Suggest ways I can develop apps for local government services."
+"Government App Development"
+
+"Suggest ways I can find civic technology solutions."
+"Civic Technology Solutions"
+
+"Suggest ways I can learn about digital democracy tools."
+"Digital Democracy Tools"
+
+"Suggest ways I can find upcoming street cleaning events."
+"Street Cleaning Events"
+
+"Suggest ways I can participate in community waste collection days."
+"Community Waste Collection"
+
+"Suggest ways I can volunteer for public space maintenance."
+"Public Space Maintenance"
+
+"Suggest ways I can organize or attend street celebrations."
+"Street Celebrations"
+
+"Suggest ways I can participate in neighborhood potlucks."
+"Neighborhood Potlucks"
+
+"Suggest ways I can find community game days."
+"Community Game Days"
+
+"Suggest ways I can attend residential street festivals."
+"Residential Street Festivals"
+
+"Suggest ways I can find or start a tool library."
+"Tool Libraries"
+
+"Suggest ways I can participate in seed swaps."
+"Seed Swaps"
+
+"Suggest ways I can find local book exchanges."
+"Book Exchanges"
+
+"Suggest ways I can participate in community skill shares."
+"Skill Shares"
+
+"Suggest ways I can learn about time banking initiatives."
+"Time Banking Initiatives"
+
+"Suggest ways I can find local heritage festivals."
+"Local Heritage Festivals"
+
+"Suggest ways I can attend seasonal celebrations in the community."
+"Seasonal Celebrations"
+
+"Suggest ways I can find local art festivals."
+"Art Festivals"
+
+"Suggest ways I can attend local music festivals (community events)."
+"Music Festivals (Community)"
+
+"Suggest ways I can find local food festivals."
+"Food Festivals"
+
+"Suggest ways I can participate in ethnic celebrations."
+"Ethnic Celebrations"
+
+"Suggest ways I can attend community religious observances."
+"Religious Observances"
+
+"Suggest ways I can find cultural heritage events."
+"Cultural Heritage Events"
+
+"Suggest ways I can attend multicultural festivals."
+"Multicultural Festivals"
+
+"Suggest ways I can participate in International Day celebrations."
+"International Day Celebrations"
+
+"Suggest ways I can find public holiday gatherings."
+"Public Holiday Gatherings"
+
+"Suggest ways I can attend seasonal parades."
+"Seasonal Parades"
+
+"Suggest ways I can find community light displays."
+"Community Light Displays"
+
+"Suggest ways I can visit local holiday markets."
+"Holiday Markets"
+
+"Suggest ways I can participate in community ceremonial traditions."
+"Ceremonial Traditions"
+
+"Suggest ways I can find local produce stands."
+"Local Produce Stands"
+
+"Suggest ways I can visit artisanal food markets."
+"Artisanal Food Markets"
+
+"Suggest ways I can attend farm-to-table events."
+"Farm-to-Table Events"
+
+"Suggest ways I can find agricultural showcases."
+"Agricultural Showcases"
+
+"Suggest ways I can visit local artisan fairs."
+"Artisan Fairs"
+
+"Suggest ways I can find handmade goods markets."
+"Handmade Goods Markets"
+
+"Suggest ways I can attend maker showcases."
+"Maker Showcases"
+
+"Suggest ways I can find DIY exhibitions."
+"DIY Exhibitions"
+
+"Suggest ways I can visit local flea markets."
+"Flea Markets"
+
+"Suggest ways I can participate in clothing swaps."
+"Clothing Swaps"
+
+"Suggest ways I can find toy exchanges."
+"Toy Exchanges"
+
+"Suggest ways I can participate in equipment exchanges."
+"Equipment Exchanges"
+
+"Suggest ways I can attend science festivals."
+"Science Festivals"
+
+"Suggest ways I can participate in history days."
+"History Days"
+
+"Suggest ways I can find literature festivals."
+"Literature Festivals"
+
+"Suggest ways I can attend technology expos."
+"Technology Expos"
+
+"Suggest ways I can find skill-building workshops."
+"Skill-Building Workshops"
+
+"Suggest ways I can attend DIY classes."
+"DIY Classes"
+
+"Suggest ways I can find community education events."
+"Community Education Events"
+
+"Suggest ways I can attend expert talks in the community."
+"Expert Talks"
+
+"Suggest ways I can find local speaker series."
+"Speaker Series"
+
+"Suggest ways I can attend panel discussions on community topics."
+"Panel Discussions"
+
+"Suggest ways I can participate in community conversations."
+"Community Conversations"
+
+"Suggest ways I can attend town & gown lectures."
+"Town & Gown Lectures"
+
+"Suggest ways I can attend or organize benefit concerts."
+"Benefit Concerts"
+
+"Suggest ways I can participate in charity walks/runs."
+"Charity Walks/Runs"
+
+"Suggest ways I can attend charity gala dinners."
+"Gala Dinners"
+
+"Suggest ways I can participate in silent auctions for charity."
+"Silent Auctions"
+
+"Suggest ways I can enter community raffles for good causes."
+"Community Raffles"
+
+"Suggest ways I can support local school fundraisers."
+"School Fundraisers"
+
+"Suggest ways I can participate in medical support drives."
+"Medical Support Drives"
+
+"Suggest ways I can contribute to disaster relief fundraising efforts."
+"Disaster Relief Fundraising"
+
+"Suggest ways I can support animal welfare campaigns."
+"Animal Welfare Campaigns"
+
+"Suggest ways I can donate to support arts organizations."
+"Arts Organization Support"
+
+"Suggest ways I can find community projects seeking crowdfunding."
+"Community Project Funding"
+
+"Suggest ways I can support local businesses through crowdfunding."
+"Local Business Support (Crowdfunding)"
+
+"Suggest ways I can invest in social enterprise launches."
+"Social Enterprise Launch Funding"
+
+"Suggest ways I can contribute to neighborhood improvement funding."
+"Neighborhood Improvement Funding"
+
+"Suggest ways I can donate to emergency response funds."
+"Emergency Response Funds"
+
+"Suggest ways I can get involved with racial equity initiatives."
+"Racial Equity Initiatives"
+
+"Suggest ways I can participate in gender equality movements."
+"Gender Equality Movements"
+
+"Suggest ways I can engage in LGBTQ+ rights advocacy."
+"LGBTQ+ Rights Advocacy"
+
+"Suggest ways I can support disability rights campaigns."
+"Disability Rights Campaigns"
+
+"Suggest ways I can participate in economic justice work."
+"Economic Justice Work"
+
+"Suggest ways I can join local climate action groups."
+"Climate Action Groups"
+
+"Suggest ways I can get involved in conservation campaigns."
+"Conservation Campaigns"
+
+"Suggest ways I can participate in pollution prevention initiatives."
+"Pollution Prevention Initiatives"
+
+"Suggest ways I can advocate for sustainable development."
+"Sustainable Development Advocacy"
+
+"Suggest ways I can get involved in environmental justice movements."
+"Environmental Justice Movements"
+
+"Suggest ways I can support healthcare access campaigns."
+"Healthcare Access Campaigns"
+
+"Suggest ways I can participate in mental health awareness activities."
+"Mental Health Awareness"
+
+"Suggest ways I can get involved with public health initiatives for advocacy."
+"Public Health Initiatives (Advocacy)"
+
+"Suggest ways I can engage in patient rights advocacy."
+"Patient Rights Advocacy"
+
+"Suggest ways I can participate in healthy community movements."
+"Healthy Community Movements"
+
+"Suggest ways I can support school funding campaigns."
+"School Funding Campaigns"
+
+"Suggest ways I can get involved in education reform movements."
+"Education Reform Movements"
+
+"Suggest ways I can advocate for youth opportunity expansion."
+"Youth Opportunity Expansion"
+
+"Suggest ways I can support literacy initiatives."
+"Literacy Initiatives"
+
+"Suggest ways I can engage in educational equity work."
+"Educational Equity Work"
+
+"Suggest ways I can participate in rallies and marches."
+"Rallies and Marches"
+
+"Suggest ways I can join demonstrations for causes I support."
+"Demonstrations"
+
+"Suggest ways I can learn about civil disobedience actions."
+"Civil Disobedience"
+
+"Suggest ways I can participate in sit-ins."
+"Sit-Ins"
+
+"Suggest ways I can engage in coordinated direct actions."
+"Coordinated Direct Actions"
+
+"Suggest ways I can participate in public education efforts for awareness campaigns."
+"Public Education Efforts"
+
+"Suggest ways I can help with information dissemination for campaigns."
+"Information Dissemination"
+
+"Suggest ways I can get involved in myth-busting initiatives."
+"Myth-Busting Initiatives"
+
+"Suggest ways I can support visibility projects for awareness."
+"Visibility Projects"
+
+"Suggest ways I can organize or attend press conferences."
+"Press Conferences"
+
+"Suggest ways I can build relationships with local media."
+"Media Relationships"
+
+"Suggest ways I can write opinion editorials for local publications."
+"Opinion Editorial Writing"
+
+"Suggest ways I can write letters to the editor."
+"Letters to the Editor"
+
+"Suggest ways I can participate in social media campaigns for advocacy."
+"Social Media Campaigns (Advocacy)"
+
+"Suggest ways I can learn about coalition building for advocacy."
+"Coalition Building"
+
+"Suggest ways I can participate in grassroots mobilization efforts."
+"Grassroots Mobilization"
+
+"Suggest ways I can engage in door-to-door canvassing."
+"Door-to-Door Canvassing"
+
+"Suggest ways I can participate in phone banking for campaigns."
+"Phone Banking"
+
+"Suggest ways I can learn about community power building."
+"Community Power Building"
+
+"Suggest ways I can organize or participate in petition drives."
+"Petition Drives"
+
+"Suggest ways I can engage in lobbying efforts."
+"Lobbying Efforts"
+
+"Suggest ways I can get involved in legislative campaigns."
+"Legislative Campaigns"
+
+"Suggest ways I can learn about administrative advocacy."
+"Administrative Advocacy"
+
+"Suggest ways I can engage in judicial advocacy."
+"Judicial Advocacy"
+
+"Suggest ways I can find educational forums on advocacy."
+"Educational Forums (Advocacy)"
+
+"Suggest ways I can attend advocacy workshops."
+"Advocacy Workshops"
+
+"Suggest ways I can participate in leadership development programs for activists."
+"Leadership Development (Advocacy)"
+
+"Suggest ways I can engage in movement strategy sessions."
+"Movement Strategy Sessions"
+
+"Suggest ways I can attend direct action training."
+"Direct Action Training"
+
+"Suggest ways I can participate in participatory action research."
+"Participatory Action Research"
+
+"Suggest ways I can help conduct community needs assessments."
+"Community Needs Assessment"
+
+"Suggest ways I can engage in policy analysis for advocacy."
+"Policy Analysis (Advocacy)"
+
+"Suggest ways I can learn about impact evaluation for community projects."
+"Impact Evaluation"
+
+"Suggest ways I can participate in data collection for advocacy."
+"Data Collection for Advocacy"
+
+"Suggest ways I can engage in fundraising for specific causes."
+"Fundraising for Causes"
+
+"Suggest ways I can learn about grant development for advocacy groups."
+"Grant Development"
+
+"Suggest ways I can participate in coalition resource sharing."
+"Coalition Resource Sharing"
+
+"Suggest ways I can help create advocacy tools."
+"Advocacy Tool Creation"
+
+"Suggest ways I can support leadership pipeline development in advocacy."
+"Leadership Pipeline Development"
+
+"Suggest ways I can get involved in developing parks and recreation areas."
+"Parks & Recreation Areas Development"
+
+"Suggest ways I can participate in the development of plazas and town squares."
+"Plazas & Town Squares Development"
+
+"Suggest ways I can support the development of community centers."
+"Community Centers Development"
+
+"Suggest ways I can advocate for public libraries."
+"Public Libraries Advocacy"
+
+"Suggest ways I can help create shared green spaces."
+"Shared Green Spaces Development"
+
+"Suggest ways I can advocate for better public transportation."
+"Public Transportation Advocacy"
+
+"Suggest ways I can support pedestrian-friendly initiatives."
+"Pedestrian-Friendly Initiatives"
+
+"Suggest ways I can advocate for cycling infrastructure development."
+"Cycling Infrastructure Development"
+
+"Suggest ways I can support complete streets campaigns."
+"Complete Streets Campaigns"
+
+"Suggest ways I can advocate for accessible transit initiatives."
+"Accessible Transit Initiatives"
+
+"Suggest ways I can get involved with shared workshops or maker spaces."
+"Shared Workshops/Maker Spaces"
+
+"Suggest ways I can support the creation of community kitchens."
+"Community Kitchens"
+
+"Suggest ways I can utilize or support local co-working spaces."
+"Co-Working Spaces"
+
+"Suggest ways I can get involved with tool libraries as infrastructure."
+"Tool Libraries (Infrastructure)"
+
+"Suggest ways I can support community gathering venues."
+"Gathering Venues"
+
+"Suggest ways I can get involved with Main Street programs."
+"Main Street Programs"
+
+"Suggest ways I can participate in Business Improvement Districts."
+"Business Improvement Districts"
+
+"Suggest ways I can learn about local currency initiatives."
+"Local Currency Initiatives"
+
+"Suggest ways I can participate in Buy Local campaigns."
+"Buy Local Campaigns"
+
+"Suggest ways I can support community wealth building efforts."
+"Community Wealth Building"
+
+"Suggest ways I can learn about housing cooperatives."
+"Housing Cooperatives"
+
+"Suggest ways I can support worker cooperatives."
+"Worker Cooperatives"
+
+"Suggest ways I can join consumer cooperatives."
+"Consumer Cooperatives"
+
+"Suggest ways I can utilize local credit unions."
+"Credit Unions"
+
+"Suggest ways I can learn about community land trusts."
+"Community Land Trusts"
+
+"Suggest ways I can find Community Development Financial Institutions (CDFIs)."
+"Community Development Financial Institutions"
+
+"Suggest ways I can support microlending programs."
+"Microlending Programs"
+
+"Suggest ways I can invest in community investment funds."
+"Community Investment Funds"
+
+"Suggest ways I can participate in participatory lending programs."
+"Participatory Lending"
+
+"Suggest ways I can learn about social impact investing."
+"Social Impact Investing"
+
+"Suggest ways I can participate in neighbor-to-neighbor support networks."
+"Neighbor-to-Neighbor Support"
+
+"Suggest ways I can engage in resource sharing systems."
+"Resource Sharing Systems"
+
+"Suggest ways I can join skills exchange networks."
+"Skills Exchange Networks"
+
+"Suggest ways I can get involved in mutual aid emergency response networks."
+"Emergency Response Networks (Mutual Aid)"
+
+"Suggest ways I can participate in care circles."
+"Care Circles"
+
+"Suggest ways I can join local affinity groups."
+"Affinity Groups"
+
+"Suggest ways I can find interest-based communities."
+"Interest-Based Communities"
+
+"Suggest ways I can join professional associations."
+"Professional Associations"
+
+"Suggest ways I can participate in identity-based groups."
+"Identity-Based Groups"
+
+"Suggest ways I can find community resource hubs."
+"Community Resource Hubs"
+
+"Suggest ways I can learn about service navigation support systems."
+"Service Navigation Support"
+
+"Suggest ways I can get involved with integrated care networks."
+"Integrated Care Networks"
+
+"Suggest ways I can support collaborative service models."
+"Collaborative Service Models"
+
+"Suggest ways I can utilize information and referral systems."
+"Information & Referral Systems"
+
+"Suggest ways I can support community broadband initiatives."
+"Community Broadband Initiatives"
+
+"Suggest ways I can participate in digital inclusion programs."
+"Digital Inclusion Programs"
+
+"Suggest ways I can utilize community technology centers."
+"Community Technology Centers"
+
+"Suggest ways I can contribute to open source community tools."
+"Open Source Community Tools"
+
+"Suggest ways I can explore local digital archives."
+"Local Digital Archives"
+
+"Suggest ways I can attend ballot information sessions."
+"Ballot Information Sessions"
+
+"Suggest ways I can find local candidate forums for voter education."
+"Candidate Forums (Voter Ed)"
+
+"Suggest ways I can engage in issue education for voters."
+"Issue Education (Voter Ed)"
+
+"Suggest ways I can learn about the voting process."
+"Voting Process Education"
+
+"Suggest ways I can find voter rights information."
+"Voter Rights Information"
+
+"Suggest ways I can participate in voter registration drives."
+"Registration Drives"
+
+"Suggest ways I can support youth voter registration efforts."
+"Youth Voter Registration"
+
+"Suggest ways I can help with new citizen voter registration."
+"New Citizen Voter Registration"
+
+"Suggest ways I can volunteer for mobile registration events."
+"Mobile Registration Events"
+
+"Suggest ways I can assist voters with registration forms."
+"Registration Form Assistance"
+
+"Suggest ways I can participate in voter mobilization efforts."
+"Voter Mobilization"
+
+"Suggest ways I can volunteer to provide election day transportation."
+"Election Day Transportation"
+
+"Suggest ways I can help with voting reminder campaigns."
+"Voting Reminder Campaigns"
+
+"Suggest ways I can promote early voting."
+"Early Voting Promotion"
+
+"Suggest ways I can assist voters with mail ballots."
+"Mail Ballot Assistance"
+
+"Suggest ways I can volunteer for a political campaign."
+"Campaign Volunteering"
+
+"Suggest ways I can support a local candidate."
+"Candidate Support"
+
+"Suggest ways I can help with campaign fundraising."
+"Campaign Fundraising"
+
+"Suggest ways I can participate in political canvassing."
+"Political Canvassing"
+
+"Suggest ways I can attend campaign events."
+"Campaign Events"
+
+"Suggest ways I can get involved with local party committee participation."
+"Local Party Committee Participation"
+
+"Suggest ways I can attend party conventions and caucuses."
+"Party Conventions & Caucuses"
+
+"Suggest ways I can contribute to political party platform development."
+"Platform Development"
+
+"Suggest ways I can participate in party-building activities."
+"Party-Building Activities"
+
+"Suggest ways I can engage in issue advocacy within political parties."
+"Issue Advocacy Within Parties"
+
+"Suggest ways I can support independent candidates."
+"Independent Candidate Support"
+
+"Suggest ways I can get involved in non-partisan campaigns."
+"Non-Partisan Campaigns"
+
+"Suggest ways I can participate in issue-based electoral work."
+"Issue-Based Electoral Work"
+
+"Suggest ways I can support electoral reform initiatives."
+"Electoral Reform Initiatives"
+
+"Suggest ways I can get involved with third-party development."
+"Third-Party Development"
+
+"Suggest ways I can advocate for voting rights protection."
+"Voting Rights Protection"
+
+"Suggest ways I can support electoral system reform."
+"Electoral System Reform"
+
+"Suggest ways I can advocate for campaign finance reform."
+"Campaign Finance Reform"
+
+"Suggest ways I can support transparency initiatives in government for democracy."
+"Transparency Initiatives (Democracy)"
+
+"Suggest ways I can get involved in anti-corruption efforts."
+"Anti-Corruption Efforts"
+
+"Suggest ways I can participate in participatory decision-making processes."
+"Participatory Decision-Making"
+
+"Suggest ways I can learn about citizen assemblies."
+"Citizen Assemblies"
+
+"Suggest ways I can engage in public deliberation processes."
+"Public Deliberation Processes"
+
+"Suggest ways I can participate in community referendums."
+"Community Referendums"
+
+"Suggest ways I can utilize direct democracy tools."
+"Direct Democracy Tools"
+
+"Suggest ways I can facilitate civic dialogue."
+"Civic Dialogue Facilitation"
+
+"Suggest ways I can participate in democratic skill building workshops."
+"Democratic Skill Building"
+
+"Suggest ways I can promote political tolerance."
+"Political Tolerance Promotion"
+
+"Suggest ways I can engage in civic responsibility campaigns."
+"Civic Responsibility Campaigns"
+
+"Suggest ways I can learn about collaborative governance."
+"Collaborative Governance"
+
+"Suggest ways I can understand government systems."
+"Government Systems Understanding"
+
+"Suggest ways I can improve constitutional literacy."
+"Constitutional Literacy"
+
+"Suggest ways I can learn about local government structure."
+"Local Government Structure"
+
+"Suggest ways I can understand civic institutions."
+"Civic Institutions"
+
+"Suggest ways I can learn about the policy process."
+"Policy Process Knowledge"
+
+"Suggest ways I can take civic education classes."
+"Civic Education Classes"
+
+"Suggest ways I can participate in democracy schools."
+"Democracy Schools"
+
+"Suggest ways I can engage in government simulations."
+"Government Simulations"
+
+"Suggest ways I can join civic reading groups."
+"Civic Reading Groups"
+
+"Suggest ways I can learn about political history."
+"Political History Learning"
+
+"Suggest ways I can join issue discussion groups."
+"Issue Discussion Groups"
+
+"Suggest ways I can attend current events forums."
+"Current Events Forums"
+
+"Suggest ways I can participate in policy analysis circles."
+"Policy Analysis Circles"
+
+"Suggest ways I can develop news literacy skills."
+"News Literacy Development"
+
+"Suggest ways I can join media criticism groups."
+"Media Criticism Groups"
+
+"Suggest ways I can attend public speaking training."
+"Public Speaking Training"
+
+"Suggest ways I can learn deliberation facilitation skills."
+"Deliberation Facilitation"
+
+"Suggest ways I can develop conflict resolution skills for civic engagement."
+"Conflict Resolution (Civic)"
+
+"Suggest ways I can learn consensus building techniques."
+"Consensus Building"
+
+"Suggest ways I can practice collaborative decision-making skills."
+"Collaborative Decision-Making (Skills)"
+
+"Suggest ways I can participate in community leadership programs."
+"Community Leadership Programs"
+
+"Suggest ways I can apply for civic fellowship programs."
+"Civic Fellowship Programs"
+
+"Suggest ways I can support youth leadership development in civic contexts."
+"Youth Leadership Development (Civic)"
+
+"Suggest ways I can attend grassroots leadership training."
+"Grassroots Leadership Training"
+
+"Suggest ways I can participate in board development training."
+"Board Development"
+
+"Suggest ways I can attend community organizing training."
+"Community Organizing Training"
+
+"Suggest ways I can learn campaign management skills."
+"Campaign Management"
+
+"Suggest ways I can develop public advocacy skills."
+"Public Advocacy Skills"
+
+"Suggest ways I can learn coalition building skills."
+"Coalition Building (Skills)"
+
+"Suggest ways I can develop fundraising skills for civic causes."
+"Fundraising for Civic Causes"
+
+"Suggest ways I can explore civic values."
+"Civic Values Exploration"
+
+"Suggest ways I can learn about ethical citizenship."
+"Ethical Citizenship"
+
+"Suggest ways I can develop civic virtues."
+"Civic Virtue Development"
+
+"Suggest ways I can learn about democratic ethics."
+"Democratic Ethics"
+
+"Suggest ways I can cultivate public spirit."
+"Public Spirit Cultivation"
+
+"Suggest ways I can participate in intercultural dialogue."
+"Intercultural Dialogue"
+
+"Suggest ways I can engage in diverse democracy building."
+"Diverse Democracy Building"
+
+"Suggest ways I can explore multicultural civic identity."
+"Multicultural Civic Identity"
+
+"Suggest ways I can learn inclusive participation strategies."
+"Inclusive Participation Strategies"
+
+"Suggest ways I can engage in equity-centered civic work."
+"Equity-Centered Civic Work"
+
+"Suggest ways I can increase awareness of global issues."
+"Global Issues Awareness"
+
+"Suggest ways I can support international cooperation."
+"International Cooperation"
+
+"Suggest ways I can understand global governance."
+"Global Governance Understanding"
+
+"Suggest ways I can participate in cross-border civic initiatives."
+"Cross-Border Civic Initiatives"
+
+"Suggest ways I can join transnational advocacy networks."
+"Transnational Advocacy Networks"
+
+"Suggest ways I can read neighborhood newspapers."
+"Neighborhood Newspapers"
+
+"Suggest ways I can follow community digital news sources."
+"Community Digital News"
+
+"Suggest ways I can find hyperlocal reporting sources."
+"Hyperlocal Reporting"
+
+"Suggest ways I can participate in citizen journalism."
+"Citizen Journalism"
+
+"Suggest ways I can support investigative community reporting."
+"Investigative Community Reporting"
+
+"Suggest community radio stations I can listen to."
+"Community Radio"
+
+"Suggest local TV channels I can watch."
+"Local TV Channels"
+
+"Suggest ways I can find local podcast networks."
+"Podcast Networks (Local)"
+
+"Suggest ways I can watch public access television."
+"Public Access Television"
+
+"Suggest ways I can utilize community media centers."
+"Community Media Centers"
+
+"Suggest ways I can find local ethnic media sources."
+"Ethnic Media"
+
+"Suggest ways I can access language-specific media."
+"Language-Specific Media"
+
+"Suggest ways I can find special interest community media."
+"Special Interest Community Media"
+
+"Suggest ways I can read alternative news sources."
+"Alternative News Sources"
+
+"Suggest ways I can support youth media projects."
+"Youth Media Projects"
+
+"Suggest ways I can participate in town hall discussions."
+"Town Hall Discussions"
+
+"Suggest ways I can attend issue forums."
+"Issue Forums"
+
+"Suggest ways I can participate in neighborhood assemblies."
+"Neighborhood Assemblies"
+
+"Suggest ways I can engage in public dialogues."
+"Public Dialogues"
+
+"Suggest ways I can participate in structured community conversations."
+"Structured Community Conversations"
+
+"Suggest ways I can engage with community online platforms."
+"Community Online Platforms"
+
+"Suggest ways I can join local social networks."
+"Local Social Networks"
+
+"Suggest ways I can participate in neighborhood digital forums."
+"Neighborhood Digital Forums"
+
+"Suggest ways I can utilize civic tech applications."
+"Civic Tech Applications"
+
+"Suggest ways I can engage in virtual community spaces."
+"Virtual Community Spaces"
+
+"Suggest ways I can use community theater for dialogue."
+"Community Theater for Dialogue"
+
+"Suggest ways I can engage with public art as civic expression."
+"Public Art as Civic Expression"
+
+"Suggest ways I can use storytelling for community building."
+"Storytelling for Community Building"
+
+"Suggest ways I can participate in musical exchange for understanding."
+"Musical Exchange for Understanding"
+
+"Suggest ways I can use visual arts for civic engagement."
+"Visual Arts for Civic Engagement"
+
+"Suggest ways I can advocate for community internet access."
+"Community Internet Access"
+
+"Suggest ways I can participate in public information campaigns."
+"Public Information Campaigns"
+
+"Suggest ways I can support freedom of information initiatives."
+"Freedom of Information Initiatives"
+
+"Suggest ways I can utilize open data projects."
+"Open Data Projects"
+
+"Suggest ways I can contribute to civic knowledge commons."
+"Civic Knowledge Commons"
+
+"Suggest ways I can practice critical media analysis."
+"Critical Media Analysis"
+
+"Suggest ways I can develop information verification skills."
+"Information Verification Skills"
+
+"Suggest ways I can learn propaganda identification techniques."
+"Propaganda Identification"
+
+"Suggest ways I can practice news evaluation skills."
+"News Evaluation"
+
+"Suggest ways I can improve digital literacy for democracy."
+"Digital Literacy for Democracy"
+
+"Suggest ways I can participate in local knowledge preservation efforts."
+"Local Knowledge Preservation"
+
+"Suggest ways I can explore community archives."
+"Community Archives"
+
+"Suggest ways I can participate in oral history projects."
+"Oral History Projects"
+
+"Suggest ways I can support traditional knowledge documentation."
+"Traditional Knowledge Documentation"
+
+"Suggest ways I can contribute to collective memory initiatives."
+"Collective Memory Initiatives"

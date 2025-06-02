@@ -1,0 +1,3566 @@
+{
+  "id": 80,
+  "name": "Community Engagement and Civic Life",
+  "icon": "🏛️",
+  "subcategories": [
+    {
+      "name": "Volunteering",
+      "icon": "👐",
+      "subcategories": [
+        {
+          "name": "Direct Service",
+          "icon": "🙌",
+          "subcategories": [
+            {
+              "name": "Basic Needs Assistance",
+              "icon": "🍚",
+              "subcategories": [
+                {
+                  "name": "Food Banks",
+                  "icon": "🍲",
+                  "subcategories": [
+                    {
+                      "name": "Food Distribution",
+                      "icon": "🚚",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Meal Preparation",
+                      "icon": "🍳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Food Drives Organization",
+                      "icon": "🥫",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Food Recovery Programs",
+                      "icon": "♻️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mobile Food Pantries",
+                      "icon": "🚐",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Homeless Services",
+                  "icon": "🏠",
+                  "subcategories": [
+                    {
+                      "name": "Homeless Shelters",
+                      "icon": "🏘️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Street Outreach",
+                      "icon": "🚶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Transitional Housing Support",
+                      "icon": "🏡",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Meal Services",
+                      "icon": "🍲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Clothing Distribution",
+                      "icon": "👕",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Hygiene Kit Assembly",
+                      "icon": "🧼",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Elder Care",
+                  "icon": "👵",
+                  "subcategories": [
+                    {
+                      "name": "Senior Center Assistance",
+                      "icon": "👴",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Meal Delivery Programs",
+                      "icon": "🚚",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Companionship Visits",
+                      "icon": "🗣️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Transportation Assistance",
+                      "icon": "🚗",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Technology Support for Seniors",
+                      "icon": "💻",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Disability Support",
+                  "icon": "♿",
+                  "subcategories": [
+                    {
+                      "name": "Accessibility Assistance",
+                      "icon": "♿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Special Olympics Support",
+                      "icon": "🏅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Adaptive Recreation Programs",
+                      "icon": "🤸‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Assistive Technology Help",
+                      "icon": "💡",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Youth Services",
+                  "icon": "🧒",
+                  "subcategories": [
+                    {
+                      "name": "After-School Programs",
+                      "icon": "🏫",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Youth Center Volunteering",
+                      "icon": "🏢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Recreation Program Support",
+                      "icon": "⚽",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Teen Mentorship",
+                      "icon": "🧑‍🏫",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Summer Camp Volunteering",
+                      "icon": "🏕️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crisis Response",
+              "icon": "🆘",
+              "subcategories": [
+                {
+                  "name": "Disaster Relief",
+                  "icon": "⛑️",
+                  "subcategories": [
+                    {
+                      "name": "Emergency Response Teams",
+                      "icon": "🧑‍🚒",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Evacuation Assistance",
+                      "icon": "🏃‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Shelter Operations",
+                      "icon": "🏨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Supply Distribution",
+                      "icon": "📦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Rebuilding Efforts",
+                      "icon": "🔨",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Crisis Hotlines",
+                  "icon": "📞",
+                  "subcategories": [
+                    {
+                      "name": "Suicide Prevention Lines",
+                      "icon": "🧠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Domestic Violence Support",
+                      "icon": "💜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mental Health Crisis Support",
+                      "icon": "❤️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Substance Abuse Helplines",
+                      "icon": "💊",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Refugee & Immigrant Support",
+                  "icon": "🌍",
+                  "subcategories": [
+                    {
+                      "name": "Resettlement Assistance",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Language Support",
+                      "icon": "🗣️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cultural Orientation",
+                      "icon": "🧭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Resource Connection",
+                      "icon": "🔗",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Medical Volunteer Work",
+                  "icon": "⚕️",
+                  "subcategories": [
+                    {
+                      "name": "Hospital Volunteering",
+                      "icon": "🏥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Blood Drive Support",
+                      "icon": "🩸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Medical Mission Trips",
+                      "icon": "✈️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Vaccination Clinics",
+                      "icon": "💉",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Health Screening Events",
+                      "icon": "🩺",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skills-Based Volunteering",
+          "icon": "🧑‍🎓",
+          "subcategories": [
+            {
+              "name": "Educational Support",
+              "icon": "📚",
+              "subcategories": [
+                {
+                  "name": "Tutoring/Mentoring",
+                  "icon": "🧑‍🏫",
+                  "subcategories": [
+                    {
+                      "name": "Academic Subject Tutoring",
+                      "icon": "📝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Literacy Programs",
+                      "icon": "📖",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "ESL Instruction",
+                      "icon": "🗣️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "College Preparation",
+                      "icon": "🎓",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Career Mentoring",
+                      "icon": "💼",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Educational Program Development",
+                  "icon": "👨‍🏫",
+                  "subcategories": [
+                    {
+                      "name": "Curriculum Design",
+                      "icon": "📐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "STEM Education Initiatives",
+                      "icon": "🔬",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Arts Education Programs",
+                      "icon": "🎨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Financial Literacy Workshops",
+                      "icon": "💰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Digital Literacy Training",
+                      "icon": "💻",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Library Services",
+                  "icon": "🏛️",
+                  "subcategories": [
+                    {
+                      "name": "Reading Programs",
+                      "icon": "📖",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Research Assistance",
+                      "icon": "🔍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Community Programs Support",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Media Organization",
+                      "icon": "🗂️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Professional Services",
+              "icon": "💼",
+              "subcategories": [
+                {
+                  "name": "Legal Aid",
+                  "icon": "⚖️",
+                  "subcategories": [
+                    {
+                      "name": "Pro Bono Legal Clinics",
+                      "icon": "🧑‍⚖️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Legal Rights Education",
+                      "icon": "📜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Document Preparation Assistance",
+                      "icon": "📄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Court Navigation Support",
+                      "icon": "🧭",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Financial Services",
+                  "icon": "💰",
+                  "subcategories": [
+                    {
+                      "name": "Tax Preparation Assistance",
+                      "icon": "🧾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Financial Counseling",
+                      "icon": "💸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Microfinance Support",
+                      "icon": "🏦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Business Plan Development",
+                      "icon": "📈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Grant Writing Assistance",
+                      "icon": "✍️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Healthcare Services",
+                  "icon": "🩺",
+                  "subcategories": [
+                    {
+                      "name": "Medical/Dental Clinics",
+                      "icon": "🧑‍⚕️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mental Health Services",
+                      "icon": "🧠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Public Health Initiatives",
+                      "icon": "🏥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wellness Program Development",
+                      "icon": "🧘",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Marketing & Communications",
+                  "icon": "📢",
+                  "subcategories": [
+                    {
+                      "name": "Nonprofit Marketing Support",
+                      "icon": "📣",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Social Media Management",
+                      "icon": "📱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Public Relations Assistance",
+                      "icon": "📰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Storytelling & Content Creation",
+                      "icon": "✍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Graphic Design Services",
+                      "icon": "🎨",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Technical Assistance",
+              "icon": "💻",
+              "subcategories": [
+                {
+                  "name": "IT Support",
+                  "icon": "🖥️",
+                  "subcategories": [
+                    {
+                      "name": "Computer Setup/Repair",
+                      "icon": "🛠️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Network Installation",
+                      "icon": "🌐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "System Security Review",
+                      "icon": "🔒",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Database Management",
+                      "icon": "💾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Website Development",
+                      "icon": "🌐",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Technical Training",
+                  "icon": "👨‍💻",
+                  "subcategories": [
+                    {
+                      "name": "Software Skill Training",
+                      "icon": "🖱️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Hardware Maintenance",
+                      "icon": "🔧",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Digital Tools Workshops",
+                      "icon": "📱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cybersecurity Education",
+                      "icon": "🛡️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Innovation Projects",
+                  "icon": "💡",
+                  "subcategories": [
+                    {
+                      "name": "App Development for Nonprofits",
+                      "icon": "📱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Data Analysis for Social Impact",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Technology Solution Design",
+                      "icon": "🚀",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Digital Transformation Support",
+                      "icon": "🔄",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Environmental Volunteering",
+          "icon": "🌳",
+          "subcategories": [
+            {
+              "name": "Conservation Efforts",
+              "icon": "🌿",
+              "subcategories": [
+                {
+                  "name": "Habitat Restoration",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wildlife Monitoring",
+                  "icon": "🦉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Endangered Species Protection",
+                  "icon": "🐅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Invasive Species Removal",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ecological Surveys",
+                  "icon": "🔬",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Waterway Protection",
+              "icon": "💧",
+              "subcategories": [
+                {
+                  "name": "River/Beach Clean-Ups",
+                  "icon": "🚮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Water Quality Monitoring",
+                  "icon": "🧪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Watershed Restoration",
+                  "icon": "🌊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Marine Conservation",
+                  "icon": "🐠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stormwater Management",
+                  "icon": "🌧️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Land Stewardship",
+              "icon": "🌲",
+              "subcategories": [
+                {
+                  "name": "Trail Maintenance",
+                  "icon": "🚶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Park Conservation",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Land Restoration",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Urban Forestry",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Open Space Preservation",
+                  "icon": "🗺️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Sustainable Initiatives",
+              "icon": "♻️",
+              "subcategories": [
+                {
+                  "name": "Community Gardens",
+                  "icon": "🥕",
+                  "subcategories": [
+                    {
+                      "name": "Garden Development",
+                      "icon": "🛠️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Planting & Maintenance",
+                      "icon": "🌱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Harvest Distribution",
+                      "icon": "🧺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Garden Education",
+                      "icon": "📚",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Seed Libraries",
+                      "icon": "📖",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Renewable Energy Projects",
+                  "icon": "☀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sustainable Building",
+                  "icon": "🧱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Environmental Education",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Climate Action Initiatives",
+                  "icon": "🌎",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Community Development",
+          "icon": "🏘️",
+          "subcategories": [
+            {
+              "name": "Neighborhood Improvement",
+              "icon": "🏡",
+              "subcategories": [
+                {
+                  "name": "Neighborhood Clean-Ups",
+                  "icon": "🧹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Beautification Projects",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Space Activation",
+                  "icon": "🛋️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Art Installations",
+                  "icon": "🖼️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Infrastructure Improvement",
+                  "icon": "🚧",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Community Building",
+              "icon": "🧑‍🤝‍🧑",
+              "subcategories": [
+                {
+                  "name": "New Resident Welcome Programs",
+                  "icon": "👋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Intergenerational Programs",
+                  "icon": "👴🧒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Neighborhood Associations",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Exchange Events",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Dialogues",
+                  "icon": "🗣️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Economic Development",
+              "icon": "📈",
+              "subcategories": [
+                {
+                  "name": "Small Business Support",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Job Training Programs",
+                  "icon": "👷",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cooperative Development",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Commerce Initiatives",
+                  "icon": "🛍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Enterprise Support",
+                  "icon": "💼",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Arts & Culture Volunteering",
+          "icon": "🎭",
+          "subcategories": [
+            {
+              "name": "Cultural Preservation",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "Historic Site Volunteering",
+                  "icon": "🏰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Heritage Documentation",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Traditional Crafts Preservation",
+                  "icon": "🧶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Oral History Collection",
+                  "icon": "🎙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Language Preservation",
+                  "icon": "🗣️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Arts Programs",
+              "icon": "🎨",
+              "subcategories": [
+                {
+                  "name": "Community Theater",
+                  "icon": "🎭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Art Projects",
+                  "icon": "🖼️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Music Programs",
+                  "icon": "🎶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dance Initiatives",
+                  "icon": "💃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Literary Arts Events",
+                  "icon": "✍️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Cultural Institutions",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "Museum Docents",
+                  "icon": "🧑‍🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Gallery Assistants",
+                  "icon": "🖼️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Library Volunteers",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Center Support",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Archive Organization",
+                  "icon": "🗄️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Virtual Volunteering",
+          "icon": "💻",
+          "subcategories": [
+            {
+              "name": "Online Mentoring",
+              "icon": "🧑‍🏫",
+              "subcategories": [
+                {
+                  "name": "Virtual Tutoring",
+                  "icon": "🖥️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Career Coaching",
+                  "icon": "💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Mentorship Programs",
+                  "icon": "📱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Online ESL Conversation",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Remote College Advising",
+                  "icon": "🎓",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Digital Skills Sharing",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Virtual Tech Support",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Online Training Development",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Content Creation",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Media Management",
+                  "icon": "📱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Website Maintenance",
+                  "icon": "🌐",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Remote Research & Analysis",
+              "icon": "🔍",
+              "subcategories": [
+                {
+                  "name": "Data Analysis Projects",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Research Support",
+                  "icon": "🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Translation Services",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Grant Research",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Policy Analysis",
+                  "icon": "📈",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Virtual Support Services",
+              "icon": "💬",
+              "subcategories": [
+                {
+                  "name": "Crisis Text Lines",
+                  "icon": "📱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Virtual Companionship",
+                  "icon": "🫂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Online Support Groups",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Remote Administrative Support",
+                  "icon": "👨‍💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Virtual Fundraising",
+                  "icon": "💰",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Local Government Engagement",
+      "icon": "🏛️",
+      "subcategories": [
+        {
+          "name": "Direct Participation",
+          "icon": "🗣️",
+          "subcategories": [
+            {
+              "name": "Public Meetings",
+              "icon": "👥",
+              "subcategories": [
+                {
+                  "name": "Town Halls",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Council Meetings",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Hearings",
+                  "icon": "👂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Budget Forums",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Planning Commission Meetings",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "School Board Meetings",
+                  "icon": "🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Special District Meetings",
+                  "icon": "💧",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Local Elections",
+              "icon": "🗳️",
+              "subcategories": [
+                {
+                  "name": "Voter Registration Drives",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Candidate Forums",
+                  "icon": "🧑‍💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Poll Worker Volunteering",
+                  "icon": "🧑‍⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Election Observer Roles",
+                  "icon": "👀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Campaign Involvement",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Advisory Roles",
+              "icon": "🧑‍💼",
+              "subcategories": [
+                {
+                  "name": "Citizen Advisory Boards",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Neighborhood Councils",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Planning Groups",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Issue-Specific Task Forces",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Youth Commissions",
+                  "icon": "🧒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Senior Advisory Committees",
+                  "icon": "👴",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Participatory Governance",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Participatory Budgeting",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community-Based Planning",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Citizen Juries",
+                  "icon": "🧑‍⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Deliberative Democracy Forums",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Decision-Making",
+                  "icon": "✅",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Civil Service",
+          "icon": "👮",
+          "subcategories": [
+            {
+              "name": "Government Employment",
+              "icon": "🧑‍💼",
+              "subcategories": [
+                {
+                  "name": "Local Government Careers",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Service Positions",
+                  "icon": "👩‍🚒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Civil Service Examination",
+                  "icon": "📝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Government Internships",
+                  "icon": "🧑‍🎓",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Appointed Positions",
+              "icon": "🎖️",
+              "subcategories": [
+                {
+                  "name": "Commissions & Boards",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Special Representatives",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Program Advisors",
+                  "icon": "👨‍🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Liaisons",
+                  "icon": "🔗",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Local Policy Advocacy",
+          "icon": "📢",
+          "subcategories": [
+            {
+              "name": "Issue Advocacy",
+              "icon": "🎯",
+              "subcategories": [
+                {
+                  "name": "Local Policy Research",
+                  "icon": "🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Position Development",
+                  "icon": "📝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stakeholder Mobilization",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Policy Alternative Framing",
+                  "icon": "⚖️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Legislative Engagement",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "Bill/Ordinance Tracking",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Comment Submission",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Testimony Preparation",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Regulatory Feedback",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Budget Advocacy",
+              "icon": "💰",
+              "subcategories": [
+                {
+                  "name": "Budget Analysis",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Funding Priorities Advocacy",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Service Expansion Campaigns",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fiscal Transparency Initiatives",
+                  "icon": "透明",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Government Accountability",
+          "icon": "👀",
+          "subcategories": [
+            {
+              "name": "Monitoring Activities",
+              "icon": "🕵️",
+              "subcategories": [
+                {
+                  "name": "Meeting Attendance & Documentation",
+                  "icon": "👂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Record Requests",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Budget Monitoring",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Performance Measurement",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Service Delivery Assessment",
+                  "icon": "✅",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Watchdog Initiatives",
+              "icon": "🛡️",
+              "subcategories": [
+                {
+                  "name": "Independent Oversight Groups",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Transparency Campaigns",
+                  "icon": "📢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Accountability Projects",
+                  "icon": "🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Government Ethics Initiatives",
+                  "icon": "⚖️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Civic Tech Initiatives",
+              "icon": "💻",
+              "subcategories": [
+                {
+                  "name": "Open Data Utilization",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Government App Development",
+                  "icon": "📱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Civic Technology Solutions",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Democracy Tools",
+                  "icon": "🗳️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Community Events & Gatherings",
+      "icon": "🎉",
+      "subcategories": [
+        {
+          "name": "Neighborhood Activities",
+          "icon": "🏘️",
+          "subcategories": [
+            {
+              "name": "Neighborhood Clean-Ups",
+              "icon": "🧹",
+              "subcategories": [
+                {
+                  "name": "Street Cleaning Events",
+                  "icon": "🗑️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Waste Collection",
+                  "icon": "♻️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Space Maintenance",
+                  "icon": "🛠️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Block Parties",
+              "icon": "🥳",
+              "subcategories": [
+                {
+                  "name": "Street Celebrations",
+                  "icon": "🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Neighborhood Potlucks",
+                  "icon": "🍲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Game Days",
+                  "icon": "🎲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Residential Street Festivals",
+                  "icon": "🎪",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Neighborhood Exchanges",
+              "icon": "🔄",
+              "subcategories": [
+                {
+                  "name": "Tool Libraries",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seed Swaps",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Book Exchanges",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Skill Shares",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Time Banking Initiatives",
+                  "icon": "⏳",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Public Celebrations",
+          "icon": "🎊",
+          "subcategories": [
+            {
+              "name": "Community Festivals",
+              "icon": "🎪",
+              "subcategories": [
+                {
+                  "name": "Local Heritage Festivals",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seasonal Celebrations",
+                  "icon": "🍂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Art Festivals",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Music Festivals",
+                  "icon": "🎶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Food Festivals",
+                  "icon": "🍔",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Cultural Celebrations",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Ethnic Celebrations",
+                  "icon": "🏳️‍🌈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Religious Observances",
+                  "icon": "⛪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Heritage Events",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Multicultural Festivals",
+                  "icon": "🌍🎊",
+                  "subcategories": []
+                },
+                {
+                  "name": "International Day Celebrations",
+                  "icon": "🌐",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Holiday Events",
+              "icon": "🎄",
+              "subcategories": [
+                {
+                  "name": "Public Holiday Gatherings",
+                  "icon": "🎆",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seasonal Parades",
+                  "icon": "🌻☀️🍂❄️🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Light Displays",
+                  "icon": "✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Holiday Markets",
+                  "icon": "🛍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ceremonial Traditions",
+                  "icon": "🕯️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Community Markets",
+          "icon": "🛒",
+          "subcategories": [
+            {
+              "name": "Farmers Markets",
+              "icon": "🥕",
+              "subcategories": [
+                {
+                  "name": "Local Produce Stands",
+                  "icon": "🍎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Artisanal Food Markets",
+                  "icon": "🥖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Farm-to-Table Events",
+                  "icon": "🍽️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Agricultural Showcases",
+                  "icon": "🚜",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Craft & Maker Markets",
+              "icon": "🎨",
+              "subcategories": [
+                {
+                  "name": "Artisan Fairs",
+                  "icon": "🖼️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Handmade Goods Markets",
+                  "icon": "🧶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Maker Showcases",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "DIY Exhibitions",
+                  "icon": "💡",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Community Swap Meets",
+              "icon": "↔️",
+              "subcategories": [
+                {
+                  "name": "Flea Markets",
+                  "icon": "🛍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Clothing Swaps",
+                  "icon": "👕",
+                  "subcategories": []
+                },
+                {
+                  "name": "Toy Exchanges",
+                  "icon": "🧸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Equipment Exchanges",
+                  "icon": "⚙️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Educational Events",
+          "icon": "🎓",
+          "subcategories": [
+            {
+              "name": "Learning Festivals",
+              "icon": "🔬",
+              "subcategories": [
+                {
+                  "name": "Science Festivals",
+                  "icon": "🧪",
+                  "subcategories": []
+                },
+                {
+                  "name": "History Days",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Literature Festivals",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technology Expos",
+                  "icon": "💻",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Community Workshops",
+              "icon": "🛠️",
+              "subcategories": [
+                {
+                  "name": "Skill-Building Workshops",
+                  "icon": "🔧",
+                  "subcategories": []
+                },
+                {
+                  "name": "DIY Classes",
+                  "icon": "🔨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Education Events",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Expert Talks",
+                  "icon": "🗣️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Public Lectures & Forums",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "Speaker Series",
+                  "icon": "🎙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Panel Discussions",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Conversations",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Town & Gown Lectures",
+                  "icon": "🏫",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Community Fundraisers",
+          "icon": "💰",
+          "subcategories": [
+            {
+              "name": "Charity Events",
+              "icon": "🎗️",
+              "subcategories": [
+                {
+                  "name": "Benefit Concerts",
+                  "icon": "🎵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Charity Walks/Runs",
+                  "icon": "🏃‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Gala Dinners",
+                  "icon": "🍽️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Silent Auctions",
+                  "icon": "🎁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Raffles",
+                  "icon": "🎟️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Cause-Specific Campaigns",
+              "icon": "🎯",
+              "subcategories": [
+                {
+                  "name": "School Fundraisers",
+                  "icon": "🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Medical Support Drives",
+                  "icon": "❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Disaster Relief Fundraising",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Animal Welfare Campaigns",
+                  "icon": "🐾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Arts Organization Support",
+                  "icon": "🎭",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Crowdfunding Initiatives",
+              "icon": "💸",
+              "subcategories": [
+                {
+                  "name": "Community Project Funding",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Business Support",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Enterprise Launch",
+                  "icon": "🚀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Neighborhood Improvement Funding",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Emergency Response Funds",
+                  "icon": "🆘",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Civic Activism & Advocacy",
+      "icon": "✊",
+      "subcategories": [
+        {
+          "name": "Issue-Based Activism",
+          "icon": "📢",
+          "subcategories": [
+            {
+              "name": "Social Justice Advocacy",
+              "icon": "⚖️",
+              "subcategories": [
+                {
+                  "name": "Racial Equity Initiatives",
+                  "icon": "✊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Gender Equality Movements",
+                  "icon": "♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "LGBTQ+ Rights Advocacy",
+                  "icon": "🏳️‍🌈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Disability Rights Campaigns",
+                  "icon": "♿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Economic Justice Work",
+                  "icon": "💰",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Environmental Activism",
+              "icon": "🌳",
+              "subcategories": [
+                {
+                  "name": "Climate Action Groups",
+                  "icon": "🌎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conservation Campaigns",
+                  "icon": "🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pollution Prevention Initiatives",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sustainable Development Advocacy",
+                  "icon": "♻️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Environmental Justice Movements",
+                  "icon": "🌳",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Health Advocacy",
+              "icon": "❤️",
+              "subcategories": [
+                {
+                  "name": "Healthcare Access Campaigns",
+                  "icon": "🏥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mental Health Awareness",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Health Initiatives",
+                  "icon": "⚕️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Patient Rights Advocacy",
+                  "icon": "🧑‍⚕️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Healthy Community Movements",
+                  "icon": "🏘️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Education Advocacy",
+              "icon": "🎓",
+              "subcategories": [
+                {
+                  "name": "School Funding Campaigns",
+                  "icon": "🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Education Reform Movements",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Youth Opportunity Expansion",
+                  "icon": "🧑‍🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Literacy Initiatives",
+                  "icon": "📖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Educational Equity Work",
+                  "icon": "⚖️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Advocacy Methods",
+          "icon": "📣",
+          "subcategories": [
+            {
+              "name": "Direct Action",
+              "icon": "✊",
+              "subcategories": [
+                {
+                  "name": "Rallies and Marches",
+                  "icon": "🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Demonstrations",
+                  "icon": "🛑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Civil Disobedience",
+                  "icon": "⛓️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sit-Ins",
+                  "icon": "🛋️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coordinated Direct Actions",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Public Awareness",
+              "icon": "🗣️",
+              "subcategories": [
+                {
+                  "name": "Awareness Campaigns",
+                  "icon": "📢",
+                  "subcategories": [
+                    {
+                      "name": "Public Education Efforts",
+                      "icon": "📣",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Information Dissemination",
+                      "icon": "📰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Myth-Busting Initiatives",
+                      "icon": "❓",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Visibility Projects",
+                      "icon": "👀",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Media Engagement",
+                  "icon": "📰",
+                  "subcategories": [
+                    {
+                      "name": "Press Conferences",
+                      "icon": "🎤",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Media Relationships",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Opinion Editorial Writing",
+                      "icon": "✍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Letters to the Editor",
+                      "icon": "✉️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Social Media Campaigns",
+                      "icon": "📱",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Community Organizing",
+              "icon": "👥",
+              "subcategories": [
+                {
+                  "name": "Coalition Building",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Grassroots Mobilization",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Door-to-Door Canvassing",
+                  "icon": "🚪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Phone Banking",
+                  "icon": "📞",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Power Building",
+                  "icon": "💪",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Policy Advocacy",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "Petition Drives",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lobbying Efforts",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Legislative Campaigns",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Administrative Advocacy",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Judicial Advocacy",
+                  "icon": "🧑‍⚖️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Capacity Building",
+          "icon": "📈",
+          "subcategories": [
+            {
+              "name": "Advocacy Training",
+              "icon": "📚",
+              "subcategories": [
+                {
+                  "name": "Educational Forums",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Advocacy Workshops",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Leadership Development",
+                  "icon": "🏅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Movement Strategy Sessions",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Direct Action Training",
+                  "icon": "✊",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Community Research",
+              "icon": "🔬",
+              "subcategories": [
+                {
+                  "name": "Participatory Action Research",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Needs Assessment",
+                  "icon": "🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Policy Analysis",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Impact Evaluation",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Data Collection for Advocacy",
+                  "icon": "📊",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Resource Development",
+              "icon": "💰",
+              "subcategories": [
+                {
+                  "name": "Fundraising for Causes",
+                  "icon": "💸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Grant Development",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coalition Resource Sharing",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Advocacy Tool Creation",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Leadership Pipeline Development",
+                  "icon": "🧑‍🎓",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Community Infrastructure",
+      "icon": "🏗️",
+      "subcategories": [
+        {
+          "name": "Physical Commons",
+          "icon": "🌳",
+          "subcategories": [
+            {
+              "name": "Public Space Development",
+              "icon": "🏞️",
+              "subcategories": [
+                {
+                  "name": "Parks & Recreation Areas",
+                  "icon": "🌲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Plazas & Town Squares",
+                  "icon": "⛲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Centers",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Libraries",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shared Green Spaces",
+                  "icon": "🌿",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Mobility Infrastructure",
+              "icon": "🚶‍♂️",
+              "subcategories": [
+                {
+                  "name": "Public Transportation Advocacy",
+                  "icon": "🚌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pedestrian-Friendly Initiatives",
+                  "icon": "🚶‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cycling Infrastructure Development",
+                  "icon": "🚲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Complete Streets Campaigns",
+                  "icon": "🛣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Accessible Transit Initiatives",
+                  "icon": "♿",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Community Facilities",
+              "icon": "🏢",
+              "subcategories": [
+                {
+                  "name": "Shared Workshops/Maker Spaces",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Kitchens",
+                  "icon": "🍳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Co-Working Spaces",
+                  "icon": "💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tool Libraries",
+                  "icon": "🔧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Gathering Venues",
+                  "icon": "🏠",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Community Economic Structures",
+          "icon": "💰",
+          "subcategories": [
+            {
+              "name": "Local Economic Development",
+              "icon": "📈",
+              "subcategories": [
+                {
+                  "name": "Main Street Programs",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Business Improvement Districts",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Currency Initiatives",
+                  "icon": "💵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Buy Local Campaigns",
+                  "icon": "🛍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Wealth Building",
+                  "icon": "🏦",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Cooperative Models",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Housing Cooperatives",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Worker Cooperatives",
+                  "icon": "👷",
+                  "subcategories": []
+                },
+                {
+                  "name": "Consumer Cooperatives",
+                  "icon": "🛒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Credit Unions",
+                  "icon": "🏦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Land Trusts",
+                  "icon": "🗺️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Community Finance",
+              "icon": "💸",
+              "subcategories": [
+                {
+                  "name": "Community Development Financial Institutions",
+                  "icon": "🏦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Microlending Programs",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Investment Funds",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Participatory Lending",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Impact Investing",
+                  "icon": "🌱",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Social Infrastructure",
+          "icon": "🌐",
+          "subcategories": [
+            {
+              "name": "Community Networks",
+              "icon": "🔗",
+              "subcategories": [
+                {
+                  "name": "Mutual Aid Networks",
+                  "icon": "🤝",
+                  "subcategories": [
+                    {
+                      "name": "Neighbor-to-Neighbor Support",
+                      "icon": "🫂",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Resource Sharing Systems",
+                      "icon": "🔄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Skills Exchange Networks",
+                      "icon": "🛠️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Emergency Response Networks",
+                      "icon": "🆘",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Care Circles",
+                      "icon": "❤️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Affinity Groups",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Interest-Based Communities",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Professional Associations",
+                  "icon": "🧑‍💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Identity-Based Groups",
+                  "icon": "🏳️‍🌈",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Service Coordination Systems",
+              "icon": "⚕️",
+              "subcategories": [
+                {
+                  "name": "Community Resource Hubs",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Service Navigation Support",
+                  "icon": "🧭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Integrated Care Networks",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Collaborative Service Models",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Information & Referral Systems",
+                  "icon": "📞",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Digital Infrastructure",
+              "icon": "💻",
+              "subcategories": [
+                {
+                  "name": "Community Broadband Initiatives",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Inclusion Programs",
+                  "icon": "📱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Technology Centers",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Open Source Community Tools",
+                  "icon": "🔓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Digital Archives",
+                  "icon": "🗄️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Democratic Participation",
+      "icon": "🗳️",
+      "subcategories": [
+        {
+          "name": "Voter Engagement",
+          "icon": "✅",
+          "subcategories": [
+            {
+              "name": "Voter Education",
+              "icon": "📚",
+              "subcategories": [
+                {
+                  "name": "Ballot Information Sessions",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Candidate Forums",
+                  "icon": "👨‍💼👩‍💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Issue Education",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Voting Process Education",
+                  "icon": "🗳️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Voter Rights Information",
+                  "icon": "⚖️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Voter Registration",
+              "icon": "📝",
+              "subcategories": [
+                {
+                  "name": "Registration Drives",
+                  "icon": "🖋️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Youth Voter Registration",
+                  "icon": "🧑‍🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "New Citizen Voter Registration",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mobile Registration Events",
+                  "icon": "🚐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Registration Form Assistance",
+                  "icon": "✍️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Get Out The Vote",
+              "icon": "📣",
+              "subcategories": [
+                {
+                  "name": "Voter Mobilization",
+                  "icon": "📢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Election Day Transportation",
+                  "icon": "🚗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Voting Reminder Campaigns",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Early Voting Promotion",
+                  "icon": "⏱️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mail Ballot Assistance",
+                  "icon": "✉️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Political Participation",
+          "icon": "🏛️",
+          "subcategories": [
+            {
+              "name": "Campaign Involvement",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Campaign Volunteering",
+                  "icon": "🙋‍♀️🙋‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Candidate Support",
+                  "icon": "🧑‍💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Campaign Fundraising",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Political Canvassing",
+                  "icon": "🚪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Campaign Events",
+                  "icon": "🎉",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Political Party Activities",
+              "icon": "🫏🐘",
+              "subcategories": [
+                {
+                  "name": "Local Party Committee Participation",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Party Conventions & Caucuses",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Platform Development",
+                  "icon": "📝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Party-Building Activities",
+                  "icon": "🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Issue Advocacy Within Parties",
+                  "icon": "📢",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Independent Political Action",
+              "icon": "🕊️",
+              "subcategories": [
+                {
+                  "name": "Independent Candidate Support",
+                  "icon": "🧑‍💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Non-Partisan Campaigns",
+                  "icon": "🏳️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Issue-Based Electoral Work",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Electoral Reform Initiatives",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Third-Party Development",
+                  "icon": "🌱",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Democratization Efforts",
+          "icon": "🕊️",
+          "subcategories": [
+            {
+              "name": "Democracy Reform",
+              "icon": "⚖️",
+              "subcategories": [
+                {
+                  "name": "Voting Rights Protection",
+                  "icon": "🗳️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Electoral System Reform",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Campaign Finance Reform",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Transparency Initiatives",
+                  "icon": "👀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Anti-Corruption Efforts",
+                  "icon": "🛡️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Participatory Democracy",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Participatory Decision-Making",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Citizen Assemblies",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Deliberation Processes",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Referendums",
+                  "icon": "🗳️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Direct Democracy Tools",
+                  "icon": "🔧",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Democratic Culture",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Civic Dialogue Facilitation",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Democratic Skill Building",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Political Tolerance Promotion",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Civic Responsibility Campaigns",
+                  "icon": "❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Collaborative Governance",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Civic Education & Development",
+      "icon": "🎓",
+      "subcategories": [
+        {
+          "name": "Civic Knowledge",
+          "icon": "📚",
+          "subcategories": [
+            {
+              "name": "Governance Education",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "Government Systems Understanding",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Constitutional Literacy",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Government Structure",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Civic Institutions",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Policy Process Knowledge",
+                  "icon": "📈",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Civic Literacy Programs",
+              "icon": "📖",
+              "subcategories": [
+                {
+                  "name": "Civic Education Classes",
+                  "icon": "🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Democracy Schools",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Government Simulations",
+                  "icon": "🎭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Civic Reading Groups",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Political History Learning",
+                  "icon": "📜",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Current Affairs Engagement",
+              "icon": "📰",
+              "subcategories": [
+                {
+                  "name": "Issue Discussion Groups",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Current Events Forums",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Policy Analysis Circles",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "News Literacy Development",
+                  "icon": "📰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Media Criticism Groups",
+                  "icon": "🧐",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Civic Skills Development",
+          "icon": "🛠️",
+          "subcategories": [
+            {
+              "name": "Democratic Process Skills",
+              "icon": "🗣️",
+              "subcategories": [
+                {
+                  "name": "Public Speaking Training",
+                  "icon": "🎤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Deliberation Facilitation",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conflict Resolution",
+                  "icon": "☮️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Consensus Building",
+                  "icon": "🤲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Collaborative Decision-Making",
+                  "icon": "✅",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Civic Leadership",
+              "icon": "🧑‍🏫",
+              "subcategories": [
+                {
+                  "name": "Community Leadership Programs",
+                  "icon": "🏅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Civic Fellowship Programs",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Youth Leadership Development",
+                  "icon": "🧒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Grassroots Leadership Training",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Board Development",
+                  "icon": "👥",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Practical Engagement Skills",
+              "icon": "🔨",
+              "subcategories": [
+                {
+                  "name": "Community Organizing Training",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Campaign Management",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Advocacy Skills",
+                  "icon": "📢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coalition Building",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fundraising for Civic Causes",
+                  "icon": "💰",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Civic Identity & Values",
+          "icon": "❤️",
+          "subcategories": [
+            {
+              "name": "Civic Culture Development",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Civic Values Exploration",
+                  "icon": "🧭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ethical Citizenship",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Civic Virtue Development",
+                  "icon": "🌟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Democratic Ethics",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Spirit Cultivation",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Cross-Cultural Civic Engagement",
+              "icon": "🌐",
+              "subcategories": [
+                {
+                  "name": "Intercultural Dialogue",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Diverse Democracy Building",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Civic Identity",
+                  "icon": "Multicultural",
+                  "subcategories": []
+                },
+                {
+                  "name": "Participation Strategies",
+                  "icon": "Inclusive",
+                  "subcategories": []
+                },
+                {
+                  "name": "Equity-Centered Civic Work",
+                  "icon": "⚖️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Global Citizenship",
+              "icon": "🌎",
+              "subcategories": [
+                {
+                  "name": "Global Issues Awareness",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "International Cooperation",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Global Governance Understanding",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cross-Border Civic Initiatives",
+                  "icon": "✈️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Transnational Advocacy Networks",
+                  "icon": "📢",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Community Media & Communication",
+      "icon": "📰",
+      "subcategories": [
+        {
+          "name": "Community Journalism",
+          "icon": "🗞️",
+          "subcategories": [
+            {
+              "name": "Local News Production",
+              "icon": "📰",
+              "subcategories": [
+                {
+                  "name": "Neighborhood Newspapers",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Digital News",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hyperlocal Reporting",
+                  "icon": "📍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Citizen Journalism",
+                  "icon": "🧑‍💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Investigative Community Reporting",
+                  "icon": "🕵️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Community Broadcasting",
+              "icon": "🎙️",
+              "subcategories": [
+                {
+                  "name": "Community Radio",
+                  "icon": "📻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local TV Channels",
+                  "icon": "📺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Podcast Networks",
+                  "icon": "🎧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Access Television",
+                  "icon": "🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Media Centers",
+                  "icon": "🏢",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Specialized Information Channels",
+              "icon": "📢",
+              "subcategories": [
+                {
+                  "name": "Ethnic Media",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Language-Specific Media",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Special Interest Community Media",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Alternative News Sources",
+                  "icon": "📰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Youth Media Projects",
+                  "icon": "🧑‍🎓",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Public Discourse Platforms",
+          "icon": "🗣️",
+          "subcategories": [
+            {
+              "name": "Community Forums",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "Town Hall Discussions",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Issue Forums",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Neighborhood Assemblies",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Dialogues",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Structured Community Conversations",
+                  "icon": "🏗️🗣️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Digital Engagement",
+              "icon": "💻",
+              "subcategories": [
+                {
+                  "name": "Community Online Platforms",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Social Networks",
+                  "icon": "📱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Neighborhood Digital Forums",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Civic Tech Applications",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Virtual Community Spaces",
+                  "icon": "🏢",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Arts-Based Dialogue",
+              "icon": "🎨",
+              "subcategories": [
+                {
+                  "name": "Community Theater for Dialogue",
+                  "icon": "🎭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Art as Civic Expression",
+                  "icon": "🖼️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Storytelling for Community Building",
+                  "icon": "📖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Musical Exchange for Understanding",
+                  "icon": "🎶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Visual Arts for Civic Engagement",
+                  "icon": "🎨",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Information Ecology",
+          "icon": "🔍",
+          "subcategories": [
+            {
+              "name": "Information Access",
+              "icon": "ℹ️",
+              "subcategories": [
+                {
+                  "name": "Community Internet Access",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Information Campaigns",
+                  "icon": "📢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Freedom of Information Initiatives",
+                  "icon": "🔓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Open Data Projects",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Civic Knowledge Commons",
+                  "icon": "📚",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Media Literacy",
+              "icon": "📰",
+              "subcategories": [
+                {
+                  "name": "Critical Media Analysis",
+                  "icon": "🧐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Information Verification Skills",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Propaganda Identification",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "News Evaluation",
+                  "icon": "📰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Literacy for Democracy",
+                  "icon": "💻",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Community Knowledge Management",
+              "icon": "📚",
+              "subcategories": [
+                {
+                  "name": "Local Knowledge Preservation",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Archives",
+                  "icon": "🗄️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Oral History Projects",
+                  "icon": "🎙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Traditional Knowledge Documentation",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Collective Memory Initiatives",
+                  "icon": "🧠",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

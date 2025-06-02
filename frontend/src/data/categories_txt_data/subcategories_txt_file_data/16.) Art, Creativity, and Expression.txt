@@ -1,0 +1,497 @@
+🖼️ Fine Arts
+    📚 Literary Art
+        ✍️ Poetry
+            📖 Epic Poetry
+            🎵 Lyric Poetry
+            📜 Narrative Poetry
+            🇯🇵 Haiku & Tanka
+            📝 Sonnets
+            ✍️ Free Verse
+            🎤 Slam Poetry
+
+        📖 Prose
+            📚 Novel
+                👽 Science Fiction Novel
+                🧙 Fantasy Novel
+                ❓ Mystery Novel
+                ❤️ Romance Novel
+                🏰 Historical Novel
+                😨 Thriller/Suspense Novel
+                📖 Literary Fiction Novel
+            📖 Novella
+            📄 Short Story
+            🧑‍🏫 Essay
+            👤 Biography & Autobiography
+            🧠 Memoir
+
+        📖 Graphic Novel
+            🦸 Superhero Comics
+            🇯🇵 Manga
+            ✏️ Indie Comics
+            🌐 Webcomics
+
+        💥 Comic Books
+
+        💭 Fiction
+
+        📰 Non-fiction
+
+        🎭 Drama
+            😭 Tragedy
+            😂 Comedy
+            🎶 Musical Theater (might be redundant w/ Performing Arts)
+            👑 Historical Drama
+            🎭 Melodrama
+
+    🎨 Visual Art
+        🖼️ 2D Visual Art
+            ✏️ Drawing
+                ✏️ Graphite/Pencil Drawing
+                ⚫ Charcoal Drawing
+                🖊️ Pen & Ink Drawing
+                🖍️ Pastel Drawing (Oil & Chalk)
+                🖍️ Colored Pencil Drawing
+                ✍️ Sketching
+                🖼️ Technical Drawing
+                💻 Digital Drawing
+                🎬 Animation
+
+            🎨 Painting
+                💧 Watercolor Painting
+                ⛽ Oil Painting
+                🎨 Acrylic Painting
+                🥚 Tempera Painting
+                🧱 Fresco Painting
+                🖋️ Ink Wash Painting
+                🖼️ Miniature Painting
+                🧱 Mural Painting
+                💨 Airbrush Painting
+                💻 Digital Painting
+
+            📠 Printmaking
+                🪵 Relief Printing (Woodcut, Linocut)
+                ⛓️ Intaglio (Etching, Engraving)
+                🎨 Planographic (Lithography)
+                🕸️ Screen Printing (Silkscreen)
+                ☝️ Monoprinting
+                💻 Digital Printmaking
+
+            📸 Photography
+                🏞️ Landscape Photography
+                🧑‍🤝‍🧑 Portrait Photography
+                📰 Photojournalism
+                👗 Fashion Photography
+                🏀 Sports Photography
+                🌿 Nature/Wildlife Photography
+                🏙️ Architectural Photography
+                🌌 Astrophotography
+                🔬 Macro Photography
+                🚶 Street Photography
+                ✈️ Aerial Photography
+                ⚫⚪ Black & White Photography
+                📱 Mobile Photography
+
+            🏺 Mosaics
+                💎 Glass Mosaics
+                🧱 Ceramic/Tile Mosaics
+                🪨 Stone/Pebble Mosaics
+                🤏 Micro Mosaics
+                🌿 Mixed Media Mosaics
+
+            🖋️ Calligraphy(Letter Art)
+                📜 Western Calligraphy (Roman, Gothic, Italic)
+                🖌️ Eastern Calligraphy (Chinese, Japanese, Arabic)
+                ✨ Modern Calligraphy
+                ✍️ Brush Lettering
+
+        🗿 3D Visual Art
+            🏛️ Architecture
+                🏛️ Classical Architecture
+                🏰 Gothic Architecture
+                👑 Baroque Architecture
+                ✨ Modern Architecture
+                🏙️ Contemporary Architecture
+                🌳 Landscape Architecture
+                🏘️ Residential Architecture
+                🏢 Commercial Architecture
+                🏗️ Industrial Architecture
+                🌿 Sustainable/Green Architecture
+                🗺️ Urban Planning & Design
+                🛋️ Interior Architecture
+
+            🏺 Pottery
+                👐 Hand-building (Pinch, Coil, Slab)
+                🔄 Wheel Throwing
+                ✨ Glazing Techniques
+                🔥 Firing Techniques (Raku, Pit, Kiln)
+                🏺 Earthenware
+                🧱 Stoneware
+
+            🏺 Ceramics
+                🏺 Sculptural Ceramics
+                🍽️ Functional Ceramics (Tableware)
+                🧱 Tile Making
+                🍶 Porcelain
+
+            🗿 Sculpture
+                🗿 Carving (Wood, Stone, Ice, Plaster)
+                🏺 Modeling (Clay, Wax, Polymer Clay)
+                🔩 Casting (Bronze, Aluminum, Resin, Glass)
+                ⚙️ Assemblage & Found Object Art
+                🔥 Metal Fabrication & Welding
+                💨 Kinetic & Interactive Sculpture
+                🗽 Figurative & Representational Sculpture
+                🎨 Abstract & Non-representational Sculpture
+                🌍 Land Art & Environmental Sculpture
+                💡 Light Sculpture & Installation
+                🗿 Monument & Public Art Design
+
+            🧶 Textile Arts
+                🕸️ Weaving (Hand & Power Loom)
+                🧶 Knitting (Hand & Machine)
+                🧶 Crocheting
+                🧵 Embroidery & Needlepoint
+                🪡 Quilting & Appliqué
+                🐑 Felting (Wet & Needle)
+                🎨 Fabric Dyeing & Printing (Batik, Shibori, Screen Printing)
+                ➰ Macrame & Knotting
+                🖼️ Tapestry Design
+                🎗️ Lace Making
+                🧺 Basketry & Fiber Sculpture
+                🧶 Yarn Spinning & Fiber Prep
+                🧵 Textile Conservation & Restoration
+                🏭 Textile Design for Industry (Interiors, Fashion)
+
+        💭 Conceptual Art
+            💡 Idea-Based Art (Focus on the concept itself)
+            🗣️ Language-Based Art (Using text as the primary medium)
+            🚶‍♀️ Performance Art (Conceptual focus, action as art)
+            🌍 Installation Art (Concept-driven environments)
+            ❓ Readymades & Found Objects (Challenging definitions of art)
+            🏛️ Institutional Critique (Examining art institutions)
+
+    🎵 Recorded Music
+        🎻 Classical
+            🎼 Baroque Era
+            🎼 Classical Era
+            🎼 Romantic Era
+            🎼 Modern Classical
+        🪕 Folk
+            🌲 Traditional Folk
+            ✨ Contemporary Folk
+            🎸 Folk Rock
+        🎷 Blues
+            🌊 Delta Blues
+            🏙️ Chicago Blues
+            ⚡️ Electric Blues
+        🪕 Bluegrass
+            🎻 Traditional Bluegrass
+            💡 Progressive Bluegrass
+        🤠 Country
+            🕰️ Classic Country
+            🎸 Country Rock
+            🎤 Pop Country
+            🦅 Americana
+        🎸 Rock And Roll
+            🕰️ Classic Rock
+            🤘 Hard Rock
+            💿 Alternative Rock
+            🎸 Indie Rock
+            🌀 Psychedelic Rock
+        🤘 Punk
+            💥 Punk Rock
+            🧐 Post-Punk
+            ✊ Hardcore Punk
+            🎤 Pop Punk
+        🎤 Pop
+            🕺 Dance Pop
+            ✨ Indie Pop
+        ⛪ Gospel
+            🙏 Traditional Gospel
+            ✨ Contemporary Gospel
+        🎤 Soul
+            🕰️ Classic Soul
+            ✨ Neo Soul
+        🎤 Rhythm And Blues (R&B)
+            🕰️ Classic R&B
+            ✨ Contemporary R&B
+        🎹 Ragtime
+        🎷 Jazz
+            🎺 Dixieland
+            🎷 Swing
+            🎼 Bebop
+            🧊 Cool Jazz
+            🎸 Fusion Jazz
+        🕺 Funk
+            🕰️ Classic Funk
+            🎸 Funk Rock
+        🎤 Hip Hop
+            🕰️ Old School Hip Hop
+            🎧 Golden Age Hip Hop
+            🧐 Conscious Hip Hop
+            😎 Gangsta Rap
+        🎧 Trap
+        🎧 EDM
+            🌌 Trance
+            🔊 Dubstep
+            🥁 Drum and Bass
+        🏠 House
+            🎶 Deep House
+            🚀 Progressive House
+        🎹 Synth Pop
+        🎧 Electro Funk
+        🎧 Techno
+        🇯🇲 Reggae
+            🌳 Roots Reggae
+            💃 Dancehall
+            🔊 Dub
+        🎸 Metal
+            🤘 Heavy Metal
+            ⚡ Speed Metal
+            🖤 Black Metal
+            💀 Death Metal
+            🎭 Glam Metal
+            🤘 Thrash Metal
+            🎻 Symphonic Metal
+            🎤 Nu Metal
+        🌍 World Music
+            🇮🇳 Indian Classical
+            🌏 Asian Traditional
+            🌍 African Traditional
+            🇧🇷 Latin American
+            🇪🇺 European Folk
+        🎵 Classical Crossover
+        🪗 Ambient
+            🌊 Dark Ambient
+            🏙️ Downtempo
+            🧘‍♂️🧘‍♀️ Meditation Music
+        🎸 Grunge
+        🎸 Alternative
+        🏜️ Desert Rock
+        🎧 Lo-fi
+        🎹 New Age
+        🎭 Opera
+        🎵 A Cappella
+        🎶 Disco
+        📻 Indie
+        🎧 Chillwave
+        🌃 Vaporwave
+        🎵 K-pop
+        🎵 J-pop
+        🇪🇸 Flamenco
+        🎧 Post-Rock
+        📯 Brass Band
+        🪕 Zydeco
+        🎻 Chamber Music
+
+    🎭 Performing Art
+        🎵 Live Music/Music Performance
+            🎸 Concerts
+            🎪 Festivals
+            🎤 Open Mic Nights
+            🎻 Recitals
+        💃 Dance
+            🧘‍♀️ Modern Dance
+            ✨ Contemporary Dance
+            🕺 Jazz Dance
+            👞 Tap Dance
+            👟 Hip Hop Dance
+            💃🕺 Ballroom Dance
+            🌍 Folk Dance
+        🎭 Theater
+            🎭 Drama
+            🎬 Play
+            😂 Comedy
+            🎶 Musical Theater
+            😭 Tragedy
+            💡 Improvisational Theater
+            🤸‍♀️ Physical Theater
+        🤸‍♂️ Acrobatics
+        🩰 Ballet
+        🎪 Circus Skills
+            🤹 Juggling
+            🤸‍♀️ Aerial Arts (Silks, Trapeze)
+            🚶‍♂️ Tightrope Walking
+        🤡 Clown
+        🤸‍♂️ Gymnastics
+        ✨ Magic
+            🤏 Close-up Magic
+            🎩 Stage Illusions
+            🧠 Mentalism
+        🤫 Mime
+        🎤 Opera
+        🤼 Professional Wrestling
+        🧸 Puppetry
+            ✋ Hand Puppets
+            🧵 Marionettes
+            🔦 Shadow Puppetry
+        🗣️ Public Speaking
+            📖 Storytelling
+            🎤 Lectures & Speeches
+            🤝 Debates
+        🎤 Stand-up Comedy
+        🚀 Street Performance
+        🗣️ Ventriloquism
+
+    🌐 Multidisciplinary Art
+        👗 Fashion
+            👑 Haute Couture
+            🚶‍♂️ Ready-to-Wear (Prêt-à-Porter)
+            👟 Streetwear & Urban Fashion
+            💼 Menswear Design
+            💃 Womenswear Design
+            👶 Childrenswear Design
+            🎭 Costume Design (Film, Theater)
+            👜 Accessory Design (Bags, Belts, Hats)
+            💍 Jewelry Design
+            👟 Footwear Design
+            ✂️ Pattern Making & Draping
+            🧵 Garment Construction & Tailoring
+            🌱 Sustainable & Ethical Fashion
+            💻 Fashion Technology (Wearables, 3D Printing)
+        🎬 Film/Motion Pictures
+            🎬 Cinema/Movies
+            📺 Television/TV Shows
+            ⏱️ Short Films
+            📰 Documentary Film
+            🧪 Experimental Film
+            🎶 Music Videos
+        💻 New Media Art
+            🖱️ Interactive Art
+                🎮 Video Games
+                🕶️ Virtual Reality Experiences
+                🤖 Robotic Art
+            🤖 Generative Art
+                🤖 Artificial Intelligence Art
+            📹 Video Art
+            🔊 Sound Art
+            🌐 Net Art (Internet Art)
+            🧬 Bio Art
+            ✨ Augmented Reality Art
+        
+🛠️ Applied Arts
+    🚗 Automotive Design
+        🚗✍️ Concept Cars
+        🏎️ Performance Vehicle Design
+        🚌 Public Transport Design
+        🛥️ Marine Vehicle Design
+        ✈️ Aerospace Design Interface
+    🏛️ Architectural Design
+        🏛️ Classical Architecture
+        🏰 Gothic Architecture
+        👑 Baroque Architecture
+        ✨ Modern Architecture
+        🏙️ Contemporary Architecture
+        🌳 Landscape Architecture
+        🏘️ Residential Architecture
+        🏢 Commercial Architecture
+        🏗️ Industrial Architecture
+        🌿 Sustainable/Green Architecture
+        🗺️ Urban Planning & Design
+        🛋️ Interior Architecture
+    🏛️ Industrial Design
+        📱 Product Design (Consumer Electronics, Appliances)
+        🛠️ Tool & Equipment Design
+        📦 Packaging Design
+        ⚕️ Medical Device Design
+        🧸 Toy Design
+    🛋️ Interior Design
+        🏠 Residential Interior Design
+        🏢 Commercial Interior Design (Offices, Retail)
+        🏨 Hospitality Design (Hotels, Restaurants)
+        🛋️ Space Planning
+        💡 Lighting Design
+    🛋️ Furniture Design
+        🪑 Chair & Seating Design
+        🪵 Wooden Furniture
+        🔩 Metal Furniture
+        🛋️ Upholstery Design
+        💡 Lighting Fixture Design
+        🛏️ Bedroom Furniture
+        🍽️ Dining Furniture
+    👗 Fashion Design
+        👑 Haute Couture
+        🚶 Ready-to-Wear (Prêt-à-Porter)
+        👟 Streetwear & Urban Fashion
+        💼 Menswear Design
+        💃 Womenswear Design
+        👶 Childrenswear Design
+        🎭 Costume Design (Film, Theater)
+        👜 Accessory Design (Bags, Belts, Hats)
+        💍 Jewelry Design
+        👟 Footwear Design
+        ✂️ Pattern Making & Draping
+        🧵 Garment Construction & Tailoring
+        🌱 Sustainable & Ethical Fashion
+        💻 Fashion Technology (Wearables, 3D Printing)
+    🧶 Textile Art
+        🕸️ Weaving (Hand & Power Loom)
+        🧶 Knitting (Hand & Machine)
+        🧶 Crocheting
+        🧵 Embroidery & Needlepoint
+        🪡 Quilting & Appliqué
+        🐑 Felting (Wet & Needle)
+        🎨 Fabric Dyeing & Printing (Batik, Shibori, Screen Printing)
+        ➰ Macrame & Knotting
+        🖼️ Tapestry Design
+        🎗️ Lace Making
+        🧺 Basketry & Fiber Sculpture
+        🧶 Yarn Spinning & Fiber Prep
+        🧵 Textile Conservation & Restoration
+        🏭 Textile Design for Industry (Interiors, Fashion)
+    📐 Graphic Design
+        🌐 Web Design & UI/UX
+        🎨 Branding & Identity Design (Logos, Style Guides)
+        📰 Publication Design (Magazines, Books, Newspapers)
+        📢 Advertising Design (Print & Digital Ads)
+        📈 Information Design (Infographics, Data Visualization)
+        🎬 Motion Graphics
+        🌏📐 Environmental Graphic Design (Signage, Wayfinding)
+    🖋️ Calligraphy (Letter Design)
+        📜 Pointed Pen Calligraphy (Copperplate, Spencerian)
+        ✒️ Broad Edge Calligraphy (Foundational Hand, Gothic, Italic)
+        🖌️ Brush Calligraphy/Lettering
+        ✨ Modern Calligraphy Styles
+        💻 Digital Calligraphy & Lettering
+        💌 Calligraphy for Invitations & Stationery
+        🏷️ Calligraphy in Branding & Logos
+        📜 Certificate & Formal Document Calligraphy
+        🌏📐 Signage & Environmental Lettering
+    🗺️ Cartographic Design (Map Design)
+        📍🗺️ Thematic Mapping
+        🌐 Web Mapping & GIS
+        🎨 Artistic & Illustrative Maps
+        🧭 Navigation Design
+    ✂️ Crafts
+        🪵 Woodworking & Furniture Making
+        💎 Jewelry Making & Metalsmithing
+        🕯️ Candle Making
+        🧼 Soap Making
+        📖 Bookbinding
+        🧵 Sewing, Knitting & Needlecrafts
+        🏺 Pottery & Ceramics
+        🔨 Metalworking (Small scale/Decorative)
+        🎨 Decorative Painting & Finishing
+        🪟 Glass Art (Stained Glass, Glassblowing)
+        📃 Paper Crafts (Origami, Scrapbooking)
+    🏺 Ceramic Art
+        🏺 Sculptural Ceramics & Installations
+        🍽️ Functional Pottery & Tableware Design
+        🧱 Architectural Ceramics & Tile Making
+        🍶 Porcelain Art & Craft
+        🏺 Studio Pottery
+        ✨ Glaze Chemistry & Application
+        🔥 Kiln Building & Firing Techniques
+        🏺 Ceramic Restoration & Conservation
+    🗿 Sculpture
+        🗿 Carving (Wood, Stone, Ice, Plaster)
+        🏺 Modeling (Clay, Wax, Polymer Clay)
+        🔩 Casting (Bronze, Aluminum, Resin, Glass)
+        ⚙️ Assemblage & Found Object Art
+        🔥 Metal Fabrication & Welding
+        💨 Kinetic & Interactive Sculpture
+        🗽 Figurative & Representational Sculpture
+        🎨 Abstract & Non-representational Sculpture
+        🌍 Land Art & Environmental Sculpture
+        💡 Light Sculpture & Installation
+        🗿 Monument & Public Art Design

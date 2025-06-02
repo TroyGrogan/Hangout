@@ -1,0 +1,289 @@
+[
+  {
+    "id": 1,
+    "prompt": "Suggest ways to monitor and manage my screen time on different devices.",
+    "displayText": "Manage Screen Time",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 2,
+    "prompt": "Suggest strategies for setting healthy digital boundaries (notifications, work-life separation, social media).",
+    "displayText": "Set Digital Boundaries",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 3,
+    "prompt": "Suggest ways to practice digital minimalism (declutter apps, intentional consumption).",
+    "displayText": "Practice Digital Minimalism",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 4,
+    "prompt": "Suggest techniques for managing digital distractions and improving focus during tech use.",
+    "displayText": "Manage Digital Distractions/Improve Focus",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 5,
+    "prompt": "Suggest strategies for curating my information diet and consuming content intentionally.",
+    "displayText": "Curate Information Diet",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 6,
+    "prompt": "Suggest ways to practice mindfulness while using technology (browsing, social media, communication).",
+    "displayText": "Practice Digital Mindfulness",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 7,
+    "prompt": "Suggest ideas for planning and implementing regular digital detoxes (daily, weekly, monthly).",
+    "displayText": "Plan Digital Detoxes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 8,
+    "prompt": "Suggest ways to create tech-free zones or times at home.",
+    "displayText": "Create Tech-Free Zones/Times",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 9,
+    "prompt": "Suggest strategies for transitioning back smoothly after a digital detox.",
+    "displayText": "Transition After Digital Detox",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 10,
+    "prompt": "Suggest healthy technology habits for mornings, evenings, weekends, and workdays.",
+    "displayText": "Develop Healthy Tech Habits",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 11,
+    "prompt": "Suggest ways to balance technology use with relationships (tech-free time, device-free dining).",
+    "displayText": "Balance Tech Use & Relationships",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 12,
+    "prompt": "Suggest resources for digital legacy planning (online identity, assets, inheritance).",
+    "displayText": "Digital Legacy Planning",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 13,
+    "prompt": "Suggest ergonomic practices for computer workstations and mobile device use.",
+    "displayText": "Improve Digital Ergonomics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 14,
+    "prompt": "Suggest ways to mitigate the physical impacts of technology (blue light, eye strain, repetitive strain).",
+    "displayText": "Mitigate Physical Impacts of Tech",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 15,
+    "prompt": "Suggest strategies for protecting deep thinking and creativity from digital interruptions.",
+    "displayText": "Protect Deep Thinking/Creativity",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 16,
+    "prompt": "Suggest ways to improve information processing skills in the digital age (triage, reading, note-taking).",
+    "displayText": "Improve Digital Information Processing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 17,
+    "prompt": "Suggest ways to prioritize in-person connections while leveraging virtual community building.",
+    "displayText": "Balance In-Person & Virtual Connections",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 18,
+    "prompt": "Suggest resources for learning about Artificial Intelligence (AI) and its applications.",
+    "displayText": "Learn About AI",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 19,
+    "prompt": "Suggest ways to explore and ethically use AI tools (generative AI, assistants, prompt engineering).",
+    "displayText": "Explore/Use AI Tools Ethically",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 20,
+    "prompt": "Suggest ways to experience Virtual Reality (VR) or Augmented Reality (AR).",
+    "displayText": "Experience VR/AR",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 21,
+    "prompt": "Suggest resources for understanding Blockchain, Web3, Cryptocurrency, NFTs, or DAOs.",
+    "displayText": "Learn Blockchain/Web3 Concepts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 22,
+    "prompt": "Suggest ways to learn about biotechnology, health tech, wearables, or personalized health.",
+    "displayText": "Explore Bio/Health Tech",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 23,
+    "prompt": "Suggest ways to integrate Internet of Things (IoT) devices into a smart home setup securely.",
+    "displayText": "Integrate Smart Home/IoT Securely",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 24,
+    "prompt": "Suggest strategies for continuous learning and developing new technology skills.",
+    "displayText": "Continuous Tech Learning Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 25,
+    "prompt": "Suggest ways to improve digital literacy (information verification, safety, privacy, data literacy).",
+    "displayText": "Improve Digital Literacy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 26,
+    "prompt": "Suggest skills needed to thrive in a future with increasing automation and human-tech collaboration.",
+    "displayText": "Develop Future-Ready Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 27,
+    "prompt": "Suggest ways to experiment with new technologies or participate in beta testing.",
+    "displayText": "Experiment with New Technologies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 28,
+    "prompt": "Suggest frameworks for assessing and adopting new technologies aligned with personal values.",
+    "displayText": "Assess/Adopt New Tech Mindfully",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 29,
+    "prompt": "Suggest ways to design a personalized technology ecosystem or tool stack.",
+    "displayText": "Design Personal Tech Ecosystem",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 30,
+    "prompt": "Suggest resources for learning coding, development skills, or hardware tinkering.",
+    "displayText": "Learn Coding/Development/Hardware",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 31,
+    "prompt": "Suggest principles for ethical technology creation (user-centered design, accessibility).",
+    "displayText": "Ethical Tech Creation Principles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 32,
+    "prompt": "Suggest sustainable technology practices (reducing e-waste, green computing).",
+    "displayText": "Sustainable Tech Practices",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 33,
+    "prompt": "Suggest strategies for personal digitization (paperless, media preservation).",
+    "displayText": "Personal Digitization Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 34,
+    "prompt": "Suggest ways to adapt professionally to digital transformation (remote work, collaboration tools).",
+    "displayText": "Adapt Professionally to Digital Transformation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 35,
+    "prompt": "Suggest resources for finding technology applications that support wellbeing (mental/physical health).",
+    "displayText": "Find Tech for Wellbeing Apps",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 36,
+    "prompt": "Suggest ways to learn about assistive technologies and inclusive design principles.",
+    "displayText": "Learn Assistive Tech/Inclusive Design",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 37,
+    "prompt": "Suggest ways technology can be used for social good, environmental causes, or community initiatives.",
+    "displayText": "Use Tech for Social Good",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 38,
+    "prompt": "Suggest best practices for managing personal data privacy and security online.",
+    "displayText": "Manage Personal Data Privacy/Security",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 39,
+    "prompt": "Suggest ways to practice ethical digital consumption (sustainable habits, fair trade tech).",
+    "displayText": "Ethical Digital Consumption",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 40,
+    "prompt": "Suggest strategies for managing online reputation and resisting misinformation.",
+    "displayText": "Manage Online Reputation/Resist Misinformation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 41,
+    "prompt": "Suggest ways to contribute positively to digital communities (open source, knowledge sharing, volunteering).",
+    "displayText": "Contribute to Digital Communities",
+    "isTemplate": false,
+    "type": "do"
+  }
+]

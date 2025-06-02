@@ -1,0 +1,1647 @@
+[
+  {
+    "id": 1,
+    "prompt": "Suggest recipes or ways to use different types of berries (strawberries, blueberries, raspberries).",
+    "displayText": "Berry Recipes/Uses",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 2,
+    "prompt": "Suggest recipes or ways to use citrus fruits (oranges, lemons, limes, grapefruit).",
+    "displayText": "Citrus Fruit Recipes/Uses",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 3,
+    "prompt": "Suggest recipes or ways to use stone fruits (peaches, plums, cherries, mangoes).",
+    "displayText": "Stone Fruit Recipes/Uses",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 4,
+    "prompt": "Suggest recipes or ways to use pome fruits (apples, pears, quince).",
+    "displayText": "Pome Fruit Recipes/Uses",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 5,
+    "prompt": "Suggest recipes or ways to use tropical/exotic fruits (banana, pineapple, kiwi, dragon fruit).",
+    "displayText": "Tropical/Exotic Fruit Recipes/Uses",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 6,
+    "prompt": "Suggest recipes or ways to use different types of melons (watermelon, cantaloupe, honeydew).",
+    "displayText": "Melon Recipes/Uses",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 7,
+    "prompt": "Suggest recipes using dried fruits (raisins, prunes, dates, apricots).",
+    "displayText": "Dried Fruit Recipes/Uses",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 8,
+    "prompt": "Suggest ways to identify or use wild/foraged fruits (pawpaw, persimmon, wild berries).",
+    "displayText": "Identify/Use Wild Fruits",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 9,
+    "prompt": "Suggest recipes or ways to use leafy greens (spinach, kale, collards, chard).",
+    "displayText": "Leafy Green Recipes/Uses",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 10,
+    "prompt": "Suggest recipes featuring cruciferous greens (broccoli, Brussels sprouts, bok choy).",
+    "displayText": "Cruciferous Green Recipes/Uses",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 11,
+    "prompt": "Suggest ways to use common Mediterranean herbs (basil, oregano, rosemary, thyme, sage).",
+    "displayText": "Use Mediterranean Herbs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 12,
+    "prompt": "Suggest ways to use common leafy herbs (parsley, cilantro, dill, chives).",
+    "displayText": "Use Leafy Herbs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 13,
+    "prompt": "Suggest ways to use mint family herbs (peppermint, spearmint, lemon balm, lavender).",
+    "displayText": "Use Mint Family Herbs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 14,
+    "prompt": "Suggest ways to use Asian/Tropical herbs (lemongrass, curry leaf, kaffir lime, shiso).",
+    "displayText": "Use Asian/Tropical Herbs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 15,
+    "prompt": "Suggest ways to identify or use wild/foraged herbs (dandelion, nettle, ramps).",
+    "displayText": "Identify/Use Wild Herbs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 16,
+    "prompt": "Suggest uses for common medicinal or aromatic herbs (chamomile, echinacea, valerian).",
+    "displayText": "Uses for Medicinal/Aromatic Herbs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 17,
+    "prompt": "Suggest ways to use flavoring herbs (fennel, caraway, anise, fenugreek).",
+    "displayText": "Use Flavoring Herbs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 18,
+    "prompt": "Suggest ways to use herbs for salads or garnishes (nasturtium, chervil, salad burnet).",
+    "displayText": "Use Salad/Garnishing Herbs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 19,
+    "prompt": "Suggest recipes featuring red/orange vegetables (carrots, sweet potatoes, red peppers, tomatoes).",
+    "displayText": "Red/Orange Vegetable Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 20,
+    "prompt": "Suggest recipes using starchy vegetables (potatoes, yams, cassava, corn, winter squash).",
+    "displayText": "Starchy Vegetable Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 21,
+    "prompt": "Suggest recipes using beans (black, kidney, pinto), peas, or lentils.",
+    "displayText": "Bean/Pea/Lentil Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 22,
+    "prompt": "Suggest ways to cook with allium vegetables (onions, garlic, leeks, shallots).",
+    "displayText": "Cook with Alliums",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 23,
+    "prompt": "Suggest recipes using non-leafy cruciferous vegetables (cauliflower, cabbage, radish, turnip).",
+    "displayText": "Cruciferous Vegetable Recipes (Non-Leafy)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 24,
+    "prompt": "Suggest recipes featuring stem vegetables (celery, asparagus, rhubarb, fennel).",
+    "displayText": "Stem Vegetable Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 25,
+    "prompt": "Suggest recipes using non-starchy gourds/squashes (zucchini, cucumber, bitter melon).",
+    "displayText": "Gourd/Squash Recipes (Non-Starchy)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 26,
+    "prompt": "Suggest recipes using nightshade vegetables (eggplant, green peppers).",
+    "displayText": "Nightshade Vegetable Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 27,
+    "prompt": "Suggest ways to cook with sea vegetables (seaweed, kelp, nori, wakame).",
+    "displayText": "Cook with Sea Vegetables",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 28,
+    "prompt": "Suggest ways to use sprouts or shoots in cooking.",
+    "displayText": "Use Sprouts/Shoots in Cooking",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 29,
+    "prompt": "Explain the difference between whole grains and refined grains.",
+    "displayText": "Whole vs. Refined Grains",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 30,
+    "prompt": "Suggest recipes or cooking methods for different types of meat (beef, pork, lamb, goat).",
+    "displayText": "Meat Recipes/Cooking Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 31,
+    "prompt": "Suggest recipes or cooking methods for game meats (venison, bison, rabbit).",
+    "displayText": "Game Meat Recipes/Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 32,
+    "prompt": "Suggest recipes or cooking methods for poultry (chicken, turkey, duck).",
+    "displayText": "Poultry Recipes/Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 33,
+    "prompt": "Suggest recipes or cooking methods for finfish (salmon, tuna, cod).",
+    "displayText": "Finfish Recipes/Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 34,
+    "prompt": "Suggest recipes or cooking methods for shellfish (shrimp, crab, lobster, clams, oysters).",
+    "displayText": "Shellfish Recipes/Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 35,
+    "prompt": "Suggest ways to incorporate dairy products into meals.",
+    "displayText": "Use Dairy in Meals",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 36,
+    "prompt": "Suggest different ways to cook eggs.",
+    "displayText": "Ways to Cook Eggs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 37,
+    "prompt": "Suggest recipes using common mushrooms (button, shiitake, portobello, oyster).",
+    "displayText": "Common Mushroom Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 38,
+    "prompt": "Suggest recipes using specialty mushrooms (chanterelles, morels, porcini, truffles).",
+    "displayText": "Specialty Mushroom Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 39,
+    "prompt": "Suggest recipes or resources for exploring North African cuisine (Moroccan, Tunisian).",
+    "displayText": "Explore North African Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 40,
+    "prompt": "Suggest recipes or resources for exploring West African cuisine (Ghanaian, Nigerian, Senegalese).",
+    "displayText": "Explore West African Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 41,
+    "prompt": "Suggest recipes or resources for exploring East African cuisine (Ethiopian, Kenyan, Somali).",
+    "displayText": "Explore East African Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 42,
+    "prompt": "Suggest recipes or resources for exploring Southern African cuisine (South African, Zimbabwean).",
+    "displayText": "Explore Southern African Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 43,
+    "prompt": "Suggest resources for learning about different regional Chinese cuisines (Cantonese, Sichuan, Hunan).",
+    "displayText": "Explore Regional Chinese Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 44,
+    "prompt": "Suggest recipes or resources for exploring Japanese cuisine.",
+    "displayText": "Explore Japanese Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 45,
+    "prompt": "Suggest recipes or resources for exploring Korean cuisine.",
+    "displayText": "Explore Korean Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 46,
+    "prompt": "Suggest recipes or resources for exploring Thai cuisine.",
+    "displayText": "Explore Thai Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 47,
+    "prompt": "Suggest recipes or resources for exploring Vietnamese cuisine.",
+    "displayText": "Explore Vietnamese Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 48,
+    "prompt": "Suggest recipes or resources for exploring Filipino cuisine.",
+    "displayText": "Explore Filipino Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 49,
+    "prompt": "Suggest recipes or resources for exploring Indonesian or Malaysian cuisine.",
+    "displayText": "Explore Indonesian/Malaysian Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 50,
+    "prompt": "Suggest resources for learning about other Southeast Asian cuisines (Cambodian, Laotian, Burmese).",
+    "displayText": "Explore Other SE Asian Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 51,
+    "prompt": "Suggest recipes or resources for exploring Indian cuisine.",
+    "displayText": "Explore Indian Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 52,
+    "prompt": "Suggest recipes or resources for exploring Pakistani or Bangladeshi cuisine.",
+    "displayText": "Explore Pakistani/Bangladeshi Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 53,
+    "prompt": "Suggest recipes or resources for exploring Nepali or Sri Lankan cuisine.",
+    "displayText": "Explore Nepali/Sri Lankan Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 54,
+    "prompt": "Suggest resources for learning about Central Asian cuisines (Uzbek, Kazakh).",
+    "displayText": "Explore Central Asian Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 55,
+    "prompt": "Suggest recipes or resources for exploring Middle Eastern cuisines (Turkish, Lebanese, Persian, Israeli).",
+    "displayText": "Explore Middle Eastern Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 56,
+    "prompt": "Suggest recipes or resources for exploring Italian cuisine.",
+    "displayText": "Explore Italian Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 57,
+    "prompt": "Suggest recipes or resources for exploring Spanish cuisine.",
+    "displayText": "Explore Spanish Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 58,
+    "prompt": "Suggest recipes or resources for exploring Greek cuisine.",
+    "displayText": "Explore Greek Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 59,
+    "prompt": "Suggest recipes or resources for exploring French cuisine.",
+    "displayText": "Explore French Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 60,
+    "prompt": "Suggest recipes or resources for exploring German cuisine.",
+    "displayText": "Explore German Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 61,
+    "prompt": "Suggest recipes or resources for exploring British cuisine.",
+    "displayText": "Explore British Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 62,
+    "prompt": "Suggest resources for learning about Eastern European cuisines (Polish, Russian, Ukrainian).",
+    "displayText": "Explore Eastern European Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 63,
+    "prompt": "Suggest resources for learning about Nordic/Scandinavian cuisines (Swedish, Norwegian, Danish).",
+    "displayText": "Explore Nordic Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 64,
+    "prompt": "Suggest recipes for classic American dishes (burgers, hot dogs, pizza, apple pie).",
+    "displayText": "Classic American Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 65,
+    "prompt": "Suggest recipes or resources for exploring Southern US cuisine (BBQ, Soul Food).",
+    "displayText": "Explore Southern US Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 66,
+    "prompt": "Suggest recipes or resources for exploring Cajun or Creole cuisine.",
+    "displayText": "Explore Cajun/Creole Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 67,
+    "prompt": "Suggest recipes or resources for exploring New England cuisine (clam chowder, lobster).",
+    "displayText": "Explore New England Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 68,
+    "prompt": "Suggest recipes or resources for exploring Midwestern US cuisine (casseroles, comfort food).",
+    "displayText": "Explore Midwestern US Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 69,
+    "prompt": "Suggest recipes or resources for exploring Southwestern US cuisine (Tex-Mex, New Mexican).",
+    "displayText": "Explore Southwestern US Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 70,
+    "prompt": "Suggest resources for learning about Pacific Northwest or California cuisine.",
+    "displayText": "Explore Pacific NW/California Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 71,
+    "prompt": "Suggest resources for learning about Mid-Atlantic cuisine (Chesapeake seafood, NY Deli).",
+    "displayText": "Explore Mid-Atlantic Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 72,
+    "prompt": "Suggest recipes or resources for exploring Hawaiian cuisine (poke, kalua pork).",
+    "displayText": "Explore Hawaiian Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 73,
+    "prompt": "Suggest resources for learning about regional Canadian cuisines (Quebecois, Atlantic).",
+    "displayText": "Explore Canadian Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 74,
+    "prompt": "Suggest recipes or resources for exploring regional Mexican cuisines.",
+    "displayText": "Explore Regional Mexican Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 75,
+    "prompt": "Suggest resources for learning about Central American cuisines (Costa Rican, Guatemalan).",
+    "displayText": "Explore Central American Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 76,
+    "prompt": "Suggest recipes or resources for exploring Brazilian cuisine.",
+    "displayText": "Explore Brazilian Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 77,
+    "prompt": "Suggest recipes or resources for exploring Argentine cuisine.",
+    "displayText": "Explore Argentine Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 78,
+    "prompt": "Suggest recipes or resources for exploring Peruvian cuisine.",
+    "displayText": "Explore Peruvian Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 79,
+    "prompt": "Suggest resources for learning about other South American cuisines (Colombian, Chilean, Venezuelan).",
+    "displayText": "Explore Other South American Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 80,
+    "prompt": "Suggest recipes or resources for exploring Jamaican cuisine.",
+    "displayText": "Explore Jamaican Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 81,
+    "prompt": "Suggest recipes or resources for exploring Cuban cuisine.",
+    "displayText": "Explore Cuban Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 82,
+    "prompt": "Suggest recipes or resources for exploring Puerto Rican or Dominican cuisine.",
+    "displayText": "Explore Puerto Rican/Dominican Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 83,
+    "prompt": "Suggest resources for learning about other Caribbean cuisines (Haitian, Trinidadian).",
+    "displayText": "Explore Other Caribbean Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 84,
+    "prompt": "Suggest resources for learning about Australian or New Zealander cuisine.",
+    "displayText": "Explore Australian/NZ Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 85,
+    "prompt": "Suggest resources for learning about Pacific Islander cuisines.",
+    "displayText": "Explore Pacific Islander Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 86,
+    "prompt": "Suggest resources for learning about Jewish cuisines (Ashkenazi, Sephardic, Mizrahi).",
+    "displayText": "Explore Jewish Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 87,
+    "prompt": "Suggest resources for learning about Roma cuisine.",
+    "displayText": "Explore Roma Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 88,
+    "prompt": "Suggest resources for learning about diaspora cuisines (Chinese, Indian, Italian diaspora).",
+    "displayText": "Explore Diaspora Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 89,
+    "prompt": "Suggest resources for learning about religious/cultural cuisines (Halal, Hindu Vegetarian, Buddhist).",
+    "displayText": "Explore Religious/Cultural Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 90,
+    "prompt": "Suggest resources for learning about Indigenous/First Nations cuisines (Native American, Aboriginal).",
+    "displayText": "Explore Indigenous Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 91,
+    "prompt": "Suggest examples or recipes for fusion cuisines (Creole, Cajun, Peranakan, Tex-Mex).",
+    "displayText": "Explore Fusion Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 92,
+    "prompt": "Suggest resources for learning about historical cuisines (Ancient, Medieval).",
+    "displayText": "Explore Historical Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 93,
+    "prompt": "Suggest resources for learning basic baking techniques (bread, pastry, cakes, cookies).",
+    "displayText": "Learn Basic Baking Techniques",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 94,
+    "prompt": "Suggest resources for learning advanced baking (sourdough, laminated dough, cake decorating).",
+    "displayText": "Learn Advanced Baking Techniques",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 95,
+    "prompt": "Suggest techniques for roasting, grilling, or broiling different foods.",
+    "displayText": "Learn Roasting/Grilling/Broiling",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 96,
+    "prompt": "Suggest resources for learning food smoking or curing techniques.",
+    "displayText": "Learn Smoking/Curing Food",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 97,
+    "prompt": "Suggest techniques for boiling, simmering, steaming, or poaching.",
+    "displayText": "Learn Moist Heat Cooking (Boil, Steam, Poach)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 98,
+    "prompt": "Suggest techniques for braising meats or vegetables.",
+    "displayText": "Learn Braising Techniques",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 99,
+    "prompt": "Suggest resources for learning sous vide or pressure cooking.",
+    "displayText": "Learn Sous Vide/Pressure Cooking",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 100,
+    "prompt": "Suggest techniques for shallow frying, deep frying, or saut\u00e9ing.",
+    "displayText": "Learn Frying Techniques (Shallow, Deep, Saut\u00e9)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 101,
+    "prompt": "Suggest techniques for stir-frying or stewing.",
+    "displayText": "Learn Stir-Frying/Stewing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 102,
+    "prompt": "Suggest resources or classes for improving knife skills.",
+    "displayText": "Improve Knife Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 103,
+    "prompt": "Suggest resources for learning how to make sauces and emulsions.",
+    "displayText": "Learn Sauces/Emulsions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 104,
+    "prompt": "Suggest resources for learning about food fermentation (sauerkraut, kimchi, yogurt).",
+    "displayText": "Learn Food Fermentation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 105,
+    "prompt": "Suggest resources for learning pastry arts or charcuterie.",
+    "displayText": "Learn Pastry Arts/Charcuterie",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 106,
+    "prompt": "Suggest resources or recipes for vegan or vegetarian cooking.",
+    "displayText": "Vegan/Vegetarian Cooking Resources",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 107,
+    "prompt": "Suggest resources or recipes for gluten-free, dairy-free, or nut-free cooking.",
+    "displayText": "Allergy-Friendly Cooking (Gluten/Dairy/Nut)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 108,
+    "prompt": "Suggest resources or recipes for low-sodium or diabetic-friendly cooking.",
+    "displayText": "Low-Sodium/Diabetic-Friendly Cooking",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 109,
+    "prompt": "Explain the difference between simple and complex carbohydrates.",
+    "displayText": "Simple vs. Complex Carbs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 110,
+    "prompt": "Explain the Glycemic Index/Load and how to use it.",
+    "displayText": "Understand Glycemic Index/Load",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 111,
+    "prompt": "Explain the difference between complete and incomplete proteins and provide examples.",
+    "displayText": "Complete vs. Incomplete Proteins",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 112,
+    "prompt": "Explain the different types of dietary fats (saturated, monounsaturated, polyunsaturated, omega-3/6).",
+    "displayText": "Types of Dietary Fats",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 113,
+    "prompt": "Explain the difference between fat-soluble and water-soluble vitamins.",
+    "displayText": "Fat-Soluble vs. Water-Soluble Vitamins",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 114,
+    "prompt": "Suggest food sources for important B vitamins (B1, B2, B3, B6, B9, B12) and Vitamin C.",
+    "displayText": "Food Sources for B Vitamins & Vitamin C",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 115,
+    "prompt": "Suggest food sources for important fat-soluble vitamins (A, D, E, K).",
+    "displayText": "Food Sources for Fat-Soluble Vitamins",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 116,
+    "prompt": "Explain the difference between macrominerals and microminerals/trace minerals.",
+    "displayText": "Macro vs. Micro Minerals",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 117,
+    "prompt": "Suggest food sources for important minerals (Calcium, Iron, Potassium, Magnesium, Zinc).",
+    "displayText": "Food Sources for Important Minerals",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 118,
+    "prompt": "Explain the difference between soluble and insoluble dietary fiber and their benefits.",
+    "displayText": "Soluble vs. Insoluble Fiber",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 119,
+    "prompt": "Suggest resources for learning about specific dietary plans (Keto, Mediterranean, Paleo, Whole30, Vegan).",
+    "displayText": "Learn Specific Dietary Plans",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 120,
+    "prompt": "Explain intuitive eating or macro-based dietary approaches.",
+    "displayText": "Intuitive Eating/Macro-Based Diets",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 121,
+    "prompt": "Explain different methods of intermittent fasting (16:8, OMAD, 5:2).",
+    "displayText": "Intermittent Fasting Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 122,
+    "prompt": "Suggest strategies for effective meal planning and meal prep.",
+    "displayText": "Meal Planning/Prep Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 123,
+    "prompt": "Suggest resources for learning how to read food labels effectively.",
+    "displayText": "Learn to Read Food Labels",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 124,
+    "prompt": "Suggest ways to practice portion control.",
+    "displayText": "Practice Portion Control",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 125,
+    "prompt": "Explain the concept of nutrient density in foods.",
+    "displayText": "Understand Nutrient Density",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 126,
+    "prompt": "Suggest ways to choose sustainable seafood options.",
+    "displayText": "Choose Sustainable Seafood",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 127,
+    "prompt": "Suggest tips for adapting recipes for special dietary needs (gluten-free, dairy-free, etc.).",
+    "displayText": "Adapt Recipes for Dietary Needs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 128,
+    "prompt": "Suggest different types of non-alcoholic beverages besides water (juice, smoothies, tea, coffee).",
+    "displayText": "Explore Non-Alcoholic Beverages",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 129,
+    "prompt": "Suggest resources for learning about tea ceremonies or tea tasting.",
+    "displayText": "Learn About Tea Ceremonies/Tasting",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 130,
+    "prompt": "Explain different coffee bean types (Arabica, Robusta) and brewing methods (drip, French press, cold brew).",
+    "displayText": "Coffee Beans & Brewing Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 131,
+    "prompt": "Suggest common espresso-based coffee drinks (latte, cappuccino, macchiato, mocha).",
+    "displayText": "Common Espresso Drinks",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 132,
+    "prompt": "Suggest different types of plant-based milk alternatives (almond, soy, oat, cashew).",
+    "displayText": "Explore Plant-Based Milks",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 133,
+    "prompt": "Suggest fermented drinks to try (kombucha, kefir, kvass).",
+    "displayText": "Try Fermented Drinks",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 134,
+    "prompt": "Suggest recipes for creating mocktails (non-alcoholic cocktails).",
+    "displayText": "Mocktail Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 135,
+    "prompt": "Suggest resources for learning about different beer styles (ales, lagers, stouts, IPAs).",
+    "displayText": "Learn Beer Styles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 136,
+    "prompt": "Suggest resources for attending beer brewing workshops or tastings.",
+    "displayText": "Attend Beer Brewing/Tasting Events",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 137,
+    "prompt": "Suggest resources for learning about wine tasting, food pairings, or vineyard visits.",
+    "displayText": "Learn Wine Tasting/Pairing/Vineyards",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 138,
+    "prompt": "Explain different types of wine (red, white, ros\u00e9, sparkling, dessert, fortified).",
+    "displayText": "Types of Wine Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 139,
+    "prompt": "Suggest resources for learning about different spirits (vodka, gin, rum, tequila, whiskey, brandy).",
+    "displayText": "Learn About Spirits",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 140,
+    "prompt": "Suggest resources for learning mixology basics or classic cocktail recipes.",
+    "displayText": "Learn Mixology/Classic Cocktails",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 141,
+    "prompt": "Suggest resources for learning about cider or mead.",
+    "displayText": "Learn About Cider/Mead",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 142,
+    "prompt": "Suggest ways to find different types of restaurants in my area (fine dining, casual, ethnic, food trucks).",
+    "displayText": "Find Local Restaurant Types",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 143,
+    "prompt": "Suggest ways to find local food festivals or farmers markets.",
+    "displayText": "Find Food Festivals/Farmers Markets",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 144,
+    "prompt": "Suggest resources for finding cooking schools or classes.",
+    "displayText": "Find Cooking Schools/Classes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 145,
+    "prompt": "Suggest resources for learning about food history or the relationship between food and culture.",
+    "displayText": "Learn Food History/Culture",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 146,
+    "prompt": "Suggest resources for learning dining etiquette for different situations.",
+    "displayText": "Learn Dining Etiquette",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 147,
+    "prompt": "Explain molecular gastronomy concepts and techniques.",
+    "displayText": "Molecular Gastronomy Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 148,
+    "prompt": "Suggest ways to adopt farm-to-table or seasonal eating practices.",
+    "displayText": "Adopt Farm-to-Table/Seasonal Eating",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 149,
+    "prompt": "Suggest strategies for reducing food waste at home.",
+    "displayText": "Reduce Food Waste at Home",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 150,
+    "prompt": "Suggest ways to support local food sourcing or urban farming initiatives.",
+    "displayText": "Support Local Food/Urban Farming",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 151,
+    "prompt": "Suggest resources for learning about sustainable agriculture practices.",
+    "displayText": "Learn Sustainable Agriculture",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 152,
+    "prompt": "Suggest ways to make ethical food choices regarding animal welfare or fair trade.",
+    "displayText": "Make Ethical Food Choices (Welfare/Fair Trade)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 153,
+    "prompt": "Suggest resources for understanding the environmental impact of food production.",
+    "displayText": "Understand Environmental Impact of Food",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 154,
+    "prompt": "Suggest recipes or uses for specific berries like goji, acai, elderberries, or currants.",
+    "displayText": "Specific Berry Recipes (Goji, Acai, etc.)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 155,
+    "prompt": "Suggest ways to use less common citrus fruits like kumquats or pomelos.",
+    "displayText": "Use Kumquats/Pomelos",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 156,
+    "prompt": "Suggest recipes using lychees, olives, or dates.",
+    "displayText": "Lychee/Olive/Date Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 157,
+    "prompt": "Suggest ways to cook with quince, crabapples, or loquats.",
+    "displayText": "Cook with Quince/Crabapples/Loquats",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 158,
+    "prompt": "Suggest recipes for less common tropical fruits like guava, starfruit, jackfruit, or durian.",
+    "displayText": "Exotic Fruit Recipes (Guava, Jackfruit, etc.)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 159,
+    "prompt": "Suggest ways to use different melon varieties like Casaba, Persian, or Winter Melon.",
+    "displayText": "Different Melon Variety Uses",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 160,
+    "prompt": "Suggest ways to make or use cold-pressed juices.",
+    "displayText": "Make/Use Cold-Pressed Juices",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 161,
+    "prompt": "Suggest ways to use specific dried fruits like figs, cranberries, mango, or banana chips.",
+    "displayText": "Use Specific Dried Fruits (Figs, Mango, etc.)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 162,
+    "prompt": "Suggest recipes or uses for specific leafy greens like arugula, watercress, or beet greens.",
+    "displayText": "Recipes for Arugula/Watercress/Beet Greens",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 163,
+    "prompt": "Suggest ways to use specific Mediterranean herbs like marjoram, savory, or tarragon.",
+    "displayText": "Use Marjoram/Savory/Tarragon",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 164,
+    "prompt": "Suggest ways to use specific leafy herbs like chervil, sorrel, lovage, or borage.",
+    "displayText": "Use Chervil/Sorrel/Lovage/Borage",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 165,
+    "prompt": "Suggest uses for lavender, hyssop, or bergamot (bee balm) in cooking or drinks.",
+    "displayText": "Use Lavender/Hyssop/Bergamot",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 166,
+    "prompt": "Suggest ways to use specific Asian herbs like Vietnamese coriander, pandan, or culantro.",
+    "displayText": "Use Rau Ram/Pandan/Culantro",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 167,
+    "prompt": "Suggest ways to use specific wild herbs like chickweed, lamb's quarters, or wood sorrel.",
+    "displayText": "Use Chickweed/Lamb's Quarters/Wood Sorrel",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 168,
+    "prompt": "Suggest ways to use specific flavoring herbs like epazote or juniper.",
+    "displayText": "Use Epazote/Juniper",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 169,
+    "prompt": "Suggest recipes using specific red/orange vegetables like red cabbage or red onions.",
+    "displayText": "Red Cabbage/Red Onion Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 170,
+    "prompt": "Suggest ways to cook with specific tubers like cassava, taro, yucca, or jicama.",
+    "displayText": "Cook Cassava/Taro/Yucca/Jicama",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 171,
+    "prompt": "Suggest ways to use hominy in cooking.",
+    "displayText": "Cook with Hominy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 172,
+    "prompt": "Suggest recipes using acorn squash or buttercup squash.",
+    "displayText": "Acorn/Buttercup Squash Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 173,
+    "prompt": "Suggest ways to cook plantains (green or ripe).",
+    "displayText": "Cook Plantains",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 174,
+    "prompt": "Suggest recipes using specific beans like navy beans, lima beans, or black-eyed peas.",
+    "displayText": "Navy/Lima/Black-Eyed Pea Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 175,
+    "prompt": "Suggest recipes using soybeans or edamame.",
+    "displayText": "Soybean/Edamame Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 176,
+    "prompt": "Suggest recipes using specific peas like snow peas, snap peas, split peas, or pigeon peas.",
+    "displayText": "Snow/Snap/Split/Pigeon Pea Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 177,
+    "prompt": "Suggest recipes using specific lentils like brown, red, green, black, or yellow lentils.",
+    "displayText": "Specific Lentil Recipes (Brown, Red, etc.)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 178,
+    "prompt": "Suggest recipes using kohlrabi or rutabaga.",
+    "displayText": "Kohlrabi/Rutabaga Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 179,
+    "prompt": "Suggest recipes using bamboo shoots or chayote.",
+    "displayText": "Bamboo Shoot/Chayote Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 180,
+    "prompt": "Suggest recipes using specific fungi like enoki or porcini mushrooms.",
+    "displayText": "Enoki/Porcini Mushroom Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 181,
+    "prompt": "Suggest resources for learning about Mongolian cuisine.",
+    "displayText": "Explore Mongolian Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 182,
+    "prompt": "Suggest resources for learning about Singaporean or Brunei cuisine.",
+    "displayText": "Explore Singaporean/Brunei Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 183,
+    "prompt": "Suggest resources for learning about Cambodian, Laotian, or Burmese cuisine.",
+    "displayText": "Explore Cambodian/Laotian/Burmese Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 184,
+    "prompt": "Suggest resources for learning about Tajikistani or Turkmenistani cuisine.",
+    "displayText": "Explore Tajikistani/Turkmenistani Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 185,
+    "prompt": "Suggest resources for learning about specific US BBQ styles (e.g., Carolina, Kansas City, Texas).",
+    "displayText": "Explore Regional US BBQ Styles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 186,
+    "prompt": "Suggest classic Soul Food recipes (fried chicken, collards, cornbread, gumbo).",
+    "displayText": "Classic Soul Food Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 187,
+    "prompt": "Suggest classic Cajun recipes (crawfish boil, jambalaya, \u00e9touff\u00e9e, blackened dishes).",
+    "displayText": "Classic Cajun Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 188,
+    "prompt": "Suggest classic Creole recipes (shrimp creole, red beans & rice, beignets).",
+    "displayText": "Classic Creole Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 189,
+    "prompt": "Suggest recipes typical of Midwestern hotdish or comfort food.",
+    "displayText": "Midwestern Hotdish/Comfort Food Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 190,
+    "prompt": "Suggest recipes featuring green chiles or other New Mexican specialties.",
+    "displayText": "New Mexican Recipes (Green Chile)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 191,
+    "prompt": "Suggest recipes for Navajo tacos or other Native American influenced Southwestern dishes.",
+    "displayText": "Navajo Tacos & SW Native Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 192,
+    "prompt": "Suggest recipes featuring Chesapeake Bay seafood (crab cakes, etc.).",
+    "displayText": "Chesapeake Bay Seafood Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 193,
+    "prompt": "Suggest classic New York Deli or Philadelphia fare recipes.",
+    "displayText": "NY Deli / Philadelphia Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 194,
+    "prompt": "Suggest recipes featuring poke, Spam musubi, or plate lunch from Hawaii.",
+    "displayText": "Classic Hawaiian Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 195,
+    "prompt": "Suggest resources for learning about Belizean or Panamanian cuisine.",
+    "displayText": "Explore Belizean/Panamanian Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 196,
+    "prompt": "Suggest resources for learning about Colombian, Chilean, or Venezuelan cuisine.",
+    "displayText": "Explore Colombian/Chilean/Venezuelan Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 197,
+    "prompt": "Suggest resources for learning about Ecuadorian, Bolivian, or Uruguayan cuisine.",
+    "displayText": "Explore Ecuadorian/Bolivian/Uruguayan Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 198,
+    "prompt": "Suggest resources for learning about Guyanese or Surinamese cuisine.",
+    "displayText": "Explore Guyanese/Surinamese Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 199,
+    "prompt": "Suggest resources for learning about Haitian or Trinidadian cuisine.",
+    "displayText": "Explore Haitian/Trinidadian Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 200,
+    "prompt": "Suggest resources for learning about lesser-known Caribbean cuisines (Anguilla, Aruba, Bermuda).",
+    "displayText": "Explore Lesser-Known Caribbean Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 201,
+    "prompt": "Suggest resources for learning about S\u00e1mi or Maori cuisine.",
+    "displayText": "Explore S\u00e1mi/Maori Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 202,
+    "prompt": "Suggest resources for learning about Peranakan or Indo-Chinese cuisine.",
+    "displayText": "Explore Peranakan/Indo-Chinese Cuisine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 203,
+    "prompt": "Suggest resources for learning about Ancient Mesopotamian or Egyptian cuisine.",
+    "displayText": "Explore Ancient Mesopotamian/Egyptian Food",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 204,
+    "prompt": "Suggest resources for learning sourdough bread making.",
+    "displayText": "Learn Sourdough Baking",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 205,
+    "prompt": "Suggest resources for learning how to make specific French pastries (croissants, macarons, \u00e9clairs).",
+    "displayText": "Learn French Pastry Techniques",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 206,
+    "prompt": "Suggest resources for learning cake decorating with fondant or buttercream.",
+    "displayText": "Learn Cake Decorating (Fondant/Buttercream)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 207,
+    "prompt": "Suggest resources for learning chocolate work (tempering, molding).",
+    "displayText": "Learn Chocolate Work",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 208,
+    "prompt": "Suggest tips for successful gluten-free or vegan baking.",
+    "displayText": "Gluten-Free/Vegan Baking Tips",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 209,
+    "prompt": "Explain the different functions of protein in the body (tissue building, enzymes, etc.).",
+    "displayText": "Functions of Protein",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 210,
+    "prompt": "List the essential amino acids and explain why they are essential.",
+    "displayText": "Essential Amino Acids",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 211,
+    "prompt": "Suggest ways to combine incomplete proteins to make a complete protein meal (e.g., rice and beans).",
+    "displayText": "Protein Combining Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 212,
+    "prompt": "Explain the importance of Omega-3 and Omega-6 fatty acids and suggest food sources.",
+    "displayText": "Omega-3 & Omega-6 Fatty Acids",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 213,
+    "prompt": "Explain the roles of specific vitamins like Vitamin D, Vitamin K, or Folate (B9).",
+    "displayText": "Roles of Specific Vitamins (D, K, Folate)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 214,
+    "prompt": "Explain the roles of specific minerals like Phosphorus, Sodium, Iodine, or Selenium.",
+    "displayText": "Roles of Specific Minerals (Phosphorus, Iodine)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 215,
+    "prompt": "Suggest resources for learning about the Carnivore Diet or Low FODMAP diet.",
+    "displayText": "Learn Carnivore/Low FODMAP Diets",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 216,
+    "prompt": "Suggest resources for learning about the DASH diet.",
+    "displayText": "Learn About the DASH Diet",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 217,
+    "prompt": "Explain how different cooking methods affect the nutritional value of food.",
+    "displayText": "Cooking Methods & Nutrition",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 218,
+    "prompt": "Suggest resources for learning about the Pescatarian diet.",
+    "displayText": "Learn About Pescatarian Diet",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 219,
+    "prompt": "Suggest ways to incorporate more sparkling or mineral water into hydration habits.",
+    "displayText": "Incorporate Sparkling/Mineral Water",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 220,
+    "prompt": "Suggest resources for learning herbal tea blending.",
+    "displayText": "Learn Herbal Tea Blending",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 221,
+    "prompt": "Explain the differences between black, green, white, and oolong tea processing and flavor.",
+    "displayText": "Tea Types Explained (Black, Green, White)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 222,
+    "prompt": "Suggest resources for learning specific coffee brewing methods like AeroPress, Chemex, or Siphon.",
+    "displayText": "Learn Specific Coffee Brewing (AeroPress, etc.)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 223,
+    "prompt": "Explain the difference between espresso drinks like Cortado, Flat White, and Macchiato.",
+    "displayText": "Espresso Drink Differences (Cortado, Flat White)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 224,
+    "prompt": "Suggest recipes for specialty coffee drinks like Turkish, Vietnamese, or Irish coffee.",
+    "displayText": "Specialty Coffee Recipes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 225,
+    "prompt": "Explain the differences between various sports drinks and their uses.",
+    "displayText": "Sports Drinks Explained",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 226,
+    "prompt": "Suggest resources for learning how to make kombucha, kefir, or kvass at home.",
+    "displayText": "Home Fermented Drinks (Kombucha, Kefir)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 227,
+    "prompt": "Suggest non-alcoholic beer or de-alcoholized wine options.",
+    "displayText": "Non-Alcoholic Beer/Wine Options",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 228,
+    "prompt": "Explain the characteristics of specific beer styles like Wheat beers, Lambics, Sours, or Porters.",
+    "displayText": "Specific Beer Styles Explained (Wheat, Sour)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 229,
+    "prompt": "Explain the characteristics of specific wine types like Orange wine, Natural wine, or Sake.",
+    "displayText": "Specific Wine Types Explained (Orange, Natural)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 230,
+    "prompt": "Suggest resources for learning about specific spirits like Mezcal, Absinthe, or Aquavit.",
+    "displayText": "Learn About Specific Spirits (Mezcal, etc.)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 231,
+    "prompt": "Suggest resources for learning about drinking culture in different regions.",
+    "displayText": "Learn About Drinking Cultures",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 232,
+    "prompt": "Suggest ways to find Cafes, Pubs, Gastropubs, or Buffets in my area.",
+    "displayText": "Find Cafes/Pubs/Buffets",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 233,
+    "prompt": "Suggest ways to find Chef's Table experiences or unique dining events.",
+    "displayText": "Find Chef's Table/Unique Dining",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 234,
+    "prompt": "Suggest resources for learning about ethical sourcing in food production.",
+    "displayText": "Learn Ethical Food Sourcing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 235,
+    "prompt": "Suggest resources for learning about urban farming techniques or initiatives.",
+    "displayText": "Learn Urban Farming",
+    "isTemplate": false,
+    "type": "do"
+  }
+]

@@ -1,0 +1,293 @@
+"Suggest ways to start writing poetry (different forms like haiku, sonnet, free verse)."
+"Start Writing Poetry"
+
+"Suggest resources for learning about different poetry forms (epic, lyric, narrative)."
+"Learn Poetry Forms"
+
+"Suggest ways to get involved in slam poetry or find open mic nights."
+"Get Involved in Slam Poetry"
+
+"Suggest tips for writing short stories or novellas."
+"Write Short Stories/Novellas"
+
+"Suggest ideas or prompts for writing different types of novels (sci-fi, fantasy, mystery, romance)."
+"Novel Writing Ideas/Prompts"
+
+"Suggest resources for writing essays, biographies, or memoirs."
+"Write Essays/Biographies/Memoirs"
+
+"Suggest resources for learning how to create graphic novels or comics (including manga)."
+"Create Graphic Novels/Comics"
+
+"Suggest ways to learn about playwriting or screenwriting."
+"Learn Playwriting/Screenwriting"
+
+"Suggest beginner drawing exercises using pencil, charcoal, or pen & ink."
+"Beginner Drawing Exercises"
+
+"Suggest resources for learning pastel or colored pencil drawing techniques."
+"Learn Pastel/Colored Pencil Drawing"
+
+"Suggest ways to get started with digital drawing or animation."
+"Get Started with Digital Drawing/Animation"
+
+"Suggest beginner projects for watercolor, oil, or acrylic painting."
+"Beginner Painting Projects (Watercolor, Oil, Acrylic)"
+
+"Suggest resources for learning other painting techniques (tempera, fresco, ink wash, airbrush)."
+"Learn Other Painting Techniques"
+
+"Suggest ways to get started with digital painting."
+"Get Started with Digital Painting"
+
+"Suggest resources for learning printmaking techniques (woodcut, linocut, etching, screen printing)."
+"Learn Printmaking Techniques"
+
+"Suggest tips for improving landscape, portrait, or street photography."
+"Improve Photography (Landscape, Portrait, Street)"
+
+"Suggest resources for learning specialized photography (fashion, sports, wildlife, architectural, astro)."
+"Learn Specialized Photography"
+
+"Suggest ways to get started with black & white or mobile photography."
+"Start B&W/Mobile Photography"
+
+"Suggest resources for learning mosaic art (glass, tile, stone)."
+"Learn Mosaic Art"
+
+"Suggest resources for learning calligraphy or brush lettering (Western, Eastern, Modern)."
+"Learn Calligraphy/Lettering"
+
+"Suggest resources for learning about different architectural styles (Classical, Gothic, Modern, Contemporary)."
+"Learn Architectural Styles"
+
+"Suggest ways to get involved in landscape architecture, urban planning, or sustainable design."
+"Explore Landscape Architecture/Urban Planning"
+
+"Suggest resources for learning pottery techniques (hand-building, wheel throwing, glazing, firing)."
+"Learn Pottery Techniques"
+
+"Suggest ways to get started with ceramics (sculptural, functional tableware, tile making)."
+"Get Started with Ceramics"
+
+"Suggest resources for learning sculpture techniques (carving, modeling, casting, assemblage, welding)."
+"Learn Sculpture Techniques"
+
+"Suggest ideas for creating kinetic, land art, or light sculptures."
+"Kinetic/Land/Light Sculpture Ideas"
+
+"Suggest resources for learning textile arts like weaving, knitting, or crocheting."
+"Learn Weaving/Knitting/Crocheting"
+
+"Suggest resources for learning embroidery, quilting, felting, or fabric dyeing/printing."
+"Learn Embroidery/Quilting/Felting/Dyeing"
+
+"Suggest resources for learning macrame, tapestry, lace making, or basketry."
+"Learn Macrame/Tapestry/Lace/Basketry"
+
+"Explain conceptual art and its different forms (idea-based, language-based, performance, installation)."
+"Understand Conceptual Art"
+
+"Suggest ways to explore different genres of classical music (Baroque, Classical, Romantic, Modern)."
+"Explore Classical Music Genres"
+
+"Suggest artists or albums to explore in folk, blues, or bluegrass music."
+"Explore Folk/Blues/Bluegrass Music"
+
+"Suggest artists or subgenres to explore in country music (Classic, Rock, Pop, Americana)."
+"Explore Country Music Subgenres"
+
+"Suggest artists or subgenres to explore in rock music (Classic, Hard, Alternative, Indie, Psychedelic)."
+"Explore Rock Music Subgenres"
+
+"Suggest artists or subgenres to explore in punk music (Punk, Post-Punk, Hardcore, Pop Punk)."
+"Explore Punk Music Subgenres"
+
+"Suggest artists or subgenres to explore in pop music (Dance Pop, Indie Pop)."
+"Explore Pop Music Subgenres"
+
+"Suggest artists or subgenres to explore in gospel, soul, or R&B music."
+"Explore Gospel/Soul/R&B Music"
+
+"Suggest artists or subgenres to explore in jazz music (Dixieland, Swing, Bebop, Cool, Fusion)."
+"Explore Jazz Music Subgenres"
+
+"Suggest artists or subgenres to explore in funk music."
+"Explore Funk Music"
+
+"Suggest artists or subgenres to explore in hip hop music (Old School, Golden Age, Conscious, Gangsta)."
+"Explore Hip Hop Subgenres"
+
+"Suggest artists or subgenres to explore in electronic music (Trap, EDM, House, Techno, Synth Pop)."
+"Explore Electronic Music Genres"
+
+"Suggest artists or subgenres to explore in reggae music (Roots, Dancehall, Dub)."
+"Explore Reggae Music Subgenres"
+
+"Suggest ways to find live music events, concerts, festivals, or open mic nights."
+"Find Live Music Events"
+
+"Suggest resources for learning different dance styles (Modern, Contemporary, Jazz, Tap, Hip Hop, Ballroom)."
+"Learn Dance Styles"
+
+"Suggest ways to find theater performances (drama, comedy, musicals)."
+"Find Theater Performances"
+
+"Suggest resources for learning improvisational or physical theater."
+"Learn Improv/Physical Theater"
+
+"Suggest ways to learn acrobatics, ballet, or circus skills (juggling, aerial arts)."
+"Learn Acrobatics/Ballet/Circus Skills"
+
+"Suggest resources for learning magic (close-up, stage illusions, mentalism)."
+"Learn Magic Tricks"
+
+"Suggest ways to learn mime or puppetry."
+"Learn Mime/Puppetry"
+
+"Suggest resources for learning about opera or finding performances."
+"Learn About/Find Opera"
+
+"Suggest ways to improve public speaking or storytelling skills."
+"Improve Public Speaking/Storytelling"
+
+"Suggest ways to get started with stand-up comedy or find open mics."
+"Get Started with Stand-Up Comedy"
+
+"Suggest resources for learning fashion design (Haute Couture, Ready-to-Wear, Streetwear)."
+"Learn Fashion Design"
+
+"Suggest resources for learning costume design, accessory design, or jewelry design."
+"Learn Costume/Accessory/Jewelry Design"
+
+"Suggest resources for learning pattern making, draping, or garment construction."
+"Learn Garment Construction Skills"
+
+"Suggest ways to learn about filmmaking, screenwriting, or documentary making."
+"Learn Filmmaking/Screenwriting"
+
+"Suggest resources for exploring experimental film or creating music videos."
+"Explore Experimental Film/Music Videos"
+
+"Suggest resources for learning about new media art (interactive, generative, AI, VR, AR)."
+"Learn New Media Art"
+
+"Suggest resources for learning video art, sound art, or net art."
+"Learn Video/Sound/Net Art"
+
+"Suggest resources for learning automotive, industrial, or product design."
+"Learn Automotive/Industrial/Product Design"
+
+"Suggest resources for learning interior design, furniture design, or lighting design."
+"Learn Interior/Furniture/Lighting Design"
+
+"Suggest resources for learning graphic design (branding, publication, advertising, web/UI/UX)."
+"Learn Graphic Design"
+
+"Suggest resources for learning information design or motion graphics."
+"Learn Information Design/Motion Graphics"
+
+"Suggest resources for learning cartographic design (map making)."
+"Learn Map Design"
+
+"Suggest beginner craft projects (woodworking, jewelry, candle/soap making, bookbinding)."
+"Beginner Craft Projects"
+
+"Suggest resources for learning sewing, knitting, needlecrafts, or decorative painting."
+"Learn Sewing/Knitting/Needlecrafts"
+
+"Suggest resources for learning glass art (stained glass, glassblowing) or paper crafts (origami, scrapbooking)."
+"Learn Glass Art/Paper Crafts"
+
+"Give me ideas for a creative project I can start."
+"Creative project ideas"
+
+"Suggest me some beginner-friendly art projects"
+"Beginner art projects"
+
+"How can I develop my creative writing skills?"
+"Creative writing development"
+
+"What are some ways to overcome creative blocks?"
+"Overcoming creative blocks"
+
+"Explain the creative process behind writing poetry."
+"Understand the Poetry Writing Process"
+
+"Suggest methods for learning the creative process of novel writing."
+"Learn the Novel Writing Process"
+
+"Explain the creative process involved in creating graphic novels or comics."
+"Understand the Graphic Novel/Comic Process"
+
+"Suggest methods for learning the creative process of playwriting."
+"Learn the Playwriting Process"
+
+"Explain the typical creative process for drawing or sketching."
+"Understand the Drawing/Sketching Process"
+
+"Suggest methods for learning the creative process of painting (e.g., oil, acrylic, watercolor)."
+"Learn the Painting Process"
+
+"Explain the creative process behind different printmaking techniques."
+"Understand the Printmaking Process"
+
+"Suggest methods for understanding the creative process in photography (from concept to final image)."
+"Learn the Photographic Creative Process"
+
+"Explain the creative process involved in designing and creating mosaics."
+"Understand the Mosaic Creation Process"
+
+"Suggest methods for learning the creative process of calligraphy and letter art design."
+"Learn the Calligraphy Design Process"
+
+"Explain the creative design process in architecture."
+"Understand the Architectural Design Process"
+
+"Suggest methods for learning the creative process of pottery and ceramics."
+"Learn the Pottery/Ceramics Process"
+
+"Explain the creative process behind different sculpting techniques (carving, modeling, casting)."
+"Understand the Sculpting Process"
+
+"Suggest methods for learning the creative process in textile arts (weaving, knitting, dyeing)."
+"Learn the Textile Arts Process"
+
+"Explain the creative process behind conceptual art."
+"Understand the Conceptual Art Process"
+
+"Suggest methods for learning the creative process of music composition or songwriting."
+"Learn Music Composition/Songwriting Process"
+
+"Explain the creative process involved in choreographing dance."
+"Understand the Choreography Process"
+
+"Suggest methods for learning the creative process behind theatrical production (directing, design)."
+"Learn the Theater Production Process"
+
+"Explain the creative process of developing a stand-up comedy routine."
+"Understand the Stand-Up Comedy Writing Process"
+
+"Suggest methods for learning the creative process of fashion design (concept to collection)."
+"Learn the Fashion Design Process"
+
+"Explain the creative process behind filmmaking (pre-production, production, post-production)."
+"Understand the Filmmaking Process"
+
+"Suggest methods for learning the creative process in new media art (interactive, generative)."
+"Learn the New Media Art Process"
+
+"Explain the creative process in industrial design or product design."
+"Understand the Industrial/Product Design Process"
+
+"Suggest methods for learning the creative process of interior design."
+"Learn the Interior Design Process"
+
+"Explain the creative process involved in furniture design."
+"Understand the Furniture Design Process"
+
+"Suggest methods for learning the creative process of graphic design (branding, layout)."
+"Learn the Graphic Design Process"
+
+"Explain the creative process behind various crafts (woodworking, jewelry making, etc.)."
+"Understand Crafting Processes"

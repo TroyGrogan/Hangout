@@ -1,0 +1,5839 @@
+{
+  "id": 92,
+  "name": "Travel, Nature, and Adventure",
+  "icon": "🌍",
+  "subcategories": [
+    {
+      "name": "Local Exploration",
+      "icon": "📍",
+      "subcategories": [
+        {
+          "name": "Day Trips & Excursions",
+          "icon": "🚗",
+          "subcategories": [
+            {
+              "name": "Urban Exploration",
+              "icon": "🏙️",
+              "subcategories": [
+                {
+                  "name": "City Walking Tours",
+                  "icon": "🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Urban Photography Walks",
+                  "icon": "📸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Historical District Visits",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Architectural Tours",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Street Art Exploration",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Neighborhood Discovery",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Urban Park Visits",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "City Viewpoint Treks",
+                  "icon": "🏙️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Countryside Journeys",
+              "icon": "🏞️",
+              "subcategories": [
+                {
+                  "name": "Scenic Drives",
+                  "icon": "🚗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rural Town Visits",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Farmland Exploration",
+                  "icon": "🌾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Countryside Cycling",
+                  "icon": "🚴‍♂️🚴‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Country Markets",
+                  "icon": "🛒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Agricultural Tourism",
+                  "icon": "🚜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Small Town Cultural Events",
+                  "icon": "🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Historic Site Visits",
+                  "icon": "🏛️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Natural Area Day Trips",
+              "icon": "🌲",
+              "subcategories": [
+                {
+                  "name": "Local Hiking Trails",
+                  "icon": "🚶‍♂️🚶‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Waterfall Visits",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Scenic Viewpoints",
+                  "icon": "🌄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nature Reserve Explorations",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Beach Days",
+                  "icon": "🏖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lake Visits",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "River Excursions",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wildlife Observation Areas",
+                  "icon": "🔭",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Cultural Immersions",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "Local Museum Visits",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Art Gallery Tours",
+                  "icon": "🖼️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Center Experiences",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Heritage Site Exploration",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Festival Attendance",
+                  "icon": "🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Performances",
+                  "icon": "🎭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Food & Culinary Tours",
+                  "icon": "🍽️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Artisan & Craft Demonstrations",
+                  "icon": "🛠️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Weekend Getaways",
+          "icon": "📅",
+          "subcategories": [
+            {
+              "name": "Nearby Destinations",
+              "icon": "🏘️",
+              "subcategories": [
+                {
+                  "name": "Small Towns",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Resort Areas",
+                  "icon": "🏨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lakeside Retreats",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mountain Cabins",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coastal Escapes",
+                  "icon": "🏖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wine Country Weekends",
+                  "icon": "🍇",
+                  "subcategories": []
+                },
+                {
+                  "name": "Desert Retreats",
+                  "icon": "🏜️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Forest Hideaways",
+                  "icon": "🌲",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Themed Mini-Trips",
+              "icon": "🎉",
+              "subcategories": [
+                {
+                  "name": "Wellness Weekends",
+                  "icon": "🧘‍♀️🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Romantic Escapes",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Family Adventure Trips",
+                  "icon": "👨‍👩‍👧‍👦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Solo Retreats",
+                  "icon": "🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Friend Group Getaways",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Creative Inspiration Journeys",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Outdoor Adventure Weekends",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Immersion Stays",
+                  "icon": "🏛️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Seasonal Experiences",
+              "icon": "☀️",
+              "subcategories": [
+                {
+                  "name": "Spring Flower Viewing",
+                  "icon": "🌸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Summer Water Adventures",
+                  "icon": "🌊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fall Foliage Trips",
+                  "icon": "🍂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Winter Wonderland Visits",
+                  "icon": "❄️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Harvest Season Experiences",
+                  "icon": "🌾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Festival Season Journeys",
+                  "icon": "🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Holiday Themed Getaways",
+                  "icon": "🎄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seasonal Wildlife Viewing",
+                  "icon": "🦌",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Local Retreats",
+              "icon": "🧘‍♂️🧘‍♀️",
+              "subcategories": [
+                {
+                  "name": "Meditation Retreats",
+                  "icon": "🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Yoga Weekends",
+                  "icon": "🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nature Immersion Programs",
+                  "icon": "🌲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Spiritual Centers",
+                  "icon": "🙏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Writer's Retreats",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Artist Colonies",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Detox Stays",
+                  "icon": "🔌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Silent Retreats",
+                  "icon": "🤫",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Regional Exploration",
+          "icon": "🗺️",
+          "subcategories": [
+            {
+              "name": "Regional Road Trips",
+              "icon": "🚗",
+              "subcategories": [
+                {
+                  "name": "Scenic Byways",
+                  "icon": "🛣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Historic Routes",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coastal Highways",
+                  "icon": "🌊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mountain Passes",
+                  "icon": "⛰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Desert Journeys",
+                  "icon": "🏜️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cross-State Expeditions",
+                  "icon": "🇺🇸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Themed Route Explorations",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Off-the-Beaten-Path Discoveries",
+                  "icon": "🗺️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Regional Natural Wonders",
+              "icon": "🏞️",
+              "subcategories": [
+                {
+                  "name": "State/Provincial Parks",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Regional Mountains",
+                  "icon": "⛰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Notable Lakes & Rivers",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Canyons & Valleys",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Unique Ecosystems",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Regional Geological Features",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seasonal Natural Phenomena",
+                  "icon": "☀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Regional Wildlife Habitats",
+                  "icon": "🦌",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Regional Cultural Heritage",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "Indigenous Cultural Sites",
+                  "icon": "🏹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Regional Historical Landmarks",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Architectural Wonders",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Heritage Routes",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Regional Museums",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Historical Events",
+                  "icon": "🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Regional Crafts & Traditions",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Culinary Specialties",
+                  "icon": "🍽️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Unique Local Experiences",
+              "icon": "💎",
+              "subcategories": [
+                {
+                  "name": "Hidden Gems",
+                  "icon": "💎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Favorites",
+                  "icon": "⭐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Insider Experiences",
+                  "icon": "🤫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Events",
+                  "icon": "🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seasonal Traditions",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Regional Celebrations",
+                  "icon": "🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Sporting Events",
+                  "icon": "⚽",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Gatherings",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mindful Local Experiences",
+          "icon": "🧘‍♂️🧘‍♀️",
+          "subcategories": [
+            {
+              "name": "Slow Travel Approaches",
+              "icon": "🚶‍♂️",
+              "subcategories": [
+                {
+                  "name": "Walking Pilgrimages",
+                  "icon": "🚶‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mindful Sightseeing",
+                  "icon": "🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Deep Local Immersion",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Single Destination Focus",
+                  "icon": "📍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Relationship Building with Place",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sensory Exploration",
+                  "icon": "👂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Present-Moment Tourism",
+                  "icon": "🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Contemplative Travel",
+                  "icon": "🧘‍♀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Community Connection",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Local Guide Partnerships",
+                  "icon": "🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community-Led Tours",
+                  "icon": "🚶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Exchange Programs",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Homestay Experiences",
+                  "icon": "🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Friend Connections",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Event Participation",
+                  "icon": "🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Market Relationships",
+                  "icon": "🛒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Neighborhood Integration",
+                  "icon": "🏘️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Sustainable Local Tourism",
+              "icon": "🌱",
+              "subcategories": [
+                {
+                  "name": "Low-Impact Visits",
+                  "icon": "👣",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Transportation Journeys",
+                  "icon": "🚌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Car-Free Explorations",
+                  "icon": "🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Economy Support",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Environmental Conservation Tourism",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Benefit Tourism",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Regenerative Travel Practices",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ethical Wildlife Viewing",
+                  "icon": "🦌",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "International Travel",
+      "icon": "✈️",
+      "subcategories": [
+        {
+          "name": "Global Destinations",
+          "icon": "🌍",
+          "subcategories": [
+            {
+              "name": "Continental Exploration",
+              "icon": "🗺️",
+              "subcategories": [
+                {
+                  "name": "North America",
+                  "icon": "🌎",
+                  "subcategories": [
+                    {
+                      "name": "USA Regions",
+                      "icon": "🇺🇸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Canadian Provinces",
+                      "icon": "🇨🇦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mexican States",
+                      "icon": "🇲🇽",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Caribbean Islands",
+                      "icon": "🏝️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Central American Nations",
+                      "icon": "🌎",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "South America",
+                  "icon": "🌎",
+                  "subcategories": [
+                    {
+                      "name": "Andean Countries",
+                      "icon": "⛰️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Southern Cone",
+                      "icon": "🌎",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Amazon Basin",
+                      "icon": "🌳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Coastal Regions",
+                      "icon": "🏖️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Europe",
+                  "icon": "🇪🇺",
+                  "subcategories": [
+                    {
+                      "name": "Western Europe",
+                      "icon": "🇪🇺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Eastern Europe",
+                      "icon": "🇪🇺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Northern/Nordic Countries",
+                      "icon": "🌍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mediterranean Nations",
+                      "icon": "🏖️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "British Isles",
+                      "icon": "🇬🇧",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Asia",
+                  "icon": "🌏",
+                  "subcategories": [
+                    {
+                      "name": "East Asia",
+                      "icon": "🌏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Southeast Asia",
+                      "icon": "🌏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "South Asia",
+                      "icon": "🌏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Central Asia",
+                      "icon": "🌏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Middle East",
+                      "icon": "🌏",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Africa",
+                  "icon": "🌍",
+                  "subcategories": [
+                    {
+                      "name": "North Africa",
+                      "icon": "🌍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "East Africa",
+                      "icon": "🌍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "West Africa",
+                      "icon": "🌍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Southern Africa",
+                      "icon": "🌍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Central Africa",
+                      "icon": "🌍",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Oceania",
+                  "icon": "🌏",
+                  "subcategories": [
+                    {
+                      "name": "Australia",
+                      "icon": "🇦🇺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "New Zealand",
+                      "icon": "🇳🇿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pacific Islands",
+                      "icon": "🏝️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Melanesia",
+                      "icon": "🏝️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Polynesia",
+                      "icon": "🏝️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Polar Regions",
+                  "icon": "❄️",
+                  "subcategories": [
+                    {
+                      "name": "Antarctica",
+                      "icon": "🇦🇶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Arctic",
+                      "icon": "❄️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Polar Expeditions",
+                      "icon": "🚢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Scientific Bases",
+                      "icon": "🔬",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Geographical Experiences",
+              "icon": "⛰️",
+              "subcategories": [
+                {
+                  "name": "Mountain Destinations",
+                  "icon": "⛰️",
+                  "subcategories": [
+                    {
+                      "name": "Major Mountain Ranges",
+                      "icon": "⛰️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Alpine Regions",
+                      "icon": "⛰️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Himalayan Adventures",
+                      "icon": "🏔️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Volcanic Landscapes",
+                      "icon": "🌋",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Highland Cultures",
+                      "icon": "🏘️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Desert Journeys",
+                  "icon": "🏜️",
+                  "subcategories": [
+                    {
+                      "name": "Major Deserts",
+                      "icon": "🏜️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Desert Communities",
+                      "icon": "🏘️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Desert Ecology",
+                      "icon": "🌵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ancient Desert Civilizations",
+                      "icon": "🏛️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Desert Night Experiences",
+                      "icon": "🌌",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Island Explorations",
+                  "icon": "🏝️",
+                  "subcategories": [
+                    {
+                      "name": "Tropical Islands",
+                      "icon": "🏝️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Volcanic Islands",
+                      "icon": "🌋",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cultural Island Groups",
+                      "icon": "🏘️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Remote Island Communities",
+                      "icon": "🏝️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Island Hopping",
+                      "icon": "🏝️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Coastal Experiences",
+                  "icon": "🏖️",
+                  "subcategories": [
+                    {
+                      "name": "Seaside Communities",
+                      "icon": "🏘️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Coastal Geological Features",
+                      "icon": "🌊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Marine Protected Areas",
+                      "icon": "🐠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Maritime Cultures",
+                      "icon": "🚢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tropical Coastlines",
+                      "icon": "🏖️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "River & Lake Travel",
+                  "icon": "🏞️",
+                  "subcategories": [
+                    {
+                      "name": "Major River Journeys",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Lake Destinations",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Waterway Cultures",
+                      "icon": "🏘️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ancient River Civilizations",
+                      "icon": "🏛️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Watershed Explorations",
+                      "icon": "🌊",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Cultural Heritage Sites",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "World Heritage Destinations",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ancient Civilizations",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Religious & Spiritual Centers",
+                  "icon": "🙏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Historical Cities",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Architectural Wonders",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Landscapes",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Living Cultural Traditions",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indigenous Cultural Sites",
+                  "icon": "🏹",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Themed International Journeys",
+              "icon": "🗺️",
+              "subcategories": [
+                {
+                  "name": "Culinary Travel",
+                  "icon": "🍽️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Art & Architecture Tours",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Historical Routes",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Literary Journeys",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Music & Festival Travel",
+                  "icon": "🎵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Spiritual Pilgrimages",
+                  "icon": "🙏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Scientific Expeditions",
+                  "icon": "🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Photography Journeys",
+                  "icon": "📸",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Travel Planning & Logistics",
+          "icon": "✈️",
+          "subcategories": [
+            {
+              "name": "Trip Research & Design",
+              "icon": "🗺️",
+              "subcategories": [
+                {
+                  "name": "Destination Research",
+                  "icon": "🔎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trip Itinerary Creation",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Travel Literature Review",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Travel Community Engagement",
+                  "icon": "💬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Expert Consultation",
+                  "icon": "🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Personalized Trip Design",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Travel Philosophy Development",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Purpose-Driven Travel Planning",
+                  "icon": "🎯",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Travel Preparation",
+              "icon": "🎒",
+              "subcategories": [
+                {
+                  "name": "Physical Preparation",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Preparation",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Language Learning",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Health & Vaccination Planning",
+                  "icon": "💉",
+                  "subcategories": []
+                },
+                {
+                  "name": "International Documentation",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Financial Planning",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Packing Strategies",
+                  "icon": "🎒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Nomad Preparation",
+                  "icon": "💻",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Transportation Options",
+              "icon": "🚌",
+              "subcategories": [
+                {
+                  "name": "Air Travel",
+                  "icon": "✈️",
+                  "subcategories": [
+                    {
+                      "name": "International Flights",
+                      "icon": "✈️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Regional Airlines",
+                      "icon": "✈️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Budget Carriers",
+                      "icon": "💸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Frequent Flyer Strategies",
+                      "icon": "💳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Airport Navigation",
+                      "icon": "✈️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Ground Transportation",
+                  "icon": "🚗",
+                  "subcategories": [
+                    {
+                      "name": "Train Travel",
+                      "icon": "🚆",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bus Journeys",
+                      "icon": "🚌",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Car Rentals",
+                      "icon": "🚗",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Taxi & Rideshare",
+                      "icon": "🚕",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Motorbike & Scooter Rental",
+                      "icon": "🛵",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Water Transportation",
+                  "icon": "🚢",
+                  "subcategories": [
+                    {
+                      "name": "Cruise Ships",
+                      "icon": "🚢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Passenger Ferries",
+                      "icon": "🚢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "River Cruises",
+                      "icon": "🚢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sailing Charters",
+                      "icon": "⛵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Small Boat Transport",
+                      "icon": "🛥️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Alternative Transportation",
+                  "icon": "🚲",
+                  "subcategories": [
+                    {
+                      "name": "Bicycle Touring",
+                      "icon": "🚲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Walking Pilgrimages",
+                      "icon": "🚶‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Hitchhiking",
+                      "icon": "👍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Carpooling Networks",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Unique Local Transport",
+                      "icon": "🚌",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Accommodation Approaches",
+              "icon": "🏨",
+              "subcategories": [
+                {
+                  "name": "Hotels & Resorts",
+                  "icon": "🏨",
+                  "subcategories": [
+                    {
+                      "name": "Luxury Accommodations",
+                      "icon": "💎",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Boutique Hotels",
+                      "icon": "✨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Budget Chains",
+                      "icon": "💸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Historic Hotels",
+                      "icon": "🏛️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Eco-Resorts",
+                      "icon": "🌳",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Alternative Lodging",
+                  "icon": "🏠",
+                  "subcategories": [
+                    {
+                      "name": "Hostels & Backpacker Lodges",
+                      "icon": "🏨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Guesthouses",
+                      "icon": "🏘️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "B&Bs",
+                      "icon": "🏠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Farm Stays",
+                      "icon": "🚜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Monastery/Temple Stays",
+                      "icon": "🙏",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Immersive Accommodations",
+                  "icon": "🤝",
+                  "subcategories": [
+                    {
+                      "name": "Homestays",
+                      "icon": "🏠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cultural Exchange Housing",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Village Stays",
+                      "icon": "🏘️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Indigenous Community Lodging",
+                      "icon": "🏹",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Live-With-Locals Programs",
+                      "icon": "🤝",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Self-Contained Options",
+                  "icon": "🏠",
+                  "subcategories": [
+                    {
+                      "name": "Vacation Rentals",
+                      "icon": "🏠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Apartments & Homes",
+                      "icon": "🏠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cabin & Cottage Rentals",
+                      "icon": "🏠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Houseboats",
+                      "icon": "🛥️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tiny Houses",
+                      "icon": "🏠",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Unique & Unusual Lodging",
+                  "icon": "✨",
+                  "subcategories": [
+                    {
+                      "name": "Treehouses",
+                      "icon": "🌳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ice Hotels",
+                      "icon": "❄️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cave Dwellings",
+                      "icon": "⛰️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Underwater Accommodations",
+                      "icon": "🐠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Glamping Options",
+                      "icon": "⛺",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Travel Experiences",
+          "icon": "🌟",
+          "subcategories": [
+            {
+              "name": "Cultural Immersion",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Language Immersion",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Workshops",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Living History Experiences",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Traditional Art Learning",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Culinary Workshops",
+                  "icon": "🍽️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Ceremonies",
+                  "icon": "🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Traditional Craft Apprenticeships",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Daily Life Integration",
+                  "icon": "🏘️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Educational Travel",
+              "icon": "🎓",
+              "subcategories": [
+                {
+                  "name": "Study Abroad",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Field Schools",
+                  "icon": "🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Educational Tours",
+                  "icon": "🚌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Knowledge-Specific Journeys",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Skill-Building Travel",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Research Expeditions",
+                  "icon": "🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conference Travel",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Academic Exchange",
+                  "icon": "🎓",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Purposeful Travel",
+              "icon": "🎯",
+              "subcategories": [
+                {
+                  "name": "Volunteer Experiences",
+                  "icon": "🤝",
+                  "subcategories": [
+                    {
+                      "name": "Conservation Projects",
+                      "icon": "🌳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Community Development",
+                      "icon": "🏘️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Teaching & Education",
+                      "icon": "🧑",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Disaster Recovery",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Animal Welfare",
+                      "icon": "🐾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cultural Preservation",
+                      "icon": "🏛️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Healthcare Support",
+                      "icon": "🩺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Skill-Sharing Programs",
+                      "icon": "🤝",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Impact Tourism",
+                  "icon": "🌍",
+                  "subcategories": [
+                    {
+                      "name": "Social Enterprise Support",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Community-Based Tourism",
+                      "icon": "🏘️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Regenerative Travel",
+                      "icon": "🌱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fair Trade Tourism",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Indigenous Tourism",
+                      "icon": "🏹",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Conservation Tourism",
+                      "icon": "🌳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Poverty Alleviation Travel",
+                      "icon": "💰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Peace Tourism",
+                      "icon": "🕊️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Transformational Journeys",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": [
+                    {
+                      "name": "Vision Quests",
+                      "icon": "🤔",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Personal Growth Retreats",
+                      "icon": "🧘‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Spiritual Journeys",
+                      "icon": "🙏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Healing Travel",
+                      "icon": "💖",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Life Transition Trips",
+                      "icon": "🔄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Self-Discovery Expeditions",
+                      "icon": "🧭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mindfulness Retreats",
+                      "icon": "🧘‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Therapeutic Travel",
+                      "icon": "💆",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Special Interest Travel",
+              "icon": "⭐",
+              "subcategories": [
+                {
+                  "name": "Food & Culinary",
+                  "icon": "🍽️",
+                  "subcategories": [
+                    {
+                      "name": "Gastronomic Tours",
+                      "icon": "🍽️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wine & Spirit Regions",
+                      "icon": "🍇",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cooking Schools",
+                      "icon": "🧑",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Food Festivals",
+                      "icon": "🎉",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Street Food Explorations",
+                      "icon": "🍜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Farm-to-Table Experiences",
+                      "icon": "🚜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Traditional Food Preservation",
+                      "icon": "🥫",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Culinary History",
+                      "icon": "📜",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Art & Creativity",
+                  "icon": "🎨",
+                  "subcategories": [
+                    {
+                      "name": "Artist Residencies",
+                      "icon": "🎨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Creative Workshops",
+                      "icon": "🎨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Museum & Gallery Tours",
+                      "icon": "🖼️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Public Art Routes",
+                      "icon": "🎨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Artist Studio Visits",
+                      "icon": "🎨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Art Festival Circuits",
+                      "icon": "🎉",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Artisan Communities",
+                      "icon": "🏘️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Creative Retreat Centers",
+                      "icon": "🎨",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Music & Performance",
+                  "icon": "🎵",
+                  "subcategories": [
+                    {
+                      "name": "Music Festivals",
+                      "icon": "🎵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Traditional Music Immersion",
+                      "icon": "🎶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Concert Tours",
+                      "icon": "🎤",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Performance Venues",
+                      "icon": "🎭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dance Traditions",
+                      "icon": "💃",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Theater & Opera Circuits",
+                      "icon": "🎭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Music History Routes",
+                      "icon": "📜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Performance Workshops",
+                      "icon": "🎭",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Sports & Activities",
+                  "icon": "⚽",
+                  "subcategories": [
+                    {
+                      "name": "Major Sporting Events",
+                      "icon": "🏟️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sports History Tours",
+                      "icon": "📜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sports Training Camps",
+                      "icon": "🏋️‍♀️🏋️‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Traditional Games",
+                      "icon": "🏅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "International Competitions",
+                      "icon": "🏆",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sports Cultural Experiences",
+                      "icon": "⚽",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sporting Club Visits",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fan Experiences",
+                      "icon": "📣",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Travel Approaches",
+          "icon": "🗺️",
+          "subcategories": [
+            {
+              "name": "Travel Styles",
+              "icon": "🎒",
+              "subcategories": [
+                {
+                  "name": "Luxury Travel",
+                  "icon": "💎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Budget Travel",
+                  "icon": "💸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Backpacking",
+                  "icon": "🎒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Flash-Packing",
+                  "icon": "🎒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Slow Travel",
+                  "icon": "🚶‍♂️🚶‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Solo Travel",
+                  "icon": "🧍‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Family Travel",
+                  "icon": "👨‍👩‍👧‍👦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Group Travel",
+                  "icon": "👥",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Long-Term Travel",
+              "icon": "📅",
+              "subcategories": [
+                {
+                  "name": "Gap Year Journeys",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sabbatical Travel",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Nomad Lifestyle",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Working Holiday",
+                  "icon": "💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Extended World Tours",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Long-Duration Single Destination",
+                  "icon": "📍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Slow Round-the-World Trips",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Location-Independent Living",
+                  "icon": "💻",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Mindful & Conscious Travel",
+              "icon": "🧘‍♂️🧘‍♀️",
+              "subcategories": [
+                {
+                  "name": "Ethical Travel Practices",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Respect Approaches",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sustainable Tourism Choices",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Eco-Friendly Transportation",
+                  "icon": "♻️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Economy Support",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Authentic Connection Seeking",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mindful Travel Documentation",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Leave-No-Trace Principles",
+                  "icon": "👣",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Travel Philosophy",
+              "icon": "🤔",
+              "subcategories": [
+                {
+                  "name": "Travel as Education",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Journey vs. Destination Focus",
+                  "icon": "🧭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Bridge Building",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Personal Transformation Through Travel",
+                  "icon": "🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Global Citizenship Development",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Place Attachment Cultivation",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Travel as Spiritual Practice",
+                  "icon": "🙏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cross-Cultural Understanding",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nature Connection",
+      "icon": "🌲",
+      "subcategories": [
+        {
+          "name": "Natural Environments",
+          "icon": "🌳",
+          "subcategories": [
+            {
+              "name": "Forest & Woodland",
+              "icon": "🌲",
+              "subcategories": [
+                {
+                  "name": "Temperate Forests",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tropical Rainforests",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Boreal/Taiga Forests",
+                  "icon": "🌲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Old Growth Forests",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cloud Forests",
+                  "icon": "☁️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Deciduous Woodlands",
+                  "icon": "🍂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coniferous Forests",
+                  "icon": "🌲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mediterranean Forests",
+                  "icon": "🌳",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Aquatic Ecosystems",
+              "icon": "🌊",
+              "subcategories": [
+                {
+                  "name": "Freshwater Systems",
+                  "icon": "💧",
+                  "subcategories": [
+                    {
+                      "name": "Rivers & Streams",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Lakes & Ponds",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wetlands & Marshes",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Vernal Pools",
+                      "icon": "💧",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Springs & Seeps",
+                      "icon": "💧",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bogs & Fens",
+                      "icon": "🌿",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Marine Environments",
+                  "icon": "🌊",
+                  "subcategories": [
+                    {
+                      "name": "Coral Reefs",
+                      "icon": "🐠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mangroves",
+                      "icon": "🌳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tide Pools",
+                      "icon": "🦀",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Open Ocean",
+                      "icon": "🌊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Kelp Forests",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Seagrass Meadows",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Deep Sea Environments",
+                      "icon": "🐠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Coastal Zones",
+                      "icon": "🏖️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Grasslands & Plains",
+              "icon": "🌾",
+              "subcategories": [
+                {
+                  "name": "Prairies",
+                  "icon": "🌾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Savannas",
+                  "icon": "🦓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Steppes",
+                  "icon": "🌾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Meadows",
+                  "icon": "🌸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pampas",
+                  "icon": "🌾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Alpine Meadows",
+                  "icon": "⛰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tundra",
+                  "icon": "❄️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Agricultural Landscapes",
+                  "icon": "🚜",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Geological Formations",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Mountains & Highlands",
+                  "icon": "⛰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Canyons & Gorges",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Caves & Karst Systems",
+                  "icon": "⛰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Volcanic Features",
+                  "icon": "🌋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Geological Monuments",
+                  "icon": "🗿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rock Formations",
+                  "icon": "🗿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fossil Sites",
+                  "icon": "🦴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Erosional Features",
+                  "icon": "🌍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Desert & Arid Landscapes",
+              "icon": "🏜️",
+              "subcategories": [
+                {
+                  "name": "Hot Deserts",
+                  "icon": "☀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cold Deserts",
+                  "icon": "❄️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Semi-Arid Regions",
+                  "icon": "🌵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Salt Flats",
+                  "icon": "🧂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Desert Oases",
+                  "icon": "🌴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sand Dunes",
+                  "icon": "🏜️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Desert Mountains",
+                  "icon": "⛰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stone Deserts",
+                  "icon": "🗿",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nature Exploration",
+          "icon": "🧭",
+          "subcategories": [
+            {
+              "name": "Hiking & Walking",
+              "icon": "⛰️🚶‍♂️",
+              "subcategories": [
+                {
+                  "name": "Day Hiking",
+                  "icon": "☀️🚶‍♀️",
+                  "subcategories": [
+                    {
+                      "name": "Nature Trail Walks",
+                      "icon": "🌲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Interpretive Trails",
+                      "icon": "🗺️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Urban Nature Paths",
+                      "icon": "🏙️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Forest Bathing",
+                      "icon": "🌲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wildlife Observation Trails",
+                      "icon": "🔭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Botanical Garden Walks",
+                      "icon": "🌸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Arboretum Strolls",
+                      "icon": "🌳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ecological Restoration Sites",
+                      "icon": "🌱",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Backpacking & Trekking",
+                  "icon": "🎒",
+                  "subcategories": [
+                    {
+                      "name": "Multi-Day Trails",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Long-Distance Hiking",
+                      "icon": "🚶‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Thru-Hiking",
+                      "icon": "🚶‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Hut-to-Hut Treks",
+                      "icon": "🏠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Backcountry Routes",
+                      "icon": "🗺️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Historic Trails",
+                      "icon": "📜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cultural Routes",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Alpine Traverses",
+                      "icon": "⛰️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Specialized Hiking",
+                  "icon": "🔮🚶‍♂️",
+                  "subcategories": [
+                    {
+                      "name": "Waterfall Hikes",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Summit Hikes",
+                      "icon": "⛰️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ridge Walks",
+                      "icon": "⛰️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Canyon Explorations",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "River Walks",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Coastal Trails",
+                      "icon": "🏖️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Geological Feature Hikes",
+                      "icon": "🗿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wildlife Viewing Hikes",
+                      "icon": "🦌",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Wildlife Observation",
+              "icon": "🔭",
+              "subcategories": [
+                {
+                  "name": "Bird Watching",
+                  "icon": "🐦",
+                  "subcategories": [
+                    {
+                      "name": "Migratory Bird Watching",
+                      "icon": "🕊️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Raptor Observation",
+                      "icon": "🦅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wetland Bird Viewing",
+                      "icon": "🦆",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pelagic Bird Trips",
+                      "icon": "🌊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Forest Bird Watching",
+                      "icon": "🌳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bird Photography",
+                      "icon": "📸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bird Listening",
+                      "icon": "👂",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Citizen Science Bird Counts",
+                      "icon": "📊",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Mammal Viewing",
+                  "icon": "🦌",
+                  "subcategories": [
+                    {
+                      "name": "Large Mammal Safaris",
+                      "icon": "🦁",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Marine Mammal Watching",
+                      "icon": "🐳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Night Wildlife Viewing",
+                      "icon": "🦉",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tracking & Sign Reading",
+                      "icon": "🐾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wildlife Photography",
+                      "icon": "📸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Conservation Area Visits",
+                      "icon": "🌳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Rehabilitation Center Visits",
+                      "icon": "🏥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ethical Wildlife Encounters",
+                      "icon": "🤝",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Specialized Wildlife Interests",
+                  "icon": "🦋",
+                  "subcategories": [
+                    {
+                      "name": "Butterfly & Insect Observation",
+                      "icon": "🦋",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Reptile & Amphibian Finding",
+                      "icon": "🐍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Marine Life Viewing",
+                      "icon": "🐠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Plant Identification",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fungi Exploration",
+                      "icon": "🍄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Microhabitat Investigation",
+                      "icon": "🔬",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nocturnal Creature Viewing",
+                      "icon": "🦉",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Seasonal Wildlife Events",
+                      "icon": "📅",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Water-Based Exploration",
+              "icon": "🛶",
+              "subcategories": [
+                {
+                  "name": "Paddling Adventures",
+                  "icon": "🛶",
+                  "subcategories": [
+                    {
+                      "name": "Canoeing",
+                      "icon": "🛶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Kayaking",
+                      "icon": "🛶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Stand-Up Paddleboarding",
+                      "icon": "🛶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Rafting",
+                      "icon": "🚣",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Traditional Boat Crafts",
+                      "icon": "🛶",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Underwater Exploration",
+                  "icon": "🌊",
+                  "subcategories": [
+                    {
+                      "name": "Snorkeling",
+                      "icon": "🤿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Scuba Diving",
+                      "icon": "🤿🏊‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Freediving",
+                      "icon": "🆓🏊‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Underwater Photography",
+                      "icon": "📸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Marine Life Surveys",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Coral Reef Exploration",
+                      "icon": "🐠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Freshwater Diving",
+                      "icon": "💧",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tide Pool Investigation",
+                      "icon": "🦀",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Shoreline Activities",
+                  "icon": "🏖️",
+                  "subcategories": [
+                    {
+                      "name": "Beachcombing",
+                      "icon": "🐚",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Coastal Foraging",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tide Pool Exploration",
+                      "icon": "🦀",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Coastal Geology Study",
+                      "icon": "🌍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Coastal Bird Watching",
+                      "icon": "🐦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Seaside Botany",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Coastal Cultural History",
+                      "icon": "📜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Marine Debris Cleanup",
+                      "icon": "🗑️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Seasonal Nature Connection",
+              "icon": "☀️",
+              "subcategories": [
+                {
+                  "name": "Spring Experiences",
+                  "icon": "🌸",
+                  "subcategories": [
+                    {
+                      "name": "Wildflower Viewing",
+                      "icon": "🌸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bird Migration Watching",
+                      "icon": "🕊️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Frog & Amphibian Listening",
+                      "icon": "🐸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Spring Ephemerals Finding",
+                      "icon": "🌱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Vernal Pool Exploration",
+                      "icon": "💧",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nesting Behavior Observation",
+                      "icon": "🐦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Spring Forest Bathing",
+                      "icon": "🌲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Seasonal Creek Exploring",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Summer Activities",
+                  "icon": "☀️",
+                  "subcategories": [
+                    {
+                      "name": "Summer Hiking",
+                      "icon": "🌞🚶‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Meadow Exploration",
+                      "icon": "🌸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Butterfly Watching",
+                      "icon": "🦋",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Summer Storm Appreciation",
+                      "icon": "⛈️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Night Sky Viewing",
+                      "icon": "🌌",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Summer Foraging",
+                      "icon": "🍇",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Alpine Flower Viewing",
+                      "icon": "🌸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Summer Bird Watching",
+                      "icon": "🐦",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Autumn Experiences",
+                  "icon": "🍂",
+                  "subcategories": [
+                    {
+                      "name": "Fall Foliage Viewing",
+                      "icon": "🍂",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Autumn Bird Migration",
+                      "icon": "🕊️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Seed & Fruit Observation",
+                      "icon": "🍎",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mushroom Hunting",
+                      "icon": "🍄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fall Wildlife Viewing",
+                      "icon": "🦌",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Autumn Photography",
+                      "icon": "📸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Harvest Time Experiences",
+                      "icon": "🌾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fall Phenology",
+                      "icon": "🍂",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Winter Connection",
+                  "icon": "❄️",
+                  "subcategories": [
+                    {
+                      "name": "Winter Wildlife Tracking",
+                      "icon": "🐾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Snow Ecology",
+                      "icon": "❄️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Winter Tree Identification",
+                      "icon": "🌲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Frozen Landscape Photography",
+                      "icon": "📸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Winter Bird Feeding",
+                      "icon": "🐦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Hibernation & Adaptation Study",
+                      "icon": "🐻",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Winter Botany",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cold Weather Exploration",
+                      "icon": "❄️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nature Study & Learning",
+          "icon": "📚",
+          "subcategories": [
+            {
+              "name": "Field Naturalist Skills",
+              "icon": "🧑",
+              "subcategories": [
+                {
+                  "name": "Species Identification",
+                  "icon": "🔍",
+                  "subcategories": [
+                    {
+                      "name": "Plant Identification",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bird Identification",
+                      "icon": "🐦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mammal Recognition",
+                      "icon": "🦌",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Insect Identification",
+                      "icon": "🦋",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Reptile & Amphibian ID",
+                      "icon": "🐍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Marine Life Recognition",
+                      "icon": "🐠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fungi Identification",
+                      "icon": "🍄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tree Identification",
+                      "icon": "🌲",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Field Observation Techniques",
+                  "icon": "🔬",
+                  "subcategories": [
+                    {
+                      "name": "Field Journaling",
+                      "icon": "📓",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nature Sketching",
+                      "icon": "✍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Scientific Observation",
+                      "icon": "🔬",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Field Notes",
+                      "icon": "📝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nature Photography",
+                      "icon": "📸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Audio Recording",
+                      "icon": "🎤",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Specimen Collection",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Field Measurement",
+                      "icon": "📏",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Navigation & Orientation",
+                  "icon": "🧭",
+                  "subcategories": [
+                    {
+                      "name": "Map Reading",
+                      "icon": "🗺️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Compass Use",
+                      "icon": "🧭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "GPS Navigation",
+                      "icon": "🛰️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Celestial Navigation",
+                      "icon": "⭐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Natural Navigation",
+                      "icon": "🌲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Landscape Reading",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Trail Finding",
+                      "icon": "👣",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wilderness Navigation",
+                      "icon": "🗺️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Ecology & Natural History",
+              "icon": "🌳",
+              "subcategories": [
+                {
+                  "name": "Ecosystem Study",
+                  "icon": "🌳",
+                  "subcategories": [
+                    {
+                      "name": "Habitat Assessment",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ecological Relationships",
+                      "icon": "🔗",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Food Web Observation",
+                      "icon": "🕸️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Symbiotic Relationships",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ecological Succession",
+                      "icon": "📈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Biodiversity Survey",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ecological Restoration",
+                      "icon": "🌱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ecosystem Monitoring",
+                      "icon": "📊",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Natural Cycles & Processes",
+                  "icon": "🔄",
+                  "subcategories": [
+                    {
+                      "name": "Water Cycle Observation",
+                      "icon": "💧",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Carbon Cycle Study",
+                      "icon": "💨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nutrient Cycling",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Seasonal Cycles",
+                      "icon": "📅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Life Cycles",
+                      "icon": "🔄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Natural Disturbance",
+                      "icon": "🔥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Erosion & Deposition",
+                      "icon": "🌊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Geological Processes",
+                      "icon": "🌍",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Specialized Nature Knowledge",
+                  "icon": "🧠",
+                  "subcategories": [
+                    {
+                      "name": "Ethnobotany",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Traditional Ecological Knowledge",
+                      "icon": "🏹",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Foraging & Wild Edibles",
+                      "icon": "🍇",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Medicinal Plants",
+                      "icon": "💊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Survival Skills",
+                      "icon": "🔥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Primitive Skills",
+                      "icon": "🛠️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tracking & Trailing",
+                      "icon": "🐾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Plant & Animal Relationships",
+                      "icon": "🔗",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Citizen Science & Conservation",
+              "icon": "🔬",
+              "subcategories": [
+                {
+                  "name": "Research Participation",
+                  "icon": "📊",
+                  "subcategories": [
+                    {
+                      "name": "Biological Surveys",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Species Counts",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Water Quality Monitoring",
+                      "icon": "💧",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Phenology Records",
+                      "icon": "📅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Habitat Assessments",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Weather Observation",
+                      "icon": "☀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wildlife Monitoring",
+                      "icon": "🔭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Archaeological Surveys",
+                      "icon": "🦴",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Conservation Activities",
+                  "icon": "🌱",
+                  "subcategories": [
+                    {
+                      "name": "Habitat Restoration",
+                      "icon": "🌱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Native Planting",
+                      "icon": "🌱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Invasive Species Removal",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wildlife Rehabilitation",
+                      "icon": "🏥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Seed Collection",
+                      "icon": "🌰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Trail Maintenance",
+                      "icon": "🛠️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Land Stewardship",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Beach & River Cleanups",
+                      "icon": "🗑️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Environmental Education",
+                  "icon": "🎓",
+                  "subcategories": [
+                    {
+                      "name": "Naturalist Programs",
+                      "icon": "🧑",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Guided Nature Walks",
+                      "icon": "🚶‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Environmental Interpretation",
+                      "icon": "🗣️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Junior Naturalist Programs",
+                      "icon": "🧑",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ecology Classes",
+                      "icon": "📚",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Field Schools",
+                      "icon": "🔬",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wilderness First Aid",
+                      "icon": "🩹",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Leave No Trace Training",
+                      "icon": "👣",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mindful Nature Connection",
+          "icon": "🧘‍♀️🧘‍♂️",
+          "subcategories": [
+            {
+              "name": "Nature Awareness Practices",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Sensory Awareness",
+                  "icon": "👂",
+                  "subcategories": [
+                    {
+                      "name": "Bird Language Listening",
+                      "icon": "🐦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nature Meditation",
+                      "icon": "🧘‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sound Mapping",
+                      "icon": "🗺️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sensory Walks",
+                      "icon": "🚶‍♂️🚶‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mindful Observation",
+                      "icon": "🧘‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Taste of Place",
+                      "icon": "👅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Touch of Nature",
+                      "icon": "✋",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Scent Awareness",
+                      "icon": "👃",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Solo Nature Time",
+                  "icon": "🧍‍♂️🌄",
+                  "subcategories": [
+                    {
+                      "name": "Sit Spot Practice",
+                      "icon": "🧘‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Solo Time in Nature",
+                      "icon": "🌲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nature Journaling",
+                      "icon": "✍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wilderness Solitude",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dawn/Dusk Watching",
+                      "icon": "🌅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nature Immersion",
+                      "icon": "🌲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Flow State in Nature",
+                      "icon": "🧘‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sacred Time in Nature",
+                      "icon": "🙏",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Deep Ecology Practices",
+                  "icon": "🌍",
+                  "subcategories": [
+                    {
+                      "name": "Council of All Beings",
+                      "icon": "🗣️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bioregional Awareness",
+                      "icon": "🌍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ecological Identity Work",
+                      "icon": "🌱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Grief & Gratitude Practices",
+                      "icon": "💖",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "The Work That Reconnects",
+                      "icon": "🔄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Earth Connection Ceremonies",
+                      "icon": "🙏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ancestral Skills Connection",
+                      "icon": "🏹",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Place-Based Relationship",
+                      "icon": "🤝",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Nature Therapy",
+              "icon": "💖",
+              "subcategories": [
+                {
+                  "name": "Ecotherapy Practices",
+                  "icon": "🌿",
+                  "subcategories": [
+                    {
+                      "name": "Nature Prescription",
+                      "icon": "📝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Horticultural Therapy",
+                      "icon": "🌱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wilderness Therapy",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Adventure Therapy",
+                      "icon": "🧗‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Animal-Assisted Therapy",
+                      "icon": "🐾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Garden Therapy",
+                      "icon": "🌻",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Blue Mind/Water Therapy",
+                      "icon": "🌊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Green Exercise",
+                      "icon": "🏃‍♂️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Healing in Nature",
+                  "icon": "🌿",
+                  "subcategories": [
+                    {
+                      "name": "Stress Reduction in Nature",
+                      "icon": "😌",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Attention Restoration",
+                      "icon": "🧠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nature Healing Journeys",
+                      "icon": "💖",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Grief Processing in Nature",
+                      "icon": "😥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Recovery Support in Nature",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Trauma-Informed Nature Connection",
+                      "icon": "💖",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nervous System Regulation",
+                      "icon": "🧘‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Natural Settings for Healing",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Nature Connection for Wellbeing",
+                  "icon": "💖",
+                  "subcategories": [
+                    {
+                      "name": "Nature and Mental Health",
+                      "icon": "🧠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Physical Health in Nature",
+                      "icon": "💪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Social Connection in Natural Settings",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Spiritual Wellbeing in Nature",
+                      "icon": "🙏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Creativity in Natural Settings",
+                      "icon": "🎨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nature for Emotional Intelligence",
+                      "icon": "💖",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nature for Resilience Building",
+                      "icon": "💪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Biophilia Practices",
+                      "icon": "🌿",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Seasonal & Celestial Connection",
+              "icon": "📅",
+              "subcategories": [
+                {
+                  "name": "Seasonal Awareness",
+                  "icon": "📅",
+                  "subcategories": [
+                    {
+                      "name": "Phenology Tracking",
+                      "icon": "📈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Seasonal Ceremonies",
+                      "icon": "🎉",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Solstice & Equinox Observation",
+                      "icon": "☀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Traditional Seasonal Practices",
+                      "icon": "🏛️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Harvest Celebrations",
+                      "icon": "🌾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "First/Last Frost Awareness",
+                      "icon": "❄️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Seasonal Food Connection",
+                      "icon": "🍽️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Migratory Transitions",
+                      "icon": "🕊️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Celestial Observation",
+                  "icon": "🌌",
+                  "subcategories": [
+                    {
+                      "name": "Night Sky Watching",
+                      "icon": "🌌",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Star Gazing",
+                      "icon": "⭐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Moon Phase Tracking",
+                      "icon": "🌙",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Meteor Shower Viewing",
+                      "icon": "🌠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Planet Observation",
+                      "icon": "🪐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dark Sky Experiences",
+                      "icon": "🔭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Astronomy in Nature",
+                      "icon": "🔭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cultural Sky Stories",
+                      "icon": "📚",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Weather & Element Connection",
+                  "icon": "☁️",
+                  "subcategories": [
+                    {
+                      "name": "Cloud Watching",
+                      "icon": "☁️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Storm Appreciation",
+                      "icon": "⛈️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Weather Pattern Recognition",
+                      "icon": "☀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wind Awareness",
+                      "icon": "🌬️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Rain Connection",
+                      "icon": "🌧️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Snow Experience",
+                      "icon": "❄️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fog Immersion",
+                      "icon": "🌫️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Lightning Viewing",
+                      "icon": "⚡️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adventure Activities",
+      "icon": "🧗‍♀️",
+      "subcategories": [
+        {
+          "name": "Land-Based Adventures",
+          "icon": "🏞️",
+          "subcategories": [
+            {
+              "name": "Hiking & Trekking Adventures",
+              "icon": "🥾🚶‍♂️",
+              "subcategories": [
+                {
+                  "name": "Mountaineering",
+                  "icon": "⛰️",
+                  "subcategories": [
+                    {
+                      "name": "Alpine Climbing",
+                      "icon": "🧗‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "High-Altitude Trekking",
+                      "icon": "↖️🚶‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Expedition Climbing",
+                      "icon": "🧗‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Peak Bagging",
+                      "icon": "🚩",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ice Climbing",
+                      "icon": "⛏️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Traditional Mountaineering",
+                      "icon": "🧗‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Alpine Traverses",
+                      "icon": "🚶‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mountain Running",
+                      "icon": "⛰️🏃‍♂️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Rock Climbing",
+                  "icon": "🧗‍♀️",
+                  "subcategories": [
+                    {
+                      "name": "Sport Climbing",
+                      "icon": "🧗‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Traditional Climbing",
+                      "icon": "🧗‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bouldering",
+                      "icon": "🧗",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Top Roping",
+                      "icon": "🧗‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Multi-Pitch Climbing",
+                      "icon": "🧗‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Deep Water Soloing",
+                      "icon": "🌊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Via Ferrata",
+                      "icon": "🧗‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Climbing Gym",
+                      "icon": "🧗‍♀️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Caving & Spelunking",
+                  "icon": "🏔️",
+                  "subcategories": [
+                    {
+                      "name": "Cave Exploration",
+                      "icon": "🗻🔦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Technical Caving",
+                      "icon": "🗻🤓☝️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cave Photography",
+                      "icon": "📸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Speleology",
+                      "icon": "🔬",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Show Cave Visits",
+                      "icon": "❄️🏔️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wild Cave Tours",
+                      "icon": "🗻💥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cave Conservation",
+                      "icon": "🌱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Underground Stream Exploration",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Cycling Adventures",
+              "icon": "🚴‍♂️🚴‍♀️",
+              "subcategories": [
+                {
+                  "name": "Mountain Biking",
+                  "icon": "🚵‍♀️🚵‍♂️",
+                  "subcategories": [
+                    {
+                      "name": "Cross-Country Biking",
+                      "icon": "🚵‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Downhill Mountain Biking",
+                      "icon": "🚵‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Enduro Riding",
+                      "icon": "🚵‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bike Park Visits",
+                      "icon": "🚵‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Singletrack Trails",
+                      "icon": "🚵‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Technical Trail Riding",
+                      "icon": "🚵‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bikepacking",
+                      "icon": "🎒",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fat Biking",
+                      "icon": "🚵‍♂️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Road Cycling",
+                  "icon": "🛣️🚴‍♂️",
+                  "subcategories": [
+                    {
+                      "name": "Long-Distance Road Cycling",
+                      "icon": "🚴‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Road Touring",
+                      "icon": "🗺️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cycling Events",
+                      "icon": "🚴‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Hill Climbing",
+                      "icon": "⛰️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Road Racing",
+                      "icon": "🏁",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Scenic Road Routes",
+                      "icon": "🛣️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Iconic Road Rides",
+                      "icon": "🛣️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Supported Bike Tours",
+                      "icon": "🚌",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Specialized Cycling",
+                  "icon": "🚲",
+                  "subcategories": [
+                    {
+                      "name": "Gravel Biking",
+                      "icon": "🚲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bicycle Touring",
+                      "icon": "🚲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bike Packing",
+                      "icon": "🎒",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cyclocross",
+                      "icon": "🚲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bicycle Commuting",
+                      "icon": "🚲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Rail Trail Riding",
+                      "icon": "🛤️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Urban Cycling",
+                      "icon": "🏙️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Recumbent Biking",
+                      "icon": "🚲",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Overland Adventures",
+              "icon": "🚗",
+              "subcategories": [
+                {
+                  "name": "Off-Road Driving",
+                  "icon": "🚙",
+                  "subcategories": [
+                    {
+                      "name": "4x4 Adventures",
+                      "icon": "🚙",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Overlanding",
+                      "icon": "🚙",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Off-Road Tours",
+                      "icon": "🚙",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Rock Crawling",
+                      "icon": "🚙",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Desert Driving",
+                      "icon": "🏜️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Expedition Vehicle Travel",
+                      "icon": "🚙",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Recovery Techniques",
+                      "icon": "🛠️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Trail Driving",
+                      "icon": "🚙",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Motorcycle Adventures",
+                  "icon": "🏍️",
+                  "subcategories": [
+                    {
+                      "name": "Adventure Motorcycling",
+                      "icon": "🏍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dual Sport Riding",
+                      "icon": "🏍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Long-Distance Motorcycle Touring",
+                      "icon": "🏍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Off-Road Motorcycling",
+                      "icon": "🏍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Motorcycle Camping",
+                      "icon": "🏍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Rally Participation",
+                      "icon": "🏁",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Motorcycle Expeditions",
+                      "icon": "🏍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sidecar Adventures",
+                      "icon": "🏍️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Animal-Powered Journeys",
+                  "icon": "🐎",
+                  "subcategories": [
+                    {
+                      "name": "Horseback Riding Trips",
+                      "icon": "🐎",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pack Animal Trekking",
+                      "icon": "🐴",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dog Sledding",
+                      "icon": "🐕",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Camel Trekking",
+                      "icon": "🐫",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Elephant Riding (Ethical)",
+                      "icon": "🐘",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Reindeer Sledding",
+                      "icon": "🦌",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Yak Caravans",
+                      "icon": "🐃",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mule Packing",
+                      "icon": "🐴",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Winter Adventures",
+              "icon": "❄️",
+              "subcategories": [
+                {
+                  "name": "Snow Sports",
+                  "icon": "⛷️",
+                  "subcategories": [
+                    {
+                      "name": "Downhill Skiing",
+                      "icon": "⛷️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cross-Country Skiing",
+                      "icon": "⛷️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Snowboarding",
+                      "icon": "🏂",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Telemark Skiing",
+                      "icon": "⛷️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Backcountry Skiing",
+                      "icon": "⛷️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ski Touring",
+                      "icon": "⛷️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Heli-Skiing",
+                      "icon": "🚁",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cat Skiing",
+                      "icon": "🐱",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Winter Exploration",
+                  "icon": "❄️",
+                  "subcategories": [
+                    {
+                      "name": "Snowshoeing",
+                      "icon": "❄️🎿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Winter Hiking",
+                      "icon": "❄️🚶‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Winter Camping",
+                      "icon": "⛺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Snow Caving",
+                      "icon": "❄️🏔️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Winter Survival Skills",
+                      "icon": "🔥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Polar Expeditions",
+                      "icon": "❄️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Northern Lights Viewing",
+                      "icon": "🌌",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Winter Photography",
+                      "icon": "📸",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Ice Activities",
+                  "icon": "🧊",
+                  "subcategories": [
+                    {
+                      "name": "Ice Skating",
+                      "icon": "⛸️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ice Fishing",
+                      "icon": "🎣",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ice Sailing",
+                      "icon": "⛵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ice Climbing",
+                      "icon": "⛏️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ice Diving",
+                      "icon": "🧊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ice Canoeing",
+                      "icon": "🛶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ice Racing",
+                      "icon": "🏁",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ice Sculpting",
+                      "icon": "🗿",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Air-Based Adventures",
+          "icon": "✈️",
+          "subcategories": [
+            {
+              "name": "Flight Experiences",
+              "icon": "✈️",
+              "subcategories": [
+                {
+                  "name": "Paragliding",
+                  "icon": "🪂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hang Gliding",
+                  "icon": "🪁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hot Air Ballooning",
+                  "icon": "🎈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Glider Flying",
+                  "icon": "✈️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Scenic Flights",
+                  "icon": "✈️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Helicopter Tours",
+                  "icon": "🚁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Small Aircraft Flying",
+                  "icon": "✈️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Aerial Photography",
+                  "icon": "📸",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Aerial Sports",
+              "icon": "🌬️🤸‍♀️",
+              "subcategories": [
+                {
+                  "name": "Skydiving",
+                  "icon": "🪂",
+                  "subcategories": []
+                },
+                {
+                  "name": "BASE Jumping",
+                  "icon": "🏙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wingsuit Flying",
+                  "icon": "🦅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bungee Jumping",
+                  "icon": "🪢⬆️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Zip-Lining",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Parasailing",
+                  "icon": "⛵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trapeze",
+                  "icon": "🤸‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Aerial Silk Performance",
+                  "icon": "🤸‍♀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Technological Air Sports",
+              "icon": "🚀",
+              "subcategories": [
+                {
+                  "name": "Drone Flying",
+                  "icon": "🚁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Paramotoring",
+                  "icon": "✈️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ultralight Flying",
+                  "icon": "✈️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Kite Buggying",
+                  "icon": "🏎️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Land Sailing",
+                  "icon": "⛵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Kiteboarding (Land)",
+                  "icon": "🪁",
+                  "subcategories": []
+                },
+                {
+                  "name": "RC Aircraft",
+                  "icon": "✈️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Jet Pack Experiences",
+                  "icon": "🚀",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Water-Based Adventures",
+          "icon": "🌊",
+          "subcategories": [
+            {
+              "name": "Paddling Sports",
+              "icon": "🛶",
+              "subcategories": [
+                {
+                  "name": "Whitewater Activities",
+                  "icon": "🌊",
+                  "subcategories": [
+                    {
+                      "name": "Whitewater Kayaking",
+                      "icon": "🛶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Whitewater Rafting",
+                      "icon": "🚣",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Whitewater Canoeing",
+                      "icon": "🛶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "River Boarding",
+                      "icon": "🏄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Swift Water Rescue",
+                      "icon": "🆘",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Waterfall Running",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Gorge Descent",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "River Expeditions",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Flatwater Paddling",
+                  "icon": "🛶",
+                  "subcategories": [
+                    {
+                      "name": "Recreational Kayaking",
+                      "icon": "🛶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Canoe Tripping",
+                      "icon": "🛶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Stand-Up Paddleboarding",
+                      "icon": "🛶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dragon Boating",
+                      "icon": "🐉",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Outrigger Canoeing",
+                      "icon": "🛶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Packrafting",
+                      "icon": "🛶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Kayak Fishing",
+                      "icon": "🎣",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Kayak Camping",
+                      "icon": "⛺",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Sailing & Boating",
+              "icon": "⛵",
+              "subcategories": [
+                {
+                  "name": "Sailing Adventures",
+                  "icon": "⛵",
+                  "subcategories": [
+                    {
+                      "name": "Cruising Sailboats",
+                      "icon": "⛵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Racing Sailboats",
+                      "icon": "⛵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tall Ship Sailing",
+                      "icon": "⛵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dinghy Sailing",
+                      "icon": "⛵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bluewater Cruising",
+                      "icon": "⛵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Regatta Participation",
+                      "icon": "🏁",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sailing Expeditions",
+                      "icon": "⛵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Traditional Sailing Craft",
+                      "icon": "⛵",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Motorized Boating",
+                  "icon": "🚤",
+                  "subcategories": [
+                    {
+                      "name": "Powerboating",
+                      "icon": "🚤",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Jet Skiing",
+                      "icon": "🚀⛷️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Canal Boating",
+                      "icon": "🚤",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Houseboat Trips",
+                      "icon": "🛥️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cabin Cruising",
+                      "icon": "🛥️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Yacht Charters",
+                      "icon": "🛥️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "River Cruising",
+                      "icon": "🚢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Marine Wildlife Tours",
+                      "icon": "🐬",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Ocean & Coastal Adventures",
+              "icon": "🌊",
+              "subcategories": [
+                {
+                  "name": "Surfing Sports",
+                  "icon": "🏄‍♂️🏄‍♀️",
+                  "subcategories": [
+                    {
+                      "name": "Surfing",
+                      "icon": "🏄‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bodyboarding",
+                      "icon": "🏄‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bodysurfing",
+                      "icon": "🏄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wind Surfing",
+                      "icon": "🌬️🏄‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Kite Surfing",
+                      "icon": "🪁🏄‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Foil Surfing",
+                      "icon": "🏄‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Surf Kayaking",
+                      "icon": "🛶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Stand-Up Paddle Surfing",
+                      "icon": "🏄‍♀️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Underwater Adventures",
+                  "icon": "🐠",
+                  "subcategories": [
+                    {
+                      "name": "Recreational Diving",
+                      "icon": "🥽",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Technical Diving",
+                      "icon": "🤿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wreck Diving",
+                      "icon": "🚢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cave Diving",
+                      "icon": "⛰️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Drift Diving",
+                      "icon": "🌊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Night Diving",
+                      "icon": "🌙",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Underwater Photography",
+                      "icon": "📸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Freediving",
+                      "icon": "🆓",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Coastal Exploration",
+                  "icon": "🏖️",
+                  "subcategories": [
+                    {
+                      "name": "Coasteering",
+                      "icon": "🧗‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cliff Jumping",
+                      "icon": "🤸‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Coastal Climbing",
+                      "icon": "🧗‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sea Kayaking",
+                      "icon": "🛶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Island Hopping",
+                      "icon": "🏝️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Coastal Foraging",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tidal Adventures",
+                      "icon": "🌊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sea Stack Visits",
+                      "icon": "🗿",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Multi-Element Adventures",
+          "icon": "🏃‍♂️",
+          "subcategories": [
+            {
+              "name": "Multi-Sport Activities",
+              "icon": "🏅",
+              "subcategories": [
+                {
+                  "name": "Adventure Racing",
+                  "icon": "🏁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Triathlon & Multisport",
+                  "icon": "🏊‍♂️🚴‍♂️🏃‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Orienteering",
+                  "icon": "🧭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rogaining",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "SwimRun",
+                  "icon": "🏊‍♀️🏃‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Multi-Day Adventure Challenges",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Team Building Adventures",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Skills Pentathlon",
+                  "icon": "🎯",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Survival & Bushcraft",
+              "icon": "🔥",
+              "subcategories": [
+                {
+                  "name": "Wilderness Survival",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Primitive Skills",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bushcraft",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Foraging & Wild Food",
+                  "icon": "🍇",
+                  "subcategories": []
+                },
+                {
+                  "name": "Traditional Living Skills",
+                  "icon": "🏹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Natural Building",
+                  "icon": "🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tracking & Hunting",
+                  "icon": "🐾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fire Making",
+                  "icon": "🔥",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Expedition Planning",
+              "icon": "🗺️",
+              "subcategories": [
+                {
+                  "name": "Remote Journeys",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Unsupported Expeditions",
+                  "icon": "🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "First Ascents/Descents",
+                  "icon": "🚩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Geographic Exploration",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Scientific Expeditions",
+                  "icon": "🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Historical Route Recreation",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adventure Filmmaking",
+                  "icon": "🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Immersion Journeys",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Adaptive Adventure",
+              "icon": "♿",
+              "subcategories": [
+                {
+                  "name": "Adaptive Hiking",
+                  "icon": "🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adaptive Climbing",
+                  "icon": "🧗‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adaptive Water Sports",
+                  "icon": "🌊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adaptive Winter Sports",
+                  "icon": "❄️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adaptive Cycling",
+                  "icon": "🚲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adaptive Air Sports",
+                  "icon": "✈️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Inclusive Adventure Planning",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Universal Design in Outdoor Recreation",
+                  "icon": "♿",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transformational Journeys",
+      "icon": "🧘‍♀️🧘‍♂️",
+      "subcategories": [
+        {
+          "name": "Personal Development Through Adventure",
+          "icon": "🧗",
+          "subcategories": [
+            {
+              "name": "Challenge & Growth",
+              "icon": "💪",
+              "subcategories": [
+                {
+                  "name": "Comfort Zone Expansion",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Resilience Building",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Confidence Development",
+                  "icon": "✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Self-Reliance Cultivation",
+                  "icon": "🧍‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fear Management",
+                  "icon": "😨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Physical Capacity Expansion",
+                  "icon": "🏋️‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mental Fortitude Development",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Risk Assessment Skills",
+                  "icon": "⚖️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Mindful Adventure Approaches",
+              "icon": "🧘‍♂️🧘‍♀️",
+              "subcategories": [
+                {
+                  "name": "Flow State Cultivation",
+                  "icon": "🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Present Moment Awareness",
+                  "icon": "🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nature Connection Deepening",
+                  "icon": "🌲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Intentional Adventure Design",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mindful Risk Taking",
+                  "icon": "🧘",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conscious Challenge Seeking",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adventure Integration",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reflective Adventure Practice",
+                  "icon": "✍️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Life Transition Journeys",
+              "icon": "🔄",
+              "subcategories": [
+                {
+                  "name": "Rites of Passage Experiences",
+                  "icon": "🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vision Quest Journeys",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Transformational Travel",
+                  "icon": "✈️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Soul-Purpose Seeking",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Identity Exploration Through Travel",
+                  "icon": "👤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Life Milestone Adventures",
+                  "icon": "🎂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coming-of-Age Journeys",
+                  "icon": "🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Elder Adventures",
+                  "icon": "👵",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Adventure Education",
+          "icon": "🎓",
+          "subcategories": [
+            {
+              "name": "Outdoor Education Programs",
+              "icon": "🌳",
+              "subcategories": [
+                {
+                  "name": "Wilderness Orientation",
+                  "icon": "🧭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Environmental Education",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Primitive Skills Education",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nature-Based Schools",
+                  "icon": "🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Forest Schools",
+                  "icon": "🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Outdoor Leadership Programs",
+                  "icon": "🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adventure Therapy Programs",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wilderness Medicine Training",
+                  "icon": "🩹",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Skill Development",
+              "icon": "🛠️",
+              "subcategories": [
+                {
+                  "name": "Navigation Skills",
+                  "icon": "🧭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Survival Skills",
+                  "icon": "🔥",
+                  "subcategories": []
+                },
+                {
+                  "name": "First Aid & Safety",
+                  "icon": "🩹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technical Outdoor Skills",
+                  "icon": "🧗‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Risk Management",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trip Planning & Logistics",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Environmental Ethics",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Group Leadership",
+                  "icon": "🧑",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Community Building",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Team Development",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Group Facilitation",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Expedition Behavior",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Living Skills",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shared Adventure Experiences",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cooperative Challenge",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Collective Problem Solving",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Bridge Building",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sustainable Adventure",
+          "icon": "🌱",
+          "subcategories": [
+            {
+              "name": "Ecological Adventure Practices",
+              "icon": "🌳",
+              "subcategories": [
+                {
+                  "name": "Leave No Trace Principles",
+                  "icon": "👣",
+                  "subcategories": []
+                },
+                {
+                  "name": "Minimal Impact Travel",
+                  "icon": "👣",
+                  "subcategories": []
+                },
+                {
+                  "name": "Carbon-Conscious Adventuring",
+                  "icon": "💨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wildlife-Friendly Practices",
+                  "icon": "🦌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Habitat Protection Awareness",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Conservation Support",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Regenerative Adventure Design",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Environmental Stewardship",
+                  "icon": "🌱",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Ethical Tourism Approaches",
+              "icon": "⚖️",
+              "subcategories": [
+                {
+                  "name": "Community Benefit Tourism",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indigenous-Led Experiences",
+                  "icon": "🏹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Guide Engagement",
+                  "icon": "🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fair Compensation Practices",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Respect Protocols",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Authentic Exchange",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Legacy Planning",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reciprocity in Adventure",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Future of Adventure",
+              "icon": "🚀",
+              "subcategories": [
+                {
+                  "name": "Climate Adaptation in Adventure",
+                  "icon": "☀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "New Models of Access",
+                  "icon": "♿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technology Integration",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adventure Ethics Evolution",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Post-Carbon Adventure Design",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Inclusive Adventure Development",
+                  "icon": "♿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Preservation Through Adventure",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Traditional Knowledge Integration",
+                  "icon": "🏹",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Adventure Integration",
+          "icon": "🔄",
+          "subcategories": [
+            {
+              "name": "Storytelling & Documentation",
+              "icon": "✍️",
+              "subcategories": [
+                {
+                  "name": "Adventure Journaling",
+                  "icon": "📓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Travel Writing",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Photography & Videography",
+                  "icon": "📸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Sharing & Presentations",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Creative Expression of Experience",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Storytelling",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Map Making & Route Documentation",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Oral History & Tradition",
+                  "icon": "🗣️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Knowledge & Wisdom Integration",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Experience Processing",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lessons Learned Application",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Life Philosophy Development",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Value Clarification Through Adventure",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adventure-Informed Decisions",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cross-Context Skill Transfer",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nature-Based Wisdom",
+                  "icon": "🌲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Learning Integration",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Lifestyle Design",
+              "icon": "🏘️",
+              "subcategories": [
+                {
+                  "name": "Adventure in Daily Life",
+                  "icon": "🏃‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Micro-Adventures",
+                  "icon": "🌟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Urban Adventure",
+                  "icon": "🏙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Work-Adventure Balance",
+                  "icon": "💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Family Adventure Integration",
+                  "icon": "👨‍👩‍👧‍👦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Adventure Culture",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lifelong Adventure Planning",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adventure-Inspired Living",
+                  "icon": "✨",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

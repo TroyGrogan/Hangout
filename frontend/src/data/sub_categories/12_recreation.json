@@ -1,0 +1,4967 @@
+{
+  "id": 90,
+  "name": "Recreation, Hobbies, Entertainment, and Games",
+  "icon": "🎮",
+  "subcategories": [
+    {
+      "name": "Active Recreation",
+      "icon": "🏃‍♂️",
+      "subcategories": [
+        {
+          "name": "Physical Games & Sports",
+          "icon": "🤸‍♀️",
+          "subcategories": [
+            {
+              "name": "Team Sports",
+              "icon": "👥",
+              "subcategories": [
+                {
+                  "name": "Ball Sports",
+                  "icon": "⚽",
+                  "subcategories": [
+                    {
+                      "name": "Soccer/Football",
+                      "icon": "⚽",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Basketball",
+                      "icon": "🏀",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Baseball/Softball",
+                      "icon": "⚾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Volleyball",
+                      "icon": "🏐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Rugby",
+                      "icon": "🏉",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "American Football",
+                      "icon": "🏈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cricket",
+                      "icon": "🏏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Hockey (Ice/Field)",
+                      "icon": "🏒",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Handball",
+                      "icon": "🤾‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Water Polo",
+                      "icon": "🤽‍♂️🤽‍♀️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Racket Sports",
+                  "icon": "🎾",
+                  "subcategories": [
+                    {
+                      "name": "Tennis",
+                      "icon": "🎾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Badminton",
+                      "icon": "🏸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Squash",
+                      "icon": "🏸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pickleball",
+                      "icon": "🥒",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Table Tennis",
+                      "icon": "🏓",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Combat Sports",
+                  "icon": "🥊",
+                  "subcategories": [
+                    {
+                      "name": "Martial Arts",
+                      "icon": "🥋",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Boxing",
+                      "icon": "🥊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wrestling",
+                      "icon": "🤼",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fencing",
+                      "icon": "🤺",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Alternative Team Sports",
+                  "icon": "🏆",
+                  "subcategories": [
+                    {
+                      "name": "Ultimate Frisbee",
+                      "icon": "🥏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Quidditch",
+                      "icon": "🧹☄️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Roller Derby",
+                      "icon": "🛼",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dodgeball",
+                      "icon": "☄️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Kickball",
+                      "icon": "☄️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Individual Sports & Activities",
+              "icon": "🧍‍♀️",
+              "subcategories": [
+                {
+                  "name": "Running & Track",
+                  "icon": "🏃‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Swimming",
+                  "icon": "🏊‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cycling",
+                  "icon": "🚴‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Gymnastics",
+                  "icon": "🤸‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Skating (Ice/Roller)",
+                  "icon": "⛸️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Skiing/Snowboarding",
+                  "icon": "⛷️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Surfing/Paddleboarding",
+                  "icon": "🏄‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Climbing/Bouldering",
+                  "icon": "🧗‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Golf",
+                  "icon": "⛳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bowling",
+                  "icon": "🎳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Archery",
+                  "icon": "🏹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Disc Golf",
+                  "icon": "🗑️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Skateboarding",
+                  "icon": "🛹",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Recreational Physical Activities",
+              "icon": "🚶‍♂️",
+              "subcategories": [
+                {
+                  "name": "Hiking/Walking",
+                  "icon": "⛰️🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dancing",
+                  "icon": "💃",
+                  "subcategories": [
+                    {
+                      "name": "Ballroom",
+                      "icon": "🕺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Latin",
+                      "icon": "💃",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Hip-Hop",
+                      "icon": "🕺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Folk",
+                      "icon": "💃",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ballet",
+                      "icon": "🩰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Contemporary",
+                      "icon": "💃",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Social Dancing",
+                      "icon": "💃",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Yoga",
+                  "icon": "🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pilates",
+                  "icon": "🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tai Chi",
+                  "icon": "☯️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Recreational Biking",
+                  "icon": "🚲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Casual Sports Participation",
+                  "icon": "⚽",
+                  "subcategories": []
+                },
+                {
+                  "name": "Playground Games",
+                  "icon": "🌳",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Adventure & Outdoor Recreation",
+              "icon": "🏞️",
+              "subcategories": [
+                {
+                  "name": "Camping",
+                  "icon": "🏕️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Backpacking",
+                  "icon": "🎒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Canoeing/Kayaking",
+                  "icon": "🛶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sailing",
+                  "icon": "⛵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fishing",
+                  "icon": "🎣",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hunting",
+                  "icon": "🏹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Off-Roading",
+                  "icon": "🚙",
+                  "subcategories": []
+                },
+                {
+                  "name": "Orienteering",
+                  "icon": "🧭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Geocaching",
+                  "icon": "🧭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Outdoor Survival Skills",
+                  "icon": "🔥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bird Watching",
+                  "icon": "🐦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nature Photography",
+                  "icon": "📸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Foraging",
+                  "icon": "🍇",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Interactive Games",
+          "icon": "🎲",
+          "subcategories": [
+            {
+              "name": "Lawn & Outdoor Games",
+              "icon": "🌳",
+              "subcategories": [
+                {
+                  "name": "Croquet",
+                  "icon": "🏏🥅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bocce",
+                  "icon": "🔴🟢⚪🔵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Horseshoes",
+                  "icon": "℧┃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cornhole/Bean Bag Toss",
+                  "icon": "🌽🕳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ladder Ball",
+                  "icon": "🔴🪢🔴🪜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Badminton (Casual)",
+                  "icon": "🏸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Frisbee",
+                  "icon": "🥏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hacky Sack",
+                  "icon": "⚽",
+                  "subcategories": []
+                },
+                {
+                  "name": "Kite Flying",
+                  "icon": "🪁",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Schoolyard & Party Games",
+              "icon": "🤸‍♀️",
+              "subcategories": [
+                {
+                  "name": "Tag",
+                  "icon": "🏃‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hide and Seek",
+                  "icon": "🙈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Four Square",
+                  "icon": "🔢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hopscotch",
+                  "icon": "🔢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Red Rover",
+                  "icon": "🏃‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Capture the Flag",
+                  "icon": "🚩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Water Balloon Games",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Scavenger Hunts",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Charades",
+                  "icon": "🎭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pictionary",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Twister",
+                  "icon": "🤸‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Obstacle Courses",
+                  "icon": "🏃‍♀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Indoor Physical Games",
+              "icon": "🎮",
+              "subcategories": [
+                {
+                  "name": "Ping Pong",
+                  "icon": "🏓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Foosball",
+                  "icon": "⚽",
+                  "subcategories": []
+                },
+                {
+                  "name": "Air Hockey",
+                  "icon": "🏒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Billiards/Pool",
+                  "icon": "🎱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Darts",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indoor Mini Golf",
+                  "icon": "⛳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indoor Rock Climbing",
+                  "icon": "🧗‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trampoline Parks",
+                  "icon": "🤸‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Laser Tag",
+                  "icon": "🔫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Escape Rooms",
+                  "icon": "🔑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indoor Nerf Wars",
+                  "icon": "🔫",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tabletop Games",
+      "icon": "🎲",
+      "subcategories": [
+        {
+          "name": "Board Games",
+          "icon": "♟️",
+          "subcategories": [
+            {
+              "name": "Strategy Games",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Abstract Strategy",
+                  "icon": "⚫",
+                  "subcategories": [
+                    {
+                      "name": "Chess",
+                      "icon": "♟️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Go",
+                      "icon": "⚫⚪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Checkers",
+                      "icon": "⚪⚫",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Backgammon",
+                      "icon": "🎲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Connect Four",
+                      "icon": "🔴",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Othello/Reversi",
+                      "icon": "⚫",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mancala",
+                      "icon": "🎲",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Area Control/Territory Building",
+                  "icon": "🗺️",
+                  "subcategories": [
+                    {
+                      "name": "Risk",
+                      "icon": "🌍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Catan",
+                      "icon": "🐑",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Small World",
+                      "icon": "🌍🧚",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Scythe",
+                      "icon": "🤖🚜🌾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Terra Mystica",
+                      "icon": "🏞️✨",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Resource Management",
+                  "icon": "📈",
+                  "subcategories": [
+                    {
+                      "name": "Agricola",
+                      "icon": "👨‍🌾🐑🐄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Puerto Rico",
+                      "icon": "🚢🌽🏭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Century: Spice Road",
+                      "icon": "🌶️⛵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wingspan",
+                      "icon": "🐦🥚",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Power Grid",
+                      "icon": "⚡️🏭",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "War Games",
+                  "icon": "⚔️",
+                  "subcategories": [
+                    {
+                      "name": "Axis & Allies",
+                      "icon": "🌍⚔️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Memoir '44",
+                      "icon": "🇫🇷🇺🇸🇬🇧🇩🇪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Twilight Imperium",
+                      "icon": "🚀👑🌌",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Diplomacy",
+                      "icon": "🤝🗡️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Warhammer",
+                      "icon": "🔨💀",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Party & Social Games",
+              "icon": "🥳",
+              "subcategories": [
+                {
+                  "name": "Trivia Games",
+                  "icon": "❓",
+                  "subcategories": [
+                    {
+                      "name": "Trivial Pursuit",
+                      "icon": "❓🥧",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wit's End",
+                      "icon": "🧠❓",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Jeopardy-style Games",
+                      "icon": "❓💰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Timeline",
+                      "icon": "⏳📅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wits & Wagers",
+                      "icon": "❓💰🎲",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Word Games",
+                  "icon": "✍️",
+                  "subcategories": [
+                    {
+                      "name": "Scrabble",
+                      "icon": "🔤",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Boggle",
+                      "icon": "🎲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bananagrams",
+                      "icon": "🍌",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Codenames",
+                      "icon": "🕵️‍♂️❓",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Taboo",
+                      "icon": "🚫🗣️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Apples to Apples",
+                      "icon": "🍎🍏",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Social Deduction",
+                  "icon": "🕵️",
+                  "subcategories": [
+                    {
+                      "name": "Werewolf/Mafia",
+                      "icon": "🐺🌕",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "The Resistance",
+                      "icon": "🕵️‍♂️🛡️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Secret Hitler",
+                      "icon": "🕵️‍♂️🇩🇪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "One Night Ultimate Werewolf",
+                      "icon": "🐺❓🌙",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Among Us (Tabletop Version)",
+                      "icon": "🚀🔪❓",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Creative/Expressive Games",
+                  "icon": "🎨",
+                  "subcategories": [
+                    {
+                      "name": "Dixit",
+                      "icon": "🖼️💭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Telestrations",
+                      "icon": "✍️➡️👂",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Balderdash",
+                      "icon": "🤥✍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cranium",
+                      "icon": "🧠🎨🎭🎤",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Scattergories",
+                      "icon": "🅰️🅱️✔️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Family & Traditional Games",
+              "icon": "👨‍👩‍👧‍👦",
+              "subcategories": [
+                {
+                  "name": "Roll & Move Games",
+                  "icon": "🎲",
+                  "subcategories": [
+                    {
+                      "name": "Monopoly",
+                      "icon": "🎲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "The Game of Life",
+                      "icon": "🎲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Candyland",
+                      "icon": "🎲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Chutes and Ladders",
+                      "icon": "🎲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sorry!",
+                      "icon": "🎲",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Dexterity Games",
+                  "icon": "🏗️",
+                  "subcategories": [
+                    {
+                      "name": "Jenga",
+                      "icon": "🏗️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pick-up Sticks",
+                      "icon": "🥢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Operation",
+                      "icon": "👨‍⚕️⚡️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Hungry Hungry Hippos",
+                      "icon": "🦛⚪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Don't Break the Ice",
+                      "icon": "🐧🔨🧊",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Classic Games",
+                  "icon": "🎲",
+                  "subcategories": [
+                    {
+                      "name": "Clue/Cluedo",
+                      "icon": "🔎",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Yahtzee",
+                      "icon": "🎲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Parcheesi",
+                      "icon": "🎲🏠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Chinese Checkers",
+                      "icon": "⭐⚪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mah-jongg",
+                      "icon": "🀄",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Modern Designer Games",
+              "icon": "🌟",
+              "subcategories": [
+                {
+                  "name": "Euro-style Games",
+                  "icon": "🇪🇺",
+                  "subcategories": [
+                    {
+                      "name": "Ticket to Ride",
+                      "icon": "🚆",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Carcassonne",
+                      "icon": "🏰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pandemic",
+                      "icon": "🌍💊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "7 Wonders",
+                      "icon": "🏛️🌍🃏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Azul",
+                      "icon": "🟦⬜🧱",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "American-style Games",
+                  "icon": "🇺🇸",
+                  "subcategories": [
+                    {
+                      "name": "Betrayal at House on the Hill",
+                      "icon": "👻🏠❓",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cosmic Encounter",
+                      "icon": "👽🚀🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Gloomhaven",
+                      "icon": "💀🗺️🃏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dead of Winter",
+                      "icon": "🧟❄️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mansions of Madness",
+                      "icon": "👻🐙❓",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Legacy & Campaign Games",
+                  "icon": "🗺️",
+                  "subcategories": [
+                    {
+                      "name": "Risk Legacy",
+                      "icon": "🌍🗺️🖊️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pandemic Legacy",
+                      "icon": "🌍💊📅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Gloomhaven",
+                      "icon": "💀🗺️🃏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Charterstone",
+                      "icon": "🏘️📜🖊️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Descent: Journeys in the Dark",
+                      "icon": "⚔️🐉🗺️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Card Games",
+          "icon": "🃏",
+          "subcategories": [
+            {
+              "name": "Traditional Card Games",
+              "icon": "🃏",
+              "subcategories": [
+                {
+                  "name": "Trick-Taking Games",
+                  "icon": "🏆",
+                  "subcategories": [
+                    {
+                      "name": "Bridge",
+                      "icon": "🌉",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Hearts",
+                      "icon": "❤️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Spades",
+                      "icon": "♠️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Euchre",
+                      "icon": "🃏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pinochle",
+                      "icon": "🃏",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Rummy Games",
+                  "icon": "🃏",
+                  "subcategories": [
+                    {
+                      "name": "Gin Rummy",
+                      "icon": "🃏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Canasta",
+                      "icon": "🃏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "500 Rummy",
+                      "icon": "🃏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Contract Rummy",
+                      "icon": "🃏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mahjong (Card Version)",
+                      "icon": "🃏",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Matching & Shedding Games",
+                  "icon": "🔄",
+                  "subcategories": [
+                    {
+                      "name": "Crazy Eights",
+                      "icon": "🔄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "UNO",
+                      "icon": "🃏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Go Fish",
+                      "icon": "🎣",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Old Maid",
+                      "icon": "🃏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "War",
+                      "icon": "⚔️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Gambling Card Games",
+                  "icon": "💰",
+                  "subcategories": [
+                    {
+                      "name": "Poker (Various)",
+                      "icon": "🃏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Blackjack",
+                      "icon": "🃏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Baccarat",
+                      "icon": "🃏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Casino",
+                      "icon": "🎰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cribbage",
+                      "icon": "🃏",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Collectible Card Games",
+              "icon": "✨",
+              "subcategories": [
+                {
+                  "name": "Magic: The Gathering",
+                  "icon": "✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pokémon TCG",
+                  "icon": "🐱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Yu-Gi-Oh!",
+                  "icon": "🔮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hearthstone (Physical Version)",
+                  "icon": "🃏🔥💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Star Wars: Destiny",
+                  "icon": "⭐⚔️🎲",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Living/Expandable Card Games",
+              "icon": "📚",
+              "subcategories": [
+                {
+                  "name": "Android: Netrunner",
+                  "icon": "💻🤖🃏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Arkham Horror LCG",
+                  "icon": "🐙👻🃏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Marvel Champions",
+                  "icon": "🦸‍♂️🃏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Star Wars: The Card Game",
+                  "icon": "⭐🚀🃏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Legendary",
+                  "icon": "🦸‍♂️🦹‍♂️🃏",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Modern Card Games",
+              "icon": "😂",
+              "subcategories": [
+                {
+                  "name": "Cards Against Humanity",
+                  "icon": "🃏⚫⚪😂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Exploding Kittens",
+                  "icon": "💣😻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sushi Go!",
+                  "icon": "🍣🍙",
+                  "subcategories": []
+                },
+                {
+                  "name": "Love Letter",
+                  "icon": "💌👸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coup",
+                  "icon": "👑🗡️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dice & Tile Games",
+          "icon": "🎲",
+          "subcategories": [
+            {
+              "name": "Dice Games",
+              "icon": "🎲",
+              "subcategories": [
+                {
+                  "name": "Yahtzee",
+                  "icon": "🎲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Farkle",
+                  "icon": "🎲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Liar's Dice",
+                  "icon": "🎲🤥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Zombie Dice",
+                  "icon": "🧟🎲🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "King of Tokyo",
+                  "icon": "🦖🏙️🎲",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Domino Games",
+              "icon": "🂊",
+              "subcategories": [
+                {
+                  "name": "Basic Dominoes",
+                  "icon": "🂊➡️🂀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mexican Train",
+                  "icon": "🚂🂊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Chicken Foot",
+                  "icon": "🐔🐾🂊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Matador",
+                  "icon": "🐂🂊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Muggins",
+                  "icon": "🔢🂊",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Tile-Laying Games",
+              "icon": "🟥⬜🟨🟩🟦",
+              "subcategories": [
+                {
+                  "name": "Carcassonne",
+                  "icon": "🏰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tsuro",
+                  "icon": "🐉🟨🟩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Azul",
+                  "icon": "🟦⬜🧱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Qwirkle",
+                  "icon": "⚫⭐🟥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Kingdomino",
+                  "icon": "👑🟥⬜",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Role-Playing Games",
+          "icon": "🐉",
+          "subcategories": [
+            {
+              "name": "Tabletop RPGs",
+              "icon": "🎲",
+              "subcategories": [
+                {
+                  "name": "Dungeons & Dragons",
+                  "icon": "🐉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pathfinder",
+                  "icon": "🗺️⚔️🐉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Call of Cthulhu",
+                  "icon": "🐙👻❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vampire: The Masquerade",
+                  "icon": "🧛‍♂️🌃",
+                  "subcategories": []
+                },
+                {
+                  "name": "FATE",
+                  "icon": "🎲✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Savage Worlds",
+                  "icon": "💥🤠🃏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Blades in the Dark",
+                  "icon": "🔪🌃👻",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Story Games",
+              "icon": "📖",
+              "subcategories": [
+                {
+                  "name": "Fiasco",
+                  "icon": "😂💥📉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ten Candles",
+                  "icon": "🕯️💀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Microscope",
+                  "icon": "⏳🌍✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "The Quiet Year",
+                  "icon": "🗺️🤫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dread",
+                  "icon": "🧱😱",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Live Action Role-Playing (LARP)",
+              "icon": "🎭",
+              "subcategories": [
+                {
+                  "name": "Fantasy LARP",
+                  "icon": "🐉⚔️🎭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vampire/World of Darkness",
+                  "icon": "🧛‍♂️🎭🌃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Historical LARP",
+                  "icon": "📜🎭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sci-Fi LARP",
+                  "icon": "🚀👽🎭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Convention LARPs",
+                  "icon": "👥🎭",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Play-by-Post & Online RPGs",
+              "icon": "💻",
+              "subcategories": [
+                {
+                  "name": "Forum-Based Games",
+                  "icon": "💻✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Discord RPGs",
+                  "icon": "💻🗣️🎲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Virtual Tabletop RPGs",
+                  "icon": "💻🎲🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Text-Based Adventures",
+                  "icon": "⌨️🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shared Storytelling",
+                  "icon": "👥✍️📖",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Miniature & War Games",
+          "icon": "⚔️",
+          "subcategories": [
+            {
+              "name": "Miniature Wargames",
+              "icon": "⚔️",
+              "subcategories": [
+                {
+                  "name": "Warhammer 40K",
+                  "icon": "🚀💀⚔️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Warhammer Age of Sigmar",
+                  "icon": "🔨⚡️⚔️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bolt Action",
+                  "icon": "🎖️💥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Flames of War",
+                  "icon": "🔥🎖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "X-Wing Miniatures",
+                  "icon": "🚀⚔️⭐",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Historical War Games",
+              "icon": "⚔️",
+              "subcategories": [
+                {
+                  "name": "Napoleonic Wargames",
+                  "icon": "🇫🇷⚔️💂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ancient Battles",
+                  "icon": "🏛️⚔️🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "World War II Simulations",
+                  "icon": "🌍🎖️💥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Civil War Games",
+                  "icon": "🇺🇸⚔️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Medieval Combat",
+                  "icon": "🏰⚔️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Miniature Painting & Modeling",
+              "icon": "🎨",
+              "subcategories": [
+                {
+                  "name": "Figure Painting Techniques",
+                  "icon": "🖌️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Terrain Building",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Diorama Creation",
+                  "icon": "🖼️🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Army Customization",
+                  "icon": "🎨🖌️🎖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Miniature Conversion",
+                  "icon": "✂️🖌️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Digital Gaming",
+      "icon": "💻",
+      "subcategories": [
+        {
+          "name": "Video Games",
+          "icon": "🎮",
+          "subcategories": [
+            {
+              "name": "Console Gaming",
+              "icon": "🎮",
+              "subcategories": [
+                {
+                  "name": "PlayStation",
+                  "icon": "🎮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Xbox",
+                  "icon": "🎮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nintendo",
+                  "icon": "🎮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Retro Consoles",
+                  "icon": "🎮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Console Modifications",
+                  "icon": "🔧",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "PC Gaming",
+              "icon": "🖥️",
+              "subcategories": [
+                {
+                  "name": "Gaming PCs",
+                  "icon": "🖥️",
+                  "subcategories": [
+                    {
+                      "name": "Steam Platform",
+                      "icon": "💻☁️🎮",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Epic Games Store",
+                      "icon": "💻🛒🎮",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Gaming Peripherals",
+                  "icon": "⌨️",
+                  "subcategories": []
+                },
+                {
+                  "name": "PC Game Modding",
+                  "icon": "🔧",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Mobile Gaming",
+              "icon": "📱",
+              "subcategories": [
+                {
+                  "name": "iOS Games",
+                  "icon": "📱🍎🎮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Android Games",
+                  "icon": "📱🤖🎮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mobile eSports",
+                  "icon": "🏆",
+                  "subcategories": [
+                    {
+                      "name": "Hyper-Casual Games",
+                      "icon": "👆📱🎮",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mobile Strategy Games",
+                      "icon": "📱🗺️⚔️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Virtual Reality Gaming",
+              "icon": "🕶️",
+              "subcategories": [
+                {
+                  "name": "VR Headsets",
+                  "icon": "🕶️",
+                  "subcategories": []
+                },
+                {
+                  "name": "VR Experiences",
+                  "icon": "🕶️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Motion Controls",
+                  "icon": "🕹️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Room-Scale VR",
+                  "icon": "🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "VR Fitness Games",
+                  "icon": "💪",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gaming Genres",
+          "icon": "🕹️",
+          "subcategories": [
+            {
+              "name": "Action & Adventure",
+              "icon": "⚔️",
+              "subcategories": [
+                {
+                  "name": "Action-Adventure",
+                  "icon": "🏃‍♂️⚔️🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Platform Games",
+                  "icon": "🍄🤸‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Beat 'em Ups",
+                  "icon": "👊💥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hack and Slash",
+                  "icon": "⚔️💨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stealth Games",
+                  "icon": "👤🤫",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Role-Playing Games",
+              "icon": "🐉",
+              "subcategories": [
+                {
+                  "name": "Western RPGs",
+                  "icon": "🤠🐎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Japanese RPGs",
+                  "icon": "🎌⚔️✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Action RPGs",
+                  "icon": "⚔️🏃‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "MMORPGs",
+                  "icon": "🌍👥⚔️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tactical RPGs",
+                  "icon": "♟️⚔️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Strategy Games",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Real-Time Strategy",
+                  "icon": "⏱️🗺️⚔️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Turn-Based Strategy",
+                  "icon": "⏳🗺️♟️",
+                  "subcategories": []
+                },
+                {
+                  "name": "4X Games",
+                  "icon": "🌍🚀🏛️⚔️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tower Defense",
+                  "icon": "🏰🏹💥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Auto-Battlers",
+                  "icon": "🤖⚔️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Simulation Games",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Life Simulations",
+                  "icon": "🏠👨‍👩‍👧‍👦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vehicle Simulations",
+                  "icon": "🚗✈️🚢",
+                  "subcategories": []
+                },
+                {
+                  "name": "City Builders",
+                  "icon": "🏙️🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Business Simulations",
+                  "icon": "🏢💼💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sports Management",
+                  "icon": "⚽📈",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Sports & Racing",
+              "icon": "⚽",
+              "subcategories": [
+                {
+                  "name": "Sports Games",
+                  "icon": "⚽🏀🏈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Racing Simulations",
+                  "icon": "🏎️🏁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Arcade Racers",
+                  "icon": "🚗💨⭐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Extreme Sports",
+                  "icon": "🛹🏂🏄‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sports Management",
+                  "icon": "⚽📈",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Puzzle & Casual",
+              "icon": "🧩",
+              "subcategories": [
+                {
+                  "name": "Match-Three Games",
+                  "icon": "🟦🟦🟦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Physics Puzzlers",
+                  "icon": "🧩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hidden Object Games",
+                  "icon": "🧩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Visual Novels",
+                  "icon": "🎭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Idle Games",
+                  "icon": "🎮",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gaming Culture",
+          "icon": "🎮",
+          "subcategories": [
+            {
+              "name": "eSports",
+              "icon": "🏆🎮",
+              "subcategories": [
+                {
+                  "name": "Competitive Gaming",
+                  "icon": "🏆🎮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Professional Teams",
+                  "icon": "🏆🎮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Gaming Tournaments",
+                  "icon": "🏆🎮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Streaming Competitions",
+                  "icon": "🏆🎮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fantasy eSports",
+                  "icon": "🏆🎮",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Gaming Communities",
+              "icon": "👥",
+              "subcategories": [
+                {
+                  "name": "Gaming Clans/Guilds",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Forums & Discord Servers",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fan Conventions",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Modding Communities",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Speedrunning",
+                  "icon": "🏃💨",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Game Creation",
+              "icon": "🛠️",
+              "subcategories": [
+                {
+                  "name": "Game Development",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Level Design",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Game Jams",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "ROM Hacking",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fan Games",
+                  "icon": "🛠️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Gaming Content",
+              "icon": "🎬",
+              "subcategories": [
+                {
+                  "name": "Let's Plays",
+                  "icon": "🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Game Reviews",
+                  "icon": "🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Gaming Podcasts",
+                  "icon": "🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Game Analysis Videos",
+                  "icon": "🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Gaming News",
+                  "icon": "🎬",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Media & Entertainment",
+      "icon": "🎬",
+      "subcategories": [
+        {
+          "name": "Movies & Cinema",
+          "icon": "🎬",
+          "subcategories": [
+            {
+              "name": "Film Genres",
+              "icon": "🎭",
+              "subcategories": [
+                {
+                  "name": "Drama",
+                  "icon": "🎭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Comedy",
+                  "icon": "😂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Action/Adventure",
+                  "icon": "⚔️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Science Fiction",
+                  "icon": "🚀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fantasy",
+                  "icon": "🐉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Horror",
+                  "icon": "👻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Thriller/Suspense",
+                  "icon": "🔪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Documentary",
+                  "icon": "📰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Animation",
+                  "icon": "🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Foreign Films",
+                  "icon": "🌍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Cinema Appreciation",
+              "icon": "🎞️",
+              "subcategories": [
+                {
+                  "name": "Film History",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Film Theory",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Director Studies",
+                  "icon": "🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cinematography Analysis",
+                  "icon": "🎥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Film Festivals",
+                  "icon": "🏆",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Movie Watching Experiences",
+              "icon": "🍿",
+              "subcategories": [
+                {
+                  "name": "Theater Going",
+                  "icon": "🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Home Cinema",
+                  "icon": "🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Movie Marathons",
+                  "icon": "🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Film Clubs",
+                  "icon": "🎞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Drive-In Movies",
+                  "icon": "🚗",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Film Creation",
+              "icon": "🎬",
+              "subcategories": [
+                {
+                  "name": "Amateur Filmmaking",
+                  "icon": "🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Short Films",
+                  "icon": "🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stop Motion Animation",
+                  "icon": "🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mobile Phone Filmmaking",
+                  "icon": "📲🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Video Editing",
+                  "icon": "🎬",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Television & Streaming",
+          "icon": "📺",
+          "subcategories": [
+            {
+              "name": "TV Programming",
+              "icon": "📺",
+              "subcategories": [
+                {
+                  "name": "Drama Series",
+                  "icon": "📺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Comedy Shows",
+                  "icon": "😂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reality TV",
+                  "icon": "🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Talk Shows",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Game Shows",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Documentaries",
+                  "icon": "📰",
+                  "subcategories": []
+                },
+                {
+                  "name": "News Programs",
+                  "icon": "📰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Children's Shows",
+                  "icon": "🧸",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Streaming Platforms",
+              "icon": "💻",
+              "subcategories": [
+                {
+                  "name": "Netflix",
+                  "icon": "📺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hulu",
+                  "icon": "📺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Amazon Prime",
+                  "icon": "📺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Disney+",
+                  "icon": "📺",
+                  "subcategories": []
+                },
+                {
+                  "name": "HBO Max",
+                  "icon": "📺",
+                  "subcategories": []
+                },
+                {
+                  "name": "YouTube",
+                  "icon": "📺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Specialized Streaming Services",
+                  "icon": "📺",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "TV & Streaming Culture",
+              "icon": "📺",
+              "subcategories": [
+                {
+                  "name": "Binge-Watching",
+                  "icon": "📺🍿⏳",
+                  "subcategories": []
+                },
+                {
+                  "name": "TV Fan Communities",
+                  "icon": "📺👥💬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Show Theories & Analysis",
+                  "icon": "📺❓🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "TV Criticism",
+                  "icon": "📺🧐✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Watch Parties",
+                  "icon": "📺👥🎉",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Television Content Creation",
+              "icon": "🎬",
+              "subcategories": [
+                {
+                  "name": "Web Series Creation",
+                  "icon": "💻🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "YouTube Channels",
+                  "icon": "▶️💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Streaming Content",
+                  "icon": "💻📺🔴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Podcasting",
+                  "icon": "🎙️🎧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Video Essays",
+                  "icon": "🎬✍️🤔",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Music",
+          "icon": "🎵",
+          "subcategories": [
+            {
+              "name": "Music Listening",
+              "icon": "🎧",
+              "subcategories": [
+                {
+                  "name": "Albums & Singles",
+                  "icon": "💿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Concerts & Festivals",
+                  "icon": "🎤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Live Music Venues",
+                  "icon": "🎶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Music Streaming",
+                  "icon": "🎧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vinyl/Physical Media",
+                  "icon": "🎶",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Music Genres",
+              "icon": "🎶",
+              "subcategories": [
+                {
+                  "name": "Rock & Metal",
+                  "icon": "🎸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pop",
+                  "icon": "🎤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hip-Hop & Rap",
+                  "icon": "🎤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Electronic & Dance",
+                  "icon": "🎧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Classical",
+                  "icon": "🎻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Jazz & Blues",
+                  "icon": "🎷",
+                  "subcategories": []
+                },
+                {
+                  "name": "Folk & Country",
+                  "icon": "🪕",
+                  "subcategories": []
+                },
+                {
+                  "name": "World Music",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Experimental",
+                  "icon": "🔬",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Music Discovery",
+              "icon": "🔍",
+              "subcategories": [
+                {
+                  "name": "Music Blogs & Magazines",
+                  "icon": "💻📰🎵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Playlist Curation",
+                  "icon": "🎧🎶📝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Music Recommendations",
+                  "icon": "🎧👍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Music History Exploration",
+                  "icon": "📜🎵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Artist Deep Dives",
+                  "icon": "👨‍🎤👩‍🎤🔍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Music Creation",
+              "icon": "🎵",
+              "subcategories": [
+                {
+                  "name": "Songwriting",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Music Production",
+                  "icon": "🎧",
+                  "subcategories": []
+                },
+                {
+                  "name": "DJing",
+                  "icon": "🎧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Beat Making",
+                  "icon": "🎧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Home Recording",
+                  "icon": "🎤",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Literature & Reading",
+          "icon": "📚",
+          "subcategories": [
+            {
+              "name": "Reading Formats",
+              "icon": "📖",
+              "subcategories": [
+                {
+                  "name": "Physical Books",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "E-books",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Audiobooks",
+                  "icon": "🎧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Magazines & Periodicals",
+                  "icon": "📰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Comics & Graphic Novels",
+                  "icon": "📖",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Literary Genres",
+              "icon": "📚",
+              "subcategories": [
+                {
+                  "name": "Fiction",
+                  "icon": "📖",
+                  "subcategories": [
+                    {
+                      "name": "Literary Fiction",
+                      "icon": "📖",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Science Fiction",
+                      "icon": "🚀",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fantasy",
+                      "icon": "🐉",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mystery/Thriller",
+                      "icon": "🔎",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Romance",
+                      "icon": "💖",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Historical Fiction",
+                      "icon": "📜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Young Adult",
+                      "icon": "🧑",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Non-Fiction",
+                  "icon": "📰",
+                  "subcategories": [
+                    {
+                      "name": "Biography/Memoir",
+                      "icon": "👤",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "History",
+                      "icon": "📜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Science",
+                      "icon": "🔬",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Self-Help",
+                      "icon": "🧘‍♀️🧘‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Travel",
+                      "icon": "✈️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Current Affairs",
+                      "icon": "📰",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Poetry",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Short Stories",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Drama/Plays",
+                  "icon": "🎭",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Reading Practices",
+              "icon": "📖",
+              "subcategories": [
+                {
+                  "name": "Reading Clubs",
+                  "icon": "📚👥💬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Solo Reading",
+                  "icon": "📚👤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Literary Analysis",
+                  "icon": "📚🧐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Author Studies",
+                  "icon": "✍️👤📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Close Reading",
+                  "icon": "🧐📚",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Writing & Storytelling",
+              "icon": "✍️",
+              "subcategories": [
+                {
+                  "name": "Creative Writing",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Journaling",
+                  "icon": "📓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fan Fiction",
+                  "icon": "❤️✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Poetry Writing",
+                  "icon": "✍️❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Blogging",
+                  "icon": "💻✍️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Performing Arts",
+          "icon": "🎭",
+          "subcategories": [
+            {
+              "name": "Theater",
+              "icon": "🎭",
+              "subcategories": [
+                {
+                  "name": "Play Attendance",
+                  "icon": "🎭🎟️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Musical Theater",
+                  "icon": "🎭🎶🎤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Experimental Theater",
+                  "icon": "🎭🧪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Improvisational Theater",
+                  "icon": "🎭😂❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Theater",
+                  "icon": "🎭🏘️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Dance",
+              "icon": "💃",
+              "subcategories": [
+                {
+                  "name": "Ballet & Contemporary",
+                  "icon": "🩰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Dancing",
+                  "icon": "💃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Street Dance",
+                  "icon": "🕺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Dance Forms",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dance Performance",
+                  "icon": "💃🎭",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Comedy",
+              "icon": "😂",
+              "subcategories": [
+                {
+                  "name": "Stand-Up Comedy",
+                  "icon": "🎤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Improv Comedy",
+                  "icon": "🎭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sketch Comedy",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Comedy Festivals",
+                  "icon": "😂🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Comedy Writing",
+                  "icon": "😂✍️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Circus & Variety Arts",
+              "icon": "🎪",
+              "subcategories": [
+                {
+                  "name": "Circus Performance",
+                  "icon": "🎪🤹‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Magic Shows",
+                  "icon": "🎩🐇✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vaudeville",
+                  "icon": "🎭🎤💃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Burlesque",
+                  "icon": "💃✨🎭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Street Performance",
+                  "icon": "🚶‍♂️🎩🎶",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Visual Arts & Media",
+          "icon": "🎨",
+          "subcategories": [
+            {
+              "name": "Visual Art Appreciation",
+              "icon": "🎨",
+              "subcategories": [
+                {
+                  "name": "Gallery Visits",
+                  "icon": "🖼️🚶‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Museum Exploration",
+                  "icon": "🏛️🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Art History Study",
+                  "icon": "📜🎨📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Artist Research",
+                  "icon": "👨‍🎨👩‍🎨🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Exhibition Attendance",
+                  "icon": "🖼️🎟️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Digital Media",
+              "icon": "💻",
+              "subcategories": [
+                {
+                  "name": "Digital Art",
+                  "icon": "💻🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Animation",
+                  "icon": "🎬✏️💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Web Comics",
+                  "icon": "💻📖🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Memes & Internet Culture",
+                  "icon": "😂💻🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Virtual Galleries",
+                  "icon": "💻🖼️🚶‍♀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Photography",
+              "icon": "📸",
+              "subcategories": [
+                {
+                  "name": "Digital Photography",
+                  "icon": "📸💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Film Photography",
+                  "icon": "📸🎞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Photo Editing",
+                  "icon": "💻✂️✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Specialized Photography",
+                  "icon": "🔬📸🌌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Photo Sharing",
+                  "icon": "📸🌍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Multimedia",
+              "icon": "🖼️",
+              "subcategories": [
+                {
+                  "name": "Mixed Media Arts",
+                  "icon": "🎨✂️🖼️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Installation Art",
+                  "icon": "🖼️🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sound Art",
+                  "icon": "🔊🎶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Light Art",
+                  "icon": "💡🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Interactive Exhibitions",
+                  "icon": "👋🖼️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Creative Hobbies",
+      "icon": "🎨",
+      "subcategories": [
+        {
+          "name": "Arts & Crafts",
+          "icon": "🎨",
+          "subcategories": [
+            {
+              "name": "Drawing & Painting",
+              "icon": "✍️",
+              "subcategories": [
+                {
+                  "name": "Sketching",
+                  "icon": "✏️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Watercolor",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Oil Painting",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Acrylic Painting",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Painting",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Comic Art",
+                  "icon": "📖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Calligraphy & Lettering",
+                  "icon": "🖋️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Fiber Arts",
+              "icon": "🧶",
+              "subcategories": [
+                {
+                  "name": "Knitting",
+                  "icon": "🧶",
+                  "subcategories": [
+                    {
+                      "name": "Basic Knitting",
+                      "icon": "🧶🥢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Advanced Techniques",
+                      "icon": "🧶✨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Garment Knitting",
+                      "icon": "👕🧶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Accessory Knitting",
+                      "icon": "🧣🧤🧶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Color Work",
+                      "icon": "🎨🧶",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Crochet",
+                  "icon": "🧶",
+                  "subcategories": [
+                    {
+                      "name": "Basic Crochet",
+                      "icon": "🧶🪝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Amigurumi",
+                      "icon": "🧸🧶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Garment Crochet",
+                      "icon": "👚🧶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Home Décor Crochet",
+                      "icon": "🏠🧶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Thread Crochet",
+                      "icon": "🧵🧶",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Weaving",
+                  "icon": "🪡🧵🧶",
+                  "subcategories": [
+                    {
+                      "name": "Loom Weaving",
+                      "icon": "🖼️🪝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tapestry",
+                      "icon": "🖼️🪝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Basket Weaving",
+                      "icon": "🧺🪝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Card Weaving",
+                      "icon": "🃏🪝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Inkle Weaving",
+                      "icon": "🎗️🪝",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Embroidery",
+                  "icon": "🧵",
+                  "subcategories": [
+                    {
+                      "name": "Cross Stitch",
+                      "icon": "🧵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Needlepoint",
+                      "icon": "🧵🖼️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Crewel",
+                      "icon": "🧶🧵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sashiko",
+                      "icon": "🧵🎌",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Blackwork",
+                      "icon": "🧵⚫",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Sewing & Quilting",
+                  "icon": "🧵",
+                  "subcategories": [
+                    {
+                      "name": "Hand Sewing",
+                      "icon": "🖐️🧵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Machine Sewing",
+                      "icon": "⚙️🧵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Garment Making",
+                      "icon": "👗🧵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Quilting",
+                      "icon": "🧵🎌",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Appliqué",
+                      "icon": "✂️🧵🖼️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Paper Crafts",
+              "icon": "📄",
+              "subcategories": [
+                {
+                  "name": "Origami",
+                  "icon": "📄🦢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Card Making",
+                  "icon": "💌✂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Scrapbooking",
+                  "icon": "🖼️✂️📸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Paper Quilling",
+                  "icon": "📄🌀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bookbinding",
+                  "icon": "📚🧵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Papermaking",
+                  "icon": "📄💧",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Sculpture & 3D Crafts",
+              "icon": "🗿",
+              "subcategories": [
+                {
+                  "name": "Clay Modeling",
+                  "icon": "🏺🖐️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pottery",
+                  "icon": "🏺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Woodcarving",
+                  "icon": "🪵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stone Carving",
+                  "icon": "🗿🔨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Metalwork",
+                  "icon": "🔩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Jewelry Making",
+                  "icon": "💍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Glass Art",
+                  "icon": "🔥💎",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DIY & Making",
+          "icon": "🛠️",
+          "subcategories": [
+            {
+              "name": "Woodworking",
+              "icon": "🪵",
+              "subcategories": [
+                {
+                  "name": "Furniture Making",
+                  "icon": "🛋️🔨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Carpentry",
+                  "icon": "🔨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wood Turning",
+                  "icon": "🪵🌀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Whittling",
+                  "icon": "🔪🪵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Restoration",
+                  "icon": "🔨✨",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Home Improvement",
+              "icon": "🏠",
+              "subcategories": [
+                {
+                  "name": "Interior Decoration",
+                  "icon": "🏠🎨🛋️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Home Repairs",
+                  "icon": "🏠🔧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Furniture Restoration",
+                  "icon": "🛋️✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Space Organization",
+                  "icon": "🏠🧹✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Garden Structures",
+                  "icon": "🌳🔨",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Electronics & Technology",
+              "icon": "💡",
+              "subcategories": [
+                {
+                  "name": "Circuit Building",
+                  "icon": "💡🔌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Arduino/Raspberry Pi Projects",
+                  "icon": "💻🍓🥧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Robotics",
+                  "icon": "🤖",
+                  "subcategories": []
+                },
+                {
+                  "name": "3D Printing",
+                  "icon": "🧊🖨️",
+                  "subcategories": []
+                },
+                {
+                  "name": "DIY Gadgets",
+                  "icon": "🔧💡",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Cooking & Culinary Arts",
+              "icon": "🍽️",
+              "subcategories": [
+                {
+                  "name": "Baking",
+                  "icon": "🎂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Specialized Cuisines",
+                  "icon": "🌍🍳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fermentation",
+                  "icon": "🏺🍾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Preserving & Canning",
+                  "icon": "🍯🥫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mixology",
+                  "icon": "🍹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coffee Brewing",
+                  "icon": "☕️💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cake Decorating",
+                  "icon": "🎂✨",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Gardening & Plants",
+              "icon": "🌱",
+              "subcategories": [
+                {
+                  "name": "Vegetable Gardening",
+                  "icon": "🥕🥦🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Flower Gardening",
+                  "icon": "🌸🌷🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indoor Plants",
+                  "icon": "🪴🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bonsai",
+                  "icon": "🌳✂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Terrarium Building",
+                  "icon": "🌱🏺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hydroponics",
+                  "icon": "💧🌱",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Creative Expression",
+          "icon": "✨",
+          "subcategories": [
+            {
+              "name": "Creative Writing",
+              "icon": "✍️",
+              "subcategories": [
+                {
+                  "name": "Fiction Writing",
+                  "icon": "📖✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Poetry",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Playwriting",
+                  "icon": "🎭✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Screenwriting",
+                  "icon": "🎬✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Blogging",
+                  "icon": "💻✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Journaling",
+                  "icon": "📓",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Music Making",
+              "icon": "🎵",
+              "subcategories": [
+                {
+                  "name": "Instrument Playing",
+                  "icon": "🎸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Singing",
+                  "icon": "🎤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Songwriting",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Music Composition",
+                  "icon": "🎵✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Home Recording",
+                  "icon": "🎙️🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "DJ/Electronic Music Creation",
+                  "icon": "🎧💻🎶",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Performing",
+              "icon": "🎭",
+              "subcategories": [
+                {
+                  "name": "Acting",
+                  "icon": "🎭🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dance",
+                  "icon": "💃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Spoken Word",
+                  "icon": "🗣️🎙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Storytelling",
+                  "icon": "📖🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Puppetry",
+                  "icon": "🧸",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Visual Storytelling",
+              "icon": "🎬",
+              "subcategories": [
+                {
+                  "name": "Photography",
+                  "icon": "📸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Videography",
+                  "icon": "🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Animation",
+                  "icon": "🎬✏️💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Comic Creation",
+                  "icon": "📖🎨✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Storyboarding",
+                  "icon": "🎬🖼️✍️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cultural & Historical Crafts",
+          "icon": "🏛️",
+          "subcategories": [
+            {
+              "name": "Traditional Crafts",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Folk Art",
+                  "icon": "🎨🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indigenous Crafts",
+                  "icon": "🗿🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Textile Arts",
+                  "icon": "🌍🧶🧵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ceremonial Object Creation",
+                  "icon": "🙏🗿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Historical Crafting Methods",
+                  "icon": "📜🔨🧵",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Heritage Preservation",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "Oral History Recording",
+                  "icon": "🗣️📜🎙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Family History Documentation",
+                  "icon": "👨‍👩‍👧‍👦📜✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Artifact Preservation",
+                  "icon": "🏺✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Practice Documentation",
+                  "icon": "🌍✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Historical Reconstruction",
+                  "icon": "📜🔨🏛️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Collecting & Curating",
+      "icon": "🏺",
+      "subcategories": [
+        {
+          "name": "Collecting Types",
+          "icon": "🏺",
+          "subcategories": [
+            {
+              "name": "Antiques & Vintage",
+              "icon": "🕰️",
+              "subcategories": [
+                {
+                  "name": "Furniture",
+                  "icon": "🛋️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Kitchenware",
+                  "icon": "🍽️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Clothing",
+                  "icon": "👗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Décor Items",
+                  "icon": "🖼️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tools & Implements",
+                  "icon": "🛠️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Memorabilia",
+              "icon": "⭐",
+              "subcategories": [
+                {
+                  "name": "Sports Memorabilia",
+                  "icon": "⚽",
+                  "subcategories": []
+                },
+                {
+                  "name": "Entertainment Memorabilia",
+                  "icon": "🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Historical Memorabilia",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Political Memorabilia",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Advertising Collectibles",
+                  "icon": "📰",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Numismatics & Philately",
+              "icon": "💰",
+              "subcategories": [
+                {
+                  "name": "Coin Collecting",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Currency Notes",
+                  "icon": "💵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stamps",
+                  "icon": "📩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Postal History",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Commemorative Issues",
+                  "icon": "🎉💰",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Books & Printed Matter",
+              "icon": "📚",
+              "subcategories": [
+                {
+                  "name": "Rare Books",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "First Editions",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Manuscripts",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Comics & Graphic Novels",
+                  "icon": "📖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Magazines & Periodicals",
+                  "icon": "📰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Maps & Prints",
+                  "icon": "🗺️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Toys & Figurines",
+              "icon": "🧸",
+              "subcategories": [
+                {
+                  "name": "Action Figures",
+                  "icon": "🦸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dolls",
+                  "icon": "🎎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Model Cars",
+                  "icon": "🚗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Plush Toys",
+                  "icon": "🧸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Miniatures",
+                  "icon": "🤏🧸🚗",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Media Collections",
+              "icon": "💿",
+              "subcategories": [
+                {
+                  "name": "Vinyl Records",
+                  "icon": "🎶",
+                  "subcategories": []
+                },
+                {
+                  "name": "CDs & Cassettes",
+                  "icon": "💿",
+                  "subcategories": []
+                },
+                {
+                  "name": "DVDs & Blu-rays",
+                  "icon": "💿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Video Games",
+                  "icon": "🎮",
+                  "subcategories": []
+                },
+                {
+                  "name": "VHS & Vintage Media",
+                  "icon": "📼",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Natural Collections",
+              "icon": "🌿",
+              "subcategories": [
+                {
+                  "name": "Minerals & Rocks",
+                  "icon": "💎🪨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shells",
+                  "icon": "🐚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fossils",
+                  "icon": "🦴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pressed Plants/Herbarium",
+                  "icon": "🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Insect Specimens",
+                  "icon": "🦋",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Collection Management",
+          "icon": "📦",
+          "subcategories": [
+            {
+              "name": "Collection Organization",
+              "icon": "🗂️",
+              "subcategories": [
+                {
+                  "name": "Cataloging Systems",
+                  "icon": "📝🗂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Inventories",
+                  "icon": "💻📝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Display Methods",
+                  "icon": "🖼️🏺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Storage Solutions",
+                  "icon": "📦🔒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Archival Preservation",
+                  "icon": "📜🔒",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Collection Building",
+              "icon": "🏗️",
+              "subcategories": [
+                {
+                  "name": "Research & Authentication",
+                  "icon": "🔍✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Acquisition Strategies",
+                  "icon": "💰🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Value Assessment",
+                  "icon": "💰❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Restoration & Conservation",
+                  "icon": "✨🏺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Collection Themes",
+                  "icon": "🎯🏺📚",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Collection Communities",
+              "icon": "👥",
+              "subcategories": [
+                {
+                  "name": "Collector Clubs",
+                  "icon": "👥🏺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trading Communities",
+                  "icon": "🤝🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Collector Conventions",
+                  "icon": "👥🎉🏺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Online Forums",
+                  "icon": "💻💬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Collection Sharing",
+                  "icon": "🏺➡️👥",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Curation & Appreciation",
+          "icon": "🖼️",
+          "subcategories": [
+            {
+              "name": "Personal Museums",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "Home Galleries",
+                  "icon": "🏠🖼️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Themed Collections",
+                  "icon": "🎯🏺📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rotating Displays",
+                  "icon": "🔄🖼️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Collection Stories",
+                  "icon": "🏺📖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Private Viewing",
+                  "icon": "🔒👀",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Knowledge Development",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Historical Context Research",
+                  "icon": "📜🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Provenance Documentation",
+                  "icon": "📜✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Expert Consultation",
+                  "icon": "🧑‍🔬🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Literature & Reference Collection",
+                  "icon": "📚🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Maker & Era Study",
+                  "icon": "👤🕰️🔍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Sharing & Education",
+              "icon": "🗣️",
+              "subcategories": [
+                {
+                  "name": "Collection Tours",
+                  "icon": "🏺🚶‍♂️🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Educational Presentations",
+                  "icon": "🏺🎓🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Online Collection Sharing",
+                  "icon": "💻🏺🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Collection Writing",
+                  "icon": "🏺✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Outreach",
+                  "icon": "🏺➡️🏘️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Social & Community Activities",
+      "icon": "👥",
+      "subcategories": [
+        {
+          "name": "Social Games & Recreation",
+          "icon": "🎲",
+          "subcategories": [
+            {
+              "name": "Social Gatherings",
+              "icon": "🎉",
+              "subcategories": [
+                {
+                  "name": "Dinner Parties",
+                  "icon": "🍽️🍷🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Game Nights",
+                  "icon": "🎲🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Potlucks",
+                  "icon": "🍲🤝🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Holiday Celebrations",
+                  "icon": "🎄🕎🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Backyard BBQs",
+                  "icon": "🍔🔥🎉",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Community Recreation",
+              "icon": "⚽",
+              "subcategories": [
+                {
+                  "name": "Community Sports Leagues",
+                  "icon": "⚽🏘️🏆",
+                  "subcategories": []
+                },
+                {
+                  "name": "Group Fitness Classes",
+                  "icon": "🤸‍♀️🏋️‍♂️👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Dancing",
+                  "icon": "💃🕺🎶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hiking Groups",
+                  "icon": "⛰️🚶‍♂️👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Running Clubs",
+                  "icon": "🏃‍♀️🏃‍♂️👥",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Group Entertainment",
+              "icon": "🎤",
+              "subcategories": [
+                {
+                  "name": "Karaoke",
+                  "icon": "🎤🎶🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trivia Nights",
+                  "icon": "❓🍻🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Murder Mystery Parties",
+                  "icon": "🔪🕵️‍♂️🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Escape Rooms",
+                  "icon": "🔑🚪❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Interactive Theater",
+                  "icon": "🎭👋",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Digital Socializing",
+              "icon": "💻",
+              "subcategories": [
+                {
+                  "name": "Online Gaming Communities",
+                  "icon": "💻🎮👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Virtual Hangouts",
+                  "icon": "💻🗣️👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Remote Game Nights",
+                  "icon": "💻🎲🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Media Groups",
+                  "icon": "📱💬👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Clubs",
+                  "icon": "💻📚🎨🎵",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Learning & Exploration",
+          "icon": "🎓",
+          "subcategories": [
+            {
+              "name": "Group Learning",
+              "icon": "📚",
+              "subcategories": [
+                {
+                  "name": "Book Clubs",
+                  "icon": "📚💬👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Language Exchange",
+                  "icon": "🗣️🌍🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Study Groups",
+                  "icon": "📚🧠👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Knowledge Sharing Circles",
+                  "icon": "🧠🤝💬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Skill Swaps",
+                  "icon": "🛠️🔄🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Cultural Exploration",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Cultural Events Attendance",
+                  "icon": "🌍🎭🎟️",
+                  "subcategories": []
+                },
+                {
+                  "name": "International Cuisine Exploration",
+                  "icon": "🌍🍽️😋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Exchange Programs",
+                  "icon": "🌍🤝✈️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Historical Site Visits",
+                  "icon": "🏛️🚶‍♂️📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Celebration Participation",
+                  "icon": "🌍🎉💃",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Field Trips & Outings",
+              "icon": "🚌",
+              "subcategories": [
+                {
+                  "name": "Museum Visits",
+                  "icon": "🏛️🚶‍♀️🖼️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Science Center Exploration",
+                  "icon": "🔬🚀🔭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Historical Tours",
+                  "icon": "📜🚶‍♂️🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nature Walks",
+                  "icon": "🌳🚶‍♀️🐦",
+                  "subcategories": []
+                },
+                {
+                  "name": "City Exploration",
+                  "icon": "🏙️🚶‍♂️🗺️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Workshops & Classes",
+              "icon": "🧑",
+              "subcategories": [
+                {
+                  "name": "Craft Workshops",
+                  "icon": "🎨🛠️🧑‍🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cooking Classes",
+                  "icon": "🍳🧑‍🍳🧑‍🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Art Lessons",
+                  "icon": "🎨🖌️🧑‍🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dance Instruction",
+                  "icon": "💃🕺🧑‍🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "DIY Workshops",
+                  "icon": "🔧🛠️🧑‍🏫",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Volunteer & Community Service",
+          "icon": "🤝",
+          "subcategories": [
+            {
+              "name": "Cause-Based Volunteering",
+              "icon": "❤️",
+              "subcategories": [
+                {
+                  "name": "Environmental Conservation",
+                  "icon": "🌳♻️❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Animal Care",
+                  "icon": "🐕🐈❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Justice Work",
+                  "icon": "⚖️❤️🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Education Support",
+                  "icon": "📚🧑‍🏫❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Health & Wellness Initiatives",
+                  "icon": "🏥❤️🧘‍♀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Community Improvement",
+              "icon": "🏘️",
+              "subcategories": [
+                {
+                  "name": "Neighborhood Clean-ups",
+                  "icon": "🏘️🧹🚮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Gardens",
+                  "icon": "🌱🏘️🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local History Preservation",
+                  "icon": "📜🏘️❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Art Projects",
+                  "icon": "🎨🏘️🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Event Organization",
+                  "icon": "🎉🏘️🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Skill-Based Service",
+              "icon": "🛠️",
+              "subcategories": [
+                {
+                  "name": "Mentoring",
+                  "icon": "🧑‍🏫🤝🧑‍🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Teaching Skills",
+                  "icon": "🧑‍🏫🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Professional Services",
+                  "icon": "💼🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Creative Contributions",
+                  "icon": "🎨🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technical Support",
+                  "icon": "💻🔧🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Group-Based Service",
+              "icon": "👨‍👩‍👧‍👦",
+              "subcategories": [
+                {
+                  "name": "Family Volunteering",
+                  "icon": "👨‍👩‍👧‍👦❤️🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Corporate Service Teams",
+                  "icon": "🏢❤️🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Faith-Based Service",
+                  "icon": "🙏❤️🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "School Service Projects",
+                  "icon": "🏫❤️🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Club Service Activities",
+                  "icon": "👥❤️🤝",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mindful Recreation",
+      "icon": "🧘‍♀️🧘‍♂️",
+      "subcategories": [
+        {
+          "name": "Contemplative Practices",
+          "icon": "🧘‍♀️",
+          "subcategories": [
+            {
+              "name": "Meditation",
+              "icon": "🧘‍♂️",
+              "subcategories": [
+                {
+                  "name": "Guided Meditation",
+                  "icon": "🧘‍♀️🎧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Silent Meditation",
+                  "icon": "🧘‍♂️🤫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Walking Meditation",
+                  "icon": "🧘‍♀️🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Breath Work",
+                  "icon": "🧘‍♂️💨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Visualization",
+                  "icon": "🧘‍♀️💭✨",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Spiritual Recreation",
+              "icon": "🙏",
+              "subcategories": [
+                {
+                  "name": "Prayer Practices",
+                  "icon": "🙏🛐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sacred Text Study",
+                  "icon": "📖🙏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Devotional Activities",
+                  "icon": "💖🙏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ceremony Participation",
+                  "icon": "🎉🙏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pilgrimage",
+                  "icon": "🚶‍♂️🙏🌍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Nature Connection",
+              "icon": "🌲",
+              "subcategories": [
+                {
+                  "name": "Forest Bathing",
+                  "icon": "🌲🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nature Observation",
+                  "icon": "🌳👀🐦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wildlife Watching",
+                  "icon": "🦌🦅👀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Star Gazing",
+                  "icon": "✨🔭🌃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seasonal Celebration",
+                  "icon": "🍁❄️🌸☀️🎉",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Creative Contemplation",
+              "icon": "🎨",
+              "subcategories": [
+                {
+                  "name": "Mindful Art Creation",
+                  "icon": "🧘‍♀️🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Contemplative Writing",
+                  "icon": "🧘‍♂️✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sacred Music",
+                  "icon": "🙏🎶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mandala Creation",
+                  "icon": "☸️🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Labyrinth Walking",
+                  "icon": "🌀🚶‍♀️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Holistic Recreation",
+          "icon": "💆‍♂️💆‍♀️",
+          "subcategories": [
+            {
+              "name": "Mind-Body Practices",
+              "icon": "🧘‍♀️🧘‍♂️",
+              "subcategories": [
+                {
+                  "name": "Yoga",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tai Chi",
+                  "icon": "☯️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Qigong",
+                  "icon": "☯️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Feldenkrais",
+                  "icon": "🧘‍♀️🤸‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Alexander Technique",
+                  "icon": "🧍‍♀️🧘‍♂️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Sensory Experience",
+              "icon": "👂",
+              "subcategories": [
+                {
+                  "name": "Sound Baths",
+                  "icon": "🎶🛁😌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Aromatherapy",
+                  "icon": "🌸👃😌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tea Ceremonies",
+                  "icon": "🍵🙏😌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sensory Gardens",
+                  "icon": "🌸👂👃👅👋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tactile Exploration",
+                  "icon": "🖐️😌",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Slow Living Activities",
+              "icon": "🚶‍♂️",
+              "subcategories": [
+                {
+                  "name": "Slow Crafts",
+                  "icon": "⏳🧶🧵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mindful Cooking",
+                  "icon": "🧘‍♀️🍳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Intentional Reading",
+                  "icon": "🧘‍♂️📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Contemplative Walking",
+                  "icon": "🧘‍♂️🚶‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Detox",
+                  "icon": "📵🧘‍♀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Rest & Rejuvenation",
+              "icon": "😌",
+              "subcategories": [
+                {
+                  "name": "Restorative Practices",
+                  "icon": "🧘‍♀️😌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Spa & Self-Care",
+                  "icon": "🧖‍♀️💅😌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Flotation Tanks",
+                  "icon": "💧😌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mindful Retreat",
+                  "icon": "🧘‍♀️🏞️😌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sabbath/Tech Sabbath",
+                  "icon": "📅📵😌",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Flow & Presence",
+          "icon": "🌊",
+          "subcategories": [
+            {
+              "name": "Flow Arts (Juggling, Poi, etc.)",
+              "icon": "🌀🤹‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Zone Sports",
+              "icon": "🎯🏃‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Immersive Creation",
+              "icon": "🎨🎶🌊",
+              "subcategories": []
+            },
+            {
+              "name": "Deep Play Experiences",
+              "icon": "🤸‍♂️😂🌊",
+              "subcategories": []
+            },
+            {
+              "name": "State of Flow Cultivation",
+              "icon": "🌊🧘‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Present Moment Play",
+              "icon": "🧘‍♂️🧘‍♀️",
+              "subcategories": [
+                {
+                  "name": "Unstructured Play",
+                  "icon": "🤸‍♂️❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Childlike Wonder",
+                  "icon": "🤩✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Spontaneous Recreation",
+                  "icon": "🎉🤸‍♂️❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Present-Focused Games",
+                  "icon": "🎲🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pure Enjoyment Practices",
+                  "icon": "😂❤️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Playful Learning",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Curiosity-Driven Exploration",
+                  "icon": "❓🌍🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Experiential Learning",
+                  "icon": "👋🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Skill Play",
+                  "icon": "🤸‍♂️🎲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Discovery Through Play",
+                  "icon": "🤸‍♀️💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Creative Experimentation",
+                  "icon": "🎨🧪✨",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Recreational Balance",
+          "icon": "⚖️",
+          "subcategories": [
+            {
+              "name": "Activity Variety",
+              "icon": "⚽📚",
+              "subcategories": []
+            },
+            {
+              "name": "Energy-Based Recreation",
+              "icon": "⚡️🧘‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Seasonal Recreation",
+              "icon": "☀️🍁❄️🌸",
+              "subcategories": []
+            },
+            {
+              "name": "Life Stage-Appropriate Activities",
+              "icon": "👶🧑👴",
+              "subcategories": []
+            },
+            {
+              "name": "Purposeful Leisure",
+              "icon": "🎯😌",
+              "subcategories": []
+            },
+            {
+              "name": "Mindful Consumption",
+              "icon": "🧘‍♀️🧘‍♂️",
+              "subcategories": [
+                {
+                  "name": "Intentional Entertainment Choices",
+                  "icon": "🧘‍♂️🎬🎶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conscious Media Selection",
+                  "icon": "🧘‍♀️📰💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Diet Planning",
+                  "icon": "📵📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Quality Over Quantity",
+                  "icon": "✨💯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Value-Aligned Recreation",
+                  "icon": "💖😌",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Recreation Integration",
+              "icon": "🔄",
+              "subcategories": [
+                {
+                  "name": "Daily Life Integration",
+                  "icon": "📅🚶‍♂️😌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Weekly Recreation Rhythm",
+                  "icon": "🗓️😌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vacation & Retreat Planning",
+                  "icon": "✈️🏞️📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Work-Play Balance",
+                  "icon": "💼⚖️🤸‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Solo-Social Balance",
+                  "icon": "👤⚖️👥",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1588 @@
+{
+  "id": 91,
+  "name": "Home and Environment Elevation",
+  "icon": "🏠",
+  "subcategories": [
+    {
+      "name": "Interior Design",
+      "icon": "🛋️",
+      "subcategories": [
+        {
+          "name": "Design Fundamentals",
+          "icon": "📐",
+          "subcategories": [
+            {
+              "name": "Space Planning",
+              "icon": "🗺️",
+              "subcategories": []
+            },
+            {
+              "name": "Color Theory Workshops",
+              "icon": "🎨",
+              "subcategories": []
+            },
+            {
+              "name": "Design Psychology",
+              "icon": "🧠",
+              "subcategories": []
+            },
+            {
+              "name": "Principles of Design (Balance, Rhythm, Harmony)",
+              "icon": "⚖️",
+              "subcategories": []
+            },
+            {
+              "name": "Design History & Styles",
+              "icon": "📜",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Room-Specific Design",
+          "icon": "🏠",
+          "subcategories": [
+            {
+              "name": "Living Room Design",
+              "icon": "🛋️",
+              "subcategories": []
+            },
+            {
+              "name": "Bedroom Design",
+              "icon": "🛌",
+              "subcategories": []
+            },
+            {
+              "name": "Kitchen Design",
+              "icon": "🍽️",
+              "subcategories": []
+            },
+            {
+              "name": "Bathroom Design",
+              "icon": "🛁",
+              "subcategories": []
+            },
+            {
+              "name": "Home Office Design",
+              "icon": "💻",
+              "subcategories": []
+            },
+            {
+              "name": "Children's Room Design",
+              "icon": "🧸",
+              "subcategories": []
+            },
+            {
+              "name": "Multipurpose Spaces",
+              "icon": "🔄",
+              "subcategories": []
+            },
+            {
+              "name": "Small Space Solutions",
+              "icon": "🤏",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Design Elements",
+          "icon": "🖼️",
+          "subcategories": [
+            {
+              "name": "Furniture Arrangement",
+              "icon": "🛋️",
+              "subcategories": [
+                {
+                  "name": "Functional Layouts",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Traffic Flow Optimization",
+                  "icon": "🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Scale & Proportion",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Focal Points Creation",
+                  "icon": "🎯",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Decor Styling",
+              "icon": "✨",
+              "subcategories": [
+                {
+                  "name": "Accessories Placement",
+                  "icon": "🏺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Art Curation & Hanging",
+                  "icon": "🖼️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Textile Selection",
+                  "icon": "🧶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seasonal Decor Rotation",
+                  "icon": "🍂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tablescaping",
+                  "icon": "🍽️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bookshelf Styling",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Plant Styling",
+                  "icon": "🌿",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Lighting Design",
+              "icon": "💡",
+              "subcategories": [
+                {
+                  "name": "Ambient Lighting",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Task Lighting",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Accent Lighting",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Natural Light Maximization",
+                  "icon": "☀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fixture Selection",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lighting Controls & Automation",
+                  "icon": "⚙️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Materials & Finishes",
+          "icon": "🧱",
+          "subcategories": [
+            {
+              "name": "Flooring Options",
+              "icon": "⬜",
+              "subcategories": []
+            },
+            {
+              "name": "Wall Treatments",
+              "icon": "🧱",
+              "subcategories": [
+                {
+                  "name": "Paint Techniques",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wallpaper Application",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Textured Walls",
+                  "icon": "🧱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Paneling & Wainscoting",
+                  "icon": "🪵",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Window Treatments",
+              "icon": "🖼️",
+              "subcategories": []
+            },
+            {
+              "name": "Countertop Materials",
+              "icon": "🖱",
+              "subcategories": []
+            },
+            {
+              "name": "Cabinet Finishes",
+              "icon": "🚪",
+              "subcategories": []
+            },
+            {
+              "name": "Textile Selection",
+              "icon": "🧶",
+              "subcategories": [
+                {
+                  "name": "Upholstery Fabrics",
+                  "icon": "🛋️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Drapery Materials",
+                  "icon": "🖼️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rug Selection",
+                  "icon": "🧶",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Specialty Design Areas",
+          "icon": "⭐",
+          "subcategories": [
+            {
+              "name": "Biophilic Design",
+              "icon": "🌿",
+              "subcategories": []
+            },
+            {
+              "name": "Universal Design & Accessibility",
+              "icon": "♿",
+              "subcategories": []
+            },
+            {
+              "name": "Feng Shui Principles",
+              "icon": "☯️",
+              "subcategories": []
+            },
+            {
+              "name": "Minimalist Design",
+              "icon": "・",
+              "subcategories": []
+            },
+            {
+              "name": "Maximalist Design",
+              "icon": "✮⋆˙",
+              "subcategories": []
+            },
+            {
+              "name": "Vintage & Antique Integration",
+              "icon": "🕰️",
+              "subcategories": []
+            },
+            {
+              "name": "Smart Home Integration",
+              "icon": "🏠",
+              "subcategories": []
+            },
+            {
+              "name": "Sustainable Interior Design",
+              "icon": "🌱",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gardening",
+      "icon": "🌱",
+      "subcategories": [
+        {
+          "name": "Garden Types",
+          "icon": "🌳",
+          "subcategories": [
+            {
+              "name": "Vegetable Gardening",
+              "icon": "🥕",
+              "subcategories": [
+                {
+                  "name": "Crop Selection & Planning",
+                  "icon": "📝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Succession Planting",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Companion Planting",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vegetable-Specific Techniques",
+                  "icon": "🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Edible Landscaping",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Kitchen Gardens",
+                  "icon": "🍽️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Market Gardens",
+                  "icon": "🛒",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Flower Gardening",
+              "icon": "🌸",
+              "subcategories": [
+                {
+                  "name": "Annual Flowers",
+                  "icon": "🌸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Perennial Planning",
+                  "icon": "🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bulb Gardens",
+                  "icon": "🌷",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cutting Gardens",
+                  "icon": "✂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seasonal Blooms",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wildflower Gardens",
+                  "icon": "🌸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cottage Gardens",
+                  "icon": "🏠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Specialty Gardens",
+              "icon": "⭐",
+              "subcategories": [
+                {
+                  "name": "Herb Gardens",
+                  "icon": "🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Berry Gardens",
+                  "icon": "🍓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fruit Tree Orchards",
+                  "icon": "🍎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rose Gardens",
+                  "icon": "🌹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Native Plant Gardens",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Butterfly Gardens",
+                  "icon": "🦋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pollinator Gardens",
+                  "icon": "🐝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rock Gardens",
+                  "icon": "🪨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Water Gardens & Ponds",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rain Gardens",
+                  "icon": "🌧️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shade Gardens",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Meditation Gardens",
+                  "icon": "🧘",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sensory Gardens",
+                  "icon": "👂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Children's Gardens",
+                  "icon": "👶",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Container Gardening",
+              "icon": "🏺",
+              "subcategories": [
+                {
+                  "name": "Patio Containers",
+                  "icon": "🏡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Window Boxes",
+                  "icon": "🪟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hanging Baskets",
+                  "icon": "𓍯🪴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indoor Plant Containers",
+                  "icon": "🪴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Balcony Gardens",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vertical Gardens",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Self-Watering Systems",
+                  "icon": "♾️💧",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Growing Techniques",
+          "icon": "👨‍🌾",
+          "subcategories": [
+            {
+              "name": "Biodynamic Farming",
+              "icon": "🌌👩‍🌾",
+              "subcategories": []
+            },
+            {
+              "name": "Organic Gardening",
+              "icon": "♻️",
+              "subcategories": []
+            },
+            {
+              "name": "Square Foot Gardening",
+              "icon": "👨‍🌾",
+              "subcategories": []
+            },
+            {
+              "name": "Raised Bed Gardening",
+              "icon": "👩‍🌾",
+              "subcategories": []
+            },
+            {
+              "name": "No-Dig/No-Till Methods",
+              "icon": "🚫🥄",
+              "subcategories": []
+            },
+            {
+              "name": "Hydroponics",
+              "icon": "🧪💦",
+              "subcategories": []
+            },
+            {
+              "name": "Aquaponics",
+              "icon": "🐠💩",
+              "subcategories": []
+            },
+            {
+              "name": "Aeroponics",
+              "icon": "💨",
+              "subcategories": []
+            },
+            {
+              "name": "Permaculture",
+              "icon": "🏞️",
+              "subcategories": []
+            },
+            {
+              "name": "Forest Gardening",
+              "icon": "🌲",
+              "subcategories": []
+            },
+            {
+              "name": "Hugelkultur",
+              "icon": "🪵🔥",
+              "subcategories": []
+            },
+            {
+              "name": "French Intensive Method",
+              "icon": "🌱🌿🍃",
+              "subcategories": []
+            },
+            {
+              "name": "Keyhole Gardens",
+              "icon": "🔑🍃",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Garden Development",
+          "icon": "🛠️",
+          "subcategories": [
+            {
+              "name": "Site Analysis",
+              "icon": "📊",
+              "subcategories": []
+            },
+            {
+              "name": "Garden Planning & Design",
+              "icon": "📋",
+              "subcategories": []
+            },
+            {
+              "name": "Landscape Design",
+              "icon": "🏞",
+              "subcategories": [
+                {
+                  "name": "Hardscaping",
+                  "icon": "⛲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Softscaping",
+                  "icon": "🌼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Garden Structures",
+                  "icon": "🧱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Outdoor Living Spaces",
+                  "icon": "🏕️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Seed Starting",
+              "icon": "🌱",
+              "subcategories": [
+                {
+                  "name": "Indoor Seed Starting",
+                  "icon": "🌱🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Direct Sowing",
+                  "icon": "🌱🪡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seed Saving",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seedling Care",
+                  "icon": "🌱",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Transplanting Techniques",
+              "icon": "🚚",
+              "subcategories": []
+            },
+            {
+              "name": "Propagation Methods",
+              "icon": "🦠",
+              "subcategories": [
+                {
+                  "name": "Cuttings",
+                  "icon": "🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Division",
+                  "icon": "÷",
+                  "subcategories": []
+                },
+                {
+                  "name": "Layering",
+                  "icon": "🧅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Grafting",
+                  "icon": "🌿🎋",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Garden Maintenance",
+          "icon": "👨‍🌾🔁",
+          "subcategories": [
+            {
+              "name": "Soil Health",
+              "icon": "🌿💪",
+              "subcategories": [
+                {
+                  "name": "Soil Testing",
+                  "icon": "📝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Composting",
+                  "icon": "♻️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vermicomposting",
+                  "icon": "🪱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mulching Techniques",
+                  "icon": "🪹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cover Cropping",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Soil Amendments",
+                  "icon": "🔬",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Irrigation Systems",
+              "icon": "💧",
+              "subcategories": [
+                {
+                  "name": "Drip Irrigation",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sprinkler Systems",
+                  "icon": "💦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hand Watering Techniques",
+                  "icon": "✋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Self-Watering Systems",
+                  "icon": "♾️💧",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Pruning & Training",
+              "icon": "✂️",
+              "subcategories": [
+                {
+                  "name": "Trees",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shrubs",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vines",
+                  "icon": "🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Espalier Techniques",
+                  "icon": "𐂺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bonsai Methods",
+                  "icon": "🌳",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Pest Management",
+              "icon": "🐞",
+              "subcategories": [
+                {
+                  "name": "Integrated Pest Management",
+                  "icon": "🐜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Organic Pest Controls",
+                  "icon": "🐛",
+                  "subcategories": []
+                },
+                {
+                  "name": "Beneficial Insects",
+                  "icon": "🐝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Plant Disease Identification",
+                  "icon": "🦠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Weed Management",
+                  "icon": "🚜",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Harvest Techniques",
+              "icon": "🍎",
+              "subcategories": [
+                {
+                  "name": "Timing Harvests",
+                  "icon": "⏱️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Storage Methods",
+                  "icon": "📦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Preservation Techniques",
+                  "icon": "🛡️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Seasonal Care",
+              "icon": "📅",
+              "subcategories": [
+                {
+                  "name": "Spring Garden Prep",
+                  "icon": "🌻☀️🐝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Summer Maintenance",
+                  "icon": "🌞☀️😎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fall Cleanup",
+                  "icon": "🍂🍁💨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Winter Protection",
+                  "icon": "☃️❄️🥶",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Specialized Knowledge",
+          "icon": "🧠",
+          "subcategories": [
+            {
+              "name": "Plant Identification",
+              "icon": "🌱🕵️‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Plant Selection",
+              "icon": "👉🌿",
+              "subcategories": [
+                {
+                  "name": "Climate-Appropriate Plants",
+                  "icon": "🌏🍃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Native Plants",
+                  "icon": "🍃🌾🌴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Drought-Tolerant Species",
+                  "icon": "💦♾️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shade-Tolerant Plants",
+                  "icon": "😎🍃",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Garden Record Keeping",
+              "icon": "📝",
+              "subcategories": []
+            },
+            {
+              "name": "Crop Rotation",
+              "icon": "🔄",
+              "subcategories": []
+            },
+            {
+              "name": "Plant Breeding",
+              "icon": "🌱🤰",
+              "subcategories": []
+            },
+            {
+              "name": "Garden Tools & Equipment",
+              "icon": "🌱🛠️",
+              "subcategories": []
+            },
+            {
+              "name": "Garden Structures",
+              "icon": "🌱📐",
+              "subcategories": [
+                {
+                  "name": "Greenhouses",
+                  "icon": "🏡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cold Frames",
+                  "icon": "🪟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hoop Houses",
+                  "icon": "🏘",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trellises & Supports",
+                  "icon": "𐂺",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Home Improvement",
+      "icon": "🛠️",
+      "subcategories": [
+        {
+          "name": "DIY Projects",
+          "icon": "🔨",
+          "subcategories": [
+            {
+              "name": "Beginner Projects",
+              "icon": "👶🗂️",
+              "subcategories": []
+            },
+            {
+              "name": "Weekend Projects",
+              "icon": "📅🗂️",
+              "subcategories": []
+            },
+            {
+              "name": "Seasonal Projects",
+              "icon": "🌻☀️🍁❄️🗂️",
+              "subcategories": []
+            },
+            {
+              "name": "Budget-Friendly Makeovers",
+              "icon": "💸🔁",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Construction Skills",
+          "icon": "👷",
+          "subcategories": [
+            {
+              "name": "Basic Carpentry",
+              "icon": "🪵",
+              "subcategories": []
+            },
+            {
+              "name": "Advanced Woodworking",
+              "icon": "🪑",
+              "subcategories": []
+            },
+            {
+              "name": "Framing Techniques",
+              "icon": "🪟",
+              "subcategories": []
+            },
+            {
+              "name": "Built-Ins Creation",
+              "icon": "⛩",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Surface Treatments",
+          "icon": "🎨",
+          "subcategories": [
+            {
+              "name": "Painting Techniques",
+              "icon": "👨‍🎨",
+              "subcategories": [
+                {
+                  "name": "Interior Painting",
+                  "icon": "🏘️🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Exterior Painting",
+                  "icon": "🏞🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Specialty Finishes",
+                  "icon": "🔮🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Furniture Refinishing",
+                  "icon": "🪑🎨",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Tiling Workshops",
+              "icon": "⬜",
+              "subcategories": [
+                {
+                  "name": "Backsplash Installation",
+                  "icon": "💠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Floor Tiling",
+                  "icon": "🟫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shower Tiling",
+                  "icon": "🟥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Grouting Techniques",
+                  "icon": "🟦",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Wallpaper Application",
+              "icon": "🎴",
+              "subcategories": []
+            },
+            {
+              "name": "Drywall Installation",
+              "icon": "🔳",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Home Systems",
+          "icon": "⚙️",
+          "subcategories": [
+            {
+              "name": "Plumbing Basics",
+              "icon": "🚽",
+              "subcategories": [
+                {
+                  "name": "Fixture Replacement",
+                  "icon": "🚿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pipe Repair",
+                  "icon": "🚰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Drain Cleaning",
+                  "icon": "🛁",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Electrical Safety",
+              "icon": "⚡️",
+              "subcategories": [
+                {
+                  "name": "Outlet Installation",
+                  "icon": "🔌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Light Fixture Installation",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Basic Wiring",
+                  "icon": "➰",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "HVAC Maintenance",
+              "icon": "🌡️✇🌫️",
+              "subcategories": []
+            },
+            {
+              "name": "Home Automation",
+              "icon": "🏠🤖",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Repair Skills",
+          "icon": "🔧",
+          "subcategories": [
+            {
+              "name": "Wall Patching",
+              "icon": "⬜️🩹",
+              "subcategories": []
+            },
+            {
+              "name": "Door Adjustments",
+              "icon": "🚪🎛️",
+              "subcategories": []
+            },
+            {
+              "name": "Window Repairs",
+              "icon": "🪟🛠️",
+              "subcategories": []
+            },
+            {
+              "name": "Floor Repairs",
+              "icon": "⬜🛠️",
+              "subcategories": []
+            },
+            {
+              "name": "Furniture Repairs",
+              "icon": "🛋️🛠️",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Major Projects",
+          "icon": "🏗️",
+          "subcategories": [
+            {
+              "name": "Renovations",
+              "icon": "🔨",
+              "subcategories": []
+            },
+            {
+              "name": "Kitchen Upgrades",
+              "icon": "🍽️⏫",
+              "subcategories": []
+            },
+            {
+              "name": "Bathroom Remodels",
+              "icon": "🛁🔁",
+              "subcategories": []
+            },
+            {
+              "name": "Basement Finishing",
+              "icon": "🏠🏁",
+              "subcategories": []
+            },
+            {
+              "name": "Attic Conversion",
+              "icon": "🪜➡️",
+              "subcategories": []
+            },
+            {
+              "name": "Outdoor Spaces",
+              "icon": "🏞️",
+              "subcategories": [
+                {
+                  "name": "Deck Building",
+                  "icon": "🏠👷",
+                  "subcategories": []
+                },
+                {
+                  "name": "Patio Installation",
+                  "icon": "🪑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Outdoor Kitchens",
+                  "icon": "🏞️🍽️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fire Pit Areas",
+                  "icon": "🔥🪵🕳️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tool Skills",
+          "icon": "🛠️",
+          "subcategories": [
+            {
+              "name": "Power Tools Safety",
+              "icon": "🧰⛑️",
+              "subcategories": []
+            },
+            {
+              "name": "Hand Tools Mastery",
+              "icon": "🔧🏅",
+              "subcategories": []
+            },
+            {
+              "name": "Tool Maintenance",
+              "icon": "🛠️🔁",
+              "subcategories": []
+            },
+            {
+              "name": "Tool Selection",
+              "icon": "🛠️👈",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Project Management",
+          "icon": "📋",
+          "subcategories": [
+            {
+              "name": "Budgeting",
+              "icon": "💰⚖️",
+              "subcategories": []
+            },
+            {
+              "name": "Timeline Planning",
+              "icon": "⏳",
+              "subcategories": []
+            },
+            {
+              "name": "Contractor Management",
+              "icon": "📝👥",
+              "subcategories": []
+            },
+            {
+              "name": "Permit Navigation",
+              "icon": "📜🗺️",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sustainability",
+      "icon": "♾️",
+      "subcategories": [
+        {
+          "name": "Energy Efficiency",
+          "icon": "💡",
+          "subcategories": [
+            {
+              "name": "Home Energy Audits",
+              "icon": "💡🕵",
+              "subcategories": []
+            },
+            {
+              "name": "Insulation Improvements",
+              "icon": "🌡📈",
+              "subcategories": []
+            },
+            {
+              "name": "Window Upgrades",
+              "icon": "🪟⬆️",
+              "subcategories": []
+            },
+            {
+              "name": "Draught-Proofing",
+              "icon": "🌬️🛡️",
+              "subcategories": []
+            },
+            {
+              "name": "Energy-Efficient Appliances",
+              "icon": "🔋💯",
+              "subcategories": []
+            },
+            {
+              "name": "Renewable Energy Options",
+              "icon": "♻️",
+              "subcategories": [
+                {
+                  "name": "Solar Panel Systems",
+                  "icon": "☀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wind Energy",
+                  "icon": "🌬️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Geothermal Systems",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Battery Storage",
+                  "icon": "🔋",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Waste Reduction",
+          "icon": "🗑️",
+          "subcategories": [
+            {
+              "name": "Composting Workshops",
+              "icon": "🚮👨‍🏫",
+              "subcategories": [
+                {
+                  "name": "Hot Composting",
+                  "icon": "🔥🚮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cold Composting",
+                  "icon": "❄️🚮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bokashi Systems",
+                  "icon": "🪣⚙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Worm Bins",
+                  "icon": "🪱🪣",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Zero-Waste Living",
+              "icon": "🚯",
+              "subcategories": [
+                {
+                  "name": "Plastic-Free Strategies",
+                  "icon": "🥤🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bulk Shopping",
+                  "icon": "📦🛒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reusable Products",
+                  "icon": "♻️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Food Waste Reduction",
+                  "icon": "🍔🚯",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Recycling Systems",
+              "icon": "♻️⚙️",
+              "subcategories": [
+                {
+                  "name": "Home Recycling Centers",
+                  "icon": "🏠♻️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hard-to-Recycle Items",
+                  "icon": "🥤",
+                  "subcategories": []
+                },
+                {
+                  "name": "E-Waste Management",
+                  "icon": "⚡️🗑️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sustainable Materials",
+          "icon": "♻️",
+          "subcategories": [
+            {
+              "name": "Eco-Friendly Products",
+              "icon": "♻️📦",
+              "subcategories": [
+                {
+                  "name": "Green Cleaning Supplies",
+                  "icon": "♻️🧹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Non-Toxic Finishes",
+                  "icon": "🚫☣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sustainable Textiles",
+                  "icon": "♻️👖",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Natural Building",
+              "icon": "🌍🏢",
+              "subcategories": [
+                {
+                  "name": "Straw Bale Construction",
+                  "icon": "🌾🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cob Building",
+                  "icon": "🧱🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Earthbag Construction",
+                  "icon": "🌍👷",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rammed Earth",
+                  "icon": "🧱🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cordwood Building",
+                  "icon": "🪵🏠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Upcycling Projects",
+              "icon": "♻️⬆️",
+              "subcategories": [
+                {
+                  "name": "Furniture Transformation",
+                  "icon": "🪑🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Creative Reuse",
+                  "icon": "🪄♻️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Repurposing Materials",
+                  "icon": "♻️🥤",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Water Conservation",
+          "icon": "💧",
+          "subcategories": [
+            {
+              "name": "Rainwater Harvesting",
+              "icon": "🌧",
+              "subcategories": [
+                {
+                  "name": "Rain Barrel Systems",
+                  "icon": "🌧🛢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cisterns",
+                  "icon": "🌧⚱️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Catchment Design",
+                  "icon": "🌧🏠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Drought-Tolerant Landscaping",
+              "icon": "🏜🙅‍♂️",
+              "subcategories": [
+                {
+                  "name": "Xeriscaping",
+                  "icon": "🌧️🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Desert Gardening",
+                  "icon": "🏜🌱",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Greywater Systems",
+              "icon": "♻️🛢",
+              "subcategories": []
+            },
+            {
+              "name": "Water-Saving Fixtures",
+              "icon": "💧📈",
+              "subcategories": []
+            },
+            {
+              "name": "Low-Flow Technologies",
+              "icon": "🚰📈",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Holistic Home Ecology",
+          "icon": "🌍",
+          "subcategories": [
+            {
+              "name": "Indoor Air Quality",
+              "icon": "🌬️👌",
+              "subcategories": []
+            },
+            {
+              "name": "Non-Toxic Living",
+              "icon": "😊",
+              "subcategories": []
+            },
+            {
+              "name": "Electromagnetic Reduction",
+              "icon": "🧲⬇️",
+              "subcategories": []
+            },
+            {
+              "name": "Natural Lighting Maximization",
+              "icon": "☀️🌞",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

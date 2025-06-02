@@ -1,0 +1,170 @@
+"Suggest different types of cardiovascular exercises I can try (running, cycling, swimming, HIIT)."
+"Explore Cardio Exercises"
+
+"Suggest ways to incorporate strength training into my routine (weights, bodyweight, bands)."
+"Incorporate Strength Training"
+
+"Suggest routines or exercises for improving flexibility and mobility."
+"Improve Flexibility/Mobility"
+
+"Explain different mind-body exercises like Yoga, Pilates, Tai Chi, or Qigong."
+"Explore Mind-Body Exercise"
+
+"Suggest ideas for recreational sports or activities I can participate in."
+"Find Recreational Sports/Activities"
+
+"Suggest exercises for improving balance, coordination, or core strength."
+"Improve Balance/Coordination/Core"
+
+"Explain different nutritional approaches or diets (Mediterranean, Plant-Based, Keto)."
+"Learn Nutritional Approaches"
+
+"Suggest ways to improve gut health or identify food sensitivities."
+"Improve Gut Health/Identify Sensitivities"
+
+"Suggest guidance on understanding macronutrients (protein, carbs, fats) and micronutrients (vitamins, minerals)."
+"Understand Macro/Micronutrients"
+
+"Suggest strategies for healthy meal planning and preparation (batch cooking, healthy methods)."
+"Healthy Meal Planning/Prep"
+
+"Explain common types of supplements and their potential uses (vitamins, protein, herbs)."
+"Understand Common Supplements"
+
+"Suggest ways to improve sleep hygiene (environment, schedule, routines)."
+"Improve Sleep Hygiene"
+
+"Suggest resources for understanding common sleep disorders (insomnia, sleep apnea)."
+"Learn About Sleep Disorders"
+
+"Suggest techniques or natural aids for improving sleep quality."
+"Improve Sleep Quality"
+
+"Suggest ways to optimize my circadian rhythm (light exposure, schedule)."
+"Optimize Circadian Rhythm"
+
+"Suggest important preventive health screenings I should consider."
+"Learn Preventive Health Screenings"
+
+"Suggest ways to maintain good dental, vision, and hearing health."
+"Maintain Dental/Vision/Hearing Health"
+
+"Suggest lifestyle factors or natural ways to support my immune system."
+"Support Immune System Naturally"
+
+"Suggest strategies for preventing chronic diseases like heart disease or diabetes."
+"Prevent Chronic Diseases"
+
+"Suggest resources for finding physical therapy or rehabilitation services."
+"Find Physical Therapy/Rehab"
+
+"Suggest ways to improve emotional intelligence (self-awareness, regulation)."
+"Improve Emotional Intelligence"
+
+"Suggest stress reduction techniques and relaxation practices."
+"Stress Reduction Techniques"
+
+"Suggest strategies for building resilience and coping with adversity."
+"Build Resilience/Coping Skills"
+
+"Suggest practices for improving mood, increasing happiness, or managing anger."
+"Improve Mood/Manage Emotions"
+
+"Suggest ways to improve cognitive functions like critical thinking, memory, or problem-solving."
+"Improve Cognitive Functions"
+
+"Suggest resources for learning about common mental health conditions."
+"Learn About Mental Health Conditions"
+
+"Explain different types of therapy (CBT, DBT, ACT, psychodynamic)."
+"Learn Types of Therapy"
+
+"Suggest practices for developing self-compassion or building self-esteem."
+"Develop Self-Compassion/Self-Esteem"
+
+"Suggest ways to improve communication and conflict resolution skills in relationships."
+"Improve Relationship Communication"
+
+"Suggest ways to build community connection or expand my social network."
+"Build Community Connection"
+
+"Suggest techniques for improving social skills like empathy or active listening."
+"Improve Social Skills"
+
+"Suggest strategies for managing screen time or practicing a digital detox."
+"Manage Screen Time/Digital Detox"
+
+"Suggest activities for mental fitness (brain training, memory techniques, creativity)."
+"Mental Fitness Activities"
+
+"Suggest different types of concentration meditation (breath, object, sound)."
+"Explore Concentration Meditation"
+
+"Suggest mindfulness meditation techniques (Vipassana, MBSR, open awareness)."
+"Explore Mindfulness Meditation"
+
+"Suggest contemplative meditation practices (loving-kindness, compassion, self-inquiry)."
+"Explore Contemplative Meditation"
+
+"Suggest movement meditation practices (Tai Chi, Qigong, walking meditation)."
+"Explore Movement Meditation"
+
+"Suggest visualization meditation techniques (guided imagery, chakra, healing light)."
+"Explore Visualization Meditation"
+
+"Suggest ways to find meditation apps or technology-assisted meditation tools."
+"Find Meditation Apps/Tools"
+
+"Suggest resources for learning advanced meditation practices or attending retreats."
+"Explore Advanced Meditation/Retreats"
+
+"Suggest basic breathing exercises (diaphragmatic, equal breathing)."
+"Basic Breathing Exercises"
+
+"Explain common yogic breathing techniques (Pranayama) like Nadi Shodhana or Ujjayi."
+"Learn Yogic Breathing (Pranayama)"
+
+"Suggest therapeutic breathing techniques for stress, anxiety, or sleep (4-7-8, Box Breathing)."
+"Therapeutic Breathing Techniques"
+
+"Explain advanced breathwork modalities like Holotropic or Rebirthing Breathwork."
+"Explore Advanced Breathwork"
+
+"Suggest physical self-care practices (skincare, massage, aromatherapy, rest)."
+"Physical Self-Care Practices"
+
+"Suggest emotional self-care activities (journaling, gratitude, creative expression)."
+"Emotional Self-Care Activities"
+
+"Suggest mental self-care strategies (digital detox, learning, mind-body practices)."
+"Mental Self-Care Strategies"
+
+"Suggest social self-care ideas (boundaries, connection, support networks)."
+"Social Self-Care Ideas"
+
+"Suggest spiritual self-care practices (sacred space, ritual, nature connection)."
+"Spiritual Self-Care Practices"
+
+"Suggest ways to create a self-care plan with daily, weekly, or monthly practices."
+"Create Self-Care Plan"
+
+"Explain principles of Traditional Chinese Medicine (TCM) like acupuncture or herbs."
+"Learn Traditional Chinese Medicine (TCM)"
+
+"Explain principles of Ayurveda (doshas, diet, lifestyle)."
+"Learn Ayurveda Principles"
+
+"Suggest different energy healing modalities (Reiki, Healing Touch, Pranic Healing)."
+"Explore Energy Healing Modalities"
+
+"Explain mind-body connection techniques like EFT Tapping or Somatic Experiencing."
+"Learn Mind-Body Techniques (EFT, Somatic)"
+
+"Suggest ways to adopt an anti-inflammatory or longevity-focused lifestyle."
+"Adopt Anti-Inflammatory/Longevity Lifestyle"
+
+"Suggest practices for increasing sensory or present moment awareness."
+"Increase Sensory/Present Moment Awareness"
+
+"Suggest ways to create a healthier home or work environment (biophilic design, nature therapy)."
+"Create Wellness Environment"

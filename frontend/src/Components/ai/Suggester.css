@@ -1,0 +1,134 @@
+/* Page Structure */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #00B488;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Content Container */
+.content-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+/* Main Navigation - Dark Blue Bar */
+.main-nav {
+  background-color: #294C60;
+  color: #FFFFF0;
+  padding: 0.8rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-brand {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #FFFFF0;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.nav-link {
+  color: #FFFFF0;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #ADB6C4;
+}
+
+.logout-btn {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #FFFFF0;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.logout-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Secondary Navigation - White Bar */
+.secondary-nav {
+  background-color: #FFFFF0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.secondary-nav .nav-links {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.secondary-nav .nav-links a {
+  color: #555;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+  padding: 1rem 1.2rem;
+  position: relative;
+  text-align: center;
+}
+
+.secondary-nav .nav-links a:hover {
+  color: #2E4578;
+}
+
+/* Active tab styling - Exactly like image 2 */
+.secondary-nav .nav-links .active {
+  font-weight: bold;
+  color: #3B5998;
+  border-bottom: 3px solid #3B5998;
+}
+
+.suggester-content {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 20px auto 0 auto; /* Add top margin */
+}
+
+/* Container specifically for the AI Chat component within the Suggester page */
+.ai-chat-container {
+  width: 100%;
+  /* Removed background-color, padding, margin-top - let Chat component handle internal styling */
+  /* Removed fixed min-height */
+}
+
+@media (max-width: 768px) {
+  .suggester-content {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  /* No specific styles needed for ai-chat-container wrapper on mobile */
+} 

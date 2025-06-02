@@ -1,0 +1,569 @@
+[
+  {
+    "id": 1,
+    "prompt": "Suggest resources for learning about specific dog breed care needs.",
+    "displayText": "Learn Dog Breed Care",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 2,
+    "prompt": "Suggest tips for caring for a puppy, adult dog, or senior dog.",
+    "displayText": "Dog Life Stage Care",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 3,
+    "prompt": "Suggest ways to understand and manage cat behavior (e.g., scratching, vocalizing).",
+    "displayText": "Understand Cat Behavior",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 4,
+    "prompt": "Suggest care tips for common small mammals like rabbits, guinea pigs, or hamsters.",
+    "displayText": "Small Mammal Care Tips",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 5,
+    "prompt": "Suggest resources for learning about specific bird species care (parakeets, parrots, chickens).",
+    "displayText": "Learn Bird Species Care",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 6,
+    "prompt": "Suggest care tips for common reptiles or amphibians (turtles, lizards, snakes, frogs).",
+    "displayText": "Reptile/Amphibian Care Tips",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 7,
+    "prompt": "Suggest ways to set up and maintain a freshwater or saltwater aquarium.",
+    "displayText": "Aquarium Setup/Maintenance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 8,
+    "prompt": "Suggest resources for learning about the care of exotic pets (spiders, pigs, insects).",
+    "displayText": "Exotic Pet Care Resources",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 9,
+    "prompt": "Suggest guidance on providing species-appropriate nutrition for my pet.",
+    "displayText": "Pet Nutrition Guidance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 10,
+    "prompt": "Suggest ways to monitor my pet's physical health at home and identify potential issues.",
+    "displayText": "Monitor Pet Health at Home",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 11,
+    "prompt": "Suggest ideas for pet enrichment activities and environmental stimulation.",
+    "displayText": "Pet Enrichment Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 12,
+    "prompt": "Suggest ways to manage pet stress or anxiety.",
+    "displayText": "Manage Pet Stress/Anxiety",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 13,
+    "prompt": "Explain common natural healing approaches for animals (herbs, massage, acupuncture).",
+    "displayText": "Natural Healing for Animals",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 14,
+    "prompt": "Suggest ways to support a pet through different life stages (puppyhood, senior care, end-of-life).",
+    "displayText": "Support Pet Life Stages",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 15,
+    "prompt": "Suggest resources for learning positive reinforcement training techniques for pets.",
+    "displayText": "Learn Positive Reinforcement Training",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 16,
+    "prompt": "Suggest ways to understand my pet's body language and vocalizations.",
+    "displayText": "Understand Pet Communication",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 17,
+    "prompt": "Suggest strategies for addressing common pet behavior problems (fear, reactivity, separation anxiety).",
+    "displayText": "Address Pet Behavior Problems",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 18,
+    "prompt": "Suggest activities to strengthen the bond between me and my pet.",
+    "displayText": "Strengthen Human-Animal Bond",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 19,
+    "prompt": "Suggest ways to design a pet-safe and enriching home environment.",
+    "displayText": "Design Pet-Friendly Home",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 20,
+    "prompt": "Suggest tips for safely introducing pets to each other in a multi-pet household.",
+    "displayText": "Introduce Pets Safely",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 21,
+    "prompt": "Suggest tips for finding pet-friendly places or activities (parks, cafes, travel).",
+    "displayText": "Find Pet-Friendly Activities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 22,
+    "prompt": "Suggest ways to balance pet care responsibilities with work and family life.",
+    "displayText": "Balance Life with Pets",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 23,
+    "prompt": "Explain the ethical considerations involved in pet ownership and animal care.",
+    "displayText": "Ethical Considerations in Pet Care",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 24,
+    "prompt": "Suggest steps for being a responsible pet owner (commitment, spay/neuter, ID).",
+    "displayText": "Responsible Pet Ownership Steps",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 25,
+    "prompt": "Suggest ways to recognize and report suspected animal abuse or neglect.",
+    "displayText": "Recognize/Report Animal Abuse",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 26,
+    "prompt": "Suggest ways to find local animal shelters or rescue organizations.",
+    "displayText": "Find Local Shelters/Rescues",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 27,
+    "prompt": "Explain the process of adopting or fostering an animal.",
+    "displayText": "Learn About Pet Adoption/Fostering",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 28,
+    "prompt": "Suggest ways I can volunteer at an animal shelter or rescue.",
+    "displayText": "Volunteer at Animal Shelter",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 29,
+    "prompt": "Explain key animal welfare laws and legal protections in my area.",
+    "displayText": "Learn Animal Welfare Laws",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 30,
+    "prompt": "Suggest ways to advocate for better animal welfare in industries like farming or research.",
+    "displayText": "Advocate for Industry Animal Welfare",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 31,
+    "prompt": "Suggest effective methods for animal advocacy (education, lobbying, consumer activism).",
+    "displayText": "Effective Animal Advocacy Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 32,
+    "prompt": "Suggest resources for humane education programs for youth or communities.",
+    "displayText": "Find Humane Education Programs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 33,
+    "prompt": "Explain basic concepts of conservation biology (habitat, population, genetics).",
+    "displayText": "Learn Conservation Biology Basics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 34,
+    "prompt": "Suggest ways to learn about and protect endangered or threatened species.",
+    "displayText": "Protect Endangered Species",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 35,
+    "prompt": "Suggest resources for learning about wildlife rehabilitation practices.",
+    "displayText": "Learn Wildlife Rehabilitation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 36,
+    "prompt": "Suggest strategies for promoting human-wildlife coexistence in urban or rural areas.",
+    "displayText": "Promote Human-Wildlife Coexistence",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 37,
+    "prompt": "Suggest ways to get involved in local habitat conservation or restoration projects.",
+    "displayText": "Join Habitat Conservation Projects",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 38,
+    "prompt": "Explain the importance of protected areas (national parks, wildlife refuges).",
+    "displayText": "Importance of Protected Areas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 39,
+    "prompt": "Suggest ways to practice sustainable land stewardship on my property or in my community.",
+    "displayText": "Practice Sustainable Land Stewardship",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 40,
+    "prompt": "Suggest opportunities for participating in citizen science projects related to wildlife or nature.",
+    "displayText": "Participate in Citizen Science",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 41,
+    "prompt": "Suggest ways to make my backyard more wildlife-friendly (native plants, bird feeders).",
+    "displayText": "Create Backyard Wildlife Habitat",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 42,
+    "prompt": "Suggest tips for ethical wildlife viewing and eco-tourism.",
+    "displayText": "Ethical Wildlife Viewing/Ecotourism",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 43,
+    "prompt": "Explain the main causes and impacts of biodiversity loss.",
+    "displayText": "Understand Biodiversity Loss",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 44,
+    "prompt": "Suggest ways individuals can help mitigate the effects of climate change on wildlife.",
+    "displayText": "Mitigate Climate Change Effects on Wildlife",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 45,
+    "prompt": "Suggest ways to learn about international or national conservation policies.",
+    "displayText": "Learn Conservation Policies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 46,
+    "prompt": "Suggest basic care tips for common indoor houseplants.",
+    "displayText": "Indoor Plant Care Basics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 47,
+    "prompt": "Suggest basic principles for planning and maintaining an outdoor garden.",
+    "displayText": "Outdoor Gardening Basics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 48,
+    "prompt": "Suggest resources for learning about specialized plant care (succulents, orchids, bonsai).",
+    "displayText": "Specialized Plant Care Resources",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 49,
+    "prompt": "Explain different gardening techniques (container, raised bed, vertical, hydroponics).",
+    "displayText": "Learn Gardening Techniques",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 50,
+    "prompt": "Suggest ways to provide proper nutrition for plants (fertilizing, composting).",
+    "displayText": "Plant Nutrition/Fertilizing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 51,
+    "prompt": "Suggest strategies for managing common plant pests and diseases organically.",
+    "displayText": "Organic Pest/Disease Management",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 52,
+    "prompt": "Suggest methods for plant propagation (seeds, cuttings, division).",
+    "displayText": "Learn Plant Propagation Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 53,
+    "prompt": "Suggest tips for seasonal plant care (spring prep, winter protection).",
+    "displayText": "Seasonal Plant Care Tips",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 54,
+    "prompt": "Suggest ways to find and use native plants in my garden or landscaping.",
+    "displayText": "Use Native Plants",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 55,
+    "prompt": "Explain the importance of plant biodiversity and how to support it.",
+    "displayText": "Support Plant Biodiversity",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 56,
+    "prompt": "Suggest ways to get involved in urban forestry or community tree planting.",
+    "displayText": "Urban Forestry/Tree Planting",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 57,
+    "prompt": "Suggest principles of sustainable landscaping (low-water, wildlife-friendly).",
+    "displayText": "Sustainable Landscaping Principles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 58,
+    "prompt": "Explain the benefits and applications of therapeutic horticulture.",
+    "displayText": "Therapeutic Horticulture Benefits",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 59,
+    "prompt": "Suggest ways to learn about the cultural significance or traditional uses of plants.",
+    "displayText": "Cultural/Traditional Plant Uses",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 60,
+    "prompt": "Suggest resources for improving plant identification skills or botanical knowledge.",
+    "displayText": "Improve Plant ID Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 61,
+    "prompt": "Suggest ways to make my household more sustainable (energy, water, waste reduction).",
+    "displayText": "Sustainable Household Practices",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 62,
+    "prompt": "Suggest ways to create an eco-friendly yard (natural lawn care, composting, rainwater harvesting).",
+    "displayText": "Eco-Friendly Yard Practices",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 63,
+    "prompt": "Suggest strategies for reducing my personal carbon footprint.",
+    "displayText": "Reduce Personal Carbon Footprint",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 64,
+    "prompt": "Suggest ways to make more ecologically conscious consumer choices.",
+    "displayText": "Ecological Consumer Choices",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 65,
+    "prompt": "Suggest ways to get involved in local environmental action (cleanups, gardens, tree planting).",
+    "displayText": "Local Environmental Action",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 66,
+    "prompt": "Suggest methods for effective environmental advocacy in my community.",
+    "displayText": "Environmental Advocacy Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 67,
+    "prompt": "Explain the principles of environmental justice and how to support it.",
+    "displayText": "Environmental Justice Principles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 68,
+    "prompt": "Suggest resources for environmental education for different age groups.",
+    "displayText": "Find Environmental Education Resources",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 69,
+    "prompt": "Explain the basics of ecosystem restoration planning and techniques.",
+    "displayText": "Ecosystem Restoration Basics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 70,
+    "prompt": "Suggest ways to increase my awareness and connection to my local bioregion.",
+    "displayText": "Increase Bioregional Awareness",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 71,
+    "prompt": "Suggest ways individuals can engage with global environmental issues (climate, biodiversity).",
+    "displayText": "Engage with Global Environmental Issues",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 72,
+    "prompt": "Explain different approaches to environmental ethics.",
+    "displayText": "Environmental Ethics Approaches",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 73,
+    "prompt": "Suggest resources for finding animal-assisted therapy programs.",
+    "displayText": "Find Animal-Assisted Therapy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 74,
+    "prompt": "Suggest ways animals are used in activities like reading programs or hospital visits.",
+    "displayText": "Animal-Assisted Activities Examples",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 75,
+    "prompt": "Explain the different types and roles of service animals (guide dogs, medical alert).",
+    "displayText": "Types of Service Animals",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 76,
+    "prompt": "Explain the role and regulations surrounding Emotional Support Animals (ESAs).",
+    "displayText": "Emotional Support Animals (ESAs)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 77,
+    "prompt": "Suggest examples of different types of working dogs (search & rescue, herding, therapy).",
+    "displayText": "Types of Working Dogs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 78,
+    "prompt": "Suggest examples of how horses are used in work or therapy.",
+    "displayText": "Working Equine Roles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 79,
+    "prompt": "Explain the science behind the human-animal bond (attachment, communication, benefits).",
+    "displayText": "Science of Human-Animal Bond",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 80,
+    "prompt": "Suggest ways to learn about the historical or cultural significance of animals in different societies.",
+    "displayText": "Cultural/Historical Animal Roles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 81,
+    "prompt": "Discuss contemporary issues in human-animal relationships (pets as family, animal rights).",
+    "displayText": "Contemporary Human-Animal Issues",
+    "isTemplate": false,
+    "type": "do"
+  }
+]

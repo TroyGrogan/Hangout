@@ -1,0 +1,239 @@
+"Suggest a simple workout routine I can do at home."
+"Home workout routine"
+
+"Suggest ways to find local leagues or pickup games for American Football, Soccer, Basketball, or Volleyball."
+"Find Local Ball Sports Leagues"
+
+"Suggest resources for learning the rules and basic skills for Baseball, Softball, or Cricket."
+"Learn Baseball/Softball/Cricket Basics"
+
+"Suggest ways to get involved in Rugby (Union, League, Sevens)."
+"Get Involved in Rugby"
+
+"Suggest ways to find opportunities to play Ice Hockey or Field Hockey."
+"Find Hockey Opportunities"
+
+"Suggest resources for learning Lacrosse, Water Polo, or Handball."
+"Learn Lacrosse/Water Polo/Handball"
+
+"Suggest ways to find teams or clubs for Netball, Ultimate Frisbee, or Spikeball."
+"Find Netball/Ultimate/Spikeball Teams"
+
+"Suggest ways to organize or join casual games like Dodgeball or Kickball."
+"Organize/Join Dodgeball/Kickball"
+
+"Explain the basics of less common team sports like Tchoukball, Sepak Takraw, or Kabaddi."
+"Learn Less Common Team Sports"
+
+"Suggest resources for learning about Irish sports like Hurling or Gaelic Football."
+"Learn Irish Sports (Hurling/Gaelic Football)"
+
+"Suggest ways to learn about Australian Rules Football or Pesäpallo."
+"Learn Aussie Rules/Pesäpallo"
+
+"Suggest ways to find opportunities to play Bandy, Floorball, or Korfball."
+"Find Bandy/Floorball/Korfball"
+
+"Suggest resources for learning Futsal or Underwater Hockey."
+"Learn Futsal/Underwater Hockey"
+
+"Suggest ways to get involved in Quadball (Quidditch)."
+"Get Involved in Quadball"
+
+"Suggest ways to join a relay racing team or learn about dragon boat racing."
+"Join Relay/Dragon Boat Racing"
+
+"Suggest resources for finding outrigger canoe racing or rowing clubs."
+"Find Canoe Racing/Rowing Clubs"
+
+"Suggest ways to participate in team paintball or tug of war events."
+"Participate in Paintball/Tug of War"
+
+"Suggest resources for learning Tennis, Badminton, Squash, or Racquetball."
+"Learn Racquet Sports"
+
+"Suggest ways to find places to play Table Tennis, Padel, or Pickleball."
+"Find Table Tennis/Padel/Pickleball Courts"
+
+"Explain the basics of Real Tennis or Jai Alai."
+"Learn Real Tennis/Jai Alai"
+
+"Suggest ways to get started with Golf or find local courses/driving ranges."
+"Get Started with Golf"
+
+"Suggest resources for learning Archery or finding ranges."
+"Learn Archery/Find Ranges"
+
+"Suggest ways to learn about target shooting (Skeet, Trap) or find clubs."
+"Learn Target Shooting"
+
+"Suggest ways to find places to play Darts, Billiards/Pool, or Snooker."
+"Find Darts/Billiards/Snooker Venues"
+
+"Suggest resources for learning Bowling or Curling."
+"Learn Bowling/Curling"
+
+"Suggest ways to find gyms or dojos for learning Boxing, Kickboxing, or Muay Thai."
+"Find Striking Martial Arts Gyms"
+
+"Suggest resources for learning grappling arts like Judo, Wrestling, or Brazilian Jiu-Jitsu."
+"Learn Grappling Martial Arts"
+
+"Suggest ways to find schools for learning Karate, Taekwondo, Kung Fu, or Capoeira."
+"Find Traditional Martial Arts Schools"
+
+"Suggest resources for learning weapons-based arts like Kendo or Fencing."
+"Learn Kendo/Fencing"
+
+"Suggest resources for learning Aikido or Hapkido."
+"Learn Aikido/Hapkido"
+
+"Suggest ways to get involved in Mixed Martial Arts (MMA) training."
+"Get Started with MMA Training"
+
+"Suggest ways to join a local track and field club or practice running/jumping/throwing events."
+"Join Track & Field Club"
+
+"Suggest resources for learning different swimming strokes or finding pools."
+"Learn Swimming/Find Pools"
+
+"Suggest ways to learn Diving or Synchronized Swimming."
+"Learn Diving/Synchronized Swimming"
+
+"Suggest resources for learning Water Skiing or Wakeboarding."
+"Learn Water Skiing/Wakeboarding"
+
+"Suggest ways to get started with Surfing, Windsurfing, or Kitesurfing."
+"Get Started with Surfing/Windsurfing/Kitesurfing"
+
+"Suggest resources for learning Paddleboarding or Bodyboarding."
+"Learn Paddleboarding/Bodyboarding"
+
+"Suggest ways to get started with Alpine or Cross-Country Skiing."
+"Get Started with Skiing"
+
+"Suggest resources for learning Ski Jumping, Freestyle Skiing, or Biathlon."
+"Learn Specialized Skiing Disciplines"
+
+"Suggest ways to learn Snowboarding or find resorts."
+"Learn Snowboarding/Find Resorts"
+
+"Suggest resources for learning Figure Skating or Speed Skating."
+"Learn Figure/Speed Skating"
+
+"Suggest ways to learn about or try Bobsleigh, Luge, or Skeleton."
+"Learn Sliding Winter Sports"
+
+"Suggest resources for getting into Road Cycling or Track Cycling."
+"Get Started with Road/Track Cycling"
+
+"Suggest ways to learn Mountain Biking, BMX, or Cyclocross."
+"Learn Mountain Biking/BMX/Cyclocross"
+
+"Suggest ways to find classes for Artistic Gymnastics, Rhythmic Gymnastics, or Trampoline."
+"Find Gymnastics Classes"
+
+"Suggest resources for learning equestrian sports like Show Jumping, Dressage, or Eventing."
+"Learn Equestrian Sports"
+
+"Suggest ways to get involved in Polo or Rodeo events."
+"Get Involved in Polo/Rodeo"
+
+"Suggest ways to follow or learn about Formula Racing or Rally Racing."
+"Follow Motorsports (Formula/Rally)"
+
+"Suggest resources for getting into Motorcycle Racing, Motocross, or Karting."
+"Get Into Motorcycle Racing/Karting"
+
+"Suggest ways to learn Rock Climbing or Bouldering at a local gym or outdoors."
+"Learn Rock Climbing/Bouldering"
+
+"Suggest resources for learning Parkour or Skateboarding."
+"Learn Parkour/Skateboarding"
+
+"Suggest ways to get started with Inline Skating or find local skate parks."
+"Get Started with Inline Skating"
+
+"Suggest resources for learning about Mountaineering."
+"Learn About Mountaineering"
+
+"Suggest ways to learn about extreme air sports like BASE Jumping, Paragliding, or Skydiving."
+"Learn Extreme Air Sports"
+
+"Suggest ways to get started with Weightlifting or Powerlifting training."
+"Get Started with Weightlifting/Powerlifting"
+
+"Suggest resources for learning about Bodybuilding or Strongman/Strongwoman competitions."
+"Learn Bodybuilding/Strongman"
+
+"Suggest ways to find CrossFit gyms or classes."
+"Find CrossFit Gyms"
+
+"Suggest ways to participate in multisport events like Triathlons or Duathlons."
+"Participate in Triathlons/Duathlons"
+
+"Suggest resources for finding gyms or fitness centers near me."
+"Find Local Gyms"
+
+"Suggest simple aerobic exercises I can do (running, cycling, swimming, dance)."
+"Simple Aerobic Exercises"
+
+"Suggest beginner strength training routines using weights or bodyweight."
+"Beginner Strength Training Routines"
+
+"Suggest basic Yoga or Pilates routines for flexibility and stretching."
+"Basic Yoga/Pilates Routines"
+
+"Suggest exercises to improve balance and coordination (Tai Chi, balance board)."
+"Improve Balance/Coordination Exercises"
+
+"Suggest popular group fitness classes I could try (Spinning, Bootcamp, Zumba)."
+"Try Group Fitness Classes"
+
+"Suggest local trails or parks for hiking."
+"Find Local Hiking Trails"
+
+"Suggest resources for learning camping basics or finding campsites."
+"Learn Camping Basics/Find Campsites"
+
+"Suggest ways to find local spots for Rock Climbing or Mountaineering."
+"Find Local Climbing/Mountaineering Spots"
+
+"Suggest ways to get started with Orienteering or Geocaching."
+"Get Started with Orienteering/Geocaching"
+
+"Suggest resources for learning Kayaking, Canoeing, or Sailing."
+"Learn Kayaking/Canoeing/Sailing"
+
+"Suggest ways to find places for Surfing, Windsurfing, or Kitesurfing."
+"Find Surfing/Windsurfing/Kitesurfing Spots"
+
+"Suggest resources for learning Scuba Diving or finding snorkeling spots."
+"Learn Scuba Diving/Find Snorkeling Spots"
+
+"Suggest ways to learn about Paragliding, Hang Gliding, or Skydiving opportunities."
+"Learn Paragliding/Hang Gliding/Skydiving"
+
+"Suggest resources for learning about Bungee Jumping locations."
+"Find Bungee Jumping Locations"
+
+"Suggest ways to find local ski resorts or places for Snowboarding."
+"Find Skiing/Snowboarding Locations"
+
+"Suggest resources for finding ice skating rinks or learning to skate."
+"Find Ice Skating Rinks/Lessons"
+
+"Suggest ways to try Snowshoeing or find trails."
+"Try Snowshoeing/Find Trails"
+
+"Suggest classic playground games like Tag, Hide and Seek, or Capture The Flag."
+"Classic Playground Games"
+
+"Suggest ways to learn different dance styles (Ballet, Hip Hop, Salsa, Ballroom)."
+"Learn Different Dance Styles"
+
+"Suggest fun activities using a Frisbee, Jump Rope, or Hula Hoop."
+"Frisbee/Jump Rope/Hula Hoop Activities"
+
+"Suggest resources for learning Parkour or Free Running safely."
+"Learn Parkour/Free Running Safely"

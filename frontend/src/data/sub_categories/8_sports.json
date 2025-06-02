@@ -1,0 +1,1325 @@
+{
+  "id": 86,
+  "name": "Sports, Exercise, and Physical Activities",
+  "icon": "🏃‍♂️",
+  "subcategories": [
+    {
+      "name": "Sports",
+      "icon": "🏆",
+      "subcategories": [
+        {
+          "name": "Team Sports",
+          "icon": "👥",
+          "subcategories": [
+            {
+              "name": "Ball Sports",
+              "icon": "⚽",
+              "subcategories": [
+                {
+                  "name": "American Football",
+                  "icon": "🏈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Football (American Soccer)",
+                  "icon": "⚽",
+                  "subcategories": []
+                },
+                {
+                  "name": "Basketball",
+                  "icon": "🏀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Volleyball",
+                  "icon": "🏐",
+                  "subcategories": [
+                    {
+                      "name": "Indoor Volleyball",
+                      "icon": "🏐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Beach Volleyball",
+                      "icon": "🏖️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Baseball",
+                  "icon": "⚾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Softball",
+                  "icon": "🥎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cricket",
+                  "icon": "🏏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rugby",
+                  "icon": "🏉",
+                  "subcategories": [
+                    {
+                      "name": "Rugby Union",
+                      "icon": "🏉",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Rugby League",
+                      "icon": "🏉",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Rugby Sevens",
+                      "icon": "🏉",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Ice Hockey",
+                  "icon": "🏒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Field Hockey",
+                  "icon": "🏑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lacrosse",
+                  "icon": "🥍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Water Polo",
+                  "icon": "🤽‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Handball",
+                  "icon": "🤾‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Netball",
+                  "icon": "🥅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ultimate Frisbee",
+                  "icon": "🥏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Spikeball",
+                  "icon": "🟡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dodgeball",
+                  "icon": "☄️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Kickball",
+                  "icon": "☄️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tchoukball",
+                  "icon": "🥅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sepak Takraw",
+                  "icon": "⚽",
+                  "subcategories": []
+                },
+                {
+                  "name": "Kabaddi",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hurling",
+                  "icon": "🏑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Gaelic Football",
+                  "icon": "⚽",
+                  "subcategories": []
+                },
+                {
+                  "name": "Australian Rules Football",
+                  "icon": "🏉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pesäpallo (Finnish Baseball)",
+                  "icon": "⚾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bandy",
+                  "icon": "🏒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Floorball",
+                  "icon": "🏒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Korfball",
+                  "icon": "🏀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Futsal",
+                  "icon": "⚽",
+                  "subcategories": []
+                },
+                {
+                  "name": "Underwater Hockey",
+                  "icon": "🏒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Quidditch (Quadball)",
+                  "icon": "🧹",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Racing Team Sports",
+              "icon": "🏁",
+              "subcategories": [
+                {
+                  "name": "Relay Racing",
+                  "icon": "🏃‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dragon Boat Racing",
+                  "icon": "🐉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Outrigger Canoe Racing",
+                  "icon": "🛶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Crew/Rowing",
+                  "icon": "🚣",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Combat Team Sports",
+              "icon": "⚔️",
+              "subcategories": [
+                {
+                  "name": "Team Paintball",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tug of War",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Calcio Storico",
+                  "icon": "⚔️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Individual Sports",
+          "icon": "🧍‍♀️",
+          "subcategories": [
+            {
+              "name": "Racquet/Paddle Sports",
+              "icon": "🎾",
+              "subcategories": [
+                {
+                  "name": "Tennis",
+                  "icon": "🎾",
+                  "subcategories": [
+                    {
+                      "name": "Singles",
+                      "icon": "🧍‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Doubles",
+                      "icon": "👯",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Badminton",
+                  "icon": "🏸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Squash",
+                  "icon": "🏸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Table Tennis",
+                  "icon": "🏓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Racquetball",
+                  "icon": "🏸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Padel",
+                  "icon": "🎾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pickleball",
+                  "icon": "🥒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Real Tennis",
+                  "icon": "🎾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Jai Alai",
+                  "icon": "👋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pelota",
+                  "icon": "👋",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Target Sports",
+              "icon": "🎯",
+              "subcategories": [
+                {
+                  "name": "Golf",
+                  "icon": "⛳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Archery",
+                  "icon": "🏹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shooting",
+                  "icon": "🔫",
+                  "subcategories": [
+                    {
+                      "name": "Skeet",
+                      "icon": "🎯",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Trap",
+                      "icon": "🎯",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Target",
+                      "icon": "🎯",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Darts",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Billiards/Pool",
+                  "icon": "🎱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Snooker",
+                  "icon": "🎱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bowling",
+                  "icon": "🎳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Curling",
+                  "icon": "🥌",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Combat Sports",
+              "icon": "🥊",
+              "subcategories": [
+                {
+                  "name": "Martial Arts",
+                  "icon": "🥋",
+                  "subcategories": [
+                    {
+                      "name": "Boxing",
+                      "icon": "🥊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Kickboxing",
+                      "icon": "🥊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Judo",
+                      "icon": "🥋",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wrestling",
+                      "icon": "🤼‍♂️",
+                      "subcategories": [
+                        {
+                          "name": "Freestyle",
+                          "icon": "🤼",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Greco-Roman",
+                          "icon": "🤼‍♀️",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Sumo",
+                          "icon": "🤼‍♂️",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Karate",
+                      "icon": "🥋",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Taekwondo",
+                      "icon": "🥋",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Brazilian Jiu-Jitsu",
+                      "icon": "🥋",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Muay Thai",
+                      "icon": "🥊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mixed Martial Arts (MMA)",
+                      "icon": "🥊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sambo",
+                      "icon": "🥋",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Kung Fu",
+                      "icon": "🥋",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Capoeira",
+                      "icon": "🤸‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Kendo",
+                      "icon": "🥷",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Aikido",
+                      "icon": "🥋",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Hapkido",
+                      "icon": "🥋",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Fencing",
+                  "icon": "🤺",
+                  "subcategories": [
+                    {
+                      "name": "Foil",
+                      "icon": "🤺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Épée",
+                      "icon": "🤺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sabre",
+                      "icon": "🤺",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Track & Field",
+              "icon": "👟",
+              "subcategories": [
+                {
+                  "name": "Running/Sprinting Events",
+                  "icon": "🏃‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Jumping Events",
+                  "icon": "🤸‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Throwing Events",
+                  "icon": "🤾‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Combined Events (Heptathlon, Decathlon)",
+                  "icon": "🏅",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Water Sports",
+              "icon": "🌊",
+              "subcategories": [
+                {
+                  "name": "Swimming",
+                  "icon": "🏊‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Diving",
+                  "icon": "🏊‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Water Skiing",
+                  "icon": "🌊⛷️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wakeboarding",
+                  "icon": "🚤📿🏄‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Surfing",
+                  "icon": "🏄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Windsurfing",
+                  "icon": "🌬️🏄‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Kitesurfing",
+                  "icon": "🪁🏄‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Paddleboarding",
+                  "icon": "🛶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bodyboarding",
+                  "icon": "🌊🏄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Synchronized Swimming",
+                  "icon": "🏊‍♂️♾️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Winter Sports",
+              "icon": "❄️",
+              "subcategories": [
+                {
+                  "name": "Skiing",
+                  "icon": "⛷️",
+                  "subcategories": [
+                    {
+                      "name": "Alpine Skiing",
+                      "icon": "⛷️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cross-Country Skiing",
+                      "icon": "⛷️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ski Jumping",
+                      "icon": "⛷️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Freestyle Skiing",
+                      "icon": "⛷️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Biathlon",
+                      "icon": "⛷️🏹",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Snowboarding",
+                  "icon": "🏂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Figure Skating",
+                  "icon": "⛸️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Speed Skating",
+                  "icon": "⛸️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bobsleigh",
+                  "icon": "🛷",
+                  "subcategories": []
+                },
+                {
+                  "name": "Luge",
+                  "icon": "🛷",
+                  "subcategories": []
+                },
+                {
+                  "name": "Skeleton",
+                  "icon": "🛷",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Cycling Sports",
+              "icon": "🚴‍♂️🚴‍♀️",
+              "subcategories": [
+                {
+                  "name": "Road Cycling",
+                  "icon": "🚴‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Track Cycling",
+                  "icon": "🚴‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mountain Biking",
+                  "icon": "🚵‍♀️🚵‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "BMX",
+                  "icon": "🚴‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cyclocross",
+                  "icon": "🚴‍♀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Gymnastics",
+              "icon": "🤸‍♀️🤸🤸‍♂️",
+              "subcategories": [
+                {
+                  "name": "Artistic Gymnastics",
+                  "icon": "🤸‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rhythmic Gymnastics",
+                  "icon": "🤸‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trampoline",
+                  "icon": "🤸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Acrobatic Gymnastics",
+                  "icon": "🤸‍♀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Equestrian Sports",
+              "icon": "🐎",
+              "subcategories": [
+                {
+                  "name": "Show Jumping",
+                  "icon": "🐎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dressage",
+                  "icon": "🐎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Eventing",
+                  "icon": "🐎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Polo",
+                  "icon": "🐎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rodeo",
+                  "icon": "🤠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Motor Sports",
+              "icon": "🏎️",
+              "subcategories": [
+                {
+                  "name": "Formula Racing",
+                  "icon": "🏎️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rally Racing",
+                  "icon": "🚗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Motorcycle Racing",
+                  "icon": "🏍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Motocross",
+                  "icon": "🏍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Karting",
+                  "icon": "🏎️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Adventure/Extreme Sports",
+              "icon": "🧗",
+              "subcategories": [
+                {
+                  "name": "Rock Climbing",
+                  "icon": "🧗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bouldering",
+                  "icon": "🧗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Parkour",
+                  "icon": "🤸‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Skateboarding",
+                  "icon": "🛹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Inline Skating",
+                  "icon": "🛼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mountaineering",
+                  "icon": "🏔️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Base Jumping",
+                  "icon": "🪂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Paragliding",
+                  "icon": "🪂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hang Gliding",
+                  "icon": "🪁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Skydiving",
+                  "icon": "🪂",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Strength Sports",
+              "icon": "🏋️‍♀️",
+              "subcategories": [
+                {
+                  "name": "Weightlifting",
+                  "icon": "🏋️‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Powerlifting",
+                  "icon": "🏋️‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bodybuilding",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Strongman/Strongwoman",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "CrossFit",
+                  "icon": "🏋️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Precision Sports",
+              "icon": "🎯",
+              "subcategories": [
+                {
+                  "name": "Billiards",
+                  "icon": "🎱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bowling",
+                  "icon": "🎳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Golf",
+                  "icon": "⛳",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Multisport Events",
+              "icon": "🏅",
+              "subcategories": [
+                {
+                  "name": "Triathlon",
+                  "icon": "🏊‍♂️🚴‍♂️🏃‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Duathlon",
+                  "icon": "🏃‍♂️🚵‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pentathlon",
+                  "icon": "🤺🏊‍♂️🐎🔫🏃‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Decathlon",
+                  "icon": "🏅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Heptathlon",
+                  "icon": "🏅",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fitness and Exercise",
+      "icon": "💪",
+      "subcategories": [
+        {
+          "name": "Gym Session",
+          "icon": "🏋️‍♀️🏋️‍♂️",
+          "subcategories": []
+        },
+        {
+          "name": "Aerobic Exercises",
+          "icon": "🏃‍♂️🏃‍♀️",
+          "subcategories": [
+            {
+              "name": "Running",
+              "icon": "🏃‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Cycling",
+              "icon": "🚴‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Recreational Swimming",
+              "icon": "🏊‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Rowing",
+              "icon": "🚣",
+              "subcategories": []
+            },
+            {
+              "name": "Aerobics",
+              "icon": "🤸‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Dance Fitness",
+              "icon": "💃",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Strength Training",
+          "icon": "🏋️‍♀️",
+          "subcategories": [
+            {
+              "name": "Weightlifting",
+              "icon": "🏋️‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Bodyweight Exercises",
+              "icon": "🤸‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Resistance Training",
+              "icon": "💪",
+              "subcategories": []
+            },
+            {
+              "name": "Powerlifting",
+              "icon": "🏋️‍♀️",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Flexibility and Stretching",
+          "icon": "🧘‍♂️🧘‍♀️",
+          "subcategories": [
+            {
+              "name": "Yoga",
+              "icon": "🧘‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Pilates",
+              "icon": "🧘‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Static Stretching",
+              "icon": "🧘",
+              "subcategories": []
+            },
+            {
+              "name": "Dynamic Stretching",
+              "icon": "🤸‍♀️",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Balance and Coordination",
+          "icon": "⚖️",
+          "subcategories": [
+            {
+              "name": "Tai Chi",
+              "icon": "☯️",
+              "subcategories": []
+            },
+            {
+              "name": "Balance Board Exercises",
+              "icon": "⚖️",
+              "subcategories": []
+            },
+            {
+              "name": "Coordination Drills",
+              "icon": "🧠",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Group Fitness Classes",
+          "icon": "👥",
+          "subcategories": [
+            {
+              "name": "Spinning",
+              "icon": "🚴‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Bootcamp",
+              "icon": "💪",
+              "subcategories": []
+            },
+            {
+              "name": "Crossfit",
+              "icon": "🏋️‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Zumba",
+              "icon": "💃",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outdoor Activities",
+      "icon": "🌲",
+      "subcategories": [
+        {
+          "name": "Land-based",
+          "icon": "🏞️",
+          "subcategories": [
+            {
+              "name": "Hiking",
+              "icon": "🥾",
+              "subcategories": []
+            },
+            {
+              "name": "Camping",
+              "icon": "🏕️",
+              "subcategories": []
+            },
+            {
+              "name": "Rock Climbing",
+              "icon": "🧗",
+              "subcategories": []
+            },
+            {
+              "name": "Mountaineering",
+              "icon": "🏔️",
+              "subcategories": []
+            },
+            {
+              "name": "Orienteering",
+              "icon": "🧭",
+              "subcategories": []
+            },
+            {
+              "name": "Geocaching",
+              "icon": "🧭",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Water-based",
+          "icon": "🌊",
+          "subcategories": [
+            {
+              "name": "Kayaking",
+              "icon": "🛶",
+              "subcategories": []
+            },
+            {
+              "name": "Canoeing",
+              "icon": "🛶",
+              "subcategories": []
+            },
+            {
+              "name": "Sailing",
+              "icon": "⛵",
+              "subcategories": []
+            },
+            {
+              "name": "Surfing",
+              "icon": "🏄",
+              "subcategories": []
+            },
+            {
+              "name": "Windsurfing",
+              "icon": "🌬️🏄‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Kitesurfing",
+              "icon": "🪁🏄‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Scuba diving",
+              "icon": "🤿",
+              "subcategories": []
+            },
+            {
+              "name": "Snorkeling",
+              "icon": "🤿",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Air-based",
+          "icon": "✈️",
+          "subcategories": [
+            {
+              "name": "Paragliding",
+              "icon": "🪂",
+              "subcategories": []
+            },
+            {
+              "name": "Hang gliding",
+              "icon": "🪁",
+              "subcategories": []
+            },
+            {
+              "name": "Skydiving",
+              "icon": "🪂",
+              "subcategories": []
+            },
+            {
+              "name": "Bungee jumping",
+              "icon": "🤸‍♀️",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Snow and Ice-based",
+          "icon": "❄️",
+          "subcategories": [
+            {
+              "name": "Skiing",
+              "icon": "⛷️",
+              "subcategories": []
+            },
+            {
+              "name": "Snowboarding",
+              "icon": "🏂",
+              "subcategories": []
+            },
+            {
+              "name": "Ice skating",
+              "icon": "⛸️",
+              "subcategories": []
+            },
+            {
+              "name": "Snowshoeing",
+              "icon": "🎿",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Physical Games",
+      "icon": "🤸‍♀️",
+      "subcategories": [
+        {
+          "name": "Playground Games",
+          "icon": "🌳",
+          "subcategories": [
+            {
+              "name": "Tag",
+              "icon": "🏃‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Hide and Seek",
+              "icon": "🙈",
+              "subcategories": []
+            },
+            {
+              "name": "Capture The Flag",
+              "icon": "🚩",
+              "subcategories": []
+            },
+            {
+              "name": "Dodgeball",
+              "icon": "☄️",
+              "subcategories": []
+            },
+            {
+              "name": "Kickball",
+              "icon": "☄️",
+              "subcategories": []
+            },
+            {
+              "name": "Tetherball",
+              "icon": "🏐",
+              "subcategories": []
+            },
+            {
+              "name": "Funnel ball",
+              "icon": "🥅",
+              "subcategories": []
+            },
+            {
+              "name": "Four Square",
+              "icon": "🔢",
+              "subcategories": []
+            },
+            {
+              "name": "Heads up, seven up",
+              "icon": "🤫",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Dance",
+          "icon": "💃",
+          "subcategories": [
+            {
+              "name": "Ballet",
+              "icon": "🩰",
+              "subcategories": []
+            },
+            {
+              "name": "Hip Hop",
+              "icon": "🕺",
+              "subcategories": []
+            },
+            {
+              "name": "Salsa",
+              "icon": "💃",
+              "subcategories": []
+            },
+            {
+              "name": "Ballroom",
+              "icon": "🕺",
+              "subcategories": []
+            },
+            {
+              "name": "Contemporary",
+              "icon": "💃",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Other",
+          "icon": "❓",
+          "subcategories": [
+            {
+              "name": "Frisbee",
+              "icon": "🥏",
+              "subcategories": []
+            },
+            {
+              "name": "Jump Rope",
+              "icon": "📿",
+              "subcategories": []
+            },
+            {
+              "name": "Hula Hoop",
+              "icon": "⭕️",
+              "subcategories": []
+            },
+            {
+              "name": "Parkour",
+              "icon": "🤸‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Free Running",
+              "icon": "🏃‍♂️",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,793 @@
+[
+  {
+    "id": 1,
+    "prompt": "Suggest resources or workshops for learning web development, mobile app development, or game development.",
+    "displayText": "Learn Programming (Web/Mobile/Game)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 2,
+    "prompt": "Suggest resources for learning software engineering practices like Agile, DevOps, or Version Control.",
+    "displayText": "Learn Software Engineering Practices",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 3,
+    "prompt": "Suggest ways to learn database management skills (SQL, NoSQL, Data Modeling).",
+    "displayText": "Learn Database Management",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 4,
+    "prompt": "Suggest resources for learning cloud computing platforms (AWS, Azure, Google Cloud).",
+    "displayText": "Learn Cloud Computing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 5,
+    "prompt": "Suggest ways to master productivity software (Office Suite, Project Management Tools, Note-Taking Apps).",
+    "displayText": "Master Productivity Software",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 6,
+    "prompt": "Suggest resources for learning design tools (Graphic Design, UI/UX, 3D Modeling, Video/Audio Editing).",
+    "displayText": "Learn Design Tools",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 7,
+    "prompt": "Suggest resources for learning data analysis or business intelligence tools.",
+    "displayText": "Learn Data Analysis/BI Tools",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 8,
+    "prompt": "Suggest ways to get started with content creation tools (CMS, Blogging, Podcasting, Video).",
+    "displayText": "Use Content Creation Tools",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 9,
+    "prompt": "Suggest ways to find relevant IT or industry-specific technical certifications.",
+    "displayText": "Find Technical Certifications",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 10,
+    "prompt": "Suggest resources for learning about emerging technologies like Blockchain, VR/AR, IoT, or Robotics.",
+    "displayText": "Learn Emerging Technologies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 11,
+    "prompt": "Suggest resources for learning visual art techniques (Drawing, Painting, Digital Art, Sculpture, Photography).",
+    "displayText": "Learn Visual Art Techniques",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 12,
+    "prompt": "Suggest resources for learning visual design principles (Graphic Design, Typography, Color Theory, UI).",
+    "displayText": "Learn Visual Design Principles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 13,
+    "prompt": "Suggest writing workshops or resources for creative writing (Fiction, Poetry, Screenwriting).",
+    "displayText": "Creative Writing Workshops/Resources",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 14,
+    "prompt": "Suggest resources for improving nonfiction writing skills (Blogging, Technical Writing, Copywriting).",
+    "displayText": "Improve Nonfiction Writing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 15,
+    "prompt": "Suggest techniques for self-editing or finding peer review partners.",
+    "displayText": "Learn Self-Editing/Peer Review",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 16,
+    "prompt": "Suggest resources for learning a musical instrument or vocal training.",
+    "displayText": "Learn Musical Instrument/Vocals",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 17,
+    "prompt": "Suggest resources for learning music theory, composition, or songwriting.",
+    "displayText": "Learn Music Theory/Composition",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 18,
+    "prompt": "Suggest ways to improve music performance skills (solo or ensemble).",
+    "displayText": "Improve Music Performance Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 19,
+    "prompt": "Suggest resources for learning different dance styles or movement practices.",
+    "displayText": "Learn Dance/Movement Styles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 20,
+    "prompt": "Suggest resources for learning acting techniques, character development, or improvisation.",
+    "displayText": "Learn Acting/Improvisation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 21,
+    "prompt": "Suggest cooking classes for specific cuisines, baking, or general cooking methods.",
+    "displayText": "Find Cooking Classes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 22,
+    "prompt": "Suggest resources for learning knife skills or food science basics.",
+    "displayText": "Learn Knife Skills/Food Science",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 23,
+    "prompt": "Suggest resources for learning coffee brewing, tea appreciation, mixology, or wine tasting.",
+    "displayText": "Learn Beverage Arts (Coffee, Tea, Mixology)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 24,
+    "prompt": "Suggest resources for learning food plating techniques or food photography.",
+    "displayText": "Learn Food Plating/Photography",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 25,
+    "prompt": "Suggest DIY craft projects (sewing, knitting, woodworking, paper crafts, home decor).",
+    "displayText": "DIY Craft Project Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 26,
+    "prompt": "Suggest resources for learning basic home repair skills (plumbing, electrical, carpentry).",
+    "displayText": "Learn Basic Home Repair",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 27,
+    "prompt": "Suggest resources for learning basic vehicle or bicycle maintenance.",
+    "displayText": "Learn Vehicle/Bicycle Maintenance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 28,
+    "prompt": "Suggest resources for learning basic electronics repair or computer hardware skills.",
+    "displayText": "Learn Electronics/Computer Repair",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 29,
+    "prompt": "Suggest resources for learning gardening, landscaping, or outdoor survival skills.",
+    "displayText": "Learn Gardening/Outdoor Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 30,
+    "prompt": "Suggest resources for learning project management methodologies.",
+    "displayText": "Learn Project Management",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 31,
+    "prompt": "Suggest resources for improving financial literacy (budgeting, investing, taxes).",
+    "displayText": "Improve Financial Literacy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 32,
+    "prompt": "Suggest organizational systems for time management, workspace, or digital files.",
+    "displayText": "Develop Organizational Systems",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 33,
+    "prompt": "Suggest resources for improving presentation skills (slide design, public speaking, data visualization).",
+    "displayText": "Improve Presentation Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 34,
+    "prompt": "Suggest ways to improve verbal communication skills (conversation, listening, negotiation, persuasion).",
+    "displayText": "Improve Verbal Communication",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 35,
+    "prompt": "Suggest ways to improve written communication skills (business writing, email etiquette, reports).",
+    "displayText": "Improve Written Communication",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 36,
+    "prompt": "Suggest ways to understand and utilize non-verbal communication (body language, tone).",
+    "displayText": "Understand Non-Verbal Communication",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 37,
+    "prompt": "Suggest resources for developing cross-cultural communication skills and sensitivity.",
+    "displayText": "Develop Cross-Cultural Communication",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 38,
+    "prompt": "Suggest ways to improve self-awareness and emotional recognition.",
+    "displayText": "Improve Self-Awareness",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 39,
+    "prompt": "Suggest techniques for better emotional management, impulse control, and stress management.",
+    "displayText": "Improve Self-Regulation/Stress Management",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 40,
+    "prompt": "Suggest ways to develop empathy and improve social awareness.",
+    "displayText": "Develop Empathy/Social Awareness",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 41,
+    "prompt": "Suggest strategies for improving relationship management skills (influence, conflict management, team collaboration).",
+    "displayText": "Improve Relationship Management",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 42,
+    "prompt": "Suggest resources for learning about different leadership styles and developing leadership skills.",
+    "displayText": "Develop Leadership Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 43,
+    "prompt": "Suggest ways to improve conflict resolution and mediation skills.",
+    "displayText": "Improve Conflict Resolution Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 44,
+    "prompt": "Suggest strategies for building stronger professional relationships and networking effectively.",
+    "displayText": "Build Professional Relationships/Network",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 45,
+    "prompt": "Suggest ways to improve collaboration skills and facilitate group work.",
+    "displayText": "Improve Collaboration Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 46,
+    "prompt": "Suggest resources for finding formal education programs (degrees, certifications) online or locally.",
+    "displayText": "Find Formal Education Programs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 47,
+    "prompt": "Suggest ways to find professional development opportunities (conferences, workshops, associations).",
+    "displayText": "Find Professional Development Opportunities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 48,
+    "prompt": "Suggest resources for finding masterclasses, boot camps, or intensive skill workshops.",
+    "displayText": "Find Masterclasses/Bootcamps/Workshops",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 49,
+    "prompt": "Suggest platforms for finding webinars, online courses, or micro-learning modules.",
+    "displayText": "Find Online Learning Platforms",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 50,
+    "prompt": "Suggest ways to find or create study groups, research circles, or book discussion clubs.",
+    "displayText": "Join/Create Study/Book Groups",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 51,
+    "prompt": "Suggest methods for peer teaching or collaborative learning projects.",
+    "displayText": "Explore Peer/Collaborative Learning",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 52,
+    "prompt": "Suggest strategies for designing a personal learning curriculum or path.",
+    "displayText": "Design Personal Learning Path",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 53,
+    "prompt": "Suggest ways to curate learning resources and manage personal knowledge.",
+    "displayText": "Curate Learning Resources/Manage Knowledge",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 54,
+    "prompt": "Suggest methods for self-directed learning projects and challenges.",
+    "displayText": "Undertake Self-Directed Learning Projects",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 55,
+    "prompt": "Suggest techniques for deliberate practice or efficient self-teaching.",
+    "displayText": "Practice Deliberate Practice/Self-Teaching",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 56,
+    "prompt": "Suggest practices for personal reflection, self-discovery, and values clarification.",
+    "displayText": "Practice Personal Reflection/Self-Discovery",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 57,
+    "prompt": "Suggest resources for starting or deepening a mindfulness practice.",
+    "displayText": "Start/Deepen Mindfulness Practice",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 58,
+    "prompt": "Suggest journaling prompts or techniques for reflection, gratitude, or exploring ideas.",
+    "displayText": "Journaling Prompts/Techniques",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 59,
+    "prompt": "Suggest ways to develop emotional literacy, regulation, and resilience.",
+    "displayText": "Develop Emotional Literacy/Resilience",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 60,
+    "prompt": "Suggest ways to cultivate virtues like integrity, courage, humility, or patience.",
+    "displayText": "Cultivate Personal Virtues",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 61,
+    "prompt": "Suggest resources for clarifying personal ethics and improving ethical decision-making.",
+    "displayText": "Clarify Ethics/Improve Ethical Decisions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 62,
+    "prompt": "Suggest strategies for cultivating positive habits that build character.",
+    "displayText": "Cultivate Character-Building Habits",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 63,
+    "prompt": "Suggest ways to develop wisdom through experience integration and perspective taking.",
+    "displayText": "Develop Wisdom",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 64,
+    "prompt": "Suggest techniques for building confidence, improving self-talk, and practicing self-acceptance.",
+    "displayText": "Build Confidence/Self-Acceptance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 65,
+    "prompt": "Suggest ways to identify and utilize personal strengths and talents.",
+    "displayText": "Identify/Utilize Personal Strengths",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 66,
+    "prompt": "Suggest strategies for pursuing skill mastery and developing expertise.",
+    "displayText": "Pursue Skill Mastery/Expertise",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 67,
+    "prompt": "Suggest ways to set effective goals and maintain achievement motivation.",
+    "displayText": "Set Goals/Maintain Motivation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 68,
+    "prompt": "Suggest resources or strategies for navigating personal transformations (career, relationships, identity).",
+    "displayText": "Navigate Personal Transformations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 69,
+    "prompt": "Suggest ways to cultivate a growth mindset and embrace challenges.",
+    "displayText": "Cultivate Growth Mindset",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 70,
+    "prompt": "Suggest ideas for personal reinvention or expanding comfort zones.",
+    "displayText": "Personal Reinvention/Expand Comfort Zone",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 71,
+    "prompt": "Suggest resources for finding transformative experiences like retreats or vision quests.",
+    "displayText": "Find Transformative Experiences",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 72,
+    "prompt": "Suggest resources for learning language grammar, vocabulary, and pronunciation.",
+    "displayText": "Learn Language Fundamentals",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 73,
+    "prompt": "Suggest methods for practicing language conversation (partners, clubs, role-playing).",
+    "displayText": "Practice Language Conversation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 74,
+    "prompt": "Suggest ways to create language immersion experiences (study abroad, media consumption).",
+    "displayText": "Create Language Immersion Experiences",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 75,
+    "prompt": "Suggest platforms or programs for language exchange (tandem learning, cultural exchange).",
+    "displayText": "Find Language Exchange Opportunities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 76,
+    "prompt": "Suggest resources for learning specialized language skills (professional, academic, technical).",
+    "displayText": "Learn Specialized Language Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 77,
+    "prompt": "Suggest ways to learn about different cultural norms, values, and histories.",
+    "displayText": "Learn Cultural Norms/Values/History",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 78,
+    "prompt": "Suggest strategies for developing intercultural competence and sensitivity.",
+    "displayText": "Develop Intercultural Competence",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 79,
+    "prompt": "Suggest ways to immerse oneself in a different culture (events, mentorship, homestays).",
+    "displayText": "Cultural Immersion Activities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 80,
+    "prompt": "Suggest resources for learning about global issues or international relations.",
+    "displayText": "Learn Global Issues/International Relations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 81,
+    "prompt": "Suggest techniques for learning multiple languages (polyglot methods).",
+    "displayText": "Polyglot Learning Techniques",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 82,
+    "prompt": "Suggest resources for learning basic translation or interpretation skills.",
+    "displayText": "Learn Translation/Interpretation Basics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 83,
+    "prompt": "Suggest resources for learning pure or applied mathematics.",
+    "displayText": "Learn Mathematics (Pure/Applied)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 84,
+    "prompt": "Suggest resources for learning physics, chemistry, astronomy, or earth sciences.",
+    "displayText": "Learn Physical Sciences",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 85,
+    "prompt": "Suggest resources for learning biology, ecology, botany, or zoology.",
+    "displayText": "Learn Life Sciences",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 86,
+    "prompt": "Suggest resources for learning engineering, medical sciences, or environmental sciences.",
+    "displayText": "Learn Applied Sciences",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 87,
+    "prompt": "Suggest resources for understanding scientific methods and experimental design.",
+    "displayText": "Understand Scientific Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 88,
+    "prompt": "Suggest resources for learning world history, regional history, or historical methods.",
+    "displayText": "Learn History/Historical Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 89,
+    "prompt": "Suggest resources for analyzing literature, understanding literary genres, or critical theory.",
+    "displayText": "Learn Literature Analysis/Theory",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 90,
+    "prompt": "Suggest resources for studying philosophy (ethics, logic, metaphysics, epistemology).",
+    "displayText": "Study Philosophy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 91,
+    "prompt": "Suggest resources for learning about world religions, comparative religion, or theology.",
+    "displayText": "Study Religions/Theology",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 92,
+    "prompt": "Suggest resources for learning psychology, sociology, or anthropology.",
+    "displayText": "Learn Psychology/Sociology/Anthropology",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 93,
+    "prompt": "Suggest resources for learning political science, economics, or geography.",
+    "displayText": "Learn Political Science/Economics/Geography",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 94,
+    "prompt": "Suggest resources for learning art history, music theory/history, or film studies.",
+    "displayText": "Learn Art/Music/Film History/Theory",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 95,
+    "prompt": "Suggest resources for learning research methodology (qualitative, quantitative, mixed methods).",
+    "displayText": "Learn Research Methodology",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 96,
+    "prompt": "Suggest ways to improve critical thinking and logical reasoning skills.",
+    "displayText": "Improve Critical Thinking/Logic",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 97,
+    "prompt": "Suggest resources for improving academic writing (essays, research papers, thesis).",
+    "displayText": "Improve Academic Writing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 98,
+    "prompt": "Suggest effective study strategies (note-taking, reading comprehension, memory techniques).",
+    "displayText": "Effective Study Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 99,
+    "prompt": "Suggest strategies for test preparation and managing exam stress.",
+    "displayText": "Test Preparation/Exam Stress Management",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 100,
+    "prompt": "Suggest ways to foster intellectual growth through interdisciplinary learning.",
+    "displayText": "Foster Intellectual Growth",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 101,
+    "prompt": "Suggest ways to participate in academic discourse (discussions, debates, conferences).",
+    "displayText": "Participate in Academic Discourse",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 102,
+    "prompt": "Suggest resources for learning about academic publishing or presentation skills.",
+    "displayText": "Learn Academic Publishing/Presenting",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 103,
+    "prompt": "Suggest ways to find academic mentors or research supervision.",
+    "displayText": "Find Academic Mentors/Supervision",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 104,
+    "prompt": "Explain different learning theories (cognitive, behavioral, social, experiential).",
+    "displayText": "Understand Learning Theories",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 105,
+    "prompt": "Suggest active learning strategies (problem-based, inquiry-based, project-based).",
+    "displayText": "Use Active Learning Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 106,
+    "prompt": "Suggest accelerated learning techniques (spaced repetition, retrieval practice, dual coding).",
+    "displayText": "Use Accelerated Learning Techniques",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 107,
+    "prompt": "Suggest deep learning approaches (elaborative questioning, conceptual mapping, systems thinking).",
+    "displayText": "Use Deep Learning Approaches",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 108,
+    "prompt": "Suggest ways to design an optimal learning environment (physical, digital, tools).",
+    "displayText": "Design Optimal Learning Environment",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 109,
+    "prompt": "Suggest ways to adapt learning methods to different styles or preferences.",
+    "displayText": "Adapt to Learning Styles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 110,
+    "prompt": "Suggest techniques for developing metacognition (learning self-awareness, monitoring, adjustment).",
+    "displayText": "Develop Metacognition",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 111,
+    "prompt": "Suggest ways to cultivate a lifelong learning mindset (growth orientation, curiosity).",
+    "displayText": "Cultivate Lifelong Learning Mindset",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 112,
+    "prompt": "Suggest ways to establish habits for continuous learning and knowledge refresh.",
+    "displayText": "Establish Continuous Learning Habits",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 113,
+    "prompt": "Suggest some amazing biography books to read based on human history.",
+    "displayText": "Biography Book recommendations",
+    "isTemplate": false,
+    "type": "do"
+  }
+]

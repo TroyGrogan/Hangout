@@ -1,0 +1,4655 @@
+{
+  "id": 84,
+  "name": "Pets, Animals, and Nature Care",
+  "icon": "🐾",
+  "subcategories": [
+    {
+      "name": "Companion Animal Care",
+      "icon": "❤️",
+      "subcategories": [
+        {
+          "name": "Pet Ownership",
+          "icon": "🏡",
+          "subcategories": [
+            {
+              "name": "Dog Companionship",
+              "icon": "🐕",
+              "subcategories": [
+                {
+                  "name": "Breed-Specific Care",
+                  "icon": "🏷️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Puppy Development",
+                  "icon": "🐶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adult Dog Care",
+                  "icon": "🐕‍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Senior Dog Care",
+                  "icon": "👴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Special Needs Dogs",
+                  "icon": "♿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Multi-Dog Households",
+                  "icon": "👨‍👩‍👧‍👦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rescue Dog Rehabilitation",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Therapy & Service Dogs",
+                  "icon": "🧑‍⚕️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Cat Companionship",
+              "icon": "🐈",
+              "subcategories": [
+                {
+                  "name": "Kitten Development",
+                  "icon": "🐱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adult Cat Care",
+                  "icon": "🐈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Senior Cat Care",
+                  "icon": "👵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Special Needs Cats",
+                  "icon": "♿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Multi-Cat Households",
+                  "icon": "👨‍👩‍👧‍👦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indoor/Outdoor Considerations",
+                  "icon": "🚪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Feral & Community Cats",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cat Behavior Understanding",
+                  "icon": "🧠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Small Mammal Companions",
+              "icon": "🐹",
+              "subcategories": [
+                {
+                  "name": "Rabbit Care",
+                  "icon": "🐇",
+                  "subcategories": []
+                },
+                {
+                  "name": "Guinea Pig Keeping",
+                  "icon": "🐖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hamster & Gerbil Care",
+                  "icon": "🐹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rat & Mouse Companions",
+                  "icon": "🐀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ferret Keeping",
+                  "icon": "🐾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Chinchilla Care",
+                  "icon": "🐭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hedgehog Keeping",
+                  "icon": "🦔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sugar Glider Care",
+                  "icon": "🌳",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Avian Companions",
+              "icon": "🐦",
+              "subcategories": [
+                {
+                  "name": "Parakeet/Budgie Care",
+                  "icon": "🦜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Canary & Finch Keeping",
+                  "icon": "🐦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cockatiel & Cockatoo Care",
+                  "icon": "🦜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Parrot Companionship",
+                  "icon": "🦜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dove & Pigeon Keeping",
+                  "icon": "🕊️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Chicken Keeping",
+                  "icon": "🐔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Duck & Goose Companions",
+                  "icon": "🦆",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bird Rescue & Rehabilitation",
+                  "icon": "💖",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Reptile & Amphibian Care",
+              "icon": "🐍",
+              "subcategories": [
+                {
+                  "name": "Turtle & Tortoise Keeping",
+                  "icon": "🐢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lizard Care",
+                  "icon": "🦎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Snake Keeping",
+                  "icon": "🐍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Frog & Toad Care",
+                  "icon": "🐸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Salamander Keeping",
+                  "icon": "🦎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Gecko Species",
+                  "icon": "🦎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bearded Dragon Care",
+                  "icon": "🦎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Chameleon Keeping",
+                  "icon": "🦎",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Aquatic Companions",
+              "icon": "🐠",
+              "subcategories": [
+                {
+                  "name": "Freshwater Aquariums",
+                  "icon": "🐟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Saltwater/Marine Tanks",
+                  "icon": "🌊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Betta Fish Care",
+                  "icon": "🐠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Goldfish Keeping",
+                  "icon": "🐠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Tank Design",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Species-Specific Fish Care",
+                  "icon": "🐠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Aquatic Invertebrates",
+                  "icon": "🦐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pond Fish Keeping",
+                  "icon": "🐟",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Exotic & Unusual Companions",
+              "icon": "🦋",
+              "subcategories": [
+                {
+                  "name": "Tarantula & Spider Keeping",
+                  "icon": "🕷️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Scorpion Care",
+                  "icon": "🦂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Insect Keeping",
+                  "icon": "🐞",
+                  "subcategories": []
+                },
+                {
+                  "name": "Miniature Pig Companions",
+                  "icon": "🐷",
+                  "subcategories": []
+                },
+                {
+                  "name": "Exotic Mammals",
+                  "icon": "🐾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Non-Traditional Pets",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wildlife Rehabilitation",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sanctuary Animals",
+                  "icon": "🏞️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Holistic Animal Care",
+          "icon": "🧘‍♂️🧘‍♀️",
+          "subcategories": [
+            {
+              "name": "Nutrition & Diet",
+              "icon": "🍎",
+              "subcategories": [
+                {
+                  "name": "Species-Appropriate Diets",
+                  "icon": "🍖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Home-Prepared Pet Food",
+                  "icon": "🍳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Raw Food Diets",
+                  "icon": "🥩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Special Dietary Needs",
+                  "icon": "♿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Therapeutic Nutrition",
+                  "icon": "🧑‍⚕️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Supplement Considerations",
+                  "icon": "💊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Feeding Schedules",
+                  "icon": "⏰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Weight Management",
+                  "icon": "⚖️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Physical Health",
+              "icon": "❤️",
+              "subcategories": [
+                {
+                  "name": "Preventative Care",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Veterinary Partnerships",
+                  "icon": "🧑‍⚕️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Holistic Veterinary Options",
+                  "icon": "🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "At-Home Health Monitoring",
+                  "icon": "🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "First Aid for Animals",
+                  "icon": "🩹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Medication Administration",
+                  "icon": "💊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Parasite Prevention",
+                  "icon": "🦟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dental Health",
+                  "icon": "🦷",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Mental & Emotional Wellbeing",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Enrichment Activities",
+                  "icon": "🧩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Environmental Stimulation",
+                  "icon": "🏡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Play & Exercise",
+                  "icon": "🎾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Needs",
+                  "icon": "👭👫👬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stress Reduction",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Anxiety Management",
+                  "icon": "😟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Depression Prevention",
+                  "icon": "😔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Joy & Happiness Cultivation",
+                  "icon": "😊",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Natural Healing Approaches",
+              "icon": "🌿",
+              "subcategories": [
+                {
+                  "name": "Herbal Medicine for Animals",
+                  "icon": "🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Animal Massage",
+                  "icon": "💆",
+                  "subcategories": []
+                },
+                {
+                  "name": "Acupuncture & Acupressure",
+                  "icon": "📍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Energy Healing for Animals",
+                  "icon": "✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Chiropractic Care",
+                  "icon": "🦴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Homeopathic Approaches",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Flower Essences",
+                  "icon": "🌸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Aromatherapy Safety",
+                  "icon": "👃",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Life Stage Support",
+              "icon": "⏳",
+              "subcategories": [
+                {
+                  "name": "Pregnancy & Birth",
+                  "icon": "🤰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Neonatal Care",
+                  "icon": "👶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Growth & Development",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adolescent Transitions",
+                  "icon": "🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adult Maintenance",
+                  "icon": "🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Senior Care Support",
+                  "icon": "👴",
+                  "subcategories": []
+                },
+                {
+                  "name": "End-of-Life Care",
+                  "icon": "💔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hospice & Palliative Approaches",
+                  "icon": "🕊️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Animal Training & Behavior",
+          "icon": "🎓",
+          "subcategories": [
+            {
+              "name": "Positive Reinforcement Training",
+              "icon": "✅",
+              "subcategories": [
+                {
+                  "name": "Basic Obedience",
+                  "icon": "👍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Advanced Commands",
+                  "icon": "⬆️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trick Training",
+                  "icon": "🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Agility & Sports Training",
+                  "icon": "🤸‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Scent Work",
+                  "icon": "👃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Target Training",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Clicker Training",
+                  "icon": "🖱️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Force-Free Methods",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Behavior Understanding",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Natural Behaviors",
+                  "icon": "🐾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Body Language",
+                  "icon": "🧍‍♀️🧍‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vocalizations",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Communication Systems",
+                  "icon": "💬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Species-Specific Behaviors",
+                  "icon": "🏷️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Instinctual Patterns",
+                  "icon": "🧬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Structures",
+                  "icon": "👭👫👬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Emotional Recognition",
+                  "icon": "😢",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Behavior Modification",
+              "icon": "🔄",
+              "subcategories": [
+                {
+                  "name": "Fear & Anxiety Management",
+                  "icon": "😨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reactivity Protocols",
+                  "icon": "😠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Aggression Treatment",
+                  "icon": "😡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Resource Guarding Work",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Separation Anxiety",
+                  "icon": "🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Compulsive Behaviors",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trauma Recovery",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Confidence Building",
+                  "icon": "💪",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Human-Animal Bond",
+              "icon": "❤️",
+              "subcategories": [
+                {
+                  "name": "Trust Development",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Communication Enhancement",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Relationship Building",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mutual Understanding",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Attachment Patterns",
+                  "icon": "👭👫👬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Co-Regulation",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Interspecies Connection",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bond-Based Activities",
+                  "icon": "💖",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pet Lifestyle Integration",
+          "icon": "🏡",
+          "subcategories": [
+            {
+              "name": "Home Environment Design",
+              "icon": "🏠",
+              "subcategories": [
+                {
+                  "name": "Pet-Safe Spaces",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Escape Prevention",
+                  "icon": "🚧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Environmental Enrichment",
+                  "icon": "🧩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Multi-Pet Household Design",
+                  "icon": "👨‍👩‍👧‍👦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indoor/Outdoor Access",
+                  "icon": "🚪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Safe Containment Systems",
+                  "icon": "⛓️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Furniture & Equipment",
+                  "icon": "🛋️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cleaning Protocols",
+                  "icon": "🧹",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Social Activities",
+              "icon": "🏞️",
+              "subcategories": [
+                {
+                  "name": "Dog Parks",
+                  "icon": "🐕",
+                  "subcategories": [
+                    {
+                      "name": "Dog Park Etiquette",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Play Supervision",
+                      "icon": "👀",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Socialization Opportunities",
+                      "icon": "👭👫👬",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Off-Leash Skills",
+                      "icon": "🏃‍♂️🏃‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dog Park Alternatives",
+                      "icon": "🚫",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Small/Large Dog Areas",
+                      "icon": "↔️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Water Features",
+                      "icon": "💧",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dog-Specific Facilities",
+                      "icon": "🏢",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Pet-Friendly Outings",
+                  "icon": "🐾",
+                  "subcategories": [
+                    {
+                      "name": "Café & Restaurant Visits",
+                      "icon": "☕️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pet-Friendly Accommodations",
+                      "icon": "🏨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Travel with Pets",
+                      "icon": "✈️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Hiking & Outdoor Adventures",
+                      "icon": "🌲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Beach & Water Activities",
+                      "icon": "🌊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pet Events & Meetups",
+                      "icon": "🎉",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pet-Friendly Shopping",
+                      "icon": "🛍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Animal-Assisted Activities",
+                      "icon": "💖",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Multi-Species Integration",
+                  "icon": "🤝",
+                  "subcategories": [
+                    {
+                      "name": "Dog-Cat Relationships",
+                      "icon": "🐕🐈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Small Animal Safety",
+                      "icon": "🐹",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bird-Mammal Households",
+                      "icon": "🐦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Reptile-Mammal Cohabitation",
+                      "icon": "🐍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Predator-Prey Dynamics",
+                      "icon": "🐺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Introduction Protocols",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Supervised Interactions",
+                      "icon": "👀",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Separate Space Management",
+                      "icon": "🏠",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Life Balance with Pets",
+              "icon": "⚖️",
+              "subcategories": [
+                {
+                  "name": "Time Management",
+                  "icon": "⏰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Work-Pet Balance",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Exercise Integration",
+                  "icon": "🏃‍♂️🏃‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Family Involvement",
+                  "icon": "👨‍👩‍👧‍👦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pet Care Delegation",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Routine Development",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vacation Planning",
+                  "icon": "✈️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Emergency Preparedness",
+                  "icon": "🆘",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Animal Welfare & Advocacy",
+      "icon": "🛡️",
+      "subcategories": [
+        {
+          "name": "Ethical Animal Care",
+          "icon": "💖",
+          "subcategories": [
+            {
+              "name": "Ethical Considerations",
+              "icon": "🤔",
+              "subcategories": [
+                {
+                  "name": "Animal Sentience Recognition",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rights vs. Welfare Approaches",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Anthropomorphism Awareness",
+                  "icon": "🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Quality of Life Assessment",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ethical Decision-Making",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "End-of-Life Considerations",
+                  "icon": "💔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Exploitation Prevention",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Humane Treatment Standards",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Responsible Ownership",
+              "icon": "✅",
+              "subcategories": [
+                {
+                  "name": "Lifetime Commitment",
+                  "icon": "❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Appropriate Species Selection",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adoption Consideration",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Breeding Ethics",
+                  "icon": "🧬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Spay/Neuter Decisions",
+                  "icon": "✂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Identification & Microchipping",
+                  "icon": "🏷️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Legal Responsibilities",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Financial Planning",
+                  "icon": "💰",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Abuse Prevention",
+              "icon": "🚫",
+              "subcategories": [
+                {
+                  "name": "Signs of Abuse/Neglect",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reporting Procedures",
+                  "icon": "📞",
+                  "subcategories": []
+                },
+                {
+                  "name": "Educational Outreach",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Intervention",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Legal Protections",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rehabilitation Approaches",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Survivor Support",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Prevention Programs",
+                  "icon": "🛡️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Animal Rescue & Shelter Systems",
+          "icon": "🏢",
+          "subcategories": [
+            {
+              "name": "Shelter & Rescue Operations",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "Municipal Shelters",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Private Shelters",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rescue Organizations",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Breed-Specific Rescue",
+                  "icon": "🏷️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Specialty Rescue (Wildlife, Farm, etc.)",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "No-Kill Movement",
+                  "icon": "🚫🔪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Foster Networks",
+                  "icon": "🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sanctuary Models",
+                  "icon": "🏞️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Adoption & Fostering",
+              "icon": "💖",
+              "subcategories": [
+                {
+                  "name": "Adoption Counseling",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Foster Care Basics",
+                  "icon": "🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Match-Making Processes",
+                  "icon": "🧑‍🤝‍🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Post-Adoption Support",
+                  "icon": "❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Failed Foster Syndrome",
+                  "icon": "💔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Special Needs Placement",
+                  "icon": "♿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Senior Animal Placement",
+                  "icon": "👴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Behavior Challenge Placement",
+                  "icon": "😠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Rehabilitation Programs",
+              "icon": "💖",
+              "subcategories": [
+                {
+                  "name": "Physical Rehabilitation",
+                  "icon": "🏃‍♂️🏃‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Behavioral Rehabilitation",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Medical Recovery",
+                  "icon": "🧑‍⚕️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Socialization Programs",
+                  "icon": "👭👫👬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fear/Aggression Protocols",
+                  "icon": "😨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hoarding Case Recovery",
+                  "icon": "🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Disaster Recovery",
+                  "icon": "🌪️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cruelty Case Rehabilitation",
+                  "icon": "😢",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Animal Shelter Volunteering",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Direct Animal Care",
+                  "icon": "🐾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Administrative Support",
+                  "icon": "👨‍💼👩‍💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fundraising Assistance",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Event Planning",
+                  "icon": "🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Transport Volunteering",
+                  "icon": "🚗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Photography Services",
+                  "icon": "📸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Training Support",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Outreach",
+                  "icon": "🏘️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Animal Rights & Protection",
+          "icon": "⚖️",
+          "subcategories": [
+            {
+              "name": "Legal Protections",
+              "icon": "📜",
+              "subcategories": [
+                {
+                  "name": "Animal Welfare Laws",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Anti-Cruelty Legislation",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Enforcement Mechanisms",
+                  "icon": "👮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Legislative Advocacy",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Animal Law Development",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "International Protections",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Legal Status of Animals",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Court Advocacy",
+                  "icon": "🏛️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Industry Reform",
+              "icon": "🏭",
+              "subcategories": [
+                {
+                  "name": "Factory Farming Alternatives",
+                  "icon": "🐔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Research Animal Protections",
+                  "icon": "🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Entertainment Animal Welfare",
+                  "icon": "🎪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Working Animal Standards",
+                  "icon": "🧑‍🔧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Service Animal Regulations",
+                  "icon": "🧑‍⚕️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Therapy Animal Certification",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Horse & Livestock Welfare",
+                  "icon": "🐴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Standards of Care Development",
+                  "icon": "✅",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Advocacy Methods",
+              "icon": "📣",
+              "subcategories": [
+                {
+                  "name": "Public Education",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Demonstration Organization",
+                  "icon": "✊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Corporate Campaigns",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lobbying Techniques",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Consumer Activism",
+                  "icon": "🛒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Media Campaigns",
+                  "icon": "📰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Investigation & Documentation",
+                  "icon": "🕵️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coalition Building",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Humane Education",
+          "icon": "🎓",
+          "subcategories": [
+            {
+              "name": "Youth Humane Education",
+              "icon": "🧒",
+              "subcategories": [
+                {
+                  "name": "School Programs",
+                  "icon": "🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "After-School Clubs",
+                  "icon": "⚽",
+                  "subcategories": []
+                },
+                {
+                  "name": "Camp Programs",
+                  "icon": "🏕️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reading to Animals Programs",
+                  "icon": "📖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Junior Volunteer Programs",
+                  "icon": "🧑‍🤝‍🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Humane Education Curriculum",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Youth Leadership Development",
+                  "icon": "👑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Empathy Building Activities",
+                  "icon": "💖",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Community Education",
+              "icon": "🏘️",
+              "subcategories": [
+                {
+                  "name": "Public Workshops",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Presentations",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Information Campaigns",
+                  "icon": "📰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adult Learning Programs",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Professional Development",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Competency Training",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Multilingual Outreach",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Media Education",
+                  "icon": "📱",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Professional Training",
+              "icon": "🧑‍🎓",
+              "subcategories": [
+                {
+                  "name": "Veterinary Ethics",
+                  "icon": "🧑‍⚕️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Animal Control Training",
+                  "icon": "👮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shelter Worker Education",
+                  "icon": "🧑‍💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Animal Handler Certification",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Law Enforcement Training",
+                  "icon": "👮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Judicial Education",
+                  "icon": "🧑‍⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Legislative Briefings",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Organizational Development",
+                  "icon": "🏢",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wildlife & Biodiversity Conservation",
+      "icon": "🌳",
+      "subcategories": [
+        {
+          "name": "Wildlife Conservation",
+          "icon": "🦉",
+          "subcategories": [
+            {
+              "name": "Conservation Biology",
+              "icon": "🔬",
+              "subcategories": [
+                {
+                  "name": "Habitat Requirements",
+                  "icon": "🏡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Population Dynamics",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Genetic Diversity",
+                  "icon": "🧬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ecological Relationships",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Carrying Capacity",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conservation Genetics",
+                  "icon": "🧬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Meta-Population Management",
+                  "icon": "🧑‍🤝‍🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Invasive Species Management",
+                  "icon": "🚫",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Species Protection",
+              "icon": "🐅",
+              "subcategories": [
+                {
+                  "name": "Endangered Species",
+                  "icon": "멸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Threatened Species",
+                  "icon": "⚠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Keystone Species",
+                  "icon": "🔑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Umbrella Species Focus",
+                  "icon": "☂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indicator Species Monitoring",
+                  "icon": "🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Flagship Species Programs",
+                  "icon": "🏁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Native Species Protection",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Migratory Species Conservation",
+                  "icon": "🐦",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Wildlife Rehabilitation",
+              "icon": "💖",
+              "subcategories": [
+                {
+                  "name": "Rescue Techniques",
+                  "icon": "🆘",
+                  "subcategories": []
+                },
+                {
+                  "name": "Species-Specific Rehabilitation",
+                  "icon": "🏷️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Medical Treatment",
+                  "icon": "🧑‍⚕️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nutrition & Feeding",
+                  "icon": "🍎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Behavioral Assessment",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pre-Release Conditioning",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Release Site Selection",
+                  "icon": "📍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Post-Release Monitoring",
+                  "icon": "📊",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Human-Wildlife Coexistence",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Conflict Resolution",
+                  "icon": "☮️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wildlife Corridors",
+                  "icon": "🛣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Urban Wildlife Management",
+                  "icon": "🏙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wildlife Deterrents",
+                  "icon": "🚧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Humane Wildlife Control",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Backyard Habitat Creation",
+                  "icon": "🏡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rural Coexistence Strategies",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wildlife-Friendly Farming",
+                  "icon": "🚜",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Habitat Conservation",
+          "icon": "🏞️",
+          "subcategories": [
+            {
+              "name": "Ecosystem Protection",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Forest Conservation",
+                  "icon": "🌲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Grassland Preservation",
+                  "icon": "🌾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wetland Protection",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Marine Conservation",
+                  "icon": "🌊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Desert Ecosystem Preservation",
+                  "icon": "🏜️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mountain Habitat Conservation",
+                  "icon": "⛰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Island Biodiversity Protection",
+                  "icon": "🏝️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Freshwater System Conservation",
+                  "icon": "🏞️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Habitat Restoration",
+              "icon": "🛠️",
+              "subcategories": [
+                {
+                  "name": "Reforestation Projects",
+                  "icon": "🌲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Grassland Restoration",
+                  "icon": "🌾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wetland Rehabilitation",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Riparian Buffer Creation",
+                  "icon": "🌊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Native Plant Reestablishment",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Invasive Species Removal",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pollinator Habitat Creation",
+                  "icon": "🦋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Urban Habitat Restoration",
+                  "icon": "🏙️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Protected Areas",
+              "icon": "🛡️",
+              "subcategories": [
+                {
+                  "name": "National Parks",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wildlife Refuges",
+                  "icon": "🦉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Marine Protected Areas",
+                  "icon": "🌊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conservation Easements",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Private Reserves",
+                  "icon": "🔐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Conservation Areas",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indigenous Protected Areas",
+                  "icon": "🌎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wilderness Areas",
+                  "icon": "🌲",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Land Stewardship",
+              "icon": "🌳",
+              "subcategories": [
+                {
+                  "name": "Sustainable Land Management",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conservation Agriculture",
+                  "icon": "🚜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rotational Grazing",
+                  "icon": "🐄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Controlled Burns",
+                  "icon": "🔥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Erosion Control",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Watershed Management",
+                  "icon": "🌊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sustainable Forestry",
+                  "icon": "🌲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Regenerative Practices",
+                  "icon": "🌱",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Conservation Participation",
+          "icon": "🤝",
+          "subcategories": [
+            {
+              "name": "Citizen Science",
+              "icon": "🔬",
+              "subcategories": [
+                {
+                  "name": "Wildlife Monitoring",
+                  "icon": "🦉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Species Counts & Surveys",
+                  "icon": "🔢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Habitat Assessment",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Water Quality Monitoring",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Weather Data Collection",
+                  "icon": "☁️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Phenology Tracking",
+                  "icon": "🍂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conservation Technology Use",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Data Submission & Analysis",
+                  "icon": "📊",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Conservation Volunteering",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Habitat Restoration Work",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wildlife Monitoring",
+                  "icon": "🦉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conservation Construction",
+                  "icon": "🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seed Collection",
+                  "icon": "🌰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trail Maintenance",
+                  "icon": "🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Invasive Species Removal",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Education",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Administrative Support",
+                  "icon": "🧑‍💼",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Backyard Conservation",
+              "icon": "🏡",
+              "subcategories": [
+                {
+                  "name": "Native Plant Gardening",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bird Feeding & Housing",
+                  "icon": "🐦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Butterfly Gardens",
+                  "icon": "🦋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bat Houses",
+                  "icon": "🦇",
+                  "subcategories": []
+                },
+                {
+                  "name": "Amphibian Ponds",
+                  "icon": "🐸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Brush & Rock Piles",
+                  "icon": "🪵",
+                  "subcategories": []
+                },
+                {
+                  "name": "No-Mow Areas",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Chemical-Free Maintenance",
+                  "icon": "🌿",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Wildlife Tourism",
+              "icon": "🔭",
+              "subcategories": [
+                {
+                  "name": "Ethical Wildlife Viewing",
+                  "icon": "👀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conservation-Based Tourism",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ecotourism Development",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wildlife Photography",
+                  "icon": "📸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nature Guide Training",
+                  "icon": "🧭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Educational Expeditions",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conservation Travel",
+                  "icon": "✈️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community-Based Ecotourism",
+                  "icon": "🏘️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Global Conservation Issues",
+          "icon": "🌍",
+          "subcategories": [
+            {
+              "name": "Biodiversity Loss",
+              "icon": "📉",
+              "subcategories": [
+                {
+                  "name": "Extinction Causes",
+                  "icon": "💀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Biodiversity Hotspots",
+                  "icon": "🔥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Genetic Diversity Preservation",
+                  "icon": "🧬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Species Recovery Planning",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ex-Situ Conservation",
+                  "icon": "🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seed Banks & Biorepositories",
+                  "icon": "🏦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Assisted Migration",
+                  "icon": "🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "De-Extinction Ethics",
+                  "icon": "🦖",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Climate Change Effects",
+              "icon": "🌡️",
+              "subcategories": [
+                {
+                  "name": "Species Range Shifts",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Phenology Changes",
+                  "icon": "🍂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Habitat Alteration",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ecosystem Resilience",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Assisted Adaptation",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Climate Refugia Identification",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Carbon Sequestration",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Climate-Wildlife Planning",
+                  "icon": "🌍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Conservation Policy",
+              "icon": "📜",
+              "subcategories": [
+                {
+                  "name": "International Agreements",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "National Wildlife Policy",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Conservation Ordinances",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indigenous Conservation Rights",
+                  "icon": "🌎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Market-Based Conservation",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conservation Finance",
+                  "icon": "💸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Certification Programs",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Policy Implementation",
+                  "icon": "⚙️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Plant Care & Botanic Conservation",
+      "icon": "🌱",
+      "subcategories": [
+        {
+          "name": "Plant Care Fundamentals",
+          "icon": "🌿",
+          "subcategories": [
+            {
+              "name": "Indoor Plants",
+              "icon": "🪴",
+              "subcategories": [
+                {
+                  "name": "Houseplant Selection",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Light Requirements",
+                  "icon": "☀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Watering Techniques",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Humidity Management",
+                  "icon": "🌬️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Temperature Considerations",
+                  "icon": "🌡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Soil & Potting Media",
+                  "icon": "🪴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Container Selection",
+                  "icon": "🏺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indoor Plant Placement",
+                  "icon": "🏠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Outdoor Gardening",
+              "icon": "🌳",
+              "subcategories": [
+                {
+                  "name": "Garden Planning",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Soil Preparation",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Plant Selection",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Watering Systems",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mulching Techniques",
+                  "icon": "🍂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Weather Protection",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seasonal Maintenance",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Garden Structures",
+                  "icon": "🏗️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Specialized Plant Groups",
+              "icon": "🌵",
+              "subcategories": [
+                {
+                  "name": "Succulents & Cacti",
+                  "icon": "🌵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Orchids",
+                  "icon": "🌸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bonsai",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tropical Plants",
+                  "icon": "🌴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Carnivorous Plants",
+                  "icon": "🦟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Aquatic Plants",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Air Plants (Tillandsia)",
+                  "icon": "💨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Native Plant Species",
+                  "icon": "🌱",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Growing Techniques",
+              "icon": "🌱",
+              "subcategories": [
+                {
+                  "name": "Container Gardening",
+                  "icon": "🏺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Raised Bed Gardening",
+                  "icon": "🧱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vertical Gardening",
+                  "icon": "⬆️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hydroponics",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Aquaponics",
+                  "icon": "🐟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Square Foot Gardening",
+                  "icon": "🔢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Companion Planting",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Biointensive Methods",
+                  "icon": "🌱",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Plant Health & Maintenance",
+          "icon": "❤️",
+          "subcategories": [
+            {
+              "name": "Plant Nutrition",
+              "icon": "🍎",
+              "subcategories": [
+                {
+                  "name": "Fertilization Principles",
+                  "icon": "🧪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Organic Amendments",
+                  "icon": "🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Foliar Feeding",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nutrient Deficiency Identification",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Soil Testing",
+                  "icon": "🧪",
+                  "subcategories": []
+                },
+                {
+                  "name": "pH Management",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Composting Techniques",
+                  "icon": "♻️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vermicomposting",
+                  "icon": "🐛",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Plant Health Management",
+              "icon": "❤️",
+              "subcategories": [
+                {
+                  "name": "Pest Identification",
+                  "icon": "🐞",
+                  "subcategories": []
+                },
+                {
+                  "name": "Biological Controls",
+                  "icon": "🐞",
+                  "subcategories": []
+                },
+                {
+                  "name": "Integrated Pest Management",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Disease Identification",
+                  "icon": "🦠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Organic Disease Control",
+                  "icon": "🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Beneficial Insects",
+                  "icon": "🦋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Plant Stress Management",
+                  "icon": "🥵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Recovery Techniques",
+                  "icon": "💖",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Plant Propagation",
+              "icon": "🌱",
+              "subcategories": [
+                {
+                  "name": "Seed Saving",
+                  "icon": "🌰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seed Starting",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cutting Propagation",
+                  "icon": "✂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Division Techniques",
+                  "icon": "➗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Air Layering",
+                  "icon": "💨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Grafting",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tissue Culture Basics",
+                  "icon": "🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Breeding & Hybridization",
+                  "icon": "🧬",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Seasonal Care",
+              "icon": "🍂",
+              "subcategories": [
+                {
+                  "name": "Spring Preparation",
+                  "icon": "🌷",
+                  "subcategories": []
+                },
+                {
+                  "name": "Summer Maintenance",
+                  "icon": "☀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fall Cleanup",
+                  "icon": "🍂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Winter Protection",
+                  "icon": "❄️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pruning Timing",
+                  "icon": "✂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bloom Schedules",
+                  "icon": "🌸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dormancy Management",
+                  "icon": "😴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seasonal Transitions",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Plant Conservation",
+          "icon": "🛡️",
+          "subcategories": [
+            {
+              "name": "Native Plant Preservation",
+              "icon": "🌱",
+              "subcategories": [
+                {
+                  "name": "Native Plant Identification",
+                  "icon": "🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Regionally Appropriate Species",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Heritage Varieties",
+                  "icon": "🕰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seed Banking",
+                  "icon": "🏦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rare Plant Monitoring",
+                  "icon": "🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Native Plant Propagation",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Restoration Planting",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Native Landscaping",
+                  "icon": "🌳",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Plant Biodiversity",
+              "icon": "🌿",
+              "subcategories": [
+                {
+                  "name": "Plant Community Protection",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Endemic Species Preservation",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pollinator-Plant Relationships",
+                  "icon": "🦋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seed Exchange Programs",
+                  "icon": "🌰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Botanical Garden Conservation",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rare Plant Recovery",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Threatened Ecosystem Plants",
+                  "icon": "⚠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indigenous Plant Knowledge",
+                  "icon": "🌎",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Urban Forestry",
+              "icon": "🌳",
+              "subcategories": [
+                {
+                  "name": "Street Tree Selection",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Urban Tree Planting",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tree Health Assessment",
+                  "icon": "❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Urban Orchard Development",
+                  "icon": "🍎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Forestry Projects",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tree Preservation Ordinances",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Heritage Tree Protection",
+                  "icon": "🕰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Urban Canopy Goals",
+                  "icon": "🏙️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Sustainable Landscaping",
+              "icon": "♻️",
+              "subcategories": [
+                {
+                  "name": "Low-Water Landscaping",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Native Landscaping",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wildlife-Friendly Design",
+                  "icon": "🦋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rain Gardens",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bioswales & Water Management",
+                  "icon": "🌊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Chemical-Free Maintenance",
+                  "icon": "🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lawn Alternatives",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Food Forests",
+                  "icon": "🍎",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Plant-Human Connection",
+          "icon": "🤝",
+          "subcategories": [
+            {
+              "name": "Therapeutic Horticulture",
+              "icon": "💖",
+              "subcategories": [
+                {
+                  "name": "Garden Therapy",
+                  "icon": "🪴🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Horticultural Therapy Programs",
+                  "icon": "🧑‍⚕️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Healing Gardens",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sensory Gardens",
+                  "icon": "👃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Memory Gardens",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Accessible Gardening",
+                  "icon": "♿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Garden Therapy",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Plant-Based Wellbeing",
+                  "icon": "🌿",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Cultural Plant Relationships",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Ethnobotany",
+                  "icon": "🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Traditional Plant Use",
+                  "icon": "🏺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sacred Plants",
+                  "icon": "🙏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Medicinal Plant Knowledge",
+                  "icon": "💊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Plant Preservation",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Food Heritage Plants",
+                  "icon": "🍎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indigenous Plant Practices",
+                  "icon": "🌎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Plant Folklore & Traditions",
+                  "icon": "📖",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Plant-Based Education",
+              "icon": "🎓",
+              "subcategories": [
+                {
+                  "name": "Plant Science Education",
+                  "icon": "🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "School Gardens",
+                  "icon": "🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Plant Workshops",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Botanical Art",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Plant Identification Skills",
+                  "icon": "🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Interpretive Plant Trails",
+                  "icon": "🚶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Plant Storytelling",
+                  "icon": "📖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Botanical Illustration",
+                  "icon": "🖌️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Plant Ethics",
+              "icon": "🪴🤔",
+              "subcategories": [
+                {
+                  "name": "Plant Intelligence Research",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Plant Rights Consideration",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ethical Plant Harvesting",
+                  "icon": "🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wild Plant Collection Ethics",
+                  "icon": "🌲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Plant Cultivation Ethics",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Invasive Species Ethics",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Plant Genetic Modification",
+                  "icon": "🧬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Responsible Introduction",
+                  "icon": "✅",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Environmental Stewardship",
+      "icon": "🌍",
+      "subcategories": [
+        {
+          "name": "Home & Personal Practices",
+          "icon": "🏡",
+          "subcategories": [
+            {
+              "name": "Sustainable Household",
+              "icon": "♻️",
+              "subcategories": [
+                {
+                  "name": "Energy Conservation",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Water Conservation",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Waste Reduction",
+                  "icon": "🗑️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Green Cleaning",
+                  "icon": "🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Eco-Friendly Products",
+                  "icon": "🛍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Toxin Reduction",
+                  "icon": "☠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Home Energy Audits",
+                  "icon": "🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Zero-Waste Approaches",
+                  "icon": "🚫",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Eco-Friendly Yard",
+              "icon": "🌳",
+              "subcategories": [
+                {
+                  "name": "Natural Lawn Care",
+                  "icon": "🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Chemical-Free Maintenance",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pollinator Support",
+                  "icon": "🦋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wildlife-Friendly Practices",
+                  "icon": "🦉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Native Landscaping",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Composting Systems",
+                  "icon": "♻️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rainwater Harvesting",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Permeable Surfaces",
+                  "icon": "💧",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Personal Carbon Reduction",
+              "icon": "💨",
+              "subcategories": [
+                {
+                  "name": "Transportation Choices",
+                  "icon": "🚗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Home Energy Sources",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Food Choices Impact",
+                  "icon": "🍎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Consumption Patterns",
+                  "icon": "🛒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Carbon Offsetting",
+                  "icon": "💨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Footprint Assessment",
+                  "icon": "👣",
+                  "subcategories": []
+                },
+                {
+                  "name": "Low-Carbon Lifestyle",
+                  "icon": "📉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Climate-Friendly Habits",
+                  "icon": "🌍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Ecological Consumer Choices",
+              "icon": "🛒",
+              "subcategories": [
+                {
+                  "name": "Research & Verification",
+                  "icon": "🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Certification Understanding",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Supply Chain Awareness",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fair Trade Consideration",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Packaging Assessment",
+                  "icon": "📦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Product Lifecycle Analysis",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conscious Consumption",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Need vs. Want Evaluation",
+                  "icon": "❓",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Community Environmental Engagement",
+          "icon": "🏘️",
+          "subcategories": [
+            {
+              "name": "Local Environmental Action",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Community Clean-ups",
+                  "icon": "🧹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Neighborhood Greening",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Environmental Issues",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Gardens",
+                  "icon": "🥕",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tree Planting Events",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Environmental Education",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Resource Sharing Programs",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Resilience Building",
+                  "icon": "💪",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Environmental Advocacy",
+              "icon": "📣",
+              "subcategories": [
+                {
+                  "name": "Issue Identification",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stakeholder Engagement",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Campaign Development",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Education",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Decision-Maker Influence",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coalition Building",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Media Engagement",
+                  "icon": "📰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Regulatory Participation",
+                  "icon": "🏛️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Environmental Justice",
+              "icon": "⚖️",
+              "subcategories": [
+                {
+                  "name": "Affected Community Support",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Equitable Resource Access",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pollution Burden Reduction",
+                  "icon": "📉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fair Distribution Advocacy",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Inclusive Decision-Making",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Preservation",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Traditional Knowledge Integration",
+                  "icon": "🌎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Intergenerational Equity",
+                  "icon": "⏳",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Environmental Education",
+              "icon": "🎓",
+              "subcategories": [
+                {
+                  "name": "Public Awareness Programs",
+                  "icon": "📢",
+                  "subcategories": []
+                },
+                {
+                  "name": "School Environmental Programs",
+                  "icon": "🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adult Education Workshops",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Citizen Science Projects",
+                  "icon": "🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nature Connection Programs",
+                  "icon": "🌲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Media Development",
+                  "icon": "📰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Environmental Interpretation",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Speaking Skills",
+                  "icon": "🎤",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ecosystem Restoration",
+          "icon": "🛠️",
+          "subcategories": [
+            {
+              "name": "Restoration Planning",
+              "icon": "🗺️",
+              "subcategories": [
+                {
+                  "name": "Site Assessment",
+                  "icon": "🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Historical Ecosystem Research",
+                  "icon": "🕰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reference Ecosystem Identification",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Project Goals & Objectives",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stakeholder Engagement",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Timeline Development",
+                  "icon": "⏳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Budget Planning",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Implementation Strategy",
+                  "icon": "⚙️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Restoration Techniques",
+              "icon": "🛠️",
+              "subcategories": [
+                {
+                  "name": "Soil Restoration",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hydrology Restoration",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Native Plant Introduction",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Invasive Species Control",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wildlife Habitat Creation",
+                  "icon": "🦉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Natural Process Restoration",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Erosion Control",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Monitoring Systems",
+                  "icon": "📊",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Community-Based Restoration",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Volunteer Engagement",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Ownership",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Knowledge Integration",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Practice Incorporation",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Participatory Monitoring",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Celebration & Recognition",
+                  "icon": "🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Long-term Stewardship",
+                  "icon": "🕰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Educational Components",
+                  "icon": "🎓",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Restoration Ecology",
+              "icon": "🔬",
+              "subcategories": [
+                {
+                  "name": "Succession Processes",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Disturbance Regimes",
+                  "icon": "🔥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Recovery Indicators",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ecosystem Services",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Resilience Development",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Climate Change Adaptation",
+                  "icon": "🌡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Novel Ecosystem Management",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Biodiversity Enhancement",
+                  "icon": "🦋",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Global Environmental Connection",
+          "icon": "🌍",
+          "subcategories": [
+            {
+              "name": "Bioregional Awareness",
+              "icon": "🏞️",
+              "subcategories": [
+                {
+                  "name": "Local Ecosystem Understanding",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Watershed Consciousness",
+                  "icon": "🌊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Regional Species Knowledge",
+                  "icon": "🦉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Food Systems",
+                  "icon": "🍎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seasonal Awareness",
+                  "icon": "🍂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Geographic Connection",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural-Ecological History",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Place-Based Identity",
+                  "icon": "📍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Global Issues Engagement",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Climate Change Action",
+                  "icon": "🌡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Biodiversity Protection",
+                  "icon": "🦋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pollution Reduction",
+                  "icon": "💨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Resource Conservation",
+                  "icon": "🌲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Environmental Justice",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sustainable Development",
+                  "icon": "♻️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ocean Protection",
+                  "icon": "🌊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Forest Conservation",
+                  "icon": "🌲",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Sustainable Development Goals",
+              "icon": "🎯",
+              "subcategories": [
+                {
+                  "name": "Poverty & Environment Links",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Food Security & Ecosystems",
+                  "icon": "🍎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Health & Environmental Quality",
+                  "icon": "❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Education for Sustainability",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Gender & Environment",
+                  "icon": "♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Water & Sanitation",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Energy & Climate",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Economic-Ecological Balance",
+                  "icon": "⚖️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Environmental Ethics",
+              "icon": "🤔",
+              "subcategories": [
+                {
+                  "name": "Intergenerational Responsibility",
+                  "icon": "⏳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Interspecies Ethics",
+                  "icon": "🐾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rights of Nature",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ecological Citizenship",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Environmental Virtue Ethics",
+                  "icon": "🧘",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conservation Philosophy",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Deep Ecology Principles",
+                  "icon": "🌲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Environmental Justice Ethics",
+                  "icon": "⚖️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Human-Animal Relationships",
+      "icon": "🧍‍♂️🧍‍♀️🐶🐱",
+      "subcategories": [
+        {
+          "name": "Therapeutic Animal Interactions",
+          "icon": "💖",
+          "subcategories": [
+            {
+              "name": "Animal-Assisted Therapy",
+              "icon": "🦮💆‍♂️",
+              "subcategories": [
+                {
+                  "name": "Clinical Applications",
+                  "icon": "🏥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mental Health Therapy",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Physical Rehabilitation",
+                  "icon": "🏃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cognitive Therapy",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Speech & Language Therapy",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Developmental Therapy",
+                  "icon": "🧒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pain Management",
+                  "icon": "🩹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trauma Recovery",
+                  "icon": "💖",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Animal-Assisted Activities",
+              "icon": "🐾",
+              "subcategories": [
+                {
+                  "name": "Casual Animal Visits",
+                  "icon": "👋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reading to Animals Programs",
+                  "icon": "📖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Animal Visitation",
+                  "icon": "🚶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Comfort Animals",
+                  "icon": "❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Recreational Activities",
+                  "icon": "🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Group Animal Programs",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Elder Engagement",
+                  "icon": "👴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Child Development Programs",
+                  "icon": "🧒",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Service & Assistance Animals",
+              "icon": "🧑‍⚕️",
+              "subcategories": [
+                {
+                  "name": "Service Dog Training",
+                  "icon": "🐕",
+                  "subcategories": []
+                },
+                {
+                  "name": "Guide Dogs",
+                  "icon": "🧑‍🦯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hearing Dogs",
+                  "icon": "👂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mobility Assistance Dogs",
+                  "icon": "♿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Medical Alert Animals",
+                  "icon": "🩺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Psychiatric Service Animals",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Autism Support Dogs",
+                  "icon": "🧩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Task-Specific Training",
+                  "icon": "🎯",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Emotional Support Animals",
+              "icon": "❤️",
+              "subcategories": [
+                {
+                  "name": "ESA Qualification",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Species Selection",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Training Fundamentals",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Housing Rights",
+                  "icon": "🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Travel Considerations",
+                  "icon": "✈️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Access Limitations",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Documentation Requirements",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Human-Animal Bond Development",
+                  "icon": "🔗",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Working Animal Partnerships",
+          "icon": "🧑‍🔧",
+          "subcategories": [
+            {
+              "name": "Working Dogs",
+              "icon": "🐕",
+              "subcategories": [
+                {
+                  "name": "Search & Rescue",
+                  "icon": "🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Police/Military K9",
+                  "icon": "👮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Detection Dogs",
+                  "icon": "👃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Herding Dogs",
+                  "icon": "🐑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hunting Dogs",
+                  "icon": "🏹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Guard & Protection",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sledding Dogs",
+                  "icon": "🛷",
+                  "subcategories": []
+                },
+                {
+                  "name": "Therapy Dogs",
+                  "icon": "💖",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Working Equines",
+              "icon": "🐴",
+              "subcategories": [
+                {
+                  "name": "Police Horses",
+                  "icon": "👮",
+                  "subcategories": []
+                },
+                {
+                  "name": "Therapy Horses",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Draft & Farm Work",
+                  "icon": "🚜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Equine-Assisted Programs",
+                  "icon": "🐎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Competition Horses",
+                  "icon": "🏆",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trail & Wilderness Horses",
+                  "icon": "🌲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Working Traditions",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Retirement Care",
+                  "icon": "👴",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Agricultural Animal Partners",
+              "icon": "🚜",
+              "subcategories": [
+                {
+                  "name": "Herding Livestock",
+                  "icon": "🐑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Guardian Animals",
+                  "icon": "🐕",
+                  "subcategories": []
+                },
+                {
+                  "name": "Draft Animals",
+                  "icon": "🐂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pollination Management",
+                  "icon": "🐝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pest Control Animals",
+                  "icon": "🐞",
+                  "subcategories": []
+                },
+                {
+                  "name": "Soil Management Animals",
+                  "icon": "🐛",
+                  "subcategories": []
+                },
+                {
+                  "name": "Aquaculture Working Animals",
+                  "icon": "🐠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Traditional Farming Animals",
+                  "icon": "🐔",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Other Working Animals",
+              "icon": "🐾",
+              "subcategories": [
+                {
+                  "name": "Falconry & Bird Work",
+                  "icon": "🦅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rats in Detection Work",
+                  "icon": "🐀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Marine Mammal Assistance",
+                  "icon": "🐬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Disability Support Animals",
+                  "icon": "♿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Educational Ambassador Animals",
+                  "icon": "🦉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conservation Detection Animals",
+                  "icon": "👃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Research Partner Animals",
+                  "icon": "🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Working Traditions",
+                  "icon": "🌍",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Human-Animal Bond Science",
+          "icon": "🔬",
+          "subcategories": [
+            {
+              "name": "Attachment & Bonding",
+              "icon": "❤️",
+              "subcategories": [
+                {
+                  "name": "Bond Formation",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Interspecies Attachment",
+                  "icon": "🧑‍🤝‍🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mutual Caregiving",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Recognition & Preference",
+                  "icon": "👀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Greeting Behaviors",
+                  "icon": "👋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trust Development",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Oxytocin Research",
+                  "icon": "🧪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bond Assessment",
+                  "icon": "📊",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Communication Studies",
+              "icon": "🗣️",
+              "subcategories": [
+                {
+                  "name": "Interspecies Communication",
+                  "icon": "💬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Body Language Recognition",
+                  "icon": "🧍‍♂️🧍‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vocal Communication",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Intentionality Studies",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Training as Communication",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shared Attention Research",
+                  "icon": "👀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Empathy Between Species",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cross-Species Understanding",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Benefits Research",
+              "icon": "📈",
+              "subcategories": [
+                {
+                  "name": "Physical Health Benefits",
+                  "icon": "❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mental Health Impacts",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Facilitation",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stress Reduction",
+                  "icon": "🧘",
+                  "subcategories": []
+                },
+                {
+                  "name": "Loneliness Mitigation",
+                  "icon": "😔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Child Development Effects",
+                  "icon": "🧒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Aging Well with Animals",
+                  "icon": "👴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trauma & Resilience Research",
+                  "icon": "💖",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Relationship Dynamics",
+              "icon": "🔗",
+              "subcategories": [
+                {
+                  "name": "Family System Integration",
+                  "icon": "👨‍👩‍👧‍👦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Multi-Animal Dynamics",
+                  "icon": "🐾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Grief & Loss Processes",
+                  "icon": "💔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Human-Animal Conflict",
+                  "icon": "😠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Inter-Species Learning",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Behavioral Synchrony",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Co-regulation Studies",
+                  "icon": "🧘",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mutual Adaptation",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cultural Animal Relationships",
+          "icon": "🌍",
+          "subcategories": [
+            {
+              "name": "Historical Relationships",
+              "icon": "🕰️",
+              "subcategories": [
+                {
+                  "name": "Domestication History",
+                  "icon": "🐾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Evolution with Animals",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Traditional Animal Practices",
+                  "icon": "🏺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Historical Working Relationships",
+                  "icon": "🧑‍🔧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ceremonial Animal Roles",
+                  "icon": "🙏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ancient Animal-Human Bonds",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Archaeological Evidence",
+                  "icon": "🏺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Change Over Time",
+                  "icon": "⏳",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Cross-Cultural Perspectives",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Cultural Animal Symbolism",
+                  "icon": "🎭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Religious Animal Relationships",
+                  "icon": "🙏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indigenous Animal Knowledge",
+                  "icon": "🌎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Variation in Treatment",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Urban-Rural Differences",
+                  "icon": "🏙️🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Class & Economic Factors",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "East-West Perspectives",
+                  "icon": "🌏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Global Relationship Diversity",
+                  "icon": "🌍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Contemporary Relationships",
+              "icon": "💻",
+              "subcategories": [
+                {
+                  "name": "Animals as Family Members",
+                  "icon": "👨‍👩‍👧‍👦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Media Animal Culture",
+                  "icon": "📱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Urban Animal Relationships",
+                  "icon": "🏙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Animal Politics & Rights",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Popular Culture Representation",
+                  "icon": "🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Celebrity Animal Phenomena",
+                  "icon": "🌟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Animal Interaction",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Changing Legal Status",
+                  "icon": "📜",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Ethical Frameworks",
+              "icon": "🤔",
+              "subcategories": [
+                {
+                  "name": "Animal Rights Perspectives",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Animal Welfare Approaches",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Religious Ethical Traditions",
+                  "icon": "🙏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indigenous Ethical Systems",
+                  "icon": "🌎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Utilitarian Animal Ethics",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Relational Ethics",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Care Ethics",
+                  "icon": "❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Justice Frameworks",
+                  "icon": "⚖️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

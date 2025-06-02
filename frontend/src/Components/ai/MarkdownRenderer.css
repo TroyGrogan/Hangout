@@ -1,0 +1,133 @@
+.markdown-content {
+  width: 100%;
+  line-height: 1.6;
+  word-break: break-word;
+}
+
+/* Enhanced styling for bold text, especially for title labels */
+.markdown-content strong {
+  font-weight: 700;
+  color: #2c3e50; /* Slightly darker color for emphasis */
+  letter-spacing: 0.02em;
+}
+
+/* Additional spacing for paragraphs to improve readability */
+.markdown-content p {
+  margin: 1em 0; /* Increased vertical margin for better paragraph separation */
+  line-height: 1.7;
+}
+
+/* Ensure paragraph spacing is consistent and visually clear */
+.markdown-content p + p {
+  margin-top: 1.5em; /* Extra space between consecutive paragraphs */
+}
+
+/* Apply text justification for a cleaner look (optional) */
+.markdown-content p {
+  text-align: left;
+  max-width: 100%; /* Ensure text doesn't overflow */
+  hyphens: auto; /* Improve word breaking */
+}
+
+/* Enhanced spacing and styling for lists */
+.markdown-content ul,
+.markdown-content ol {
+  margin: 1em 0;
+  padding-left: 1.5em;
+}
+
+.markdown-content li {
+  margin-bottom: 1em; /* More space between list items */
+  position: relative;
+}
+
+/* Special styling for numbered lists to match the screenshot */
+.markdown-content ol > li {
+  padding-left: 0.5em;
+}
+
+/* Add extra padding after strong element if followed by a line break */
+.markdown-content strong + br {
+  display: block;
+  content: "";
+  margin-top: 0.2em;
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content h5,
+.markdown-content h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+  font-weight: 600;
+}
+
+.markdown-content h1 {
+  font-size: 1.8em;
+}
+
+.markdown-content h2 {
+  font-size: 1.5em;
+}
+
+.markdown-content h3 {
+  font-size: 1.3em;
+}
+
+.markdown-content a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.markdown-content a:hover {
+  text-decoration: underline;
+}
+
+.markdown-content blockquote {
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  border-left: 4px solid #ddd;
+  background-color: #f8f8f8;
+  font-style: italic;
+}
+
+.markdown-content code:not([class*="language-"]) {
+  font-family: monospace;
+  background-color: #f0f0f0;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.markdown-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+.markdown-content table th,
+.markdown-content table td {
+  border: 1px solid #ddd;
+  padding: 0.5em;
+  text-align: left;
+}
+
+.markdown-content table th {
+  background-color: #f2f2f2;
+  font-weight: 600;
+}
+
+.markdown-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
+.markdown-content hr {
+  margin: 1.5em 0;
+  border: 0;
+  border-top: 1px solid #ddd;
+} 

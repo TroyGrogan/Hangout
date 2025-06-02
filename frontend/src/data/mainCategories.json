@@ -1,0 +1,98 @@
+[
+  {
+    "id": 79,
+    "name": "Relationships and Social Life",
+    "icon": "👥",
+    "fileName": "sub_categories/1_relationships.json"
+  },
+  {
+    "id": 80,
+    "name": "Community Engagement and Civic Life",
+    "icon": "🏛️",
+    "fileName": "sub_categories/2_community.json"
+  },
+  {
+    "id": 81,
+    "name": "Financial Understanding, Economics, and Politics",
+    "icon": "💰",
+    "fileName": "sub_categories/3_financial.json"
+  },
+  {
+    "id": 82,
+    "name": "Career, Work, and Productivity",
+    "icon": "💼",
+    "fileName": "sub_categories/4_career.json"
+  },
+  {
+    "id": 83,
+    "name": "Time, Habits, and Life Organization",
+    "icon": "⏳",
+    "fileName": "sub_categories/5_time.json"
+  },
+  {
+    "id": 84,
+    "name": "Pets, Animals, and Nature Care",
+    "icon": "🐾",
+    "fileName": "sub_categories/6_pets.json"
+  },
+  {
+    "id": 85,
+    "name": "Health, Wellness, and Mindfulness",
+    "icon": "🧘‍♀️",
+    "fileName": "sub_categories/7_health.json"
+  },
+  {
+    "id": 86,
+    "name": "Sports, Exercise, and Physical Activities",
+    "icon": "🏃‍♂️",
+    "fileName": "sub_categories/8_sports.json"
+  },
+  {
+    "id": 87,
+    "name": "Technology Balance and Innovation",
+    "icon": "💻",
+    "fileName": "sub_categories/9_technology.json"
+  },
+  {
+    "id": 88,
+    "name": "Personal Growth, Education, and Learning",
+    "icon": "📚",
+    "fileName": "sub_categories/10_personal.json"
+  },
+  {
+    "id": 89,
+    "name": "Spirituality, Religion, and Philosophy",
+    "icon": "🧠",
+    "fileName": "sub_categories/11_spirituality.json"
+  },
+  {
+    "id": 90,
+    "name": "Recreation, Hobbies, Entertainment, and Games",
+    "icon": "🎮",
+    "fileName": "sub_categories/12_recreation.json"
+  },
+  {
+    "id": 91,
+    "name": "Home and Environment Elevation",
+    "icon": "🏠",
+    "fileName": "sub_categories/13_home.json"
+  },
+  {
+    "id": 92,
+    "name": "Travel, Nature, and Adventure",
+    "icon": "🌍",
+    "fileName": "sub_categories/14_travel.json"
+  },
+  {
+    "id": 93,
+    "name": "Food, Cooking, and Nutrition",
+    "icon": "🍳",
+    "fileName": "sub_categories/15_food.json"
+  },
+  {
+    "id": 94,
+    "name": "Art, Creativity, and Expression",
+    "icon": "🎨",
+    "fileName": "sub_categories/16_art.json"
+  }
+] 

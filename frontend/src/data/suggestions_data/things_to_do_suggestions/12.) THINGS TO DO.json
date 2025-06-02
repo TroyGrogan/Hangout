@@ -1,0 +1,723 @@
+[
+  {
+    "id": 1,
+    "prompt": "Suggest some good books to read based on my interest in history.",
+    "displayText": "Book recommendations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 2,
+    "prompt": "Suggest some amazing biography books to read based on human history.",
+    "displayText": "Biography Book recommendations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 3,
+    "prompt": "What are some interesting hobbies I could start with a limited budget?",
+    "displayText": "Budget-friendly hobbies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 4,
+    "prompt": "What are some hobbies that I can start at home, today, right now?",
+    "displayText": "Home hobbies you can do today",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 5,
+    "prompt": "Recommend me some strategy board games for a game night",
+    "displayText": "Strategy board games",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 6,
+    "prompt": "What are some outdoor recreational activities for beginners?",
+    "displayText": "Beginner outdoor activities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 7,
+    "prompt": "Suggest team sports leagues or casual pickup games in my area.",
+    "displayText": "Find Team Sports",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 8,
+    "prompt": "Suggest individual sports or activities I can try, like running, swimming, cycling, or climbing.",
+    "displayText": "Try Individual Sports",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 9,
+    "prompt": "Suggest recreational physical activities like hiking, dancing, yoga, or recreational biking.",
+    "displayText": "Recreational Physical Activities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 10,
+    "prompt": "Suggest adventure or outdoor recreation ideas like camping, kayaking, fishing, or geocaching.",
+    "displayText": "Outdoor Adventure Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 11,
+    "prompt": "Suggest fun lawn or outdoor games to play with friends or family.",
+    "displayText": "Lawn/Outdoor Games",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 12,
+    "prompt": "Suggest classic schoolyard or party games for a group.",
+    "displayText": "Party/Schoolyard Games",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 13,
+    "prompt": "Suggest indoor physical games like ping pong, air hockey, laser tag, or escape rooms.",
+    "displayText": "Indoor Physical Games",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 14,
+    "prompt": "Suggest abstract strategy board games like Chess, Go, or Checkers.",
+    "displayText": "Abstract Strategy Board Games",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 15,
+    "prompt": "Suggest area control or territory building board games like Risk, Catan, or Scythe.",
+    "displayText": "Area Control Board Games",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 16,
+    "prompt": "Suggest resource management board games like Agricola, Puerto Rico, or Wingspan.",
+    "displayText": "Resource Management Board Games",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 17,
+    "prompt": "Suggest board games suitable for parties or social gatherings.",
+    "displayText": "Party/Social Board Games",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 18,
+    "prompt": "Suggest fun family board games or traditional games like Monopoly, Jenga, or Clue.",
+    "displayText": "Family/Traditional Board Games",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 19,
+    "prompt": "Suggest popular modern 'Euro-style' board games like Ticket to Ride, Carcassonne, or Pandemic.",
+    "displayText": "Euro-Style Board Games",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 20,
+    "prompt": "Suggest popular modern 'American-style' board games like Betrayal at House on the Hill or Cosmic Encounter.",
+    "displayText": "American-Style Board Games",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 21,
+    "prompt": "Suggest board games with legacy or campaign elements like Pandemic Legacy or Gloomhaven.",
+    "displayText": "Legacy/Campaign Board Games",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 22,
+    "prompt": "Explain the rules of traditional card games like Bridge, Hearts, Spades, or Rummy.",
+    "displayText": "Traditional Card Game Rules",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 23,
+    "prompt": "Suggest popular collectible card games (CCGs) like Magic: The Gathering or Pok\u00e9mon TCG.",
+    "displayText": "Collectible Card Games (CCGs)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 24,
+    "prompt": "Suggest popular living or expandable card games (LCGs/ECGs) like Arkham Horror LCG or Marvel Champions.",
+    "displayText": "Living Card Games (LCGs)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 25,
+    "prompt": "Suggest modern party card games like Cards Against Humanity, Exploding Kittens, or Codenames.",
+    "displayText": "Modern Party Card Games",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 26,
+    "prompt": "Suggest fun dice games like Yahtzee, Farkle, or King of Tokyo.",
+    "displayText": "Fun Dice Games",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 27,
+    "prompt": "Explain different ways to play Dominoes.",
+    "displayText": "Domino Games",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 28,
+    "prompt": "Suggest popular tile-laying games like Carcassonne, Azul, or Qwirkle.",
+    "displayText": "Tile-Laying Games",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 29,
+    "prompt": "Suggest popular tabletop role-playing games (TTRPGs) like Dungeons & Dragons, Pathfinder, or Call of Cthulhu.",
+    "displayText": "Tabletop RPG Suggestions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 30,
+    "prompt": "Suggest story-focused RPGs or story games like Fiasco or The Quiet Year.",
+    "displayText": "Story Games (RPGs)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 31,
+    "prompt": "Explain Live Action Role-Playing (LARP) and suggest ways to get involved.",
+    "displayText": "Learn about LARP",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 32,
+    "prompt": "Suggest popular miniature wargames like Warhammer 40K, Age of Sigmar, or X-Wing.",
+    "displayText": "Miniature Wargames",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 33,
+    "prompt": "Suggest resources for learning miniature painting or terrain building.",
+    "displayText": "Learn Miniature Painting/Terrain Building",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 34,
+    "prompt": "Recommend video games for PlayStation, Xbox, or Nintendo Switch.",
+    "displayText": "Console Video Game Recommendations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 35,
+    "prompt": "Recommend popular PC games available on Steam or other platforms.",
+    "displayText": "PC Game Recommendations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 36,
+    "prompt": "Recommend fun mobile games for iOS or Android.",
+    "displayText": "Mobile Game Recommendations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 37,
+    "prompt": "Suggest popular VR games or experiences.",
+    "displayText": "VR Game/Experience Recommendations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 38,
+    "prompt": "Recommend action-adventure or platformer video games.",
+    "displayText": "Action-Adventure/Platformer Games",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 39,
+    "prompt": "Recommend role-playing video games (Western RPGs, JRPGs, Action RPGs, MMORPGs).",
+    "displayText": "RPG Video Game Recommendations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 40,
+    "prompt": "Recommend strategy video games (RTS, Turn-Based, 4X, Tower Defense).",
+    "displayText": "Strategy Video Game Recommendations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 41,
+    "prompt": "Recommend simulation video games (Life Sims, City Builders, Vehicle Sims).",
+    "displayText": "Simulation Video Game Recommendations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 42,
+    "prompt": "Recommend sports or racing video games.",
+    "displayText": "Sports/Racing Video Game Recommendations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 43,
+    "prompt": "Recommend puzzle or casual video games.",
+    "displayText": "Puzzle/Casual Video Game Recommendations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 44,
+    "prompt": "Explain eSports and suggest popular competitive games or tournaments to watch.",
+    "displayText": "Learn about eSports",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 45,
+    "prompt": "Suggest ways to find online gaming communities, clans, or forums.",
+    "displayText": "Find Gaming Communities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 46,
+    "prompt": "Suggest resources for learning game development or level design.",
+    "displayText": "Learn Game Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 47,
+    "prompt": "Recommend gaming content creators (Let's Plays, Reviews, Podcasts) to follow.",
+    "displayText": "Gaming Content Creator Recommendations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 48,
+    "prompt": "Recommend movies currently in theaters or available for streaming.",
+    "displayText": "Movie Recommendations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 49,
+    "prompt": "Suggest classic films or directors worth exploring based on genre interest.",
+    "displayText": "Classic Film/Director Recommendations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 50,
+    "prompt": "Suggest resources for learning about film history or film theory.",
+    "displayText": "Learn Film History/Theory",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 51,
+    "prompt": "Suggest ways to get started with amateur filmmaking or video editing.",
+    "displayText": "Start Amateur Filmmaking",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 52,
+    "prompt": "Recommend popular TV shows or series on streaming platforms like Netflix, Hulu, HBO Max, etc.",
+    "displayText": "TV Show/Streaming Recommendations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 53,
+    "prompt": "Suggest ways to find TV fan communities or discussions online.",
+    "displayText": "Find TV Fan Communities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 54,
+    "prompt": "Suggest resources for starting a web series, YouTube channel, or podcast.",
+    "displayText": "Start Content Creation (Web Series, Podcast)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 55,
+    "prompt": "Recommend new music releases or artists based on genre preference.",
+    "displayText": "New Music Recommendations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 56,
+    "prompt": "Suggest ways to discover new music (blogs, playlists, recommendations).",
+    "displayText": "Discover New Music",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 57,
+    "prompt": "Suggest resources for learning songwriting, music production, or DJing.",
+    "displayText": "Learn Music Creation (Songwriting, Production)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 58,
+    "prompt": "Recommend fiction or non-fiction books based on genre interest.",
+    "displayText": "Book Genre Recommendations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 59,
+    "prompt": "Suggest ways to find book clubs or reading communities.",
+    "displayText": "Find Book Clubs/Reading Communities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 60,
+    "prompt": "Suggest resources or prompts for creative writing, journaling, or blogging.",
+    "displayText": "Creative Writing/Journaling Prompts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 61,
+    "prompt": "Suggest ways to find local theater performances, musicals, or improv shows.",
+    "displayText": "Find Local Theater/Performances",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 62,
+    "prompt": "Suggest ways to find stand-up comedy shows or comedy clubs.",
+    "displayText": "Find Comedy Shows/Clubs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 63,
+    "prompt": "Suggest local art galleries, museums, or art exhibitions to visit.",
+    "displayText": "Find Local Art Galleries/Museums",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 64,
+    "prompt": "Suggest resources for learning digital art, animation, or web comics.",
+    "displayText": "Learn Digital Art/Animation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 65,
+    "prompt": "Suggest resources or tutorials for learning photography or photo editing.",
+    "displayText": "Learn Photography/Photo Editing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 66,
+    "prompt": "Suggest resources for learning drawing, sketching, or painting (watercolor, oil, acrylic).",
+    "displayText": "Learn Drawing/Painting",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 67,
+    "prompt": "Suggest resources for learning fiber arts like knitting, crochet, weaving, or embroidery.",
+    "displayText": "Learn Fiber Arts (Knitting, Crochet)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 68,
+    "prompt": "Suggest resources for learning sewing or quilting.",
+    "displayText": "Learn Sewing/Quilting",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 69,
+    "prompt": "Suggest paper craft ideas like origami, card making, or scrapbooking.",
+    "displayText": "Paper Craft Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 70,
+    "prompt": "Suggest resources for learning sculpture, pottery, woodcarving, or jewelry making.",
+    "displayText": "Learn Sculpture/Pottery/Woodcarving",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 71,
+    "prompt": "Suggest DIY woodworking or furniture making projects for beginners.",
+    "displayText": "Beginner Woodworking Projects",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 72,
+    "prompt": "Suggest DIY home improvement, decoration, or organization projects.",
+    "displayText": "DIY Home Improvement Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 73,
+    "prompt": "Suggest beginner-friendly electronics projects using Arduino or Raspberry Pi.",
+    "displayText": "Beginner Electronics Projects (Arduino/Pi)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 74,
+    "prompt": "Suggest baking recipes or resources for learning specialized cuisines.",
+    "displayText": "Baking Recipes/Learn Cuisines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 75,
+    "prompt": "Suggest resources for learning about vegetable gardening, flower gardening, or indoor plants.",
+    "displayText": "Gardening/Plant Care Resources",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 76,
+    "prompt": "Suggest resources or communities for learning creative writing (fiction, poetry, screenwriting).",
+    "displayText": "Creative Writing Resources/Communities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 77,
+    "prompt": "Suggest ways to start learning a musical instrument or singing.",
+    "displayText": "Start Learning Instrument/Singing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 78,
+    "prompt": "Suggest ways to get involved in local acting, dance, or spoken word communities.",
+    "displayText": "Join Performing Arts Communities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 79,
+    "prompt": "Suggest resources for learning traditional or historical crafts.",
+    "displayText": "Learn Traditional/Historical Crafts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 80,
+    "prompt": "Suggest types of items to collect (antiques, memorabilia, coins, stamps, books, toys).",
+    "displayText": "Collecting Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 81,
+    "prompt": "Suggest ways to organize, display, or manage a collection.",
+    "displayText": "Collection Management Tips",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 82,
+    "prompt": "Suggest ways to find collector clubs or communities online or locally.",
+    "displayText": "Find Collector Communities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 83,
+    "prompt": "Suggest ideas for social gatherings like dinner parties, game nights, or potlucks.",
+    "displayText": "Social Gathering Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 84,
+    "prompt": "Suggest ways to find community sports leagues, fitness classes, or hiking/running clubs.",
+    "displayText": "Find Community Recreation Groups",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 85,
+    "prompt": "Suggest group entertainment activities like karaoke, trivia nights, or escape rooms.",
+    "displayText": "Group Entertainment Activities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 86,
+    "prompt": "Suggest ways to find group learning opportunities like book clubs, language exchanges, or study groups.",
+    "displayText": "Find Group Learning Opportunities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 87,
+    "prompt": "Suggest local cultural events, historical sites, or museums to explore with a group.",
+    "displayText": "Group Cultural Exploration Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 88,
+    "prompt": "Suggest craft workshops, cooking classes, or art lessons available locally or online.",
+    "displayText": "Find Workshops/Classes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 89,
+    "prompt": "Suggest local volunteer opportunities based on interests (environment, animals, social justice).",
+    "displayText": "Find Local Volunteer Opportunities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 90,
+    "prompt": "Suggest ways to get involved in community improvement projects (cleanups, gardens, public art).",
+    "displayText": "Community Improvement Projects",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 91,
+    "prompt": "Suggest resources for mindful practices like guided meditation or breathwork.",
+    "displayText": "Mindful Meditation/Breathwork Resources",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 92,
+    "prompt": "Suggest ways to incorporate spiritual recreation like prayer, sacred text study, or ceremony.",
+    "displayText": "Spiritual Recreation Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 93,
+    "prompt": "Suggest ways to connect with nature mindfully (forest bathing, nature observation, stargazing).",
+    "displayText": "Mindful Nature Connection",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 94,
+    "prompt": "Suggest contemplative creative activities like mindful art, writing, or labyrinth walking.",
+    "displayText": "Contemplative Creative Activities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 95,
+    "prompt": "Suggest mind-body practices like Yoga, Tai Chi, or Qigong classes.",
+    "displayText": "Mind-Body Practice Classes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 96,
+    "prompt": "Suggest sensory experiences like sound baths, aromatherapy, or tea ceremonies.",
+    "displayText": "Sensory Recreation Experiences",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 97,
+    "prompt": "Suggest 'slow living' activities like slow crafts, mindful cooking, or intentional reading.",
+    "displayText": "Slow Living Activities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 98,
+    "prompt": "Suggest restorative practices like spa treatments, flotation tanks, or planning a mindful retreat.",
+    "displayText": "Restorative Practices/Retreats",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 99,
+    "prompt": "Suggest activities known to induce a state of 'flow' like flow arts, immersive creation, or deep play.",
+    "displayText": "Find Flow State Activities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 100,
+    "prompt": "Suggest ways to incorporate more unstructured play and spontaneity into recreation.",
+    "displayText": "Incorporate Playfulness/Spontaneity",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 101,
+    "prompt": "Suggest ways to balance different types of recreation (active/passive, solo/social, indoor/outdoor).",
+    "displayText": "Balance Recreational Activities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 102,
+    "prompt": "Suggest strategies for mindful consumption of media and entertainment.",
+    "displayText": "Mindful Media Consumption",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 103,
+    "prompt": "Suggest ways to integrate recreation into daily life and create a sustainable work-play balance.",
+    "displayText": "Integrate Recreation/Work-Play Balance",
+    "isTemplate": false,
+    "type": "do"
+  }
+]

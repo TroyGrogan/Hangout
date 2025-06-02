@@ -1,0 +1,97 @@
+/* Define the color palette */
+:root {
+    --primary-color: #001B2E; /* Dark Blue */
+    --secondary-color: #294C60; /* Medium Blue */
+    --background-color: #FFEFD3; /* Light Cream */
+    --text-color: #ADB6C4; /* Light Gray */
+    --accent-color: #FFC49B; /* Peach */
+    --white-color: #ffffff; /* White */
+    --shadow-color: rgba(0, 0, 0, 0.1); /* Light Shadow */
+}
+
+/* Apply the color palette */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.events-section, .registration-section {
+    padding: 30px 20px;
+}
+
+.event-card, .registration-card {
+    background-color: var(--white-color);
+    box-shadow: 0 0 10px var(--shadow-color);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.event-card h3, .registration-card h3 {
+    margin-top: 0;
+}
+
+.event-date {
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.event-description {
+    margin: 15px 0;
+    color: var(--text-color);
+}
+
+.register-button, .submit-button {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.register-button:hover, .submit-button:hover {
+    background-color: var(--accent-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.home-button {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.home-button:hover {
+    background-color: var(--accent-color);
+}

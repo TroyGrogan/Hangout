@@ -1,0 +1,287 @@
+import React, { useState, useEffect } from 'react';
+import { Calendar as BigCalendar, momentLocalizer } from 'react-big-calendar';
+import moment from 'moment';
+import axiosInstance from '../../services/axios';
+import { useAuth } from '../../contexts/AuthContext';
+import { useNavigate, Link, useLocation } from 'react-router-dom';
+import 'react-big-calendar/lib/css/react-big-calendar.css';
+import './Calendar.css';
+
+const localizer = momentLocalizer(moment);
+
+// Helper function to generate recurring event instances
+const generateRecurringEvents = (event, monthsToGenerate = 6) => {
+  if (!event.is_recurring) {
+    return [];
+  }
+
+  const recurringEvents = [];
+  const originalStart = new Date(event.start_time);
+  const originalEnd = new Date(event.end_time);
+  const dayOfWeek = originalStart.getDay(); // 0 = Sunday, 1 = Monday, etc.
+  
+  // Calculate the duration of the original event
+  const eventDuration = originalEnd.getTime() - originalStart.getTime();
+  
+  // Start from the week after the original event
+  let currentDate = new Date(originalStart);
+  currentDate.setDate(currentDate.getDate() + 7);
+  
+  // Generate recurring events for the specified number of months
+  const endDate = new Date(originalStart);
+  endDate.setMonth(endDate.getMonth() + monthsToGenerate);
+  
+  while (currentDate <= endDate) {
+    // Ensure we're on the correct day of the week
+    while (currentDate.getDay() !== dayOfWeek) {
+      currentDate.setDate(currentDate.getDate() + 1);
+    }
+    
+    if (currentDate <= endDate) {
+      const recurringStart = new Date(currentDate);
+      const recurringEnd = new Date(recurringStart.getTime() + eventDuration);
+      
+      recurringEvents.push({
+        id: `${event.id}-recurring-${recurringStart.getTime()}`,
+        title: `${event.name} (Recurring)`,
+        start: recurringStart,
+        end: recurringEnd,
+        originalEvent: {
+          ...event,
+          start_time: recurringStart.toISOString(),
+          end_time: recurringEnd.toISOString(),
+          is_recurring_instance: true,
+          original_event_id: event.id
+        }
+      });
+      
+      // Move to next week
+      currentDate.setDate(currentDate.getDate() + 7);
+    }
+  }
+  
+  return recurringEvents;
+};
+
+const Calendar = () => {
+  const { user, logout } = useAuth();
+  const navigate = useNavigate();
+  const location = useLocation();
+  const [events, setEvents] = useState([]);
+  const [myEvents, setMyEvents] = useState([]);
+  const [displayedEvents, setDisplayedEvents] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState('');
+  const [showOnlyMyEvents, setShowOnlyMyEvents] = useState(true);
+
+  // Check if the current path matches a given path for active tab styling
+  const isActive = (path) => {
+    return location.pathname === path;
+  };
+
+  // Fetch events
+  useEffect(() => {
+    fetchEvents();
+  }, []);
+
+  // Update displayed events when toggle changes
+  useEffect(() => {
+    if (showOnlyMyEvents) {
+      setDisplayedEvents(myEvents);
+    } else {
+      setDisplayedEvents(events);
+    }
+  }, [showOnlyMyEvents, events, myEvents]);
+
+  const fetchEvents = async () => {
+    setLoading(true);
+    setError('');
+    
+    try {
+      // Get all events
+      const response = await axiosInstance.get('/events/');
+      console.log('All events:', response.data);
+      
+      // Format event dates and prepare for calendar display
+      const formattedEvents = response.data.map(event => ({
+        id: event.id,
+        title: event.name,
+        start: new Date(event.start_time),
+        end: new Date(event.end_time),
+        originalEvent: event
+      }));
+
+      // Generate recurring event instances
+      const allEventsWithRecurring = [];
+      
+      formattedEvents.forEach(event => {
+        // Add the original event
+        allEventsWithRecurring.push(event);
+        
+        // Add recurring instances if the event is recurring
+        if (event.originalEvent.is_recurring) {
+          const recurringInstances = generateRecurringEvents(event.originalEvent);
+          allEventsWithRecurring.push(...recurringInstances);
+        }
+      });
+      
+      // Save all events (including recurring instances)
+      setEvents(allEventsWithRecurring);
+      
+      // For debugging
+      if (allEventsWithRecurring.length > 0) {
+        console.log('First event structure:', JSON.stringify(allEventsWithRecurring[0].originalEvent, null, 2));
+        console.log('User object:', user);
+        console.log(`Total events with recurring: ${allEventsWithRecurring.length}`);
+      }
+      
+      // Filter for user events (including recurring instances)
+      const userEvents = allEventsWithRecurring.filter(event => {
+        const original = event.originalEvent;
+        
+        // For recurring instances, check the original event permissions
+        const eventToCheck = original.is_recurring_instance ? 
+          response.data.find(e => e.id === original.original_event_id) || original : 
+          original;
+        
+        // Check if user is host
+        let isHost = false;
+        if (eventToCheck.host) {
+          // If host is an object with id
+          if (typeof eventToCheck.host === 'object' && eventToCheck.host !== null) {
+            isHost = eventToCheck.host.id === user.id || eventToCheck.host.id === user.user_id;
+          } 
+          // If host is directly the ID
+          else if (typeof eventToCheck.host === 'number' || typeof eventToCheck.host === 'string') {
+            isHost = eventToCheck.host.toString() === user.id?.toString() || 
+                    eventToCheck.host.toString() === user.user_id?.toString();
+          }
+        }
+        
+        // Check if user is attending
+        let isAttending = eventToCheck.is_user_attending === true;
+        
+        if (!isAttending && eventToCheck.attendees && Array.isArray(eventToCheck.attendees)) {
+          isAttending = eventToCheck.attendees.some(attendee => {
+            const attendeeId = attendee.user?.id || attendee.user_id || attendee.id;
+            const userId = user.id || user.user_id;
+            return attendeeId === userId && attendee.rsvp_status === 'going';
+          });
+        }
+        
+        // Debug output for each event
+        console.log(`Event ${event.id} "${event.title}": isHost=${isHost}, isAttending=${isAttending}`);
+        
+        return isHost || isAttending;
+      });
+      
+      // Log counts for debugging
+      console.log(`Total events: ${allEventsWithRecurring.length}`);
+      console.log(`My events: ${userEvents.length}`);
+      
+      // Save filtered events
+      setMyEvents(userEvents);
+      
+      // Set initial display based on toggle state
+      setDisplayedEvents(showOnlyMyEvents ? userEvents : allEventsWithRecurring);
+      
+    } catch (err) {
+      console.error('Error fetching events:', err);
+      setError('Failed to load events');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleEventClick = (event) => {
+    // For recurring instances, navigate to the original event
+    const eventId = event.originalEvent.is_recurring_instance ? 
+      event.originalEvent.original_event_id : 
+      event.id;
+    navigate(`/events/${eventId}`);
+  };
+
+  const handleToggleChange = () => {
+    const newValue = !showOnlyMyEvents;
+    console.log(`Switching to ${newValue ? 'My Events' : 'All Events'}`);
+    setShowOnlyMyEvents(newValue);
+  };
+
+  return (
+    <div className="page-container">
+      {/* Main Navigation */}
+      <nav className="main-nav">
+        <Link to="/" className="nav-brand">
+          Hangout
+        </Link>
+        <div className="nav-links">
+          <Link to="/events/create" className="nav-link">Create Event</Link>
+          <Link to="/dashboard" className="nav-link">My Events</Link>
+          <Link to="/profile" className="nav-link">Profile</Link>
+          <button onClick={logout} className="logout-btn">Logout</button>
+        </div>
+      </nav>
+
+      {/* Secondary Navigation */}
+      <div className="secondary-nav">
+        <div className="nav-links">
+          <Link to="/" className={isActive('/') ? 'active' : ''}>Home</Link>
+          <Link to="/suggester" className={isActive('/suggester') ? 'active' : ''}>Suggester</Link>
+          <Link to="/calendar" className={isActive('/calendar') ? 'active' : ''}>Calendar</Link>
+        </div>
+      </div>
+
+      <div className="calendar-container">
+        <h2 className="calendar-title">Events Calendar</h2>
+        
+        {/* Toggle switch with mode indicator */}
+        <div className="calendar-toggle">
+          <label className="toggle-switch">
+            <input 
+              type="checkbox" 
+              checked={showOnlyMyEvents} 
+              onChange={handleToggleChange}
+            />
+            <span className="toggle-slider"></span>
+          </label>
+          <span className="toggle-label">
+            {showOnlyMyEvents ? 'Showing my events only' : 'Showing all events'}
+          </span>
+        </div>
+
+        {/* Loading state */}
+        {loading && (
+          <div className="loading-message">Loading events...</div>
+        )}
+        
+        {/* Error state */}
+        {error && (
+          <div className="error-message">{error}</div>
+        )}
+        
+        {/* Empty state */}
+        {!loading && !error && displayedEvents.length === 0 && (
+          <div className="empty-message">
+            {showOnlyMyEvents 
+              ? "You don't have any events. Try creating one or RSVPing to others' events!"
+              : "No events available."}
+          </div>
+        )}
+
+        {/* Calendar */}
+        {!loading && !error && displayedEvents.length > 0 && (
+          <BigCalendar
+            localizer={localizer}
+            events={displayedEvents}
+            startAccessor="start"
+            endAccessor="end"
+            style={{ height: 600 }}
+            onSelectEvent={handleEventClick}
+          />
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default Calendar;

@@ -1,0 +1,5342 @@
+{
+  "id": 93,
+  "name": "Food, Cooking, and Nutrition",
+  "icon": "🍳",
+  "subcategories": [
+    {
+      "name": "Food Foundations",
+      "icon": "📚",
+      "subcategories": [
+        {
+          "name": "Food Groups (Nutritional Basis)",
+          "icon": "🍎",
+          "subcategories": [
+            {
+              "name": "Fruits",
+              "icon": "🍎",
+              "subcategories": [
+                {
+                  "name": "Berries",
+                  "icon": "🍓",
+                  "subcategories": [
+                    {
+                      "name": "Strawberries",
+                      "icon": "🍓",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Blueberries",
+                      "icon": "🫐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Raspberries",
+                      "icon": "🍓",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Blackberries",
+                      "icon": "🍇",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cranberries",
+                      "icon": "🍒",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Elderberries",
+                      "icon": "🫐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Goji Berries",
+                      "icon": "🫐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Acai Berries",
+                      "icon": "🫐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Currants",
+                      "icon": "🍇",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Boysenberries",
+                      "icon": "🍇",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Gooseberries",
+                      "icon": "🍇",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mulberries",
+                      "icon": "🍇",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Citrus Fruits",
+                  "icon": "🍊",
+                  "subcategories": [
+                    {
+                      "name": "Oranges",
+                      "icon": "🍊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Lemons",
+                      "icon": "🍋",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Limes",
+                      "icon": "🍈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Grapefruits",
+                      "icon": "🍊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tangerines",
+                      "icon": "🍊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mandarins",
+                      "icon": "🍊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Kumquats",
+                      "icon": "🍊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pomelos",
+                      "icon": "🍈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Clementines",
+                      "icon": "🍊",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Stone Fruits (Drupes)",
+                  "icon": "🍑",
+                  "subcategories": [
+                    {
+                      "name": "Peaches",
+                      "icon": "🍑",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Plums",
+                      "icon": "🍑",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Apricots",
+                      "icon": "🍑",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nectarines",
+                      "icon": "🍑",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cherries",
+                      "icon": "🍒",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mangoes",
+                      "icon": "🥭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Lychees",
+                      "icon": "🍇",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Olives",
+                      "icon": "🫒",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dates",
+                      "icon": "🌴",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Pome Fruits",
+                  "icon": "🍎",
+                  "subcategories": [
+                    {
+                      "name": "Apples",
+                      "icon": "🍎",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pears",
+                      "icon": "🍐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Quinces",
+                      "icon": "🍐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Crabapples",
+                      "icon": "🍎",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Medlars",
+                      "icon": "🌳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Loquats",
+                      "icon": "🌳",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Tropical and Exotic Fruits",
+                  "icon": "🌴",
+                  "subcategories": [
+                    {
+                      "name": "Bananas",
+                      "icon": "🍌",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pineapples",
+                      "icon": "🍍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Papayas",
+                      "icon": "🥭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Kiwis",
+                      "icon": "🥝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Passionfruit",
+                      "icon": "🍈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dragon Fruit",
+                      "icon": "🐉",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Guavas",
+                      "icon": "🍈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Starfruit",
+                      "icon": "⭐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Jackfruit",
+                      "icon": "🍈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Durian",
+                      "icon": "🍈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Rambutan",
+                      "icon": "🍈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Longan",
+                      "icon": "🍈",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Melons",
+                  "icon": "🍈",
+                  "subcategories": [
+                    {
+                      "name": "Watermelon",
+                      "icon": "🍉",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cantaloupe",
+                      "icon": "🍈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Honeydew",
+                      "icon": "🍈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Casaba",
+                      "icon": "🍈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Persian",
+                      "icon": "🍈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Crenshaw",
+                      "icon": "🍈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Winter Melon",
+                      "icon": "🍈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Galia",
+                      "icon": "🍈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Charentais",
+                      "icon": "🍈",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "100% Fruit Juices",
+                  "icon": "🧃",
+                  "subcategories": [
+                    {
+                      "name": "Single Fruit Juices",
+                      "icon": "🧃",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mixed Fruit Juices",
+                      "icon": "🍹",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cold-Pressed Juices",
+                      "icon": "🥤",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Dried Fruits",
+                  "icon": "🍇",
+                  "subcategories": [
+                    {
+                      "name": "Raisins",
+                      "icon": "🍇",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Prunes",
+                      "icon": "🍇",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dried Apricots",
+                      "icon": "🍑",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dried Figs",
+                      "icon": "🍇",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dried Dates",
+                      "icon": "🌴",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dried Cranberries",
+                      "icon": "🍒",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dried Mango",
+                      "icon": "🥭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dried Apple",
+                      "icon": "🍎",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dried Banana",
+                      "icon": "🍌",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Wild and Foraged Fruits",
+                  "icon": "🌳",
+                  "subcategories": [
+                    {
+                      "name": "Pawpaw",
+                      "icon": "🌳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Persimmon",
+                      "icon": "🌳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wild Berries",
+                      "icon": "🍓",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cactus Fruits",
+                      "icon": "🌵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cloudberries",
+                      "icon": "☁️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Vegetables",
+              "icon": "🥦",
+              "subcategories": [
+                {
+                  "name": "Dark-Green Vegetables",
+                  "icon": "🥬",
+                  "subcategories": [
+                    {
+                      "name": "Leafy Greens",
+                      "icon": "🥬",
+                      "subcategories": [
+                        {
+                          "name": "Lettuce",
+                          "icon": "🥬",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Spinach",
+                          "icon": "🥬",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Kale",
+                          "icon": "🥬",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Collards",
+                          "icon": "🥬",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Swiss Chard",
+                          "icon": "🥬",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Arugula",
+                          "icon": "🥬",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Watercress",
+                          "icon": "🥬",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Mustard Greens",
+                          "icon": "🥬",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Turnip Greens",
+                          "icon": "🥬",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Beet Greens",
+                          "icon": "🥬",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Cruciferous Greens",
+                      "icon": "🥦",
+                      "subcategories": [
+                        {
+                          "name": "Broccoli",
+                          "icon": "🥦",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Brussels Sprouts",
+                          "icon": "🥦",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Bok Choy",
+                          "icon": "🥬",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Chinese Cabbage",
+                          "icon": "🥬",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Herbs",
+                      "icon": "🌿",
+                      "subcategories": [
+                        {
+                          "name": "Mediterranean Herbs",
+                          "icon": "🌿",
+                          "subcategories": [
+                            {
+                              "name": "Basil",
+                              "icon": "🌿",
+                              "subcategories": [
+                                {
+                                  "name": "Sweet Basil",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Thai Basil",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Holy Basil",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Lemon Basil",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Oregano",
+                              "icon": "🌿",
+                              "subcategories": [
+                                {
+                                  "name": "Greek Oregano",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Italian Oregano",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Mexican Oregano",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Rosemary",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Thyme",
+                              "icon": "🌿",
+                              "subcategories": [
+                                {
+                                  "name": "Common Thyme",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Lemon Thyme",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Caraway Thyme",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Sage",
+                              "icon": "🌿",
+                              "subcategories": [
+                                {
+                                  "name": "Common Sage",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Pineapple Sage",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Clary Sage",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Marjoram",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Bay Leaf (Bay Laurel)",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Savory",
+                              "icon": "🌿",
+                              "subcategories": [
+                                {
+                                  "name": "Summer Savory",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Winter Savory",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Tarragon",
+                              "icon": "🌿",
+                              "subcategories": [
+                                {
+                                  "name": "French Tarragon",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Russian Tarragon",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Leafy Herbs",
+                          "icon": "🌿",
+                          "subcategories": [
+                            {
+                              "name": "Parsley",
+                              "icon": "🌿",
+                              "subcategories": [
+                                {
+                                  "name": "Flat-leaf/Italian Parsley",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Curly Parsley",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Cilantro/Coriander Leaf",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Dill",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Chervil",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Sorrel",
+                              "icon": "🌿",
+                              "subcategories": [
+                                {
+                                  "name": "French Sorrel",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Garden Sorrel",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Chives",
+                              "icon": "🌿",
+                              "subcategories": [
+                                {
+                                  "name": "Common Chives",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Garlic Chives",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Lovage",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Borage",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Purslane",
+                              "icon": "🌿",
+                              "subcategories": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Mint Family (Lamiaceae)",
+                          "icon": "🌿",
+                          "subcategories": [
+                            {
+                              "name": "Peppermint",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Spearmint",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Lemon Balm",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Lavender",
+                              "icon": "💜",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Hyssop",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Bergamot (Bee Balm)",
+                              "icon": "🌸",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Catnip",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Shiso/Perilla",
+                              "icon": "🌿",
+                              "subcategories": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Asian and Tropical Herbs",
+                          "icon": "🌿",
+                          "subcategories": [
+                            {
+                              "name": "Lemongrass",
+                              "icon": "🍋",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Curry Leaf",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Kaffir Lime Leaf",
+                              "icon": "🍈",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Vietnamese Coriander/Rau Ram",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Shiso/Perilla",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Thai Basil",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Chinese Chives",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Pandan Leaf",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Culantro/Mexican Coriander",
+                              "icon": "🌿",
+                              "subcategories": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wild and Foraged Herbs",
+                          "icon": "🌳",
+                          "subcategories": [
+                            {
+                              "name": "Dandelion Greens",
+                              "icon": "🌼",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Chickweed",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Nettle",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Lamb's Quarters",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Miner's Lettuce",
+                              "icon": "🥬",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Wild Garlic/Ramps",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Wood Sorrel",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Yarrow",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Plantain",
+                              "icon": "🌿",
+                              "subcategories": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Medicinal and Aromatic Herbs",
+                          "icon": "💊",
+                          "subcategories": [
+                            {
+                              "name": "Chamomile",
+                              "icon": "🌼",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Echinacea",
+                              "icon": "🌸",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Valerian",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "St. John's Wort",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Feverfew",
+                              "icon": "🌼",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Anise Hyssop",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Horehound",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Angelica",
+                              "icon": "🌿",
+                              "subcategories": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Flavoring Herbs",
+                          "icon": "🌿",
+                          "subcategories": [
+                            {
+                              "name": "Fennel",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Caraway",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Anise",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Fenugreek",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Epazote",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Juniper",
+                              "icon": "🌲",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Summer Savory",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Celery Leaf",
+                              "icon": "🌿",
+                              "subcategories": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Salad and Garnishing Herbs",
+                          "icon": "🥗",
+                          "subcategories": [
+                            {
+                              "name": "Nasturtium",
+                              "icon": "🌸",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Chrysanthemum Greens",
+                              "icon": "🌼",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Salad Burnet",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Chervil",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Bronze Fennel",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Minutina",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Good King Henry",
+                              "icon": "🌿",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Mache/Corn Salad",
+                              "icon": "🥬",
+                              "subcategories": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Red and Orange Vegetables",
+                  "icon": "🥕",
+                  "subcategories": [
+                    {
+                      "name": "Root Vegetables",
+                      "icon": "🥕",
+                      "subcategories": [
+                        {
+                          "name": "Carrots",
+                          "icon": "🥕",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Sweet Potatoes",
+                          "icon": "🍠",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Red Yams",
+                          "icon": "🍠",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Nightshades",
+                      "icon": "🍅",
+                      "subcategories": [
+                        {
+                          "name": "Tomatoes",
+                          "icon": "🍅",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Red Peppers",
+                          "icon": "🌶️",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Squash",
+                      "icon": "🎃",
+                      "subcategories": [
+                        {
+                          "name": "Butternut Squash",
+                          "icon": "🎃",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Pumpkin",
+                          "icon": "🎃",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Others",
+                      "icon": "❓",
+                      "subcategories": [
+                        {
+                          "name": "Red Cabbage",
+                          "icon": "🥬",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Red Onions",
+                          "icon": "🧅",
+                          "subcategories": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Starchy Vegetables",
+                  "icon": "🥔",
+                  "subcategories": [
+                    {
+                      "name": "Tubers",
+                      "icon": "🥔",
+                      "subcategories": [
+                        {
+                          "name": "Potatoes",
+                          "icon": "🥔",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Yams",
+                          "icon": "🍠",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Cassava/Manioc",
+                          "icon": "🍠",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Taro",
+                          "icon": "🍠",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Yucca",
+                          "icon": "🍠",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Jicama",
+                          "icon": "🍠",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Corn and Grains",
+                      "icon": "🌽",
+                      "subcategories": [
+                        {
+                          "name": "Sweet Corn",
+                          "icon": "🌽",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Hominy",
+                          "icon": "🌽",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Winter Squash",
+                      "icon": "🎃",
+                      "subcategories": [
+                        {
+                          "name": "Acorn Squash",
+                          "icon": "🎃",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Buttercup Squash",
+                          "icon": "🎃",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Plantains and Green Bananas",
+                      "icon": "🍌",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Beans, Peas, and Lentils (Legumes)",
+                  "icon": "🫘",
+                  "subcategories": [
+                    {
+                      "name": "Beans",
+                      "icon": "🫘",
+                      "subcategories": [
+                        {
+                          "name": "Black Beans",
+                          "icon": "🫘",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Kidney Beans",
+                          "icon": "🫘",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Pinto Beans",
+                          "icon": "🫘",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Navy Beans",
+                          "icon": "🫘",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Lima Beans",
+                          "icon": "🫘",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Soybeans",
+                          "icon": "🫘",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Edamame",
+                          "icon": "🫛",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Black-eyed Peas",
+                          "icon": "🫘",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Peas",
+                      "icon": "🫛",
+                      "subcategories": [
+                        {
+                          "name": "Green Peas",
+                          "icon": "🫛",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Snow Peas",
+                          "icon": "🫛",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Snap Peas",
+                          "icon": "🫛",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Split Peas",
+                          "icon": "🫛",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Pigeon Peas",
+                          "icon": "🫛",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Lentils",
+                      "icon": "🫘",
+                      "subcategories": [
+                        {
+                          "name": "Brown Lentils",
+                          "icon": "🟤",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Red Lentils",
+                          "icon": "🔴",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Green Lentils",
+                          "icon": "🟢",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Black Lentils",
+                          "icon": "⚫",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Yellow Lentils",
+                          "icon": "🟡",
+                          "subcategories": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Allium Vegetables",
+                  "icon": "🧅",
+                  "subcategories": [
+                    {
+                      "name": "Onions",
+                      "icon": "🧅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Garlic",
+                      "icon": "🧄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Shallots",
+                      "icon": "🧅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Leeks",
+                      "icon": "🧅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Scallions",
+                      "icon": "🧅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Chives",
+                      "icon": "🌿",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Cruciferous Vegetables (non-leafy)",
+                  "icon": "🥦",
+                  "subcategories": [
+                    {
+                      "name": "Cauliflower",
+                      "icon": "🥦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cabbage",
+                      "icon": "🥬",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Radishes",
+                      "icon": "🍠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Turnips",
+                      "icon": "🍠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Rutabaga",
+                      "icon": "🍠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Kohlrabi",
+                      "icon": "🥦",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Stem Vegetables",
+                  "icon": "🌿",
+                  "subcategories": [
+                    {
+                      "name": "Celery",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Asparagus",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Rhubarb",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fennel",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bamboo Shoots",
+                      "icon": "🎋",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Gourds and Squashes (non-starchy)",
+                  "icon": "🥒",
+                  "subcategories": [
+                    {
+                      "name": "Zucchini",
+                      "icon": "🥒",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Yellow Squash",
+                      "icon": "🟡",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Patty Pan",
+                      "icon": "⚪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cucumber",
+                      "icon": "🥒",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bitter Melon",
+                      "icon": "🍈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Chayote",
+                      "icon": "🍈",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Nightshade Vegetables (non-red)",
+                  "icon": "🍆",
+                  "subcategories": [
+                    {
+                      "name": "Eggplant",
+                      "icon": "🍆",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Green Peppers",
+                      "icon": "🫑",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Yellow Peppers",
+                      "icon": "🟡",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Sea Vegetables",
+                  "icon": "🌊",
+                  "subcategories": [
+                    {
+                      "name": "Seaweed",
+                      "icon": "🌊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Kelp",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nori",
+                      "icon": "🍙",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dulse",
+                      "icon": "🌊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wakame",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Kombu",
+                      "icon": "🌿",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Sprouts and Shoots",
+                  "icon": "🌱",
+                  "subcategories": [
+                    {
+                      "name": "Bean Sprouts",
+                      "icon": "🌱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Alfalfa Sprouts",
+                      "icon": "🌱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sunflower Shoots",
+                      "icon": "🌻",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pea Shoots",
+                      "icon": "🌱",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Grains",
+              "icon": "🌾",
+              "subcategories": [
+                {
+                  "name": "Whole Grains",
+                  "icon": "🌾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Refined Grains",
+                  "icon": "🍚",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Protein Foods",
+              "icon": "🥩",
+              "subcategories": [
+                {
+                  "name": "Beef",
+                  "icon": "🐄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pork",
+                  "icon": "🐖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lamb",
+                  "icon": "🐑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Goat",
+                  "icon": "🐐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Game",
+                  "icon": "🦌",
+                  "subcategories": [
+                    {
+                      "name": "Venison (Deer)",
+                      "icon": "🦌",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bison",
+                      "icon": "🐃",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Elk",
+                      "icon": "🦌",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wild Boar",
+                      "icon": "🐗",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Rabbit",
+                      "icon": "🐇",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pheasant",
+                      "icon": "🐦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Grouse",
+                      "icon": "🐦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wild Duck",
+                      "icon": "🦆",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Poultry",
+                  "icon": "🍗",
+                  "subcategories": [
+                    {
+                      "name": "Chicken",
+                      "icon": "🐔",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Turkey",
+                      "icon": "🦃",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Duck",
+                      "icon": "🦆",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Goose",
+                      "icon": "🦢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Quail",
+                      "icon": "🐦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pigeon/Squab",
+                      "icon": "🕊️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Guinea Fowl",
+                      "icon": "🐔",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ostrich",
+                      "icon": "🐦",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Seafood",
+                  "icon": "🐟",
+                  "subcategories": [
+                    {
+                      "name": "Finfish",
+                      "icon": "🐠",
+                      "subcategories": [
+                        {
+                          "name": "Salmon",
+                          "icon": "🐠",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Tuna",
+                          "icon": "🐟",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Cod",
+                          "icon": "🐡",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Flounder",
+                          "icon": "🐠",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Halibut",
+                          "icon": "🎣",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Shark",
+                          "icon": "🦈",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Eel",
+                          "icon": "🐍",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Shellfish",
+                      "icon": "🦐",
+                      "subcategories": [
+                        {
+                          "name": "Crustaceans",
+                          "icon": "🦀",
+                          "subcategories": [
+                            {
+                              "name": "Shrimp",
+                              "icon": "🍤",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Crawfish",
+                              "icon": "🦞",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Crab",
+                              "icon": "🦀",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Lobster",
+                              "icon": "🦞",
+                              "subcategories": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Mollusks",
+                          "icon": "🐚",
+                          "subcategories": [
+                            {
+                              "name": "Oysters",
+                              "icon": "🦪",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Clams",
+                              "icon": "🐚",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Squid",
+                              "icon": "🦑",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Octopus",
+                              "icon": "🐙",
+                              "subcategories": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Dairy",
+                  "icon": "🥛",
+                  "subcategories": []
+                },
+                {
+                  "name": "Eggs",
+                  "icon": "🍳",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Fungi",
+              "icon": "🍄",
+              "subcategories": [
+                {
+                  "name": "Button Mushrooms",
+                  "icon": "🍄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shiitake",
+                  "icon": "🍄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Portobello",
+                  "icon": "🍄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Oyster Mushrooms",
+                  "icon": "🍄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Enoki",
+                  "icon": "🍄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Chanterelles",
+                  "icon": "🍄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Morels",
+                  "icon": "🍄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Porcini",
+                  "icon": "🍄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Truffles",
+                  "icon": "💎",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Global Culinary Landscape",
+      "icon": "🌍",
+      "subcategories": [
+        {
+          "name": "Cuisines by Continent/Region",
+          "icon": "🗺️",
+          "subcategories": [
+            {
+              "name": "African Cuisine",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "North African Cuisine",
+                  "icon": "🇲🇦",
+                  "subcategories": []
+                },
+                {
+                  "name": "West African Cuisine",
+                  "icon": "🇬🇭",
+                  "subcategories": []
+                },
+                {
+                  "name": "East African Cuisine",
+                  "icon": "🇪🇹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Central African Cuisine",
+                  "icon": "🇨🇩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Southern African Cuisine",
+                  "icon": "🇿🇦",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Asian Cuisine",
+              "icon": "🌏",
+              "subcategories": [
+                {
+                  "name": "East Asian Cuisine",
+                  "icon": "🌏",
+                  "subcategories": [
+                    {
+                      "name": "Chinese Cuisine",
+                      "icon": "🇨🇳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cantonese Cuisine",
+                      "icon": "🇭🇰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sichuan Cuisine",
+                      "icon": "🌶️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Hunan Cuisine",
+                      "icon": "🌶️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Japanese Cuisine",
+                      "icon": "🇯🇵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Korean Cuisine",
+                      "icon": "🇰🇷",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mongolian Cuisine",
+                      "icon": "🇲🇳",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Southeast Asian Cuisine",
+                  "icon": "🌏",
+                  "subcategories": [
+                    {
+                      "name": "Thai Cuisine",
+                      "icon": "🇹🇭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Vietnamese Cuisine",
+                      "icon": "🇻🇳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Filipino Cuisine",
+                      "icon": "🇵🇭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Indonesian Cuisine",
+                      "icon": "🇮🇩",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Malaysian Cuisine",
+                      "icon": "🇲🇾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Singaporean Cuisine",
+                      "icon": "🇸🇬",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Brunei Cuisine",
+                      "icon": "🇧🇳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cambodian Cuisine",
+                      "icon": "🇰🇭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Laotian Cuisine",
+                      "icon": "🇱🇦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Myanmar (Burmese) Cuisine",
+                      "icon": "🇲🇲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "East Timorese Cuisine",
+                      "icon": "🇹🇱",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "South Asian Cuisine",
+                  "icon": "🌏",
+                  "subcategories": [
+                    {
+                      "name": "Indian Cuisine",
+                      "icon": "🇮🇳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pakistani Cuisine",
+                      "icon": "🇵🇰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bangladeshi Cuisine",
+                      "icon": "🇧🇩",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nepali Cuisine",
+                      "icon": "🇳🇵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sri Lankan Cuisine",
+                      "icon": "🇱🇰",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Central Asian Cuisine",
+                  "icon": "🌏",
+                  "subcategories": [
+                    {
+                      "name": "Uzbekistani Cuisine",
+                      "icon": "🇺🇿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Kazakhstani Cuisine",
+                      "icon": "🇰🇿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Kyrgyzstani Cuisine",
+                      "icon": "🇰🇬",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Turkmenistani Cuisine",
+                      "icon": "🇹🇲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tajikistani Cuisine",
+                      "icon": "🇹🇯",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "West Asian or Middle Eastern Cuisine",
+                  "icon": "🌏",
+                  "subcategories": [
+                    {
+                      "name": "Turkish Cuisine",
+                      "icon": "🇹🇷",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Lebanese Cuisine",
+                      "icon": "🇱🇧",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Persian Cuisine",
+                      "icon": "🇮🇷",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Israeli Cuisine",
+                      "icon": "🇮🇱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Moroccan Cuisine",
+                      "icon": "🇲🇦",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "European Cuisine",
+              "icon": "🇪🇺",
+              "subcategories": [
+                {
+                  "name": "Southern European Cuisine",
+                  "icon": "🇪🇺",
+                  "subcategories": [
+                    {
+                      "name": "Italian Cuisine",
+                      "icon": "🇮🇹",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Spanish Cuisine",
+                      "icon": "🇪🇸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Greek Cuisine",
+                      "icon": "🇬🇷",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Western European Cuisine",
+                  "icon": "🇪🇺",
+                  "subcategories": [
+                    {
+                      "name": "French Cuisine",
+                      "icon": "🇫🇷",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "German Cuisine",
+                      "icon": "🇩🇪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "British Cuisine",
+                      "icon": "🇬🇧",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Eastern European Cuisine",
+                  "icon": "🇪🇺",
+                  "subcategories": [
+                    {
+                      "name": "Polish Cuisine",
+                      "icon": "🇵🇱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Russian Cuisine",
+                      "icon": "🇷🇺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ukrainian Cuisine",
+                      "icon": "🇺🇦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nordic or Scandinavian Cuisine",
+                      "icon": "🇸🇪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Swedish Cuisine",
+                      "icon": "🇸🇪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Norwegian Cuisine",
+                      "icon": "🇳🇴",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Danish Cuisine",
+                      "icon": "🇩🇰",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Cuisine of the Americas",
+              "icon": "🌎",
+              "subcategories": [
+                {
+                  "name": "North American Cuisine",
+                  "icon": "🌎",
+                  "subcategories": [
+                    {
+                      "name": "United States Cuisine",
+                      "icon": "🇺🇸",
+                      "subcategories": [
+                        {
+                          "name": "American Classics",
+                          "icon": "🍔",
+                          "subcategories": [
+                            {
+                              "name": "Burgers",
+                              "icon": "🍔",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Hot Dogs",
+                              "icon": "🌭",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Pizza (American-Style)",
+                              "icon": "🍕",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Ice Cream Sundaes",
+                              "icon": "🍦",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Milkshakes",
+                              "icon": "🥤",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "French Fries",
+                              "icon": "🍟",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Diner Sandwiches",
+                              "icon": "🥪",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Apple Pie",
+                              "icon": "🥧",
+                              "subcategories": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Southern Cuisine",
+                          "icon": "🍑",
+                          "subcategories": [
+                            {
+                              "name": "Barbecue",
+                              "icon": "🔥",
+                              "subcategories": [
+                                {
+                                  "name": "Pulled Pork",
+                                  "icon": "🐖",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Beef Brisket",
+                                  "icon": "🐄",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Ribs",
+                                  "icon": "🍖",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Smoked Chicken",
+                                  "icon": "🍗",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Regional Sauces",
+                                  "icon": "🥫",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Dry Rubs",
+                                  "icon": "🌶️",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Classic Sides",
+                                  "icon": "🌽",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Cobbler Desserts",
+                                  "icon": "🥧",
+                                  "subcategories": []
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Soul Food",
+                              "icon": "🥘",
+                              "subcategories": [
+                                {
+                                  "name": "Fried Chicken",
+                                  "icon": "🍗",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Collard Greens",
+                                  "icon": "🥬",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Cornbread",
+                                  "icon": "🌽",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Candied Yams",
+                                  "icon": "🥔",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Hushpuppies",
+                                  "icon": "🧆",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Gumbo",
+                                  "icon": "🥣",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Hoppin' John",
+                                  "icon": "🍲",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Sweet Potato Pie",
+                                  "icon": "🥧",
+                                  "subcategories": []
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Cajun",
+                              "icon": "🦐",
+                              "subcategories": [
+                                {
+                                  "name": "Crawfish Boil",
+                                  "icon": "🦐",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Jambalaya",
+                                  "icon": "🍚",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Étouffée",
+                                  "icon": "🥣",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Blackened Dishes",
+                                  "icon": "🌶️",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Gumbo",
+                                  "icon": "🍲",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Dirty Rice",
+                                  "icon": "🥘",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Herb Seasonings",
+                                  "icon": "🌿",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Po' Boy Sandwiches",
+                                  "icon": "🥖",
+                                  "subcategories": []
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Creole",
+                              "icon": "🦞",
+                              "subcategories": [
+                                {
+                                  "name": "Shrimp Creole",
+                                  "icon": "🦞",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Creole Sauce",
+                                  "icon": "🍅",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Crab Dishes",
+                                  "icon": "🦀",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Red Beans & Rice",
+                                  "icon": "🍚",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Jambalaya",
+                                  "icon": "🥘",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Holy Trinity Base",
+                                  "icon": "🧅",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Seafood Gumbo",
+                                  "icon": "🥣",
+                                  "subcategories": []
+                                },
+                                {
+                                  "name": "Beignets",
+                                  "icon": "🥞",
+                                  "subcategories": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "New England Cuisine",
+                          "icon": "🦞",
+                          "subcategories": [
+                            {
+                              "name": "Lobster Dishes",
+                              "icon": "🦞",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Clam Chowder",
+                              "icon": "🐚",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Boston Baked Beans",
+                              "icon": "🥣",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Brown Bread",
+                              "icon": "🍞",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Fruit Pies",
+                              "icon": "🥧",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Maple Syrup Treats",
+                              "icon": "🍁",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Atlantic Seafood",
+                              "icon": "🐟",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Ice Cream",
+                              "icon": "🍨",
+                              "subcategories": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Midwestern Cuisine",
+                          "icon": "🌽",
+                          "subcategories": [
+                            {
+                              "name": "Corn Dishes",
+                              "icon": "🌽",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Cheese Specialties",
+                              "icon": "🧀",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Beef & Pork",
+                              "icon": "🥩",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Potato Casseroles",
+                              "icon": "🥔",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Fruit & Cream Pies",
+                              "icon": "🥧",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Hotdish",
+                              "icon": "🍲",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Comfort Foods",
+                              "icon": "🍯",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "German & Scandinavian Heritage",
+                              "icon": "🌾",
+                              "subcategories": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Southwestern Cuisine",
+                          "icon": "🌶️",
+                          "subcategories": [
+                            {
+                              "name": "Tex-Mex",
+                              "icon": "🌮",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "New Mexican Fare",
+                              "icon": "🌯",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Arizona-Sonoran Dishes",
+                              "icon": "🌵",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Green Chile Specialties",
+                              "icon": "🔥",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Native American Influences",
+                              "icon": "🌽",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Navajo Tacos",
+                              "icon": "🥙",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "California-Mexican Fusion",
+                              "icon": "🌴",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Ranch-Style Cooking",
+                              "icon": "🍲",
+                              "subcategories": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Pacific Northwest Cuisine",
+                          "icon": "🌲",
+                          "subcategories": [
+                            {
+                              "name": "California Cuisine",
+                              "icon": "🥑",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Oregon Cuisine",
+                              "icon": "🌲",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Washington Cuisine",
+                              "icon": "🌲",
+                              "subcategories": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Mid-Atlantic Cuisine",
+                          "icon": "🦀",
+                          "subcategories": [
+                            {
+                              "name": "Chesapeake Bay Seafood",
+                              "icon": "🦀",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "New York Deli",
+                              "icon": "🥯",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Philadelphia Fare",
+                              "icon": "🧀",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Italian-American",
+                              "icon": "🍝",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Regional Soups & Stews",
+                              "icon": "🥣",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Submarine Sandwiches",
+                              "icon": "🥪",
+                              "subcategories": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Hawaiian Cuisine",
+                          "icon": "🍍",
+                          "subcategories": [
+                            {
+                              "name": "Poke",
+                              "icon": "🐟",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Kalua Pork",
+                              "icon": "🐖",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Luau Foods",
+                              "icon": "🌴",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Spam Musubi",
+                              "icon": "🍙",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Plate Lunch",
+                              "icon": "🍛",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Tropical Treats",
+                              "icon": "🥥",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Polynesian Fusion",
+                              "icon": "🌺",
+                              "subcategories": []
+                            },
+                            {
+                              "name": "Hawaiian Breads",
+                              "icon": "🍞",
+                              "subcategories": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Canada Cuisine",
+                      "icon": "🇨🇦",
+                      "subcategories": [
+                        {
+                          "name": "Atlantic Canada Cuisine",
+                          "icon": "🦞",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Quebec Cuisine",
+                          "icon": "⚜️",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Ontario Cuisine",
+                          "icon": "🍁",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Prairie Provinces Cuisine",
+                          "icon": "🌾",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "British Columbia Cuisine",
+                          "icon": "🏔️",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Northern Canada Cuisine",
+                          "icon": "🐻",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Mexico Cuisine",
+                      "icon": "🇲🇽",
+                      "subcategories": [
+                        {
+                          "name": "Northern Mexico Cuisine",
+                          "icon": "🌮",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "North Pacific Coast Cuisine",
+                          "icon": "🌮",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Bajio Cuisine",
+                          "icon": "🌮",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Central Mexico Cuisine",
+                          "icon": "🌮",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "South Pacific Coast Cuisine",
+                          "icon": "🌮",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Gulf Cuisine",
+                          "icon": "🌮",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Yucatán Peninsula Cuisine",
+                          "icon": "🌮",
+                          "subcategories": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Central American Cuisine",
+                  "icon": "🌎",
+                  "subcategories": [
+                    {
+                      "name": "Belize Cuisine",
+                      "icon": "🇧🇿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Costa Rica Cuisine",
+                      "icon": "🇨🇷",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "El Salvador Cuisine",
+                      "icon": "🇸🇻",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Guatemala Cuisine",
+                      "icon": "🇬🇹",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Honduras Cuisine",
+                      "icon": "🇭🇳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nicaragua Cuisine",
+                      "icon": "🇳🇮",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Panama Cuisine",
+                      "icon": "🇵🇦",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "South American Cuisine",
+                  "icon": "🌎",
+                  "subcategories": [
+                    {
+                      "name": "Brazilian Cuisine",
+                      "icon": "🇧🇷",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Argentine Cuisine",
+                      "icon": "🇦🇷",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Peruvian Cuisine",
+                      "icon": "🇵🇪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Colombian Cuisine",
+                      "icon": "🇨🇴",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Chilean Cuisine",
+                      "icon": "🇨🇱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Venezuelan Cuisine",
+                      "icon": "🇻🇪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ecuadorian Cuisine",
+                      "icon": "🇪🇨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bolivian Cuisine",
+                      "icon": "🇧🇴",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Paraguayan Cuisine",
+                      "icon": "🇵🇾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Uruguayan Cuisine",
+                      "icon": "🇺🇾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Guyanese Cuisine",
+                      "icon": "🇬🇾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Surinamese Cuisine",
+                      "icon": "🇸🇷",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Caribbean Cuisine",
+                  "icon": "🏝️",
+                  "subcategories": [
+                    {
+                      "name": "Jamaican Cuisine",
+                      "icon": "🇯🇲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cuban Cuisine",
+                      "icon": "🇨🇺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Puerto Rican Cuisine",
+                      "icon": "🇵🇷",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dominican Republic Cuisine",
+                      "icon": "🇩🇴",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Haitian Cuisine",
+                      "icon": "🇭🇹",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Trinidadian and Tobagonian Cuisine",
+                      "icon": "🇹🇹",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Anguilla Cuisine",
+                      "icon": "🇦🇮",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Aruba Cuisine",
+                      "icon": "🇦🇼",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bermuda Cuisine",
+                      "icon": "🇧🇲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bonaire Cuisine",
+                      "icon": "🇧🇶",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Oceanian Cuisine",
+              "icon": "🌊",
+              "subcategories": [
+                {
+                  "name": "Australian Cuisine",
+                  "icon": "🇦🇺",
+                  "subcategories": []
+                },
+                {
+                  "name": "New Zealander Cuisine",
+                  "icon": "🇳🇿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pacific Islander Cuisine",
+                  "icon": "🏝️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Diaspora and Cultural Heritage Cuisines",
+          "icon": "🤝",
+          "subcategories": [
+            {
+              "name": "Jewish Cuisine",
+              "icon": "✡️",
+              "subcategories": [
+                {
+                  "name": "Ashkenazi Cuisine",
+                  "icon": "🕎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sephardic Cuisine",
+                  "icon": "🕌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mizrahi Cuisine",
+                  "icon": "🕍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Contemporary Jewish Cuisine",
+                  "icon": "✡️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Roma Cuisine",
+              "icon": "🇷🇴",
+              "subcategories": []
+            },
+            {
+              "name": "Diasporic Cuisines",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Chinese Diaspora Cuisine",
+                  "icon": "🇨🇳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indian Diaspora Cuisine",
+                  "icon": "🇮🇳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Italian Diaspora Cuisine",
+                  "icon": "🇮🇹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lebanese Diaspora Cuisine",
+                  "icon": "🇱🇧",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Religious and Cultural Traditional Cuisines",
+              "icon": "🛐",
+              "subcategories": [
+                {
+                  "name": "Islamic/Halal Cuisine",
+                  "icon": "☪️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hindu/Vegetarian Cuisine",
+                  "icon": "🕉️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Buddhist Cuisine",
+                  "icon": "☸️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Christian Orthodox Cuisine",
+                  "icon": "✝️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Indigenous and First Nations Cuisines",
+              "icon": "🏹",
+              "subcategories": [
+                {
+                  "name": "Native American Cuisine",
+                  "icon": "🏹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Aboriginal Australian Cuisine",
+                  "icon": "🐨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sámi Cuisine",
+                  "icon": "🦌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Maori Cuisine",
+                  "icon": "🥝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Amazonian Indigenous Cuisine",
+                  "icon": "🌴",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Fusion and Multicultural Cuisines",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Creole Cuisine",
+                  "icon": "🦞",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cajun Cuisine",
+                  "icon": "🦐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Peranakan Cuisine",
+                  "icon": "🥢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indo-Chinese Cuisine",
+                  "icon": "🇮🇳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tex-Mex Cuisine",
+                  "icon": "🌮",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Historical Heritage Cuisines",
+              "icon": "📜",
+              "subcategories": [
+                {
+                  "name": "Ancient Culinary Traditions",
+                  "icon": "🏛️",
+                  "subcategories": [
+                    {
+                      "name": "Ancient Mesopotamian Cuisine",
+                      "icon": "🏛️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ancient Egyptian Cuisine",
+                      "icon": "🏺",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Medieval European Cuisine",
+                  "icon": "🏰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Imperial Court Cuisine",
+                  "icon": "👑",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Art of Cooking",
+      "icon": "🍳",
+      "subcategories": [
+        {
+          "name": "Cooking Methods",
+          "icon": "🔥",
+          "subcategories": [
+            {
+              "name": "Dry Heat Methods",
+              "icon": "🔥",
+              "subcategories": [
+                {
+                  "name": "Baking",
+                  "icon": "🍞",
+                  "subcategories": [
+                    {
+                      "name": "Bread Making",
+                      "icon": "🥖",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sourdough",
+                      "icon": "🍞",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Artisan Breads",
+                      "icon": "🥖",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Quick Breads",
+                      "icon": "🧁",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Flatbreads",
+                      "icon": "🫓",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pastry",
+                      "icon": "🥐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "French Pastry",
+                      "icon": "🇫🇷",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pies & Tarts",
+                      "icon": "🥧",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cookies & Bars",
+                      "icon": "🍪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Laminated Doughs",
+                      "icon": "🥐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cake Decorating",
+                      "icon": "🎂",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fondant Work",
+                      "icon": "🎂",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Buttercream Techniques",
+                      "icon": "🎂",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wedding Cakes",
+                      "icon": "💍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Chocolate Work",
+                      "icon": "🍫",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Gluten-Free Baking",
+                      "icon": "🌾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Vegan Baking",
+                      "icon": "🌱",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Roasting",
+                  "icon": "🔥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Grilling",
+                  "icon": "🔥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Broiling",
+                  "icon": "🔥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Smoking & Curing",
+                  "icon": "💨",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Moist Heat Methods",
+              "icon": "💧",
+              "subcategories": [
+                {
+                  "name": "Boiling",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Simmering",
+                  "icon": "🥣",
+                  "subcategories": []
+                },
+                {
+                  "name": "Steaming",
+                  "icon": "💨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Poaching",
+                  "icon": "🥚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Braising",
+                  "icon": "🥘",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sous Vide Cooking",
+                  "icon": "🌡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pressure Cooking",
+                  "icon": "⏱️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Frying",
+              "icon": "🍳",
+              "subcategories": [
+                {
+                  "name": "Shallow Frying",
+                  "icon": "🍳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Deep Frying",
+                  "icon": "🍟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sautéing",
+                  "icon": "🍳",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Combination Methods",
+              "icon": "🍳",
+              "subcategories": [
+                {
+                  "name": "Stir-Frying",
+                  "icon": "🫕",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stewing",
+                  "icon": "🥣",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Culinary Techniques",
+          "icon": "🔪",
+          "subcategories": [
+            {
+              "name": "Knife Skills",
+              "icon": "🔪",
+              "subcategories": []
+            },
+            {
+              "name": "Sauces & Emulsions",
+              "icon": "🥣",
+              "subcategories": []
+            },
+            {
+              "name": "Fermentation",
+              "icon": "🦠",
+              "subcategories": []
+            },
+            {
+              "name": "Pastry Arts",
+              "icon": "🍰",
+              "subcategories": []
+            },
+            {
+              "name": "Charcuterie",
+              "icon": "🥓",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Specialized Cooking",
+          "icon": "🍽️",
+          "subcategories": [
+            {
+              "name": "Vegan Cooking",
+              "icon": "🌱",
+              "subcategories": []
+            },
+            {
+              "name": "Vegetarian Cooking",
+              "icon": "🥦",
+              "subcategories": []
+            },
+            {
+              "name": "Gluten-Free Cooking",
+              "icon": "🌾",
+              "subcategories": []
+            },
+            {
+              "name": "Dairy-Free Cooking",
+              "icon": "🥛",
+              "subcategories": []
+            },
+            {
+              "name": "Nut-Free Cooking",
+              "icon": "🥜",
+              "subcategories": []
+            },
+            {
+              "name": "Low-Sodium Cooking",
+              "icon": "🧂",
+              "subcategories": []
+            },
+            {
+              "name": "Diabetic-Friendly Cooking",
+              "icon": "🩸",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nutrition and Dietary Approaches",
+      "icon": "📊",
+      "subcategories": [
+        {
+          "name": "Macronutrients",
+          "icon": "🧬",
+          "subcategories": [
+            {
+              "name": "Carbohydrates",
+              "icon": "🍞",
+              "subcategories": [
+                {
+                  "name": "Simple Carbs (Sugars)",
+                  "icon": "🍬🍭",
+                  "subcategories": [
+                    {
+                      "name": "Monosaccharides (e.g., Glucose, Fructose)",
+                      "icon": "💧🍬",
+                      "subcategories": [
+                        {
+                          "name": "Glucose (Blood Sugar)",
+                          "icon": "🩸🍬",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Fructose (Fruit Sugar)",
+                          "icon": "🍎🍬",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Galactose (Part of Milk Sugar)",
+                          "icon": "🥛🍬",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Disaccharides (e.g., Sucrose, Lactose)",
+                      "icon": "💧💧🍬",
+                      "subcategories": [
+                        {
+                          "name": "Sucrose (Table Sugar: Glucose + Fructose)",
+                          "icon": "🧂🍬",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Lactose (Milk Sugar: Glucose + Galactose)",
+                          "icon": "🥛🍬",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Maltose (Malt Sugar: Glucose + Glucose)",
+                          "icon": "🌾🍬",
+                          "subcategories": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Complex Carbs (Starches)",
+                  "icon": "🌾🥔",
+                  "subcategories": [
+                    {
+                      "name": "Whole Grains (e.g., Oats, Quinoa, Brown Rice)",
+                      "icon": "🌾🍞",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Legumes & Starchy Vegetables (e.g., Beans, Potatoes, Corn)",
+                      "icon": "🫘🥔",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Refined Starches (e.g., White Bread, Pasta)",
+                      "icon": "🍚🥖",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Glycemic Index/Load",
+                  "icon": "⚡️⚡️",
+                  "subcategories": [
+                    {
+                      "name": "High GI/GL Foods",
+                      "icon": "⬆️📈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Medium GI/GL Foods",
+                      "icon": "↔️📈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Low GI/GL Foods",
+                      "icon": "⬇️📈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Using GI/GL for Health",
+                      "icon": "🍽️📊",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Proteins",
+              "icon": "💪",
+              "subcategories": [
+                {
+                  "name": "Complete Proteins (All Essential Amino Acids)",
+                  "icon": "✅💪",
+                  "subcategories": [
+                    {
+                      "name": "Meat & Poultry",
+                      "icon": "🥩🍖",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fish",
+                      "icon": "🐟🐠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Eggs & Dairy",
+                      "icon": "🥚🥛",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Soy Products (Tofu, Tempeh)",
+                      "icon": "🌱🥢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Quinoa & Buckwheat",
+                      "icon": "🌾🌰",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Incomplete Proteins (Missing some Essential Amino Acids)",
+                  "icon": "❌💪",
+                  "subcategories": [
+                    {
+                      "name": "Beans & Lentils",
+                      "icon": "🫘🥫",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nuts & Seeds",
+                      "icon": "🥜🌰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Grains (Most)",
+                      "icon": "🍚🍞",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Essential Amino Acids (From Diet)",
+                  "icon": "✨🧬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Non-Essential Amino Acids (Body Can Produce)",
+                  "icon": "🔄🧬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Protein Functions (e.g., Tissue Building, Enzymes)",
+                  "icon": "🏗️💪",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Fats",
+              "icon": "🥑",
+              "subcategories": [
+                {
+                  "name": "Saturated Fats",
+                  "icon": "🧈",
+                  "subcategories": [
+                    {
+                      "name": "Red Meat Fat",
+                      "icon": "🥩🥓",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Butter, Cheese & Lard",
+                      "icon": "🧈🥛",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Coconut & Palm Oil",
+                      "icon": "🥥🌴",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Unsaturated Fats",
+                  "icon": "🥑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Monounsaturated",
+                  "icon": "🥑",
+                  "subcategories": [
+                    {
+                      "name": "Olive Oil & Canola Oil",
+                      "icon": "🫒🏺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Avocado",
+                      "icon": "🥑🥑",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nuts (Almonds, Cashews, Pecans)",
+                      "icon": "🥜🌰",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Polyunsaturated",
+                  "icon": "🥑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Omega-3",
+                  "icon": "🐟",
+                  "subcategories": [
+                    {
+                      "name": "Fatty Fish (Salmon, Mackerel, Sardines)",
+                      "icon": "🐟🎣",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Flaxseeds & Chia Seeds",
+                      "icon": "🌱🌰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Walnuts",
+                      "icon": "🌰🥜",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Omega-6",
+                  "icon": "🌰",
+                  "subcategories": [
+                    {
+                      "name": "Seed Oils (Sunflower, Corn, Soybean)",
+                      "icon": "🌻🌽",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Walnuts & Other Seeds",
+                      "icon": "🌰🥜",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Micronutrients",
+          "icon": "💊",
+          "subcategories": [
+            {
+              "name": "Vitamins",
+              "icon": "💊",
+              "subcategories": [
+                {
+                  "name": "Fat-Soluble Vitamins",
+                  "icon": "☀️",
+                  "subcategories": [
+                    {
+                      "name": "Vitamin A (Retinol)",
+                      "icon": "🥕",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Vitamin D (Calciferol)",
+                      "icon": "☀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Vitamin E (Tocopherol)",
+                      "icon": "🌰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Vitamin K (Phylloquinone, Menaquinone)",
+                      "icon": "🥬",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Water-Soluble Vitamins",
+                  "icon": "💧",
+                  "subcategories": [
+                    {
+                      "name": "B Vitamins",
+                      "icon": "🅱️",
+                      "subcategories": [
+                        {
+                          "name": "B1 (Thiamine)",
+                          "icon": "🅱️",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "B2 (Riboflavin)",
+                          "icon": "🅱️",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "B3 (Niacin)",
+                          "icon": "🅱️",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "B5 (Pantothenic Acid)",
+                          "icon": "🅱️",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "B6 (Pyridoxine)",
+                          "icon": "🅱️",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "B7 (Biotin)",
+                          "icon": "🅱️",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "B9 (Folate)",
+                          "icon": "🥬",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "B12 (Cobalamin)",
+                          "icon": "🅱️",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Vitamin C (Ascorbic Acid)",
+                      "icon": "🍊",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Minerals",
+              "icon": "🧱",
+              "subcategories": [
+                {
+                  "name": "Macrominerals",
+                  "icon": "🧱",
+                  "subcategories": [
+                    {
+                      "name": "Calcium",
+                      "icon": "🥛",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Phosphorus",
+                      "icon": "🦴",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Potassium",
+                      "icon": "🍌",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sodium",
+                      "icon": "🧂",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Chloride",
+                      "icon": "🧂",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Magnesium",
+                      "icon": "🧱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sulfur",
+                      "icon": "🧱",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Microminerals/Trace Minerals",
+                  "icon": "🧱",
+                  "subcategories": [
+                    {
+                      "name": "Iron",
+                      "icon": "🔩",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Zinc",
+                      "icon": "🔩",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Copper",
+                      "icon": "🔩",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Manganese",
+                      "icon": "🔩",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Iodine",
+                      "icon": "🧂",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Selenium",
+                      "icon": "🧱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fluoride",
+                      "icon": "🦷",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Chromium",
+                      "icon": "🧱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Molybdenum",
+                      "icon": "🧱",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Essential Trace Elements",
+              "icon": "🧱",
+              "subcategories": [
+                {
+                  "name": "Boron",
+                  "icon": "🧱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cobalt",
+                  "icon": "🧱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Silicon",
+                  "icon": "🧱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vanadium",
+                  "icon": "🧱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nickel",
+                  "icon": "🧱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tin",
+                  "icon": "🧱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lithium",
+                  "icon": "🧱",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dietary Fiber",
+          "icon": "🌾",
+          "subcategories": [
+            {
+              "name": "Soluble Fiber",
+              "icon": "🌾",
+              "subcategories": []
+            },
+            {
+              "name": "Insoluble Fiber",
+              "icon": "🌾",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Dietary Plans and Trends",
+          "icon": "🥗",
+          "subcategories": [
+            {
+              "name": "Keto Diet",
+              "icon": "🥑",
+              "subcategories": []
+            },
+            {
+              "name": "Mediterranean Diet",
+              "icon": "🥗",
+              "subcategories": []
+            },
+            {
+              "name": "Paleo Diet",
+              "icon": "🥩",
+              "subcategories": []
+            },
+            {
+              "name": "Whole30",
+              "icon": "🍎",
+              "subcategories": []
+            },
+            {
+              "name": "Plant-Based/Vegan",
+              "icon": "🌱",
+              "subcategories": []
+            },
+            {
+              "name": "DASH Diet",
+              "icon": "❤️",
+              "subcategories": []
+            },
+            {
+              "name": "Low FODMAP",
+              "icon": "🚫",
+              "subcategories": []
+            },
+            {
+              "name": "Carnivore Diet",
+              "icon": "🥩",
+              "subcategories": []
+            },
+            {
+              "name": "Intuitive Eating",
+              "icon": "🧘",
+              "subcategories": []
+            },
+            {
+              "name": "Macro-Based",
+              "icon": "📊",
+              "subcategories": []
+            },
+            {
+              "name": "Intermittent Fasting",
+              "icon": "⏱️",
+              "subcategories": []
+            },
+            {
+              "name": "16:8 Method",
+              "icon": "⏱️",
+              "subcategories": []
+            },
+            {
+              "name": "OMAD (One Meal A Day)",
+              "icon": "🍽️",
+              "subcategories": []
+            },
+            {
+              "name": "5:2 Approach",
+              "icon": "📆",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Nutritional Education",
+          "icon": "🎓",
+          "subcategories": [
+            {
+              "name": "Meal Planning",
+              "icon": "📅",
+              "subcategories": []
+            },
+            {
+              "name": "Macros Tracking",
+              "icon": "📊",
+              "subcategories": []
+            },
+            {
+              "name": "Recipe Adaptation",
+              "icon": "🔄",
+              "subcategories": []
+            },
+            {
+              "name": "Meal Prep Workshops",
+              "icon": "🍱",
+              "subcategories": []
+            },
+            {
+              "name": "Reading Food Labels",
+              "icon": "🏷️",
+              "subcategories": []
+            },
+            {
+              "name": "Portion Control",
+              "icon": "📏",
+              "subcategories": []
+            },
+            {
+              "name": "Nutrient Optimization",
+              "icon": "📈",
+              "subcategories": []
+            },
+            {
+              "name": "Nutrient Density",
+              "icon": "✨",
+              "subcategories": []
+            },
+            {
+              "name": "Protein Combining",
+              "icon": "🤝",
+              "subcategories": []
+            },
+            {
+              "name": "Meat Selection",
+              "icon": "🥩",
+              "subcategories": []
+            },
+            {
+              "name": "Preparation Methods (with a focus on nutritional impact)",
+              "icon": "🍳",
+              "subcategories": []
+            },
+            {
+              "name": "Sustainable Seafood",
+              "icon": "🐟",
+              "subcategories": []
+            },
+            {
+              "name": "Fish Preparation (with a focus on nutritional aspects)",
+              "icon": "🐟",
+              "subcategories": []
+            },
+            {
+              "name": "Plant-Based Focus (highlighting nutritional benefits)",
+              "icon": "🌱",
+              "subcategories": []
+            },
+            {
+              "name": "Meat Alternatives (with a focus on nutritional aspects)",
+              "icon": "🌱",
+              "subcategories": []
+            },
+            {
+              "name": "Nutritional Balance",
+              "icon": "⚖️",
+              "subcategories": []
+            },
+            {
+              "name": "Pescatarian Diet",
+              "icon": "🐟",
+              "subcategories": []
+            },
+            {
+              "name": "Olive Oil Workshops (highlighting nutritional benefits)",
+              "icon": "🫒",
+              "subcategories": []
+            },
+            {
+              "name": "Seafood Preparation (highlighting nutritional benefits)",
+              "icon": "🐟",
+              "subcategories": []
+            },
+            {
+              "name": "Special Dietary Needs",
+              "icon": "🚫",
+              "subcategories": []
+            },
+            {
+              "name": "Gluten-Free",
+              "icon": "🌾",
+              "subcategories": []
+            },
+            {
+              "name": "Dairy-Free",
+              "icon": "🥛",
+              "subcategories": []
+            },
+            {
+              "name": "Nut-Free",
+              "icon": "🥜",
+              "subcategories": []
+            },
+            {
+              "name": "Low-Sodium",
+              "icon": "🧂",
+              "subcategories": []
+            },
+            {
+              "name": "Diabetic-Friendly",
+              "icon": "🩸",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Beverage Exploration",
+      "icon": "🍹",
+      "subcategories": [
+        {
+          "name": "Non-Alcoholic Beverages",
+          "icon": "🥤",
+          "subcategories": [
+            {
+              "name": "Water",
+              "icon": "💧",
+              "subcategories": [
+                {
+                  "name": "Still Water",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sparkling Water",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mineral Water",
+                  "icon": "💧",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Juices",
+              "icon": "🧃",
+              "subcategories": [
+                {
+                  "name": "Fruit Juice",
+                  "icon": "🍊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vegetable Juice",
+                  "icon": "🥕",
+                  "subcategories": []
+                },
+                {
+                  "name": "Blended Juice",
+                  "icon": "🍹",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Smoothies",
+              "icon": "🥤",
+              "subcategories": []
+            },
+            {
+              "name": "Tea",
+              "icon": "🍵",
+              "subcategories": [
+                {
+                  "name": "Tea Ceremonies",
+                  "icon": "🍵🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Variety Tea Tastings",
+                  "icon": "🍵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Herbal Tea Blending",
+                  "icon": "🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Black Tea",
+                  "icon": "⚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Green Tea",
+                  "icon": "🍵",
+                  "subcategories": []
+                },
+                {
+                  "name": "White Tea",
+                  "icon": "⚪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Oolong Tea",
+                  "icon": "🍵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Herbal Tea",
+                  "icon": "🌿",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Coffee",
+              "icon": "☕️",
+              "subcategories": [
+                {
+                  "name": "Bean Types",
+                  "icon": "🫘",
+                  "subcategories": [
+                    {
+                      "name": "Arabica",
+                      "icon": "☕️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Robusta",
+                      "icon": "☕️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Liberica",
+                      "icon": "☕️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Excelsa",
+                      "icon": "☕️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Brewing Methods",
+                  "icon": "⚙️",
+                  "subcategories": [
+                    {
+                      "name": "Drip",
+                      "icon": "💧",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Filter",
+                      "icon": "💧",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "French Press",
+                      "icon": "🇫🇷",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Moka Pot",
+                      "icon": "🇮🇹",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Percolator",
+                      "icon": "🔥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Siphon",
+                      "icon": "🧪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "AeroPress",
+                      "icon": "✈️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Chemex",
+                      "icon": "🧪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cold Brew",
+                      "icon": "🧊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Flash Brew",
+                      "icon": "⚡️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Espresso-Based Drinks",
+                  "icon": "☕️",
+                  "subcategories": [
+                    {
+                      "name": "Espresso",
+                      "icon": "☕️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Single Shot",
+                      "icon": "1️⃣",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Doppio (Double Shot)",
+                      "icon": "2️⃣",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ristretto",
+                      "icon": "🤏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Lungo",
+                      "icon": "↔️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Americano",
+                      "icon": "☕️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Long Black",
+                      "icon": "☕️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Macchiato",
+                      "icon": "🤏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Espresso Macchiato",
+                      "icon": "☕️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Long Macchiato",
+                      "icon": "🥛",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cortado",
+                      "icon": "🥛",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Flat White",
+                      "icon": "🥛",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cappuccino",
+                      "icon": "☕️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wet Cappuccino",
+                      "icon": "🥛",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dry Cappuccino",
+                      "icon": "☁️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Latte",
+                      "icon": "🥛",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Flavored Latte",
+                      "icon": "🍬",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Caramel Macchiato",
+                      "icon": "🍮",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mocha",
+                      "icon": "🍫",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Affogato",
+                      "icon": "🍨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Con Panna",
+                      "icon": "🍦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Breve",
+                      "icon": "🥛",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Vienna",
+                      "icon": "🇦🇹",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Milk-Based Espresso Coffee",
+                      "icon": "🥛",
+                      "subcategories": [
+                        {
+                          "name": "Café au Lait",
+                          "icon": "🇫🇷",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Galão",
+                          "icon": "🇵🇹",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Caffè Latte",
+                          "icon": "🇮🇹",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Latte Macchiato",
+                          "icon": "🥛",
+                          "subcategories": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Iced Coffee",
+                  "icon": "🧊",
+                  "subcategories": [
+                    {
+                      "name": "Iced Americano",
+                      "icon": "🧊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Iced Latte",
+                      "icon": "🧊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cold Brew",
+                      "icon": "🧊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nitro Cold Brew",
+                      "icon": "❄️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Frappé",
+                      "icon": "🥤",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Freddo Espresso",
+                      "icon": "🧊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mazagran",
+                      "icon": "🇩🇿",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Specialty Coffee",
+                  "icon": "🥃",
+                  "subcategories": [
+                    {
+                      "name": "Irish Coffee",
+                      "icon": "🇮🇪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Turkish Coffee",
+                      "icon": "🇹🇷",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cuban Coffee",
+                      "icon": "🇨🇺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Greek Coffee",
+                      "icon": "🇬🇷",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Vietnamese Coffee",
+                      "icon": "🇻🇳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Guillermo Coffee",
+                      "icon": "☕",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Espresso Romano",
+                      "icon": "🍋",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Coffee with Additives",
+                  "icon": "➕",
+                  "subcategories": [
+                    {
+                      "name": "Red-Eye Coffee",
+                      "icon": "👁️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Black-Eye Coffee",
+                      "icon": "👁️👁️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dead-Eye Coffee",
+                      "icon": "👁️👁️👁️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Coffee Combinations",
+                  "icon": "➕",
+                  "subcategories": [
+                    {
+                      "name": "Coffee with milk",
+                      "icon": "🥛",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Coffee with condensed milk",
+                      "icon": "🥛",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Coffee with coconut milk",
+                      "icon": "🥥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Coffee with tea",
+                      "icon": "🍵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Slow-brewed and espresso",
+                      "icon": "☕️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Liqueur coffee",
+                      "icon": "🥃",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Sports Drinks",
+              "icon": "🥤",
+              "subcategories": [
+                {
+                  "name": "Gatorade",
+                  "icon": "⚡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Powerade",
+                  "icon": "⚡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vitamin Water",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Propel",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bodyarmor",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Liquid I.V.",
+                  "icon": "💧",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Soft Drinks",
+              "icon": "🥤",
+              "subcategories": [
+                {
+                  "name": "Sodas",
+                  "icon": "🥤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Energy Drinks",
+                  "icon": "⚡️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Milk",
+              "icon": "🥛",
+              "subcategories": [
+                {
+                  "name": "Dairy",
+                  "icon": "🐄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Plant-Based Milk",
+                  "icon": "🌱",
+                  "subcategories": [
+                    {
+                      "name": "Nut-Based Milk",
+                      "icon": "🥜",
+                      "subcategories": [
+                        {
+                          "name": "Almond Milk",
+                          "icon": "🥛",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Cashew Milk",
+                          "icon": "🥛",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Coconut Milk",
+                          "icon": "🥥",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Macadamia Milk",
+                          "icon": "🥛",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Hazelnut Milk",
+                          "icon": "🌰",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Grain-based Milk",
+                      "icon": "🌾",
+                      "subcategories": [
+                        {
+                          "name": "Oat Milk",
+                          "icon": "🥛",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Rice Milk",
+                          "icon": "🍚",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Hemp Milk",
+                          "icon": "🌿",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Other Plant Based Milk",
+                      "icon": "🌱",
+                      "subcategories": [
+                        {
+                          "name": "Soy Milk",
+                          "icon": "🥛",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Pea Milk",
+                          "icon": "🥛",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Quinoa Beverages",
+                          "icon": "🥛",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Flax Milk",
+                          "icon": "🌿",
+                          "subcategories": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fermented Drinks",
+              "icon": "🦠",
+              "subcategories": [
+                {
+                  "name": "Kombucha",
+                  "icon": "🦠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ginger Beer",
+                  "icon": "🍺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Root Beer",
+                  "icon": "🍺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Kvass",
+                  "icon": "🍞",
+                  "subcategories": []
+                },
+                {
+                  "name": "Kefir",
+                  "icon": "🥛",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tepache",
+                  "icon": "🍍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Amazake",
+                  "icon": "🍚",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Non-Alcoholic Versions of Alcoholic Drinks",
+              "icon": "🚫",
+              "subcategories": [
+                {
+                  "name": "Non-Alcoholic Beer",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "De-Alcoholized Wine",
+                  "icon": "🍇",
+                  "subcategories": []
+                },
+                {
+                  "name": "Non-Alcoholic Cocktails",
+                  "icon": "🍹",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Mocktail Creation",
+              "icon": "🍹",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Alcoholic Beverages",
+          "icon": "🥂",
+          "subcategories": [
+            {
+              "name": "Beer",
+              "icon": "🍺",
+              "subcategories": [
+                {
+                  "name": "Ales",
+                  "icon": "🍺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lagers",
+                  "icon": "🍺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stouts",
+                  "icon": "🍺",
+                  "subcategories": []
+                },
+                {
+                  "name": "IPAs",
+                  "icon": "🍺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Brewing Workshops",
+                  "icon": "🏭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tasting Flights",
+                  "icon": "🍻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Food Pairings",
+                  "icon": "🍽️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wheat Beers",
+                  "icon": "🌾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lambics",
+                  "icon": "🇧🇪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Other Beer Types",
+                  "icon": "🍺",
+                  "subcategories": [
+                    {
+                      "name": "Sour Beer",
+                      "icon": "🍋🍺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Porter",
+                      "icon": "🍫🍺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Saison",
+                      "icon": "🌾🍺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fruit Beer",
+                      "icon": "🍓🍺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Smoked Beer",
+                      "icon": "🌲🍺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cream Ale",
+                      "icon": "🍦🍺",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Wine",
+              "icon": "🍷",
+              "subcategories": [
+                {
+                  "name": "Regional Tastings",
+                  "icon": "🍇",
+                  "subcategories": []
+                },
+                {
+                  "name": "Food Pairings",
+                  "icon": "🍽️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vineyard Visits",
+                  "icon": "🍇",
+                  "subcategories": []
+                },
+                {
+                  "name": "Red Wine",
+                  "icon": "🍷",
+                  "subcategories": []
+                },
+                {
+                  "name": "White Wine",
+                  "icon": "🥂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rosé Wine",
+                  "icon": "🌸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sparkling Wine",
+                  "icon": "🍾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dessert Wine",
+                  "icon": "🍇",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fortified Wine",
+                  "icon": "🍇",
+                  "subcategories": []
+                },
+                {
+                  "name": "Other Wine Types",
+                  "icon": "🍷",
+                  "subcategories": [
+                    {
+                      "name": "Orange Wine",
+                      "icon": "🍊🍇",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fruit Wine (Non-Grape)",
+                      "icon": "🍎🍇",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Rice Wine (e.g., Sake)",
+                      "icon": "🍚🍇",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Natural Wine",
+                      "icon": "🌱🍇",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Low-Alcohol Wine",
+                      "icon": "⬇️🍇",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Spirits",
+              "icon": "🥃",
+              "subcategories": [
+                {
+                  "name": "Spirit Education",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vodka",
+                  "icon": "🍸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Gin",
+                  "icon": "🍸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rum",
+                  "icon": "🍹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tequila",
+                  "icon": "🍹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Whiskey",
+                  "icon": "🥃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Brandy",
+                  "icon": "🍇",
+                  "subcategories": []
+                },
+                {
+                  "name": "Other Spirits",
+                  "icon": "🥃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cocktails",
+                  "icon": "🍸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mixology Basics",
+                  "icon": "🧪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Classic Cocktails",
+                  "icon": "🍸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cocktails by Base Spirit",
+                  "icon": "🍸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cocktails by Style",
+                  "icon": "🍸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cider",
+                  "icon": "🍎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mead",
+                  "icon": "🍯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Drinking Culture",
+                  "icon": "🍻",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dining and Food Culture",
+      "icon": "🍽️",
+      "subcategories": [
+        {
+          "name": "Fine Dining",
+          "icon": "🤵",
+          "subcategories": [
+            {
+              "name": "Casual Dining",
+              "icon": "🍽️",
+              "subcategories": []
+            },
+            {
+              "name": "Fast Casual",
+              "icon": "🏃",
+              "subcategories": []
+            },
+            {
+              "name": "Fast Food",
+              "icon": "🍔",
+              "subcategories": []
+            },
+            {
+              "name": "Ethnic Restaurants",
+              "icon": "🌍",
+              "subcategories": []
+            },
+            {
+              "name": "Family Style Restaurants",
+              "icon": "👨‍👩‍👧‍👦",
+              "subcategories": []
+            },
+            {
+              "name": "Cafes and Diners",
+              "icon": "☕️",
+              "subcategories": []
+            },
+            {
+              "name": "Coffeehouses",
+              "icon": "☕️",
+              "subcategories": []
+            },
+            {
+              "name": "Tea Houses",
+              "icon": "🍵",
+              "subcategories": []
+            },
+            {
+              "name": "Pubs and Gastropubs",
+              "icon": "🍻",
+              "subcategories": []
+            },
+            {
+              "name": "Buffets",
+              "icon": "🍽️",
+              "subcategories": []
+            },
+            {
+              "name": "Food Trucks",
+              "icon": "🚚",
+              "subcategories": []
+            },
+            {
+              "name": "Chef's Table Experiences",
+              "icon": "👨‍🍳",
+              "subcategories": []
+            },
+            {
+              "name": "Street Food Tours",
+              "icon": "🚶",
+              "subcategories": []
+            },
+            {
+              "name": "Other Restaurant Types",
+              "icon": "❓",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Dining Experiences",
+          "icon": "🎉",
+          "subcategories": [
+            {
+              "name": "Food Festivals",
+              "icon": "🎉",
+              "subcategories": []
+            },
+            {
+              "name": "Farmers Markets",
+              "icon": "🥕",
+              "subcategories": []
+            },
+            {
+              "name": "Cookery Schools",
+              "icon": "🏫",
+              "subcategories": []
+            },
+            {
+              "name": "Restaurant Meetups",
+              "icon": "🗣️",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Gastronomy",
+          "icon": "🧐",
+          "subcategories": [
+            {
+              "name": "Food History",
+              "icon": "📜",
+              "subcategories": []
+            },
+            {
+              "name": "Food and Culture",
+              "icon": "🤝",
+              "subcategories": []
+            },
+            {
+              "name": "Dining Etiquette",
+              "icon": "🧐",
+              "subcategories": []
+            },
+            {
+              "name": "Molecular Gastronomy",
+              "icon": "🔬",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Food Sustainability and Ethical Considerations",
+      "icon": "🌱",
+      "subcategories": [
+        {
+          "name": "Sustainable Practices",
+          "icon": "♻️",
+          "subcategories": [
+            {
+              "name": "Farm-to-Table",
+              "icon": "🚜",
+              "subcategories": []
+            },
+            {
+              "name": "Seasonal Eating",
+              "icon": "☀️",
+              "subcategories": []
+            },
+            {
+              "name": "Food Waste Reduction",
+              "icon": "🗑️",
+              "subcategories": []
+            },
+            {
+              "name": "Local Sourcing",
+              "icon": "📍",
+              "subcategories": []
+            },
+            {
+              "name": "Urban Farming",
+              "icon": "🏙️",
+              "subcategories": []
+            },
+            {
+              "name": "Ethical Sourcing",
+              "icon": "🤝",
+              "subcategories": []
+            },
+            {
+              "name": "Sustainable Agriculture",
+              "icon": "🌱",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Ethical Food Choices",
+          "icon": "❤️",
+          "subcategories": [
+            {
+              "name": "Animal Welfare",
+              "icon": "🐔",
+              "subcategories": []
+            },
+            {
+              "name": "Fair Trade",
+              "icon": "🤝",
+              "subcategories": []
+            },
+            {
+              "name": "Environmental Impact of Food Production",
+              "icon": "🌎",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Southwestern Cuisine",
+      "icon": "🌶️",
+      "subcategories": [
+        {
+          "name": "Tex-Mex",
+          "icon": "🌮",
+          "subcategories": []
+        },
+        {
+          "name": "New Mexican Fare",
+          "icon": "🌯",
+          "subcategories": []
+        },
+        {
+          "name": "Arizona-Sonoran Dishes",
+          "icon": "🌵",
+          "subcategories": []
+        },
+        {
+          "name": "Green Chile Specialties",
+          "icon": "🔥",
+          "subcategories": []
+        },
+        {
+          "name": "Native American Influences",
+          "icon": "🌽",
+          "subcategories": []
+        },
+        {
+          "name": "Navajo Tacos",
+          "icon": "🥙",
+          "subcategories": []
+        },
+        {
+          "name": "California-Mexican Fusion",
+          "icon": "🌴",
+          "subcategories": []
+        },
+        {
+          "name": "Ranch-Style Cooking",
+          "icon": "🍲",
+          "subcategories": []
+        }
+      ]
+    }
+  ]
+}

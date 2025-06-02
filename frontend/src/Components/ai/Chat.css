@@ -1,0 +1,775 @@
+/* Chat Container */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 160px); /* Reverted back to original height for main chat */
+  max-width: 1000px;
+  width: 95%;
+  margin: 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: #F5F5DC; /* Changed from white to match search input tan color */
+}
+
+/* Apply taller height specifically for the chat session view */
+.chat-container.chat-session-view {
+  height: calc(100vh - 120px); /* Taller height for session view */
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: #F5F5DC; /* Changed from #fff to match container */
+  border-bottom: 1px solid #eaeaea;
+}
+
+.chat-header h2 {
+  margin: 0;
+  color: #333;
+  font-weight: 600;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.button-wrapper,
+.categories-dropdown-container {
+  margin-right: 0;
+}
+
+.categories-dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+
+.header-buttons button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.new-chat-btn {
+  background-color: #007bff; /* Changed to Blue */
+  color: white; /* Changed text color to white for contrast */
+  border: 2px solid #221F1F !important; /* Added black outline with !important */
+}
+
+.new-chat-btn:hover {
+  background-color: #0056b3; /* Darker Blue on hover */
+  border: 2px solid #221F1F !important; /* Maintain black outline on hover with !important */
+}
+
+.history-btn {
+  background-color: #6c757d; /* Changed to Grey */
+  color: white;
+  border: 2px solid #221F1F !important; /* Added black outline with !important */
+}
+
+.history-btn:hover {
+  background-color: #5a6268; /* Darker Grey on hover */
+  border: 2px solid #221F1F !important; /* Maintain black outline on hover with !important */
+}
+
+
+/* Style for the Rename button */
+.history-btn.rename-start-btn {
+  background-color: #343a40; /* Dark grey / Black */
+  color: white;
+}
+
+.history-btn.rename-start-btn:hover {
+  background-color: #23272b; /* Darker grey / Black on hover */
+}
+
+.messages-container {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #FFFFF0; /* Changed to ivory color */
+}
+
+.message {
+  display: flex;
+  margin-bottom: 1rem;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.message.user {
+  justify-content: flex-end;
+}
+
+.message-content {
+  max-width: 70%;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.message.user .message-content {
+  background-color: #007bff;
+  color: white;
+}
+
+.message.ai .message-content {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #e0e0e0; /* Add a light border to distinguish from ivory background */
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.message.user .message-header {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.message-sender {
+  font-weight: 600;
+}
+
+.message-time {
+  opacity: 0.8;
+}
+
+.message p {
+  margin: 0;
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+.chat-input-form {
+  display: flex;
+  position: relative;
+  width: 100%;
+  padding: 15px 20px;
+  border-top: 1px solid #e0e0e0;
+  background: #F5F5DC; /* Changed from #f9f9f9 to match the tan color */
+  box-sizing: border-box;
+}
+
+.chat-input-form textarea {
+  width: 100%;
+  min-height: 50px;
+  max-height: 150px;
+  border: 1px solid #ddd;
+  border-radius: 24px;
+  padding: 12px 60px 12px 15px;
+  font-size: 14px;
+  resize: none;
+  outline: none;
+  transition: border-color 0.3s;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.chat-input-form textarea:focus {
+  border-color: #007bff;
+}
+
+.chat-input-form .send-button {
+  position: absolute;
+  right: 25px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #007bff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.chat-input-form .send-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.chat-input-form .send-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Keep the button blue when it's disabled *and* has the loading class */
+.chat-input-form .send-button.loading:disabled {
+  background-color: #007bff; /* Keep original blue */
+  opacity: 1; /* Keep full opacity */
+}
+
+.chat-input-form .send-button svg {
+  width: 20px;
+  height: 20px;
+  color: white;
+  stroke: white;
+  fill: white;
+}
+
+/* Empty chat (normal view) styles - ensuring consistency with category view */
+.empty-chat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Changed from center to match category view */
+  text-align: center;
+  padding: 2rem;
+  margin-top: 1rem; /* Reduced from 2rem to match category view */
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #FFFFF0;
+}
+
+.empty-chat h3,
+.chat-selected-category-header h3 {
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.2em;
+  margin-top: 0.5rem; /* Add consistent top margin */
+}
+
+.empty-chat p {
+  color: #666;
+  margin-bottom: 1.5rem;
+  max-width: 500px;
+  padding: 0 1rem; /* Add consistent horizontal padding */
+}
+
+/* Make normal view suggestions match width of category view */
+.suggestions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 500px; /* Increased from 400px to match category view */
+  position: relative;
+}
+
+/* Style for the Suggest heading */
+.suggestion-heading {
+  text-align: center;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 12px;
+  font-size: 1.1em;
+}
+
+.suggestions button {
+  padding: 0.75rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suggestions button:hover {
+  background-color: #0056b3;
+}
+
+.suggestions button.refresh-button {
+  background-color: #6c757d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.suggestions button.refresh-button:hover {
+  background-color: #5a6268;
+}
+
+.suggestions button.refresh-button svg {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.5s ease;
+}
+
+.suggestions button.refresh-button.rotating svg {
+  animation: rotate 0.8s linear infinite;
+}
+
+/* Update the refreshing button styles */
+.suggestions button.refresh-button span {
+  display: inline-block; /* Ensure the span is a block element for rotation */
+  font-size: 1.2em; /* Make the arrow slightly larger */
+  margin-left: 5px; /* Add some spacing */
+  transition: transform 0.3s ease; /* Add a transition for non-rotating state */
+}
+
+.suggestions button.refresh-button.rotating span {
+  animation: rotate 0.8s linear infinite; /* Apply the rotation to the span directly */
+}
+
+.error-message {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.suggestions button.refreshing {
+  background-color: #5a6268;
+  cursor: not-allowed;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.message.loading .typing-indicator {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  margin-top: 4px;
+}
+
+.typing-indicator span {
+  height: 8px;
+  width: 8px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 2px;
+  animation: bounce 1.2s infinite ease-in-out;
+}
+
+.typing-indicator span:nth-child(1) {
+  animation-delay: -0.3s;
+}
+
+.typing-indicator span:nth-child(2) {
+  animation-delay: -0.15s;
+}
+
+.typing-indicator span:nth-child(3) {
+  animation-delay: 0s;
+}
+
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .chat-container {
+    height: calc(100vh - 160px); /* Adjusted for nav bars */
+    width: 100%;
+    margin: 1.5rem auto;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  
+  .chat-header {
+    padding: 0.75rem 1rem;
+  }
+  
+  .header-buttons {
+    gap: 10px;
+  }
+  
+  .header-buttons button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+  
+  .message-content {
+    max-width: 85%;
+    padding: 0.75rem;
+  }
+  
+  .messages-container {
+    padding: 0.75rem;
+  }
+  
+  .suggestions {
+    max-width: 90%;
+    align-self: center; /* Center suggestions on mobile */
+  }
+
+  .chat-input-form {
+    padding: 10px 15px;
+  }
+
+  .chat-input-form textarea {
+    padding: 10px 50px 10px 12px;
+    font-size: 13px;
+  }
+
+  .chat-input-form .send-button {
+    right: 18px;
+    bottom: 12px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .chat-input-form .send-button svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .empty-chat {
+    padding: 1.5rem;
+    margin-top: 1rem;
+  }
+}
+
+/* Categories Dropdown Styles */
+.categories-btn {
+  /* background-color: #e9ecef; */ /* Old grey background */
+  background-color: #eaf4eb; /* New light green background to match dropdown */
+  color: #333; /* Adjust text color for better contrast on green */
+  padding: 8px 12px;
+  border: 2px solid #221F1F !important; /* Changed from 1px solid #cddbd0 to black outline with !important */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.categories-btn:hover {
+  background-color: #d8e8d9; /* Darker green hover */
+  border: 2px solid #221F1F !important; /* Maintain black outline on hover with !important */
+}
+
+.categories-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #eaf4eb; /* Match button normal background */
+  border: 1px solid #cddbd0; /* Match button normal border */
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  min-width: 250px;
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 3px;
+  line-height: normal;
+}
+
+.chat-category-item {
+  padding: 10px 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #dce0dc; /* Slightly adjusted for new base color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  color: #333;
+  transition: background-color 0.2s;
+  text-align: center;
+}
+
+.chat-category-item .category-icon {
+  font-size: 1em;
+  line-height: 1;
+  /* margin-right: 0; Replaced by gap */
+}
+
+.chat-category-item span:not(.category-icon):not(.bullseye) {
+  flex-grow: 1;
+  color: #333; /* Ensure text span is dark */
+}
+
+.chat-category-item:hover {
+  background-color: #d8e8d9; /* Match button hover background */
+  color: #333;
+}
+
+.chat-category-item.selected {
+  background-color: #d8e8d9; /* Match button hover background for selected item */
+  font-weight: 500; 
+  color: #333;
+}
+
+.chat-category-item .bullseye {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1em;
+  color: #333; /* Ensure bullseye is dark against the new selected background */
+  z-index: 1;
+}
+
+/* Category selected view - adjusting to match normal view positioning */
+.chat-category-selected-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0; /* Remove any additional padding */
+}
+
+.chat-selected-category-header {
+  text-align: center;
+  margin-bottom: 1.5rem; /* Reduced from 2rem to match normal view spacing */
+}
+
+.chat-selected-category-header h3 {
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.2em;
+  margin-top: 0.5rem; /* Add consistent top margin */
+}
+
+.chat-selected-category-box {
+  background-color: #eaf4eb;
+  border: 1px solid #cddbd0;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 1.1em;
+  color: #333;
+  display: inline-block;
+  min-width: 250px;
+  text-align: center;
+  margin-bottom: 1.5rem; /* Match the spacing of the paragraph in normal view */
+  min-height: 20px; /* Ensure consistent height */
+}
+
+.chat-category-suggestions {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 0; /* Removed margin-top to align with normal view */
+}
+
+/* Make both views' buttons consistent */
+.suggestions button,
+.chat-category-suggestions button {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  font-size: 0.95em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suggestions button:hover,
+.chat-category-suggestions button:hover {
+  background-color: #0056b3;
+}
+
+/* Make suggestion type checkboxes consistent across both views */
+.suggestion-type-checkboxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px 10px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  width: 100%; /* Ensure consistent width */
+}
+
+/* Style for the Suggest heading */
+.suggestion-heading {
+  text-align: center;
+  color: #333;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.1em;
+}
+
+/* Container for checkbox options */
+.suggestion-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.suggestion-type-checkboxes label {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #007bff; /* Changed from white to light blue */
+  border: 1px solid #007bff; /* Changed border color to match */
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+  font-size: 0.9em;
+  color: white; /* Add white text for contrast */
+}
+
+.suggestion-type-checkboxes label:hover {
+  background-color: #0056b3; /* Changed to darker blue on hover */
+  border-color: #0056b3; /* Match border to background */
+}
+
+.suggestion-type-checkboxes label.active {
+  background-color: #0056b3; /* Changed to darker blue for active state */
+  border-color: #0056b3; /* Match border to background */
+  color: white;
+  font-weight: 500; /* Make text slightly bolder when active */
+}
+
+.suggestion-type-checkboxes input[type="checkbox"] {
+  display: none; /* Hide the actual checkbox */
+}
+
+/* Style for the OR divider */
+.checkbox-divider {
+  font-weight: 500;
+  color: #333; /* Same color as category text */
+  margin: 0 8px;
+  font-size: 0.95em;
+}
+
+/* Responsive adjustments for checkboxes */
+@media (max-width: 600px) {
+  .suggestion-type-checkboxes {
+    gap: 5px;
+    padding: 8px;
+  }
+  .suggestion-type-checkboxes label {
+    padding: 4px 8px;
+    font-size: 0.8em;
+  }
+}
+
+/* Style for the Back to Suggester button */
+.back-to-suggester-btn {
+  background-color: #007bff; /* Original Blue */
+}
+
+.back-to-suggester-btn:hover {
+  background-color: #0056b3; /* Darker Blue on hover */
+}
+
+/* Consistent refresh button styling for both views */
+.suggestions button.refresh-button,
+.chat-category-suggestions button.refresh-button {
+  background-color: #6c757d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.suggestions button.refresh-button:hover,
+.chat-category-suggestions button.refresh-button:hover {
+  background-color: #5a6268;
+}
+
+.suggestions button.refresh-button span,
+.chat-category-suggestions button.refresh-button span {
+  display: inline-block;
+  font-size: 1.2em;
+  margin-left: 5px;
+  transition: transform 0.3s ease;
+}
+
+.suggestions button.refresh-button.rotating span,
+.chat-category-suggestions button.refresh-button.rotating span {
+  animation: rotate 0.8s linear infinite;
+}
+
+/* Add consistent spacing between elements */
+.suggestion-type-checkboxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px 10px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Ensure consistent vertical spacing between UI elements */
+.empty-chat,
+.chat-category-selected-view {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Styling for the suggestions area container */
+.suggestions-content-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center content vertically */
+  min-height: 250px; /* Estimate height of 6 suggestion buttons + gaps */
+  width: 100%; /* Take full width of parent */
+  margin-bottom: 10px; /* Add space before the refresh button */
+}
+
+/* Styling for the loading spinner within suggestions */
+.suggestions-loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%; /* Fill the content area */
+}
+
+/* Scale up the circular spinner container when inside suggestions */
+.suggestions-loading-spinner .circular-spinner-container {
+  transform: scale(2.5); /* Adjust scale factor as needed */
+}
+
+/* Target the circular dots specifically within the suggestions loading spinner */
+.suggestions-loading-spinner .circular-dot {
+  background-color: #007bff; /* Blue color */
+} 

@@ -1,0 +1,3643 @@
+{
+  "id": 82,
+  "name": "Career, Work, and Productivity",
+  "icon": "💼",
+  "subcategories": [
+    {
+      "name": "Career Exploration & Planning",
+      "icon": "🧭",
+      "subcategories": [
+        {
+          "name": "Self-Assessment",
+          "icon": "🤔",
+          "subcategories": [
+            {
+              "name": "Personal Values Clarification",
+              "icon": "💖",
+              "subcategories": [
+                {
+                  "name": "Core Values Identification",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Values-Career Alignment",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Purpose Exploration",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Meaning in Work Assessment",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Career Values Sorting",
+                  "icon": "📋",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Strengths Discovery",
+              "icon": "💪",
+              "subcategories": [
+                {
+                  "name": "Talent Identification",
+                  "icon": "🌟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Skills Inventory",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Aptitude Assessment",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Strength-Based Career Design",
+                  "icon": "🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Natural Competencies Recognition",
+                  "icon": "🧠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Interest Mapping",
+              "icon": "🗺️",
+              "subcategories": [
+                {
+                  "name": "Vocational Interests Exploration",
+                  "icon": "🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Passion Project Analysis",
+                  "icon": "🔥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Curiosity-Driven Exploration",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Interest Pattern Recognition",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Flow Experience Identification",
+                  "icon": "🌊",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Personality & Work Style",
+              "icon": "👫",
+              "subcategories": [
+                {
+                  "name": "Work Environment Preferences",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Team Dynamic Compatibility",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Communication Style Assessment",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Decision-Making Approach",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stress Response Patterns",
+                  "icon": "🤯",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Career Design",
+          "icon": "🏗️",
+          "subcategories": [
+            {
+              "name": "Career Pathing",
+              "icon": "🗺️",
+              "subcategories": [
+                {
+                  "name": "Career Trajectory Planning",
+                  "icon": "🛤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Long-Term Vision Development",
+                  "icon": "🔭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Career Milestone Mapping",
+                  "icon": "📍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Alternative Path Consideration",
+                  "icon": "🛣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Flexible Career Structuring",
+                  "icon": "🤸",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Industry Exploration",
+              "icon": "🏭",
+              "subcategories": [
+                {
+                  "name": "Industry Research Methods",
+                  "icon": "🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sector Analysis",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Growth Trend Identification",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Disruption Anticipation",
+                  "icon": "💥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cross-Industry Opportunities",
+                  "icon": "↔️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Role & Function Evaluation",
+              "icon": "🧑‍💼",
+              "subcategories": [
+                {
+                  "name": "Job Function Analysis",
+                  "icon": "🧐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Role Responsibility Mapping",
+                  "icon": "📋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Position Comparison",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Title Progression Understanding",
+                  "icon": "⬆️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Role Evolution Tracking",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Holistic Career Integration",
+              "icon": "🧘‍♀️🧘‍♂️",
+              "subcategories": [
+                {
+                  "name": "Work-Life Harmony Planning",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Career Season Recognition",
+                  "icon": "🍂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Life Stage Integration",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Family-Career Alignment",
+                  "icon": "👨‍👩‍👧‍👦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Health-Supporting Career Design",
+                  "icon": "❤️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Career Transition",
+          "icon": "🔄",
+          "subcategories": [
+            {
+              "name": "Career Change Strategies",
+              "icon": "🗺️",
+              "subcategories": [
+                {
+                  "name": "Career Pivot Planning",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Industry Switch Methodology",
+                  "icon": "🏭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Role Transition Framework",
+                  "icon": "🧑‍💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Transfer Skill Identification",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Change Readiness Assessment",
+                  "icon": "❓",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Entrepreneurship Exploration",
+              "icon": "🚀",
+              "subcategories": [
+                {
+                  "name": "Business Startup Evaluation",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Side Hustle Development",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Full Business Launch Planning",
+                  "icon": "🚀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Entrepreneurial Mindset Cultivation",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Founder Skills Assessment",
+                  "icon": "🧑‍🔬",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Return-to-Work Planning",
+              "icon": "🚶‍♂️",
+              "subcategories": [
+                {
+                  "name": "Career Break Navigation",
+                  "icon": "⏸️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Re-entry Strategy",
+                  "icon": "🚪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Skill Refreshment",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Confidence Rebuilding",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Transition Storytelling",
+                  "icon": "📖",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Retirement & Post-Career",
+              "icon": "👴",
+              "subcategories": [
+                {
+                  "name": "Phased Retirement Planning",
+                  "icon": "⏳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Legacy Work Development",
+                  "icon": "🕰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Post-Career Purpose Finding",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Retirement Identity Creation",
+                  "icon": "🧘‍♀️🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wisdom Transfer Planning",
+                  "icon": "🧠",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Job Search Process",
+      "icon": "🔍",
+      "subcategories": [
+        {
+          "name": "Application Preparation",
+          "icon": "📝",
+          "subcategories": [
+            {
+              "name": "Resume Workshops",
+              "icon": "📄",
+              "subcategories": [
+                {
+                  "name": "Resume Design Principles",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Resume Content Development",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Achievement Highlighting",
+                  "icon": "🌟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Resume Customization",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Applicant Tracking System Optimization",
+                  "icon": "🤖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Resume Review Sessions",
+                  "icon": "🧐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Specialized Resume Formats",
+                  "icon": "📄",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Cover Letter Crafting",
+              "icon": "✉️",
+              "subcategories": [
+                {
+                  "name": "Cover Letter Structure",
+                  "icon": "🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Personalized Content Development",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Company Research Integration",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Position Alignment Communication",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Value Proposition Articulation",
+                  "icon": "💎",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Portfolio Development",
+              "icon": "📂",
+              "subcategories": [
+                {
+                  "name": "Work Sample Curation",
+                  "icon": "🖼️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Project Documentation",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Portfolio Presentation Design",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Portfolio Website Creation",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Case Study Development",
+                  "icon": "📈",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Online Presence Optimization",
+              "icon": "🌐",
+              "subcategories": [
+                {
+                  "name": "LinkedIn Profile Development",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Professional Social Media Presence",
+                  "icon": "📱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Footprint Assessment",
+                  "icon": "👣",
+                  "subcategories": []
+                },
+                {
+                  "name": "Personal Branding Strategy",
+                  "icon": "🏷️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Online Reputation Management",
+                  "icon": "🛡️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Application Strategies",
+          "icon": "🎯",
+          "subcategories": [
+            {
+              "name": "Job Search Planning",
+              "icon": "📅",
+              "subcategories": [
+                {
+                  "name": "Search Timeline Development",
+                  "icon": "⏳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Application Tracking Systems",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Target Company Identification",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Position Selection Strategy",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Application Prioritization",
+                  "icon": "🔢",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Application Channels",
+              "icon": "📮",
+              "subcategories": [
+                {
+                  "name": "Job Board Effectiveness",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Company Career Sites",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Recruitment Agency Relationships",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Internal Posting Access",
+                  "icon": "🚪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Niche Job Platform Identification",
+                  "icon": "🎯",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Application Customization",
+              "icon": "✍️",
+              "subcategories": [
+                {
+                  "name": "Job Description Analysis",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Keyword Optimization",
+                  "icon": "🔑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Application Tailoring",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Qualification Matching",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Culture Fit Demonstration",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Follow-Up Protocols",
+              "icon": "📞",
+              "subcategories": [
+                {
+                  "name": "Application Follow-Through",
+                  "icon": "➡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Recruiter Communication",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Status Inquiry Methods",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Persistent Engagement Tactics",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Graceful Persistence",
+                  "icon": "🙏",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Interview Preparation",
+          "icon": "🎙️",
+          "subcategories": [
+            {
+              "name": "Interview Types",
+              "icon": "💬",
+              "subcategories": [
+                {
+                  "name": "Phone Screening Preparation",
+                  "icon": "📞",
+                  "subcategories": []
+                },
+                {
+                  "name": "Video Interview Techniques",
+                  "icon": "📹",
+                  "subcategories": []
+                },
+                {
+                  "name": "One-on-One Interview Strategy",
+                  "icon": "🧑‍💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Panel Interview Preparation",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Group Interview Dynamics",
+                  "icon": "🧑‍🤝‍🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technical Interview Methods",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Behavioral Interview Approach",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Case Interview Practice",
+                  "icon": "📈",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Interview Skills",
+              "icon": "🗣️",
+              "subcategories": [
+                {
+                  "name": "Question Anticipation",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Response Structuring",
+                  "icon": "🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Story Development",
+                  "icon": "📖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Accomplishment Communication",
+                  "icon": "🌟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Weakness Framing",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Question Asking Strategy",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Active Listening Demonstration",
+                  "icon": "👂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Non-Verbal Communication",
+                  "icon": "🧍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Mock Interview Practice",
+              "icon": "🎭",
+              "subcategories": [
+                {
+                  "name": "Peer Interview Exchange",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Professional Interview Coaching",
+                  "icon": "🧑‍🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Recorded Practice Analysis",
+                  "icon": "📹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Feedback Integration",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Iterative Improvement",
+                  "icon": "📈",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Research & Preparation",
+              "icon": "🔍",
+              "subcategories": [
+                {
+                  "name": "Company Research Methods",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Interviewer Background Review",
+                  "icon": "🧑‍💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Industry Trend Knowledge",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Position-Specific Preparation",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Fit Assessment",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Job Offer Evaluation",
+          "icon": "✅",
+          "subcategories": [
+            {
+              "name": "Compensation Analysis",
+              "icon": "💰",
+              "subcategories": [
+                {
+                  "name": "Salary Research",
+                  "icon": "💲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Compensation Package Assessment",
+                  "icon": "📦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Benefits Valuation",
+                  "icon": "🎁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Equity Evaluation",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Total Compensation Calculation",
+                  "icon": "💵",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Negotiation Strategies",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Negotiation Preparation",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Counter Offer Development",
+                  "icon": "↔️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Win-Win Negotiation Approaches",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Non-Salary Negotiation Points",
+                  "icon": "🎁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Written Negotiation Communication",
+                  "icon": "✍️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Decision-Making Framework",
+              "icon": "🤔",
+              "subcategories": [
+                {
+                  "name": "Offer Comparison Methodology",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Fit Evaluation",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Growth Potential Assessment",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Work-Life Integration Consideration",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Long-Term Alignment Analysis",
+                  "icon": "🎯",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Job Search Resources",
+          "icon": "📚",
+          "subcategories": [
+            {
+              "name": "Job Fairs",
+              "icon": "🏢",
+              "subcategories": [
+                {
+                  "name": "Job Fair Preparation",
+                  "icon": "📋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Employer Interaction Strategy",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "On-Site Application Process",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Follow-Up Protocol",
+                  "icon": "📞",
+                  "subcategories": []
+                },
+                {
+                  "name": "Virtual Job Fair Navigation",
+                  "icon": "💻",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Career Centers",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "University Career Services",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Career Resources",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Industry-Specific Career Centers",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Government Employment Resources",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Non-Profit Career Support",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Recruitment Services",
+              "icon": "🧑‍💼",
+              "subcategories": [
+                {
+                  "name": "Recruiter Relationship Development",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Agency Selection",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Headhunter Engagement",
+                  "icon": "🕵️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Placement Service Evaluation",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Recruitment Process Outsourcing",
+                  "icon": "🌐",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Career Development",
+      "icon": "📈",
+      "subcategories": [
+        {
+          "name": "Professional Growth Planning",
+          "icon": "🌱",
+          "subcategories": [
+            {
+              "name": "Career Development Framework",
+              "icon": "🗺️",
+              "subcategories": [
+                {
+                  "name": "Growth Goal Setting",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Development Timeline Creation",
+                  "icon": "⏳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Progress Measurement Design",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Skill Gap Analysis",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Career Growth Roadmap",
+                  "icon": "🗺️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Professional Development Plans",
+              "icon": "📄",
+              "subcategories": [
+                {
+                  "name": "Individual Development Planning",
+                  "icon": "🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Competency Development Mapping",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Learning Pathway Design",
+                  "icon": "🛤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Growth Opportunity Identification",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Professional Evolution Strategy",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Performance Enhancement",
+              "icon": "🌟",
+              "subcategories": [
+                {
+                  "name": "Performance Review Preparation",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Feedback Integration",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Achievement Documentation",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Impact Demonstration",
+                  "icon": "💥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Value Articulation",
+                  "icon": "💎",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skills Development",
+          "icon": "🛠️",
+          "subcategories": [
+            {
+              "name": "Technical Skills Training",
+              "icon": "💻",
+              "subcategories": [
+                {
+                  "name": "Industry-Specific Technical Skills",
+                  "icon": "🔧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technical Certifications",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technical Workshops",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hands-On Skill Building",
+                  "icon": "👐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technical Problem-Solving",
+                  "icon": "💡",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Soft Skills Enhancement",
+              "icon": "🗣️",
+              "subcategories": [
+                {
+                  "name": "Communication Skill Development",
+                  "icon": "💬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Leadership Capacity Building",
+                  "icon": "👑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Emotional Intelligence Cultivation",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conflict Resolution Training",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Change Adaptability",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Digital & Technological Skills",
+              "icon": "💻",
+              "subcategories": [
+                {
+                  "name": "Digital Literacy Advancement",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Software Proficiency Building",
+                  "icon": "🖱️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technical Tool Mastery",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Workflow Optimization",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technology Adaptation Skills",
+                  "icon": "💡",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Specialized Knowledge Acquisition",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Subject Matter Expertise Development",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Specialized Knowledge Communities",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Expert Knowledge Networks",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Knowledge Depth Cultivation",
+                  "icon": "⬆️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cross-Disciplinary Knowledge",
+                  "icon": "🌐🔀",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Professional Credentials",
+          "icon": "📜",
+          "subcategories": [
+            {
+              "name": "Certification Programs",
+              "icon": "🏅",
+              "subcategories": [
+                {
+                  "name": "Industry Certification Selection",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Certification Preparation",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Exam Strategy",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Certification Maintenance",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Credential Stacking",
+                  "icon": "📚",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Continuing Education",
+              "icon": "📚",
+              "subcategories": [
+                {
+                  "name": "Professional Continuing Education Requirements",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Continuing Education Course Selection",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Credit Tracking",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Knowledge Application",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Recertification Planning",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Academic Advancement",
+              "icon": "🎓",
+              "subcategories": [
+                {
+                  "name": "Degree Program Selection",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coursework Planning",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Academic-Professional Integration",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Part-Time Study Management",
+                  "icon": "⏳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Academic Credential Leveraging",
+                  "icon": "🎓",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Licensing & Accreditation",
+              "icon": "⚖️",
+              "subcategories": [
+                {
+                  "name": "Professional Licensing Requirements",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "License Application Process",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "License Exam Preparation",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "License Renewal Planning",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Multi-Jurisdiction Licensing",
+                  "icon": "🌐",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Career Advancement",
+          "icon": "🚀",
+          "subcategories": [
+            {
+              "name": "Promotion Strategy",
+              "icon": "🎯",
+              "subcategories": [
+                {
+                  "name": "Promotion Readiness Assessment",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Advancement Opportunity Identification",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Next-Level Skill Development",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Leadership Preparation",
+                  "icon": "👑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Promotion Campaigning",
+                  "icon": "📣",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Visibility Enhancement",
+              "icon": "👀",
+              "subcategories": [
+                {
+                  "name": "Work Showcasing Methods",
+                  "icon": "🖼️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Achievement Communication",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Strategic Relationship Building",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reputation Development",
+                  "icon": "🌟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Brand Ambassador Activities",
+                  "icon": "📣",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Leadership Development",
+              "icon": "👑",
+              "subcategories": [
+                {
+                  "name": "Leadership Philosophy Development",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Leadership Style Refinement",
+                  "icon": "✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "People Management Skills",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Strategic Thinking Cultivation",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Influence Building",
+                  "icon": "💪",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Specialized Career Tracks",
+              "icon": "🛤️",
+              "subcategories": [
+                {
+                  "name": "Technical Specialist Path",
+                  "icon": "🧑‍💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Management Track",
+                  "icon": "🧑‍💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Individual Contributor Advancement",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Subject Matter Expert Development",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Thought Leadership Cultivation",
+                  "icon": "🧠",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Professional Support",
+          "icon": "🤝",
+          "subcategories": [
+            {
+              "name": "Career Coaching",
+              "icon": "👨‍🏫",
+              "subcategories": [
+                {
+                  "name": "Coach Selection",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coaching Relationship Development",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coaching Goal Setting",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coaching Session Maximization",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coaching Insight Implementation",
+                  "icon": "💡",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Mentorship",
+              "icon": "👩‍🏫",
+              "subcategories": [
+                {
+                  "name": "Mentor Identification",
+                  "icon": "🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mentoring Relationship Building",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mentor Session Structuring",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Knowledge Extraction",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wisdom Application",
+                  "icon": "💡",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Sponsorship",
+              "icon": "🛡️",
+              "subcategories": [
+                {
+                  "name": "Sponsor Cultivation",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sponsorship Opportunities",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sponsor-Ready Positioning",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sponsored Advancement",
+                  "icon": "🚀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sponsor Network Development",
+                  "icon": "🔗",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Peer Support",
+              "icon": "🧑‍🤝‍🧑",
+              "subcategories": [
+                {
+                  "name": "Peer Learning Groups",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Accountability Partnerships",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Skill Exchange Networks",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Peer Feedback Systems",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Co-Development Initiatives",
+                  "icon": "📈",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Professional Relationships",
+      "icon": "🤝",
+      "subcategories": [
+        {
+          "name": "Networking",
+          "icon": "🌐",
+          "subcategories": [
+            {
+              "name": "Network Development",
+              "icon": "🔗",
+              "subcategories": [
+                {
+                  "name": "Network Mapping",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Strategic Network Planning",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Relationship Cultivation",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Network Diversification",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Network Maintenance",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Networking Events",
+              "icon": "🎉",
+              "subcategories": [
+                {
+                  "name": "Industry Meetups",
+                  "icon": "🏢",
+                  "subcategories": [
+                    {
+                      "name": "Industry Conference Navigation",
+                      "icon": "🗺️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Trade Show Engagement",
+                      "icon": "🎪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Specialized Industry Gatherings",
+                      "icon": "👥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Industry Speaker Events",
+                      "icon": "🎙️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Industry Celebration Functions",
+                      "icon": "🎉",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Professional Associations",
+                  "icon": "🏛️",
+                  "subcategories": [
+                    {
+                      "name": "Association Selection",
+                      "icon": "✅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Membership Optimization",
+                      "icon": "📈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Committee Involvement",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Leadership Positions",
+                      "icon": "👑",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Association Event Participation",
+                      "icon": "🎉",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Alumni Events",
+                  "icon": "🎓",
+                  "subcategories": [
+                    {
+                      "name": "University Network Leveraging",
+                      "icon": "🔗",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "School Alumni Functions",
+                      "icon": "🎉",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Program-Specific Reunions",
+                      "icon": "🧑‍🎓",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Educational Institution Connections",
+                      "icon": "🏛️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Alumni Mentoring Programs",
+                      "icon": "🧑‍🏫",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Community Networking",
+                  "icon": "🏘️",
+                  "subcategories": [
+                    {
+                      "name": "Local Business Groups",
+                      "icon": "🏢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Chamber of Commerce Events",
+                      "icon": "🏛️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Community Leader Connections",
+                      "icon": "🔗",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Civic Organization Networking",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Local Industry Clusters",
+                      "icon": "🏭",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Networking Skills",
+              "icon": "🗣️",
+              "subcategories": [
+                {
+                  "name": "Introduction Techniques",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conversation Initiation",
+                  "icon": "💬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Memory for Names & Details",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Follow-Up Protocols",
+                  "icon": "📞",
+                  "subcategories": []
+                },
+                {
+                  "name": "Relationship Nurturing",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Business Card Exchanges",
+                  "icon": "💳",
+                  "subcategories": [
+                    {
+                      "name": "Card Design & Content",
+                      "icon": "🎨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Card Exchange Etiquette",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Contact Information Digitization",
+                      "icon": "💻",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Card Organization Systems",
+                      "icon": "📁",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Card Follow-Up Strategy",
+                      "icon": "📞",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Networking Workshops",
+                  "icon": "🛠️",
+                  "subcategories": [
+                    {
+                      "name": "Relationship Building Training",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Network Strategy Development",
+                      "icon": "🗺️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Authentic Connection Training",
+                      "icon": "💖",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Digital Networking Skills",
+                      "icon": "💻",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Follow-Up Systems Design",
+                      "icon": "📞",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Digital Networking",
+              "icon": "💻",
+              "subcategories": [
+                {
+                  "name": "Social Media Networking",
+                  "icon": "📱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Online Community Engagement",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Virtual Event Participation",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Relationship Building",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Remote Connection Maintenance",
+                  "icon": "🔗",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Professional Relationship Management",
+          "icon": "🧑‍🤝‍🧑",
+          "subcategories": [
+            {
+              "name": "Colleague Relationships",
+              "icon": "👥",
+              "subcategories": [
+                {
+                  "name": "Peer Relationship Development",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cross-Departmental Connections",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Team Bond Strengthening",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Workplace Friendship Boundaries",
+                  "icon": "Boundaries",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conflict Resolution Systems",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Management Relationships",
+              "icon": "👨‍💼👩‍💼",
+              "subcategories": [
+                {
+                  "name": "Managing Up Strategies",
+                  "icon": "⬆️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Boss Communication Style Adaptation",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Management Expectation Alignment",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trust Building with Leadership",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Leadership Support Methods",
+                  "icon": "💫",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Direct Report Relationships",
+              "icon": "🧑‍🤝‍🧑",
+              "subcategories": [
+                {
+                  "name": "Team Member Development",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Individual Motivation Understanding",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Performance Support Approaches",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Feedback Delivery Systems",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Team Culture Creation",
+                  "icon": "🏗️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Client & Customer Relationships",
+              "icon": "👥",
+              "subcategories": [
+                {
+                  "name": "Client Rapport Building",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Customer Need Identification",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Relationship-Based Service",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Long-Term Relationship Cultivation",
+                  "icon": "🕰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Client Communication Systems",
+                  "icon": "📞",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cross-Functional Collaboration",
+          "icon": "🤝",
+          "subcategories": [
+            {
+              "name": "Collaborative Projects",
+              "icon": "🚀",
+              "subcategories": [
+                {
+                  "name": "Cross-Team Initiatives",
+                  "icon": "🧑‍🤝‍🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Interdepartmental Cooperation",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Matrix Team Effectiveness",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Collaborative Problem Solving",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Joint Achievement Recognition",
+                  "icon": "🎉",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Team Dynamics",
+              "icon": "👥",
+              "subcategories": [
+                {
+                  "name": "Team Formation Processes",
+                  "icon": "🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Group Development Stages",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Team Role Clarification",
+                  "icon": "🧑‍💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Collective Decision Making",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Team Conflict Management",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Collaborative Tools",
+              "icon": "🛠️",
+              "subcategories": [
+                {
+                  "name": "Shared Workspace Utilization",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Collaborative Software Usage",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Remote Collaboration Methods",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Team Communication Platforms",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Collaborative Workflow Systems",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Communication & Influence",
+          "icon": "🗣️",
+          "subcategories": [
+            {
+              "name": "Public Speaking",
+              "icon": "🎤",
+              "subcategories": [
+                {
+                  "name": "Presentation Development",
+                  "icon": "📊",
+                  "subcategories": [
+                    {
+                      "name": "Content Organization",
+                      "icon": "🏗️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Visual Aid Creation",
+                      "icon": "🖼️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Narrative Structure",
+                      "icon": "📖",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Audience Analysis",
+                      "icon": "👥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Material Customization",
+                      "icon": "🎯",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Delivery Skills",
+                  "icon": "🗣️",
+                  "subcategories": [
+                    {
+                      "name": "Voice Projection",
+                      "icon": "📢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Body Language Utilization",
+                      "icon": "🧍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Eye Contact Techniques",
+                      "icon": "👀",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Movement & Gestures",
+                      "icon": "🚶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Audience Engagement",
+                      "icon": "🤝",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Speaking Venues",
+                  "icon": "🏟️",
+                  "subcategories": [
+                    {
+                      "name": "Toastmasters Events",
+                      "icon": "🎙️",
+                      "subcategories": [
+                        {
+                          "name": "Club Meeting Participation",
+                          "icon": "🗣️",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Speech Contest Preparation",
+                          "icon": "🏆",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Leadership Role Development",
+                          "icon": "👑",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Evaluator Skill Building",
+                          "icon": "🧐",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Speaking Certification Programs",
+                          "icon": "📜",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Speech Competitions",
+                      "icon": "🏆",
+                      "subcategories": [
+                        {
+                          "name": "Competition Preparation",
+                          "icon": "📚",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Competition Category Selection",
+                          "icon": "🎯",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Judging Criteria Understanding",
+                          "icon": "🧐",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Performance Refinement",
+                          "icon": "✨",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Post-Competition Integration",
+                          "icon": "🔄",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Panel Discussions",
+                      "icon": "🗣️💬",
+                      "subcategories": [
+                        {
+                          "name": "Panelist Preparation",
+                          "icon": "📋",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Question Anticipation",
+                          "icon": "❓",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Co-Panelist Interaction",
+                          "icon": "🤝",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Moderator Collaboration",
+                          "icon": "🧑‍⚖️",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Audience Q&A Management",
+                          "icon": "❓",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Pitch Practice",
+                      "icon": "🗣️🔂",
+                      "subcategories": [
+                        {
+                          "name": "Elevator Pitch Development",
+                          "icon": "🚀",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Project Pitch Construction",
+                          "icon": "🏗️",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Investor Pitch Design",
+                          "icon": "💰",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Client Proposal Presentation",
+                          "icon": "🤝",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Idea Pitch Refinement",
+                          "icon": "💡",
+                          "subcategories": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Written Communication",
+              "icon": "✍️",
+              "subcategories": [
+                {
+                  "name": "Business Writing",
+                  "icon": "💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Email Communication",
+                  "icon": "✉️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Report Development",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Proposal Creation",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Documentation Skills",
+                  "icon": "📝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Persuasion & Influence",
+              "icon": "💪",
+              "subcategories": [
+                {
+                  "name": "Persuasive Communication",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Influencing Without Authority",
+                  "icon": "✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stakeholder Management",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Change Advocacy",
+                  "icon": "📣",
+                  "subcategories": []
+                },
+                {
+                  "name": "Idea Championing",
+                  "icon": "💡",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Workplace Effectiveness",
+      "icon": "🏢",
+      "subcategories": [
+        {
+          "name": "Work Environment Optimization",
+          "icon": "✨",
+          "subcategories": [
+            {
+              "name": "Physical Workspace",
+              "icon": "🖥️",
+              "subcategories": [
+                {
+                  "name": "Ergonomic Setup",
+                  "icon": "🪑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Environment Personalization",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Distraction Management",
+                  "icon": "🎧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Organization Systems",
+                  "icon": "📁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Health-Supporting Workspace",
+                  "icon": "❤️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Digital Workspace",
+              "icon": "💻",
+              "subcategories": [
+                {
+                  "name": "Digital Tool Organization",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Virtual Environment Design",
+                  "icon": "🖼️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Online Workspace Customization",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Distraction Management",
+                  "icon": "🎧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technology Integration",
+                  "icon": "🔗",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Remote & Hybrid Work",
+              "icon": "🏠",
+              "subcategories": [
+                {
+                  "name": "Remote Work Strategies",
+                  "icon": "💻",
+                  "subcategories": [
+                    {
+                      "name": "Home Office Setup",
+                      "icon": "🏠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Remote Communication Protocols",
+                      "icon": "📞",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Virtual Presence Creation",
+                      "icon": "💻",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Remote Boundary Setting",
+                      "icon": "🚧",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Distributed Team Collaboration",
+                      "icon": "🌐",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Work Location Flexibility",
+                  "icon": "📍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hybrid Schedule Optimization",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Remote-Office Integration",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Location-Independent Productivity",
+                  "icon": "🌎",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Workplace Culture Navigation",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Culture Reading Skills",
+                  "icon": "🧐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Norm Identification",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Value Alignment",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Adaptation",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Positive Culture Contribution",
+                  "icon": "➕",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Productivity Systems",
+          "icon": "🚀",
+          "subcategories": [
+            {
+              "name": "Personal Productivity",
+              "icon": "🧑",
+              "subcategories": [
+                {
+                  "name": "Workplace Efficiency",
+                  "icon": "⚙️",
+                  "subcategories": [
+                    {
+                      "name": "Task Management Systems",
+                      "icon": "✅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Prioritization Frameworks",
+                      "icon": "🔢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Focus Enhancement",
+                      "icon": "🎯",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Energy Management",
+                      "icon": "⚡️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Efficiency Optimization",
+                      "icon": "📈",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Time Management",
+                  "icon": "⏰",
+                  "subcategories": [
+                    {
+                      "name": "Time Blocking Methods",
+                      "icon": "🗓️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Calendar Management",
+                      "icon": "📅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Meeting Optimization",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Time Audit Processes",
+                      "icon": "🕰️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Time Investment Analysis",
+                      "icon": "💰",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Organizational Systems",
+                  "icon": "📁",
+                  "subcategories": [
+                    {
+                      "name": "Information Management",
+                      "icon": "💾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Reference Systems",
+                      "icon": "📚",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Physical Organization",
+                      "icon": "🗂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Digital Organization",
+                      "icon": "💻",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Workflow Design",
+                      "icon": "🔄",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Task & Project Execution",
+              "icon": "✅",
+              "subcategories": [
+                {
+                  "name": "Task Completion Systems",
+                  "icon": "🏁",
+                  "subcategories": [
+                    {
+                      "name": "Task Breakdown Methods",
+                      "icon": "📝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Next Action Identification",
+                      "icon": "➡️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Progress Tracking",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Completion Protocols",
+                      "icon": "✅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Follow-Through Systems",
+                      "icon": "🔄",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Project Management",
+                  "icon": "🏗️",
+                  "subcategories": [
+                    {
+                      "name": "Project Planning Methodologies",
+                      "icon": "🗺️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Resource Allocation",
+                      "icon": "👥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Timeline Development",
+                      "icon": "⏳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Milestone Tracking",
+                      "icon": "📍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Project Communication",
+                      "icon": "🗣️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Project Management Meetups",
+                  "icon": "👥",
+                  "subcategories": [
+                    {
+                      "name": "Project Management Methodology Groups",
+                      "icon": "📚",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tool-Specific User Groups",
+                      "icon": "🛠️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Project Management Professional Development",
+                      "icon": "🎓",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Project Management Case Study Sessions",
+                      "icon": "📈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Project Management Best Practice Exchanges",
+                      "icon": "💡",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Team Collaboration",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Team Collaboration Sessions",
+                  "icon": "👥",
+                  "subcategories": [
+                    {
+                      "name": "Collaborative Working Methods",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Team Workflow Design",
+                      "icon": "🔄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Shared Productivity Systems",
+                      "icon": "🚀",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Group Decision Processes",
+                      "icon": "🤔",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Team Communication Protocols",
+                      "icon": "🗣️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Meeting Effectiveness",
+                  "icon": "🤝",
+                  "subcategories": [
+                    {
+                      "name": "Meeting Design",
+                      "icon": "📐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Facilitation Skills",
+                      "icon": "🗣️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Participation Methods",
+                      "icon": "🙋",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Action Capture",
+                      "icon": "📝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Follow-Up Systems",
+                      "icon": "🔄",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Collaborative Decision Making",
+                  "icon": "🤔",
+                  "subcategories": [
+                    {
+                      "name": "Group Decision Frameworks",
+                      "icon": "⚖️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Consensus Building Methods",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Participatory Problem Solving",
+                      "icon": "💡",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Collective Intelligence Techniques",
+                      "icon": "🧠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Decision Implementation",
+                      "icon": "✅",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Technology & Tools",
+          "icon": "💻",
+          "subcategories": [
+            {
+              "name": "Digital Tools Workshops",
+              "icon": "🛠️",
+              "subcategories": [
+                {
+                  "name": "Productivity Software Training",
+                  "icon": "🚀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Collaboration Tool Implementation",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Project Management Software",
+                  "icon": "🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Communication Platform Mastery",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Automation Tool Utilization",
+                  "icon": "🤖",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Digital Workflow Integration",
+              "icon": "🔄",
+              "subcategories": [
+                {
+                  "name": "Cross-Platform Workflow Design",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tool Stack Development",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Integration & Automation",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Process Optimization",
+                  "icon": "⚙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Information Flow Design",
+                  "icon": "➡️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Technology Adoption",
+              "icon": "💡",
+              "subcategories": [
+                {
+                  "name": "New Tool Evaluation",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Learning Curve Management",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Implementation Planning",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technology Change Management",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Skill Development",
+                  "icon": "🛠️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Focus & Deep Work",
+          "icon": "🎯",
+          "subcategories": [
+            {
+              "name": "Attention Management",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Focus Enhancement Techniques",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Distraction Mitigation",
+                  "icon": "🎧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Attention Restoration",
+                  "icon": "🧘‍♀️🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sustained Concentration",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Task Immersion Methods",
+                  "icon": "🌊",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Deep Work Practices",
+              "icon": "🧘‍♀️",
+              "subcategories": [
+                {
+                  "name": "Deep Work Scheduling",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Deep Work Environment Design",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mental Preparation Rituals",
+                  "icon": "🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Deep Work Measurement",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Progressive Deep Work Training",
+                  "icon": "📈",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Flow State Cultivation",
+              "icon": "🌊",
+              "subcategories": [
+                {
+                  "name": "Flow Trigger Identification",
+                  "icon": "🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Flow State Conditions",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Flow Activity Design",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Flow Recovery",
+                  "icon": "🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Flow State Extension",
+                  "icon": "⏳",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Cognitive Performance",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Mental Energy Management",
+                  "icon": "⚡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Brain-Friendly Work Rhythms",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cognitive Load Balancing",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mental Fatigue Prevention",
+                  "icon": "😴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cognitive Enhancement Practices",
+                  "icon": "💡",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Work-Life Integration & Wellbeing",
+      "icon": "⚖️",
+      "subcategories": [
+        {
+          "name": "Work-Life Balance",
+          "icon": "👨‍💼👩‍💼⚖️",
+          "subcategories": [
+            {
+              "name": "Boundary Management",
+              "icon": "boundaries",
+              "subcategories": [
+                {
+                  "name": "Work Hour Containment",
+                  "icon": "⏰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Off-Hours Communication Policy",
+                  "icon": "📵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Physical Space Separation",
+                  "icon": "🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Boundary Setting",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Role Transition Rituals",
+                  "icon": "🚪",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Life Design with Work",
+              "icon": "🧘‍♂️🧘‍♀️",
+              "subcategories": [
+                {
+                  "name": "Holistic Schedule Creation",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Priority Alignment",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Energy-Based Scheduling",
+                  "icon": "⚡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Life-Supporting Work Patterns",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Integration vs. Separation",
+                  "icon": "⚖️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Flexible Work Arrangements",
+              "icon": "🤸‍♀️",
+              "subcategories": [
+                {
+                  "name": "Schedule Flexibility Negotiation",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Alternative Work Schedules",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Compressed Work Weeks",
+                  "icon": "⏳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Flexible Location Arrangements",
+                  "icon": "📍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Results-Oriented Work Design",
+                  "icon": "🎯",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Stress Management & Wellbeing",
+          "icon": "🧘‍♂️🧘‍♀️",
+          "subcategories": [
+            {
+              "name": "Workplace Stress Management",
+              "icon": "🤯",
+              "subcategories": [
+                {
+                  "name": "Work Stressor Identification",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stress Response Strategies",
+                  "icon": "🧘‍♀️🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pressure Management Techniques",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Deadline Stress Reduction",
+                  "icon": "⏳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Workplace Emotional Regulation",
+                  "icon": "🧠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Burnout Prevention",
+              "icon": "🔥",
+              "subcategories": [
+                {
+                  "name": "Burnout Warning Sign Recognition",
+                  "icon": "⚠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Preventative Rest Practices",
+                  "icon": "😴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Workload Management",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Energy Preservation",
+                  "icon": "⚡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Recovery System Design",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Mental Health at Work",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Workplace Mental Health Practices",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Psychological Safety Creation",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mental Health Resource Utilization",
+                  "icon": "🆘",
+                  "subcategories": []
+                },
+                {
+                  "name": "Emotional Support Networks",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mindfulness in Workplace Settings",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Physical Wellbeing Integration",
+              "icon": "🏃‍♂️",
+              "subcategories": [
+                {
+                  "name": "Movement During Workday",
+                  "icon": "🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ergonomic Injury Prevention",
+                  "icon": "🪑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Energy-Supporting Nutrition",
+                  "icon": "🍎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sleep Quality Improvement",
+                  "icon": "😴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Physical-Mental Connection",
+                  "icon": "🔗",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mindful Work Practices",
+          "icon": "🧘‍♀️",
+          "subcategories": [
+            {
+              "name": "Present-Focused Working",
+              "icon": "🎯",
+              "subcategories": [
+                {
+                  "name": "Single-Tasking Methods",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mindful Task Engagement",
+                  "icon": "🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Present Moment Awareness",
+                  "icon": "🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Attention Training",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conscious Work Habits",
+                  "icon": "сознательные",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Intentional Career Development",
+              "icon": "🧭",
+              "subcategories": [
+                {
+                  "name": "Purpose-Driven Career Choices",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Values-Based Decision Making",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mindful Advancement",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conscious Skill Development",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Intentional Relationship Building",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Reflective Work Practice",
+              "icon": "🤔",
+              "subcategories": [
+                {
+                  "name": "Work Reflection Rituals",
+                  "icon": "🧘‍♀️🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Experience Integration",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Learning Extraction",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Growth Mindset Application",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Continuous Improvement Practice",
+                  "icon": "📈",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Compassionate Professionalism",
+              "icon": "💖",
+              "subcategories": [
+                {
+                  "name": "Self-Compassion at Work",
+                  "icon": "❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Colleague Compassion",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Empathetic Leadership",
+                  "icon": "👑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Kind Communication",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Supportive Work Environment",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Meaning & Purpose in Work",
+          "icon": "💡",
+          "subcategories": [
+            {
+              "name": "Purpose Identification",
+              "icon": "❓",
+              "subcategories": [
+                {
+                  "name": "Work Purpose Clarification",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Personal Mission Development",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Impact Focus Cultivation",
+                  "icon": "💥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Legacy Consideration",
+                  "icon": "🕰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Purpose Evolution",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Meaningful Contribution",
+              "icon": "🌟",
+              "subcategories": [
+                {
+                  "name": "Value-Adding Work Identification",
+                  "icon": "💎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Contribution Amplification",
+                  "icon": "📢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Purpose-Task Alignment",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Impact Measurement",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Significance Recognition",
+                  "icon": "✨",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Values Expression Through Work",
+              "icon": "💖",
+              "subcategories": [
+                {
+                  "name": "Value-Work Alignment",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Value-Based Choice Making",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Authentic Self-Expression",
+                  "icon": "✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Integrity Practices",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Value Conflict Resolution",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Joy & Engagement",
+              "icon": "😊",
+              "subcategories": [
+                {
+                  "name": "Strength Utilization",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Interest Incorporation",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Enjoyment Enhancement",
+                  "icon": "✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Engagement Cultivation",
+                  "icon": "🔥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Passion Project Development",
+                  "icon": "💡",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

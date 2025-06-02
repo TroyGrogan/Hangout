@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1,
+    "prompt": "Suggest a simple workout routine I can do at home.",
+    "displayText": "Home workout routine",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 2,
+    "prompt": "Suggest ways to find local leagues or pickup games for American Football, Soccer, Basketball, or Volleyball.",
+    "displayText": "Find Local Ball Sports Leagues",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 3,
+    "prompt": "Suggest resources for learning the rules and basic skills for Baseball, Softball, or Cricket.",
+    "displayText": "Learn Baseball/Softball/Cricket Basics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 4,
+    "prompt": "Suggest ways to get involved in Rugby (Union, League, Sevens).",
+    "displayText": "Get Involved in Rugby",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 5,
+    "prompt": "Suggest ways to find opportunities to play Ice Hockey or Field Hockey.",
+    "displayText": "Find Hockey Opportunities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 6,
+    "prompt": "Suggest resources for learning Lacrosse, Water Polo, or Handball.",
+    "displayText": "Learn Lacrosse/Water Polo/Handball",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 7,
+    "prompt": "Suggest ways to find teams or clubs for Netball, Ultimate Frisbee, or Spikeball.",
+    "displayText": "Find Netball/Ultimate/Spikeball Teams",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 8,
+    "prompt": "Suggest ways to organize or join casual games like Dodgeball or Kickball.",
+    "displayText": "Organize/Join Dodgeball/Kickball",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 9,
+    "prompt": "Explain the basics of less common team sports like Tchoukball, Sepak Takraw, or Kabaddi.",
+    "displayText": "Learn Less Common Team Sports",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 10,
+    "prompt": "Suggest resources for learning about Irish sports like Hurling or Gaelic Football.",
+    "displayText": "Learn Irish Sports (Hurling/Gaelic Football)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 11,
+    "prompt": "Suggest ways to learn about Australian Rules Football or Pes\u00e4pallo.",
+    "displayText": "Learn Aussie Rules/Pes\u00e4pallo",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 12,
+    "prompt": "Suggest ways to find opportunities to play Bandy, Floorball, or Korfball.",
+    "displayText": "Find Bandy/Floorball/Korfball",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 13,
+    "prompt": "Suggest resources for learning Futsal or Underwater Hockey.",
+    "displayText": "Learn Futsal/Underwater Hockey",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 14,
+    "prompt": "Suggest ways to get involved in Quadball (Quidditch).",
+    "displayText": "Get Involved in Quadball",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 15,
+    "prompt": "Suggest ways to join a relay racing team or learn about dragon boat racing.",
+    "displayText": "Join Relay/Dragon Boat Racing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 16,
+    "prompt": "Suggest resources for finding outrigger canoe racing or rowing clubs.",
+    "displayText": "Find Canoe Racing/Rowing Clubs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 17,
+    "prompt": "Suggest ways to participate in team paintball or tug of war events.",
+    "displayText": "Participate in Paintball/Tug of War",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 18,
+    "prompt": "Suggest resources for learning Tennis, Badminton, Squash, or Racquetball.",
+    "displayText": "Learn Racquet Sports",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 19,
+    "prompt": "Suggest ways to find places to play Table Tennis, Padel, or Pickleball.",
+    "displayText": "Find Table Tennis/Padel/Pickleball Courts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 20,
+    "prompt": "Explain the basics of Real Tennis or Jai Alai.",
+    "displayText": "Learn Real Tennis/Jai Alai",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 21,
+    "prompt": "Suggest ways to get started with Golf or find local courses/driving ranges.",
+    "displayText": "Get Started with Golf",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 22,
+    "prompt": "Suggest resources for learning Archery or finding ranges.",
+    "displayText": "Learn Archery/Find Ranges",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 23,
+    "prompt": "Suggest ways to learn about target shooting (Skeet, Trap) or find clubs.",
+    "displayText": "Learn Target Shooting",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 24,
+    "prompt": "Suggest ways to find places to play Darts, Billiards/Pool, or Snooker.",
+    "displayText": "Find Darts/Billiards/Snooker Venues",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 25,
+    "prompt": "Suggest resources for learning Bowling or Curling.",
+    "displayText": "Learn Bowling/Curling",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 26,
+    "prompt": "Suggest ways to find gyms or dojos for learning Boxing, Kickboxing, or Muay Thai.",
+    "displayText": "Find Striking Martial Arts Gyms",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 27,
+    "prompt": "Suggest resources for learning grappling arts like Judo, Wrestling, or Brazilian Jiu-Jitsu.",
+    "displayText": "Learn Grappling Martial Arts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 28,
+    "prompt": "Suggest ways to find schools for learning Karate, Taekwondo, Kung Fu, or Capoeira.",
+    "displayText": "Find Traditional Martial Arts Schools",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 29,
+    "prompt": "Suggest resources for learning weapons-based arts like Kendo or Fencing.",
+    "displayText": "Learn Kendo/Fencing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 30,
+    "prompt": "Suggest resources for learning Aikido or Hapkido.",
+    "displayText": "Learn Aikido/Hapkido",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 31,
+    "prompt": "Suggest ways to get involved in Mixed Martial Arts (MMA) training.",
+    "displayText": "Get Started with MMA Training",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 32,
+    "prompt": "Suggest ways to join a local track and field club or practice running/jumping/throwing events.",
+    "displayText": "Join Track & Field Club",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 33,
+    "prompt": "Suggest resources for learning different swimming strokes or finding pools.",
+    "displayText": "Learn Swimming/Find Pools",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 34,
+    "prompt": "Suggest ways to learn Diving or Synchronized Swimming.",
+    "displayText": "Learn Diving/Synchronized Swimming",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 35,
+    "prompt": "Suggest resources for learning Water Skiing or Wakeboarding.",
+    "displayText": "Learn Water Skiing/Wakeboarding",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 36,
+    "prompt": "Suggest ways to get started with Surfing, Windsurfing, or Kitesurfing.",
+    "displayText": "Get Started with Surfing/Windsurfing/Kitesurfing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 37,
+    "prompt": "Suggest resources for learning Paddleboarding or Bodyboarding.",
+    "displayText": "Learn Paddleboarding/Bodyboarding",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 38,
+    "prompt": "Suggest ways to get started with Alpine or Cross-Country Skiing.",
+    "displayText": "Get Started with Skiing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 39,
+    "prompt": "Suggest resources for learning Ski Jumping, Freestyle Skiing, or Biathlon.",
+    "displayText": "Learn Specialized Skiing Disciplines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 40,
+    "prompt": "Suggest ways to learn Snowboarding or find resorts.",
+    "displayText": "Learn Snowboarding/Find Resorts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 41,
+    "prompt": "Suggest resources for learning Figure Skating or Speed Skating.",
+    "displayText": "Learn Figure/Speed Skating",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 42,
+    "prompt": "Suggest ways to learn about or try Bobsleigh, Luge, or Skeleton.",
+    "displayText": "Learn Sliding Winter Sports",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 43,
+    "prompt": "Suggest resources for getting into Road Cycling or Track Cycling.",
+    "displayText": "Get Started with Road/Track Cycling",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 44,
+    "prompt": "Suggest ways to learn Mountain Biking, BMX, or Cyclocross.",
+    "displayText": "Learn Mountain Biking/BMX/Cyclocross",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 45,
+    "prompt": "Suggest ways to find classes for Artistic Gymnastics, Rhythmic Gymnastics, or Trampoline.",
+    "displayText": "Find Gymnastics Classes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 46,
+    "prompt": "Suggest resources for learning equestrian sports like Show Jumping, Dressage, or Eventing.",
+    "displayText": "Learn Equestrian Sports",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 47,
+    "prompt": "Suggest ways to get involved in Polo or Rodeo events.",
+    "displayText": "Get Involved in Polo/Rodeo",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 48,
+    "prompt": "Suggest ways to follow or learn about Formula Racing or Rally Racing.",
+    "displayText": "Follow Motorsports (Formula/Rally)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 49,
+    "prompt": "Suggest resources for getting into Motorcycle Racing, Motocross, or Karting.",
+    "displayText": "Get Into Motorcycle Racing/Karting",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 50,
+    "prompt": "Suggest ways to learn Rock Climbing or Bouldering at a local gym or outdoors.",
+    "displayText": "Learn Rock Climbing/Bouldering",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 51,
+    "prompt": "Suggest resources for learning Parkour or Skateboarding.",
+    "displayText": "Learn Parkour/Skateboarding",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 52,
+    "prompt": "Suggest ways to get started with Inline Skating or find local skate parks.",
+    "displayText": "Get Started with Inline Skating",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 53,
+    "prompt": "Suggest resources for learning about Mountaineering.",
+    "displayText": "Learn About Mountaineering",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 54,
+    "prompt": "Suggest ways to learn about extreme air sports like BASE Jumping, Paragliding, or Skydiving.",
+    "displayText": "Learn Extreme Air Sports",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 55,
+    "prompt": "Suggest ways to get started with Weightlifting or Powerlifting training.",
+    "displayText": "Get Started with Weightlifting/Powerlifting",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 56,
+    "prompt": "Suggest resources for learning about Bodybuilding or Strongman/Strongwoman competitions.",
+    "displayText": "Learn Bodybuilding/Strongman",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 57,
+    "prompt": "Suggest ways to find CrossFit gyms or classes.",
+    "displayText": "Find CrossFit Gyms",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 58,
+    "prompt": "Suggest ways to participate in multisport events like Triathlons or Duathlons.",
+    "displayText": "Participate in Triathlons/Duathlons",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 59,
+    "prompt": "Suggest resources for finding gyms or fitness centers near me.",
+    "displayText": "Find Local Gyms",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 60,
+    "prompt": "Suggest simple aerobic exercises I can do (running, cycling, swimming, dance).",
+    "displayText": "Simple Aerobic Exercises",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 61,
+    "prompt": "Suggest beginner strength training routines using weights or bodyweight.",
+    "displayText": "Beginner Strength Training Routines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 62,
+    "prompt": "Suggest basic Yoga or Pilates routines for flexibility and stretching.",
+    "displayText": "Basic Yoga/Pilates Routines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 63,
+    "prompt": "Suggest exercises to improve balance and coordination (Tai Chi, balance board).",
+    "displayText": "Improve Balance/Coordination Exercises",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 64,
+    "prompt": "Suggest popular group fitness classes I could try (Spinning, Bootcamp, Zumba).",
+    "displayText": "Try Group Fitness Classes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 65,
+    "prompt": "Suggest local trails or parks for hiking.",
+    "displayText": "Find Local Hiking Trails",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 66,
+    "prompt": "Suggest resources for learning camping basics or finding campsites.",
+    "displayText": "Learn Camping Basics/Find Campsites",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 67,
+    "prompt": "Suggest ways to find local spots for Rock Climbing or Mountaineering.",
+    "displayText": "Find Local Climbing/Mountaineering Spots",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 68,
+    "prompt": "Suggest ways to get started with Orienteering or Geocaching.",
+    "displayText": "Get Started with Orienteering/Geocaching",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 69,
+    "prompt": "Suggest resources for learning Kayaking, Canoeing, or Sailing.",
+    "displayText": "Learn Kayaking/Canoeing/Sailing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 70,
+    "prompt": "Suggest ways to find places for Surfing, Windsurfing, or Kitesurfing.",
+    "displayText": "Find Surfing/Windsurfing/Kitesurfing Spots",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 71,
+    "prompt": "Suggest resources for learning Scuba Diving or finding snorkeling spots.",
+    "displayText": "Learn Scuba Diving/Find Snorkeling Spots",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 72,
+    "prompt": "Suggest ways to learn about Paragliding, Hang Gliding, or Skydiving opportunities.",
+    "displayText": "Learn Paragliding/Hang Gliding/Skydiving",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 73,
+    "prompt": "Suggest resources for learning about Bungee Jumping locations.",
+    "displayText": "Find Bungee Jumping Locations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 74,
+    "prompt": "Suggest ways to find local ski resorts or places for Snowboarding.",
+    "displayText": "Find Skiing/Snowboarding Locations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 75,
+    "prompt": "Suggest resources for finding ice skating rinks or learning to skate.",
+    "displayText": "Find Ice Skating Rinks/Lessons",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 76,
+    "prompt": "Suggest ways to try Snowshoeing or find trails.",
+    "displayText": "Try Snowshoeing/Find Trails",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 77,
+    "prompt": "Suggest classic playground games like Tag, Hide and Seek, or Capture The Flag.",
+    "displayText": "Classic Playground Games",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 78,
+    "prompt": "Suggest ways to learn different dance styles (Ballet, Hip Hop, Salsa, Ballroom).",
+    "displayText": "Learn Different Dance Styles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 79,
+    "prompt": "Suggest fun activities using a Frisbee, Jump Rope, or Hula Hoop.",
+    "displayText": "Frisbee/Jump Rope/Hula Hoop Activities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 80,
+    "prompt": "Suggest resources for learning Parkour or Free Running safely.",
+    "displayText": "Learn Parkour/Free Running Safely",
+    "isTemplate": false,
+    "type": "do"
+  }
+]

@@ -1,0 +1,394 @@
+[
+  {
+    "id": 1,
+    "prompt": "Suggest ways I can understand my personal relationship with time and clarify my time values.",
+    "displayText": "Explore Time Philosophy & Values",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 2,
+    "prompt": "Explain different calendaring systems (digital, paper, hybrid) and techniques like time blocking or theme days.",
+    "displayText": "Learn Calendaring Systems",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 3,
+    "prompt": "Suggest ways to use specialized time management approaches like timeboxing or the Pomodoro Technique.",
+    "displayText": "Explore Pomodoro/Timeboxing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 4,
+    "prompt": "Explain different prioritization frameworks (Eisenhower Matrix, MoSCoW, value-based).",
+    "displayText": "Learn Prioritization Frameworks",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 5,
+    "prompt": "Suggest strategies for cultivating deep work habits and improving focus.",
+    "displayText": "Practice Deep Work/Focus",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 6,
+    "prompt": "Suggest techniques for eliminating or managing digital, environmental, and internal distractions.",
+    "displayText": "Manage Distractions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 7,
+    "prompt": "Suggest ways to track my time and audit my schedule to identify time leaks.",
+    "displayText": "Track Time/Audit Schedule",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 8,
+    "prompt": "Suggest strategies for managing my energy levels throughout the day for better productivity.",
+    "displayText": "Manage Personal Energy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 9,
+    "prompt": "Suggest ways to set better boundaries for work-life integration.",
+    "displayText": "Set Work-Life Boundaries",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 10,
+    "prompt": "Suggest strategies for effective delegation or outsourcing tasks.",
+    "displayText": "Learn Delegation/Outsourcing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 11,
+    "prompt": "Suggest ways to optimize my personal workflows and processes for efficiency.",
+    "displayText": "Optimize Personal Workflows",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 12,
+    "prompt": "Suggest techniques for running more effective and efficient meetings.",
+    "displayText": "Optimize Meetings",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 13,
+    "prompt": "Explain the science behind habit formation (habit loop, neuroplasticity).",
+    "displayText": "Understand Habit Science",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 14,
+    "prompt": "Suggest ways to use habit stacking effectively.",
+    "displayText": "Practice Habit Stacking",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 15,
+    "prompt": "Explain habit implementation frameworks like Tiny Habits or Atomic Habits.",
+    "displayText": "Learn Habit Frameworks",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 16,
+    "prompt": "Suggest strategies for starting new habits using micro-habits or implementation intentions.",
+    "displayText": "Start New Habits Effectively",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 17,
+    "prompt": "Suggest ways to sustain habits using tracking, accountability, or commitment devices.",
+    "displayText": "Sustain Habits Long-Term",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 18,
+    "prompt": "Suggest ways I can identify my habit triggers and design my environment for success.",
+    "displayText": "Manage Habit Triggers/Environment",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 19,
+    "prompt": "Suggest strategies for replacing bad habits with better ones.",
+    "displayText": "Replace Bad Habits",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 20,
+    "prompt": "Suggest ways to identify and leverage keystone habits.",
+    "displayText": "Identify/Leverage Keystone Habits",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 21,
+    "prompt": "Suggest ideas for designing effective morning and evening routines.",
+    "displayText": "Design Morning/Evening Routines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 22,
+    "prompt": "Suggest strategies for building specific habits related to health, productivity, relationships, or finances.",
+    "displayText": "Build Specific Habits (Health, etc.)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 23,
+    "prompt": "Suggest effective habit tracking methods (digital or analog).",
+    "displayText": "Effective Habit Tracking",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 24,
+    "prompt": "Suggest ways to set up accountability partnerships or reward systems for habits.",
+    "displayText": "Habit Accountability/Rewards",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 25,
+    "prompt": "Suggest strategies for getting back on track after missing a habit.",
+    "displayText": "Habit Relapse Recovery",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 26,
+    "prompt": "Explain different methods for decluttering my home (KonMari, Minimalist Game).",
+    "displayText": "Learn Home Decluttering Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 27,
+    "prompt": "Suggest organizational systems for different areas of my home.",
+    "displayText": "Home Organization Systems",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 28,
+    "prompt": "Suggest ways to optimize space and find effective storage solutions at home.",
+    "displayText": "Optimize Home Space/Storage",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 29,
+    "prompt": "Suggest routines for maintaining home organization (daily, weekly, seasonal).",
+    "displayText": "Maintain Home Organization",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 30,
+    "prompt": "Suggest strategies for decluttering my digital life (files, apps, media).",
+    "displayText": "Digital Decluttering Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 31,
+    "prompt": "Suggest systems for managing digital files, folders, and cloud storage.",
+    "displayText": "Digital Data Management",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 32,
+    "prompt": "Suggest techniques for organizing email and achieving inbox zero.",
+    "displayText": "Email Organization/Inbox Zero",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 33,
+    "prompt": "Suggest ways to organize my digital workspace (desktop, bookmarks, passwords).",
+    "displayText": "Organize Digital Workspace",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 34,
+    "prompt": "Suggest methods for tracking expenses and analyzing spending patterns.",
+    "displayText": "Track Expenses/Analyze Spending",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 35,
+    "prompt": "Suggest ways to organize financial documents, statements, and receipts.",
+    "displayText": "Organize Financial Documents",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 36,
+    "prompt": "Suggest systems for personal knowledge management (PKM) like Zettelkasten or note-taking apps.",
+    "displayText": "Personal Knowledge Management (PKM)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 37,
+    "prompt": "Suggest strategies for creating a paperless system for documents.",
+    "displayText": "Create Paperless System",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 38,
+    "prompt": "Suggest ways to manage information overload and process content effectively.",
+    "displayText": "Manage Information Overload",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 39,
+    "prompt": "Suggest strategies for organizing and managing life administration tasks.",
+    "displayText": "Organize Life Admin Tasks",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 40,
+    "prompt": "Suggest ways to automate personal tasks or administrative processes.",
+    "displayText": "Automate Personal Tasks",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 41,
+    "prompt": "Suggest techniques for creating a compelling personal vision statement or vision board.",
+    "displayText": "Create Personal Vision",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 42,
+    "prompt": "Explain goal-setting frameworks like SMART, OKRs, or WOOP.",
+    "displayText": "Learn Goal-Setting Frameworks",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 43,
+    "prompt": "Suggest methods for effective goal planning (backward planning, quarterly planning).",
+    "displayText": "Effective Goal Planning Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 44,
+    "prompt": "Suggest strategies for breaking down large goals into smaller, manageable steps.",
+    "displayText": "Break Down Large Goals",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 45,
+    "prompt": "Suggest ways to anticipate and plan for obstacles when pursuing goals.",
+    "displayText": "Plan for Goal Obstacles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 46,
+    "prompt": "Suggest effective systems for monitoring progress towards goals (tracking, journaling).",
+    "displayText": "Monitor Goal Progress",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 47,
+    "prompt": "Suggest ways to conduct effective personal reviews (weekly, monthly, quarterly, annual).",
+    "displayText": "Conduct Personal Reviews",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 48,
+    "prompt": "Suggest strategies for managing motivation and maintaining momentum towards goals.",
+    "displayText": "Manage Goal Motivation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 49,
+    "prompt": "Suggest ways to cultivate a growth mindset for achieving goals.",
+    "displayText": "Cultivate Growth Mindset",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 50,
+    "prompt": "Suggest ideas for celebrating milestones and successes effectively.",
+    "displayText": "Celebrate Goal Milestones",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 51,
+    "prompt": "Suggest ways I can design a 'Personal Operating System' with core principles and policies.",
+    "displayText": "Design Personal Operating System",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 52,
+    "prompt": "Suggest frameworks for designing effective daily, weekly, and seasonal routines.",
+    "displayText": "Design Effective Routines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 53,
+    "prompt": "Explain personal productivity workflows like GTD or Personal Kanban.",
+    "displayText": "Learn Productivity Workflows (GTD, Kanban)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 54,
+    "prompt": "Suggest ways I can design and run personal life experiments.",
+    "displayText": "Run Personal Life Experiments",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 55,
+    "prompt": "Suggest strategies for designing a cohesive personal technology ecosystem.",
+    "displayText": "Design Personal Tech Ecosystem",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 56,
+    "prompt": "Suggest ways to develop a 'Second Brain' or external memory system.",
+    "displayText": "Develop Second Brain System",
+    "isTemplate": false,
+    "type": "do"
+  }
+]

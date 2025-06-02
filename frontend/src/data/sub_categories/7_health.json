@@ -1,0 +1,2598 @@
+{
+  "id": 85,
+  "name": "Health, Wellness, and Mindfulness",
+  "icon": "🧘‍♀️",
+  "subcategories": [
+    {
+      "name": "Physical Health",
+      "icon": "🏃‍♂️",
+      "subcategories": [
+        {
+          "name": "Exercise & Movement",
+          "icon": "🤸‍♀️",
+          "subcategories": [
+            {
+              "name": "Cardiovascular Training",
+              "icon": "❤️",
+              "subcategories": [
+                {
+                  "name": "Running/Jogging",
+                  "icon": "🏃‍♂️🏃‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Walking",
+                  "icon": "🚶‍♀️🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cycling",
+                  "icon": "🚴‍♂️🚴‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Swimming",
+                  "icon": "🏊‍♂️🏊‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rowing",
+                  "icon": "🚣‍♀️🚣‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Elliptical Training",
+                  "icon": "🏃‍♀️🏃‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stair Climbing",
+                  "icon": "🚶‍♂️🚶‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Jump Rope",
+                  "icon": "😃𓎤⬆️",
+                  "subcategories": []
+                },
+                {
+                  "name": "HIIT (High-Intensity Interval Training)",
+                  "icon": "🔥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Aerobics Classes",
+                  "icon": "💃",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Strength Training",
+              "icon": "🏋️‍♂️",
+              "subcategories": [
+                {
+                  "name": "Weightlifting",
+                  "icon": "🏋️‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bodyweight Training",
+                  "icon": "🤸‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Resistance Band Workouts",
+                  "icon": "𓍯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Kettlebell Training",
+                  "icon": "🏋️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Powerlifting",
+                  "icon": "🏋️‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Olympic Lifting",
+                  "icon": "🏋️‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Circuit Training",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Functional Fitness",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Isometric Training",
+                  "icon": "🧘‍♂️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Flexibility & Mobility",
+              "icon": "🧘‍♂️🧘‍♀️",
+              "subcategories": [
+                {
+                  "name": "Stretching Routines",
+                  "icon": "🤸‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dynamic Stretching",
+                  "icon": "🤸‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Static Stretching",
+                  "icon": "🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mobility Exercises",
+                  "icon": "🤸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Joint Health Practices",
+                  "icon": "🦴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Foam Rolling",
+                  "icon": "🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Myofascial Release",
+                  "icon": "💆",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Mind-Body Exercise",
+              "icon": "🧘‍♀️🧘‍♂️",
+              "subcategories": [
+                {
+                  "name": "Yoga",
+                  "icon": "🧘‍♀️",
+                  "subcategories": [
+                    {
+                      "name": "Hatha Yoga",
+                      "icon": "🧘‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Vinyasa Yoga",
+                      "icon": "🌊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Iyengar Yoga",
+                      "icon": "🧱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ashtanga Yoga",
+                      "icon": "💪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Kundalini Yoga",
+                      "icon": "🐍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Yin Yoga",
+                      "icon": "🧘‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Restorative Yoga",
+                      "icon": "🧘‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Hot Yoga",
+                      "icon": "🔥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Aerial Yoga",
+                      "icon": "🌬️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Pilates",
+                  "icon": "🤸‍♂️",
+                  "subcategories": [
+                    {
+                      "name": "Mat Pilates",
+                      "icon": "🧘‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Reformer Pilates",
+                      "icon": "🤸‍♀️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Clinical Pilates",
+                      "icon": "🧑‍⚕️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Tai Chi",
+                  "icon": "☯️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Qigong",
+                  "icon": "🌬️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Barre",
+                  "icon": "🩰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Body Rolling",
+                  "icon": "🌀",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Sports & Recreation",
+              "icon": "⚽",
+              "subcategories": [
+                {
+                  "name": "Team Sports",
+                  "icon": "🧑‍🤝‍🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Individual Sports",
+                  "icon": "🤸‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Recreational Activities",
+                  "icon": "🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adventure Sports",
+                  "icon": "🏞️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Specialized Training",
+              "icon": "🎯",
+              "subcategories": [
+                {
+                  "name": "Balance Training",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Agility Work",
+                  "icon": "🏃‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coordination Exercises",
+                  "icon": "🤸‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Core Strengthening",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Posture Improvement",
+                  "icon": "🧍‍♀️🧍‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Corrective Exercise",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rehabilitation Movements",
+                  "icon": "💖",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nutrition & Diet",
+          "icon": "🍎",
+          "subcategories": [
+            {
+              "name": "Nutritional Approaches",
+              "icon": "🍽️",
+              "subcategories": [
+                {
+                  "name": "Mediterranean Diet",
+                  "icon": "🐟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Plant-Based/Vegan",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vegetarian",
+                  "icon": "🥕",
+                  "subcategories": []
+                },
+                {
+                  "name": "Paleo Diet",
+                  "icon": "🍖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ketogenic Diet",
+                  "icon": "🥑",
+                  "subcategories": []
+                },
+                {
+                  "name": "DASH Diet",
+                  "icon": "📉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Whole Foods Diet",
+                  "icon": "🍎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Intermittent Fasting",
+                  "icon": "⏳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Raw Food Diet",
+                  "icon": "🥦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Macrobiotic Diet",
+                  "icon": "🍚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Low FODMAP Diet",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Anti-Inflammatory Diet",
+                  "icon": "🔥",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Functional Nutrition",
+              "icon": "🧬",
+              "subcategories": [
+                {
+                  "name": "Gut Health",
+                  "icon": "🦠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Microbiome Support",
+                  "icon": "🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Food Sensitivities",
+                  "icon": "🤧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Elimination Diets",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nutrient Timing",
+                  "icon": "⏰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pre/Post Workout Nutrition",
+                  "icon": "🏋️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hydration Strategies",
+                  "icon": "💧",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Nutritional Components",
+              "icon": "🧩",
+              "subcategories": [
+                {
+                  "name": "Macronutrients",
+                  "icon": "🥩",
+                  "subcategories": [
+                    {
+                      "name": "Protein",
+                      "icon": "🍗",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Carbohydrates",
+                      "icon": "🍞",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fats",
+                      "icon": "🥑",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Micronutrients",
+                  "icon": "💊",
+                  "subcategories": [
+                    {
+                      "name": "Vitamins",
+                      "icon": "💊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Minerals",
+                      "icon": "🧂",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Phytonutrients",
+                      "icon": "🌱",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Water & Hydration",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fiber Intake",
+                  "icon": "🌾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Antioxidants",
+                  "icon": "🍇",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Food Preparation",
+              "icon": "🍳",
+              "subcategories": [
+                {
+                  "name": "Meal Planning",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Batch Cooking",
+                  "icon": "🍲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Healthy Cooking Methods",
+                  "icon": "🧑‍🍳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Food Preservation",
+                  "icon": "🏺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fermentation",
+                  "icon": "🦠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Supplementation",
+              "icon": "💊",
+              "subcategories": [
+                {
+                  "name": "Vitamins & Minerals",
+                  "icon": "💊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Protein Supplements",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Herbal Supplements",
+                  "icon": "🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adaptogens",
+                  "icon": "🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pre/Probiotics",
+                  "icon": "🦠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Omega Fatty Acids",
+                  "icon": "🐟",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sleep Health",
+          "icon": "😴",
+          "subcategories": [
+            {
+              "name": "Sleep Hygiene",
+              "icon": "🌙",
+              "subcategories": [
+                {
+                  "name": "Sleep Environment Optimization",
+                  "icon": "🏡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sleep Schedule Consistency",
+                  "icon": "⏰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pre-Sleep Routines",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Electronics Management",
+                  "icon": "📱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Light Exposure Management",
+                  "icon": "☀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Sleep Disorders",
+              "icon": "💤",
+              "subcategories": [
+                {
+                  "name": "Insomnia Management",
+                  "icon": "😔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sleep Apnea Awareness",
+                  "icon": "😴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Restless Leg Syndrome",
+                  "icon": "🦵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shift Work Sleep Strategies",
+                  "icon": "🧑‍⚕️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Sleep Quality Improvement",
+              "icon": "📈",
+              "subcategories": [
+                {
+                  "name": "Deep Sleep Enhancement",
+                  "icon": "😴",
+                  "subcategories": []
+                },
+                {
+                  "name": "REM Sleep Support",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sleep Tracking",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Natural Sleep Aids",
+                  "icon": "🌿",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Circadian Rhythm Optimization",
+              "icon": "☀️",
+              "subcategories": [
+                {
+                  "name": "Light Therapy",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Chronobiology Applications",
+                  "icon": "🧬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Jet Lag Management",
+                  "icon": "✈️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Preventive Healthcare",
+          "icon": "👩‍⚕️👨‍⚕️",
+          "subcategories": [
+            {
+              "name": "Medical Screenings",
+              "icon": "🩺",
+              "subcategories": [
+                {
+                  "name": "Annual Physical Exams",
+                  "icon": "👨‍⚕️👩‍⚕️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cancer Screenings",
+                  "icon": "📋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cardiovascular Screenings",
+                  "icon": "❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bone Density Tests",
+                  "icon": "🦴",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Vaccinations & Immunizations",
+              "icon": "💉",
+              "subcategories": []
+            },
+            {
+              "name": "Dental Health",
+              "icon": "🦷",
+              "subcategories": [
+                {
+                  "name": "Oral Hygiene Practices",
+                  "icon": "🪥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dental Check-ups",
+                  "icon": "🧑‍⚕️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Gum Health",
+                  "icon": "👄",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Vision Care",
+              "icon": "👁️",
+              "subcategories": [
+                {
+                  "name": "Eye Exams",
+                  "icon": "👀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Eye Protection",
+                  "icon": "🕶️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vision Exercises",
+                  "icon": "👁️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Hearing Health",
+              "icon": "👂",
+              "subcategories": [
+                {
+                  "name": "Hearing Protection",
+                  "icon": "🎧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Auditory Health Practices",
+                  "icon": "👂",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Immune System Support",
+              "icon": "🛡️",
+              "subcategories": [
+                {
+                  "name": "Natural Immunity Boosters",
+                  "icon": "🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lifestyle Factors for Immunity",
+                  "icon": "🧬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Allergy Management",
+                  "icon": "🤧",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Chronic Disease Prevention",
+              "icon": "🛡️",
+              "subcategories": [
+                {
+                  "name": "Heart Disease Prevention",
+                  "icon": "❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Diabetes Prevention",
+                  "icon": "🩸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cancer Risk Reduction",
+                  "icon": "♋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Osteoporosis Prevention",
+                  "icon": "🦴",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Physical Therapy & Rehabilitation",
+          "icon": "🧑‍⚕️",
+          "subcategories": [
+            {
+              "name": "Injury Recovery",
+              "icon": "💖",
+              "subcategories": []
+            },
+            {
+              "name": "Pain Management",
+              "icon": "🩹",
+              "subcategories": []
+            },
+            {
+              "name": "Posture Correction",
+              "icon": "🧍‍♀️🧍‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Movement Pattern Retraining",
+              "icon": "🚶‍♂️🚶‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Chronic Condition Management",
+              "icon": "🩺",
+              "subcategories": []
+            },
+            {
+              "name": "Assistive Devices",
+              "icon": "♿",
+              "subcategories": []
+            },
+            {
+              "name": "Manual Therapies",
+              "icon": "💆",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mental Health",
+      "icon": "🧠",
+      "subcategories": [
+        {
+          "name": "Emotional Wellbeing",
+          "icon": "😊",
+          "subcategories": [
+            {
+              "name": "Emotional Intelligence",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Self-Awareness",
+                  "icon": "🧐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Emotional Regulation",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Awareness",
+                  "icon": "👭👫👬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Relationship Management",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Stress Management",
+              "icon": "🧘‍♀️🧘‍♂️",
+              "subcategories": [
+                {
+                  "name": "Stress Reduction Techniques",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Relaxation Practices",
+                  "icon": "😌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Time Management",
+                  "icon": "⏰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Workload Management",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Boundary Setting",
+                  "icon": "🚧",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Resilience Building",
+              "icon": "💪",
+              "subcategories": [
+                {
+                  "name": "Adaptive Coping Strategies",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Post-Traumatic Growth",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hardiness Development",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adversity Navigation",
+                  "icon": "🧭",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Mood Management",
+              "icon": "🙂",
+              "subcategories": [
+                {
+                  "name": "Depression Prevention",
+                  "icon": "😔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Anxiety Management",
+                  "icon": "😟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Anger Management",
+                  "icon": "😠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Happiness Practices",
+                  "icon": "😊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Positivity Cultivation",
+                  "icon": "➕",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Psychological Health",
+          "icon": "🧠",
+          "subcategories": [
+            {
+              "name": "Cognitive Wellbeing",
+              "icon": "🤔",
+              "subcategories": [
+                {
+                  "name": "Critical Thinking",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cognitive Flexibility",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Problem-Solving Skills",
+                  "icon": "🧩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Decision-Making Improvement",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Brain Health Practices",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Memory Enhancement",
+                  "icon": "🧠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Mental Health Conditions",
+              "icon": "😔",
+              "subcategories": [
+                {
+                  "name": "Depression Understanding",
+                  "icon": "😔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Anxiety Awareness",
+                  "icon": "😟",
+                  "subcategories": []
+                },
+                {
+                  "name": "PTSD Education",
+                  "icon": "🪖",
+                  "subcategories": []
+                },
+                {
+                  "name": "OCD Resources",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bipolar Disorder Knowledge",
+                  "icon": "🎭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Schizophrenia Awareness",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Eating Disorder Understanding",
+                  "icon": "🍽️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Therapeutic Approaches",
+              "icon": "🗣️",
+              "subcategories": [
+                {
+                  "name": "Cognitive Behavioral Therapy",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dialectical Behavior Therapy",
+                  "icon": "🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Acceptance and Commitment Therapy",
+                  "icon": "🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Psychodynamic Therapy",
+                  "icon": "🛋️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Art Therapy",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Music Therapy",
+                  "icon": "🎶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Play Therapy",
+                  "icon": "🧸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Somatic Therapies",
+                  "icon": "🧍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Gestalt Therapy",
+                  "icon": "😌❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Solution-Focused Therapy",
+                  "icon": "💡",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Psychological Growth",
+              "icon": "🌱",
+              "subcategories": [
+                {
+                  "name": "Self-Compassion Development",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Self-Esteem Building",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Authenticity Cultivation",
+                  "icon": "✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Purpose Finding",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Identity Exploration",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Personal Values Clarification",
+                  "icon": "💖",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Social Wellbeing",
+          "icon": "👭👫👬",
+          "subcategories": [
+            {
+              "name": "Relationship Health",
+              "icon": "❤️",
+              "subcategories": [
+                {
+                  "name": "Communication Skills",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conflict Resolution",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Boundary Setting",
+                  "icon": "🚧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Attachment Styles",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trust Building",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Community Connection",
+              "icon": "🏘️",
+              "subcategories": [
+                {
+                  "name": "Social Network Development",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Group Participation",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Volunteering",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mentorship",
+                  "icon": "🧑‍🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Engagement",
+                  "icon": "🌍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Social Skills",
+              "icon": "🗣️",
+              "subcategories": [
+                {
+                  "name": "Empathy Development",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Active Listening",
+                  "icon": "👂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Non-Verbal Communication",
+                  "icon": "🧍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Confidence",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Speaking",
+                  "icon": "🎤",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Digital Wellbeing",
+          "icon": "💻",
+          "subcategories": [
+            {
+              "name": "Screen Time Management",
+              "icon": "⏰",
+              "subcategories": []
+            },
+            {
+              "name": "Digital Detox Practices",
+              "icon": "📵",
+              "subcategories": []
+            },
+            {
+              "name": "Mindful Technology Use",
+              "icon": "🧘‍♂️🧘‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Online Community Building",
+              "icon": "🌐",
+              "subcategories": []
+            },
+            {
+              "name": "Digital Privacy Practices",
+              "icon": "🔒",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Mental Fitness",
+          "icon": "🧠",
+          "subcategories": [
+            {
+              "name": "Brain Training",
+              "icon": "🎮",
+              "subcategories": []
+            },
+            {
+              "name": "Memory Techniques",
+              "icon": "🧠",
+              "subcategories": []
+            },
+            {
+              "name": "Focus Enhancement",
+              "icon": "🎯",
+              "subcategories": []
+            },
+            {
+              "name": "Creativity Development",
+              "icon": "💡",
+              "subcategories": []
+            },
+            {
+              "name": "Problem-Solving Practice",
+              "icon": "🧩",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Meditation",
+      "icon": "🧘‍♂️🧘‍♀️",
+      "subcategories": [
+        {
+          "name": "Concentration Meditation",
+          "icon": "🎯",
+          "subcategories": [
+            {
+              "name": "Breath-Focused Meditation",
+              "icon": "🌬️",
+              "subcategories": [
+                {
+                  "name": "Anapanasati (Mindfulness of Breathing)",
+                  "icon": "🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pranayama Integration",
+                  "icon": "🌬️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Box Breathing Meditation",
+                  "icon": "🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Counting Breaths",
+                  "icon": "🔢",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Object Meditation",
+              "icon": "👁️",
+              "subcategories": [
+                {
+                  "name": "Candle Gazing (Trataka)",
+                  "icon": "🕯️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Yantra Meditation",
+                  "icon": "🕉️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Crystal Meditation",
+                  "icon": "💎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mandala Meditation",
+                  "icon": "☸️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Sound Meditation",
+              "icon": "🎶",
+              "subcategories": [
+                {
+                  "name": "Mantra Meditation",
+                  "icon": "🕉️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Primordial Sound Meditation",
+                  "icon": "👂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Transcendental Meditation (TM)",
+                  "icon": "🧘‍♀️🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Kirtan Kriya",
+                  "icon": "🎶",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Body-Focused Meditation",
+              "icon": "🧍‍♀️🧍‍♂️",
+              "subcategories": [
+                {
+                  "name": "Body Scan Meditation",
+                  "icon": "🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Progressive Muscle Relaxation",
+                  "icon": "🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Walking Meditation",
+                  "icon": "🚶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hand Movement Meditation",
+                  "icon": "👐",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mindfulness Meditation",
+          "icon": "🧘‍♂️🧘‍♀️",
+          "subcategories": [
+            {
+              "name": "Vipassana (Insight) Meditation",
+              "icon": "🧘‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Mindfulness-Based Stress Reduction (MBSR)",
+              "icon": "🧘‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Mindfulness-Based Cognitive Therapy (MBCT)",
+              "icon": "🧘",
+              "subcategories": []
+            },
+            {
+              "name": "Open Awareness Meditation",
+              "icon": "🧘‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Choiceless Awareness",
+              "icon": "🧘‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Zen Meditation (Zazen)",
+              "icon": "🧘",
+              "subcategories": []
+            },
+            {
+              "name": "Shikantaza (Just Sitting)",
+              "icon": "🧘‍♂️",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Contemplative Meditation",
+          "icon": "🤔",
+          "subcategories": [
+            {
+              "name": "Metta (Loving-Kindness) Meditation",
+              "icon": "💖",
+              "subcategories": []
+            },
+            {
+              "name": "Karuna (Compassion) Meditation",
+              "icon": "💖",
+              "subcategories": []
+            },
+            {
+              "name": "Mudita (Sympathetic Joy) Meditation",
+              "icon": "😊",
+              "subcategories": []
+            },
+            {
+              "name": "Upekkha (Equanimity) Meditation",
+              "icon": "🧘‍♂️🧘‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Tonglen (Giving and Taking) Practice",
+              "icon": "🌬️",
+              "subcategories": []
+            },
+            {
+              "name": "Self-Inquiry Meditation",
+              "icon": "❓",
+              "subcategories": []
+            },
+            {
+              "name": "Reflection Meditation",
+              "icon": "🤔",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Movement Meditation",
+          "icon": "🚶‍♂️🚶‍♀️",
+          "subcategories": [
+            {
+              "name": "Tai Chi Meditation",
+              "icon": "☯️",
+              "subcategories": []
+            },
+            {
+              "name": "Qigong Meditation",
+              "icon": "🌬️",
+              "subcategories": []
+            },
+            {
+              "name": "Walking Meditation",
+              "icon": "🚶‍♀️🚶‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Yoga Nidra",
+              "icon": "🧘‍♂️🧘‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Ecstatic Dance Meditation",
+              "icon": "💃",
+              "subcategories": []
+            },
+            {
+              "name": "Five Rhythms Practice",
+              "icon": "🌊",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Visualization Meditation",
+          "icon": "✨",
+          "subcategories": [
+            {
+              "name": "Guided Imagery",
+              "icon": "🖼️",
+              "subcategories": []
+            },
+            {
+              "name": "Chakra Visualization",
+              "icon": "🌈",
+              "subcategories": []
+            },
+            {
+              "name": "Deity Visualization",
+              "icon": "🕉️",
+              "subcategories": []
+            },
+            {
+              "name": "Healing Light Visualization",
+              "icon": "💡",
+              "subcategories": []
+            },
+            {
+              "name": "Future Self Visualization",
+              "icon": "🔮",
+              "subcategories": []
+            },
+            {
+              "name": "Safe Place Visualization",
+              "icon": "🏞️",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Spiritual Meditation",
+          "icon": "🙏",
+          "subcategories": [
+            {
+              "name": "Centering Prayer",
+              "icon": "🙏",
+              "subcategories": []
+            },
+            {
+              "name": "Christian Contemplation",
+              "icon": "✝️",
+              "subcategories": []
+            },
+            {
+              "name": "Jewish Hitbodedut",
+              "icon": "✡️",
+              "subcategories": []
+            },
+            {
+              "name": "Islamic Muraqaba",
+              "icon": "☪️",
+              "subcategories": []
+            },
+            {
+              "name": "Hindu Dhyana",
+              "icon": "🕉️",
+              "subcategories": []
+            },
+            {
+              "name": "Buddhist Samatha",
+              "icon": "☸️",
+              "subcategories": []
+            },
+            {
+              "name": "Taoist Emptiness Meditation",
+              "icon": "☯️",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Technology-Assisted Meditation",
+          "icon": "💻",
+          "subcategories": [
+            {
+              "name": "Binaural Beats Meditation",
+              "icon": "🎧",
+              "subcategories": []
+            },
+            {
+              "name": "Neurofeedback Meditation",
+              "icon": "🧠",
+              "subcategories": []
+            },
+            {
+              "name": "Virtual Reality Meditation",
+              "icon": "🕶️",
+              "subcategories": []
+            },
+            {
+              "name": "App-Guided Meditation",
+              "icon": "📱",
+              "subcategories": []
+            },
+            {
+              "name": "EEG-Monitored Meditation",
+              "icon": "🧠",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Advanced Meditation Practices",
+          "icon": "⬆️",
+          "subcategories": [
+            {
+              "name": "Non-Dual Awareness",
+              "icon": "🧘‍♂️🧘‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Dzogchen",
+              "icon": "☸️",
+              "subcategories": []
+            },
+            {
+              "name": "Mahamudra",
+              "icon": "☸️",
+              "subcategories": []
+            },
+            {
+              "name": "Self-Inquiry (Atma Vichara)",
+              "icon": "❓",
+              "subcategories": []
+            },
+            {
+              "name": "Koan Practice",
+              "icon": "❓",
+              "subcategories": []
+            },
+            {
+              "name": "Silent Retreats",
+              "icon": "🤫",
+              "subcategories": []
+            },
+            {
+              "name": "Extended Meditation Sessions",
+              "icon": "⏳",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Breathing Techniques",
+      "icon": "🌬️",
+      "subcategories": [
+        {
+          "name": "Basic Breathing Practices",
+          "icon": "🧘‍♂️🧘‍♀️",
+          "subcategories": [
+            {
+              "name": "Diaphragmatic Breathing",
+              "icon": "🌬️",
+              "subcategories": []
+            },
+            {
+              "name": "Belly Breathing",
+              "icon": "🌬️",
+              "subcategories": []
+            },
+            {
+              "name": "Complete Breath",
+              "icon": "🌬️",
+              "subcategories": []
+            },
+            {
+              "name": "Equal Breathing (Sama Vritti)",
+              "icon": "🌬️",
+              "subcategories": []
+            },
+            {
+              "name": "Pursed Lip Breathing",
+              "icon": "👄",
+              "subcategories": []
+            },
+            {
+              "name": "Coherent Breathing",
+              "icon": "🌬️",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Yogic Breathing (Pranayama)",
+          "icon": "🧘‍♀️🧘‍♂️",
+          "subcategories": [
+            {
+              "name": "Alternate Nostril Breathing (Nadi Shodhana)",
+              "icon": "👃",
+              "subcategories": []
+            },
+            {
+              "name": "Skull Shining Breath (Kapalabhati)",
+              "icon": "💨",
+              "subcategories": []
+            },
+            {
+              "name": "Victorious Breath (Ujjayi)",
+              "icon": "🌊",
+              "subcategories": []
+            },
+            {
+              "name": "Bellows Breath (Bhastrika)",
+              "icon": "💨",
+              "subcategories": []
+            },
+            {
+              "name": "Cooling Breath (Sitali)",
+              "icon": "🌬️",
+              "subcategories": []
+            },
+            {
+              "name": "Humming Bee Breath (Brahmari)",
+              "icon": "🐝",
+              "subcategories": []
+            },
+            {
+              "name": "Lion's Breath (Simhasana)",
+              "icon": "🦁",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Therapeutic Breathing",
+          "icon": "🧑‍⚕️",
+          "subcategories": [
+            {
+              "name": "4-7-8 Breathing",
+              "icon": "🌬️",
+              "subcategories": []
+            },
+            {
+              "name": "Box Breathing (Square Breathing)",
+              "icon": "🧘‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Buteyko Method",
+              "icon": "🌬️",
+              "subcategories": []
+            },
+            {
+              "name": "Wim Hof Method",
+              "icon": "❄️",
+              "subcategories": []
+            },
+            {
+              "name": "Resonant/Coherent Breathing",
+              "icon": "🌬️",
+              "subcategories": []
+            },
+            {
+              "name": "Papworth Method",
+              "icon": "🌬️",
+              "subcategories": []
+            },
+            {
+              "name": "Jacobson's Progressive Relaxation",
+              "icon": "🧘‍♀️",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Specialized Applications",
+          "icon": "🎯",
+          "subcategories": [
+            {
+              "name": "Stress-Reduction Breathing",
+              "icon": "🧘‍♂️🧘‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Anxiety-Relief Breathing",
+              "icon": "😟",
+              "subcategories": []
+            },
+            {
+              "name": "Sleep-Inducing Breathing",
+              "icon": "😴",
+              "subcategories": []
+            },
+            {
+              "name": "Energy-Enhancing Breathing",
+              "icon": "⚡️",
+              "subcategories": []
+            },
+            {
+              "name": "Focus-Promoting Breathing",
+              "icon": "🎯",
+              "subcategories": []
+            },
+            {
+              "name": "Performance Breathing",
+              "icon": "🏆",
+              "subcategories": []
+            },
+            {
+              "name": "Breathwork for Emotional Release",
+              "icon": "💖",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Advanced Breathwork",
+          "icon": "⬆️",
+          "subcategories": [
+            {
+              "name": "Holotropic Breathwork",
+              "icon": "🌀",
+              "subcategories": []
+            },
+            {
+              "name": "Rebirthing Breathwork",
+              "icon": "👶",
+              "subcategories": []
+            },
+            {
+              "name": "Transformational Breath",
+              "icon": "✨",
+              "subcategories": []
+            },
+            {
+              "name": "Clarity Breathwork",
+              "icon": "🧘‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Shamanic Breathwork",
+              "icon": "🧘‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Conscious Connected Breathing",
+              "icon": "🌬️",
+              "subcategories": []
+            },
+            {
+              "name": "Sudarshan Kriya",
+              "icon": "🌬️",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Self-Care",
+      "icon": "💖",
+      "subcategories": [
+        {
+          "name": "Physical Self-Care",
+          "icon": "🏃‍♂️🏃‍♀️",
+          "subcategories": [
+            {
+              "name": "Hygiene Practices",
+              "icon": "🛀",
+              "subcategories": [
+                {
+                  "name": "Skincare Routines",
+                  "icon": "🧖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Oral Health Rituals",
+                  "icon": "🦷",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bathing Rituals",
+                  "icon": "🛁",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Body Treatments",
+              "icon": "💆‍♀️💆‍♂️",
+              "subcategories": [
+                {
+                  "name": "Massage Therapy",
+                  "icon": "💆‍♂️💆‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Acupuncture",
+                  "icon": "📍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reflexology",
+                  "icon": "👣",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cupping",
+                  "icon": "🙇‍♀️🙇‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Gua Sha",
+                  "icon": "💆‍♀️🥒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Aromatherapy",
+                  "icon": "👃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hydrotherapy",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sauna/Steam Room Use",
+                  "icon": "🧖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cold Therapy/Cryotherapy",
+                  "icon": "❄️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Rest & Relaxation",
+              "icon": "🧘‍♂️🧘‍♀️",
+              "subcategories": [
+                {
+                  "name": "Napping Practices",
+                  "icon": "😴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Relaxation Techniques",
+                  "icon": "🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sensory Deprivation",
+                  "icon": "🌌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Float Tanks",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Restorative Practices",
+                  "icon": "🧘‍♀️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Emotional Self-Care",
+          "icon": "😊",
+          "subcategories": [
+            {
+              "name": "Journaling Practices",
+              "icon": "📔",
+              "subcategories": []
+            },
+            {
+              "name": "Emotional Release Techniques",
+              "icon": "😭",
+              "subcategories": []
+            },
+            {
+              "name": "Positive Psychology Practices",
+              "icon": "➕",
+              "subcategories": [
+                {
+                  "name": "Gratitude Practice",
+                  "icon": "🙏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Savoring Experiences",
+                  "icon": "😋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Strength Identification",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Positive Affirmations",
+                  "icon": "✨",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Joy Cultivation",
+              "icon": "😊",
+              "subcategories": [
+                {
+                  "name": "Play and Recreation",
+                  "icon": "🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Laughter Therapy",
+                  "icon": "😂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pleasure Integration",
+                  "icon": "💖",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Creative Expression",
+              "icon": "🎨",
+              "subcategories": [
+                {
+                  "name": "Art Therapy",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Music Therapy",
+                  "icon": "🎶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dance Therapy",
+                  "icon": "💃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Writing Therapy",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Drama Therapy",
+                  "icon": "🎭",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mental Self-Care",
+          "icon": "🧠",
+          "subcategories": [
+            {
+              "name": "Cognitive Restructuring",
+              "icon": "🔄",
+              "subcategories": []
+            },
+            {
+              "name": "Mindful Media Consumption",
+              "icon": "📱",
+              "subcategories": []
+            },
+            {
+              "name": "Digital Detox",
+              "icon": "📵",
+              "subcategories": []
+            },
+            {
+              "name": "Learning New Skills",
+              "icon": "📚",
+              "subcategories": []
+            },
+            {
+              "name": "Intellectual Stimulation",
+              "icon": "🧠",
+              "subcategories": []
+            },
+            {
+              "name": "Mind-Body Practices",
+              "icon": "🧘‍♀️🧘‍♂️",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Social Self-Care",
+          "icon": "👭👫👬",
+          "subcategories": [
+            {
+              "name": "Healthy Boundary Setting",
+              "icon": "🚧",
+              "subcategories": []
+            },
+            {
+              "name": "Social Connection Nurturing",
+              "icon": "🔗",
+              "subcategories": []
+            },
+            {
+              "name": "Communication Practices",
+              "icon": "🗣️",
+              "subcategories": []
+            },
+            {
+              "name": "Support Network Building",
+              "icon": "🤝",
+              "subcategories": []
+            },
+            {
+              "name": "Relationship Cultivation",
+              "icon": "💖",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Spiritual Self-Care",
+          "icon": "🙏",
+          "subcategories": [
+            {
+              "name": "Sacred Space Creation",
+              "icon": "🕉️",
+              "subcategories": []
+            },
+            {
+              "name": "Ritual Development",
+              "icon": "🕯️",
+              "subcategories": []
+            },
+            {
+              "name": "Nature Connection",
+              "icon": "🌳",
+              "subcategories": []
+            },
+            {
+              "name": "Purpose Exploration",
+              "icon": "💡",
+              "subcategories": []
+            },
+            {
+              "name": "Values Alignment",
+              "icon": "💖",
+              "subcategories": []
+            },
+            {
+              "name": "Spiritual Reading",
+              "icon": "📖",
+              "subcategories": []
+            },
+            {
+              "name": "Prayer Practices",
+              "icon": "🙏",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Environmental Self-Care",
+          "icon": "🏡",
+          "subcategories": [
+            {
+              "name": "Home Sanctuary Creation",
+              "icon": "🏠",
+              "subcategories": []
+            },
+            {
+              "name": "Workspace Optimization",
+              "icon": "🏢",
+              "subcategories": []
+            },
+            {
+              "name": "Decluttering Practices",
+              "icon": "🧹",
+              "subcategories": []
+            },
+            {
+              "name": "Nature Immersion",
+              "icon": "🌲",
+              "subcategories": []
+            },
+            {
+              "name": "Environmental Toxin Reduction",
+              "icon": "☠️",
+              "subcategories": []
+            },
+            {
+              "name": "Green Space Cultivation",
+              "icon": "🌳",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Seasonal/Situational Self-Care",
+          "icon": "🍂",
+          "subcategories": [
+            {
+              "name": "Winter Wellness Rituals",
+              "icon": "❄️",
+              "subcategories": []
+            },
+            {
+              "name": "Summer Vitality Practices",
+              "icon": "☀️",
+              "subcategories": []
+            },
+            {
+              "name": "Holiday Stress Management",
+              "icon": "🎄",
+              "subcategories": []
+            },
+            {
+              "name": "Travel Self-Care",
+              "icon": "✈️",
+              "subcategories": []
+            },
+            {
+              "name": "Workplace Wellness",
+              "icon": "🏢",
+              "subcategories": []
+            },
+            {
+              "name": "Caregiver Self-Care",
+              "icon": "🧑‍⚕️",
+              "subcategories": []
+            },
+            {
+              "name": "Crisis Self-Care",
+              "icon": "🆘",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Self-Care Planning",
+          "icon": "📅",
+          "subcategories": [
+            {
+              "name": "Self-Care Assessment",
+              "icon": "❓",
+              "subcategories": []
+            },
+            {
+              "name": "Personalized Self-Care Plans",
+              "icon": "🗺️",
+              "subcategories": []
+            },
+            {
+              "name": "Daily Self-Care Rituals",
+              "icon": "🌅",
+              "subcategories": []
+            },
+            {
+              "name": "Weekly Self-Care Practices",
+              "icon": "🗓️",
+              "subcategories": []
+            },
+            {
+              "name": "Monthly Self-Care Retreats",
+              "icon": "🧘‍♂️🧘‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Self-Care During Transitions",
+              "icon": "🔄",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Holistic & Integrative Wellness",
+      "icon": "🌿",
+      "subcategories": [
+        {
+          "name": "Energy Medicine",
+          "icon": "⚡️",
+          "subcategories": [
+            {
+              "name": "Traditional Chinese Medicine",
+              "icon": "☯️",
+              "subcategories": [
+                {
+                  "name": "Acupuncture",
+                  "icon": "📍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Moxibustion",
+                  "icon": "🔥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cupping",
+                  "icon": "🙇‍♀️🙇‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tui Na Massage",
+                  "icon": "💆‍♂️💆‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Chinese Herbology",
+                  "icon": "🌿",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Ayurveda",
+              "icon": "🕉️",
+              "subcategories": [
+                {
+                  "name": "Dosha Assessment",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ayurvedic Diet",
+                  "icon": "🍎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Abhyanga (Oil Massage)",
+                  "icon": "💆‍♀️💆‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Panchakarma",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ayurvedic Herbs",
+                  "icon": "🌿",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Energy Healing",
+              "icon": "✨",
+              "subcategories": [
+                {
+                  "name": "Reiki",
+                  "icon": "👐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Healing Touch",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Therapeutic Touch",
+                  "icon": "🤲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Polarity Therapy",
+                  "icon": "🌌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pranic Healing",
+                  "icon": "⚡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Crystal Healing",
+                  "icon": "💎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sound Healing",
+                  "icon": "🎶",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mind-Body Connection",
+          "icon": "🧘‍♀️🧘‍♂️",
+          "subcategories": [
+            {
+              "name": "Psychoneuroimmunology",
+              "icon": "🧠",
+              "subcategories": []
+            },
+            {
+              "name": "Emotional Freedom Technique (EFT/Tapping)",
+              "icon": "👆",
+              "subcategories": []
+            },
+            {
+              "name": "Body-Mind Centering",
+              "icon": "🧘‍♂️🧘‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Somatic Experiencing",
+              "icon": "🧍",
+              "subcategories": []
+            },
+            {
+              "name": "Hakomi Method",
+              "icon": "💆‍♀️💆‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Internal Family Systems",
+              "icon": "👨‍👩‍👧‍👦",
+              "subcategories": []
+            },
+            {
+              "name": "Mind-Body Medicine",
+              "icon": "🧠",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Lifestyle Medicine",
+          "icon": "🧬",
+          "subcategories": [
+            {
+              "name": "Blue Zones Living",
+              "icon": "🌍",
+              "subcategories": []
+            },
+            {
+              "name": "Anti-Inflammatory Lifestyle",
+              "icon": "🔥",
+              "subcategories": []
+            },
+            {
+              "name": "Longevity Practices",
+              "icon": "⏳",
+              "subcategories": []
+            },
+            {
+              "name": "Functional Medicine Approach",
+              "icon": "🧬",
+              "subcategories": []
+            },
+            {
+              "name": "Integrative Health Protocols",
+              "icon": "🤝",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Consciousness Practices",
+          "icon": "🧘‍♀️🧘‍♂️",
+          "subcategories": [
+            {
+              "name": "Sensory Awareness",
+              "icon": "👂",
+              "subcategories": []
+            },
+            {
+              "name": "Present Moment Awareness",
+              "icon": "🧘‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Non-Dual Awareness",
+              "icon": "🧘‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Consciousness Exploration",
+              "icon": "🧠",
+              "subcategories": []
+            },
+            {
+              "name": "Transformative Experiences",
+              "icon": "✨",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Wellness Environment",
+          "icon": "🌳",
+          "subcategories": [
+            {
+              "name": "Environmental Wellness",
+              "icon": "🏞️",
+              "subcategories": []
+            },
+            {
+              "name": "Biophilic Design",
+              "icon": "🌳",
+              "subcategories": []
+            },
+            {
+              "name": "Nature Therapy",
+              "icon": "🌲",
+              "subcategories": []
+            },
+            {
+              "name": "Climate Health Awareness",
+              "icon": "🌡️",
+              "subcategories": []
+            },
+            {
+              "name": "Sustainable Wellness",
+              "icon": "♻️",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

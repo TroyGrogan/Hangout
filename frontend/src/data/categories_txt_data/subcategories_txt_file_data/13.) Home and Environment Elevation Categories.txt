@@ -1,0 +1,307 @@
+🛋️ Interior Design
+    📐 Design Fundamentals
+        🗺️ Space Planning
+        🎨 Color Theory Workshops
+        🧠 Design Psychology
+        ⚖️ Principles of Design (Balance, Rhythm, Harmony)
+        📜 Design History & Styles
+    🏠 Room-Specific Design
+        🛋️ Living Room Design
+        🛌 Bedroom Design
+        🍽️ Kitchen Design
+        🛁 Bathroom Design
+        💻 Home Office Design
+        🧸 Children's Room Design
+        🔄 Multipurpose Spaces
+        🤏 Small Space Solutions
+    🖼️ Design Elements
+        🛋️ Furniture Arrangement
+            🗺️ Functional Layouts
+            🚶‍♂️ Traffic Flow Optimization
+            ⚖️ Scale & Proportion
+            🎯 Focal Points Creation
+        ✨ Decor Styling
+            🏺 Accessories Placement
+            🖼️ Art Curation & Hanging
+            🧶 Textile Selection
+            🍂 Seasonal Decor Rotation
+            🍽️ Tablescaping
+            📚 Bookshelf Styling
+            🌿 Plant Styling
+        💡 Lighting Design
+            💡 Ambient Lighting
+            💡 Task Lighting
+            💡 Accent Lighting
+            ☀️ Natural Light Maximization
+            💡 Fixture Selection
+            ⚙️ Lighting Controls & Automation
+    🧱 Materials & Finishes
+        ⬜ Flooring Options
+        🧱 Wall Treatments
+            🎨 Paint Techniques
+            📜 Wallpaper Application
+            🧱 Textured Walls
+            🪵 Paneling & Wainscoting
+        🖼️ Window Treatments
+        🖱 Countertop Materials
+        🚪 Cabinet Finishes
+        🧶 Textile Selection
+            🛋️ Upholstery Fabrics
+            🖼️ Drapery Materials
+            🧶 Rug Selection
+    ⭐ Specialty Design Areas
+        🌿 Biophilic Design
+        ♿ Universal Design & Accessibility
+        ☯️ Feng Shui Principles
+        ・ Minimalist Design
+        ✮⋆˙ Maximalist Design
+        🕰️ Vintage & Antique Integration
+        🏠 Smart Home Integration
+        🌱 Sustainable Interior Design
+
+🌱 Gardening
+    🌳 Garden Types
+        🥕 Vegetable Gardening
+            📝 Crop Selection & Planning
+            🔄 Succession Planting
+            🤝 Companion Planting
+            🧑 Vegetable-Specific Techniques
+            🌳 Edible Landscaping
+            🍽️ Kitchen Gardens
+            🛒 Market Gardens
+        🌸 Flower Gardening
+            🌸 Annual Flowers
+            🌿 Perennial Planning
+            🌷 Bulb Gardens
+            ✂️ Cutting Gardens
+            📅 Seasonal Blooms
+            🌸 Wildflower Gardens
+            🏠 Cottage Gardens
+        ⭐ Specialty Gardens
+            🌿 Herb Gardens
+            🍓 Berry Gardens
+            🍎 Fruit Tree Orchards
+            🌹 Rose Gardens
+            🌳 Native Plant Gardens
+            🦋 Butterfly Gardens
+            🐝 Pollinator Gardens
+            🪨 Rock Gardens
+            💧 Water Gardens & Ponds
+            🌧️ Rain Gardens
+            🌳 Shade Gardens
+            🧘 Meditation Gardens
+            👂 Sensory Gardens
+            👶 Children's Gardens
+        🏺 Container Gardening
+            🏡 Patio Containers
+            🪟 Window Boxes
+            𓍯🪴 Hanging Baskets
+            🪴 Indoor Plant Containers
+            🌱 Balcony Gardens
+            🌱 Vertical Gardens
+            ♾️💧 Self-Watering Systems
+    👨‍🌾 Growing Techniques
+        🌌👩‍🌾 Biodynamic Farming
+        ♻️ Organic Gardening
+        👨‍🌾 Square Foot Gardening
+        👩‍🌾 Raised Bed Gardening
+        🚫🥄 No-Dig/No-Till Methods
+        🧪💦 Hydroponics
+        🐠💩 Aquaponics
+        💨 Aeroponics
+        🏞️ Permaculture
+        🌲 Forest Gardening
+        🪵🔥 Hugelkultur
+        🌱🌿🍃 French Intensive Method
+        🔑🍃 Keyhole Gardens
+    🛠️ Garden Development
+        📊 Site Analysis
+        📋 Garden Planning & Design
+        🏞 Landscape Design
+            ⛲ Hardscaping
+            🌼 Softscaping
+            🧱 Garden Structures
+            🏕️ Outdoor Living Spaces
+        🌱 Seed Starting
+            🌱🏠 Indoor Seed Starting
+            🌱🪡 Direct Sowing
+            🌱 Seed Saving
+            🌱 Seedling Care
+        🚚 Transplanting Techniques
+        🦠 Propagation Methods
+            🌿 Cuttings
+            ÷ Division
+            🧅 Layering
+            🌿🎋 Grafting
+    👨‍🌾🔁 Garden Maintenance
+        🌿💪 Soil Health
+            📝 Soil Testing
+            ♻️ Composting
+            🪱 Vermicomposting
+            🪹 Mulching Techniques
+            🛡️ Cover Cropping
+            🔬 Soil Amendments
+        💧 Irrigation Systems
+            💧 Drip Irrigation
+            💦 Sprinkler Systems
+            ✋ Hand Watering Techniques
+            ♾️💧 Self-Watering Systems
+        ✂️ Pruning & Training
+            🌳 Trees
+            🌳 Shrubs
+            🌿 Vines
+            𐂺 Espalier Techniques
+            🌳 Bonsai Methods
+        🐞 Pest Management
+            🐜 Integrated Pest Management
+            🐛 Organic Pest Controls
+            🐝 Beneficial Insects
+            🦠 Plant Disease Identification
+            🚜 Weed Management
+        🍎 Harvest Techniques
+            ⏱️ Timing Harvests
+            📦 Storage Methods
+            🛡️ Preservation Techniques
+        📅 Seasonal Care
+            🌻☀️🐝 Spring Garden Prep
+            🌞☀️😎 Summer Maintenance
+            🍂🍁💨 Fall Cleanup
+            ☃️❄️🥶 Winter Protection
+    🧠 Specialized Knowledge
+        🌱🕵️‍♂️ Plant Identification
+        👉🌿 Plant Selection
+            🌏🍃 Climate-Appropriate Plants
+            🍃🌾🌴 Native Plants
+            💦♾️ Drought-Tolerant Species
+            😎🍃 Shade-Tolerant Plants
+        📝 Garden Record Keeping
+        🔄 Crop Rotation
+        🌱🤰 Plant Breeding
+        🌱🛠️ Garden Tools & Equipment
+        🌱📐 Garden Structures
+            🏡 Greenhouses
+            🪟 Cold Frames
+            🏘 Hoop Houses
+            𐂺 Trellises & Supports
+
+🛠️ Home Improvement
+    🔨 DIY Projects
+        👶🗂️ Beginner Projects
+        📅🗂️ Weekend Projects
+        🌻☀️🍁❄️🗂️ Seasonal Projects
+        💸🔁 Budget-Friendly Makeovers
+    👷 Construction Skills
+        🪵 Basic Carpentry
+        🪑 Advanced Woodworking
+        🪟 Framing Techniques
+        ⛩ Built-Ins Creation
+    🎨 Surface Treatments
+        👨‍🎨 Painting Techniques
+            🏘️🎨 Interior Painting
+            🏞🎨 Exterior Painting
+            🔮🎨 Specialty Finishes
+            🪑🎨 Furniture Refinishing
+        ⬜ Tiling Workshops
+            💠 Backsplash Installation
+            🟫 Floor Tiling
+            🟥 Shower Tiling
+            🟦 Grouting Techniques
+        🎴 Wallpaper Application
+        🔳 Drywall Installation
+    ⚙️ Home Systems
+        🚽 Plumbing Basics
+            🚿 Fixture Replacement
+            🚰 Pipe Repair
+            🛁 Drain Cleaning
+        ⚡️ Electrical Safety
+            🔌 Outlet Installation
+            💡 Light Fixture Installation
+            ➰ Basic Wiring
+        🌡️✇🌫️ HVAC Maintenance
+        🏠🤖 Home Automation
+    🔧 Repair Skills
+        ⬜️🩹 Wall Patching
+        🚪🎛️ Door Adjustments
+        🪟🛠️ Window Repairs
+        ⬜🛠️ Floor Repairs
+        🛋️🛠️ Furniture Repairs
+    🏗️ Major Projects
+        🔨 Renovations
+        🍽️⏫ Kitchen Upgrades
+        🛁🔁 Bathroom Remodels
+        🏠🏁 Basement Finishing
+        🪜➡️ Attic Conversion
+        🏞️ Outdoor Spaces
+            🏠👷 Deck Building
+            🪑 Patio Installation
+            🏞️🍽️ Outdoor Kitchens
+            🔥🪵🕳️ Fire Pit Areas
+    🛠️ Tool Skills
+        🧰⛑️ Power Tools Safety
+        🔧🏅 Hand Tools Mastery
+        🛠️🔁 Tool Maintenance
+        🛠️👈 Tool Selection
+    📋 Project Management
+        💰⚖️ Budgeting
+        ⏳ Timeline Planning
+        📝👥 Contractor Management
+        📜🗺️ Permit Navigation
+
+♾️ Sustainability
+    💡 Energy Efficiency
+        💡🕵 Home Energy Audits
+        🌡📈 Insulation Improvements
+        🪟⬆️ Window Upgrades
+        🌬️🛡️ Draught-Proofing
+        🔋💯 Energy-Efficient Appliances
+        ♻️ Renewable Energy Options
+            ☀️ Solar Panel Systems
+            🌬️ Wind Energy
+            🌍 Geothermal Systems
+            🔋 Battery Storage
+    🗑️ Waste Reduction
+        🚮👨‍🏫 Composting Workshops
+            🔥🚮 Hot Composting
+            ❄️🚮 Cold Composting
+            🪣⚙️ Bokashi Systems
+            🪱🪣 Worm Bins
+        🚯 Zero-Waste Living
+            🥤🚫 Plastic-Free Strategies
+            📦🛒 Bulk Shopping
+            ♻️ Reusable Products
+            🍔🚯 Food Waste Reduction
+        ♻️⚙️ Recycling Systems
+            🏠♻️ Home Recycling Centers
+            🥤 Hard-to-Recycle Items
+            ⚡️🗑️ E-Waste Management
+    ♻️ Sustainable Materials
+        ♻️📦 Eco-Friendly Products
+            ♻️🧹 Green Cleaning Supplies
+            🚫☣️ Non-Toxic Finishes
+            ♻️👖 Sustainable Textiles
+        🌍🏢 Natural Building
+            🌾🏠 Straw Bale Construction
+            🧱🏠 Cob Building
+            🌍👷 Earthbag Construction
+            🧱🌍 Rammed Earth
+            🪵🏠 Cordwood Building
+        ♻️⬆️ Upcycling Projects
+            🪑🔄 Furniture Transformation
+            🪄♻️ Creative Reuse
+            ♻️🥤 Repurposing Materials
+    💧 Water Conservation
+        🌧 Rainwater Harvesting
+            🌧🛢 Rain Barrel Systems
+            🌧⚱️ Cisterns
+            🌧🏠 Catchment Design
+        🏜🙅‍♂️ Drought-Tolerant Landscaping
+            🌧️🌱 Xeriscaping
+            🏜🌱 Desert Gardening
+        ♻️🛢 Greywater Systems
+        💧📈 Water-Saving Fixtures
+        🚰📈 Low-Flow Technologies
+    🌍 Holistic Home Ecology
+        🌬️👌 Indoor Air Quality
+        😊 Non-Toxic Living
+        🧲⬇️ Electromagnetic Reduction
+        ☀️🌞 Natural Lighting Maximization 

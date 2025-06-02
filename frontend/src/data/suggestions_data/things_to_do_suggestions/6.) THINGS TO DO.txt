@@ -1,0 +1,242 @@
+"Suggest resources for learning about specific dog breed care needs."
+"Learn Dog Breed Care"
+
+"Suggest tips for caring for a puppy, adult dog, or senior dog."
+"Dog Life Stage Care"
+
+"Suggest ways to understand and manage cat behavior (e.g., scratching, vocalizing)."
+"Understand Cat Behavior"
+
+"Suggest care tips for common small mammals like rabbits, guinea pigs, or hamsters."
+"Small Mammal Care Tips"
+
+"Suggest resources for learning about specific bird species care (parakeets, parrots, chickens)."
+"Learn Bird Species Care"
+
+"Suggest care tips for common reptiles or amphibians (turtles, lizards, snakes, frogs)."
+"Reptile/Amphibian Care Tips"
+
+"Suggest ways to set up and maintain a freshwater or saltwater aquarium."
+"Aquarium Setup/Maintenance"
+
+"Suggest resources for learning about the care of exotic pets (spiders, pigs, insects)."
+"Exotic Pet Care Resources"
+
+"Suggest guidance on providing species-appropriate nutrition for my pet."
+"Pet Nutrition Guidance"
+
+"Suggest ways to monitor my pet's physical health at home and identify potential issues."
+"Monitor Pet Health at Home"
+
+"Suggest ideas for pet enrichment activities and environmental stimulation."
+"Pet Enrichment Ideas"
+
+"Suggest ways to manage pet stress or anxiety."
+"Manage Pet Stress/Anxiety"
+
+"Explain common natural healing approaches for animals (herbs, massage, acupuncture)."
+"Natural Healing for Animals"
+
+"Suggest ways to support a pet through different life stages (puppyhood, senior care, end-of-life)."
+"Support Pet Life Stages"
+
+"Suggest resources for learning positive reinforcement training techniques for pets."
+"Learn Positive Reinforcement Training"
+
+"Suggest ways to understand my pet's body language and vocalizations."
+"Understand Pet Communication"
+
+"Suggest strategies for addressing common pet behavior problems (fear, reactivity, separation anxiety)."
+"Address Pet Behavior Problems"
+
+"Suggest activities to strengthen the bond between me and my pet."
+"Strengthen Human-Animal Bond"
+
+"Suggest ways to design a pet-safe and enriching home environment."
+"Design Pet-Friendly Home"
+
+"Suggest tips for safely introducing pets to each other in a multi-pet household."
+"Introduce Pets Safely"
+
+"Suggest tips for finding pet-friendly places or activities (parks, cafes, travel)."
+"Find Pet-Friendly Activities"
+
+"Suggest ways to balance pet care responsibilities with work and family life."
+"Balance Life with Pets"
+
+"Explain the ethical considerations involved in pet ownership and animal care."
+"Ethical Considerations in Pet Care"
+
+"Suggest steps for being a responsible pet owner (commitment, spay/neuter, ID)."
+"Responsible Pet Ownership Steps"
+
+"Suggest ways to recognize and report suspected animal abuse or neglect."
+"Recognize/Report Animal Abuse"
+
+"Suggest ways to find local animal shelters or rescue organizations."
+"Find Local Shelters/Rescues"
+
+"Explain the process of adopting or fostering an animal."
+"Learn About Pet Adoption/Fostering"
+
+"Suggest ways I can volunteer at an animal shelter or rescue."
+"Volunteer at Animal Shelter"
+
+"Explain key animal welfare laws and legal protections in my area."
+"Learn Animal Welfare Laws"
+
+"Suggest ways to advocate for better animal welfare in industries like farming or research."
+"Advocate for Industry Animal Welfare"
+
+"Suggest effective methods for animal advocacy (education, lobbying, consumer activism)."
+"Effective Animal Advocacy Methods"
+
+"Suggest resources for humane education programs for youth or communities."
+"Find Humane Education Programs"
+
+"Explain basic concepts of conservation biology (habitat, population, genetics)."
+"Learn Conservation Biology Basics"
+
+"Suggest ways to learn about and protect endangered or threatened species."
+"Protect Endangered Species"
+
+"Suggest resources for learning about wildlife rehabilitation practices."
+"Learn Wildlife Rehabilitation"
+
+"Suggest strategies for promoting human-wildlife coexistence in urban or rural areas."
+"Promote Human-Wildlife Coexistence"
+
+"Suggest ways to get involved in local habitat conservation or restoration projects."
+"Join Habitat Conservation Projects"
+
+"Explain the importance of protected areas (national parks, wildlife refuges)."
+"Importance of Protected Areas"
+
+"Suggest ways to practice sustainable land stewardship on my property or in my community."
+"Practice Sustainable Land Stewardship"
+
+"Suggest opportunities for participating in citizen science projects related to wildlife or nature."
+"Participate in Citizen Science"
+
+"Suggest ways to make my backyard more wildlife-friendly (native plants, bird feeders)."
+"Create Backyard Wildlife Habitat"
+
+"Suggest tips for ethical wildlife viewing and eco-tourism."
+"Ethical Wildlife Viewing/Ecotourism"
+
+"Explain the main causes and impacts of biodiversity loss."
+"Understand Biodiversity Loss"
+
+"Suggest ways individuals can help mitigate the effects of climate change on wildlife."
+"Mitigate Climate Change Effects on Wildlife"
+
+"Suggest ways to learn about international or national conservation policies."
+"Learn Conservation Policies"
+
+"Suggest basic care tips for common indoor houseplants."
+"Indoor Plant Care Basics"
+
+"Suggest basic principles for planning and maintaining an outdoor garden."
+"Outdoor Gardening Basics"
+
+"Suggest resources for learning about specialized plant care (succulents, orchids, bonsai)."
+"Specialized Plant Care Resources"
+
+"Explain different gardening techniques (container, raised bed, vertical, hydroponics)."
+"Learn Gardening Techniques"
+
+"Suggest ways to provide proper nutrition for plants (fertilizing, composting)."
+"Plant Nutrition/Fertilizing"
+
+"Suggest strategies for managing common plant pests and diseases organically."
+"Organic Pest/Disease Management"
+
+"Suggest methods for plant propagation (seeds, cuttings, division)."
+"Learn Plant Propagation Methods"
+
+"Suggest tips for seasonal plant care (spring prep, winter protection)."
+"Seasonal Plant Care Tips"
+
+"Suggest ways to find and use native plants in my garden or landscaping."
+"Use Native Plants"
+
+"Explain the importance of plant biodiversity and how to support it."
+"Support Plant Biodiversity"
+
+"Suggest ways to get involved in urban forestry or community tree planting."
+"Urban Forestry/Tree Planting"
+
+"Suggest principles of sustainable landscaping (low-water, wildlife-friendly)."
+"Sustainable Landscaping Principles"
+
+"Explain the benefits and applications of therapeutic horticulture."
+"Therapeutic Horticulture Benefits"
+
+"Suggest ways to learn about the cultural significance or traditional uses of plants."
+"Cultural/Traditional Plant Uses"
+
+"Suggest resources for improving plant identification skills or botanical knowledge."
+"Improve Plant ID Skills"
+
+"Suggest ways to make my household more sustainable (energy, water, waste reduction)."
+"Sustainable Household Practices"
+
+"Suggest ways to create an eco-friendly yard (natural lawn care, composting, rainwater harvesting)."
+"Eco-Friendly Yard Practices"
+
+"Suggest strategies for reducing my personal carbon footprint."
+"Reduce Personal Carbon Footprint"
+
+"Suggest ways to make more ecologically conscious consumer choices."
+"Ecological Consumer Choices"
+
+"Suggest ways to get involved in local environmental action (cleanups, gardens, tree planting)."
+"Local Environmental Action"
+
+"Suggest methods for effective environmental advocacy in my community."
+"Environmental Advocacy Methods"
+
+"Explain the principles of environmental justice and how to support it."
+"Environmental Justice Principles"
+
+"Suggest resources for environmental education for different age groups."
+"Find Environmental Education Resources"
+
+"Explain the basics of ecosystem restoration planning and techniques."
+"Ecosystem Restoration Basics"
+
+"Suggest ways to increase my awareness and connection to my local bioregion."
+"Increase Bioregional Awareness"
+
+"Suggest ways individuals can engage with global environmental issues (climate, biodiversity)."
+"Engage with Global Environmental Issues"
+
+"Explain different approaches to environmental ethics."
+"Environmental Ethics Approaches"
+
+"Suggest resources for finding animal-assisted therapy programs."
+"Find Animal-Assisted Therapy"
+
+"Suggest ways animals are used in activities like reading programs or hospital visits."
+"Animal-Assisted Activities Examples"
+
+"Explain the different types and roles of service animals (guide dogs, medical alert)."
+"Types of Service Animals"
+
+"Explain the role and regulations surrounding Emotional Support Animals (ESAs)."
+"Emotional Support Animals (ESAs)"
+
+"Suggest examples of different types of working dogs (search & rescue, herding, therapy)."
+"Types of Working Dogs"
+
+"Suggest examples of how horses are used in work or therapy."
+"Working Equine Roles"
+
+"Explain the science behind the human-animal bond (attachment, communication, benefits)."
+"Science of Human-Animal Bond"
+
+"Suggest ways to learn about the historical or cultural significance of animals in different societies."
+"Cultural/Historical Animal Roles"
+
+"Discuss contemporary issues in human-animal relationships (pets as family, animal rights)."
+"Contemporary Human-Animal Issues"

@@ -1,0 +1,1336 @@
+{
+  "id": 87,
+  "name": "Technology Balance and Innovation",
+  "icon": "💻",
+  "subcategories": [
+    {
+      "name": "Technology Balance",
+      "icon": "📱⚖️",
+      "subcategories": [
+        {
+          "name": "Digital Wellbeing",
+          "icon": "🧘‍♂️🧘‍♀️",
+          "subcategories": [
+            {
+              "name": "Screen Time Management",
+              "icon": "📱",
+              "subcategories": [
+                {
+                  "name": "Phone Time Usage Monitoring",
+                  "icon": "⏱️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Screen Time Tracking Apps",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Usage Analytics",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "App Usage Patterns",
+                  "icon": "📉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Time Limit Setting",
+                  "icon": "⏳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Focus Mode Implementation",
+                  "icon": "🎯",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Digital Boundaries",
+              "icon": "🚧",
+              "subcategories": [
+                {
+                  "name": "Notification Management",
+                  "icon": "🔔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Do Not Disturb Protocols",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Communication Boundaries",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Work-Life Digital Separation",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Media Boundaries",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Email Boundaries",
+                  "icon": "📧",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Digital Minimalism",
+              "icon": "🧘‍♀️🧘‍♂️",
+              "subcategories": [
+                {
+                  "name": "App Decluttering",
+                  "icon": "🗑️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Purging",
+                  "icon": "🧹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Essential Technology Selection",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Intentional Digital Consumption",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Low-Information Diet",
+                  "icon": "📰",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mindful Technology Use",
+          "icon": "🧠",
+          "subcategories": [
+            {
+              "name": "Attention Management",
+              "icon": "🎯",
+              "subcategories": [
+                {
+                  "name": "Single-Tasking Practices",
+                  "icon": "👆",
+                  "subcategories": []
+                },
+                {
+                  "name": "Focused Technology Sessions",
+                  "icon": "🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Context Switching Reduction",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tech-Free Focus Blocks",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Distraction Awareness Training",
+                  "icon": "🧠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Intentional Consumption",
+              "icon": "💡",
+              "subcategories": [
+                {
+                  "name": "Content Curation",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Information Diet Planning",
+                  "icon": "🍽️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Value-Aligned Media Selection",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Quality vs. Quantity Assessment",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conscious Content Filtering",
+                  "icon": "🔍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Digital Mindfulness Practices",
+              "icon": "🧘‍♂️🧘‍♀️",
+              "subcategories": [
+                {
+                  "name": "Mindful Browsing",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conscious Social Media Use",
+                  "icon": "📱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mindful Communication",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Present Moment Digital Awareness",
+                  "icon": "🧘‍♀️🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technology Use Reflection",
+                  "icon": "🤔",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Digital Detox",
+          "icon": "🔌",
+          "subcategories": [
+            {
+              "name": "Regular Detox Rhythms",
+              "icon": "🗓️",
+              "subcategories": [
+                {
+                  "name": "Daily Tech-Free Times",
+                  "icon": "⏰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Weekly Digital Sabbaticals",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Monthly Digital Retreats",
+                  "icon": "🗓️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Annual Unplugged Vacations",
+                  "icon": "🏖️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Detox Spaces",
+              "icon": "🌳",
+              "subcategories": [
+                {
+                  "name": "Tech-Free Zones at Home",
+                  "icon": "🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nature Reconnection",
+                  "icon": "🌲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Analog Activities Development",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "In-Person Connection Priority",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sacred Spaces Creation",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Transition Practices",
+              "icon": "🔄",
+              "subcategories": [
+                {
+                  "name": "Digital to Physical Transitions",
+                  "icon": "🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Re-entry Strategies",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Post-Detox Integration",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Habit Reinforcement",
+                  "icon": "💪",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Technology-Life Integration",
+          "icon": "🔗",
+          "subcategories": [
+            {
+              "name": "Healthy Tech Habits",
+              "icon": "🌱",
+              "subcategories": [
+                {
+                  "name": "Morning Technology Rituals",
+                  "icon": "☀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Workday Tech Structure",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Evening Wind-Down Protocols",
+                  "icon": "🌙",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bedtime Technology Boundaries",
+                  "icon": "🛌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Weekend Tech Boundaries",
+                  "icon": "🏖️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Relationship Balancing",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Tech-Free Relationship Time",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Device-Free Dining",
+                  "icon": "🍽️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Communication Etiquette",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Presence Over Connection",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Family Technology Agreements",
+                  "icon": "👨‍👩‍👧‍👦",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Digital Legacy Planning",
+              "icon": "💾",
+              "subcategories": [
+                {
+                  "name": "Online Identity Management",
+                  "icon": "👤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Asset Organization",
+                  "icon": "📂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Inheritance Planning",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Memory Preservation Strategies",
+                  "icon": "🖼️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Physical Wellbeing with Technology",
+          "icon": "🧍‍♂️",
+          "subcategories": [
+            {
+              "name": "Ergonomic Practices",
+              "icon": "🖥️",
+              "subcategories": [
+                {
+                  "name": "Workstation Optimization",
+                  "icon": "⌨️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mobile Device Ergonomics",
+                  "icon": "📱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Movement Integration",
+                  "icon": "🏃‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Posture Awareness",
+                  "icon": "🧍‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Eye Health Practices",
+                  "icon": "👁️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Physical Impact Mitigation",
+              "icon": "🛡️",
+              "subcategories": [
+                {
+                  "name": "Blue Light Management",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sleep Protection Strategies",
+                  "icon": "😴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Repetitive Strain Prevention",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Movement Reminders",
+                  "icon": "⏰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Standing/Walking Integration",
+                  "icon": "🚶‍♂️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cognitive Health with Technology",
+          "icon": "🧠",
+          "subcategories": [
+            {
+              "name": "Attention Restoration",
+              "icon": "💡",
+              "subcategories": [
+                {
+                  "name": "Deep Thinking Protection",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Creative Space Preservation",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Memory Enhancement",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cognitive Load Management",
+                  "icon": "⚖️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Information Processing Skills",
+              "icon": "📚",
+              "subcategories": [
+                {
+                  "name": "Information Triage",
+                  "icon": "🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Reading Strategies",
+                  "icon": "📖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Note-Taking Systems",
+                  "icon": "📝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Knowledge Integration",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Retention Methods",
+                  "icon": "🧠",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Community & Social Balance",
+          "icon": "👥",
+          "subcategories": [
+            {
+              "name": "In-Person Connection Priority",
+              "icon": "🤝",
+              "subcategories": []
+            },
+            {
+              "name": "Virtual Community Building",
+              "icon": "💻",
+              "subcategories": []
+            },
+            {
+              "name": "Social Media Boundaries",
+              "icon": "🚧",
+              "subcategories": []
+            },
+            {
+              "name": "Real vs. Virtual Relationship Balance",
+              "icon": "↔️",
+              "subcategories": []
+            },
+            {
+              "name": "Technology-Assisted Connection",
+              "icon": "🤝",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technology Innovation",
+      "icon": "💡📈",
+      "subcategories": [
+        {
+          "name": "Emerging Technologies Exploration",
+          "icon": "🚀",
+          "subcategories": [
+            {
+              "name": "Artificial Intelligence",
+              "icon": "🤖",
+              "subcategories": [
+                {
+                  "name": "AI Literacy Development",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "AI Tools Exploration",
+                  "icon": "🛠️",
+                  "subcategories": [
+                    {
+                      "name": "Generative AI Applications",
+                      "icon": "✨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "AI Assistants",
+                      "icon": "🤖",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "AI Content Creation",
+                      "icon": "✍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "AI Research Tools",
+                      "icon": "🔬",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "AI Productivity Enhancers",
+                      "icon": "📈",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Personal AI Integration",
+                  "icon": "⚙️",
+                  "subcategories": [
+                    {
+                      "name": "Custom AI Workflows",
+                      "icon": "🔧",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "AI Prompt Engineering",
+                      "icon": "💬",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "AI Ethical Boundaries",
+                      "icon": "⚖️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "AI Augmentation vs. Automation",
+                      "icon": "🤖",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Mindful AI Adoption",
+                  "icon": "🧘‍♀️🧘‍♂️",
+                  "subcategories": [
+                    {
+                      "name": "AI Dependency Awareness",
+                      "icon": "🧠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Human-AI Collaboration",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "AI-Enhanced Creativity",
+                      "icon": "🎨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "AI-Enhanced Decision Making",
+                      "icon": "🤔",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Virtual & Augmented Reality",
+              "icon": "🕶️",
+              "subcategories": [
+                {
+                  "name": "VR/AR Experiences",
+                  "icon": "🕹️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Immersive Learning",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Virtual Collaboration",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Spatial Computing",
+                  "icon": "🧊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mixed Reality Integration",
+                  "icon": "👓",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Blockchain & Web3",
+              "icon": "🔗",
+              "subcategories": [
+                {
+                  "name": "Cryptocurrency Understanding",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "NFT Exploration",
+                  "icon": "🦄",
+                  "subcategories": []
+                },
+                {
+                  "name": "DAO Participation",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Decentralized Applications",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Web3 Identity Management",
+                  "icon": "🆔",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Biotechnology & Health Tech",
+              "icon": "🧬",
+              "subcategories": [
+                {
+                  "name": "Wearable Technology",
+                  "icon": "⌚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Biometric Monitoring",
+                  "icon": "💓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Genomic Technologies",
+                  "icon": "🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Personalized Health Tech",
+                  "icon": "🩺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Longevity Technology",
+                  "icon": "⏳",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Internet of Things (IoT)",
+              "icon": "🏠",
+              "subcategories": [
+                {
+                  "name": "Smart Home Integration",
+                  "icon": "🏡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Connected Environments",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "IoT Privacy Management",
+                  "icon": "🔒",
+                  "subcategories": []
+                },
+                {
+                  "name": "IoT Automation",
+                  "icon": "⚙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "IoT Sustainability Applications",
+                  "icon": "🌱",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Technology Literacy & Learning",
+          "icon": "🎓",
+          "subcategories": [
+            {
+              "name": "Continuous Digital Learning",
+              "icon": "📚",
+              "subcategories": [
+                {
+                  "name": "Technology Skill Development",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Adaptation Strategies",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Learning Platforms Utilization",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technical Skill Building",
+                  "icon": "🛠️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Digital Literacy",
+              "icon": "📖",
+              "subcategories": [
+                {
+                  "name": "Information Verification Skills",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Safety Knowledge",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Privacy Literacy",
+                  "icon": "🔒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Data Literacy",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Algorithmic Awareness",
+                  "icon": "🧠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Future-Ready Skills",
+              "icon": "🚀",
+              "subcategories": [
+                {
+                  "name": "Automation-Resistant Skills",
+                  "icon": "💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Human-Technology Collaboration",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technological Adaptability",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Creativity with Technology",
+                  "icon": "🎨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Critical Thinking with Technology",
+                  "icon": "🤔",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Personal Innovation Systems",
+          "icon": "🛠️",
+          "subcategories": [
+            {
+              "name": "Technology Experimentation",
+              "icon": "🧪",
+              "subcategories": [
+                {
+                  "name": "Personal Tech Experiments",
+                  "icon": "🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Beta Testing Participation",
+                  "icon": "⚙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Early Adoption Evaluation",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technology Trial Periods",
+                  "icon": "⏱️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Innovation Adoption Frameworks",
+              "icon": "📝",
+              "subcategories": [
+                {
+                  "name": "Technology Assessment Criteria",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Value-Aligned Technology Selection",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technology Integration Planning",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technology Retirement Strategies",
+                  "icon": "🗑️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Personalized Technology Ecosystems",
+              "icon": "🌐",
+              "subcategories": [
+                {
+                  "name": "Tool Stack Development",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Personal API Creation",
+                  "icon": "🔌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Workflow Integration",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cross-Platform Synchronization",
+                  "icon": "💻",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mindful Technology Creation",
+          "icon": "💡",
+          "subcategories": [
+            {
+              "name": "Creator Mindset Development",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Maker Culture Participation",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "DIY Technology Projects",
+                  "icon": "🔧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coding & Development Skills",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hardware Tinkering",
+                  "icon": "🔩",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Ethical Technology Creation",
+              "icon": "⚖️",
+              "subcategories": [
+                {
+                  "name": "Value-Aligned Development",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "User-Centered Design",
+                  "icon": "👤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Accessibility Considerations",
+                  "icon": "♿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ethical AI Development",
+                  "icon": "🤖",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Sustainable Technology Practices",
+              "icon": "♻️",
+              "subcategories": [
+                {
+                  "name": "E-Waste Reduction",
+                  "icon": "🗑️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sustainable Device Management",
+                  "icon": "📱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Green Computing",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Energy-Efficient Technology Use",
+                  "icon": "💡",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Digital Transformation",
+          "icon": "🔄",
+          "subcategories": [
+            {
+              "name": "Personal Digitization",
+              "icon": "💻",
+              "subcategories": [
+                {
+                  "name": "Paper to Digital Conversion",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Legacy Media Preservation",
+                  "icon": "💾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Physical to Digital Workflows",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Identity Development",
+                  "icon": "🆔",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Professional Adaptation",
+              "icon": "🏢",
+              "subcategories": [
+                {
+                  "name": "Remote Work Optimization",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Collaboration Mastery",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technology-Enhanced Productivity",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Industry-Specific Tech Adoption",
+                  "icon": "🏢",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Legacy & Future Planning",
+              "icon": "📜",
+              "subcategories": [
+                {
+                  "name": "Digital Estate Planning",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Long-term Data Preservation",
+                  "icon": "💾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technology Succession Planning",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Intergenerational Technology Transfer",
+                  "icon": "👵",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Human-Centered Technology",
+          "icon": "❤️",
+          "subcategories": [
+            {
+              "name": "Technology for Wellbeing",
+              "icon": "😊",
+              "subcategories": [
+                {
+                  "name": "Mental Health Applications",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Physical Wellness Technology",
+                  "icon": "🏃‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Relationship Enhancement Tools",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Spiritual Technology Practices",
+                  "icon": "🧘‍♀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Assistive Technology",
+              "icon": "♿",
+              "subcategories": [
+                {
+                  "name": "Accessibility Tools",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Adaptive Technologies",
+                  "icon": "🦾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Inclusive Design Awareness",
+                  "icon": "👁️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Universal Design Principles",
+                  "icon": "🌐",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Technology for Social Good",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Community Technology Initiatives",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Environmental Technology Applications",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Impact Computing",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Humanitarian Technology",
+                  "icon": "❤️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Digital Ethics & Citizenship",
+          "icon": "🛡️",
+          "subcategories": [
+            {
+              "name": "Personal Data Management",
+              "icon": "🔒",
+              "subcategories": [
+                {
+                  "name": "Data Privacy Practices",
+                  "icon": "🔐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Personal Information Protection",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Footprint Awareness",
+                  "icon": "👣",
+                  "subcategories": []
+                },
+                {
+                  "name": "Data Minimization Strategies",
+                  "icon": "➖",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Ethical Digital Consumption",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Sustainable Digital Habits",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fair Trade Technology",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ethical Content Consumption",
+                  "icon": "📰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Commons Support",
+                  "icon": "🌐",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Conscious Online Presence",
+              "icon": "🗣️",
+              "subcategories": [
+                {
+                  "name": "Digital Reputation Management",
+                  "icon": "👤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Authentic Online Expression",
+                  "icon": "💬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Misinformation Resistance",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Constructive Digital Discourse",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Digital Community Contribution",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Open Source Participation",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Knowledge Sharing",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Volunteering",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Online Community Building",
+                  "icon": "🏘️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

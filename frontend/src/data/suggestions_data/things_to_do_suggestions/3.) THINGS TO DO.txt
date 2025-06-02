@@ -1,0 +1,467 @@
+"Suggest things I can do to improve my money mindset."
+"Improve Money Mindset"
+
+"Suggest things I can do to improve my financial literacy."
+"Improve Financial Literacy"
+
+"Suggest ways to find local or online personal finance courses or workshops."
+"Find Finance Courses/Workshops"
+
+"Suggest ways I can track my income and expenses."
+"Track Income & Expenses"
+
+"Suggest ways I can identify areas to reduce my spending."
+"Reduce Spending"
+
+"Suggest things I can do to create a personal budget."
+"Create Personal Budget"
+
+"Suggest things I can do to learn about different debt reduction strategies (like snowball, avalanche)."
+"Learn Debt Reduction Strategies"
+
+"Suggest ways I can check my credit report and score."
+"Check Credit Report/Score"
+
+"Suggest ways I can build or improve my credit."
+"Build/Improve Credit"
+
+"Suggest things I can do to calculate how much I need for an emergency fund."
+"Calculate Emergency Fund"
+
+"Suggest effective ways I can automate my savings."
+"Automate Savings"
+
+"Suggest ways I can start planning for retirement."
+"Start Retirement Planning"
+
+"Suggest ways to find resources for planning major purchases like a house or car."
+"Plan Major Purchases"
+
+"Suggest things I can do to understand the steps involved in basic estate planning (e.g., writing a will)."
+"Basic Estate Planning Steps"
+
+"Suggest things I can do to learn the basics of investing (stocks, bonds, etc.)."
+"Learn Investing Basics"
+
+"Suggest ways I can find a financial advisor or coach."
+"Find Financial Advisor/Coach"
+
+"Suggest ways to find resources for learning about different asset classes (stocks, real estate, crypto)."
+"Learn About Asset Classes"
+
+"Suggest things I can do to open a brokerage or retirement account."
+"Open Investment Account"
+
+"Suggest things I can do to learn about different investment strategies (passive vs. active)."
+"Learn Investment Strategies"
+
+"Suggest ways I can research socially responsible (ESG) investments."
+"Research ESG Investments"
+
+"Suggest things I can do to learn the basic principles of microeconomics (supply/demand)."
+"Learn Microeconomics Basics"
+
+"Suggest things I can do to learn about key macroeconomic indicators (GDP, inflation, unemployment)."
+"Learn Macroeconomic Indicators"
+
+"Suggest ways I can find reliable economic news and analysis."
+"Find Economic News/Analysis"
+
+"Suggest ways to find resources for understanding fiscal and monetary policy."
+"Understand Fiscal/Monetary Policy"
+
+"Suggest ways I can learn about different economic systems (market, command, mixed)."
+"Learn About Economic Systems"
+
+"Suggest things I can do to learn basic political concepts like democracy, rights, and power."
+"Learn Political Concepts"
+
+"Suggest things I can do to understand how the government structure works in my country/region."
+"Understand Government Structure"
+
+"Suggest ways I can find out who my elected representatives are."
+"Find Elected Representatives"
+
+"Suggest ways I can learn about different political parties and their platforms."
+"Learn About Political Parties"
+
+"Suggest ways I can get involved in local politics or community issues."
+"Get Involved Locally"
+
+"Suggest things I can do to register to vote."
+"Register to Vote"
+
+"Suggest ways to find information about upcoming elections in my area."
+"Find Upcoming Elections Info"
+
+"Suggest ways I can track current legislation or policy proposals."
+"Track Legislation/Policy"
+
+"Suggest ways to find resources for understanding international relations or global issues."
+"Understand International Relations"
+
+"Suggest ways I can improve my ability to engage in civil political discussions."
+"Improve Civil Discourse Skills"
+
+"Suggest ways to find non-partisan organizations focused on civic education or engagement."
+"Find Civic Education Groups"
+
+"Suggest ways I can practice evaluating political news sources for bias."
+"Evaluate News Sources"
+
+"Suggest things I can do to clarify my financial values and how they relate to my goals."
+"Clarify Financial Values"
+
+"Suggest ways to learn basic financial terminology I should know."
+"Explain Financial Terms"
+
+"Suggest things I can do to understand how the banking system works."
+"Understand Banking System"
+
+"Suggest ideas for diversifying my income streams or starting a side hustle."
+"Explore Income Diversification/Side Hustles"
+
+"Suggest ways to understand the difference between active and passive income."
+"Active vs. Passive Income"
+
+"Suggest ways to learn about common tax deductions and credits I might be eligible for."
+"Learn Tax Deductions/Credits"
+
+"Suggest ways to find trustworthy resources or help for tax filing."
+"Find Tax Filing Help"
+
+"Suggest tips and strategies for negotiating my salary."
+"Salary Negotiation Tips"
+
+"Suggest ways I can analyze and potentially optimize my employee compensation package."
+"Optimize Compensation Package"
+
+"Suggest ways to learn about different budgeting methods like zero-based, envelope system, etc."
+"Learn Budgeting Methods"
+
+"Suggest things I can do to analyze my spending patterns and find areas for improvement."
+"Analyze Spending Patterns"
+
+"Suggest ways I can better differentiate between needs and wants in my spending."
+"Needs vs. Wants Analysis"
+
+"Suggest ways I can reduce fixed expenses like housing or insurance."
+"Reduce Fixed Expenses"
+
+"Suggest ways I can practice mindful consumption."
+"Practice Mindful Consumption"
+
+"Suggest ways to understand different types of debt (e.g., credit card, student loan, mortgage)."
+"Understand Debt Types"
+
+"Suggest ways to understand how interest works and impacts the total cost of debt."
+"Understand Debt Interest"
+
+"Suggest ways to learn about debt consolidation and refinancing options."
+"Debt Consolidation/Refinancing"
+
+"Suggest ways to learn common strategies for credit repair."
+"Learn Credit Repair Strategies"
+
+"Suggest ways I can protect myself from identity theft related to my credit."
+"Credit Protection/ID Theft"
+
+"Suggest ideas for the best place to keep my emergency fund."
+"Emergency Fund Location"
+
+"Suggest strategies for goal-based saving."
+"Goal-Based Savings Strategies"
+
+"Suggest ways to explore different savings vehicles like HYSAs, CDs, or money market accounts."
+"Explore Savings Vehicles"
+
+"Suggest things I can do to assess my insurance needs (life, health, disability, property)."
+"Assess Insurance Needs"
+
+"Suggest ways to learn basic financial risk management strategies for individuals."
+"Financial Risk Management"
+
+"Suggest ways to find resources for funding education (loans, grants, scholarships)."
+"Find Education Funding Resources"
+
+"Suggest ways I should manage my finances during a career transition."
+"Finances During Career Transition"
+
+"Suggest tips for merging finances with a partner or spouse."
+"Merging Finances with Partner"
+
+"Suggest ways to learn about different types of trusts (revocable, irrevocable) and their uses."
+"Learn About Trusts"
+
+"Suggest ways to understand advance healthcare directives and why they are important."
+"Understand Advance Directives"
+
+"Suggest ways to learn the principles of the FI/RE (Financial Independence, Retire Early) movement."
+"Learn About FI/RE Movement"
+
+"Suggest ways I can calculate my Financial Independence (FI) number."
+"Calculate FI Number"
+
+"Suggest ways I can research and potentially optimize my Social Security benefits."
+"Optimize Social Security"
+
+"Suggest ways to explore different potential retirement income sources beyond savings."
+"Explore Retirement Income Sources"
+
+"Suggest ways I can better align my financial decisions with my life values."
+"Align Finances & Values"
+
+"Suggest ways to explore the concept of 'enough' in personal finance and life design."
+"Explore the Concept of 'Enough'"
+
+"Suggest ways to understand the importance of diversification and asset allocation in investing."
+"Diversification & Asset Allocation"
+
+"Suggest ways I can avoid common emotional investing mistakes."
+"Avoid Emotional Investing Mistakes"
+
+"Suggest ways to learn about common behavioral biases that affect investors."
+"Behavioral Biases in Investing"
+
+"Suggest ways to find resources for learning common investment terminology."
+"Learn Investment Terminology"
+
+"Suggest effective methods for researching potential investments."
+"Investment Research Methods"
+
+"Suggest ways to learn about different stock investment approaches (value, growth, dividend)."
+"Stock Investment Approaches"
+
+"Suggest ways to learn common stock analysis methods (fundamental, technical)."
+"Stock Analysis Methods"
+
+"Suggest ways to understand how bonds work and the different types of bonds."
+"Understand Bonds"
+
+"Suggest different bond investment strategies."
+"Bond Investment Strategies"
+
+"Suggest ways to learn different methods to invest in real estate (direct ownership, REITs)."
+"Real Estate Investment Methods"
+
+"Suggest ways to analyze a potential real estate investment property."
+"Analyze Real Estate Investments"
+
+"Suggest ways to learn about alternative investments like commodities or cryptocurrencies."
+"Alternative Investments Explained"
+
+"Suggest ways to understand NFTs and DeFi (Decentralized Finance)."
+"NFTs and DeFi Explained"
+
+"Suggest ways to compare different retirement accounts (401k, IRA, Roth IRA, SEP IRA)."
+"Compare Retirement Accounts"
+
+"Suggest ways to learn about education savings accounts like 529 plans and Coverdell ESAs."
+"Education Savings Accounts"
+
+"Suggest ways I can use a Health Savings Account (HSA) for investment purposes."
+"HSA Investing Strategies"
+
+"Suggest ways to learn about index fund investing and its benefits/drawbacks."
+"Index Fund Investing Explained"
+
+"Suggest ways to understand what factor-based investing is."
+"Factor-Based Investing Explained"
+
+"Suggest ways to learn investment risk management techniques like stop-loss orders or hedging."
+"Investment Risk Management Techniques"
+
+"Suggest income-focused investment strategies."
+"Income-Focused Investing Strategies"
+
+"Suggest ways I can align my investment strategy with my current life stage."
+"Life Stage Investing"
+
+"Suggest ways to learn the different components of ESG (Environmental, Social, Governance) investing."
+"ESG Components Explained"
+
+"Suggest ways to understand what impact investing is and how it is measured."
+"Impact Investing Explained"
+
+"Suggest ways I can find sustainable investment opportunities (e.g., renewable energy)."
+"Find Sustainable Investments"
+
+"Suggest ways to understand how ethical investing differs from ESG or sustainable investing."
+"Ethical vs. ESG Investing"
+
+"Suggest ways to learn about portfolio rebalancing strategies and why they are used."
+"Portfolio Rebalancing Strategies"
+
+"Suggest ways to understand what tax-loss harvesting is and how it works."
+"Tax-Loss Harvesting Explained"
+
+"Suggest ways to learn about different stock market order types (market, limit, stop)."
+"Stock Market Order Types"
+
+"Suggest ways to understand why creating an Investment Policy Statement (IPS) is important."
+"Importance of Investment Policy Statement"
+
+"Suggest ways to understand the fiduciary standard and why it matters when choosing a financial advisor."
+"Fiduciary Standard Explained"
+
+"Suggest ways to understand the economic concept of opportunity cost with examples."
+"Explain Opportunity Cost"
+
+"Suggest ways to understand the core ideas of different schools of economic thought (Keynesian, Austrian, etc.)."
+"Schools of Economic Thought"
+
+"Suggest ways to understand the concept of elasticity in microeconomics."
+"Economic Elasticity Explained"
+
+"Suggest ways to understand the concept of economies of scale for producers."
+"Economies of Scale Explained"
+
+"Suggest ways to compare different market structures (monopoly, oligopoly, perfect competition)."
+"Compare Market Structures"
+
+"Suggest ways to understand how wages are determined in labor markets."
+"Labor Markets & Wages"
+
+"Suggest ways to learn about common market failures like externalities and public goods."
+"Market Failures Explained"
+
+"Suggest ways to learn what topics environmental economics covers."
+"Environmental Economics Overview"
+
+"Suggest ways to learn the different ways Gross Domestic Product (GDP) is measured."
+"GDP Measurement Explained"
+
+"Suggest ways to learn the main factors that drive economic growth."
+"Drivers of Economic Growth"
+
+"Suggest ways to learn different types of unemployment (frictional, structural, cyclical)."
+"Types of Unemployment"
+
+"Suggest ways to learn the primary causes of inflation."
+"Causes of Inflation"
+
+"Suggest ways to understand the concept of fiscal multipliers."
+"Fiscal Multipliers Explained"
+
+"Suggest ways to understand how a central bank conducts monetary policy."
+"Central Bank Operations"
+
+"Suggest ways to understand what Quantitative Easing (QE) is."
+"Quantitative Easing (QE) Explained"
+
+"Suggest ways to learn the theory of comparative advantage in international trade."
+"Comparative Advantage Explained"
+
+"Suggest ways to understand how foreign exchange rates are determined."
+"Exchange Rate Determination"
+
+"Suggest ways to understand what econometrics is and what it is used for."
+"Econometrics Overview"
+
+"Suggest ways to understand the use of game theory in economic analysis."
+"Game Theory in Economics"
+
+"Suggest ways I can find reliable sources of economic data."
+"Find Economic Data Sources"
+
+"Suggest ways to learn how economic forecasts are typically made."
+"Economic Forecasting Methods"
+
+"Suggest ways to learn the key issues studied in developmental economics."
+"Developmental Economics Issues"
+
+"Suggest ways to learn about Nudge Theory and its applications."
+"Nudge Theory Explained"
+
+"Suggest ways to understand what Public Choice Theory is."
+"Public Choice Theory Explained"
+
+"Suggest ways to learn what topics financial economics covers."
+"Financial Economics Topics"
+
+"Suggest ways to understand the role of institutions (like property rights) in economic performance."
+"Role of Economic Institutions"
+
+"Suggest ways to understand what political economy is."
+"Political Economy Explained"
+
+"Suggest ways to understand the core ideas of major political philosophies (liberalism, conservatism, socialism)."
+"Major Political Philosophies"
+
+"Suggest ways to compare different types of democracy (direct, representative, liberal)."
+"Types of Democracy Compared"
+
+"Suggest ways to learn the common characteristics of authoritarian regimes."
+"Authoritarian Regimes Explained"
+
+"Suggest ways to understand the purpose and function of a constitution."
+"Purpose of a Constitution"
+
+"Suggest ways to compare presidential and parliamentary systems of government."
+"Presidential vs. Parliamentary Systems"
+
+"Suggest ways to learn about different electoral systems (proportional representation, first-past-the-post)."
+"Electoral Systems Explained"
+
+"Suggest ways to understand the concept of federalism in government."
+"Federalism Explained"
+
+"Suggest ways to understand how local government typically functions."
+"Local Government Basics"
+
+"Suggest ways to understand the role of the civil service or public bureaucracy."
+"Role of Civil Service"
+
+"Suggest ways everyday citizens can increase their political participation."
+"Increase Political Participation"
+
+"Suggest ways to understand how interest groups and lobbyists influence government policy."
+"Interest Group Influence"
+
+"Suggest ways to understand how the media influences politics and public opinion."
+"Media Influence on Politics"
+
+"Suggest ways I can analyze political messaging and identify persuasive techniques."
+"Analyze Political Messaging"
+
+"Suggest ways to learn the basics of election campaign strategy."
+"Campaign Strategy Basics"
+
+"Suggest ways to understand the typical stages of the public policy cycle."
+"Policy Cycle Stages"
+
+"Suggest ways to learn the key areas typically covered by social policy."
+"Social Policy Areas Overview"
+
+"Suggest ways to learn the main goals and tools of foreign policy."
+"Foreign Policy Goals & Tools"
+
+"Suggest ways to understand how cost-benefit analysis is used in policy making."
+"Cost-Benefit Analysis in Policy"
+
+"Suggest ways to compare the main ideas of realism and liberalism in International Relations theory."
+"Realism vs. Liberalism (IR Theory)"
+
+"Suggest ways to understand the role of international organizations like the UN or WTO."
+"Role of International Organizations"
+
+"Suggest ways to learn key concepts in international political economy (IPE)."
+"IPE Concepts Explained"
+
+"Suggest ways to compare traditional security concepts with human security."
+"Traditional vs. Human Security"
+
+"Suggest ways to understand the concept of regional integration, using an example like the EU."
+"Regional Integration Explained"
+
+"Suggest ways I can critically analyze political arguments."
+"Analyze Political Arguments Critically"
+
+"Suggest ways to find resources for improving media literacy skills."
+"Improve Media Literacy Resources"
+
+"Suggest ways to learn different methods of political advocacy citizens can use."
+"Political Advocacy Methods"
+
+"Suggest ways to discuss key ethical issues and dilemmas in politics."
+"Political Ethics Issues"

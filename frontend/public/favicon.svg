@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background Square with Rounded Corners -->
+  <rect x="5" y="5" width="90" height="90" rx="15" ry="15" fill="#294C60" />
+  
+  <!-- Stylized "H" Letter with sharper corners -->
+  <path d="M30 25 V75 M30 50 H70 M70 25 V75" stroke="white" stroke-width="12" stroke-linecap="square" fill="none" />
+</svg> 

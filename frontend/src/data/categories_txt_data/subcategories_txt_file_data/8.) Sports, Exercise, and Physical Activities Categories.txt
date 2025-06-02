@@ -1,0 +1,267 @@
+🏆 Sports
+    👥 Team Sports
+        ⚽ Ball Sports
+            🏈 American Football
+            ⚽ Football (American Soccer)
+            🏀 Basketball
+            🏐 Volleyball
+                🏐 Indoor Volleyball
+                🏖️ Beach Volleyball
+            ⚾ Baseball
+            🥎 Softball
+            🏏 Cricket
+            🏉 Rugby
+                🏉 Rugby Union
+                🏉 Rugby League
+                🏉 Rugby Sevens
+            🏒 Ice Hockey
+            🏑 Field Hockey
+            🥍 Lacrosse
+            🤽‍♀️ Water Polo
+            🤾‍♂️ Handball
+            🥅 Netball
+            🥏 Ultimate Frisbee
+            🟡 Spikeball
+            ☄️ Dodgeball
+            ☄️ Kickball
+            🥅 Tchoukball
+            ⚽ Sepak Takraw
+            🤝 Kabaddi
+            🏑 Hurling
+            ⚽ Gaelic Football
+            🏉 Australian Rules Football
+            ⚾ Pesäpallo (Finnish Baseball)
+            🏒 Bandy
+            🏒 Floorball
+            🏀 Korfball
+            ⚽ Futsal
+            🏒 Underwater Hockey
+            🧹 Quidditch (Quadball)
+        🏁 Racing Team Sports
+            🏃‍♂️ Relay Racing
+            🐉 Dragon Boat Racing
+            🛶 Outrigger Canoe Racing
+            🚣 Crew/Rowing
+        ⚔️ Combat Team Sports
+            🎨 Team Paintball
+            💪 Tug of War
+            ⚔️ Calcio Storico
+    
+    🧍‍♀️ Individual Sports
+        🎾 Racquet/Paddle Sports
+            🎾 Tennis
+                🧍‍♂️ Singles
+                👯 Doubles
+            🏸 Badminton
+            🏸 Squash
+            🏓 Table Tennis
+            🏸 Racquetball
+            🎾 Padel
+            🥒 Pickleball
+            🎾 Real Tennis
+            👋 Jai Alai
+            👋 Pelota
+        🎯 Target Sports
+            ⛳ Golf
+            🏹 Archery
+            🔫 Shooting
+                🎯 Skeet
+                🎯 Trap
+                🎯 Target
+            🎯 Darts
+            🎱 Billiards/Pool
+            🎱 Snooker
+            🎳 Bowling
+            🥌 Curling
+        🥊 Combat Sports
+            🥋 Martial Arts
+                🥊 Boxing
+                🥊 Kickboxing
+                🥋 Judo
+                🤼‍♂️ Wrestling
+                    🤼 Freestyle
+                    🤼‍♀️ Greco-Roman
+                    🤼‍♂️ Sumo
+                🥋 Karate
+                🥋 Taekwondo
+                🥋 Brazilian Jiu-Jitsu
+                🥊 Muay Thai
+                🥊 Mixed Martial Arts (MMA)
+                🥋 Sambo
+                🥋 Kung Fu
+                🤸‍♀️ Capoeira
+                🥷 Kendo
+                🥋 Aikido
+                🥋 Hapkido
+            🤺 Fencing
+                🤺 Foil
+                🤺 Épée
+                🤺 Sabre
+        👟 Track & Field
+            🏃‍♂️ Running/Sprinting Events
+            🤸‍♀️ Jumping Events
+            🤾‍♂️ Throwing Events
+            🏅 Combined Events (Heptathlon, Decathlon)
+        🌊 Water Sports
+            🏊‍♂️ Swimming
+            🏊‍♀️ Diving
+            🌊⛷️ Water Skiing
+            🚤📿🏄‍♂️ Wakeboarding
+            🏄 Surfing
+            🌬️🏄‍♂️ Windsurfing
+            🪁🏄‍♀️ Kitesurfing
+            🛶 Paddleboarding
+            🌊🏄 Bodyboarding
+            🏊‍♂️♾️ Synchronized Swimming
+        ❄️ Winter Sports
+            ⛷️ Skiing
+                ⛷️ Alpine Skiing
+                ⛷️ Cross-Country Skiing
+                ⛷️ Ski Jumping
+                ⛷️ Freestyle Skiing
+                ⛷️🏹 Biathlon
+            🏂 Snowboarding
+            ⛸️ Figure Skating
+            ⛸️ Speed Skating
+            🛷 Bobsleigh
+            🛷 Luge
+            🛷 Skeleton
+        🚴‍♂️🚴‍♀️ Cycling Sports
+            🚴‍♂️ Road Cycling
+            🚴‍♀️ Track Cycling
+            🚵‍♀️🚵‍♂️ Mountain Biking
+            🚴‍♂️ BMX
+            🚴‍♀️ Cyclocross
+        🤸‍♀️🤸🤸‍♂️ Gymnastics
+            🤸‍♀️ Artistic Gymnastics
+            🤸‍♂️ Rhythmic Gymnastics
+            🤸 Trampoline
+            🤸‍♀️ Acrobatic Gymnastics
+        🐎 Equestrian Sports
+            🐎 Show Jumping
+            🐎 Dressage
+            🐎 Eventing
+            🐎 Polo
+            🤠 Rodeo
+        🏎️ Motor Sports
+            🏎️ Formula Racing
+            🚗 Rally Racing
+            🏍️ Motorcycle Racing
+            🏍️ Motocross
+            🏎️ Karting
+        🧗 Adventure/Extreme Sports
+            🧗 Rock Climbing
+            🧗 Bouldering
+            🤸‍♀️ Parkour
+            🛹 Skateboarding
+            🛼 Inline Skating
+            🏔️ Mountaineering
+            🪂 Base Jumping
+            🪂 Paragliding
+            🪁 Hang Gliding
+            🪂 Skydiving
+        🏋️‍♀️ Strength Sports
+            🏋️‍♀️ Weightlifting
+            🏋️‍♂️ Powerlifting
+            💪 Bodybuilding
+            💪 Strongman/Strongwoman
+            🏋️ CrossFit
+        🎯 Precision Sports
+            🎱 Billiards
+            🎳 Bowling
+            ⛳ Golf
+        🏅 Multisport Events
+            🏊‍♂️🚴‍♂️🏃‍♂️ Triathlon
+            🏃‍♂️🚵‍♀️ Duathlon
+            🤺🏊‍♂️🐎🔫🏃‍♂️ Pentathlon
+            🏅 Decathlon
+            🏅 Heptathlon
+
+💪 Fitness and Exercise
+	🏋️‍♀️🏋️‍♂️ Gym Session
+
+	🏃‍♂️🏃‍♀️ Aerobic Exercises
+		🏃‍♂️ Running
+		🚴‍♀️ Cycling
+		🏊‍♂️ Recreational Swimming
+		🚣 Rowing
+		🤸‍♀️ Aerobics
+		💃 Dance Fitness
+
+	🏋️‍♀️ Strength Training
+		🏋️‍♂️ Weightlifting
+		🤸‍♀️ Bodyweight Exercises
+		💪 Resistance Training
+		🏋️‍♀️ Powerlifting
+
+	🧘‍♂️🧘‍♀️ Flexibility and Stretching
+		🧘‍♂️ Yoga
+		🧘‍♀️ Pilates
+		🧘 Static Stretching
+		🤸‍♀️ Dynamic Stretching
+
+	⚖️ Balance and Coordination
+		☯️ Tai Chi
+		⚖️ Balance Board Exercises
+		🧠 Coordination Drills
+
+	👥 Group Fitness Classes
+		🚴‍♂️ Spinning
+		💪 Bootcamp
+		🏋️‍♀️ Crossfit
+		💃 Zumba
+
+🌲 Outdoor Activities
+	🏞️ Land-based
+		🥾 Hiking
+		🏕️ Camping
+		🧗 Rock Climbing
+		🏔️ Mountaineering
+		🧭 Orienteering
+		🧭 Geocaching
+
+	🌊 Water-based
+		🛶 Kayaking
+		🛶 Canoeing
+		⛵ Sailing
+		🏄 Surfing
+        🌬️🏄‍♂️ Windsurfing
+        🪁🏄‍♀️ Kitesurfing
+		🤿 Scuba diving
+		🤿 Snorkeling
+
+	✈️ Air-based
+		🪂 Paragliding
+		🪁 Hang gliding
+		🪂 Skydiving
+		🤸‍♀️ Bungee jumping
+
+	❄️ Snow and Ice-based
+		⛷️ Skiing
+		🏂 Snowboarding
+		⛸️ Ice skating
+		🎿 Snowshoeing
+
+🤸‍♀️ Physical Games
+	🌳 Playground Games
+		🏃‍♂️ Tag
+		🙈 Hide and Seek
+		🚩 Capture The Flag
+		☄️ Dodgeball
+		☄️ Kickball
+		🏐 Tetherball
+		🥅 Funnel ball
+		🔢 Four Square
+		🤫 Heads up, seven up
+	💃 Dance
+		🩰 Ballet
+		🕺 Hip Hop
+		💃 Salsa
+		🕺 Ballroom
+		💃 Contemporary
+	❓ Other
+		🥏 Frisbee
+		📿 Jump Rope
+		⭕️ Hula Hoop
+		🤸‍♀️ Parkour
+		🏃‍♂️ Free Running

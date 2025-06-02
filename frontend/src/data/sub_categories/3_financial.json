@@ -1,0 +1,4202 @@
+{
+  "id": 81,
+  "name": "Financial Understanding, Economics, and Politics",
+  "icon": "💰",
+  "subcategories": [
+    {
+      "name": "Personal Finance",
+      "icon": "💲",
+      "subcategories": [
+        {
+          "name": "Financial Fundamentals",
+          "icon": "🏦",
+          "subcategories": [
+            {
+              "name": "Money Mindset",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Abundance vs. Scarcity Thinking",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Financial Values Clarification",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Money Psychology",
+                  "icon": "🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Financial Well-being Perspective",
+                  "icon": "😊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Relationship with Money",
+                  "icon": "💸",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Financial Literacy",
+              "icon": "📚",
+              "subcategories": [
+                {
+                  "name": "Basic Financial Concepts",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Financial Terminology",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Financial Math Fundamentals",
+                  "icon": "➕➖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Economic System Understanding",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Banking System Knowledge",
+                  "icon": "🏦",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Financial Education",
+              "icon": "🎓",
+              "subcategories": [
+                {
+                  "name": "Financial Literacy Programs",
+                  "icon": "📖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Personal Finance Courses",
+                  "icon": "🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Finance Workshops",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Money Management Seminars",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Financial Coaching",
+                  "icon": "🧑‍🏫",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Income Management",
+          "icon": "💼",
+          "subcategories": [
+            {
+              "name": "Earning Potential",
+              "icon": "📈",
+              "subcategories": [
+                {
+                  "name": "Career Financial Planning",
+                  "icon": "🧑‍💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Income Diversification",
+                  "icon": "➕",
+                  "subcategories": []
+                },
+                {
+                  "name": "Side Hustle Development",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Active Income Optimization",
+                  "icon": "🏃‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Passive Income Creation",
+                  "icon": "🛋️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Income Protection",
+              "icon": "🛡️",
+              "subcategories": [
+                {
+                  "name": "Tax Optimization",
+                  "icon": "🧾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Income Tax Planning",
+                  "icon": "📑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Deduction Strategies",
+                  "icon": "📉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tax-Advantaged Accounts",
+                  "icon": "🏦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tax Filing Procedures",
+                  "icon": "📄",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Income Growth",
+              "icon": "🌱",
+              "subcategories": [
+                {
+                  "name": "Salary Negotiation",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Career Advancement Strategy",
+                  "icon": "🚀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Professional Development ROI",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Compensation Package Optimization",
+                  "icon": "📦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Commission/Bonus Maximization",
+                  "icon": "🏆",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Expense Management",
+          "icon": "🛒",
+          "subcategories": [
+            {
+              "name": "Budgeting Methods",
+              "icon": "📊",
+              "subcategories": [
+                {
+                  "name": "Zero-Based Budgeting",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Percentage-Based Budgeting",
+                  "icon": "％",
+                  "subcategories": []
+                },
+                {
+                  "name": "Value-Based Budgeting",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Envelope System",
+                  "icon": "✉️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pay Yourself First Method",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Anti-Budget Approach",
+                  "icon": "🙅‍♀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Spending Analysis",
+              "icon": "🔍",
+              "subcategories": [
+                {
+                  "name": "Expense Tracking",
+                  "icon": "📝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Spending Pattern Recognition",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Needs vs. Wants Assessment",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Consumption Evaluation",
+                  "icon": "🛒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Spending Triggers Identification",
+                  "icon": "🎯",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Expense Optimization",
+              "icon": "📉",
+              "subcategories": [
+                {
+                  "name": "Fixed Expense Reduction",
+                  "icon": "🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Variable Cost Management",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Subscription Audit",
+                  "icon": "✂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lifestyle Design for Financial Goals",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mindful Consumption Practices",
+                  "icon": "🧘‍♂️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Debt Management",
+          "icon": "💳",
+          "subcategories": [
+            {
+              "name": "Debt Understanding",
+              "icon": "❓",
+              "subcategories": [
+                {
+                  "name": "Types of Debt Analysis",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Debt Structure Comprehension",
+                  "icon": "🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Interest Rate Implications",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Debt-to-Income Ratio",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Credit Utilization Impact",
+                  "icon": "📉",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Debt Reduction Strategies",
+              "icon": "📉",
+              "subcategories": [
+                {
+                  "name": "Debt Snowball Method",
+                  "icon": "❄️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Debt Avalanche Approach",
+                  "icon": "🏔️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Debt Consolidation Evaluation",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Refinancing Opportunities",
+                  "icon": "🏦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Balance Transfer Techniques",
+                  "icon": "💳",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Credit Management",
+              "icon": "💳",
+              "subcategories": [
+                {
+                  "name": "Credit Score Optimization",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Credit Report Analysis",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Credit Building Methods",
+                  "icon": "🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Credit Repair Strategies",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Credit Protection Measures",
+                  "icon": "🛡️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Savings & Emergency Planning",
+          "icon": "🏦",
+          "subcategories": [
+            {
+              "name": "Emergency Fund Development",
+              "icon": "🆘",
+              "subcategories": [
+                {
+                  "name": "Emergency Fund Sizing",
+                  "icon": "📏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fund Accessibility Balance",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Emergency Definition Parameters",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fund Location Optimization",
+                  "icon": "📍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rebuilding Strategies",
+                  "icon": "🛠️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Savings Methods",
+              "icon": "💰",
+              "subcategories": [
+                {
+                  "name": "Automated Saving Systems",
+                  "icon": "🤖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Goal-Based Saving",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Savings Rate Optimization",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Savings Vehicle Selection",
+                  "icon": "🏦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Psychological Saving Tricks",
+                  "icon": "🧠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Financial Safety Nets",
+              "icon": "🛡️",
+              "subcategories": [
+                {
+                  "name": "Insurance Needs Analysis",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Risk Management Strategy",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Protection Planning",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Safety Net Construction",
+                  "icon": "🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Financial Redundancy Planning",
+                  "icon": "🛡️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Life Financial Planning",
+          "icon": "📅",
+          "subcategories": [
+            {
+              "name": "Major Life Purchases",
+              "icon": "🏡",
+              "subcategories": [
+                {
+                  "name": "Home Buying Process",
+                  "icon": "🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vehicle Purchase Strategy",
+                  "icon": "🚗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Education Funding",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Major Celebration Financing",
+                  "icon": "🎉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lifestyle Upgrade Planning",
+                  "icon": "⬆️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Financial Life Transitions",
+              "icon": "🔄",
+              "subcategories": [
+                {
+                  "name": "Career Transition Planning",
+                  "icon": "🧑‍💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Relocation Financial Strategy",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Relationship Financial Integration",
+                  "icon": "💑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Family Planning Economics",
+                  "icon": "👨‍👩‍👧‍👦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Inheritance Management",
+                  "icon": "🎁",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Estate Planning",
+              "icon": "📜",
+              "subcategories": [
+                {
+                  "name": "Will Preparation",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trust Consideration",
+                  "icon": "🏦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Power of Attorney",
+                  "icon": "🧑‍⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Advance Directives",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Legacy Planning",
+                  "icon": "🕰️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Financial Independence",
+          "icon": "🕊️",
+          "subcategories": [
+            {
+              "name": "Financial Freedom Planning",
+              "icon": "🗽",
+              "subcategories": [
+                {
+                  "name": "Financial Independence Calculation",
+                  "icon": "🧮",
+                  "subcategories": []
+                },
+                {
+                  "name": "FI/RE Movement Principles",
+                  "icon": "🔥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Financial Freedom Timelines",
+                  "icon": "⏳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Independence Milestones",
+                  "icon": "🏁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Work Optional Planning",
+                  "icon": "🏖️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Retirement Preparation",
+              "icon": "👴",
+              "subcategories": [
+                {
+                  "name": "Retirement Needs Analysis",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Retirement Account Strategies",
+                  "icon": "🏦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pension Optimization",
+                  "icon": "💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Security Planning",
+                  "icon": "🇺🇸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Retirement Income Sources",
+                  "icon": "💰",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Life Design with Finances",
+              "icon": "🧘‍♀️🧘‍♂️",
+              "subcategories": [
+                {
+                  "name": "Life Purpose and Money Alignment",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Enough Calculation",
+                  "icon": "💯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Values-Based Financial Planning",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Time-Money Balance",
+                  "icon": "⏳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Life Satisfaction Optimization",
+                  "icon": "😊",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Investing",
+      "icon": "💸",
+      "subcategories": [
+        {
+          "name": "Investment Fundamentals",
+          "icon": "📊",
+          "subcategories": [
+            {
+              "name": "Investment Principles",
+              "icon": "💡",
+              "subcategories": [
+                {
+                  "name": "Risk-Reward Relationship",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Compounding Understanding",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Diversification Principles",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Asset Allocation Basics",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Time Horizon Consideration",
+                  "icon": "⏳",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Investment Psychology",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Behavioral Finance Awareness",
+                  "icon": "🧐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Emotional Investing Pitfalls",
+                  "icon": "😨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cognitive Bias Recognition",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Patience Development",
+                  "icon": "🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Long-term Perspective Cultivation",
+                  "icon": "🕰️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Investment Education",
+              "icon": "🎓",
+              "subcategories": [
+                {
+                  "name": "Investment Literacy Development",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Market Mechanics Understanding",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Investment Research Methods",
+                  "icon": "🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Analysis Framework Development",
+                  "icon": "🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Investment Terminology Mastery",
+                  "icon": "🗣️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Asset Classes",
+          "icon": "🏦",
+          "subcategories": [
+            {
+              "name": "Stocks & Equities",
+              "icon": "📈",
+              "subcategories": [
+                {
+                  "name": "Stock Market Fundamentals",
+                  "icon": "🏛️",
+                  "subcategories": [
+                    {
+                      "name": "Market Structure Knowledge",
+                      "icon": "🏗️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Stock Types & Categories",
+                      "icon": "🏷️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Market Indices Understanding",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Stock Exchange Operations",
+                      "icon": "🏢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Market Participant Roles",
+                      "icon": "🧑‍💼",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Stock Investment Approaches",
+                  "icon": "🎯",
+                  "subcategories": [
+                    {
+                      "name": "Value Investing",
+                      "icon": "💎",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Growth Investing",
+                      "icon": "🚀",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dividend Investing",
+                      "icon": "💰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Index Investing",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sector Rotation Strategy",
+                      "icon": "🔄",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Stock Analysis Methods",
+                  "icon": "🔍",
+                  "subcategories": [
+                    {
+                      "name": "Fundamental Analysis",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Technical Analysis",
+                      "icon": "📈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Quantitative Analysis",
+                      "icon": "🔢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Qualitative Assessment",
+                      "icon": "🧐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Comparative Valuation",
+                      "icon": "⚖️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Stock Portfolio Management",
+                  "icon": "💼",
+                  "subcategories": [
+                    {
+                      "name": "Portfolio Construction",
+                      "icon": "🏗️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Position Sizing",
+                      "icon": "📏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Rebalancing Strategies",
+                      "icon": "⚖️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tax-Efficient Management",
+                      "icon": "🧾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Dividend Reinvestment",
+                      "icon": "💰",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fixed Income Securities",
+              "icon": "📄",
+              "subcategories": [
+                {
+                  "name": "Bond Fundamentals",
+                  "icon": "📜",
+                  "subcategories": [
+                    {
+                      "name": "Bond Types & Categories",
+                      "icon": "🏷️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Interest Rate Dynamics",
+                      "icon": "📈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Credit Quality Assessment",
+                      "icon": "✅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Duration Understanding",
+                      "icon": "⏳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Yield Curve Analysis",
+                      "icon": "📈",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Bond Investment Strategies",
+                  "icon": "🎯",
+                  "subcategories": [
+                    {
+                      "name": "Laddering Approaches",
+                      "icon": "🪜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Barbell Strategy",
+                      "icon": "🏋️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bullet Strategy",
+                      "icon": "🎯",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Credit Spread Analysis",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Interest Rate Anticipation",
+                      "icon": "🔮",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Other Fixed Income Vehicles",
+                  "icon": "🏦",
+                  "subcategories": [
+                    {
+                      "name": "Certificates of Deposit",
+                      "icon": "📄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Treasury Securities",
+                      "icon": "🇺🇸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Municipal Bonds",
+                      "icon": "🏘️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Corporate Bonds",
+                      "icon": "🏢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "High-Yield Bonds",
+                      "icon": "⚠️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Real Estate",
+              "icon": "🏠",
+              "subcategories": [
+                {
+                  "name": "Property Investment Types",
+                  "icon": "🏗️",
+                  "subcategories": [
+                    {
+                      "name": "Residential Real Estate",
+                      "icon": "🏘️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Commercial Properties",
+                      "icon": "🏢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Industrial Real Estate",
+                      "icon": "🏭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Land Investment",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Real Estate Development",
+                      "icon": "🏗️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Real Estate Investment Methods",
+                  "icon": "💰",
+                  "subcategories": [
+                    {
+                      "name": "Direct Ownership",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Real Estate Investment Trusts (REITs)",
+                      "icon": "🏢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Real Estate Crowdfunding",
+                      "icon": "👥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Limited Partnerships",
+                      "icon": "🧑‍🤝‍🧑",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Real Estate Funds",
+                      "icon": "🏦",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Property Analysis",
+                  "icon": "🔍",
+                  "subcategories": [
+                    {
+                      "name": "Location Evaluation",
+                      "icon": "📍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Property Valuation",
+                      "icon": "💲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Income Analysis",
+                      "icon": "💰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Expense Assessment",
+                      "icon": "🛒",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Return Calculation",
+                      "icon": "📈",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Real Estate Operations",
+                  "icon": "🛠️",
+                  "subcategories": [
+                    {
+                      "name": "Property Management",
+                      "icon": "🧑‍🔧",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tenant Relations",
+                      "icon": "👥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Maintenance Planning",
+                      "icon": "📅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Improvement Assessment",
+                      "icon": "🛠️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Property Tax Strategies",
+                      "icon": "🧾",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Alternative Investments",
+              "icon": "🔄",
+              "subcategories": [
+                {
+                  "name": "Commodities",
+                  "icon": "💎",
+                  "subcategories": [
+                    {
+                      "name": "Precious Metals (Gold, Silver)",
+                      "icon": "🥇🥈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Energy Commodities",
+                      "icon": "⛽",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Agricultural Products",
+                      "icon": "🌾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Industrial Metals",
+                      "icon": "🔩",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Commodity Futures",
+                      "icon": "📈",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Cryptocurrency",
+                  "icon": "🔗",
+                  "subcategories": [
+                    {
+                      "name": "Blockchain Fundamentals",
+                      "icon": "⛓️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Major Cryptocurrencies",
+                      "icon": "💰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Token Economics",
+                      "icon": "🪙",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mining & Validation",
+                      "icon": "⛏️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Crypto Security",
+                      "icon": "🔒",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "DeFi (Decentralized Finance)",
+                      "icon": "🌐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "NFTs (Non-Fungible Tokens)",
+                      "icon": "🖼️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Collectibles & Tangibles",
+                  "icon": "🏺",
+                  "subcategories": [
+                    {
+                      "name": "Art Investment",
+                      "icon": "🎨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wine & Spirits Collection",
+                      "icon": "🍷🥃",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Luxury Watches",
+                      "icon": "⌚",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Rare Coins & Stamps",
+                      "icon": "🪙",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Memorabilia",
+                      "icon": "memorabilia",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Private Investments",
+                  "icon": "🏢",
+                  "subcategories": [
+                    {
+                      "name": "Venture Capital",
+                      "icon": "🚀",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Private Equity",
+                      "icon": "💼",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Angel Investing",
+                      "icon": "👼",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Startup Funding",
+                      "icon": "💡",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Business Ownership",
+                      "icon": "🏢",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Exotic Investments",
+                  "icon": "🔮",
+                  "subcategories": [
+                    {
+                      "name": "Carbon Credits",
+                      "icon": "🌳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Water Rights",
+                      "icon": "💧",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Intellectual Property",
+                      "icon": "💡",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Life Settlements",
+                      "icon": "💀",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Litigation Funding",
+                      "icon": "⚖️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Investment Vehicles",
+          "icon": "🏦",
+          "subcategories": [
+            {
+              "name": "Retirement Accounts",
+              "icon": "👴",
+              "subcategories": [
+                {
+                  "name": "Employer-Sponsored Plans",
+                  "icon": "🏢",
+                  "subcategories": [
+                    {
+                      "name": "401(k)/403(b) Plans",
+                      "icon": "💰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pension Plans",
+                      "icon": "💼",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Profit Sharing",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Employee Stock Options",
+                      "icon": "📈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Deferred Compensation",
+                      "icon": "⏳",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Individual Retirement Accounts",
+                  "icon": "🧑",
+                  "subcategories": [
+                    {
+                      "name": "Traditional IRAs",
+                      "icon": "🏦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Roth IRAs",
+                      "icon": "🌹",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "SEP IRAs",
+                      "icon": "💼",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "SIMPLE IRAs",
+                      "icon": "✅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Self-Directed IRAs",
+                      "icon": "🧑‍🔧",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Specialized Retirement Accounts",
+                  "icon": "🔒",
+                  "subcategories": [
+                    {
+                      "name": "Solo 401(k)",
+                      "icon": "💼",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Defined Benefit Plans",
+                      "icon": "📈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cash Balance Plans",
+                      "icon": "💰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Thrift Savings Plans",
+                      "icon": "💰",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Taxable Investment Accounts",
+              "icon": "💰",
+              "subcategories": [
+                {
+                  "name": "Brokerage Accounts",
+                  "icon": "🏦",
+                  "subcategories": [
+                    {
+                      "name": "Full-Service Brokerages",
+                      "icon": "🧑‍💼",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Discount Brokers",
+                      "icon": "💲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Online Platforms",
+                      "icon": "💻",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Specialized Brokers",
+                      "icon": "🎯",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Banking Investment Products",
+                  "icon": "🏦",
+                  "subcategories": [
+                    {
+                      "name": "Money Market Accounts",
+                      "icon": "💰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "High-Yield Savings",
+                      "icon": "📈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bank Investment Services",
+                      "icon": "🏦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "CD Ladders",
+                      "icon": "🪜",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Education Investment Accounts",
+              "icon": "🎓",
+              "subcategories": [
+                {
+                  "name": "529 Plans",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coverdell ESAs",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "UGMA/UTMA Accounts",
+                  "icon": "🧒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Education Bonds",
+                  "icon": "🎓",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Health Savings Accounts",
+              "icon": "🏥",
+              "subcategories": [
+                {
+                  "name": "HSA Investment Options",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "HSA Contribution Strategies",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "HSA Distribution Planning",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "HSA Estate Planning",
+                  "icon": "📜",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Trust Accounts",
+              "icon": "🏦",
+              "subcategories": [
+                {
+                  "name": "Revocable Trusts",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Irrevocable Trusts",
+                  "icon": "🔒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Charitable Trusts",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Special Needs Trusts",
+                  "icon": "♿",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Investment Strategies",
+          "icon": "🎯",
+          "subcategories": [
+            {
+              "name": "Strategic Approaches",
+              "icon": "🗺️",
+              "subcategories": [
+                {
+                  "name": "Passive Investing",
+                  "icon": "🛋️",
+                  "subcategories": [
+                    {
+                      "name": "Index Fund Investing",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Buy and Hold Strategy",
+                      "icon": "🕰️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Core-Satellite Approach",
+                      "icon": "🎯",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Lazy Portfolios",
+                      "icon": "😴",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Target Date Funds",
+                      "icon": "📅",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Active Management",
+                  "icon": "🏃‍♂️",
+                  "subcategories": [
+                    {
+                      "name": "Security Selection",
+                      "icon": "✅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Market Timing",
+                      "icon": "⏰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sector Rotation",
+                      "icon": "🔄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Style Investing",
+                      "icon": "✨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tactical Asset Allocation",
+                      "icon": "♟️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Factor-Based Investing",
+                  "icon": "🔬",
+                  "subcategories": [
+                    {
+                      "name": "Value Factor",
+                      "icon": "💎",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Size Factor",
+                      "icon": "📏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Momentum Factor",
+                      "icon": "⚡️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Quality Factor",
+                      "icon": "✅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Low Volatility Factor",
+                      "icon": "🛡️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Risk Management Techniques",
+              "icon": "🛡️",
+              "subcategories": [
+                {
+                  "name": "Position Sizing",
+                  "icon": "📏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stop Loss Strategies",
+                  "icon": "🛑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Options Hedging",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Diversification Implementation",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Correlation Analysis",
+                  "icon": "🔗",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Income-Focused Strategies",
+              "icon": "💰",
+              "subcategories": [
+                {
+                  "name": "Dividend Growth Investing",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "High-Yield Focus",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Total Return Approach",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Covered Call Writing",
+                  "icon": "📞",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bond Laddering",
+                  "icon": "🪜",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Strategic Life Integration",
+              "icon": "🧘‍♂️🧘‍♀️",
+              "subcategories": [
+                {
+                  "name": "Goal-Based Investing",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Life Stage Investment Alignment",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Values-Based Investing",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sustainable Investment Integration",
+                  "icon": "♻️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Legacy Investment Planning",
+                  "icon": "🕰️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Responsible Investing",
+          "icon": "♻️",
+          "subcategories": [
+            {
+              "name": "ESG Investing",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Environmental Considerations",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Responsibility Analysis",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Governance Evaluation",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "ESG Screening Methods",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "ESG Integration Techniques",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Impact Investing",
+              "icon": "🎯",
+              "subcategories": [
+                {
+                  "name": "Social Impact Measurement",
+                  "icon": "📏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Double Bottom Line Approach",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Investment Strategies",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mission-Related Investments",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Program-Related Investments",
+                  "icon": "🎁",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Sustainable Investing",
+              "icon": "🌱",
+              "subcategories": [
+                {
+                  "name": "Climate-Conscious Investing",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Renewable Energy Focus",
+                  "icon": "☀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Natural Resource Conservation",
+                  "icon": "🌲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Circular Economy Investments",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Long-term Sustainability Analysis",
+                  "icon": "🕰️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Ethical Investing",
+              "icon": "💖",
+              "subcategories": [
+                {
+                  "name": "Values Alignment Methods",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Negative Screening",
+                  "icon": "🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Positive Screening",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Faith-Based Investing",
+                  "icon": "⛪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ethical Supply Chain Focus",
+                  "icon": "🔗",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Investment Operations",
+          "icon": "🛠️",
+          "subcategories": [
+            {
+              "name": "Portfolio Management",
+              "icon": "💼",
+              "subcategories": [
+                {
+                  "name": "Portfolio Construction Principles",
+                  "icon": "🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Allocation Determination",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rebalancing Protocols",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Performance Measurement",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tax-Loss Harvesting",
+                  "icon": "🧾",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Transaction Implementation",
+              "icon": "🛒",
+              "subcategories": [
+                {
+                  "name": "Order Types & Execution",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trading Platforms",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Commission/Fee Minimization",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Liquidity Consideration",
+                  "icon": "💧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Timing Optimization",
+                  "icon": "⏰",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Investment Administration",
+              "icon": "📁",
+              "subcategories": [
+                {
+                  "name": "Record Keeping Systems",
+                  "icon": "💾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tax Documentation",
+                  "icon": "🧾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Investment Policy Statements",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Beneficiary Designations",
+                  "icon": "🧑‍🤝‍🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Account Titling Strategy",
+                  "icon": "🏷️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Professional Support Evaluation",
+              "icon": "👨‍💼",
+              "subcategories": [
+                {
+                  "name": "Financial Advisor Assessment",
+                  "icon": "🧐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Investment Manager Selection",
+                  "icon": "👩‍💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Robo-Advisor Consideration",
+                  "icon": "🤖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fee Structure Analysis",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fiduciary Standard Evaluation",
+                  "icon": "⚖️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Economics",
+      "icon": "📈📉📈",
+      "subcategories": [
+        {
+          "name": "Economic Fundamentals",
+          "icon": "💡",
+          "subcategories": [
+            {
+              "name": "Economic Concepts",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Scarcity & Choice",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Opportunity Cost",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Supply & Demand Dynamics",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Marginal Analysis",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Incentive Structures",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Utility Theory",
+                  "icon": "😊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Production Possibilities",
+                  "icon": "🗺️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Economic Systems",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Market Economies",
+                  "icon": "🛒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Command Economies",
+                  "icon": "🏭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mixed Economic Systems",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Traditional Economies",
+                  "icon": "🛖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Transitional Economies",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Economic Thought & History",
+              "icon": "🕰️",
+              "subcategories": [
+                {
+                  "name": "Classical Economics",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Keynesian Economics",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Monetarism",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Austrian School",
+                  "icon": "🇦🇹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Marxist Economics",
+                  "icon": "🚩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Institutional Economics",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Behavioral Economics",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Development Economics",
+                  "icon": "🌱",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Microeconomics",
+          "icon": "🔬",
+          "subcategories": [
+            {
+              "name": "Consumer Theory",
+              "icon": "🛒",
+              "subcategories": [
+                {
+                  "name": "Consumer Preferences",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Utility Maximization",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Budget Constraints",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Demand Derivation",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Elasticity Concepts",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Consumer Surplus",
+                  "icon": "➕",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Producer Theory",
+              "icon": "🏭",
+              "subcategories": [
+                {
+                  "name": "Production Functions",
+                  "icon": "🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cost Structures",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Profit Maximization",
+                  "icon": "🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Supply Derivation",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Producer Surplus",
+                  "icon": "➕",
+                  "subcategories": []
+                },
+                {
+                  "name": "Economies of Scale",
+                  "icon": "📈",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Market Structures",
+              "icon": "🏗️",
+              "subcategories": [
+                {
+                  "name": "Perfect Competition",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Monopoly",
+                  "icon": "👑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Oligopoly",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Monopolistic Competition",
+                  "icon": "🛍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Contestable Markets",
+                  "icon": "⚔️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Market Entry & Exit",
+                  "icon": "🚪",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Factor Markets",
+              "icon": "👥",
+              "subcategories": [
+                {
+                  "name": "Labor Markets",
+                  "icon": "🧑‍💼",
+                  "subcategories": [
+                    {
+                      "name": "Wage Determination",
+                      "icon": "💰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Human Capital",
+                      "icon": "🎓",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Labor Mobility",
+                      "icon": "🚶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Discrimination Analysis",
+                      "icon": "🚫",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Union Impacts",
+                      "icon": "🤝",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Capital Markets",
+                  "icon": "🏦",
+                  "subcategories": [
+                    {
+                      "name": "Interest Rate Determination",
+                      "icon": "📈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Investment Dynamics",
+                      "icon": "💰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Capital Allocation",
+                      "icon": "📊",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Land & Resources",
+                  "icon": "🏞️",
+                  "subcategories": [
+                    {
+                      "name": "Resource Pricing",
+                      "icon": "💲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Rent Determination",
+                      "icon": "🏠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Resource Management",
+                      "icon": "🌲",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Market Failures",
+              "icon": "⚠️",
+              "subcategories": [
+                {
+                  "name": "Externalities",
+                  "icon": "💨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Goods",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Common Resources",
+                  "icon": "🐑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Information Asymmetry",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Market Power",
+                  "icon": "👑",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Applied Microeconomics",
+              "icon": "🧪",
+              "subcategories": [
+                {
+                  "name": "Environmental Economics",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Health Economics",
+                  "icon": "🏥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Labor Economics",
+                  "icon": "🧑‍💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Urban Economics",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Agricultural Economics",
+                  "icon": "🌾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Industrial Organization",
+                  "icon": "🏭",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Macroeconomics",
+          "icon": "🌍",
+          "subcategories": [
+            {
+              "name": "National Income Accounting",
+              "icon": "📊",
+              "subcategories": [
+                {
+                  "name": "GDP Measurement",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "National Income Components",
+                  "icon": "🧩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Business Cycle Analysis",
+                  "icon": "📉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Economic Indicators",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Macroeconomic Data Interpretation",
+                  "icon": "📊",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Economic Growth",
+              "icon": "📈",
+              "subcategories": [
+                {
+                  "name": "Growth Theories",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Productivity Enhancement",
+                  "icon": "🚀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Capital Formation",
+                  "icon": "🏦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Human Capital Development",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technological Progress",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Institutional Factors",
+                  "icon": "🏛️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Employment & Inflation",
+              "icon": "🧑‍💼",
+              "subcategories": [
+                {
+                  "name": "Unemployment Types",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Labor Force Dynamics",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Inflation Measurement",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Inflation Causes",
+                  "icon": "🔥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Phillips Curve Analysis",
+                  "icon": "📉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stagflation Dynamics",
+                  "icon": "🐌",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Fiscal Policy",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "Government Spending",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Taxation Effects",
+                  "icon": "🧾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Budget Analysis",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Deficit Financing",
+                  "icon": "💸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Debt Management",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fiscal Multipliers",
+                  "icon": "multiplier",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Monetary Policy",
+              "icon": "🏦",
+              "subcategories": [
+                {
+                  "name": "Central Banking",
+                  "icon": "🏦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Money Supply Management",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Interest Rate Determination",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Monetary Transmission",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Quantitative Easing",
+                  "icon": "🚁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Inflation Targeting",
+                  "icon": "🎯",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "International Economics",
+              "icon": "🌐",
+              "subcategories": [
+                {
+                  "name": "Trade Theory",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Comparative Advantage",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trade Policy",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Exchange Rate Systems",
+                  "icon": "💱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Balance of Payments",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Capital Flows",
+                  "icon": "💸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Economic Integration",
+                  "icon": "🌍",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Economic Analysis",
+          "icon": "📊",
+          "subcategories": [
+            {
+              "name": "Econometric Methods",
+              "icon": "📈",
+              "subcategories": [
+                {
+                  "name": "Statistical Analysis",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Regression Techniques",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Time Series Analysis",
+                  "icon": "⏳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Panel Data Methods",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Causal Inference",
+                  "icon": "❓",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Economic Modeling",
+              "icon": "🏗️",
+              "subcategories": [
+                {
+                  "name": "Mathematical Economics",
+                  "icon": "➕➖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Computational Economics",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Agent-Based Modeling",
+                  "icon": "🧑‍🤝‍🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Game Theory Applications",
+                  "icon": "♟️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dynamic Systems",
+                  "icon": "🔄",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Data Analysis & Visualization",
+              "icon": "📊",
+              "subcategories": [
+                {
+                  "name": "Economic Data Sources",
+                  "icon": "💾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Data Transformation",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indicator Construction",
+                  "icon": "🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trend Analysis",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cyclical Analysis",
+                  "icon": "📉",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Economic Forecasting",
+              "icon": "🔮",
+              "subcategories": [
+                {
+                  "name": "Forecasting Techniques",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Scenario Analysis",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sensitivity Testing",
+                  "icon": "🧪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Forecast Evaluation",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Prediction Markets",
+                  "icon": "🔮",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Applied Economics",
+          "icon": "🧪",
+          "subcategories": [
+            {
+              "name": "Developmental Economics",
+              "icon": "🌱",
+              "subcategories": [
+                {
+                  "name": "Economic Development Theories",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Poverty Analysis",
+                  "icon": "😔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Inequality Measurement",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Growth Strategies",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Institutional Development",
+                  "icon": "🏛️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Behavioral Economics",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Decision-Making Analysis",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cognitive Biases in Economics",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nudge Theory",
+                  "icon": "👉",
+                  "subcategories": []
+                },
+                {
+                  "name": "Behavioral Policy Design",
+                  "icon": "📐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Experimental Economics",
+                  "icon": "🧪",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Environmental Economics",
+              "icon": "🌳",
+              "subcategories": [
+                {
+                  "name": "Natural Resource Valuation",
+                  "icon": "💲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pollution Economics",
+                  "icon": "💨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Climate Economics",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sustainability Metrics",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Green Accounting",
+                  "icon": "🌳",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Public Economics",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "Public Choice Theory",
+                  "icon": "🗳️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tax Analysis",
+                  "icon": "🧾",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Goods Provision",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Government Failure",
+                  "icon": "⚠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Social Welfare Programs",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Financial Economics",
+              "icon": "💰",
+              "subcategories": [
+                {
+                  "name": "Asset Pricing Theory",
+                  "icon": "💲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Financial Market Analysis",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Corporate Finance",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Banking Theory",
+                  "icon": "🏦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Financial Crises",
+                  "icon": "💥",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Economic Systems & Institutions",
+          "icon": "🌍",
+          "subcategories": [
+            {
+              "name": "Market Structure Analysis",
+              "icon": "🏗️",
+              "subcategories": [
+                {
+                  "name": "Competitive Markets",
+                  "icon": "🛒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Regulated Industries",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Network Industries",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Platform Economics",
+                  "icon": "📱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Markets",
+                  "icon": "💻",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Institutional Economics",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "Property Rights",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Transaction Costs",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Contractual Arrangements",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Institutional Change",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Governance Structures",
+                  "icon": "🏛️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Comparative Economic Systems",
+              "icon": "⚖️",
+              "subcategories": [
+                {
+                  "name": "Varieties of Capitalism",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Socialist Economic Models",
+                  "icon": "🚩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Transitional Economies",
+                  "icon": "🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Economic Hybrids",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Informal Economies",
+                  "icon": "🤫",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Political Economy",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Power Dynamics in Markets",
+                  "icon": "👑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rent-Seeking Behavior",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Regulatory Capture",
+                  "icon": "🔒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Economic Policy Formation",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Interest Group Influence",
+                  "icon": "👥",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Political Studies",
+      "icon": "🏛️",
+      "subcategories": [
+        {
+          "name": "Political Fundamentals",
+          "icon": "🤔",
+          "subcategories": [
+            {
+              "name": "Political Philosophy",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Classical Political Thought",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Liberal Political Theory",
+                  "icon": "🕊️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conservative Philosophy",
+                  "icon": "🧐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Socialist Thought",
+                  "icon": "🚩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Libertarian Philosophy",
+                  "icon": "🗽",
+                  "subcategories": []
+                },
+                {
+                  "name": "Communitarian Ideas",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Anarchist Theories",
+                  "icon": "🏴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Feminist Political Theory",
+                  "icon": "♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Postcolonial Political Thought",
+                  "icon": "🌍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Political Concepts",
+              "icon": "💡",
+              "subcategories": [
+                {
+                  "name": "Power Analysis",
+                  "icon": "👑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Authority & Legitimacy",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rights & Responsibilities",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Justice Frameworks",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Liberty & Equality",
+                  "icon": "🕊️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Representation Theory",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sovereignty Concepts",
+                  "icon": "👑",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Political Systems",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "Democracy Types",
+                  "icon": "🗳️",
+                  "subcategories": [
+                    {
+                      "name": "Direct Democracy",
+                      "icon": "🗣️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Representative Democracy",
+                      "icon": "👥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Liberal Democracy",
+                      "icon": "🕊️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Illiberal Democracy",
+                      "icon": "🧐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Social Democracy",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Participatory Democracy",
+                      "icon": "👥",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Authoritarianism",
+                  "icon": "👑",
+                  "subcategories": [
+                    {
+                      "name": "Totalitarianism",
+                      "icon": "👁️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Military Dictatorship",
+                      "icon": "🎖️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Personalistic Rule",
+                      "icon": "🧑‍💼",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Competitive Authoritarianism",
+                      "icon": "🗳️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Hybrid Systems",
+                  "icon": "🤝",
+                  "subcategories": [
+                    {
+                      "name": "Semi-Presidential Systems",
+                      "icon": "🧑‍💼",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Consociational Arrangements",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Transitional Governments",
+                      "icon": "🔄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Anocracies",
+                      "icon": "❓",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Governance & Institutions",
+          "icon": "🏛️",
+          "subcategories": [
+            {
+              "name": "Constitutional Frameworks",
+              "icon": "📜",
+              "subcategories": [
+                {
+                  "name": "Constitutional Design",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Constitutional Interpretation",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rights Protection",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Power Distribution",
+                  "icon": "👑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Amendment Processes",
+                  "icon": "✍️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Government Structures",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "Executive Institutions",
+                  "icon": "👑",
+                  "subcategories": [
+                    {
+                      "name": "Presidential Systems",
+                      "icon": "🧑‍💼",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Parliamentary Systems",
+                      "icon": "🏛️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Semi-Presidential Systems",
+                      "icon": "👩‍💼",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cabinet Government",
+                      "icon": "👥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bureaucratic Organization",
+                      "icon": "🏢",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Legislative Bodies",
+                  "icon": "🏛️",
+                  "subcategories": [
+                    {
+                      "name": "Unicameral Legislatures",
+                      "icon": "🏛️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bicameral Systems",
+                      "icon": "🏛️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Committee Structures",
+                      "icon": "👥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Parliamentary Procedure",
+                      "icon": "📜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Legislative Process",
+                      "icon": "📜",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Judicial Systems",
+                  "icon": "⚖️",
+                  "subcategories": [
+                    {
+                      "name": "Court Structures",
+                      "icon": "⚖️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Judicial Review",
+                      "icon": "🧐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Judicial Independence",
+                      "icon": "⚖️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Legal Interpretation",
+                      "icon": "🗣️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Case Law Development",
+                      "icon": "📜",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Electoral Systems",
+              "icon": "🗳️",
+              "subcategories": [
+                {
+                  "name": "Plurality/Majority Systems",
+                  "icon": "🥇",
+                  "subcategories": []
+                },
+                {
+                  "name": "Proportional Representation",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mixed Electoral Systems",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "District Design",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Voting Methods",
+                  "icon": "🗳️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Election Administration",
+                  "icon": "🧑‍💼",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Federalism & Local Government",
+              "icon": "🗺️",
+              "subcategories": [
+                {
+                  "name": "Federal Structures",
+                  "icon": "🇺🇸",
+                  "subcategories": []
+                },
+                {
+                  "name": "State/Provincial Government",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Local Government Organization",
+                  "icon": "🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Intergovernmental Relations",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Devolution & Centralization",
+                  "icon": "⬇️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Administrative Systems",
+              "icon": "🏢",
+              "subcategories": [
+                {
+                  "name": "Civil Service",
+                  "icon": "🧑‍💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Administration",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Regulatory Agencies",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Policy Implementation",
+                  "icon": "⚙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Administrative Law",
+                  "icon": "⚖️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Political Process",
+          "icon": "⚙️",
+          "subcategories": [
+            {
+              "name": "Political Participation",
+              "icon": "👥",
+              "subcategories": [
+                {
+                  "name": "Voting Behavior",
+                  "icon": "🗳️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Campaign Involvement",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Protest & Direct Action",
+                  "icon": "✊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Civil Society Engagement",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Participation",
+                  "icon": "💻",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Political Parties",
+              "icon": "🫏🐘",
+              "subcategories": [
+                {
+                  "name": "Party Systems",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Party Organization",
+                  "icon": "🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Party Ideology",
+                  "icon": "🚩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Party Financing",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Party Discipline",
+                  "icon": "🔗",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Interest Groups & Lobbying",
+              "icon": "👥",
+              "subcategories": [
+                {
+                  "name": "Interest Group Formation",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lobbying Strategies",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Advocacy Campaigns",
+                  "icon": "📢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Corporate Political Activity",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Civic Association Influence",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Political Communication",
+              "icon": "🗣️",
+              "subcategories": [
+                {
+                  "name": "Media & Politics",
+                  "icon": "📰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Political Messaging",
+                  "icon": "📣",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Opinion Formation",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Political Persuasion",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Information Environment",
+                  "icon": "🌐",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Election Campaigns",
+              "icon": "🗳️",
+              "subcategories": [
+                {
+                  "name": "Campaign Strategy",
+                  "icon": "🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Campaign Organization",
+                  "icon": "🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Political Marketing",
+                  "icon": "🛒",
+                  "subcategories": []
+                },
+                {
+                  "name": "Voter Mobilization",
+                  "icon": "📢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Campaign Finance",
+                  "icon": "💰",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Policy Studies",
+          "icon": "📜",
+          "subcategories": [
+            {
+              "name": "Policy Formation",
+              "icon": "⚙️",
+              "subcategories": [
+                {
+                  "name": "Agenda Setting",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Policy Formulation",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Decision Making Models",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Policy Adoption",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Implementation Analysis",
+                  "icon": "🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Policy Evaluation",
+                  "icon": "📊",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Policy Areas",
+              "icon": "🎯",
+              "subcategories": [
+                {
+                  "name": "Economic Policy",
+                  "icon": "💰",
+                  "subcategories": [
+                    {
+                      "name": "Fiscal Policy",
+                      "icon": "🏛️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Monetary Policy",
+                      "icon": "🏦",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Regulatory Policy",
+                      "icon": "📜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Trade Policy",
+                      "icon": "🌐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Industrial Policy",
+                      "icon": "🏭",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Social Policy",
+                  "icon": "🤝",
+                  "subcategories": [
+                    {
+                      "name": "Healthcare Policy",
+                      "icon": "🏥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Education Policy",
+                      "icon": "🎓",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Housing Policy",
+                      "icon": "🏠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Welfare Policy",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Social Insurance",
+                      "icon": "🛡️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Foreign Policy",
+                  "icon": "🌍",
+                  "subcategories": [
+                    {
+                      "name": "Diplomacy",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Security Policy",
+                      "icon": "🛡️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Development Assistance",
+                      "icon": "🎁",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Trade Relations",
+                      "icon": "🌐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "International Agreements",
+                      "icon": "📜",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Environmental Policy",
+                  "icon": "🌳",
+                  "subcategories": [
+                    {
+                      "name": "Conservation Policy",
+                      "icon": "🌲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pollution Control",
+                      "icon": "💨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Climate Policy",
+                      "icon": "🌍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Energy Policy",
+                      "icon": "⚡️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Resource Management",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Policy Analysis Methods",
+              "icon": "🔍",
+              "subcategories": [
+                {
+                  "name": "Cost-Benefit Analysis",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Program Evaluation",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Impact Assessment",
+                  "icon": "📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stakeholder Analysis",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Comparative Policy Analysis",
+                  "icon": "⚖️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "International Politics",
+          "icon": "🌍",
+          "subcategories": [
+            {
+              "name": "International Relations Theory",
+              "icon": "🌐",
+              "subcategories": [
+                {
+                  "name": "Realism",
+                  "icon": "👑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Liberalism",
+                  "icon": "🕊️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Constructivism",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Critical Theories",
+                  "icon": "🧐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Feminist IR Theory",
+                  "icon": "♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Postcolonial IR Perspectives",
+                  "icon": "🌍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Global Governance",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "International Organizations",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "International Law",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Multilateral Institutions",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Global Regimes",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Transnational Networks",
+                  "icon": "🔗",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "International Political Economy",
+              "icon": "💰",
+              "subcategories": [
+                {
+                  "name": "Global Trade Systems",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "International Financial Architecture",
+                  "icon": "🏦",
+                  "subcategories": []
+                },
+                {
+                  "name": "Development Paradigms",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Economic Dependency",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Economic Globalization",
+                  "icon": "🌍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Security Studies",
+              "icon": "🛡️",
+              "subcategories": [
+                {
+                  "name": "Traditional Security",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Human Security",
+                  "icon": "❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Environmental Security",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cybersecurity",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Terrorism Studies",
+                  "icon": "💣",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Regional Politics",
+              "icon": "🗺️",
+              "subcategories": [
+                {
+                  "name": "Regional Integration",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Regional Security Complexes",
+                  "icon": "🛡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Comparative Regional Studies",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cross-Regional Relations",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sub-Regional Dynamics",
+                  "icon": "📍",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Political Discussion & Engagement",
+          "icon": "🗣️",
+          "subcategories": [
+            {
+              "name": "Civil Discourse",
+              "icon": "🗣️",
+              "subcategories": [
+                {
+                  "name": "Deliberative Democracy",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Structured Political Dialogue",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Debate Formats",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Productive Disagreement",
+                  "icon": "🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Common Ground Finding",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Political Analysis",
+              "icon": "🧐",
+              "subcategories": [
+                {
+                  "name": "Critical Political Thinking",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Source Evaluation",
+                  "icon": "🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Argument Assessment",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fact-Checking Methods",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Political Data Interpretation",
+                  "icon": "📊",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Political Literacy",
+              "icon": "📚",
+              "subcategories": [
+                {
+                  "name": "Civic Education",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Political System Understanding",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Media Literacy",
+                  "icon": "📰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Information Evaluation",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Issue Knowledge Development",
+                  "icon": "🎯",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Political Engagement Methods",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Issue Advocacy",
+                  "icon": "📢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Electoral Participation",
+                  "icon": "🗳️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Organizing",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Political Leadership Development",
+                  "icon": "🧑‍🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cross-Ideological Engagement",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Political Ethics",
+              "icon": "⚖️",
+              "subcategories": [
+                {
+                  "name": "Political Integrity",
+                  "icon": "✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ethical Decision Making",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Democratic Values",
+                  "icon": "🕊️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Political Responsibility",
+                  "icon": "❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Moral Leadership",
+                  "icon": "⚖️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

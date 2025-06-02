@@ -1,0 +1,703 @@
+🧭 Career Exploration & Planning
+    🤔 Self-Assessment
+        💖 Personal Values Clarification
+            🎯 Core Values Identification
+            🔗 Values-Career Alignment
+            💡 Purpose Exploration
+            ❓ Meaning in Work Assessment
+            📋 Career Values Sorting
+        💪 Strengths Discovery
+            🌟 Talent Identification
+            🛠️ Skills Inventory
+            📊 Aptitude Assessment
+            🏗️ Strength-Based Career Design
+            🧠 Natural Competencies Recognition
+        🗺️ Interest Mapping
+            🔍 Vocational Interests Exploration
+            🔥 Passion Project Analysis
+            ❓ Curiosity-Driven Exploration
+            📈 Interest Pattern Recognition
+            🌊 Flow Experience Identification
+        👫 Personality & Work Style
+            🏢 Work Environment Preferences
+            🤝 Team Dynamic Compatibility
+            🗣️ Communication Style Assessment
+            🤔 Decision-Making Approach
+            🤯 Stress Response Patterns
+    🏗️ Career Design
+        🗺️ Career Pathing
+            🛤️ Career Trajectory Planning
+            🔭 Long-Term Vision Development
+            📍 Career Milestone Mapping
+            🛣️ Alternative Path Consideration
+            🤸 Flexible Career Structuring
+        🏭 Industry Exploration
+            🔍 Industry Research Methods
+            📊 Sector Analysis
+            📈 Growth Trend Identification
+            💥 Disruption Anticipation
+            ↔️ Cross-Industry Opportunities
+        🧑‍💼 Role & Function Evaluation
+            🧐 Job Function Analysis
+            📋 Role Responsibility Mapping
+            ⚖️ Position Comparison
+            ⬆️ Title Progression Understanding
+            🔄 Role Evolution Tracking
+        🧘‍♀️🧘‍♂️ Holistic Career Integration
+            ⚖️ Work-Life Harmony Planning
+            🍂 Career Season Recognition
+            🔄 Life Stage Integration
+            👨‍👩‍👧‍👦 Family-Career Alignment
+            ❤️ Health-Supporting Career Design
+    🔄 Career Transition
+        🗺️ Career Change Strategies
+            🔄 Career Pivot Planning
+            🏭 Industry Switch Methodology
+            🧑‍💼 Role Transition Framework
+            🛠️ Transfer Skill Identification
+            ❓ Change Readiness Assessment
+        🚀 Entrepreneurship Exploration
+            🏢 Business Startup Evaluation
+            💡 Side Hustle Development
+            🚀 Full Business Launch Planning
+            🧠 Entrepreneurial Mindset Cultivation
+            🧑‍🔬 Founder Skills Assessment
+        🚶‍♂️ Return-to-Work Planning
+            ⏸️ Career Break Navigation
+            🚪 Re-entry Strategy
+            🔄 Skill Refreshment
+            💪 Confidence Rebuilding
+            📖 Transition Storytelling
+        👴 Retirement & Post-Career
+            ⏳ Phased Retirement Planning
+            🕰️ Legacy Work Development
+            ❓ Post-Career Purpose Finding
+            🧘‍♀️🧘‍♂️ Retirement Identity Creation
+            🧠 Wisdom Transfer Planning
+
+🔍 Job Search Process
+    📝 Application Preparation
+        📄 Resume Workshops
+            🎨 Resume Design Principles
+            ✍️ Resume Content Development
+            🌟 Achievement Highlighting
+            🎯 Resume Customization
+            🤖 Applicant Tracking System Optimization
+            🧐 Resume Review Sessions
+            📄 Specialized Resume Formats
+        ✉️ Cover Letter Crafting
+            🏗️ Cover Letter Structure
+            ✍️ Personalized Content Development
+            🏢 Company Research Integration
+            🎯 Position Alignment Communication
+            💎 Value Proposition Articulation
+        📂 Portfolio Development
+            🖼️ Work Sample Curation
+            📄 Project Documentation
+            🎨 Portfolio Presentation Design
+            🌐 Portfolio Website Creation
+            📈 Case Study Development
+        🌐 Online Presence Optimization
+            🔗 LinkedIn Profile Development
+            📱 Professional Social Media Presence
+            👣 Digital Footprint Assessment
+            🏷️ Personal Branding Strategy
+            🛡️ Online Reputation Management
+    🎯 Application Strategies
+        📅 Job Search Planning
+            ⏳ Search Timeline Development
+            📊 Application Tracking Systems
+            🎯 Target Company Identification
+            ✅ Position Selection Strategy
+            🔢 Application Prioritization
+        📮 Application Channels
+            📈 Job Board Effectiveness
+            🏢 Company Career Sites
+            🤝 Recruitment Agency Relationships
+            🚪 Internal Posting Access
+            🎯 Niche Job Platform Identification
+        ✍️ Application Customization
+            📄 Job Description Analysis
+            🔑 Keyword Optimization
+            🎯 Application Tailoring
+            ✅ Qualification Matching
+            🤝 Culture Fit Demonstration
+        📞 Follow-Up Protocols
+            ➡️ Application Follow-Through
+            🗣️ Recruiter Communication
+            ❓ Status Inquiry Methods
+            💪 Persistent Engagement Tactics
+            🙏 Graceful Persistence
+    🎙️ Interview Preparation
+        💬 Interview Types
+            📞 Phone Screening Preparation
+            📹 Video Interview Techniques
+            🧑‍💼 One-on-One Interview Strategy
+            👥 Panel Interview Preparation
+            🧑‍🤝‍🧑 Group Interview Dynamics
+            💻 Technical Interview Methods
+            🧠 Behavioral Interview Approach
+            📈 Case Interview Practice
+        🗣️ Interview Skills
+            ❓ Question Anticipation
+            🏗️ Response Structuring
+            📖 Story Development
+            🌟 Accomplishment Communication
+            🧘‍♂️🧘‍♀️ Weakness Framing
+            ❓ Question Asking Strategy
+            👂 Active Listening Demonstration
+            🧍 Non-Verbal Communication
+        🎭 Mock Interview Practice
+            🤝 Peer Interview Exchange
+            🧑‍🏫 Professional Interview Coaching
+            📹 Recorded Practice Analysis
+            🔄 Feedback Integration
+            📈 Iterative Improvement
+        🔍 Research & Preparation
+            🏢 Company Research Methods
+            🧑‍💼 Interviewer Background Review
+            📈 Industry Trend Knowledge
+            🎯 Position-Specific Preparation
+            🤝 Cultural Fit Assessment
+    ✅ Job Offer Evaluation
+        💰 Compensation Analysis
+            💲 Salary Research
+            📦 Compensation Package Assessment
+            🎁 Benefits Valuation
+            📈 Equity Evaluation
+            💵 Total Compensation Calculation
+        🤝 Negotiation Strategies
+            🧠 Negotiation Preparation
+            ↔️ Counter Offer Development
+            🤝 Win-Win Negotiation Approaches
+            🎁 Non-Salary Negotiation Points
+            ✍️ Written Negotiation Communication
+        🤔 Decision-Making Framework
+            ⚖️ Offer Comparison Methodology
+            🤝 Cultural Fit Evaluation
+            📈 Growth Potential Assessment
+            ⚖️ Work-Life Integration Consideration
+            🎯 Long-Term Alignment Analysis
+    📚 Job Search Resources
+        🏢 Job Fairs
+            📋 Job Fair Preparation
+            🗣️ Employer Interaction Strategy
+            📄 On-Site Application Process
+            📞 Follow-Up Protocol
+            💻 Virtual Job Fair Navigation
+        🏛️ Career Centers
+            🎓 University Career Services
+            🏘️ Community Career Resources
+            🏢 Industry-Specific Career Centers
+            🏛️ Government Employment Resources
+            🤝 Non-Profit Career Support
+        🧑‍💼 Recruitment Services
+            🤝 Recruiter Relationship Development
+            ✅ Agency Selection
+            🕵️ Headhunter Engagement
+            📊 Placement Service Evaluation
+            🌐 Recruitment Process Outsourcing
+
+📈 Career Development
+    🌱 Professional Growth Planning
+        🗺️ Career Development Framework
+            🎯 Growth Goal Setting
+            ⏳ Development Timeline Creation
+            📊 Progress Measurement Design
+            ❓ Skill Gap Analysis
+            🗺️ Career Growth Roadmap
+        📄 Professional Development Plans
+            🧑 Individual Development Planning
+            🗺️ Competency Development Mapping
+            🛤️ Learning Pathway Design
+            💡 Growth Opportunity Identification
+            🔄 Professional Evolution Strategy
+        🌟 Performance Enhancement
+            📈 Performance Review Preparation
+            🔄 Feedback Integration
+            📄 Achievement Documentation
+            💥 Impact Demonstration
+            💎 Value Articulation
+    🛠️ Skills Development
+        💻 Technical Skills Training
+            🔧 Industry-Specific Technical Skills
+            📜 Technical Certifications
+            🛠️ Technical Workshops
+            👐 Hands-On Skill Building
+            💡 Technical Problem-Solving
+        🗣️ Soft Skills Enhancement
+            💬 Communication Skill Development
+            👑 Leadership Capacity Building
+            🧠 Emotional Intelligence Cultivation
+            🤝 Conflict Resolution Training
+            🔄 Change Adaptability
+        💻 Digital & Technological Skills
+            📚 Digital Literacy Advancement
+            🖱️ Software Proficiency Building
+            🛠️ Technical Tool Mastery
+            🔄 Digital Workflow Optimization
+            💡 Technology Adaptation Skills
+        🧠 Specialized Knowledge Acquisition
+            🎓 Subject Matter Expertise Development
+            👥 Specialized Knowledge Communities
+            🔗 Expert Knowledge Networks
+            ⬆️ Knowledge Depth Cultivation
+            🌐🔀 Cross-Disciplinary Knowledge
+    📜 Professional Credentials
+        🏅 Certification Programs
+            🎯 Industry Certification Selection
+            📚 Certification Preparation
+            🧠 Exam Strategy
+            🔄 Certification Maintenance
+            📚 Credential Stacking
+        📚 Continuing Education
+            🎓 Professional Continuing Education Requirements
+            ✅ Continuing Education Course Selection
+            📊 Credit Tracking
+            💡 Knowledge Application
+            🔄 Recertification Planning
+        🎓 Academic Advancement
+            🎓 Degree Program Selection
+            📚 Coursework Planning
+            🤝 Academic-Professional Integration
+            ⏳ Part-Time Study Management
+            🎓 Academic Credential Leveraging
+        ⚖️ Licensing & Accreditation
+            📜 Professional Licensing Requirements
+            📄 License Application Process
+            📚 License Exam Preparation
+            🔄 License Renewal Planning
+            🌐 Multi-Jurisdiction Licensing
+    🚀 Career Advancement
+        🎯 Promotion Strategy
+            ❓ Promotion Readiness Assessment
+            💡 Advancement Opportunity Identification
+            🛠️ Next-Level Skill Development
+            👑 Leadership Preparation
+            📣 Promotion Campaigning
+        👀 Visibility Enhancement
+            🖼️ Work Showcasing Methods
+            🗣️ Achievement Communication
+            🤝 Strategic Relationship Building
+            🌟 Reputation Development
+            📣 Brand Ambassador Activities
+        👑 Leadership Development
+            🧠 Leadership Philosophy Development
+            ✨ Leadership Style Refinement
+            👥 People Management Skills
+            🤔 Strategic Thinking Cultivation
+            💪 Influence Building
+        🛤️ Specialized Career Tracks
+            🧑‍💻 Technical Specialist Path
+            🧑‍💼 Management Track
+            📈 Individual Contributor Advancement
+            🎓 Subject Matter Expert Development
+            🧠 Thought Leadership Cultivation
+    🤝 Professional Support
+        👨‍🏫 Career Coaching
+            ✅ Coach Selection
+            🤝 Coaching Relationship Development
+            🎯 Coaching Goal Setting
+            🗣️ Coaching Session Maximization
+            💡 Coaching Insight Implementation
+        👩‍🏫 Mentorship
+            🔍 Mentor Identification
+            🤝 Mentoring Relationship Building
+            📅 Mentor Session Structuring
+            🧠 Knowledge Extraction
+            💡 Wisdom Application
+        🛡️ Sponsorship
+            🤝 Sponsor Cultivation
+            💡 Sponsorship Opportunities
+            🎯 Sponsor-Ready Positioning
+            🚀 Sponsored Advancement
+            🔗 Sponsor Network Development
+        🧑‍🤝‍🧑 Peer Support
+            📚 Peer Learning Groups
+            ✅ Accountability Partnerships
+            🤝 Skill Exchange Networks
+            🗣️ Peer Feedback Systems
+            📈 Co-Development Initiatives
+
+🤝 Professional Relationships
+    🌐 Networking
+        🔗 Network Development
+            🗺️ Network Mapping
+            🎯 Strategic Network Planning
+            🤝 Relationship Cultivation
+            🌍 Network Diversification
+            🔄 Network Maintenance
+        🎉 Networking Events
+            🏢 Industry Meetups
+                🗺️ Industry Conference Navigation
+                🎪 Trade Show Engagement
+                👥 Specialized Industry Gatherings
+                🎙️ Industry Speaker Events
+                🎉 Industry Celebration Functions
+            🏛️ Professional Associations
+                ✅ Association Selection
+                📈 Membership Optimization
+                🤝 Committee Involvement
+                👑 Leadership Positions
+                🎉 Association Event Participation
+            🎓 Alumni Events
+                🔗 University Network Leveraging
+                🎉 School Alumni Functions
+                🧑‍🎓 Program-Specific Reunions
+                🏛️ Educational Institution Connections
+                🧑‍🏫 Alumni Mentoring Programs
+            🏘️ Community Networking
+                🏢 Local Business Groups
+                🏛️ Chamber of Commerce Events
+                🔗 Community Leader Connections
+                🤝 Civic Organization Networking
+                🏭 Local Industry Clusters
+        🗣️ Networking Skills
+            🤝 Introduction Techniques
+            💬 Conversation Initiation
+            🧠 Memory for Names & Details
+            📞 Follow-Up Protocols
+            💖 Relationship Nurturing
+            💳 Business Card Exchanges
+                🎨 Card Design & Content
+                🤝 Card Exchange Etiquette
+                💻 Contact Information Digitization
+                📁 Card Organization Systems
+                📞 Card Follow-Up Strategy
+            🛠️ Networking Workshops
+                🤝 Relationship Building Training
+                🗺️ Network Strategy Development
+                💖 Authentic Connection Training
+                💻 Digital Networking Skills
+                📞 Follow-Up Systems Design
+        💻 Digital Networking
+            📱 Social Media Networking
+            🌐 Online Community Engagement
+            💻 Virtual Event Participation
+            🤝 Digital Relationship Building
+            🔗 Remote Connection Maintenance
+    🧑‍🤝‍🧑 Professional Relationship Management
+        👥 Colleague Relationships
+            🤝 Peer Relationship Development
+            🏢 Cross-Departmental Connections
+            💪 Team Bond Strengthening
+             Boundaries Workplace Friendship Boundaries
+            🤝 Conflict Resolution Systems
+        👨‍💼👩‍💼 Management Relationships
+            ⬆️ Managing Up Strategies
+            🗣️ Boss Communication Style Adaptation
+            🎯 Management Expectation Alignment
+            🤝 Trust Building with Leadership
+            💫 Leadership Support Methods
+        🧑‍🤝‍🧑 Direct Report Relationships
+            🌱 Team Member Development
+            🧠 Individual Motivation Understanding
+            🤝 Performance Support Approaches
+            🗣️ Feedback Delivery Systems
+            🏗️ Team Culture Creation
+        👥 Client & Customer Relationships
+            🤝 Client Rapport Building
+            ❓ Customer Need Identification
+            💖 Relationship-Based Service
+            🕰️ Long-Term Relationship Cultivation
+            📞 Client Communication Systems
+    🤝 Cross-Functional Collaboration
+        🚀 Collaborative Projects
+            🧑‍🤝‍🧑 Cross-Team Initiatives
+            🏢 Interdepartmental Cooperation
+            🌐 Matrix Team Effectiveness
+            💡 Collaborative Problem Solving
+            🎉 Joint Achievement Recognition
+        👥 Team Dynamics
+            🏗️ Team Formation Processes
+            📈 Group Development Stages
+            🧑‍💼 Team Role Clarification
+            🤔 Collective Decision Making
+            🤝 Team Conflict Management
+        🛠️ Collaborative Tools
+            🏢 Shared Workspace Utilization
+            💻 Collaborative Software Usage
+            🌐 Remote Collaboration Methods
+            🗣️ Team Communication Platforms
+            🔄 Collaborative Workflow Systems
+    🗣️ Communication & Influence
+        🎤 Public Speaking
+            📊 Presentation Development
+                🏗️ Content Organization
+                🖼️ Visual Aid Creation
+                📖 Narrative Structure
+                👥 Audience Analysis
+                🎯 Material Customization
+            🗣️ Delivery Skills
+                📢 Voice Projection
+                🧍 Body Language Utilization
+                👀 Eye Contact Techniques
+                🚶 Movement & Gestures
+                🤝 Audience Engagement
+            🏟️ Speaking Venues
+                🎙️ Toastmasters Events
+                    🗣️ Club Meeting Participation
+                    🏆 Speech Contest Preparation
+                    👑 Leadership Role Development
+                    🧐 Evaluator Skill Building
+                    📜 Speaking Certification Programs
+                🏆 Speech Competitions
+                    📚 Competition Preparation
+                    🎯 Competition Category Selection
+                    🧐 Judging Criteria Understanding
+                    ✨ Performance Refinement
+                    🔄 Post-Competition Integration
+                🗣️💬 Panel Discussions
+                    📋 Panelist Preparation
+                    ❓ Question Anticipation
+                    🤝 Co-Panelist Interaction
+                    🧑‍⚖️ Moderator Collaboration
+                    ❓ Audience Q&A Management
+                🗣️🔂 Pitch Practice
+                    🚀 Elevator Pitch Development
+                    🏗️ Project Pitch Construction
+                    💰 Investor Pitch Design
+                    🤝 Client Proposal Presentation
+                    💡 Idea Pitch Refinement
+        ✍️ Written Communication
+            💼 Business Writing
+            ✉️ Email Communication
+            📄 Report Development
+            📜 Proposal Creation
+            📝 Documentation Skills
+        💪 Persuasion & Influence
+            🗣️ Persuasive Communication
+            ✨ Influencing Without Authority
+            👥 Stakeholder Management
+            📣 Change Advocacy
+            💡 Idea Championing
+
+🏢 Workplace Effectiveness
+    ✨ Work Environment Optimization
+        🖥️ Physical Workspace
+            🪑 Ergonomic Setup
+            🎨 Environment Personalization
+            🎧 Distraction Management
+            📁 Organization Systems
+            ❤️ Health-Supporting Workspace
+        💻 Digital Workspace
+            🛠️ Digital Tool Organization
+            🖼️ Virtual Environment Design
+            🎨 Online Workspace Customization
+            🎧 Digital Distraction Management
+            🔗 Technology Integration
+        🏠 Remote & Hybrid Work
+            💻 Remote Work Strategies
+                🏠 Home Office Setup
+                📞 Remote Communication Protocols
+                💻 Virtual Presence Creation
+                🚧 Remote Boundary Setting
+                🌐 Distributed Team Collaboration
+            📍 Work Location Flexibility
+            📅 Hybrid Schedule Optimization
+            🏢 Remote-Office Integration
+            🌎 Location-Independent Productivity
+        🤝 Workplace Culture Navigation
+            🧐 Culture Reading Skills
+            📜 Norm Identification
+            💖 Value Alignment
+            🔄 Cultural Adaptation
+            ➕ Positive Culture Contribution
+    🚀 Productivity Systems
+        🧑 Personal Productivity
+            ⚙️ Workplace Efficiency
+                ✅ Task Management Systems
+                🔢 Prioritization Frameworks
+                🎯 Focus Enhancement
+                ⚡️ Energy Management
+                📈 Efficiency Optimization
+            ⏰ Time Management
+                🗓️ Time Blocking Methods
+                📅 Calendar Management
+                🤝 Meeting Optimization
+                🕰️ Time Audit Processes
+                💰 Time Investment Analysis
+            📁 Organizational Systems
+                💾 Information Management
+                📚 Reference Systems
+                🗂️ Physical Organization
+                💻 Digital Organization
+                🔄 Workflow Design
+        ✅ Task & Project Execution
+            🏁 Task Completion Systems
+                📝 Task Breakdown Methods
+                ➡️ Next Action Identification
+                📊 Progress Tracking
+                ✅ Completion Protocols
+                🔄 Follow-Through Systems
+            🏗️ Project Management
+                🗺️ Project Planning Methodologies
+                👥 Resource Allocation
+                ⏳ Timeline Development
+                📍 Milestone Tracking
+                🗣️ Project Communication
+            👥 Project Management Meetups
+                📚 Project Management Methodology Groups
+                🛠️ Tool-Specific User Groups
+                🎓 Project Management Professional Development
+                📈 Project Management Case Study Sessions
+                💡 Project Management Best Practice Exchanges
+        🤝 Team Collaboration
+            👥 Team Collaboration Sessions
+                🤝 Collaborative Working Methods
+                🔄 Team Workflow Design
+                🚀 Shared Productivity Systems
+                🤔 Group Decision Processes
+                🗣️ Team Communication Protocols
+            🤝 Meeting Effectiveness
+                📐 Meeting Design
+                🗣️ Facilitation Skills
+                🙋 Participation Methods
+                📝 Action Capture
+                🔄 Follow-Up Systems
+            🤔 Collaborative Decision Making
+                ⚖️ Group Decision Frameworks
+                🤝 Consensus Building Methods
+                💡 Participatory Problem Solving
+                🧠 Collective Intelligence Techniques
+                ✅ Decision Implementation
+    💻 Technology & Tools
+        🛠️ Digital Tools Workshops
+            🚀 Productivity Software Training
+            🤝 Collaboration Tool Implementation
+            🏗️ Project Management Software
+            🗣️ Communication Platform Mastery
+            🤖 Automation Tool Utilization
+        🔄 Digital Workflow Integration
+            🌐 Cross-Platform Workflow Design
+            🛠️ Tool Stack Development
+            🔗 Integration & Automation
+            ⚙️ Digital Process Optimization
+            ➡️ Information Flow Design
+        💡 Technology Adoption
+            ❓ New Tool Evaluation
+            📚 Learning Curve Management
+            📅 Implementation Planning
+            🔄 Technology Change Management
+            🛠️ Digital Skill Development
+    🎯 Focus & Deep Work
+        🧠 Attention Management
+            🎯 Focus Enhancement Techniques
+            🎧 Distraction Mitigation
+            🧘‍♀️🧘‍♂️ Attention Restoration
+            💪 Sustained Concentration
+            🌊 Task Immersion Methods
+        🧘‍♀️ Deep Work Practices
+            📅 Deep Work Scheduling
+            🏞️ Deep Work Environment Design
+            🧘‍♂️ Mental Preparation Rituals
+            📊 Deep Work Measurement
+            📈 Progressive Deep Work Training
+        🌊 Flow State Cultivation
+            🔍 Flow Trigger Identification
+            🏞️ Flow State Conditions
+            🎨 Flow Activity Design
+            🧘‍♀️ Flow Recovery
+            ⏳ Flow State Extension
+        🧠 Cognitive Performance
+            ⚡️ Mental Energy Management
+            🧠 Brain-Friendly Work Rhythms
+            ⚖️ Cognitive Load Balancing
+            😴 Mental Fatigue Prevention
+            💡 Cognitive Enhancement Practices
+
+⚖️ Work-Life Integration & Wellbeing
+    👨‍💼👩‍💼⚖️ Work-Life Balance
+         boundaries Boundary Management
+            ⏰ Work Hour Containment
+            📵 Off-Hours Communication Policy
+            🏠 Physical Space Separation
+            💻 Digital Boundary Setting
+            🚪 Role Transition Rituals
+        🧘‍♂️🧘‍♀️ Life Design with Work
+            📅 Holistic Schedule Creation
+            🎯 Priority Alignment
+            ⚡️ Energy-Based Scheduling
+            🔄 Life-Supporting Work Patterns
+            ⚖️ Integration vs. Separation
+        🤸‍♀️ Flexible Work Arrangements
+            🤝 Schedule Flexibility Negotiation
+            📅 Alternative Work Schedules
+            ⏳ Compressed Work Weeks
+            📍 Flexible Location Arrangements
+            🎯 Results-Oriented Work Design
+    🧘‍♂️🧘‍♀️ Stress Management & Wellbeing
+        🤯 Workplace Stress Management
+            🎯 Work Stressor Identification
+            🧘‍♀️🧘‍♂️ Stress Response Strategies
+            💪 Pressure Management Techniques
+            ⏳ Deadline Stress Reduction
+            🧠 Workplace Emotional Regulation
+        🔥 Burnout Prevention
+            ⚠️ Burnout Warning Sign Recognition
+            😴 Preventative Rest Practices
+            📊 Workload Management
+            ⚡️ Energy Preservation
+            🔄 Recovery System Design
+        🧠 Mental Health at Work
+            💖 Workplace Mental Health Practices
+            🛡️ Psychological Safety Creation
+            🆘 Mental Health Resource Utilization
+            👥 Emotional Support Networks
+            🧘‍♂️🧘‍♀️ Mindfulness in Workplace Settings
+        🏃‍♂️ Physical Wellbeing Integration
+            🚶‍♂️ Movement During Workday
+            🪑 Ergonomic Injury Prevention
+            🍎 Energy-Supporting Nutrition
+            😴 Sleep Quality Improvement
+            🔗 Physical-Mental Connection
+    🧘‍♀️ Mindful Work Practices
+        🎯 Present-Focused Working
+            ✅ Single-Tasking Methods
+            🧘‍♂️ Mindful Task Engagement
+            🧘‍♀️ Present Moment Awareness
+            🧠 Attention Training
+             сознательные Conscious Work Habits
+        🧭 Intentional Career Development
+            🎯 Purpose-Driven Career Choices
+            💖 Values-Based Decision Making
+            🧘‍♂️🧘‍♀️ Mindful Advancement
+            🧠 Conscious Skill Development
+            🤝 Intentional Relationship Building
+        🤔 Reflective Work Practice
+            🧘‍♀️🧘‍♂️ Work Reflection Rituals
+            🔄 Experience Integration
+            💡 Learning Extraction
+            🧠 Growth Mindset Application
+            📈 Continuous Improvement Practice
+        💖 Compassionate Professionalism
+            ❤️ Self-Compassion at Work
+            👥 Colleague Compassion
+            👑 Empathetic Leadership
+            🗣️ Kind Communication
+            🤝 Supportive Work Environment
+    💡 Meaning & Purpose in Work
+        ❓ Purpose Identification
+            🎯 Work Purpose Clarification
+            📜 Personal Mission Development
+            💥 Impact Focus Cultivation
+            🕰️ Legacy Consideration
+            🔄 Purpose Evolution
+        🌟 Meaningful Contribution
+            💎 Value-Adding Work Identification
+            📢 Contribution Amplification
+            🔗 Purpose-Task Alignment
+            📊 Impact Measurement
+            ✨ Significance Recognition
+        💖 Values Expression Through Work
+            🔗 Value-Work Alignment
+            ✅ Value-Based Choice Making
+            ✨ Authentic Self-Expression
+            ⚖️ Integrity Practices
+            🤝 Value Conflict Resolution
+        😊 Joy & Engagement
+            💪 Strength Utilization
+            🎨 Interest Incorporation
+            ✨ Enjoyment Enhancement
+            🔥 Engagement Cultivation
+            💡 Passion Project Development 

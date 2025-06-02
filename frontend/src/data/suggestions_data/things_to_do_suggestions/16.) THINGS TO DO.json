@@ -1,0 +1,688 @@
+[
+  {
+    "id": 1,
+    "prompt": "Suggest ways to start writing poetry (different forms like haiku, sonnet, free verse).",
+    "displayText": "Start Writing Poetry",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 2,
+    "prompt": "Suggest resources for learning about different poetry forms (epic, lyric, narrative).",
+    "displayText": "Learn Poetry Forms",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 3,
+    "prompt": "Suggest ways to get involved in slam poetry or find open mic nights.",
+    "displayText": "Get Involved in Slam Poetry",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 4,
+    "prompt": "Suggest tips for writing short stories or novellas.",
+    "displayText": "Write Short Stories/Novellas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 5,
+    "prompt": "Suggest ideas or prompts for writing different types of novels (sci-fi, fantasy, mystery, romance).",
+    "displayText": "Novel Writing Ideas/Prompts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 6,
+    "prompt": "Suggest resources for writing essays, biographies, or memoirs.",
+    "displayText": "Write Essays/Biographies/Memoirs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 7,
+    "prompt": "Suggest resources for learning how to create graphic novels or comics (including manga).",
+    "displayText": "Create Graphic Novels/Comics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 8,
+    "prompt": "Suggest ways to learn about playwriting or screenwriting.",
+    "displayText": "Learn Playwriting/Screenwriting",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 9,
+    "prompt": "Suggest beginner drawing exercises using pencil, charcoal, or pen & ink.",
+    "displayText": "Beginner Drawing Exercises",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 10,
+    "prompt": "Suggest resources for learning pastel or colored pencil drawing techniques.",
+    "displayText": "Learn Pastel/Colored Pencil Drawing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 11,
+    "prompt": "Suggest ways to get started with digital drawing or animation.",
+    "displayText": "Get Started with Digital Drawing/Animation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 12,
+    "prompt": "Suggest beginner projects for watercolor, oil, or acrylic painting.",
+    "displayText": "Beginner Painting Projects (Watercolor, Oil, Acrylic)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 13,
+    "prompt": "Suggest resources for learning other painting techniques (tempera, fresco, ink wash, airbrush).",
+    "displayText": "Learn Other Painting Techniques",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 14,
+    "prompt": "Suggest ways to get started with digital painting.",
+    "displayText": "Get Started with Digital Painting",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 15,
+    "prompt": "Suggest resources for learning printmaking techniques (woodcut, linocut, etching, screen printing).",
+    "displayText": "Learn Printmaking Techniques",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 16,
+    "prompt": "Suggest tips for improving landscape, portrait, or street photography.",
+    "displayText": "Improve Photography (Landscape, Portrait, Street)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 17,
+    "prompt": "Suggest resources for learning specialized photography (fashion, sports, wildlife, architectural, astro).",
+    "displayText": "Learn Specialized Photography",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 18,
+    "prompt": "Suggest ways to get started with black & white or mobile photography.",
+    "displayText": "Start B&W/Mobile Photography",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 19,
+    "prompt": "Suggest resources for learning mosaic art (glass, tile, stone).",
+    "displayText": "Learn Mosaic Art",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 20,
+    "prompt": "Suggest resources for learning calligraphy or brush lettering (Western, Eastern, Modern).",
+    "displayText": "Learn Calligraphy/Lettering",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 21,
+    "prompt": "Suggest resources for learning about different architectural styles (Classical, Gothic, Modern, Contemporary).",
+    "displayText": "Learn Architectural Styles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 22,
+    "prompt": "Suggest ways to get involved in landscape architecture, urban planning, or sustainable design.",
+    "displayText": "Explore Landscape Architecture/Urban Planning",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 23,
+    "prompt": "Suggest resources for learning pottery techniques (hand-building, wheel throwing, glazing, firing).",
+    "displayText": "Learn Pottery Techniques",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 24,
+    "prompt": "Suggest ways to get started with ceramics (sculptural, functional tableware, tile making).",
+    "displayText": "Get Started with Ceramics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 25,
+    "prompt": "Suggest resources for learning sculpture techniques (carving, modeling, casting, assemblage, welding).",
+    "displayText": "Learn Sculpture Techniques",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 26,
+    "prompt": "Suggest ideas for creating kinetic, land art, or light sculptures.",
+    "displayText": "Kinetic/Land/Light Sculpture Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 27,
+    "prompt": "Suggest resources for learning textile arts like weaving, knitting, or crocheting.",
+    "displayText": "Learn Weaving/Knitting/Crocheting",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 28,
+    "prompt": "Suggest resources for learning embroidery, quilting, felting, or fabric dyeing/printing.",
+    "displayText": "Learn Embroidery/Quilting/Felting/Dyeing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 29,
+    "prompt": "Suggest resources for learning macrame, tapestry, lace making, or basketry.",
+    "displayText": "Learn Macrame/Tapestry/Lace/Basketry",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 30,
+    "prompt": "Explain conceptual art and its different forms (idea-based, language-based, performance, installation).",
+    "displayText": "Understand Conceptual Art",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 31,
+    "prompt": "Suggest ways to explore different genres of classical music (Baroque, Classical, Romantic, Modern).",
+    "displayText": "Explore Classical Music Genres",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 32,
+    "prompt": "Suggest artists or albums to explore in folk, blues, or bluegrass music.",
+    "displayText": "Explore Folk/Blues/Bluegrass Music",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 33,
+    "prompt": "Suggest artists or subgenres to explore in country music (Classic, Rock, Pop, Americana).",
+    "displayText": "Explore Country Music Subgenres",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 34,
+    "prompt": "Suggest artists or subgenres to explore in rock music (Classic, Hard, Alternative, Indie, Psychedelic).",
+    "displayText": "Explore Rock Music Subgenres",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 35,
+    "prompt": "Suggest artists or subgenres to explore in punk music (Punk, Post-Punk, Hardcore, Pop Punk).",
+    "displayText": "Explore Punk Music Subgenres",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 36,
+    "prompt": "Suggest artists or subgenres to explore in pop music (Dance Pop, Indie Pop).",
+    "displayText": "Explore Pop Music Subgenres",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 37,
+    "prompt": "Suggest artists or subgenres to explore in gospel, soul, or R&B music.",
+    "displayText": "Explore Gospel/Soul/R&B Music",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 38,
+    "prompt": "Suggest artists or subgenres to explore in jazz music (Dixieland, Swing, Bebop, Cool, Fusion).",
+    "displayText": "Explore Jazz Music Subgenres",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 39,
+    "prompt": "Suggest artists or subgenres to explore in funk music.",
+    "displayText": "Explore Funk Music",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 40,
+    "prompt": "Suggest artists or subgenres to explore in hip hop music (Old School, Golden Age, Conscious, Gangsta).",
+    "displayText": "Explore Hip Hop Subgenres",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 41,
+    "prompt": "Suggest artists or subgenres to explore in electronic music (Trap, EDM, House, Techno, Synth Pop).",
+    "displayText": "Explore Electronic Music Genres",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 42,
+    "prompt": "Suggest artists or subgenres to explore in reggae music (Roots, Dancehall, Dub).",
+    "displayText": "Explore Reggae Music Subgenres",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 43,
+    "prompt": "Suggest ways to find live music events, concerts, festivals, or open mic nights.",
+    "displayText": "Find Live Music Events",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 44,
+    "prompt": "Suggest resources for learning different dance styles (Modern, Contemporary, Jazz, Tap, Hip Hop, Ballroom).",
+    "displayText": "Learn Dance Styles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 45,
+    "prompt": "Suggest ways to find theater performances (drama, comedy, musicals).",
+    "displayText": "Find Theater Performances",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 46,
+    "prompt": "Suggest resources for learning improvisational or physical theater.",
+    "displayText": "Learn Improv/Physical Theater",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 47,
+    "prompt": "Suggest ways to learn acrobatics, ballet, or circus skills (juggling, aerial arts).",
+    "displayText": "Learn Acrobatics/Ballet/Circus Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 48,
+    "prompt": "Suggest resources for learning magic (close-up, stage illusions, mentalism).",
+    "displayText": "Learn Magic Tricks",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 49,
+    "prompt": "Suggest ways to learn mime or puppetry.",
+    "displayText": "Learn Mime/Puppetry",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 50,
+    "prompt": "Suggest resources for learning about opera or finding performances.",
+    "displayText": "Learn About/Find Opera",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 51,
+    "prompt": "Suggest ways to improve public speaking or storytelling skills.",
+    "displayText": "Improve Public Speaking/Storytelling",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 52,
+    "prompt": "Suggest ways to get started with stand-up comedy or find open mics.",
+    "displayText": "Get Started with Stand-Up Comedy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 53,
+    "prompt": "Suggest resources for learning fashion design (Haute Couture, Ready-to-Wear, Streetwear).",
+    "displayText": "Learn Fashion Design",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 54,
+    "prompt": "Suggest resources for learning costume design, accessory design, or jewelry design.",
+    "displayText": "Learn Costume/Accessory/Jewelry Design",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 55,
+    "prompt": "Suggest resources for learning pattern making, draping, or garment construction.",
+    "displayText": "Learn Garment Construction Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 56,
+    "prompt": "Suggest ways to learn about filmmaking, screenwriting, or documentary making.",
+    "displayText": "Learn Filmmaking/Screenwriting",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 57,
+    "prompt": "Suggest resources for exploring experimental film or creating music videos.",
+    "displayText": "Explore Experimental Film/Music Videos",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 58,
+    "prompt": "Suggest resources for learning about new media art (interactive, generative, AI, VR, AR).",
+    "displayText": "Learn New Media Art",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 59,
+    "prompt": "Suggest resources for learning video art, sound art, or net art.",
+    "displayText": "Learn Video/Sound/Net Art",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 60,
+    "prompt": "Suggest resources for learning automotive, industrial, or product design.",
+    "displayText": "Learn Automotive/Industrial/Product Design",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 61,
+    "prompt": "Suggest resources for learning interior design, furniture design, or lighting design.",
+    "displayText": "Learn Interior/Furniture/Lighting Design",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 62,
+    "prompt": "Suggest resources for learning graphic design (branding, publication, advertising, web/UI/UX).",
+    "displayText": "Learn Graphic Design",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 63,
+    "prompt": "Suggest resources for learning information design or motion graphics.",
+    "displayText": "Learn Information Design/Motion Graphics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 64,
+    "prompt": "Suggest resources for learning cartographic design (map making).",
+    "displayText": "Learn Map Design",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 65,
+    "prompt": "Suggest beginner craft projects (woodworking, jewelry, candle/soap making, bookbinding).",
+    "displayText": "Beginner Craft Projects",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 66,
+    "prompt": "Suggest resources for learning sewing, knitting, needlecrafts, or decorative painting.",
+    "displayText": "Learn Sewing/Knitting/Needlecrafts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 67,
+    "prompt": "Suggest resources for learning glass art (stained glass, glassblowing) or paper crafts (origami, scrapbooking).",
+    "displayText": "Learn Glass Art/Paper Crafts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 68,
+    "prompt": "Give me ideas for a creative project I can start.",
+    "displayText": "Creative project ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 69,
+    "prompt": "Suggest me some beginner-friendly art projects",
+    "displayText": "Beginner art projects",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 70,
+    "prompt": "How can I develop my creative writing skills?",
+    "displayText": "Creative writing development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 71,
+    "prompt": "What are some ways to overcome creative blocks?",
+    "displayText": "Overcoming creative blocks",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 72,
+    "prompt": "Explain the creative process behind writing poetry.",
+    "displayText": "Understand the Poetry Writing Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 73,
+    "prompt": "Suggest methods for learning the creative process of novel writing.",
+    "displayText": "Learn the Novel Writing Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 74,
+    "prompt": "Explain the creative process involved in creating graphic novels or comics.",
+    "displayText": "Understand the Graphic Novel/Comic Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 75,
+    "prompt": "Suggest methods for learning the creative process of playwriting.",
+    "displayText": "Learn the Playwriting Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 76,
+    "prompt": "Explain the typical creative process for drawing or sketching.",
+    "displayText": "Understand the Drawing/Sketching Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 77,
+    "prompt": "Suggest methods for learning the creative process of painting (e.g., oil, acrylic, watercolor).",
+    "displayText": "Learn the Painting Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 78,
+    "prompt": "Explain the creative process behind different printmaking techniques.",
+    "displayText": "Understand the Printmaking Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 79,
+    "prompt": "Suggest methods for understanding the creative process in photography (from concept to final image).",
+    "displayText": "Learn the Photographic Creative Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 80,
+    "prompt": "Explain the creative process involved in designing and creating mosaics.",
+    "displayText": "Understand the Mosaic Creation Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 81,
+    "prompt": "Suggest methods for learning the creative process of calligraphy and letter art design.",
+    "displayText": "Learn the Calligraphy Design Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 82,
+    "prompt": "Explain the creative design process in architecture.",
+    "displayText": "Understand the Architectural Design Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 83,
+    "prompt": "Suggest methods for learning the creative process of pottery and ceramics.",
+    "displayText": "Learn the Pottery/Ceramics Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 84,
+    "prompt": "Explain the creative process behind different sculpting techniques (carving, modeling, casting).",
+    "displayText": "Understand the Sculpting Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 85,
+    "prompt": "Suggest methods for learning the creative process in textile arts (weaving, knitting, dyeing).",
+    "displayText": "Learn the Textile Arts Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 86,
+    "prompt": "Explain the creative process behind conceptual art.",
+    "displayText": "Understand the Conceptual Art Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 87,
+    "prompt": "Suggest methods for learning the creative process of music composition or songwriting.",
+    "displayText": "Learn Music Composition/Songwriting Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 88,
+    "prompt": "Explain the creative process involved in choreographing dance.",
+    "displayText": "Understand the Choreography Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 89,
+    "prompt": "Suggest methods for learning the creative process behind theatrical production (directing, design).",
+    "displayText": "Learn the Theater Production Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 90,
+    "prompt": "Explain the creative process of developing a stand-up comedy routine.",
+    "displayText": "Understand the Stand-Up Comedy Writing Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 91,
+    "prompt": "Suggest methods for learning the creative process of fashion design (concept to collection).",
+    "displayText": "Learn the Fashion Design Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 92,
+    "prompt": "Explain the creative process behind filmmaking (pre-production, production, post-production).",
+    "displayText": "Understand the Filmmaking Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 93,
+    "prompt": "Suggest methods for learning the creative process in new media art (interactive, generative).",
+    "displayText": "Learn the New Media Art Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 94,
+    "prompt": "Explain the creative process in industrial design or product design.",
+    "displayText": "Understand the Industrial/Product Design Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 95,
+    "prompt": "Suggest methods for learning the creative process of interior design.",
+    "displayText": "Learn the Interior Design Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 96,
+    "prompt": "Explain the creative process involved in furniture design.",
+    "displayText": "Understand the Furniture Design Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 97,
+    "prompt": "Suggest methods for learning the creative process of graphic design (branding, layout).",
+    "displayText": "Learn the Graphic Design Process",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 98,
+    "prompt": "Explain the creative process behind various crafts (woodworking, jewelry making, etc.).",
+    "displayText": "Understand Crafting Processes",
+    "isTemplate": false,
+    "type": "do"
+  }
+]

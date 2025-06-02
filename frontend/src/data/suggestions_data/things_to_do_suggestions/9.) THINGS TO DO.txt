@@ -1,0 +1,122 @@
+"Suggest ways to monitor and manage my screen time on different devices."
+"Manage Screen Time"
+
+"Suggest strategies for setting healthy digital boundaries (notifications, work-life separation, social media)."
+"Set Digital Boundaries"
+
+"Suggest ways to practice digital minimalism (declutter apps, intentional consumption)."
+"Practice Digital Minimalism"
+
+"Suggest techniques for managing digital distractions and improving focus during tech use."
+"Manage Digital Distractions/Improve Focus"
+
+"Suggest strategies for curating my information diet and consuming content intentionally."
+"Curate Information Diet"
+
+"Suggest ways to practice mindfulness while using technology (browsing, social media, communication)."
+"Practice Digital Mindfulness"
+
+"Suggest ideas for planning and implementing regular digital detoxes (daily, weekly, monthly)."
+"Plan Digital Detoxes"
+
+"Suggest ways to create tech-free zones or times at home."
+"Create Tech-Free Zones/Times"
+
+"Suggest strategies for transitioning back smoothly after a digital detox."
+"Transition After Digital Detox"
+
+"Suggest healthy technology habits for mornings, evenings, weekends, and workdays."
+"Develop Healthy Tech Habits"
+
+"Suggest ways to balance technology use with relationships (tech-free time, device-free dining)."
+"Balance Tech Use & Relationships"
+
+"Suggest resources for digital legacy planning (online identity, assets, inheritance)."
+"Digital Legacy Planning"
+
+"Suggest ergonomic practices for computer workstations and mobile device use."
+"Improve Digital Ergonomics"
+
+"Suggest ways to mitigate the physical impacts of technology (blue light, eye strain, repetitive strain)."
+"Mitigate Physical Impacts of Tech"
+
+"Suggest strategies for protecting deep thinking and creativity from digital interruptions."
+"Protect Deep Thinking/Creativity"
+
+"Suggest ways to improve information processing skills in the digital age (triage, reading, note-taking)."
+"Improve Digital Information Processing"
+
+"Suggest ways to prioritize in-person connections while leveraging virtual community building."
+"Balance In-Person & Virtual Connections"
+
+"Suggest resources for learning about Artificial Intelligence (AI) and its applications."
+"Learn About AI"
+
+"Suggest ways to explore and ethically use AI tools (generative AI, assistants, prompt engineering)."
+"Explore/Use AI Tools Ethically"
+
+"Suggest ways to experience Virtual Reality (VR) or Augmented Reality (AR)."
+"Experience VR/AR"
+
+"Suggest resources for understanding Blockchain, Web3, Cryptocurrency, NFTs, or DAOs."
+"Learn Blockchain/Web3 Concepts"
+
+"Suggest ways to learn about biotechnology, health tech, wearables, or personalized health."
+"Explore Bio/Health Tech"
+
+"Suggest ways to integrate Internet of Things (IoT) devices into a smart home setup securely."
+"Integrate Smart Home/IoT Securely"
+
+"Suggest strategies for continuous learning and developing new technology skills."
+"Continuous Tech Learning Strategies"
+
+"Suggest ways to improve digital literacy (information verification, safety, privacy, data literacy)."
+"Improve Digital Literacy"
+
+"Suggest skills needed to thrive in a future with increasing automation and human-tech collaboration."
+"Develop Future-Ready Skills"
+
+"Suggest ways to experiment with new technologies or participate in beta testing."
+"Experiment with New Technologies"
+
+"Suggest frameworks for assessing and adopting new technologies aligned with personal values."
+"Assess/Adopt New Tech Mindfully"
+
+"Suggest ways to design a personalized technology ecosystem or tool stack."
+"Design Personal Tech Ecosystem"
+
+"Suggest resources for learning coding, development skills, or hardware tinkering."
+"Learn Coding/Development/Hardware"
+
+"Suggest principles for ethical technology creation (user-centered design, accessibility)."
+"Ethical Tech Creation Principles"
+
+"Suggest sustainable technology practices (reducing e-waste, green computing)."
+"Sustainable Tech Practices"
+
+"Suggest strategies for personal digitization (paperless, media preservation)."
+"Personal Digitization Strategies"
+
+"Suggest ways to adapt professionally to digital transformation (remote work, collaboration tools)."
+"Adapt Professionally to Digital Transformation"
+
+"Suggest resources for finding technology applications that support wellbeing (mental/physical health)."
+"Find Tech for Wellbeing Apps"
+
+"Suggest ways to learn about assistive technologies and inclusive design principles."
+"Learn Assistive Tech/Inclusive Design"
+
+"Suggest ways technology can be used for social good, environmental causes, or community initiatives."
+"Use Tech for Social Good"
+
+"Suggest best practices for managing personal data privacy and security online."
+"Manage Personal Data Privacy/Security"
+
+"Suggest ways to practice ethical digital consumption (sustainable habits, fair trade tech)."
+"Ethical Digital Consumption"
+
+"Suggest strategies for managing online reputation and resisting misinformation."
+"Manage Online Reputation/Resist Misinformation"
+
+"Suggest ways to contribute positively to digital communities (open source, knowledge sharing, volunteering)."
+"Contribute to Digital Communities"

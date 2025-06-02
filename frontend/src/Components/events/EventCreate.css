@@ -1,0 +1,482 @@
+/* EventCreate.css */
+
+/* Page Structure */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Main Navigation */
+.main-nav {
+    background-color: #3B5998;
+    color: #FFFFF0;
+    padding: 0.8rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FFFFF0;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.nav-link {
+    color: #FFFFF0;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.nav-link:hover {
+    color: #ADB6C4;
+}
+
+.logout-btn {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #FFFFF0;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.logout-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Secondary Navigation */
+.secondary-nav {
+    background-color: #FFFFF0;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.secondary-nav .nav-links a {
+    color: #3B5998;
+    text-decoration: none;
+    margin-right: 1.5rem;
+}
+
+.secondary-nav .nav-links a:hover {
+    color: #1d3a4c;
+}
+
+/* Footer */
+.footer {
+    background-color: #3B5998;
+    color: #FFFFF0;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+.event-create-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .event-create-card {
+    background: #FFFFF0;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+  
+  .event-create-title {
+    color: #3B5998;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-label {
+    display: block;
+    color: #3B5998;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-label-large {
+    font-size: 1.1rem;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #E2E8F0;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+  }
+  
+  .form-input:focus {
+    border-color: #3B5998;
+    outline: none;
+  }
+  
+  /* Specific styling for datetime inputs */
+  .form-input[type="datetime-local"] {
+    color: white;
+    cursor: pointer;
+    background-color: #36454F;
+  }
+  
+  .form-input[type="datetime-local"]:hover {
+    cursor: pointer;
+  }
+  
+  /* Webkit specific datetime input styling */
+  .form-input[type="datetime-local"]::-webkit-datetime-edit {
+    color: white;
+  }
+  
+  .form-input[type="datetime-local"]::-webkit-datetime-edit-text {
+    color: white;
+  }
+  
+  .form-input[type="datetime-local"]::-webkit-datetime-edit-month-field,
+  .form-input[type="datetime-local"]::-webkit-datetime-edit-day-field,
+  .form-input[type="datetime-local"]::-webkit-datetime-edit-year-field,
+  .form-input[type="datetime-local"]::-webkit-datetime-edit-hour-field,
+  .form-input[type="datetime-local"]::-webkit-datetime-edit-minute-field,
+  .form-input[type="datetime-local"]::-webkit-datetime-edit-ampm-field {
+    color: white;
+  }
+  
+  .form-textarea {
+    min-height: 120px;
+    resize: vertical;
+  }
+  
+  .form-select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,...");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 1em;
+    cursor: pointer;
+  }
+  
+  .form-select:hover {
+    cursor: pointer;
+  }
+  
+  .datetime-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  .location-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  .map-container {
+    height: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid #E2E8F0;
+    margin: 1rem 0;
+  }
+  
+  .price-attendees-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1.5rem 0;
+    text-align: center;
+    background-color: rgb(234, 244, 235);
+    border-radius: 6px;
+    padding: 0.75rem;
+    border: 2px solid rgba(173, 182, 196, 0.3);
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .checkbox-input {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.25rem;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  
+  /* Hover state for checkbox label text - works when hovering over the entire container */
+  .checkbox-group:hover .form-label {
+    color: #2E4578;
+    transition: color 0.2s ease;
+  }
+  
+  .checkbox-group .form-label {
+    transition: color 0.2s ease;
+    cursor: pointer;
+  }
+  
+  /* Ensure all child elements inherit pointer cursor */
+  .checkbox-group * {
+    cursor: pointer;
+  }
+  
+  /* File input styling with cursor pointer fix */
+  .file-input-group {
+    margin: 1.5rem 0;
+    width: 100%;
+    position: relative;
+  }
+  
+  .file-input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 2px dashed #E2E8F0;
+    border-radius: 6px;
+    padding: 30px;
+    position: relative;
+    cursor: pointer !important;
+    height: 200px;
+  }
+  
+  .file-input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer !important;
+    z-index: 20; /* Increased z-index */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .file-input-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 0.9rem;
+    cursor: pointer !important;
+    z-index: 10;
+  }
+
+  .upload-icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 12px;
+    cursor: pointer !important;
+  }
+  
+  .submit-button-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .cancel-button,
+  .submit-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    font-weight: 500;
+    border: none;
+    flex: 1;
+    max-width: 200px;
+  }
+  
+  .cancel-button {
+    background-color: #e53935 !important;
+    color: #FFFFF0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    font-weight: 500;
+    border: none;
+    flex: 1;
+    max-width: 200px;
+  }
+  
+  .cancel-button:hover {
+    background-color: #c62828 !important;
+    color: #FFFFF0 !important;
+  }
+  
+  .submit-button {
+    background-color: #3B5998;
+    color: #FFFFF0;
+  }
+  
+  .submit-button:hover {
+    background-color: #2E4578 !important;
+  }
+  
+  .submit-button:disabled {
+    background-color: #ADB6C4;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    background-color: #FEE2E2;
+    border: 1px solid #FCA5A5;
+    color: #DC2626;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Geocoding indicator styling */
+  .geocoding-indicator {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+
+  /* Blue styling for location geocoding (matches Create Event button) */
+  .geocoding-indicator.location-geocoding {
+    background-color: #f0f7ff;
+    border: 1px solid #90c0ff;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(144, 192, 255, 0.2);
+  }
+
+  /* Red styling for address geocoding (matches Ask AI button) */
+  .geocoding-indicator.address-geocoding {
+    background-color: #fff0f0;
+    border: 1px solid #ff9090;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(255, 144, 144, 0.2);
+  }
+
+  .geocoding-indicator span {
+    display: inline-block;
+    animation: pulse 1.5s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+  
+  /* Input help text styling */
+  .input-help {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #6B7280;
+    font-style: italic;
+  }
+  
+  @media (max-width: 640px) {
+    .datetime-group,
+    .location-group,
+    .price-attendees-group {
+      grid-template-columns: 1fr;
+    }
+  }
+
+/* Styles copied from Profile.css for Back Button */
+.profile-header-actions {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  background-color: #3B5998 !important;
+  color: #FFFFF0;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.back-button:hover {
+  background-color: #2E4578 !important;
+}
+
+/* Apply cursor pointer to all elements in the file input area */
+.file-input-container *,
+.file-input-group label,
+.file-input-group input {
+    cursor: pointer !important;
+}
+
+/* Force cursor on parent elements */
+.file-input-group:hover,
+.file-input-container:hover,
+.file-input-placeholder:hover,
+.upload-icon:hover {
+    cursor: pointer !important;
+}
+
+.name-recurring-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: end;
+  margin-bottom: 1.5rem;
+}
+
+.name-recurring-group .form-group {
+  margin-bottom: 0;
+}
+
+.name-recurring-group .checkbox-group {
+  margin: 0;
+  align-self: end;
+  margin-bottom: 0;
+  margin-top: 1.75rem; /* Account for label height + margin (approximately label font size + 0.5rem margin + some padding) */
+  justify-self: start; /* Align the checkbox to the left within its grid area */
+}

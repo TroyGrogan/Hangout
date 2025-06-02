@@ -1,0 +1,3691 @@
+[
+  {
+    "id": 1,
+    "prompt": "Suggest things I can do to help with food distribution.",
+    "displayText": "Food Distribution",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 2,
+    "prompt": "Suggest ways I can help with meal preparation for those in need.",
+    "displayText": "Meal Preparation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 3,
+    "prompt": "Suggest ways I can organize or participate in food drives.",
+    "displayText": "Food Drives Organization",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 4,
+    "prompt": "Suggest ways I can find local food recovery programs to volunteer with.",
+    "displayText": "Food Recovery Programs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 5,
+    "prompt": "Suggest ways to find out if mobile food pantries need volunteers.",
+    "displayText": "Mobile Food Pantries",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 6,
+    "prompt": "Suggest ways I can find volunteer opportunities at homeless shelters.",
+    "displayText": "Homeless Shelters",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 7,
+    "prompt": "Suggest ways I can get involved with street outreach programs.",
+    "displayText": "Street Outreach",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 8,
+    "prompt": "Suggest volunteer opportunities supporting transitional housing.",
+    "displayText": "Transitional Housing Support",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 9,
+    "prompt": "Suggest ways I can volunteer to serve meals to the homeless.",
+    "displayText": "Meal Services (Homeless)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 10,
+    "prompt": "Suggest opportunities for clothing distribution volunteering.",
+    "displayText": "Clothing Distribution",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 11,
+    "prompt": "Suggest ways I can volunteer to assemble hygiene kits.",
+    "displayText": "Hygiene Kit Assembly",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 12,
+    "prompt": "Suggest ways to find out which senior centers need assistance.",
+    "displayText": "Senior Center Assistance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 13,
+    "prompt": "Suggest ways I can volunteer for meal delivery programs for seniors.",
+    "displayText": "Meal Delivery Programs (Seniors)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 14,
+    "prompt": "Suggest opportunities for companionship visits with the elderly.",
+    "displayText": "Companionship Visits",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 15,
+    "prompt": "Suggest ways I can volunteer to provide transportation assistance for seniors.",
+    "displayText": "Transportation Assistance (Seniors)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 16,
+    "prompt": "Suggest ways I can volunteer to provide technology support for seniors.",
+    "displayText": "Technology Support for Seniors",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 17,
+    "prompt": "Suggest volunteer opportunities related to accessibility assistance.",
+    "displayText": "Accessibility Assistance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 18,
+    "prompt": "Suggest ways I can volunteer with the Special Olympics.",
+    "displayText": "Special Olympics Support",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 19,
+    "prompt": "Suggest ways I can find adaptive recreation programs needing volunteers.",
+    "displayText": "Adaptive Recreation Programs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 20,
+    "prompt": "Suggest volunteer opportunities involving assistive technology help.",
+    "displayText": "Assistive Technology Help",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 21,
+    "prompt": "Suggest ways I can volunteer with local after-school programs.",
+    "displayText": "After-School Programs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 22,
+    "prompt": "Suggest ways to find out which youth centers need volunteers.",
+    "displayText": "Youth Center Volunteering",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 23,
+    "prompt": "Suggest volunteer opportunities supporting youth recreation programs.",
+    "displayText": "Recreation Program Support (Youth)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 24,
+    "prompt": "Suggest ways I can become a teen mentor.",
+    "displayText": "Teen Mentorship",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 25,
+    "prompt": "Suggest ways to find out which summer camps are looking for volunteers.",
+    "displayText": "Summer Camp Volunteering",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 26,
+    "prompt": "Suggest ways I can join local emergency response teams.",
+    "displayText": "Emergency Response Teams",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 27,
+    "prompt": "Suggest volunteer opportunities for evacuation assistance during disasters.",
+    "displayText": "Evacuation Assistance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 28,
+    "prompt": "Suggest ways I can volunteer at emergency shelters.",
+    "displayText": "Shelter Operations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 29,
+    "prompt": "Suggest ways I can volunteer for supply distribution during disaster relief.",
+    "displayText": "Supply Distribution (Disaster)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 30,
+    "prompt": "Suggest opportunities to help with rebuilding efforts after disasters.",
+    "displayText": "Rebuilding Efforts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 31,
+    "prompt": "Suggest ways I can volunteer for suicide prevention hotlines.",
+    "displayText": "Suicide Prevention Lines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 32,
+    "prompt": "Suggest volunteer opportunities available with domestic violence support hotlines.",
+    "displayText": "Domestic Violence Support Hotlines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 33,
+    "prompt": "Suggest ways I can volunteer for mental health crisis support lines.",
+    "displayText": "Mental Health Crisis Support Lines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 34,
+    "prompt": "Suggest volunteer opportunities with substance abuse helplines.",
+    "displayText": "Substance Abuse Helplines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 35,
+    "prompt": "Suggest ways I can volunteer to help with refugee resettlement.",
+    "displayText": "Resettlement Assistance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 36,
+    "prompt": "Suggest volunteer opportunities providing language support to refugees/immigrants.",
+    "displayText": "Language Support (Refugee/Immigrant)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 37,
+    "prompt": "Suggest ways I can volunteer helping with cultural orientation for newcomers.",
+    "displayText": "Cultural Orientation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 38,
+    "prompt": "Suggest ways I can volunteer connecting refugees/immigrants with resources.",
+    "displayText": "Resource Connection (Refugee/Immigrant)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 39,
+    "prompt": "Suggest ways I can find hospital volunteering opportunities.",
+    "displayText": "Hospital Volunteering",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 40,
+    "prompt": "Suggest ways I can volunteer supporting blood drives.",
+    "displayText": "Blood Drive Support",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 41,
+    "prompt": "Suggest ways I can find information on medical mission trips needing volunteers.",
+    "displayText": "Medical Mission Trips",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 42,
+    "prompt": "Suggest volunteer opportunities available at vaccination clinics.",
+    "displayText": "Vaccination Clinics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 43,
+    "prompt": "Suggest ways I can volunteer at health screening events.",
+    "displayText": "Health Screening Events",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 44,
+    "prompt": "Suggest ways I can find academic subject tutoring volunteer roles.",
+    "displayText": "Academic Subject Tutoring",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 45,
+    "prompt": "Suggest volunteer opportunities available with literacy programs.",
+    "displayText": "Literacy Programs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 46,
+    "prompt": "Suggest ways I can volunteer teaching ESL.",
+    "displayText": "ESL Instruction",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 47,
+    "prompt": "Suggest volunteer roles helping students with college preparation.",
+    "displayText": "College Preparation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 48,
+    "prompt": "Suggest opportunities for career mentoring volunteers.",
+    "displayText": "Career Mentoring",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 49,
+    "prompt": "Suggest ways I can volunteer designing curriculum for educational programs.",
+    "displayText": "Curriculum Design",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 50,
+    "prompt": "Suggest ways I can volunteer with STEM education initiatives.",
+    "displayText": "STEM Education Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 51,
+    "prompt": "Suggest volunteer opportunities supporting arts education programs.",
+    "displayText": "Arts Education Programs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 52,
+    "prompt": "Suggest ways I can volunteer to lead financial literacy workshops.",
+    "displayText": "Financial Literacy Workshops",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 53,
+    "prompt": "Suggest volunteer opportunities providing digital literacy training.",
+    "displayText": "Digital Literacy Training",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 54,
+    "prompt": "Suggest ways I can volunteer with library reading programs.",
+    "displayText": "Library Reading Programs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 55,
+    "prompt": "Suggest opportunities for research assistance volunteering at libraries.",
+    "displayText": "Library Research Assistance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 56,
+    "prompt": "Suggest ways I can volunteer supporting community programs at the library.",
+    "displayText": "Library Community Programs Support",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 57,
+    "prompt": "Suggest ways I can volunteer organizing media at a library.",
+    "displayText": "Library Media Organization",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 58,
+    "prompt": "Suggest ways I can find pro bono legal clinics needing volunteers.",
+    "displayText": "Pro Bono Legal Clinics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 59,
+    "prompt": "Suggest volunteer opportunities related to legal rights education.",
+    "displayText": "Legal Rights Education",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 60,
+    "prompt": "Suggest ways I can volunteer assisting with legal document preparation.",
+    "displayText": "Document Preparation Assistance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 61,
+    "prompt": "Suggest ways I can volunteer providing court navigation support.",
+    "displayText": "Court Navigation Support",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 62,
+    "prompt": "Suggest opportunities to volunteer with tax preparation assistance programs.",
+    "displayText": "Tax Preparation Assistance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 63,
+    "prompt": "Suggest ways I can volunteer providing financial counseling.",
+    "displayText": "Financial Counseling",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 64,
+    "prompt": "Suggest ways I can volunteer supporting microfinance initiatives.",
+    "displayText": "Microfinance Support",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 65,
+    "prompt": "Suggest ways I can volunteer assisting with business plan development for nonprofits/startups.",
+    "displayText": "Business Plan Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 66,
+    "prompt": "Suggest opportunities for grant writing assistance volunteers.",
+    "displayText": "Grant Writing Assistance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 67,
+    "prompt": "Suggest ways I can volunteer at free or low-cost medical/dental clinics.",
+    "displayText": "Medical/Dental Clinics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 68,
+    "prompt": "Suggest volunteer opportunities available in mental health services.",
+    "displayText": "Mental Health Services",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 69,
+    "prompt": "Suggest ways I can volunteer with public health initiatives.",
+    "displayText": "Public Health Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 70,
+    "prompt": "Suggest ways I can volunteer helping develop wellness programs.",
+    "displayText": "Wellness Program Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 71,
+    "prompt": "Suggest ways I can volunteer providing marketing support for nonprofits.",
+    "displayText": "Nonprofit Marketing Support",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 72,
+    "prompt": "Suggest opportunities for social media management volunteers.",
+    "displayText": "Social Media Management (Volunteer)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 73,
+    "prompt": "Suggest ways I can volunteer assisting nonprofits with public relations.",
+    "displayText": "Public Relations Assistance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 74,
+    "prompt": "Suggest volunteer roles in storytelling and content creation for nonprofits.",
+    "displayText": "Storytelling & Content Creation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 75,
+    "prompt": "Suggest opportunities for graphic design service volunteers.",
+    "displayText": "Graphic Design Services (Volunteer)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 76,
+    "prompt": "Suggest ways I can volunteer providing computer setup or repair assistance.",
+    "displayText": "Computer Setup/Repair",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 77,
+    "prompt": "Suggest ways I can volunteer assisting with network installation.",
+    "displayText": "Network Installation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 78,
+    "prompt": "Suggest volunteer opportunities involving doing system security reviews.",
+    "displayText": "System Security Review",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 79,
+    "prompt": "Suggest volunteer roles in database management for nonprofits.",
+    "displayText": "Database Management",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 80,
+    "prompt": "Suggest volunteer opportunities in website development for nonprofits.",
+    "displayText": "Website Development (Volunteer)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 81,
+    "prompt": "Suggest ways I can volunteer providing software skill training.",
+    "displayText": "Software Skill Training",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 82,
+    "prompt": "Suggest opportunities for hardware maintenance volunteers.",
+    "displayText": "Hardware Maintenance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 83,
+    "prompt": "Suggest ways I can volunteer leading digital tools workshops.",
+    "displayText": "Digital Tools Workshops",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 84,
+    "prompt": "Suggest ways I can volunteer providing cybersecurity education.",
+    "displayText": "Cybersecurity Education",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 85,
+    "prompt": "Suggest volunteer opportunities developing apps for nonprofits.",
+    "displayText": "App Development for Nonprofits",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 86,
+    "prompt": "Suggest volunteer roles in data analysis for social impact.",
+    "displayText": "Data Analysis for Social Impact",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 87,
+    "prompt": "Suggest ways I can volunteer designing technology solutions for nonprofits.",
+    "displayText": "Technology Solution Design",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 88,
+    "prompt": "Suggest ways I can volunteer supporting digital transformation for nonprofits.",
+    "displayText": "Digital Transformation Support",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 89,
+    "prompt": "Suggest ways I can find habitat restoration volunteer projects.",
+    "displayText": "Habitat Restoration",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 90,
+    "prompt": "Suggest volunteer opportunities available in wildlife monitoring.",
+    "displayText": "Wildlife Monitoring",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 91,
+    "prompt": "Suggest ways I can volunteer protecting endangered species.",
+    "displayText": "Endangered Species Protection",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 92,
+    "prompt": "Suggest ways I can volunteer for invasive species removal efforts.",
+    "displayText": "Invasive Species Removal",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 93,
+    "prompt": "Suggest opportunities to volunteer with ecological surveys.",
+    "displayText": "Ecological Surveys",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 94,
+    "prompt": "Suggest ways I can volunteer for river or beach clean-up events.",
+    "displayText": "River/Beach Clean-Ups",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 95,
+    "prompt": "Suggest ways I can volunteer with water quality monitoring programs.",
+    "displayText": "Water Quality Monitoring",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 96,
+    "prompt": "Suggest volunteer opportunities in watershed restoration.",
+    "displayText": "Watershed Restoration",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 97,
+    "prompt": "Suggest ways I can find marine conservation volunteer projects.",
+    "displayText": "Marine Conservation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 98,
+    "prompt": "Suggest ways I can volunteer with stormwater management initiatives.",
+    "displayText": "Stormwater Management",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 99,
+    "prompt": "Suggest ways I can volunteer for trail maintenance.",
+    "displayText": "Trail Maintenance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 100,
+    "prompt": "Suggest volunteer opportunities available in park conservation.",
+    "displayText": "Park Conservation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 101,
+    "prompt": "Suggest ways I can volunteer for public land restoration projects.",
+    "displayText": "Public Land Restoration",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 102,
+    "prompt": "Suggest ways I can volunteer with urban forestry programs.",
+    "displayText": "Urban Forestry",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 103,
+    "prompt": "Suggest volunteer opportunities related to open space preservation.",
+    "displayText": "Open Space Preservation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 104,
+    "prompt": "Suggest ways I can volunteer helping develop a community garden.",
+    "displayText": "Garden Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 105,
+    "prompt": "Suggest ways I can volunteer for planting and maintenance in community gardens.",
+    "displayText": "Garden Planting & Maintenance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 106,
+    "prompt": "Suggest opportunities to volunteer with harvest distribution from community gardens.",
+    "displayText": "Garden Harvest Distribution",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 107,
+    "prompt": "Suggest ways I can volunteer providing garden education.",
+    "displayText": "Garden Education",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 108,
+    "prompt": "Suggest ways I can volunteer with seed libraries.",
+    "displayText": "Seed Libraries",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 109,
+    "prompt": "Suggest volunteer opportunities related to renewable energy projects.",
+    "displayText": "Renewable Energy Projects",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 110,
+    "prompt": "Suggest ways I can volunteer with sustainable building projects.",
+    "displayText": "Sustainable Building",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 111,
+    "prompt": "Suggest ways I can volunteer providing environmental education.",
+    "displayText": "Environmental Education",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 112,
+    "prompt": "Suggest opportunities to volunteer with climate action initiatives.",
+    "displayText": "Climate Action Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 113,
+    "prompt": "Suggest ways I can participate in neighborhood clean-up events.",
+    "displayText": "Neighborhood Clean-Ups",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 114,
+    "prompt": "Suggest ways I can volunteer for community beautification projects.",
+    "displayText": "Beautification Projects",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 115,
+    "prompt": "Suggest ways I can get involved in public space activation.",
+    "displayText": "Public Space Activation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 116,
+    "prompt": "Suggest volunteer opportunities available with community art installations.",
+    "displayText": "Community Art Installations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 117,
+    "prompt": "Suggest ways I can volunteer for infrastructure improvement projects.",
+    "displayText": "Infrastructure Improvement",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 118,
+    "prompt": "Suggest ways I can volunteer with new resident welcome programs.",
+    "displayText": "New Resident Welcome Programs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 119,
+    "prompt": "Suggest opportunities to volunteer with intergenerational programs.",
+    "displayText": "Intergenerational Programs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 120,
+    "prompt": "Suggest ways I can get involved with neighborhood associations.",
+    "displayText": "Neighborhood Associations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 121,
+    "prompt": "Suggest ways I can volunteer for cultural exchange events.",
+    "displayText": "Cultural Exchange Events",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 122,
+    "prompt": "Suggest ways I can participate in community dialogues.",
+    "displayText": "Community Dialogues",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 123,
+    "prompt": "Suggest ways I can volunteer supporting small businesses locally.",
+    "displayText": "Small Business Support",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 124,
+    "prompt": "Suggest ways I can volunteer with job training programs.",
+    "displayText": "Job Training Programs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 125,
+    "prompt": "Suggest volunteer opportunities related to cooperative development.",
+    "displayText": "Cooperative Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 126,
+    "prompt": "Suggest ways I can volunteer supporting local commerce initiatives.",
+    "displayText": "Local Commerce Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 127,
+    "prompt": "Suggest ways I can volunteer supporting social enterprises.",
+    "displayText": "Social Enterprise Support",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 128,
+    "prompt": "Suggest ways I can volunteer at historic sites.",
+    "displayText": "Historic Site Volunteering",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 129,
+    "prompt": "Suggest opportunities for cultural heritage documentation volunteering.",
+    "displayText": "Cultural Heritage Documentation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 130,
+    "prompt": "Suggest ways I can volunteer helping preserve traditional crafts.",
+    "displayText": "Traditional Crafts Preservation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 131,
+    "prompt": "Suggest ways I can volunteer with oral history collection projects.",
+    "displayText": "Oral History Collection",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 132,
+    "prompt": "Suggest volunteer opportunities related to language preservation.",
+    "displayText": "Language Preservation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 133,
+    "prompt": "Suggest ways I can volunteer with a community theater group.",
+    "displayText": "Community Theater",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 134,
+    "prompt": "Suggest ways I can volunteer with public art projects.",
+    "displayText": "Public Art Projects",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 135,
+    "prompt": "Suggest volunteer opportunities supporting music programs.",
+    "displayText": "Music Programs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 136,
+    "prompt": "Suggest ways I can volunteer with local dance initiatives.",
+    "displayText": "Dance Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 137,
+    "prompt": "Suggest ways I can volunteer with literary arts events.",
+    "displayText": "Literary Arts Events",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 138,
+    "prompt": "Suggest ways I can become a museum docent volunteer.",
+    "displayText": "Museum Docents",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 139,
+    "prompt": "Suggest ways I can volunteer as a gallery assistant.",
+    "displayText": "Gallery Assistants",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 140,
+    "prompt": "Suggest ways I can find library volunteer opportunities.",
+    "displayText": "Library Volunteers",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 141,
+    "prompt": "Suggest ways I can volunteer supporting a cultural center.",
+    "displayText": "Cultural Center Support",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 142,
+    "prompt": "Suggest opportunities for archive organization volunteers.",
+    "displayText": "Archive Organization",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 143,
+    "prompt": "Suggest ways I can find virtual tutoring opportunities.",
+    "displayText": "Virtual Tutoring",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 144,
+    "prompt": "Suggest ways I can volunteer as an online career coach.",
+    "displayText": "Career Coaching (Online)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 145,
+    "prompt": "Suggest opportunities for digital mentorship programs.",
+    "displayText": "Digital Mentorship Programs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 146,
+    "prompt": "Suggest ways I can volunteer for online ESL conversation practice.",
+    "displayText": "Online ESL Conversation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 147,
+    "prompt": "Suggest ways I can volunteer as a remote college advisor.",
+    "displayText": "Remote College Advising",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 148,
+    "prompt": "Suggest ways I can volunteer providing virtual tech support.",
+    "displayText": "Virtual Tech Support",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 149,
+    "prompt": "Suggest opportunities developing online training materials.",
+    "displayText": "Online Training Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 150,
+    "prompt": "Suggest ways I can volunteer creating digital content remotely.",
+    "displayText": "Digital Content Creation (Remote)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 151,
+    "prompt": "Suggest ways I can volunteer managing social media accounts remotely.",
+    "displayText": "Social Media Management (Remote)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 152,
+    "prompt": "Suggest ways I can volunteer maintaining websites remotely.",
+    "displayText": "Website Maintenance (Remote)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 153,
+    "prompt": "Suggest ways I can volunteer for remote data analysis projects.",
+    "displayText": "Data Analysis Projects (Remote)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 154,
+    "prompt": "Suggest opportunities for remote research support.",
+    "displayText": "Research Support (Remote)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 155,
+    "prompt": "Suggest ways I can volunteer providing translation services online.",
+    "displayText": "Translation Services (Online)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 156,
+    "prompt": "Suggest ways I can volunteer doing grant research remotely.",
+    "displayText": "Grant Research (Remote)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 157,
+    "prompt": "Suggest ways I can volunteer performing policy analysis remotely.",
+    "displayText": "Policy Analysis (Remote)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 158,
+    "prompt": "Suggest ways I can volunteer for crisis text lines.",
+    "displayText": "Crisis Text Lines",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 159,
+    "prompt": "Suggest opportunities for virtual companionship volunteering.",
+    "displayText": "Virtual Companionship",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 160,
+    "prompt": "Suggest ways I can volunteer facilitating online support groups.",
+    "displayText": "Online Support Groups",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 161,
+    "prompt": "Suggest ways I can find remote administrative support volunteer roles.",
+    "displayText": "Remote Administrative Support",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 162,
+    "prompt": "Suggest ways I can volunteer for virtual fundraising efforts.",
+    "displayText": "Virtual Fundraising",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 163,
+    "prompt": "Suggest ways I can find upcoming town hall meetings.",
+    "displayText": "Town Halls",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 164,
+    "prompt": "Suggest ways to find out when the next council meetings are.",
+    "displayText": "Council Meetings",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 165,
+    "prompt": "Suggest ways I can find information on upcoming public hearings.",
+    "displayText": "Public Hearings",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 166,
+    "prompt": "Suggest ways to find out if any budget forums are scheduled.",
+    "displayText": "Budget Forums",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 167,
+    "prompt": "Suggest ways to find out when the planning commission meetings are.",
+    "displayText": "Planning Commission Meetings",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 168,
+    "prompt": "Suggest ways I can find the schedule for school board meetings.",
+    "displayText": "School Board Meetings",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 169,
+    "prompt": "Suggest ways I can find information on special district meetings.",
+    "displayText": "Special District Meetings",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 170,
+    "prompt": "Suggest ways I can help with voter registration drives.",
+    "displayText": "Voter Registration Drives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 171,
+    "prompt": "Suggest ways I can find local candidate forums.",
+    "displayText": "Candidate Forums",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 172,
+    "prompt": "Suggest ways I can volunteer as a poll worker.",
+    "displayText": "Poll Worker Volunteering",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 173,
+    "prompt": "Suggest ways I can find information on becoming an election observer.",
+    "displayText": "Election Observer Roles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 174,
+    "prompt": "Suggest ways I can get involved in local election campaigns.",
+    "displayText": "Local Campaign Involvement",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 175,
+    "prompt": "Suggest ways I can join a citizen advisory board.",
+    "displayText": "Citizen Advisory Boards",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 176,
+    "prompt": "Suggest ways I can get involved with neighborhood councils.",
+    "displayText": "Neighborhood Councils",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 177,
+    "prompt": "Suggest ways I can find community planning groups to join.",
+    "displayText": "Community Planning Groups",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 178,
+    "prompt": "Suggest ways I can participate in issue-specific task forces.",
+    "displayText": "Issue-Specific Task Forces",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 179,
+    "prompt": "Suggest ways I can find information on joining youth commissions.",
+    "displayText": "Youth Commissions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 180,
+    "prompt": "Suggest ways I can join senior advisory committees.",
+    "displayText": "Senior Advisory Committees",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 181,
+    "prompt": "Suggest ways I can learn about participatory budgeting processes in my area.",
+    "displayText": "Participatory Budgeting",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 182,
+    "prompt": "Suggest ways I can get involved in community-based planning.",
+    "displayText": "Community-Based Planning",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 183,
+    "prompt": "Suggest ways I can find information on citizen juries.",
+    "displayText": "Citizen Juries",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 184,
+    "prompt": "Suggest ways I can participate in deliberative democracy forums.",
+    "displayText": "Deliberative Democracy Forums",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 185,
+    "prompt": "Suggest ways I can participate in community decision-making processes.",
+    "displayText": "Community Decision-Making",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 186,
+    "prompt": "Suggest ways I can find local government career opportunities.",
+    "displayText": "Local Government Careers",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 187,
+    "prompt": "Suggest ways I can find information on public service positions.",
+    "displayText": "Public Service Positions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 188,
+    "prompt": "Suggest ways I can prepare for civil service examinations.",
+    "displayText": "Civil Service Examination",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 189,
+    "prompt": "Suggest ways I can find government internship opportunities.",
+    "displayText": "Government Internships",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 190,
+    "prompt": "Suggest ways I can get appointed to local commissions and boards.",
+    "displayText": "Commissions & Boards (Appointed)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 191,
+    "prompt": "Suggest ways I can find information on becoming a special representative.",
+    "displayText": "Special Representatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 192,
+    "prompt": "Suggest ways I can become a program advisor for local government.",
+    "displayText": "Program Advisors",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 193,
+    "prompt": "Suggest opportunities to serve as a community liaison.",
+    "displayText": "Community Liaisons",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 194,
+    "prompt": "Suggest ways I can research local policies effectively.",
+    "displayText": "Local Policy Research",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 195,
+    "prompt": "Suggest ways I can develop a position on a local issue.",
+    "displayText": "Position Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 196,
+    "prompt": "Suggest ways I can mobilize stakeholders for local advocacy.",
+    "displayText": "Stakeholder Mobilization",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 197,
+    "prompt": "Suggest ways I can learn about framing policy alternatives.",
+    "displayText": "Policy Alternative Framing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 198,
+    "prompt": "Suggest ways I can track local bills and ordinances.",
+    "displayText": "Bill/Ordinance Tracking",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 199,
+    "prompt": "Suggest ways I can submit public comments on local legislation.",
+    "displayText": "Public Comment Submission",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 200,
+    "prompt": "Suggest ways I can prepare testimony for local government meetings.",
+    "displayText": "Testimony Preparation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 201,
+    "prompt": "Suggest ways I can provide feedback on local regulations.",
+    "displayText": "Regulatory Feedback",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 202,
+    "prompt": "Suggest ways I can analyze the local government budget.",
+    "displayText": "Budget Analysis",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 203,
+    "prompt": "Suggest ways I can advocate for specific funding priorities in the local budget.",
+    "displayText": "Funding Priorities Advocacy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 204,
+    "prompt": "Suggest ways I can campaign for the expansion of local services.",
+    "displayText": "Service Expansion Campaigns",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 205,
+    "prompt": "Suggest ways I can learn about fiscal transparency initiatives.",
+    "displayText": "Fiscal Transparency Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 206,
+    "prompt": "Suggest ways I can effectively attend and document public meetings.",
+    "displayText": "Meeting Attendance & Documentation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 207,
+    "prompt": "Suggest ways I can make public record requests.",
+    "displayText": "Public Record Requests",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 208,
+    "prompt": "Suggest ways I can monitor the local government budget.",
+    "displayText": "Budget Monitoring",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 209,
+    "prompt": "Suggest ways I can learn about performance measurement for local government.",
+    "displayText": "Performance Measurement",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 210,
+    "prompt": "Suggest ways I can assess local government service delivery.",
+    "displayText": "Service Delivery Assessment",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 211,
+    "prompt": "Suggest ways I can find independent government oversight groups.",
+    "displayText": "Independent Oversight Groups",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 212,
+    "prompt": "Suggest ways I can participate in transparency campaigns.",
+    "displayText": "Transparency Campaigns",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 213,
+    "prompt": "Suggest ways I can get involved with government accountability projects.",
+    "displayText": "Accountability Projects",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 214,
+    "prompt": "Suggest ways I can learn about government ethics initiatives.",
+    "displayText": "Government Ethics Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 215,
+    "prompt": "Suggest ways I can utilize open government data.",
+    "displayText": "Open Data Utilization",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 216,
+    "prompt": "Suggest ways I can develop apps for local government services.",
+    "displayText": "Government App Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 217,
+    "prompt": "Suggest ways I can find civic technology solutions.",
+    "displayText": "Civic Technology Solutions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 218,
+    "prompt": "Suggest ways I can learn about digital democracy tools.",
+    "displayText": "Digital Democracy Tools",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 219,
+    "prompt": "Suggest ways I can find upcoming street cleaning events.",
+    "displayText": "Street Cleaning Events",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 220,
+    "prompt": "Suggest ways I can participate in community waste collection days.",
+    "displayText": "Community Waste Collection",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 221,
+    "prompt": "Suggest ways I can volunteer for public space maintenance.",
+    "displayText": "Public Space Maintenance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 222,
+    "prompt": "Suggest ways I can organize or attend street celebrations.",
+    "displayText": "Street Celebrations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 223,
+    "prompt": "Suggest ways I can participate in neighborhood potlucks.",
+    "displayText": "Neighborhood Potlucks",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 224,
+    "prompt": "Suggest ways I can find community game days.",
+    "displayText": "Community Game Days",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 225,
+    "prompt": "Suggest ways I can attend residential street festivals.",
+    "displayText": "Residential Street Festivals",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 226,
+    "prompt": "Suggest ways I can find or start a tool library.",
+    "displayText": "Tool Libraries",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 227,
+    "prompt": "Suggest ways I can participate in seed swaps.",
+    "displayText": "Seed Swaps",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 228,
+    "prompt": "Suggest ways I can find local book exchanges.",
+    "displayText": "Book Exchanges",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 229,
+    "prompt": "Suggest ways I can participate in community skill shares.",
+    "displayText": "Skill Shares",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 230,
+    "prompt": "Suggest ways I can learn about time banking initiatives.",
+    "displayText": "Time Banking Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 231,
+    "prompt": "Suggest ways I can find local heritage festivals.",
+    "displayText": "Local Heritage Festivals",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 232,
+    "prompt": "Suggest ways I can attend seasonal celebrations in the community.",
+    "displayText": "Seasonal Celebrations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 233,
+    "prompt": "Suggest ways I can find local art festivals.",
+    "displayText": "Art Festivals",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 234,
+    "prompt": "Suggest ways I can attend local music festivals (community events).",
+    "displayText": "Music Festivals (Community)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 235,
+    "prompt": "Suggest ways I can find local food festivals.",
+    "displayText": "Food Festivals",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 236,
+    "prompt": "Suggest ways I can participate in ethnic celebrations.",
+    "displayText": "Ethnic Celebrations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 237,
+    "prompt": "Suggest ways I can attend community religious observances.",
+    "displayText": "Religious Observances",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 238,
+    "prompt": "Suggest ways I can find cultural heritage events.",
+    "displayText": "Cultural Heritage Events",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 239,
+    "prompt": "Suggest ways I can attend multicultural festivals.",
+    "displayText": "Multicultural Festivals",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 240,
+    "prompt": "Suggest ways I can participate in International Day celebrations.",
+    "displayText": "International Day Celebrations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 241,
+    "prompt": "Suggest ways I can find public holiday gatherings.",
+    "displayText": "Public Holiday Gatherings",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 242,
+    "prompt": "Suggest ways I can attend seasonal parades.",
+    "displayText": "Seasonal Parades",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 243,
+    "prompt": "Suggest ways I can find community light displays.",
+    "displayText": "Community Light Displays",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 244,
+    "prompt": "Suggest ways I can visit local holiday markets.",
+    "displayText": "Holiday Markets",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 245,
+    "prompt": "Suggest ways I can participate in community ceremonial traditions.",
+    "displayText": "Ceremonial Traditions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 246,
+    "prompt": "Suggest ways I can find local produce stands.",
+    "displayText": "Local Produce Stands",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 247,
+    "prompt": "Suggest ways I can visit artisanal food markets.",
+    "displayText": "Artisanal Food Markets",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 248,
+    "prompt": "Suggest ways I can attend farm-to-table events.",
+    "displayText": "Farm-to-Table Events",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 249,
+    "prompt": "Suggest ways I can find agricultural showcases.",
+    "displayText": "Agricultural Showcases",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 250,
+    "prompt": "Suggest ways I can visit local artisan fairs.",
+    "displayText": "Artisan Fairs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 251,
+    "prompt": "Suggest ways I can find handmade goods markets.",
+    "displayText": "Handmade Goods Markets",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 252,
+    "prompt": "Suggest ways I can attend maker showcases.",
+    "displayText": "Maker Showcases",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 253,
+    "prompt": "Suggest ways I can find DIY exhibitions.",
+    "displayText": "DIY Exhibitions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 254,
+    "prompt": "Suggest ways I can visit local flea markets.",
+    "displayText": "Flea Markets",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 255,
+    "prompt": "Suggest ways I can participate in clothing swaps.",
+    "displayText": "Clothing Swaps",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 256,
+    "prompt": "Suggest ways I can find toy exchanges.",
+    "displayText": "Toy Exchanges",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 257,
+    "prompt": "Suggest ways I can participate in equipment exchanges.",
+    "displayText": "Equipment Exchanges",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 258,
+    "prompt": "Suggest ways I can attend science festivals.",
+    "displayText": "Science Festivals",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 259,
+    "prompt": "Suggest ways I can participate in history days.",
+    "displayText": "History Days",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 260,
+    "prompt": "Suggest ways I can find literature festivals.",
+    "displayText": "Literature Festivals",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 261,
+    "prompt": "Suggest ways I can attend technology expos.",
+    "displayText": "Technology Expos",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 262,
+    "prompt": "Suggest ways I can find skill-building workshops.",
+    "displayText": "Skill-Building Workshops",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 263,
+    "prompt": "Suggest ways I can attend DIY classes.",
+    "displayText": "DIY Classes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 264,
+    "prompt": "Suggest ways I can find community education events.",
+    "displayText": "Community Education Events",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 265,
+    "prompt": "Suggest ways I can attend expert talks in the community.",
+    "displayText": "Expert Talks",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 266,
+    "prompt": "Suggest ways I can find local speaker series.",
+    "displayText": "Speaker Series",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 267,
+    "prompt": "Suggest ways I can attend panel discussions on community topics.",
+    "displayText": "Panel Discussions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 268,
+    "prompt": "Suggest ways I can participate in community conversations.",
+    "displayText": "Community Conversations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 269,
+    "prompt": "Suggest ways I can attend town & gown lectures.",
+    "displayText": "Town & Gown Lectures",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 270,
+    "prompt": "Suggest ways I can attend or organize benefit concerts.",
+    "displayText": "Benefit Concerts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 271,
+    "prompt": "Suggest ways I can participate in charity walks/runs.",
+    "displayText": "Charity Walks/Runs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 272,
+    "prompt": "Suggest ways I can attend charity gala dinners.",
+    "displayText": "Gala Dinners",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 273,
+    "prompt": "Suggest ways I can participate in silent auctions for charity.",
+    "displayText": "Silent Auctions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 274,
+    "prompt": "Suggest ways I can enter community raffles for good causes.",
+    "displayText": "Community Raffles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 275,
+    "prompt": "Suggest ways I can support local school fundraisers.",
+    "displayText": "School Fundraisers",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 276,
+    "prompt": "Suggest ways I can participate in medical support drives.",
+    "displayText": "Medical Support Drives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 277,
+    "prompt": "Suggest ways I can contribute to disaster relief fundraising efforts.",
+    "displayText": "Disaster Relief Fundraising",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 278,
+    "prompt": "Suggest ways I can support animal welfare campaigns.",
+    "displayText": "Animal Welfare Campaigns",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 279,
+    "prompt": "Suggest ways I can donate to support arts organizations.",
+    "displayText": "Arts Organization Support",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 280,
+    "prompt": "Suggest ways I can find community projects seeking crowdfunding.",
+    "displayText": "Community Project Funding",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 281,
+    "prompt": "Suggest ways I can support local businesses through crowdfunding.",
+    "displayText": "Local Business Support (Crowdfunding)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 282,
+    "prompt": "Suggest ways I can invest in social enterprise launches.",
+    "displayText": "Social Enterprise Launch Funding",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 283,
+    "prompt": "Suggest ways I can contribute to neighborhood improvement funding.",
+    "displayText": "Neighborhood Improvement Funding",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 284,
+    "prompt": "Suggest ways I can donate to emergency response funds.",
+    "displayText": "Emergency Response Funds",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 285,
+    "prompt": "Suggest ways I can get involved with racial equity initiatives.",
+    "displayText": "Racial Equity Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 286,
+    "prompt": "Suggest ways I can participate in gender equality movements.",
+    "displayText": "Gender Equality Movements",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 287,
+    "prompt": "Suggest ways I can engage in LGBTQ+ rights advocacy.",
+    "displayText": "LGBTQ+ Rights Advocacy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 288,
+    "prompt": "Suggest ways I can support disability rights campaigns.",
+    "displayText": "Disability Rights Campaigns",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 289,
+    "prompt": "Suggest ways I can participate in economic justice work.",
+    "displayText": "Economic Justice Work",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 290,
+    "prompt": "Suggest ways I can join local climate action groups.",
+    "displayText": "Climate Action Groups",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 291,
+    "prompt": "Suggest ways I can get involved in conservation campaigns.",
+    "displayText": "Conservation Campaigns",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 292,
+    "prompt": "Suggest ways I can participate in pollution prevention initiatives.",
+    "displayText": "Pollution Prevention Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 293,
+    "prompt": "Suggest ways I can advocate for sustainable development.",
+    "displayText": "Sustainable Development Advocacy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 294,
+    "prompt": "Suggest ways I can get involved in environmental justice movements.",
+    "displayText": "Environmental Justice Movements",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 295,
+    "prompt": "Suggest ways I can support healthcare access campaigns.",
+    "displayText": "Healthcare Access Campaigns",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 296,
+    "prompt": "Suggest ways I can participate in mental health awareness activities.",
+    "displayText": "Mental Health Awareness",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 297,
+    "prompt": "Suggest ways I can get involved with public health initiatives for advocacy.",
+    "displayText": "Public Health Initiatives (Advocacy)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 298,
+    "prompt": "Suggest ways I can engage in patient rights advocacy.",
+    "displayText": "Patient Rights Advocacy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 299,
+    "prompt": "Suggest ways I can participate in healthy community movements.",
+    "displayText": "Healthy Community Movements",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 300,
+    "prompt": "Suggest ways I can support school funding campaigns.",
+    "displayText": "School Funding Campaigns",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 301,
+    "prompt": "Suggest ways I can get involved in education reform movements.",
+    "displayText": "Education Reform Movements",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 302,
+    "prompt": "Suggest ways I can advocate for youth opportunity expansion.",
+    "displayText": "Youth Opportunity Expansion",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 303,
+    "prompt": "Suggest ways I can support literacy initiatives.",
+    "displayText": "Literacy Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 304,
+    "prompt": "Suggest ways I can engage in educational equity work.",
+    "displayText": "Educational Equity Work",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 305,
+    "prompt": "Suggest ways I can participate in rallies and marches.",
+    "displayText": "Rallies and Marches",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 306,
+    "prompt": "Suggest ways I can join demonstrations for causes I support.",
+    "displayText": "Demonstrations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 307,
+    "prompt": "Suggest ways I can learn about civil disobedience actions.",
+    "displayText": "Civil Disobedience",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 308,
+    "prompt": "Suggest ways I can participate in sit-ins.",
+    "displayText": "Sit-Ins",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 309,
+    "prompt": "Suggest ways I can engage in coordinated direct actions.",
+    "displayText": "Coordinated Direct Actions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 310,
+    "prompt": "Suggest ways I can participate in public education efforts for awareness campaigns.",
+    "displayText": "Public Education Efforts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 311,
+    "prompt": "Suggest ways I can help with information dissemination for campaigns.",
+    "displayText": "Information Dissemination",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 312,
+    "prompt": "Suggest ways I can get involved in myth-busting initiatives.",
+    "displayText": "Myth-Busting Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 313,
+    "prompt": "Suggest ways I can support visibility projects for awareness.",
+    "displayText": "Visibility Projects",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 314,
+    "prompt": "Suggest ways I can organize or attend press conferences.",
+    "displayText": "Press Conferences",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 315,
+    "prompt": "Suggest ways I can build relationships with local media.",
+    "displayText": "Media Relationships",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 316,
+    "prompt": "Suggest ways I can write opinion editorials for local publications.",
+    "displayText": "Opinion Editorial Writing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 317,
+    "prompt": "Suggest ways I can write letters to the editor.",
+    "displayText": "Letters to the Editor",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 318,
+    "prompt": "Suggest ways I can participate in social media campaigns for advocacy.",
+    "displayText": "Social Media Campaigns (Advocacy)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 319,
+    "prompt": "Suggest ways I can learn about coalition building for advocacy.",
+    "displayText": "Coalition Building",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 320,
+    "prompt": "Suggest ways I can participate in grassroots mobilization efforts.",
+    "displayText": "Grassroots Mobilization",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 321,
+    "prompt": "Suggest ways I can engage in door-to-door canvassing.",
+    "displayText": "Door-to-Door Canvassing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 322,
+    "prompt": "Suggest ways I can participate in phone banking for campaigns.",
+    "displayText": "Phone Banking",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 323,
+    "prompt": "Suggest ways I can learn about community power building.",
+    "displayText": "Community Power Building",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 324,
+    "prompt": "Suggest ways I can organize or participate in petition drives.",
+    "displayText": "Petition Drives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 325,
+    "prompt": "Suggest ways I can engage in lobbying efforts.",
+    "displayText": "Lobbying Efforts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 326,
+    "prompt": "Suggest ways I can get involved in legislative campaigns.",
+    "displayText": "Legislative Campaigns",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 327,
+    "prompt": "Suggest ways I can learn about administrative advocacy.",
+    "displayText": "Administrative Advocacy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 328,
+    "prompt": "Suggest ways I can engage in judicial advocacy.",
+    "displayText": "Judicial Advocacy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 329,
+    "prompt": "Suggest ways I can find educational forums on advocacy.",
+    "displayText": "Educational Forums (Advocacy)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 330,
+    "prompt": "Suggest ways I can attend advocacy workshops.",
+    "displayText": "Advocacy Workshops",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 331,
+    "prompt": "Suggest ways I can participate in leadership development programs for activists.",
+    "displayText": "Leadership Development (Advocacy)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 332,
+    "prompt": "Suggest ways I can engage in movement strategy sessions.",
+    "displayText": "Movement Strategy Sessions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 333,
+    "prompt": "Suggest ways I can attend direct action training.",
+    "displayText": "Direct Action Training",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 334,
+    "prompt": "Suggest ways I can participate in participatory action research.",
+    "displayText": "Participatory Action Research",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 335,
+    "prompt": "Suggest ways I can help conduct community needs assessments.",
+    "displayText": "Community Needs Assessment",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 336,
+    "prompt": "Suggest ways I can engage in policy analysis for advocacy.",
+    "displayText": "Policy Analysis (Advocacy)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 337,
+    "prompt": "Suggest ways I can learn about impact evaluation for community projects.",
+    "displayText": "Impact Evaluation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 338,
+    "prompt": "Suggest ways I can participate in data collection for advocacy.",
+    "displayText": "Data Collection for Advocacy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 339,
+    "prompt": "Suggest ways I can engage in fundraising for specific causes.",
+    "displayText": "Fundraising for Causes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 340,
+    "prompt": "Suggest ways I can learn about grant development for advocacy groups.",
+    "displayText": "Grant Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 341,
+    "prompt": "Suggest ways I can participate in coalition resource sharing.",
+    "displayText": "Coalition Resource Sharing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 342,
+    "prompt": "Suggest ways I can help create advocacy tools.",
+    "displayText": "Advocacy Tool Creation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 343,
+    "prompt": "Suggest ways I can support leadership pipeline development in advocacy.",
+    "displayText": "Leadership Pipeline Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 344,
+    "prompt": "Suggest ways I can get involved in developing parks and recreation areas.",
+    "displayText": "Parks & Recreation Areas Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 345,
+    "prompt": "Suggest ways I can participate in the development of plazas and town squares.",
+    "displayText": "Plazas & Town Squares Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 346,
+    "prompt": "Suggest ways I can support the development of community centers.",
+    "displayText": "Community Centers Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 347,
+    "prompt": "Suggest ways I can advocate for public libraries.",
+    "displayText": "Public Libraries Advocacy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 348,
+    "prompt": "Suggest ways I can help create shared green spaces.",
+    "displayText": "Shared Green Spaces Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 349,
+    "prompt": "Suggest ways I can advocate for better public transportation.",
+    "displayText": "Public Transportation Advocacy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 350,
+    "prompt": "Suggest ways I can support pedestrian-friendly initiatives.",
+    "displayText": "Pedestrian-Friendly Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 351,
+    "prompt": "Suggest ways I can advocate for cycling infrastructure development.",
+    "displayText": "Cycling Infrastructure Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 352,
+    "prompt": "Suggest ways I can support complete streets campaigns.",
+    "displayText": "Complete Streets Campaigns",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 353,
+    "prompt": "Suggest ways I can advocate for accessible transit initiatives.",
+    "displayText": "Accessible Transit Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 354,
+    "prompt": "Suggest ways I can get involved with shared workshops or maker spaces.",
+    "displayText": "Shared Workshops/Maker Spaces",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 355,
+    "prompt": "Suggest ways I can support the creation of community kitchens.",
+    "displayText": "Community Kitchens",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 356,
+    "prompt": "Suggest ways I can utilize or support local co-working spaces.",
+    "displayText": "Co-Working Spaces",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 357,
+    "prompt": "Suggest ways I can get involved with tool libraries as infrastructure.",
+    "displayText": "Tool Libraries (Infrastructure)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 358,
+    "prompt": "Suggest ways I can support community gathering venues.",
+    "displayText": "Gathering Venues",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 359,
+    "prompt": "Suggest ways I can get involved with Main Street programs.",
+    "displayText": "Main Street Programs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 360,
+    "prompt": "Suggest ways I can participate in Business Improvement Districts.",
+    "displayText": "Business Improvement Districts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 361,
+    "prompt": "Suggest ways I can learn about local currency initiatives.",
+    "displayText": "Local Currency Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 362,
+    "prompt": "Suggest ways I can participate in Buy Local campaigns.",
+    "displayText": "Buy Local Campaigns",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 363,
+    "prompt": "Suggest ways I can support community wealth building efforts.",
+    "displayText": "Community Wealth Building",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 364,
+    "prompt": "Suggest ways I can learn about housing cooperatives.",
+    "displayText": "Housing Cooperatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 365,
+    "prompt": "Suggest ways I can support worker cooperatives.",
+    "displayText": "Worker Cooperatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 366,
+    "prompt": "Suggest ways I can join consumer cooperatives.",
+    "displayText": "Consumer Cooperatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 367,
+    "prompt": "Suggest ways I can utilize local credit unions.",
+    "displayText": "Credit Unions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 368,
+    "prompt": "Suggest ways I can learn about community land trusts.",
+    "displayText": "Community Land Trusts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 369,
+    "prompt": "Suggest ways I can find Community Development Financial Institutions (CDFIs).",
+    "displayText": "Community Development Financial Institutions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 370,
+    "prompt": "Suggest ways I can support microlending programs.",
+    "displayText": "Microlending Programs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 371,
+    "prompt": "Suggest ways I can invest in community investment funds.",
+    "displayText": "Community Investment Funds",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 372,
+    "prompt": "Suggest ways I can participate in participatory lending programs.",
+    "displayText": "Participatory Lending",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 373,
+    "prompt": "Suggest ways I can learn about social impact investing.",
+    "displayText": "Social Impact Investing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 374,
+    "prompt": "Suggest ways I can participate in neighbor-to-neighbor support networks.",
+    "displayText": "Neighbor-to-Neighbor Support",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 375,
+    "prompt": "Suggest ways I can engage in resource sharing systems.",
+    "displayText": "Resource Sharing Systems",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 376,
+    "prompt": "Suggest ways I can join skills exchange networks.",
+    "displayText": "Skills Exchange Networks",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 377,
+    "prompt": "Suggest ways I can get involved in mutual aid emergency response networks.",
+    "displayText": "Emergency Response Networks (Mutual Aid)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 378,
+    "prompt": "Suggest ways I can participate in care circles.",
+    "displayText": "Care Circles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 379,
+    "prompt": "Suggest ways I can join local affinity groups.",
+    "displayText": "Affinity Groups",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 380,
+    "prompt": "Suggest ways I can find interest-based communities.",
+    "displayText": "Interest-Based Communities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 381,
+    "prompt": "Suggest ways I can join professional associations.",
+    "displayText": "Professional Associations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 382,
+    "prompt": "Suggest ways I can participate in identity-based groups.",
+    "displayText": "Identity-Based Groups",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 383,
+    "prompt": "Suggest ways I can find community resource hubs.",
+    "displayText": "Community Resource Hubs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 384,
+    "prompt": "Suggest ways I can learn about service navigation support systems.",
+    "displayText": "Service Navigation Support",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 385,
+    "prompt": "Suggest ways I can get involved with integrated care networks.",
+    "displayText": "Integrated Care Networks",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 386,
+    "prompt": "Suggest ways I can support collaborative service models.",
+    "displayText": "Collaborative Service Models",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 387,
+    "prompt": "Suggest ways I can utilize information and referral systems.",
+    "displayText": "Information & Referral Systems",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 388,
+    "prompt": "Suggest ways I can support community broadband initiatives.",
+    "displayText": "Community Broadband Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 389,
+    "prompt": "Suggest ways I can participate in digital inclusion programs.",
+    "displayText": "Digital Inclusion Programs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 390,
+    "prompt": "Suggest ways I can utilize community technology centers.",
+    "displayText": "Community Technology Centers",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 391,
+    "prompt": "Suggest ways I can contribute to open source community tools.",
+    "displayText": "Open Source Community Tools",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 392,
+    "prompt": "Suggest ways I can explore local digital archives.",
+    "displayText": "Local Digital Archives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 393,
+    "prompt": "Suggest ways I can attend ballot information sessions.",
+    "displayText": "Ballot Information Sessions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 394,
+    "prompt": "Suggest ways I can find local candidate forums for voter education.",
+    "displayText": "Candidate Forums (Voter Ed)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 395,
+    "prompt": "Suggest ways I can engage in issue education for voters.",
+    "displayText": "Issue Education (Voter Ed)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 396,
+    "prompt": "Suggest ways I can learn about the voting process.",
+    "displayText": "Voting Process Education",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 397,
+    "prompt": "Suggest ways I can find voter rights information.",
+    "displayText": "Voter Rights Information",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 398,
+    "prompt": "Suggest ways I can participate in voter registration drives.",
+    "displayText": "Registration Drives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 399,
+    "prompt": "Suggest ways I can support youth voter registration efforts.",
+    "displayText": "Youth Voter Registration",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 400,
+    "prompt": "Suggest ways I can help with new citizen voter registration.",
+    "displayText": "New Citizen Voter Registration",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 401,
+    "prompt": "Suggest ways I can volunteer for mobile registration events.",
+    "displayText": "Mobile Registration Events",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 402,
+    "prompt": "Suggest ways I can assist voters with registration forms.",
+    "displayText": "Registration Form Assistance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 403,
+    "prompt": "Suggest ways I can participate in voter mobilization efforts.",
+    "displayText": "Voter Mobilization",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 404,
+    "prompt": "Suggest ways I can volunteer to provide election day transportation.",
+    "displayText": "Election Day Transportation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 405,
+    "prompt": "Suggest ways I can help with voting reminder campaigns.",
+    "displayText": "Voting Reminder Campaigns",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 406,
+    "prompt": "Suggest ways I can promote early voting.",
+    "displayText": "Early Voting Promotion",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 407,
+    "prompt": "Suggest ways I can assist voters with mail ballots.",
+    "displayText": "Mail Ballot Assistance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 408,
+    "prompt": "Suggest ways I can volunteer for a political campaign.",
+    "displayText": "Campaign Volunteering",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 409,
+    "prompt": "Suggest ways I can support a local candidate.",
+    "displayText": "Candidate Support",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 410,
+    "prompt": "Suggest ways I can help with campaign fundraising.",
+    "displayText": "Campaign Fundraising",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 411,
+    "prompt": "Suggest ways I can participate in political canvassing.",
+    "displayText": "Political Canvassing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 412,
+    "prompt": "Suggest ways I can attend campaign events.",
+    "displayText": "Campaign Events",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 413,
+    "prompt": "Suggest ways I can get involved with local party committee participation.",
+    "displayText": "Local Party Committee Participation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 414,
+    "prompt": "Suggest ways I can attend party conventions and caucuses.",
+    "displayText": "Party Conventions & Caucuses",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 415,
+    "prompt": "Suggest ways I can contribute to political party platform development.",
+    "displayText": "Platform Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 416,
+    "prompt": "Suggest ways I can participate in party-building activities.",
+    "displayText": "Party-Building Activities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 417,
+    "prompt": "Suggest ways I can engage in issue advocacy within political parties.",
+    "displayText": "Issue Advocacy Within Parties",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 418,
+    "prompt": "Suggest ways I can support independent candidates.",
+    "displayText": "Independent Candidate Support",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 419,
+    "prompt": "Suggest ways I can get involved in non-partisan campaigns.",
+    "displayText": "Non-Partisan Campaigns",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 420,
+    "prompt": "Suggest ways I can participate in issue-based electoral work.",
+    "displayText": "Issue-Based Electoral Work",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 421,
+    "prompt": "Suggest ways I can support electoral reform initiatives.",
+    "displayText": "Electoral Reform Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 422,
+    "prompt": "Suggest ways I can get involved with third-party development.",
+    "displayText": "Third-Party Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 423,
+    "prompt": "Suggest ways I can advocate for voting rights protection.",
+    "displayText": "Voting Rights Protection",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 424,
+    "prompt": "Suggest ways I can support electoral system reform.",
+    "displayText": "Electoral System Reform",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 425,
+    "prompt": "Suggest ways I can advocate for campaign finance reform.",
+    "displayText": "Campaign Finance Reform",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 426,
+    "prompt": "Suggest ways I can support transparency initiatives in government for democracy.",
+    "displayText": "Transparency Initiatives (Democracy)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 427,
+    "prompt": "Suggest ways I can get involved in anti-corruption efforts.",
+    "displayText": "Anti-Corruption Efforts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 428,
+    "prompt": "Suggest ways I can participate in participatory decision-making processes.",
+    "displayText": "Participatory Decision-Making",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 429,
+    "prompt": "Suggest ways I can learn about citizen assemblies.",
+    "displayText": "Citizen Assemblies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 430,
+    "prompt": "Suggest ways I can engage in public deliberation processes.",
+    "displayText": "Public Deliberation Processes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 431,
+    "prompt": "Suggest ways I can participate in community referendums.",
+    "displayText": "Community Referendums",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 432,
+    "prompt": "Suggest ways I can utilize direct democracy tools.",
+    "displayText": "Direct Democracy Tools",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 433,
+    "prompt": "Suggest ways I can facilitate civic dialogue.",
+    "displayText": "Civic Dialogue Facilitation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 434,
+    "prompt": "Suggest ways I can participate in democratic skill building workshops.",
+    "displayText": "Democratic Skill Building",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 435,
+    "prompt": "Suggest ways I can promote political tolerance.",
+    "displayText": "Political Tolerance Promotion",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 436,
+    "prompt": "Suggest ways I can engage in civic responsibility campaigns.",
+    "displayText": "Civic Responsibility Campaigns",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 437,
+    "prompt": "Suggest ways I can learn about collaborative governance.",
+    "displayText": "Collaborative Governance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 438,
+    "prompt": "Suggest ways I can understand government systems.",
+    "displayText": "Government Systems Understanding",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 439,
+    "prompt": "Suggest ways I can improve constitutional literacy.",
+    "displayText": "Constitutional Literacy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 440,
+    "prompt": "Suggest ways I can learn about local government structure.",
+    "displayText": "Local Government Structure",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 441,
+    "prompt": "Suggest ways I can understand civic institutions.",
+    "displayText": "Civic Institutions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 442,
+    "prompt": "Suggest ways I can learn about the policy process.",
+    "displayText": "Policy Process Knowledge",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 443,
+    "prompt": "Suggest ways I can take civic education classes.",
+    "displayText": "Civic Education Classes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 444,
+    "prompt": "Suggest ways I can participate in democracy schools.",
+    "displayText": "Democracy Schools",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 445,
+    "prompt": "Suggest ways I can engage in government simulations.",
+    "displayText": "Government Simulations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 446,
+    "prompt": "Suggest ways I can join civic reading groups.",
+    "displayText": "Civic Reading Groups",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 447,
+    "prompt": "Suggest ways I can learn about political history.",
+    "displayText": "Political History Learning",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 448,
+    "prompt": "Suggest ways I can join issue discussion groups.",
+    "displayText": "Issue Discussion Groups",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 449,
+    "prompt": "Suggest ways I can attend current events forums.",
+    "displayText": "Current Events Forums",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 450,
+    "prompt": "Suggest ways I can participate in policy analysis circles.",
+    "displayText": "Policy Analysis Circles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 451,
+    "prompt": "Suggest ways I can develop news literacy skills.",
+    "displayText": "News Literacy Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 452,
+    "prompt": "Suggest ways I can join media criticism groups.",
+    "displayText": "Media Criticism Groups",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 453,
+    "prompt": "Suggest ways I can attend public speaking training.",
+    "displayText": "Public Speaking Training",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 454,
+    "prompt": "Suggest ways I can learn deliberation facilitation skills.",
+    "displayText": "Deliberation Facilitation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 455,
+    "prompt": "Suggest ways I can develop conflict resolution skills for civic engagement.",
+    "displayText": "Conflict Resolution (Civic)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 456,
+    "prompt": "Suggest ways I can learn consensus building techniques.",
+    "displayText": "Consensus Building",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 457,
+    "prompt": "Suggest ways I can practice collaborative decision-making skills.",
+    "displayText": "Collaborative Decision-Making (Skills)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 458,
+    "prompt": "Suggest ways I can participate in community leadership programs.",
+    "displayText": "Community Leadership Programs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 459,
+    "prompt": "Suggest ways I can apply for civic fellowship programs.",
+    "displayText": "Civic Fellowship Programs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 460,
+    "prompt": "Suggest ways I can support youth leadership development in civic contexts.",
+    "displayText": "Youth Leadership Development (Civic)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 461,
+    "prompt": "Suggest ways I can attend grassroots leadership training.",
+    "displayText": "Grassroots Leadership Training",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 462,
+    "prompt": "Suggest ways I can participate in board development training.",
+    "displayText": "Board Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 463,
+    "prompt": "Suggest ways I can attend community organizing training.",
+    "displayText": "Community Organizing Training",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 464,
+    "prompt": "Suggest ways I can learn campaign management skills.",
+    "displayText": "Campaign Management",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 465,
+    "prompt": "Suggest ways I can develop public advocacy skills.",
+    "displayText": "Public Advocacy Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 466,
+    "prompt": "Suggest ways I can learn coalition building skills.",
+    "displayText": "Coalition Building (Skills)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 467,
+    "prompt": "Suggest ways I can develop fundraising skills for civic causes.",
+    "displayText": "Fundraising for Civic Causes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 468,
+    "prompt": "Suggest ways I can explore civic values.",
+    "displayText": "Civic Values Exploration",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 469,
+    "prompt": "Suggest ways I can learn about ethical citizenship.",
+    "displayText": "Ethical Citizenship",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 470,
+    "prompt": "Suggest ways I can develop civic virtues.",
+    "displayText": "Civic Virtue Development",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 471,
+    "prompt": "Suggest ways I can learn about democratic ethics.",
+    "displayText": "Democratic Ethics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 472,
+    "prompt": "Suggest ways I can cultivate public spirit.",
+    "displayText": "Public Spirit Cultivation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 473,
+    "prompt": "Suggest ways I can participate in intercultural dialogue.",
+    "displayText": "Intercultural Dialogue",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 474,
+    "prompt": "Suggest ways I can engage in diverse democracy building.",
+    "displayText": "Diverse Democracy Building",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 475,
+    "prompt": "Suggest ways I can explore multicultural civic identity.",
+    "displayText": "Multicultural Civic Identity",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 476,
+    "prompt": "Suggest ways I can learn inclusive participation strategies.",
+    "displayText": "Inclusive Participation Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 477,
+    "prompt": "Suggest ways I can engage in equity-centered civic work.",
+    "displayText": "Equity-Centered Civic Work",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 478,
+    "prompt": "Suggest ways I can increase awareness of global issues.",
+    "displayText": "Global Issues Awareness",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 479,
+    "prompt": "Suggest ways I can support international cooperation.",
+    "displayText": "International Cooperation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 480,
+    "prompt": "Suggest ways I can understand global governance.",
+    "displayText": "Global Governance Understanding",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 481,
+    "prompt": "Suggest ways I can participate in cross-border civic initiatives.",
+    "displayText": "Cross-Border Civic Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 482,
+    "prompt": "Suggest ways I can join transnational advocacy networks.",
+    "displayText": "Transnational Advocacy Networks",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 483,
+    "prompt": "Suggest ways I can read neighborhood newspapers.",
+    "displayText": "Neighborhood Newspapers",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 484,
+    "prompt": "Suggest ways I can follow community digital news sources.",
+    "displayText": "Community Digital News",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 485,
+    "prompt": "Suggest ways I can find hyperlocal reporting sources.",
+    "displayText": "Hyperlocal Reporting",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 486,
+    "prompt": "Suggest ways I can participate in citizen journalism.",
+    "displayText": "Citizen Journalism",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 487,
+    "prompt": "Suggest ways I can support investigative community reporting.",
+    "displayText": "Investigative Community Reporting",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 488,
+    "prompt": "Suggest community radio stations I can listen to.",
+    "displayText": "Community Radio",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 489,
+    "prompt": "Suggest local TV channels I can watch.",
+    "displayText": "Local TV Channels",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 490,
+    "prompt": "Suggest ways I can find local podcast networks.",
+    "displayText": "Podcast Networks (Local)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 491,
+    "prompt": "Suggest ways I can watch public access television.",
+    "displayText": "Public Access Television",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 492,
+    "prompt": "Suggest ways I can utilize community media centers.",
+    "displayText": "Community Media Centers",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 493,
+    "prompt": "Suggest ways I can find local ethnic media sources.",
+    "displayText": "Ethnic Media",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 494,
+    "prompt": "Suggest ways I can access language-specific media.",
+    "displayText": "Language-Specific Media",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 495,
+    "prompt": "Suggest ways I can find special interest community media.",
+    "displayText": "Special Interest Community Media",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 496,
+    "prompt": "Suggest ways I can read alternative news sources.",
+    "displayText": "Alternative News Sources",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 497,
+    "prompt": "Suggest ways I can support youth media projects.",
+    "displayText": "Youth Media Projects",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 498,
+    "prompt": "Suggest ways I can participate in town hall discussions.",
+    "displayText": "Town Hall Discussions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 499,
+    "prompt": "Suggest ways I can attend issue forums.",
+    "displayText": "Issue Forums",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 500,
+    "prompt": "Suggest ways I can participate in neighborhood assemblies.",
+    "displayText": "Neighborhood Assemblies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 501,
+    "prompt": "Suggest ways I can engage in public dialogues.",
+    "displayText": "Public Dialogues",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 502,
+    "prompt": "Suggest ways I can participate in structured community conversations.",
+    "displayText": "Structured Community Conversations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 503,
+    "prompt": "Suggest ways I can engage with community online platforms.",
+    "displayText": "Community Online Platforms",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 504,
+    "prompt": "Suggest ways I can join local social networks.",
+    "displayText": "Local Social Networks",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 505,
+    "prompt": "Suggest ways I can participate in neighborhood digital forums.",
+    "displayText": "Neighborhood Digital Forums",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 506,
+    "prompt": "Suggest ways I can utilize civic tech applications.",
+    "displayText": "Civic Tech Applications",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 507,
+    "prompt": "Suggest ways I can engage in virtual community spaces.",
+    "displayText": "Virtual Community Spaces",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 508,
+    "prompt": "Suggest ways I can use community theater for dialogue.",
+    "displayText": "Community Theater for Dialogue",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 509,
+    "prompt": "Suggest ways I can engage with public art as civic expression.",
+    "displayText": "Public Art as Civic Expression",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 510,
+    "prompt": "Suggest ways I can use storytelling for community building.",
+    "displayText": "Storytelling for Community Building",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 511,
+    "prompt": "Suggest ways I can participate in musical exchange for understanding.",
+    "displayText": "Musical Exchange for Understanding",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 512,
+    "prompt": "Suggest ways I can use visual arts for civic engagement.",
+    "displayText": "Visual Arts for Civic Engagement",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 513,
+    "prompt": "Suggest ways I can advocate for community internet access.",
+    "displayText": "Community Internet Access",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 514,
+    "prompt": "Suggest ways I can participate in public information campaigns.",
+    "displayText": "Public Information Campaigns",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 515,
+    "prompt": "Suggest ways I can support freedom of information initiatives.",
+    "displayText": "Freedom of Information Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 516,
+    "prompt": "Suggest ways I can utilize open data projects.",
+    "displayText": "Open Data Projects",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 517,
+    "prompt": "Suggest ways I can contribute to civic knowledge commons.",
+    "displayText": "Civic Knowledge Commons",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 518,
+    "prompt": "Suggest ways I can practice critical media analysis.",
+    "displayText": "Critical Media Analysis",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 519,
+    "prompt": "Suggest ways I can develop information verification skills.",
+    "displayText": "Information Verification Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 520,
+    "prompt": "Suggest ways I can learn propaganda identification techniques.",
+    "displayText": "Propaganda Identification",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 521,
+    "prompt": "Suggest ways I can practice news evaluation skills.",
+    "displayText": "News Evaluation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 522,
+    "prompt": "Suggest ways I can improve digital literacy for democracy.",
+    "displayText": "Digital Literacy for Democracy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 523,
+    "prompt": "Suggest ways I can participate in local knowledge preservation efforts.",
+    "displayText": "Local Knowledge Preservation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 524,
+    "prompt": "Suggest ways I can explore community archives.",
+    "displayText": "Community Archives",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 525,
+    "prompt": "Suggest ways I can participate in oral history projects.",
+    "displayText": "Oral History Projects",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 526,
+    "prompt": "Suggest ways I can support traditional knowledge documentation.",
+    "displayText": "Traditional Knowledge Documentation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 527,
+    "prompt": "Suggest ways I can contribute to collective memory initiatives.",
+    "displayText": "Collective Memory Initiatives",
+    "isTemplate": false,
+    "type": "do"
+  }
+]

@@ -1,0 +1,809 @@
+💲 Personal Finance
+    🏦 Financial Fundamentals
+        🧠 Money Mindset
+            📈 Abundance vs. Scarcity Thinking
+            🎯 Financial Values Clarification
+            🧘‍♀️ Money Psychology
+            😊 Financial Well-being Perspective
+            💸 Relationship with Money
+        📚 Financial Literacy
+            💡 Basic Financial Concepts
+            🗣️ Financial Terminology
+            ➕➖ Financial Math Fundamentals
+            🌍 Economic System Understanding
+            🏦 Banking System Knowledge
+        🎓 Financial Education
+            📖 Financial Literacy Programs
+            🏫 Personal Finance Courses
+            🛠️ Finance Workshops
+            🗣️ Money Management Seminars
+            🧑‍🏫 Financial Coaching
+    💼 Income Management
+        📈 Earning Potential
+            🧑‍💼 Career Financial Planning
+            ➕ Income Diversification
+            💡 Side Hustle Development
+            🏃‍♂️ Active Income Optimization
+            🛋️ Passive Income Creation
+        🛡️ Income Protection
+            🧾 Tax Optimization
+            📑 Income Tax Planning
+            📉 Deduction Strategies
+            🏦 Tax-Advantaged Accounts
+            📄 Tax Filing Procedures
+        🌱 Income Growth
+            🤝 Salary Negotiation
+            🚀 Career Advancement Strategy
+            🎓 Professional Development ROI
+            📦 Compensation Package Optimization
+            🏆 Commission/Bonus Maximization
+    🛒 Expense Management
+        📊 Budgeting Methods
+            🚫 Zero-Based Budgeting
+            ％ Percentage-Based Budgeting
+            💖 Value-Based Budgeting
+            ✉️ Envelope System
+            💰 Pay Yourself First Method
+            🙅‍♀️ Anti-Budget Approach
+        🔍 Spending Analysis
+            📝 Expense Tracking
+            📈 Spending Pattern Recognition
+            ❓ Needs vs. Wants Assessment
+            🛒 Consumption Evaluation
+            🎯 Spending Triggers Identification
+        📉 Expense Optimization
+            🏠 Fixed Expense Reduction
+            🔄 Variable Cost Management
+            ✂️ Subscription Audit
+            🎯 Lifestyle Design for Financial Goals
+            🧘‍♂️ Mindful Consumption Practices
+    💳 Debt Management
+        ❓ Debt Understanding
+            🤔 Types of Debt Analysis
+            🏗️ Debt Structure Comprehension
+            📈 Interest Rate Implications
+            📊 Debt-to-Income Ratio
+            📉 Credit Utilization Impact
+        📉 Debt Reduction Strategies
+            ❄️ Debt Snowball Method
+            🏔️ Debt Avalanche Approach
+            🔄 Debt Consolidation Evaluation
+            🏦 Refinancing Opportunities
+            💳 Balance Transfer Techniques
+        💳 Credit Management
+            📈 Credit Score Optimization
+            📄 Credit Report Analysis
+            🏗️ Credit Building Methods
+            🛠️ Credit Repair Strategies
+            🛡️ Credit Protection Measures
+    🏦 Savings & Emergency Planning
+        🆘 Emergency Fund Development
+            📏 Emergency Fund Sizing
+            ⚖️ Fund Accessibility Balance
+            ❓ Emergency Definition Parameters
+            📍 Fund Location Optimization
+            🛠️ Rebuilding Strategies
+        💰 Savings Methods
+            🤖 Automated Saving Systems
+            🎯 Goal-Based Saving
+            📈 Savings Rate Optimization
+            🏦 Savings Vehicle Selection
+            🧠 Psychological Saving Tricks
+        🛡️ Financial Safety Nets
+            📄 Insurance Needs Analysis
+            🛡️ Risk Management Strategy
+            🛡️ Protection Planning
+            🏗️ Safety Net Construction
+            🛡️ Financial Redundancy Planning
+    📅 Life Financial Planning
+        🏡 Major Life Purchases
+            🏠 Home Buying Process
+            🚗 Vehicle Purchase Strategy
+            🎓 Education Funding
+            🎉 Major Celebration Financing
+            ⬆️ Lifestyle Upgrade Planning
+        🔄 Financial Life Transitions
+            🧑‍💼 Career Transition Planning
+            🗺️ Relocation Financial Strategy
+            💑 Relationship Financial Integration
+            👨‍👩‍👧‍👦 Family Planning Economics
+            🎁 Inheritance Management
+        📜 Estate Planning
+            ✍️ Will Preparation
+            🏦 Trust Consideration
+            🧑‍⚖️ Power of Attorney
+            📄 Advance Directives
+            🕰️ Legacy Planning
+    🕊️ Financial Independence
+        🗽 Financial Freedom Planning
+            🧮 Financial Independence Calculation
+            🔥 FI/RE Movement Principles
+            ⏳ Financial Freedom Timelines
+            🏁 Independence Milestones
+            🏖️ Work Optional Planning
+        👴 Retirement Preparation
+            ❓ Retirement Needs Analysis
+            🏦 Retirement Account Strategies
+            💼 Pension Optimization
+            🇺🇸 Social Security Planning
+            💰 Retirement Income Sources
+        🧘‍♀️🧘‍♂️ Life Design with Finances
+            🎯 Life Purpose and Money Alignment
+            💯 Enough Calculation
+            💖 Values-Based Financial Planning
+            ⏳ Time-Money Balance
+            😊 Life Satisfaction Optimization
+
+💸 Investing
+    📊 Investment Fundamentals
+        💡 Investment Principles
+            ⚖️ Risk-Reward Relationship
+            📈 Compounding Understanding
+            🔄 Diversification Principles
+            📊 Asset Allocation Basics
+            ⏳ Time Horizon Consideration
+        🧠 Investment Psychology
+            🧐 Behavioral Finance Awareness
+            😨 Emotional Investing Pitfalls
+            🧠 Cognitive Bias Recognition
+            🧘‍♂️ Patience Development
+            🕰️ Long-term Perspective Cultivation
+        🎓 Investment Education
+            📚 Investment Literacy Development
+            📈 Market Mechanics Understanding
+            🔍 Investment Research Methods
+            🏗️ Analysis Framework Development
+            🗣️ Investment Terminology Mastery
+    🏦 Asset Classes
+        📈 Stocks & Equities
+            🏛️ Stock Market Fundamentals
+                🏗️ Market Structure Knowledge
+                🏷️ Stock Types & Categories
+                📊 Market Indices Understanding
+                🏢 Stock Exchange Operations
+                🧑‍💼 Market Participant Roles
+            🎯 Stock Investment Approaches
+                💎 Value Investing
+                🚀 Growth Investing
+                💰 Dividend Investing
+                📊 Index Investing
+                🔄 Sector Rotation Strategy
+            🔍 Stock Analysis Methods
+                📊 Fundamental Analysis
+                📈 Technical Analysis
+                🔢 Quantitative Analysis
+                🧐 Qualitative Assessment
+                ⚖️ Comparative Valuation
+            💼 Stock Portfolio Management
+                🏗️ Portfolio Construction
+                📏 Position Sizing
+                ⚖️ Rebalancing Strategies
+                🧾 Tax-Efficient Management
+                💰 Dividend Reinvestment
+        📄 Fixed Income Securities
+            📜 Bond Fundamentals
+                🏷️ Bond Types & Categories
+                📈 Interest Rate Dynamics
+                ✅ Credit Quality Assessment
+                ⏳ Duration Understanding
+                📈 Yield Curve Analysis
+            🎯 Bond Investment Strategies
+                🪜 Laddering Approaches
+                🏋️ Barbell Strategy
+                🎯 Bullet Strategy
+                📊 Credit Spread Analysis
+                🔮 Interest Rate Anticipation
+            🏦 Other Fixed Income Vehicles
+                📄 Certificates of Deposit
+                🇺🇸 Treasury Securities
+                🏘️ Municipal Bonds
+                🏢 Corporate Bonds
+                ⚠️ High-Yield Bonds
+        🏠 Real Estate
+            🏗️ Property Investment Types
+                🏘️ Residential Real Estate
+                🏢 Commercial Properties
+                🏭 Industrial Real Estate
+                🏞️ Land Investment
+                🏗️ Real Estate Development
+            💰 Real Estate Investment Methods
+                🤝 Direct Ownership
+                🏢 Real Estate Investment Trusts (REITs)
+                👥 Real Estate Crowdfunding
+                🧑‍🤝‍🧑 Limited Partnerships
+                🏦 Real Estate Funds
+            🔍 Property Analysis
+                📍 Location Evaluation
+                💲 Property Valuation
+                💰 Income Analysis
+                🛒 Expense Assessment
+                📈 Return Calculation
+            🛠️ Real Estate Operations
+                🧑‍🔧 Property Management
+                👥 Tenant Relations
+                📅 Maintenance Planning
+                🛠️ Improvement Assessment
+                🧾 Property Tax Strategies
+        🔄 Alternative Investments
+            💎 Commodities
+                🥇🥈 Precious Metals (Gold, Silver)
+                ⛽ Energy Commodities
+                🌾 Agricultural Products
+                🔩 Industrial Metals
+                📈 Commodity Futures
+            🔗 Cryptocurrency
+                ⛓️ Blockchain Fundamentals
+                💰 Major Cryptocurrencies
+                🪙 Token Economics
+                ⛏️ Mining & Validation
+                🔒 Crypto Security
+                🌐 DeFi (Decentralized Finance)
+                🖼️ NFTs (Non-Fungible Tokens)
+            🏺 Collectibles & Tangibles
+                🎨 Art Investment
+                🍷🥃 Wine & Spirits Collection
+                ⌚ Luxury Watches
+                🪙 Rare Coins & Stamps
+                 memorabilia Memorabilia
+            🏢 Private Investments
+                🚀 Venture Capital
+                💼 Private Equity
+                👼 Angel Investing
+                💡 Startup Funding
+                🏢 Business Ownership
+            🔮 Exotic Investments
+                🌳 Carbon Credits
+                💧 Water Rights
+                💡 Intellectual Property
+                💀 Life Settlements
+                ⚖️ Litigation Funding
+    🏦 Investment Vehicles
+        👴 Retirement Accounts
+            🏢 Employer-Sponsored Plans
+                💰 401(k)/403(b) Plans
+                💼 Pension Plans
+                🤝 Profit Sharing
+                📈 Employee Stock Options
+                ⏳ Deferred Compensation
+            🧑 Individual Retirement Accounts
+                🏦 Traditional IRAs
+                🌹 Roth IRAs
+                💼 SEP IRAs
+                ✅ SIMPLE IRAs
+                🧑‍🔧 Self-Directed IRAs
+            🔒 Specialized Retirement Accounts
+                💼 Solo 401(k)
+                📈 Defined Benefit Plans
+                💰 Cash Balance Plans
+                💰 Thrift Savings Plans
+        💰 Taxable Investment Accounts
+            🏦 Brokerage Accounts
+                🧑‍💼 Full-Service Brokerages
+                💲 Discount Brokers
+                💻 Online Platforms
+                🎯 Specialized Brokers
+            🏦 Banking Investment Products
+                💰 Money Market Accounts
+                📈 High-Yield Savings
+                🏦 Bank Investment Services
+                🪜 CD Ladders
+        🎓 Education Investment Accounts
+            🎓 529 Plans
+            🎓 Coverdell ESAs
+            🧒 UGMA/UTMA Accounts
+            🎓 Education Bonds
+        🏥 Health Savings Accounts
+            📈 HSA Investment Options
+            💰 HSA Contribution Strategies
+            📅 HSA Distribution Planning
+            📜 HSA Estate Planning
+        🏦 Trust Accounts
+            🔄 Revocable Trusts
+            🔒 Irrevocable Trusts
+            🤝 Charitable Trusts
+            ♿ Special Needs Trusts
+    🎯 Investment Strategies
+        🗺️ Strategic Approaches
+            🛋️ Passive Investing
+                📊 Index Fund Investing
+                🕰️ Buy and Hold Strategy
+                🎯 Core-Satellite Approach
+                😴 Lazy Portfolios
+                📅 Target Date Funds
+            🏃‍♂️ Active Management
+                ✅ Security Selection
+                ⏰ Market Timing
+                🔄 Sector Rotation
+                ✨ Style Investing
+                ♟️ Tactical Asset Allocation
+            🔬 Factor-Based Investing
+                💎 Value Factor
+                📏 Size Factor
+                ⚡️ Momentum Factor
+                ✅ Quality Factor
+                🛡️ Low Volatility Factor
+        🛡️ Risk Management Techniques
+            📏 Position Sizing
+            🛑 Stop Loss Strategies
+            🛡️ Options Hedging
+            🔄 Diversification Implementation
+            🔗 Correlation Analysis
+        💰 Income-Focused Strategies
+            🌱 Dividend Growth Investing
+            📈 High-Yield Focus
+            🎯 Total Return Approach
+            📞 Covered Call Writing
+            🪜 Bond Laddering
+        🧘‍♂️🧘‍♀️ Strategic Life Integration
+            🎯 Goal-Based Investing
+            📅 Life Stage Investment Alignment
+            💖 Values-Based Investing
+            ♻️ Sustainable Investment Integration
+            🕰️ Legacy Investment Planning
+    ♻️ Responsible Investing
+        🌍 ESG Investing
+            🌳 Environmental Considerations
+            🤝 Social Responsibility Analysis
+            🏛️ Governance Evaluation
+            ✅ ESG Screening Methods
+            🔄 ESG Integration Techniques
+        🎯 Impact Investing
+            📏 Social Impact Measurement
+            ⚖️ Double Bottom Line Approach
+            🏘️ Community Investment Strategies
+            🎯 Mission-Related Investments
+            🎁 Program-Related Investments
+        🌱 Sustainable Investing
+            🌍 Climate-Conscious Investing
+            ☀️ Renewable Energy Focus
+            🌲 Natural Resource Conservation
+            🔄 Circular Economy Investments
+            🕰️ Long-term Sustainability Analysis
+        💖 Ethical Investing
+            🎯 Values Alignment Methods
+            🚫 Negative Screening
+            ✅ Positive Screening
+            ⛪ Faith-Based Investing
+            🔗 Ethical Supply Chain Focus
+    🛠️ Investment Operations
+        💼 Portfolio Management
+            🏗️ Portfolio Construction Principles
+            📊 Allocation Determination
+            ⚖️ Rebalancing Protocols
+            📈 Performance Measurement
+            🧾 Tax-Loss Harvesting
+        🛒 Transaction Implementation
+            📄 Order Types & Execution
+            💻 Trading Platforms
+            💰 Commission/Fee Minimization
+            💧 Liquidity Consideration
+            ⏰ Timing Optimization
+        📁 Investment Administration
+            💾 Record Keeping Systems
+            🧾 Tax Documentation
+            📜 Investment Policy Statements
+            🧑‍🤝‍🧑 Beneficiary Designations
+            🏷️ Account Titling Strategy
+        👨‍💼 Professional Support Evaluation
+            🧐 Financial Advisor Assessment
+            👩‍💼 Investment Manager Selection
+            🤖 Robo-Advisor Consideration
+            💰 Fee Structure Analysis
+            ⚖️ Fiduciary Standard Evaluation
+
+📈📉📈 Economics
+    💡 Economic Fundamentals
+        🧠 Economic Concepts
+            ❓ Scarcity & Choice
+            🔄 Opportunity Cost
+            ⚖️ Supply & Demand Dynamics
+            📈 Marginal Analysis
+            🎯 Incentive Structures
+            😊 Utility Theory
+            🗺️ Production Possibilities
+        🌍 Economic Systems
+            🛒 Market Economies
+            🏭 Command Economies
+            🤝 Mixed Economic Systems
+            🛖 Traditional Economies
+            🔄 Transitional Economies
+        🕰️ Economic Thought & History
+            📜 Classical Economics
+            📈 Keynesian Economics
+            💰 Monetarism
+            🇦🇹 Austrian School
+            🚩 Marxist Economics
+            🏛️ Institutional Economics
+            🧠 Behavioral Economics
+            🌱 Development Economics
+    🔬 Microeconomics
+        🛒 Consumer Theory
+            💖 Consumer Preferences
+            🎯 Utility Maximization
+            💰 Budget Constraints
+            📈 Demand Derivation
+            📊 Elasticity Concepts
+            ➕ Consumer Surplus
+        🏭 Producer Theory
+            🏗️ Production Functions
+            💰 Cost Structures
+            🎯 Profit Maximization
+            📈 Supply Derivation
+            ➕ Producer Surplus
+            📈 Economies of Scale
+        🏗️ Market Structures
+            ✅ Perfect Competition
+            👑 Monopoly
+            👥 Oligopoly
+            🛍️ Monopolistic Competition
+            ⚔️ Contestable Markets
+            🚪 Market Entry & Exit
+        👥 Factor Markets
+            🧑‍💼 Labor Markets
+                💰 Wage Determination
+                🎓 Human Capital
+                🚶 Labor Mobility
+                🚫 Discrimination Analysis
+                🤝 Union Impacts
+            🏦 Capital Markets
+                📈 Interest Rate Determination
+                💰 Investment Dynamics
+                📊 Capital Allocation
+            🏞️ Land & Resources
+                💲 Resource Pricing
+                🏠 Rent Determination
+                🌲 Resource Management
+        ⚠️ Market Failures
+            💨 Externalities
+            🌳 Public Goods
+            🐑 Common Resources
+            ❓ Information Asymmetry
+            👑 Market Power
+        🧪 Applied Microeconomics
+            🌳 Environmental Economics
+            🏥 Health Economics
+            🧑‍💼 Labor Economics
+            🏘️ Urban Economics
+            🌾 Agricultural Economics
+            🏭 Industrial Organization
+    🌍 Macroeconomics
+        📊 National Income Accounting
+            💰 GDP Measurement
+            🧩 National Income Components
+            📉 Business Cycle Analysis
+            📈 Economic Indicators
+            📊 Macroeconomic Data Interpretation
+        📈 Economic Growth
+            💡 Growth Theories
+            🚀 Productivity Enhancement
+            🏦 Capital Formation
+            🎓 Human Capital Development
+            💡 Technological Progress
+            🏛️ Institutional Factors
+        🧑‍💼 Employment & Inflation
+            ❓ Unemployment Types
+            👥 Labor Force Dynamics
+            📈 Inflation Measurement
+            🔥 Inflation Causes
+            📉 Phillips Curve Analysis
+            🐌 Stagflation Dynamics
+        🏛️ Fiscal Policy
+            💰 Government Spending
+            🧾 Taxation Effects
+            📊 Budget Analysis
+            💸 Deficit Financing
+            📜 Public Debt Management
+             multiplier Fiscal Multipliers
+        🏦 Monetary Policy
+            🏦 Central Banking
+            💰 Money Supply Management
+            📈 Interest Rate Determination
+            🔄 Monetary Transmission
+            🚁 Quantitative Easing
+            🎯 Inflation Targeting
+        🌐 International Economics
+            📈 Trade Theory
+            ⚖️ Comparative Advantage
+            📜 Trade Policy
+            💱 Exchange Rate Systems
+            📊 Balance of Payments
+            💸 Capital Flows
+            🌍 Economic Integration
+    📊 Economic Analysis
+        📈 Econometric Methods
+            📊 Statistical Analysis
+            📈 Regression Techniques
+            ⏳ Time Series Analysis
+            📊 Panel Data Methods
+            ❓ Causal Inference
+        🏗️ Economic Modeling
+            ➕➖ Mathematical Economics
+            💻 Computational Economics
+            🧑‍🤝‍🧑 Agent-Based Modeling
+            ♟️ Game Theory Applications
+            🔄 Dynamic Systems
+        📊 Data Analysis & Visualization
+            💾 Economic Data Sources
+            🔄 Data Transformation
+            🏗️ Indicator Construction
+            📈 Trend Analysis
+            📉 Cyclical Analysis
+        🔮 Economic Forecasting
+            📈 Forecasting Techniques
+            🗺️ Scenario Analysis
+            🧪 Sensitivity Testing
+            ✅ Forecast Evaluation
+            🔮 Prediction Markets
+    🧪 Applied Economics
+        🌱 Developmental Economics
+            💡 Economic Development Theories
+            😔 Poverty Analysis
+            ⚖️ Inequality Measurement
+            📈 Growth Strategies
+            🏛️ Institutional Development
+        🧠 Behavioral Economics
+            🤔 Decision-Making Analysis
+            🧠 Cognitive Biases in Economics
+            👉 Nudge Theory
+            📐 Behavioral Policy Design
+            🧪 Experimental Economics
+        🌳 Environmental Economics
+            💲 Natural Resource Valuation
+            💨 Pollution Economics
+            🌍 Climate Economics
+            📊 Sustainability Metrics
+            🌳 Green Accounting
+        🏛️ Public Economics
+            🗳️ Public Choice Theory
+            🧾 Tax Analysis
+            🌳 Public Goods Provision
+            ⚠️ Government Failure
+            🤝 Social Welfare Programs
+        💰 Financial Economics
+            💲 Asset Pricing Theory
+            📈 Financial Market Analysis
+            🏢 Corporate Finance
+            🏦 Banking Theory
+            💥 Financial Crises
+    🌍 Economic Systems & Institutions
+        🏗️ Market Structure Analysis
+            🛒 Competitive Markets
+            📜 Regulated Industries
+            🌐 Network Industries
+            📱 Platform Economics
+            💻 Digital Markets
+        🏛️ Institutional Economics
+            📜 Property Rights
+            💰 Transaction Costs
+            📄 Contractual Arrangements
+            🔄 Institutional Change
+            🏛️ Governance Structures
+        ⚖️ Comparative Economic Systems
+            🌍 Varieties of Capitalism
+            🚩 Socialist Economic Models
+            🔄 Transitional Economies
+            🤝 Economic Hybrids
+            🤫 Informal Economies
+        🤝 Political Economy
+            👑 Power Dynamics in Markets
+            💰 Rent-Seeking Behavior
+            🔒 Regulatory Capture
+            📜 Economic Policy Formation
+            👥 Interest Group Influence
+
+🏛️ Political Studies
+    🤔 Political Fundamentals
+        🧠 Political Philosophy
+            🏛️ Classical Political Thought
+            🕊️ Liberal Political Theory
+            🧐 Conservative Philosophy
+            🚩 Socialist Thought
+            🗽 Libertarian Philosophy
+            🏘️ Communitarian Ideas
+            🏴 Anarchist Theories
+            ♀️ Feminist Political Theory
+            🌍 Postcolonial Political Thought
+        💡 Political Concepts
+            👑 Power Analysis
+            ✅ Authority & Legitimacy
+            📜 Rights & Responsibilities
+            ⚖️ Justice Frameworks
+            🕊️ Liberty & Equality
+            👥 Representation Theory
+            👑 Sovereignty Concepts
+        🏛️ Political Systems
+            🗳️ Democracy Types
+                🗣️ Direct Democracy
+                👥 Representative Democracy
+                🕊️ Liberal Democracy
+                🧐 Illiberal Democracy
+                🤝 Social Democracy
+                👥 Participatory Democracy
+            👑 Authoritarianism
+                👁️ Totalitarianism
+                🎖️ Military Dictatorship
+                🧑‍💼 Personalistic Rule
+                🗳️ Competitive Authoritarianism
+            🤝 Hybrid Systems
+                🧑‍💼 Semi-Presidential Systems
+                🤝 Consociational Arrangements
+                🔄 Transitional Governments
+                ❓ Anocracies
+    🏛️ Governance & Institutions
+        📜 Constitutional Frameworks
+            🏛️ Constitutional Design
+            ⚖️ Constitutional Interpretation
+            🛡️ Rights Protection
+            👑 Power Distribution
+            ✍️ Amendment Processes
+        🏛️ Government Structures
+            👑 Executive Institutions
+                🧑‍💼 Presidential Systems
+                🏛️ Parliamentary Systems
+                👩‍💼 Semi-Presidential Systems
+                👥 Cabinet Government
+                🏢 Bureaucratic Organization
+            🏛️ Legislative Bodies
+                🏛️ Unicameral Legislatures
+                🏛️ Bicameral Systems
+                👥 Committee Structures
+                📜 Parliamentary Procedure
+                📜 Legislative Process
+            ⚖️ Judicial Systems
+                ⚖️ Court Structures
+                🧐 Judicial Review
+                ⚖️ Judicial Independence
+                🗣️ Legal Interpretation
+                📜 Case Law Development
+        🗳️ Electoral Systems
+            🥇 Plurality/Majority Systems
+            📊 Proportional Representation
+            🤝 Mixed Electoral Systems
+            🗺️ District Design
+            🗳️ Voting Methods
+            🧑‍💼 Election Administration
+        🗺️ Federalism & Local Government
+            🇺🇸 Federal Structures
+            🏛️ State/Provincial Government
+            🏘️ Local Government Organization
+            🤝 Intergovernmental Relations
+            ⬇️ Devolution & Centralization
+        🏢 Administrative Systems
+            🧑‍💼 Civil Service
+            🏛️ Public Administration
+            📜 Regulatory Agencies
+            ⚙️ Policy Implementation
+            ⚖️ Administrative Law
+    ⚙️ Political Process
+        👥 Political Participation
+            🗳️ Voting Behavior
+            🤝 Campaign Involvement
+            ✊ Protest & Direct Action
+            🤝 Civil Society Engagement
+            💻 Digital Participation
+        🫏🐘 Political Parties
+            📊 Party Systems
+            🏗️ Party Organization
+            🚩 Party Ideology
+            💰 Party Financing
+            🔗 Party Discipline
+        👥 Interest Groups & Lobbying
+            🤝 Interest Group Formation
+            🗣️ Lobbying Strategies
+            📢 Advocacy Campaigns
+            🏢 Corporate Political Activity
+            🤝 Civic Association Influence
+        🗣️ Political Communication
+            📰 Media & Politics
+            📣 Political Messaging
+            🧠 Public Opinion Formation
+            🗣️ Political Persuasion
+            🌐 Information Environment
+        🗳️ Election Campaigns
+            🗺️ Campaign Strategy
+            🏗️ Campaign Organization
+            🛒 Political Marketing
+            📢 Voter Mobilization
+            💰 Campaign Finance
+    📜 Policy Studies
+        ⚙️ Policy Formation
+            📅 Agenda Setting
+            ✍️ Policy Formulation
+            🤔 Decision Making Models
+            ✅ Policy Adoption
+            🔍 Implementation Analysis
+            📊 Policy Evaluation
+        🎯 Policy Areas
+            💰 Economic Policy
+                🏛️ Fiscal Policy
+                🏦 Monetary Policy
+                📜 Regulatory Policy
+                🌐 Trade Policy
+                🏭 Industrial Policy
+            🤝 Social Policy
+                🏥 Healthcare Policy
+                🎓 Education Policy
+                🏠 Housing Policy
+                🤝 Welfare Policy
+                🛡️ Social Insurance
+            🌍 Foreign Policy
+                🤝 Diplomacy
+                🛡️ Security Policy
+                🎁 Development Assistance
+                🌐 Trade Relations
+                📜 International Agreements
+            🌳 Environmental Policy
+                🌲 Conservation Policy
+                💨 Pollution Control
+                🌍 Climate Policy
+                ⚡️ Energy Policy
+                🏞️ Resource Management
+        🔍 Policy Analysis Methods
+            ⚖️ Cost-Benefit Analysis
+            📊 Program Evaluation
+            📈 Impact Assessment
+            👥 Stakeholder Analysis
+            ⚖️ Comparative Policy Analysis
+    🌍 International Politics
+        🌐 International Relations Theory
+            👑 Realism
+            🕊️ Liberalism
+            🧠 Constructivism
+            🧐 Critical Theories
+            ♀️ Feminist IR Theory
+            🌍 Postcolonial IR Perspectives
+        🏛️ Global Governance
+            🌍 International Organizations
+            ⚖️ International Law
+            🤝 Multilateral Institutions
+            🌐 Global Regimes
+            🔗 Transnational Networks
+        💰 International Political Economy
+            🌐 Global Trade Systems
+            🏦 International Financial Architecture
+            🌱 Development Paradigms
+            🔗 Economic Dependency
+            🌍 Economic Globalization
+        🛡️ Security Studies
+            🛡️ Traditional Security
+            ❤️ Human Security
+            🌳 Environmental Security
+            💻 Cybersecurity
+            💣 Terrorism Studies
+        🗺️ Regional Politics
+            🌍 Regional Integration
+            🛡️ Regional Security Complexes
+            ⚖️ Comparative Regional Studies
+            🤝 Cross-Regional Relations
+            📍 Sub-Regional Dynamics
+    🗣️ Political Discussion & Engagement
+        🗣️ Civil Discourse
+            🏛️ Deliberative Democracy
+            🗣️ Structured Political Dialogue
+            🗣️ Debate Formats
+            🤝 Productive Disagreement
+            🤝 Common Ground Finding
+        🧐 Political Analysis
+            🧠 Critical Political Thinking
+            🔍 Source Evaluation
+            🗣️ Argument Assessment
+            ✅ Fact-Checking Methods
+            📊 Political Data Interpretation
+        📚 Political Literacy
+            🎓 Civic Education
+            🏛️ Political System Understanding
+            📰 Media Literacy
+            ❓ Information Evaluation
+            🎯 Issue Knowledge Development
+        🤝 Political Engagement Methods
+            📢 Issue Advocacy
+            🗳️ Electoral Participation
+            👥 Community Organizing
+            🧑‍🏫 Political Leadership Development
+            🤝 Cross-Ideological Engagement
+        ⚖️ Political Ethics
+            ✅ Political Integrity
+            🤔 Ethical Decision Making
+            🕊️ Democratic Values
+            ❤️ Political Responsibility
+            ⚖️ Moral Leadership

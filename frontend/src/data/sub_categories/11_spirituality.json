@@ -1,0 +1,1670 @@
+{
+  "id": 89,
+  "name": "Spirituality, Religion, and Philosophy",
+  "icon": "🧠",
+  "subcategories": [
+    {
+      "name": "Spirituality",
+      "icon": "✨",
+      "subcategories": [
+        {
+          "name": "Personal Spiritual Practices",
+          "icon": "🧘‍♂️🧘‍♀️",
+          "subcategories": [
+            {
+              "name": "Meditation Techniques",
+              "icon": "🧘‍♀️",
+              "subcategories": [
+                {
+                  "name": "Mindfulness Meditation",
+                  "icon": "🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Transcendental Meditation",
+                  "icon": "🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Loving-Kindness Meditation",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Body Scan Meditation",
+                  "icon": "🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Walking Meditation",
+                  "icon": "🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Breath Awareness",
+                  "icon": "🌬️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Visualization Meditation",
+                  "icon": "🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mantra Meditation",
+                  "icon": "🕉️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Zazen (Zen Meditation)",
+                  "icon": "🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vipassana",
+                  "icon": "🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Chakra Meditation",
+                  "icon": "💎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sound Bath Meditation",
+                  "icon": "🎶",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Prayer and Devotion",
+              "icon": "🙏",
+              "subcategories": [
+                {
+                  "name": "Contemplative Prayer",
+                  "icon": "🙏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Devotional Practices",
+                  "icon": "🙏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Chanting",
+                  "icon": "🎶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Affirmations",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Intentional Living",
+                  "icon": "🌿",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Energy Practices",
+              "icon": "⚡️",
+              "subcategories": [
+                {
+                  "name": "Qigong",
+                  "icon": "☯️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tai Chi",
+                  "icon": "☯️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reiki",
+                  "icon": "✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Acupuncture",
+                  "icon": "🪡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Crystal Healing",
+                  "icon": "💎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sound Healing",
+                  "icon": "🎶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Chakra Balancing",
+                  "icon": "💎",
+                  "subcategories": []
+                },
+                {
+                  "name": "Aura Reading",
+                  "icon": "✨",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Consciousness Exploration",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Lucid Dreaming",
+                  "icon": "🌙",
+                  "subcategories": []
+                },
+                {
+                  "name": "Astral Projection",
+                  "icon": "✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shamanic Journeying",
+                  "icon": "🥁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Breathwork",
+                  "icon": "🌬️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sensory Deprivation",
+                  "icon": "⚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Plant Medicine Ceremonies",
+                  "icon": "🌿",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nature-Based Spirituality",
+          "icon": "🌲",
+          "subcategories": [
+            {
+              "name": "Earth-Based Traditions",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Paganism",
+                  "icon": "🌎🛐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wicca",
+                  "icon": "🌏🛐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Druidry",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shamanism",
+                  "icon": "🥁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Animism",
+                  "icon": "👻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Eco-Spirituality",
+                  "icon": "🌱",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Nature Connection",
+              "icon": "🌲",
+              "subcategories": [
+                {
+                  "name": "Forest Bathing",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wilderness Retreats",
+                  "icon": "🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sacred Land Stewardship",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nature Rituals",
+                  "icon": "🔥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seasonal Celebrations",
+                  "icon": "📅",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Contemporary Spiritual Movements",
+          "icon": "🌟",
+          "subcategories": [
+            {
+              "name": "New Age Spirituality",
+              "icon": "✨",
+              "subcategories": []
+            },
+            {
+              "name": "Spiritual But Not Religious (SBNR)",
+              "icon": "🔮",
+              "subcategories": []
+            },
+            {
+              "name": "Consciousness Movement",
+              "icon": "🧠",
+              "subcategories": []
+            },
+            {
+              "name": "Integral Spirituality",
+              "icon": "🧘‍♂️🧘‍♀️",
+              "subcategories": []
+            },
+            {
+              "name": "Transpersonal Psychology",
+              "icon": "🧠",
+              "subcategories": []
+            },
+            {
+              "name": "Theosophy",
+              "icon": "📖",
+              "subcategories": []
+            },
+            {
+              "name": "Anthroposophy",
+              "icon": "🧠",
+              "subcategories": []
+            },
+            {
+              "name": "New Thought Movement",
+              "icon": "💡",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Mystical Traditions",
+          "icon": "🔮",
+          "subcategories": [
+            {
+              "name": "Sufism (Islamic Mysticism)",
+              "icon": "☪️",
+              "subcategories": []
+            },
+            {
+              "name": "Kabbalah (Jewish Mysticism)",
+              "icon": "✡️",
+              "subcategories": []
+            },
+            {
+              "name": "Christian Mysticism",
+              "icon": "✝️",
+              "subcategories": []
+            },
+            {
+              "name": "Gnosticism",
+              "icon": "📜",
+              "subcategories": []
+            },
+            {
+              "name": "Hermeticism",
+              "icon": "📜",
+              "subcategories": []
+            },
+            {
+              "name": "Esoteric Buddhism",
+              "icon": "☸️",
+              "subcategories": []
+            },
+            {
+              "name": "Tantra",
+              "icon": "🧘‍♀️🧘‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Western Mystery Tradition",
+              "icon": "✨",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Spiritual Development",
+          "icon": "🧘‍♂️🧘‍♀️",
+          "subcategories": [
+            {
+              "name": "Shadow Work",
+              "icon": "👥",
+              "subcategories": []
+            },
+            {
+              "name": "Inner Child Healing",
+              "icon": "👶",
+              "subcategories": []
+            },
+            {
+              "name": "Higher Self Connection",
+              "icon": "✨",
+              "subcategories": []
+            },
+            {
+              "name": "Spiritual Direction/Guidance",
+              "icon": "🗣️",
+              "subcategories": []
+            },
+            {
+              "name": "Spiritual Retreats",
+              "icon": "🧘‍♀️🧘‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Vision Quests",
+              "icon": "🧭",
+              "subcategories": []
+            },
+            {
+              "name": "Spiritual Community Building",
+              "icon": "🤝",
+              "subcategories": []
+            },
+            {
+              "name": "Sacred Art Creation",
+              "icon": "🎨",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Religious Practices",
+      "icon": "🛐",
+      "subcategories": [
+        {
+          "name": "Abrahamic Religions",
+          "icon": "📖",
+          "subcategories": [
+            {
+              "name": "Christianity",
+              "icon": "✝️",
+              "subcategories": [
+                {
+                  "name": "Catholicism",
+                  "icon": "✝️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Eastern Orthodoxy",
+                  "icon": "✝️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Protestantism",
+                  "icon": "✝️",
+                  "subcategories": [
+                    {
+                      "name": "Lutheran",
+                      "icon": "✝️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Anglican/Episcopal",
+                      "icon": "✝️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Baptist",
+                      "icon": "✝️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Methodist",
+                      "icon": "✝️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Presbyterian",
+                      "icon": "✝️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pentecostal",
+                      "icon": "✝️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Evangelical",
+                      "icon": "✝️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Non-denominational",
+                      "icon": "✝️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Mormonism",
+                  "icon": "📖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Jehovah's Witnesses",
+                  "icon": "📖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Seventh-day Adventist",
+                  "icon": "📅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coptic Christianity",
+                  "icon": "✝️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ethiopian Orthodox",
+                  "icon": "🇪🇹",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Islam",
+              "icon": "☪️",
+              "subcategories": [
+                {
+                  "name": "Sunni Islam",
+                  "icon": "☪️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shia Islam",
+                  "icon": "☪️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sufism",
+                  "icon": "✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ahmadiyya",
+                  "icon": "☪️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nation of Islam",
+                  "icon": "☪️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Judaism",
+              "icon": "✡️",
+              "subcategories": [
+                {
+                  "name": "Orthodox Judaism",
+                  "icon": "✡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conservative Judaism",
+                  "icon": "✡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reform Judaism",
+                  "icon": "✡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reconstructionist Judaism",
+                  "icon": "✡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hasidic Judaism",
+                  "icon": "✡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Kabbalah",
+                  "icon": "✨",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Baha'i Faith",
+              "icon": "🤝🙏",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Dharmic Religions",
+          "icon": "🕉️",
+          "subcategories": [
+            {
+              "name": "Hinduism",
+              "icon": "🕉️",
+              "subcategories": [
+                {
+                  "name": "Vaishnavism",
+                  "icon": "🕉️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shaivism",
+                  "icon": "🕉️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shaktism",
+                  "icon": "🕉️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Smartism",
+                  "icon": "🕉️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Yoga Traditions",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vedanta",
+                  "icon": "📜",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Buddhism",
+              "icon": "☸️",
+              "subcategories": [
+                {
+                  "name": "Theravada Buddhism",
+                  "icon": "☸️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mahayana Buddhism",
+                  "icon": "☸️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vajrayana (Tibetan) Buddhism",
+                  "icon": "☸️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Zen Buddhism",
+                  "icon": "🧘‍♀️🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pure Land Buddhism",
+                  "icon": "☸️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nichiren Buddhism",
+                  "icon": "☸️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Jainism",
+              "icon": "✋",
+              "subcategories": []
+            },
+            {
+              "name": "Sikhism",
+              "icon": "☬",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "East Asian Religions",
+          "icon": "⛩️",
+          "subcategories": [
+            {
+              "name": "Taoism/Daoism",
+              "icon": "☯️",
+              "subcategories": []
+            },
+            {
+              "name": "Confucianism",
+              "icon": "📜",
+              "subcategories": []
+            },
+            {
+              "name": "Shinto",
+              "icon": "⛩️",
+              "subcategories": []
+            },
+            {
+              "name": "Korean Shamanism",
+              "icon": "🇰🇷",
+              "subcategories": []
+            },
+            {
+              "name": "Chinese Folk Religion",
+              "icon": "🇨🇳",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Indigenous Religions",
+          "icon": "🌍",
+          "subcategories": [
+            {
+              "name": "Native American Spirituality",
+              "icon": "🏹",
+              "subcategories": []
+            },
+            {
+              "name": "African Traditional Religions",
+              "icon": "🌍",
+              "subcategories": []
+            },
+            {
+              "name": "Australian Aboriginal Spirituality",
+              "icon": "🇦🇺",
+              "subcategories": []
+            },
+            {
+              "name": "Maori Spirituality",
+              "icon": "🇳🇿",
+              "subcategories": []
+            },
+            {
+              "name": "Inuit Spirituality",
+              "icon": "🪨🛐",
+              "subcategories": []
+            },
+            {
+              "name": "Polynesian Traditional Beliefs",
+              "icon": "🏝️",
+              "subcategories": []
+            },
+            {
+              "name": "Mesoamerican Indigenous Traditions",
+              "icon": "🏛️",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Modern Religious Movements",
+          "icon": "✨",
+          "subcategories": [
+            {
+              "name": "Scientology",
+              "icon": "👽",
+              "subcategories": []
+            },
+            {
+              "name": "Unitarian Universalism",
+              "icon": "🙏",
+              "subcategories": []
+            },
+            {
+              "name": "Rastafarianism",
+              "icon": "🇯🇲",
+              "subcategories": []
+            },
+            {
+              "name": "Neopaganism",
+              "icon": "➡️✝️",
+              "subcategories": []
+            },
+            {
+              "name": "Wicca",
+              "icon": "🙏",
+              "subcategories": []
+            },
+            {
+              "name": "Druidry",
+              "icon": "🌳",
+              "subcategories": []
+            },
+            {
+              "name": "Eckankar",
+              "icon": "🙏",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Religious Practices and Rituals",
+          "icon": "🙏",
+          "subcategories": [
+            {
+              "name": "Worship Services",
+              "icon": "🛐",
+              "subcategories": []
+            },
+            {
+              "name": "Prayer Customs",
+              "icon": "🙏",
+              "subcategories": []
+            },
+            {
+              "name": "Sacred Texts Study",
+              "icon": "📚",
+              "subcategories": []
+            },
+            {
+              "name": "Religious Festivals",
+              "icon": "🎉",
+              "subcategories": []
+            },
+            {
+              "name": "Pilgrimages",
+              "icon": "🚶‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Rites of Passage",
+              "icon": "🔄",
+              "subcategories": [
+                {
+                  "name": "Birth Ceremonies",
+                  "icon": "👶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coming of Age Rituals",
+                  "icon": "🧑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Marriage Ceremonies",
+                  "icon": "💍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Funeral Practices",
+                  "icon": "🕊️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Fasting Traditions",
+              "icon": "🍽️🕙",
+              "subcategories": []
+            },
+            {
+              "name": "Dietary Practices",
+              "icon": "🍽️",
+              "subcategories": []
+            },
+            {
+              "name": "Monastic Life",
+              "icon": "🙏",
+              "subcategories": []
+            },
+            {
+              "name": "Religious Art and Music",
+              "icon": "🙏🎨",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Interfaith Dialogue",
+          "icon": "🤝",
+          "subcategories": [
+            {
+              "name": "Comparative Religion",
+              "icon": "↔️",
+              "subcategories": []
+            },
+            {
+              "name": "Religious Tolerance",
+              "icon": "✌️",
+              "subcategories": []
+            },
+            {
+              "name": "Shared Values Exploration",
+              "icon": "🔁",
+              "subcategories": []
+            },
+            {
+              "name": "Interfaith Community Projects",
+              "icon": "👥👥",
+              "subcategories": []
+            },
+            {
+              "name": "Religious Pluralism",
+              "icon": "🫂",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Philosophy",
+      "icon": "🤔",
+      "subcategories": [
+        {
+          "name": "Western Philosophy",
+          "icon": "🧠",
+          "subcategories": [
+            {
+              "name": "Ancient Philosophy",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "Pre-Socratic Philosophy",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Socratic Philosophy",
+                  "icon": "🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Platonic Philosophy",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Aristotelian Philosophy",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stoicism",
+                  "icon": "😌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Epicureanism",
+                  "icon": "🍇",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cynicism",
+                  "icon": "🐕",
+                  "subcategories": []
+                },
+                {
+                  "name": "Skepticism",
+                  "icon": "❓",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Medieval Philosophy",
+              "icon": "🏰",
+              "subcategories": [
+                {
+                  "name": "Scholasticism",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Neo-Platonism",
+                  "icon": "✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Augustine of Hippo",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Thomas Aquinas",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Islamic Philosophy",
+                  "icon": "☪️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Modern Philosophy",
+              "icon": "💡",
+              "subcategories": [
+                {
+                  "name": "Rationalism",
+                  "icon": "🧠",
+                  "subcategories": [
+                    {
+                      "name": "Descartes",
+                      "icon": "🤔",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Spinoza",
+                      "icon": "📜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Leibniz",
+                      "icon": "📜",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Empiricism",
+                  "icon": "👁️",
+                  "subcategories": [
+                    {
+                      "name": "Locke",
+                      "icon": "📜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Berkeley",
+                      "icon": "📜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Hume",
+                      "icon": "📜",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Kantian Philosophy",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "German Idealism",
+                  "icon": "🇩🇪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Utilitarianism",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pragmatism",
+                  "icon": "🔨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Marxism",
+                  "icon": "☭",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Contemporary Western Philosophy",
+              "icon": "🤠🧠",
+              "subcategories": [
+                {
+                  "name": "Existentialism",
+                  "icon": "😟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Phenomenology",
+                  "icon": "👁️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Analytical Philosophy",
+                  "icon": "📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Postmodernism",
+                  "icon": "🌀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Critical Theory",
+                  "icon": "🧐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Deconstruction",
+                  "icon": "📖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Process Philosophy",
+                  "icon": "⏳",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Eastern Philosophy",
+          "icon": "🧠",
+          "subcategories": [
+            {
+              "name": "Chinese Philosophy",
+              "icon": "🇨🇳",
+              "subcategories": [
+                {
+                  "name": "Confucianism",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Taoism/Daoism",
+                  "icon": "☯️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mohism",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Legalism",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Neo-Confucianism",
+                  "icon": "📜",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Indian Philosophy",
+              "icon": "🇮🇳",
+              "subcategories": [
+                {
+                  "name": "Vedanta",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Samkhya",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Yoga Philosophy",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nyaya",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vaisheshika",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Buddhist Philosophy",
+                  "icon": "☸️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Jain Philosophy",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Carvaka/Lokayata",
+                  "icon": "📜",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Japanese Philosophy",
+              "icon": "🇯🇵",
+              "subcategories": [
+                {
+                  "name": "Zen Philosophy",
+                  "icon": "🧘‍♀️🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bushido",
+                  "icon": "⚔️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Japanese Aesthetics",
+                  "icon": "🎨",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Korean Philosophy",
+              "icon": "🇰🇷",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "African Philosophy",
+          "icon": "🌍",
+          "subcategories": [
+            {
+              "name": "Ubuntu",
+              "icon": "🤝",
+              "subcategories": []
+            },
+            {
+              "name": "Sage Philosophy",
+              "icon": "🏛️",
+              "subcategories": []
+            },
+            {
+              "name": "Ethnophilosophy",
+              "icon": "👳🏿",
+              "subcategories": []
+            },
+            {
+              "name": "African Political Philosophy",
+              "icon": "👳🏿🗣️",
+              "subcategories": []
+            },
+            {
+              "name": "Contemporary African Philosophy",
+              "icon": "👳🏿⏳",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Latin American Philosophy",
+          "icon": "🌎",
+          "subcategories": [
+            {
+              "name": "Liberation Philosophy",
+              "icon": "🏛️🗣️",
+              "subcategories": []
+            },
+            {
+              "name": "Indigenous Thought Systems",
+              "icon": "🏛️🧠",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Philosophical Branches",
+          "icon": "🧠",
+          "subcategories": [
+            {
+              "name": "Metaphysics",
+              "icon": "🌌",
+              "subcategories": []
+            },
+            {
+              "name": "Epistemology",
+              "icon": "💡",
+              "subcategories": []
+            },
+            {
+              "name": "Ethics",
+              "icon": "⚖️",
+              "subcategories": [
+                {
+                  "name": "Virtue Ethics",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Deontology",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Consequentialism",
+                  "icon": "⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Care Ethics",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Environmental Ethics",
+                  "icon": "🌳",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Aesthetics",
+              "icon": "🎨",
+              "subcategories": []
+            },
+            {
+              "name": "Logic",
+              "icon": "💡",
+              "subcategories": []
+            },
+            {
+              "name": "Political Philosophy",
+              "icon": "🏛️",
+              "subcategories": []
+            },
+            {
+              "name": "Philosophy of Science",
+              "icon": "🔬",
+              "subcategories": []
+            },
+            {
+              "name": "Philosophy of Mind",
+              "icon": "🧠",
+              "subcategories": []
+            },
+            {
+              "name": "Philosophy of Language",
+              "icon": "🗣️",
+              "subcategories": []
+            },
+            {
+              "name": "Philosophy of Religion",
+              "icon": "🛐",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Applied Philosophy",
+          "icon": "🧠",
+          "subcategories": [
+            {
+              "name": "Bioethics",
+              "icon": "🧬",
+              "subcategories": []
+            },
+            {
+              "name": "Business Ethics",
+              "icon": "💼",
+              "subcategories": []
+            },
+            {
+              "name": "Environmental Philosophy",
+              "icon": "🌳",
+              "subcategories": []
+            },
+            {
+              "name": "Technology Ethics",
+              "icon": "💻",
+              "subcategories": []
+            },
+            {
+              "name": "Medical Ethics",
+              "icon": "🩺",
+              "subcategories": []
+            },
+            {
+              "name": "Legal Philosophy",
+              "icon": "⚖️",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Existential Questions",
+      "icon": "❓",
+      "subcategories": [
+        {
+          "name": "Meaning and Purpose",
+          "icon": "✨",
+          "subcategories": [
+            {
+              "name": "Search for Meaning",
+              "icon": "❓",
+              "subcategories": []
+            },
+            {
+              "name": "Life Purpose Exploration",
+              "icon": "🎯",
+              "subcategories": []
+            },
+            {
+              "name": "Meaning-Making",
+              "icon": "✨",
+              "subcategories": []
+            },
+            {
+              "name": "Ikigai Practice",
+              "icon": "⭕",
+              "subcategories": []
+            },
+            {
+              "name": "Legacy Building",
+              "icon": "🏛️",
+              "subcategories": []
+            },
+            {
+              "name": "Values Clarification",
+              "icon": "✅",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Death and Mortality",
+          "icon": "💀",
+          "subcategories": [
+            {
+              "name": "Death Awareness",
+              "icon": "💀",
+              "subcategories": []
+            },
+            {
+              "name": "Grief Processing",
+              "icon": "😥",
+              "subcategories": []
+            },
+            {
+              "name": "Near-Death Experiences",
+              "icon": "✨",
+              "subcategories": []
+            },
+            {
+              "name": "Afterlife Concepts",
+              "icon": "👻",
+              "subcategories": []
+            },
+            {
+              "name": "Death Positive Movement",
+              "icon": "💀",
+              "subcategories": []
+            },
+            {
+              "name": "End of Life Planning",
+              "icon": "📜",
+              "subcategories": []
+            },
+            {
+              "name": "Thanatology",
+              "icon": "💀",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Human Condition",
+          "icon": "👤",
+          "subcategories": [
+            {
+              "name": "Suffering and Pain",
+              "icon": "😥",
+              "subcategories": []
+            },
+            {
+              "name": "Joy and Pleasure",
+              "icon": "😊",
+              "subcategories": []
+            },
+            {
+              "name": "Love and Connection",
+              "icon": "💖",
+              "subcategories": []
+            },
+            {
+              "name": "Solitude and Loneliness",
+              "icon": "🧘",
+              "subcategories": []
+            },
+            {
+              "name": "Freedom and Responsibility",
+              "icon": "🕊️",
+              "subcategories": []
+            },
+            {
+              "name": "Authenticity",
+              "icon": "👤",
+              "subcategories": []
+            },
+            {
+              "name": "Human Nature Exploration",
+              "icon": "🤔",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Ultimate Reality",
+          "icon": "🌌",
+          "subcategories": [
+            {
+              "name": "God Concepts",
+              "icon": "🙏",
+              "subcategories": []
+            },
+            {
+              "name": "Ultimate Truth Seeking",
+              "icon": "❓",
+              "subcategories": []
+            },
+            {
+              "name": "Non-Duality",
+              "icon": "🧘",
+              "subcategories": []
+            },
+            {
+              "name": "Reality Perception",
+              "icon": "👁️",
+              "subcategories": []
+            },
+            {
+              "name": "Consciousness Studies",
+              "icon": "🧠",
+              "subcategories": []
+            },
+            {
+              "name": "Cosmology",
+              "icon": "🌌",
+              "subcategories": []
+            },
+            {
+              "name": "Origins of Universe",
+              "icon": "❓",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Free Will and Determinism",
+          "icon": "⚖️",
+          "subcategories": [
+            {
+              "name": "Choice and Consequence",
+              "icon": "🤔",
+              "subcategories": []
+            },
+            {
+              "name": "Fate vs. Self-Determination",
+              "icon": "⚖️",
+              "subcategories": []
+            },
+            {
+              "name": "Moral Responsibility",
+              "icon": "⚖️",
+              "subcategories": []
+            },
+            {
+              "name": "Causal Determinism",
+              "icon": "🔗",
+              "subcategories": []
+            },
+            {
+              "name": "Compatibilism",
+              "icon": "🤝",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Identity and Self",
+          "icon": "👤",
+          "subcategories": [
+            {
+              "name": "Self-Concept",
+              "icon": "🤔",
+              "subcategories": []
+            },
+            {
+              "name": "Personal Identity",
+              "icon": "👤",
+              "subcategories": []
+            },
+            {
+              "name": "Cultural Identity",
+              "icon": "🌍",
+              "subcategories": []
+            },
+            {
+              "name": "Ego Transcendence",
+              "icon": "🧘",
+              "subcategories": []
+            },
+            {
+              "name": "Self-Knowledge",
+              "icon": "🧠",
+              "subcategories": []
+            },
+            {
+              "name": "Personality Theory",
+              "icon": "🎭",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Ethics and Morality",
+          "icon": "⚖️",
+          "subcategories": [
+            {
+              "name": "Moral Development",
+              "icon": "📈",
+              "subcategories": []
+            },
+            {
+              "name": "Ethical Decision-Making",
+              "icon": "🤔",
+              "subcategories": []
+            },
+            {
+              "name": "Justice Concepts",
+              "icon": "⚖️",
+              "subcategories": []
+            },
+            {
+              "name": "Rights and Responsibilities",
+              "icon": "📜",
+              "subcategories": []
+            },
+            {
+              "name": "Moral Psychology",
+              "icon": "🧠",
+              "subcategories": []
+            },
+            {
+              "name": "Virtue Development",
+              "icon": "💖",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Knowledge and Truth",
+          "icon": "💡",
+          "subcategories": [
+            {
+              "name": "Ways of Knowing",
+              "icon": "🧠",
+              "subcategories": []
+            },
+            {
+              "name": "Truth-Seeking",
+              "icon": "💡",
+              "subcategories": []
+            },
+            {
+              "name": "Wisdom Traditions",
+              "icon": "📚",
+              "subcategories": []
+            },
+            {
+              "name": "Epistemic Virtues",
+              "icon": "💡",
+              "subcategories": []
+            },
+            {
+              "name": "Skepticism and Faith",
+              "icon": "❓",
+              "subcategories": []
+            },
+            {
+              "name": "Intuitive Knowledge",
+              "icon": "✨",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

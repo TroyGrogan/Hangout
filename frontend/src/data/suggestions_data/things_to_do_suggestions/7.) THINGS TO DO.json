@@ -1,0 +1,401 @@
+[
+  {
+    "id": 1,
+    "prompt": "Suggest different types of cardiovascular exercises I can try (running, cycling, swimming, HIIT).",
+    "displayText": "Explore Cardio Exercises",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 2,
+    "prompt": "Suggest ways to incorporate strength training into my routine (weights, bodyweight, bands).",
+    "displayText": "Incorporate Strength Training",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 3,
+    "prompt": "Suggest routines or exercises for improving flexibility and mobility.",
+    "displayText": "Improve Flexibility/Mobility",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 4,
+    "prompt": "Explain different mind-body exercises like Yoga, Pilates, Tai Chi, or Qigong.",
+    "displayText": "Explore Mind-Body Exercise",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 5,
+    "prompt": "Suggest ideas for recreational sports or activities I can participate in.",
+    "displayText": "Find Recreational Sports/Activities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 6,
+    "prompt": "Suggest exercises for improving balance, coordination, or core strength.",
+    "displayText": "Improve Balance/Coordination/Core",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 7,
+    "prompt": "Explain different nutritional approaches or diets (Mediterranean, Plant-Based, Keto).",
+    "displayText": "Learn Nutritional Approaches",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 8,
+    "prompt": "Suggest ways to improve gut health or identify food sensitivities.",
+    "displayText": "Improve Gut Health/Identify Sensitivities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 9,
+    "prompt": "Suggest guidance on understanding macronutrients (protein, carbs, fats) and micronutrients (vitamins, minerals).",
+    "displayText": "Understand Macro/Micronutrients",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 10,
+    "prompt": "Suggest strategies for healthy meal planning and preparation (batch cooking, healthy methods).",
+    "displayText": "Healthy Meal Planning/Prep",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 11,
+    "prompt": "Explain common types of supplements and their potential uses (vitamins, protein, herbs).",
+    "displayText": "Understand Common Supplements",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 12,
+    "prompt": "Suggest ways to improve sleep hygiene (environment, schedule, routines).",
+    "displayText": "Improve Sleep Hygiene",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 13,
+    "prompt": "Suggest resources for understanding common sleep disorders (insomnia, sleep apnea).",
+    "displayText": "Learn About Sleep Disorders",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 14,
+    "prompt": "Suggest techniques or natural aids for improving sleep quality.",
+    "displayText": "Improve Sleep Quality",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 15,
+    "prompt": "Suggest ways to optimize my circadian rhythm (light exposure, schedule).",
+    "displayText": "Optimize Circadian Rhythm",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 16,
+    "prompt": "Suggest important preventive health screenings I should consider.",
+    "displayText": "Learn Preventive Health Screenings",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 17,
+    "prompt": "Suggest ways to maintain good dental, vision, and hearing health.",
+    "displayText": "Maintain Dental/Vision/Hearing Health",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 18,
+    "prompt": "Suggest lifestyle factors or natural ways to support my immune system.",
+    "displayText": "Support Immune System Naturally",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 19,
+    "prompt": "Suggest strategies for preventing chronic diseases like heart disease or diabetes.",
+    "displayText": "Prevent Chronic Diseases",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 20,
+    "prompt": "Suggest resources for finding physical therapy or rehabilitation services.",
+    "displayText": "Find Physical Therapy/Rehab",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 21,
+    "prompt": "Suggest ways to improve emotional intelligence (self-awareness, regulation).",
+    "displayText": "Improve Emotional Intelligence",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 22,
+    "prompt": "Suggest stress reduction techniques and relaxation practices.",
+    "displayText": "Stress Reduction Techniques",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 23,
+    "prompt": "Suggest strategies for building resilience and coping with adversity.",
+    "displayText": "Build Resilience/Coping Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 24,
+    "prompt": "Suggest practices for improving mood, increasing happiness, or managing anger.",
+    "displayText": "Improve Mood/Manage Emotions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 25,
+    "prompt": "Suggest ways to improve cognitive functions like critical thinking, memory, or problem-solving.",
+    "displayText": "Improve Cognitive Functions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 26,
+    "prompt": "Suggest resources for learning about common mental health conditions.",
+    "displayText": "Learn About Mental Health Conditions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 27,
+    "prompt": "Explain different types of therapy (CBT, DBT, ACT, psychodynamic).",
+    "displayText": "Learn Types of Therapy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 28,
+    "prompt": "Suggest practices for developing self-compassion or building self-esteem.",
+    "displayText": "Develop Self-Compassion/Self-Esteem",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 29,
+    "prompt": "Suggest ways to improve communication and conflict resolution skills in relationships.",
+    "displayText": "Improve Relationship Communication",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 30,
+    "prompt": "Suggest ways to build community connection or expand my social network.",
+    "displayText": "Build Community Connection",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 31,
+    "prompt": "Suggest techniques for improving social skills like empathy or active listening.",
+    "displayText": "Improve Social Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 32,
+    "prompt": "Suggest strategies for managing screen time or practicing a digital detox.",
+    "displayText": "Manage Screen Time/Digital Detox",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 33,
+    "prompt": "Suggest activities for mental fitness (brain training, memory techniques, creativity).",
+    "displayText": "Mental Fitness Activities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 34,
+    "prompt": "Suggest different types of concentration meditation (breath, object, sound).",
+    "displayText": "Explore Concentration Meditation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 35,
+    "prompt": "Suggest mindfulness meditation techniques (Vipassana, MBSR, open awareness).",
+    "displayText": "Explore Mindfulness Meditation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 36,
+    "prompt": "Suggest contemplative meditation practices (loving-kindness, compassion, self-inquiry).",
+    "displayText": "Explore Contemplative Meditation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 37,
+    "prompt": "Suggest movement meditation practices (Tai Chi, Qigong, walking meditation).",
+    "displayText": "Explore Movement Meditation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 38,
+    "prompt": "Suggest visualization meditation techniques (guided imagery, chakra, healing light).",
+    "displayText": "Explore Visualization Meditation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 39,
+    "prompt": "Suggest ways to find meditation apps or technology-assisted meditation tools.",
+    "displayText": "Find Meditation Apps/Tools",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 40,
+    "prompt": "Suggest resources for learning advanced meditation practices or attending retreats.",
+    "displayText": "Explore Advanced Meditation/Retreats",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 41,
+    "prompt": "Suggest basic breathing exercises (diaphragmatic, equal breathing).",
+    "displayText": "Basic Breathing Exercises",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 42,
+    "prompt": "Explain common yogic breathing techniques (Pranayama) like Nadi Shodhana or Ujjayi.",
+    "displayText": "Learn Yogic Breathing (Pranayama)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 43,
+    "prompt": "Suggest therapeutic breathing techniques for stress, anxiety, or sleep (4-7-8, Box Breathing).",
+    "displayText": "Therapeutic Breathing Techniques",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 44,
+    "prompt": "Explain advanced breathwork modalities like Holotropic or Rebirthing Breathwork.",
+    "displayText": "Explore Advanced Breathwork",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 45,
+    "prompt": "Suggest physical self-care practices (skincare, massage, aromatherapy, rest).",
+    "displayText": "Physical Self-Care Practices",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 46,
+    "prompt": "Suggest emotional self-care activities (journaling, gratitude, creative expression).",
+    "displayText": "Emotional Self-Care Activities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 47,
+    "prompt": "Suggest mental self-care strategies (digital detox, learning, mind-body practices).",
+    "displayText": "Mental Self-Care Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 48,
+    "prompt": "Suggest social self-care ideas (boundaries, connection, support networks).",
+    "displayText": "Social Self-Care Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 49,
+    "prompt": "Suggest spiritual self-care practices (sacred space, ritual, nature connection).",
+    "displayText": "Spiritual Self-Care Practices",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 50,
+    "prompt": "Suggest ways to create a self-care plan with daily, weekly, or monthly practices.",
+    "displayText": "Create Self-Care Plan",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 51,
+    "prompt": "Explain principles of Traditional Chinese Medicine (TCM) like acupuncture or herbs.",
+    "displayText": "Learn Traditional Chinese Medicine (TCM)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 52,
+    "prompt": "Explain principles of Ayurveda (doshas, diet, lifestyle).",
+    "displayText": "Learn Ayurveda Principles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 53,
+    "prompt": "Suggest different energy healing modalities (Reiki, Healing Touch, Pranic Healing).",
+    "displayText": "Explore Energy Healing Modalities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 54,
+    "prompt": "Explain mind-body connection techniques like EFT Tapping or Somatic Experiencing.",
+    "displayText": "Learn Mind-Body Techniques (EFT, Somatic)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 55,
+    "prompt": "Suggest ways to adopt an anti-inflammatory or longevity-focused lifestyle.",
+    "displayText": "Adopt Anti-Inflammatory/Longevity Lifestyle",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 56,
+    "prompt": "Suggest practices for increasing sensory or present moment awareness.",
+    "displayText": "Increase Sensory/Present Moment Awareness",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 57,
+    "prompt": "Suggest ways to create a healthier home or work environment (biophilic design, nature therapy).",
+    "displayText": "Create Wellness Environment",
+    "isTemplate": false,
+    "type": "do"
+  }
+]

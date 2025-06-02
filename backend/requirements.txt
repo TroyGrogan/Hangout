@@ -1,0 +1,29 @@
+django==4.2.20
+asgiref
+django-cors-headers==4.3.1
+djangorestframework==3.15.1
+djangorestframework-simplejwt
+PyJWT
+pytz
+sqlparse
+psycopg2-binary==2.9.9
+python-dotenv
+supabase
+gunicorn
+selenium>=4.1.0
+webdriver-manager[chrome,firefox,edge]>=4.0.0
+geopy==2.3.0
+urllib3==1.26.18
+# AI Chat dependencies - OPTIMIZED FOR Q8_0 PERFORMANCE
+llama-cpp-python>=0.2.90  # Latest version with optimizations
+psutil>=5.9.0  # For memory monitoring
+# Removed ctransformers - focusing on llama-cpp-python
+diskcache==5.6.3
+markdown==3.5.1
+bleach==6.1.0
+Pygments==2.16.1
+django-filter==24.2
+dotenv-cli==3.4.1
+emoji==2.12.1
+# Additional optimization dependencies
+numpy>=1.24.0  # For potential numerical optimizations

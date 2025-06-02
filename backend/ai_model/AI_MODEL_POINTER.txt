@@ -1,0 +1,46 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////
+TO DOWNLOAD THE AI MODEL, GO INTO THE DJANGO BACKEND TERMINAL, 
+AND RUN THIS COMMAND:
+
+Installing this from the main home directory of the app 
+(aka the folder that contains: 'backend', 'env', 'frontend', README.md, etc.):
+
+
+cd backend/ai_model && curl -L -o "tinyllama-1.1b-chat-v1.0.Q8_0.gguf" "https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q8_0.gguf?download=true"
+
+
+^^This command works because we cd into the backend/ai_model directory. ^^
+Explanation of the command:
+
+curl: The command-line tool itself.
+
+-L: 
+This option tells curl to follow redirects.
+Hugging Face links often use redirects, so this is important.
+
+-o "backend/ai_model/tinyllama-1.1b-chat-v1.0.Q8_0.gguf": 
+This specifies the output file path and name.
+
+"backend/ai_model/": 
+This is the directory where you want to save the file.
+
+"tinyllama-1.1b-chat-v1.0.Q8_0.gguf": 
+This is the name of the file as it will be saved on your system.
+
+"https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q8_0.gguf?download=true": 
+This is the direct download URL for the model file.
+
+Before running:
+- Ensure curl is installed: Most macOS and Linux systems have it by default. 
+  If not, you might need to install it.
+
+- Ensure the directory exists: Make sure the backend/ai_model/ directory 
+  exists in your project. If it doesn't, 
+  create it first (mkdir -p backend/ai_model).
+
+- Run from the correct location: Execute this command from the root directory 
+  of your project (Capstone-Computing-Project---Hangout-Web-App/) 
+  so that the relative path backend/ai_model/ is correct.
+
+- The download will take some time as the model file is about 1.1GB. 
+  You'll see a progress indicator in your terminal. Once it's complete, the model file will be in the specified directory.

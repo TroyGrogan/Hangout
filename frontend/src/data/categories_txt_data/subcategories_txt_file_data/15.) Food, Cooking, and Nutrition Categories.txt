@@ -1,0 +1,1113 @@
+📚 Food Foundations
+	🍎 Food Groups (Nutritional Basis)
+		🍎 Fruits
+			🍓 Berries
+				🍓 Strawberries
+				🫐 Blueberries
+				🍓 Raspberries
+				🍇 Blackberries
+				🍒 Cranberries
+				🫐 Elderberries
+				🫐 Goji Berries
+				🫐 Acai Berries
+				🍇 Currants
+				🍇 Boysenberries
+				🍇 Gooseberries
+				🍇 Mulberries
+
+			🍊 Citrus Fruits
+				🍊 Oranges
+				🍋 Lemons
+				🍈 Limes
+				🍊 Grapefruits
+				🍊 Tangerines
+				🍊 Mandarins
+				🍊 Kumquats
+				🍈 Pomelos
+				🍊 Clementines
+
+			🍑 Stone Fruits (Drupes)
+				🍑 Peaches
+				🍑 Plums
+				🍑 Apricots
+				🍑 Nectarines
+				🍒 Cherries
+				🥭 Mangoes
+				🍇 Lychees
+				🫒 Olives
+				🌴 Dates
+
+			🍎 Pome Fruits
+				🍎 Apples
+				🍐 Pears
+				🍐 Quinces
+				🍎 Crabapples
+				🌳 Medlars
+				🌳 Loquats
+
+			🌴 Tropical and Exotic Fruits
+				🍌 Bananas
+				🍍 Pineapples
+				🥭 Papayas
+				🥝 Kiwis
+				🍈 Passionfruit
+				🐉 Dragon Fruit
+				🍈 Guavas
+				⭐ Starfruit
+				🍈 Jackfruit
+				🍈 Durian
+				🍈 Rambutan
+				🍈 Longan
+
+			🍈 Melons
+				🍉 Watermelon
+				🍈 Cantaloupe
+				🍈 Honeydew
+				🍈 Casaba
+				🍈 Persian
+				🍈 Crenshaw
+				🍈 Winter Melon
+				🍈 Galia
+				🍈 Charentais
+
+			🧃 100% Fruit Juices
+				🧃 Single Fruit Juices
+				🍹 Mixed Fruit Juices
+				🥤 Cold-Pressed Juices
+
+			🍇 Dried Fruits
+				🍇 Raisins
+				🍇 Prunes
+				🍑 Dried Apricots
+				🍇 Dried Figs
+				🌴 Dried Dates
+				🍒 Dried Cranberries
+				🥭 Dried Mango
+				🍎 Dried Apple
+				🍌 Dried Banana
+
+			🌳 Wild and Foraged Fruits
+				🌳 Pawpaw
+				🌳 Persimmon
+				🍓 Wild Berries
+				🌵 Cactus Fruits
+				☁️ Cloudberries
+
+		🥦 Vegetables
+			🥬 Dark-Green Vegetables
+				🥬 Leafy Greens
+					🥬 Lettuce
+					🥬 Spinach
+					🥬 Kale
+					🥬 Collards
+					🥬 Swiss Chard
+					🥬 Arugula
+					🥬 Watercress
+					🥬 Mustard Greens
+					🥬 Turnip Greens
+					🥬 Beet Greens
+
+				🥦 Cruciferous Greens
+					🥦 Broccoli
+					🥦 Brussels Sprouts
+					🥬 Bok Choy
+					🥬 Chinese Cabbage
+
+				🌿 Herbs
+					🌿 Mediterranean Herbs
+						🌿 Basil
+							🌿 Sweet Basil
+							🌿 Thai Basil
+							🌿 Holy Basil
+							🌿 Lemon Basil
+						🌿 Oregano
+							🌿 Greek Oregano
+							🌿 Italian Oregano
+							🌿 Mexican Oregano
+						🌿 Rosemary
+						🌿 Thyme
+							🌿 Common Thyme
+							🌿 Lemon Thyme
+							🌿 Caraway Thyme
+						🌿 Sage
+							🌿 Common Sage
+							🌿 Pineapple Sage
+							🌿 Clary Sage
+						🌿 Marjoram
+						🌿 Bay Leaf (Bay Laurel)
+						🌿 Savory
+							🌿 Summer Savory
+							🌿 Winter Savory
+						🌿 Tarragon
+							🌿 French Tarragon
+							🌿 Russian Tarragon
+
+					🌿 Leafy Herbs
+						🌿 Parsley
+							🌿 Flat-leaf/Italian Parsley
+							🌿 Curly Parsley
+						🌿 Cilantro/Coriander Leaf
+						🌿 Dill
+						🌿 Chervil
+						🌿 Sorrel
+							🌿 French Sorrel
+							🌿 Garden Sorrel
+						🌿 Chives
+							🌿 Common Chives
+							🌿 Garlic Chives
+						🌿 Lovage
+						🌿 Borage
+						🌿 Purslane
+
+					🌿 Mint Family (Lamiaceae)
+						🌿 Peppermint
+						🌿 Spearmint
+						🌿 Lemon Balm
+						💜 Lavender
+						🌿 Hyssop
+						🌸 Bergamot (Bee Balm)
+						🌿 Catnip
+						🌿 Shiso/Perilla
+
+					🌿 Asian and Tropical Herbs
+						🍋 Lemongrass
+						🌿 Curry Leaf
+						🍈 Kaffir Lime Leaf
+						🌿 Vietnamese Coriander/Rau Ram
+						🌿 Shiso/Perilla
+						🌿 Thai Basil
+						🌿 Chinese Chives
+						🌿 Pandan Leaf
+						🌿 Culantro/Mexican Coriander
+
+					🌳 Wild and Foraged Herbs
+						🌼 Dandelion Greens
+						🌿 Chickweed
+						🌿 Nettle
+						🌿 Lamb's Quarters
+						🥬 Miner's Lettuce
+						🌿 Wild Garlic/Ramps
+						🌿 Wood Sorrel
+						🌿 Yarrow
+						🌿 Plantain
+
+					💊 Medicinal and Aromatic Herbs
+						🌼 Chamomile
+						🌸 Echinacea
+						🌿 Valerian
+						🌿 St. John's Wort
+						🌼 Feverfew
+						🌿 Anise Hyssop
+						🌿 Horehound
+						🌿 Angelica
+
+					🌿 Flavoring Herbs
+						🌿 Fennel
+						🌿 Caraway
+						🌿 Anise
+						🌿 Fenugreek
+						🌿 Epazote
+						🌲 Juniper
+						🌿 Summer Savory
+						🌿 Celery Leaf
+
+					🥗 Salad and Garnishing Herbs
+						🌸 Nasturtium
+						🌼 Chrysanthemum Greens
+						🌿 Salad Burnet
+						🌿 Chervil
+						🌿 Bronze Fennel
+						🌿 Minutina
+						🌿 Good King Henry
+						🥬 Mache/Corn Salad
+
+			🥕 Red and Orange Vegetables
+				🥕 Root Vegetables
+					🥕 Carrots
+					🍠 Sweet Potatoes
+					🍠 Red Yams
+
+				🍅 Nightshades
+					🍅 Tomatoes
+					🌶️ Red Peppers
+
+				🎃 Squash
+					🎃 Butternut Squash
+					🎃 Pumpkin
+
+				❓ Others
+					🥬 Red Cabbage
+					🧅 Red Onions
+
+			🥔 Starchy Vegetables
+				🥔 Tubers
+					🥔 Potatoes
+					🍠 Yams
+					🍠 Cassava/Manioc
+					🍠 Taro
+					🍠 Yucca
+					🍠 Jicama
+
+				🌽 Corn and Grains
+					🌽 Sweet Corn
+					🌽 Hominy
+
+				🎃 Winter Squash
+					🎃 Acorn Squash
+					🎃 Buttercup Squash
+
+				🍌 Plantains and Green Bananas
+
+			🫘 Beans, Peas, and Lentils (Legumes)
+					🫘 Beans
+						🫘 Black Beans
+						🫘 Kidney Beans
+						🫘 Pinto Beans
+						🫘 Navy Beans
+						🫘 Lima Beans
+						🫘 Soybeans
+						🫛 Edamame
+						🫘 Black-eyed Peas
+
+					🫛 Peas
+						🫛 Green Peas
+						🫛 Snow Peas
+						🫛 Snap Peas
+						🫛 Split Peas
+						🫛 Pigeon Peas
+
+					🫘 Lentils
+						🟤 Brown Lentils
+						🔴 Red Lentils
+						🟢 Green Lentils
+						⚫ Black Lentils
+						🟡 Yellow Lentils
+
+			🧅 Allium Vegetables
+				🧅 Onions
+				🧄 Garlic
+				🧅 Shallots
+				🧅 Leeks
+				🧅 Scallions
+				🌿 Chives
+
+			🥦 Cruciferous Vegetables (non-leafy)
+				🥦 Cauliflower
+				🥬 Cabbage
+				🍠 Radishes
+				🍠 Turnips
+				🍠 Rutabaga
+				🥦 Kohlrabi
+
+			🌿 Stem Vegetables
+				🌿 Celery
+				🌿 Asparagus
+				🌿 Rhubarb
+				🌿 Fennel
+				🎋 Bamboo Shoots
+
+			🥒 Gourds and Squashes (non-starchy)
+				🥒 Zucchini
+				🟡 Yellow Squash
+				⚪ Patty Pan
+				🥒 Cucumber
+				🍈 Bitter Melon
+				🍈 Chayote
+
+			🍆 Nightshade Vegetables (non-red)
+				🍆 Eggplant
+				🫑 Green Peppers
+				🟡 Yellow Peppers
+
+			🌊 Sea Vegetables
+				🌊 Seaweed
+				🌿 Kelp
+				🍙 Nori
+				🌊 Dulse
+				🌿 Wakame
+				🌿 Kombu
+
+			🌱 Sprouts and Shoots
+				🌱 Bean Sprouts
+				🌱 Alfalfa Sprouts
+				🌻 Sunflower Shoots
+				🌱 Pea Shoots
+
+		🌾 Grains
+			🌾 Whole Grains
+			🍚 Refined Grains
+
+		🥩 Protein Foods
+			🐄 Beef
+			🐖 Pork
+			🐑 Lamb
+			🐐 Goat
+			🦌 Game
+				🦌 Venison (Deer)
+				🐃 Bison
+				🦌 Elk
+				🐗 Wild Boar
+				🐇 Rabbit
+				🐦 Pheasant
+				🐦 Grouse
+				🦆 Wild Duck
+			🍗 Poultry
+				🐔 Chicken
+				🦃 Turkey
+				🦆 Duck
+				🦢 Goose
+				🐦 Quail
+				🕊️ Pigeon/Squab
+				🐔 Guinea Fowl
+				🐦 Ostrich
+			🐟 Seafood
+				🐠 Finfish
+					🐠 Salmon
+					🐟 Tuna
+					🐡 Cod
+					🐠 Flounder
+					🎣 Halibut
+					🦈 Shark
+					🐍 Eel
+				🦐 Shellfish
+					🦀 Crustaceans
+						🍤 Shrimp
+						🦞 Crawfish
+						🦀 Crab
+						🦞 Lobster
+					🐚 Mollusks
+						🦪 Oysters
+						🐚 Clams
+						🦑 Squid
+						🐙 Octopus
+			🥛 Dairy
+			🍳 Eggs
+
+		🍄 Fungi
+			🍄 Button Mushrooms
+			🍄 Shiitake
+			🍄 Portobello
+			🍄 Oyster Mushrooms
+			🍄 Enoki
+			🍄 Chanterelles
+			🍄 Morels
+			🍄 Porcini
+			💎 Truffles
+
+🌍 Global Culinary Landscape
+	🗺️ Cuisines by Continent/Region
+		🌍 African Cuisine
+			🇲🇦 North African Cuisine
+			🇬🇭 West African Cuisine
+			🇪🇹 East African Cuisine
+			🇨🇩 Central African Cuisine
+			🇿🇦 Southern African Cuisine
+
+		🌏 Asian Cuisine
+			🌏 East Asian Cuisine
+				🇨🇳 Chinese Cuisine
+				🇭🇰 Cantonese Cuisine
+				🌶️ Sichuan Cuisine
+				🌶️ Hunan Cuisine
+				🇯🇵 Japanese Cuisine
+				🇰🇷 Korean Cuisine
+				🇲🇳 Mongolian Cuisine
+
+			🌏 Southeast Asian Cuisine
+				🇹🇭 Thai Cuisine
+				🇻🇳 Vietnamese Cuisine
+				🇵🇭 Filipino Cuisine
+				🇮🇩 Indonesian Cuisine
+				🇲🇾 Malaysian Cuisine
+				🇸🇬 Singaporean Cuisine
+				🇧🇳 Brunei Cuisine
+				🇰🇭 Cambodian Cuisine
+				🇱🇦 Laotian Cuisine
+				🇲🇲 Myanmar (Burmese) Cuisine
+				🇹🇱 East Timorese Cuisine
+
+			🌏 South Asian Cuisine
+				🇮🇳 Indian Cuisine
+				🇵🇰 Pakistani Cuisine
+				🇧🇩 Bangladeshi Cuisine
+				🇳🇵 Nepali Cuisine
+				🇱🇰 Sri Lankan Cuisine
+
+			🌏 Central Asian Cuisine
+				🇺🇿 Uzbekistani Cuisine
+				🇰🇿 Kazakhstani Cuisine
+				🇰🇬 Kyrgyzstani Cuisine
+				🇹🇲 Turkmenistani Cuisine
+				🇹🇯 Tajikistani Cuisine
+
+			🌏 West Asian or Middle Eastern Cuisine
+				🇹🇷 Turkish Cuisine
+				🇱🇧 Lebanese Cuisine
+				🇮🇷 Persian Cuisine
+				🇮🇱 Israeli Cuisine
+				🇲🇦 Moroccan Cuisine
+
+		🇪🇺 European Cuisine
+			🇪🇺 Southern European Cuisine
+				🇮🇹 Italian Cuisine
+				🇪🇸 Spanish Cuisine
+				🇬🇷 Greek Cuisine
+
+			🇪🇺 Western European Cuisine
+				🇫🇷 French Cuisine
+				🇩🇪 German Cuisine
+				🇬🇧 British Cuisine
+
+			🇪🇺 Eastern European Cuisine
+				🇵🇱 Polish Cuisine
+				🇷🇺 Russian Cuisine
+				🇺🇦 Ukrainian Cuisine
+				🇸🇪 Nordic or Scandinavian Cuisine
+				🇸🇪 Swedish Cuisine
+				🇳🇴 Norwegian Cuisine
+				🇩🇰 Danish Cuisine
+
+		🌎 Cuisine of the Americas
+			🌎 North American Cuisine
+				🇺🇸 United States Cuisine
+					🍔 American Classics
+						🍔 Burgers
+						🌭 Hot Dogs
+						🍕 Pizza (American-Style)
+						🍦 Ice Cream Sundaes
+						🥤 Milkshakes
+						🍟 French Fries
+						🥪 Diner Sandwiches
+						🥧 Apple Pie
+					🍑 Southern Cuisine
+						🔥 Barbecue
+							🐖 Pulled Pork
+							🐄 Beef Brisket
+							🍖 Ribs
+							🍗 Smoked Chicken
+							🥫 Regional Sauces
+							🌶️ Dry Rubs
+							🌽 Classic Sides
+							🥧 Cobbler Desserts
+						🥘 Soul Food
+							🍗 Fried Chicken
+							🥬 Collard Greens
+							🌽 Cornbread
+							🥔 Candied Yams
+							🧆 Hushpuppies
+							🥣 Gumbo
+							🍲 Hoppin' John
+							🥧 Sweet Potato Pie
+						🦐 Cajun
+							🦐 Crawfish Boil
+							🍚 Jambalaya
+							🥣 Étouffée
+							🌶️ Blackened Dishes
+							🍲 Gumbo
+							🥘 Dirty Rice
+							🌿 Herb Seasonings
+							🥖 Po' Boy Sandwiches
+						🦞 Creole
+							🦞 Shrimp Creole
+							🍅 Creole Sauce
+							🦀 Crab Dishes
+							🍚 Red Beans & Rice
+							🥘 Jambalaya
+							🧅 Holy Trinity Base
+							🥣 Seafood Gumbo
+							🥞 Beignets
+					🦞 New England Cuisine
+						🦞 Lobster Dishes
+						🐚 Clam Chowder
+						🥣 Boston Baked Beans
+						🍞 Brown Bread
+						🥧 Fruit Pies
+						🍁 Maple Syrup Treats
+						🐟 Atlantic Seafood
+						🍨 Ice Cream
+					🌽 Midwestern Cuisine
+						🌽 Corn Dishes
+						🧀 Cheese Specialties
+						🥩 Beef & Pork
+						🥔 Potato Casseroles
+						🥧 Fruit & Cream Pies
+						🍲 Hotdish
+						🍯 Comfort Foods
+						🌾 German & Scandinavian Heritage
+					🌶️ Southwestern Cuisine
+						🌮 Tex-Mex
+						🌯 New Mexican Fare
+						🌵 Arizona-Sonoran Dishes
+						🔥 Green Chile Specialties
+						🌽 Native American Influences
+						🥙 Navajo Tacos
+						🌴 California-Mexican Fusion
+						🍲 Ranch-Style Cooking
+					🌲 Pacific Northwest Cuisine
+						🥑 California Cuisine
+						🌲 Oregon Cuisine
+						🌲 Washington Cuisine
+					🦀 Mid-Atlantic Cuisine
+						🦀 Chesapeake Bay Seafood
+						🥯 New York Deli
+						🧀 Philadelphia Fare
+						🍝 Italian-American
+						🥣 Regional Soups & Stews
+						🥪 Submarine Sandwiches
+					🍍 Hawaiian Cuisine
+						🐟 Poke
+						🐖 Kalua Pork
+						🌴 Luau Foods
+						🍙 Spam Musubi
+						🍛 Plate Lunch
+						🥥 Tropical Treats
+						🌺 Polynesian Fusion
+						🍞 Hawaiian Breads
+				🇨🇦 Canada Cuisine
+					🦞 Atlantic Canada Cuisine
+					⚜️ Quebec Cuisine
+					🍁 Ontario Cuisine
+					🌾 Prairie Provinces Cuisine
+					🏔️ British Columbia Cuisine
+					🐻 Northern Canada Cuisine
+				🇲🇽 Mexico Cuisine
+					🌮 Northern Mexico Cuisine
+					🌮 North Pacific Coast Cuisine
+					🌮 Bajio Cuisine
+					🌮 Central Mexico Cuisine
+					🌮 South Pacific Coast Cuisine
+					🌮 Gulf Cuisine
+					🌮 Yucatán Peninsula Cuisine
+			🌎 Central American Cuisine
+				🇧🇿 Belize Cuisine
+				🇨🇷 Costa Rica Cuisine
+				🇸🇻 El Salvador Cuisine
+				🇬🇹 Guatemala Cuisine
+				🇭🇳 Honduras Cuisine
+				🇳🇮 Nicaragua Cuisine
+				🇵🇦 Panama Cuisine
+					
+			🌎 South American Cuisine
+				🇧🇷 Brazilian Cuisine
+				🇦🇷 Argentine Cuisine
+				🇵🇪 Peruvian Cuisine
+				🇨🇴 Colombian Cuisine
+				🇨🇱 Chilean Cuisine
+				🇻🇪 Venezuelan Cuisine
+				🇪🇨 Ecuadorian Cuisine
+				🇧🇴 Bolivian Cuisine
+				🇵🇾 Paraguayan Cuisine
+				🇺🇾 Uruguayan Cuisine
+				🇬🇾 Guyanese Cuisine
+				🇸🇷 Surinamese Cuisine
+			
+			🏝️ Caribbean Cuisine
+				🇯🇲 Jamaican Cuisine
+				🇨🇺 Cuban Cuisine
+				🇵🇷 Puerto Rican Cuisine
+				🇩🇴 Dominican Republic Cuisine
+				🇭🇹 Haitian Cuisine
+				🇹🇹 Trinidadian and Tobagonian Cuisine
+				🇦🇮 Anguilla Cuisine
+				🇦🇼 Aruba Cuisine
+				🇧🇲 Bermuda Cuisine
+				🇧🇶 Bonaire Cuisine
+
+		🌊 Oceanian Cuisine
+			🇦🇺 Australian Cuisine
+			🇳🇿 New Zealander Cuisine
+			🏝️ Pacific Islander Cuisine
+
+	🤝 Diaspora and Cultural Heritage Cuisines
+		✡️ Jewish Cuisine
+			🕎 Ashkenazi Cuisine
+			🕌 Sephardic Cuisine
+			🕍 Mizrahi Cuisine
+			✡️ Contemporary Jewish Cuisine
+
+		🇷🇴 Roma Cuisine
+
+		🌍 Diasporic Cuisines
+			🇨🇳 Chinese Diaspora Cuisine
+			🇮🇳 Indian Diaspora Cuisine
+			🇮🇹 Italian Diaspora Cuisine
+			🇱🇧 Lebanese Diaspora Cuisine
+
+		🛐 Religious and Cultural Traditional Cuisines
+			☪️ Islamic/Halal Cuisine
+			🕉️ Hindu/Vegetarian Cuisine
+			☸️ Buddhist Cuisine
+			✝️ Christian Orthodox Cuisine
+
+		🏹 Indigenous and First Nations Cuisines
+			🏹 Native American Cuisine
+			🐨 Aboriginal Australian Cuisine
+			🦌 Sámi Cuisine
+			🥝 Maori Cuisine
+			🌴 Amazonian Indigenous Cuisine
+
+		🤝 Fusion and Multicultural Cuisines
+			🦞 Creole Cuisine
+			🦐 Cajun Cuisine
+			🥢 Peranakan Cuisine
+			🇮🇳 Indo-Chinese Cuisine
+			🌮 Tex-Mex Cuisine
+
+		📜 Historical Heritage Cuisines
+			🏛️ Ancient Culinary Traditions
+				🏛️ Ancient Mesopotamian Cuisine
+				🏺 Ancient Egyptian Cuisine
+			🏰 Medieval European Cuisine
+			👑 Imperial Court Cuisine
+
+🍳 The Art of Cooking
+	🔥 Cooking Methods
+		🔥 Dry Heat Methods
+			🍞 Baking
+				🥖 Bread Making
+				🍞 Sourdough
+				🥖 Artisan Breads
+				🧁 Quick Breads
+				🫓 Flatbreads
+				🥐 Pastry
+				🇫🇷 French Pastry
+				🥧 Pies & Tarts
+				🍪 Cookies & Bars
+				🥐 Laminated Doughs
+				🎂 Cake Decorating
+				🎂 Fondant Work
+				🎂 Buttercream Techniques
+				💍 Wedding Cakes
+				🍫 Chocolate Work
+				🌾 Gluten-Free Baking
+				🌱 Vegan Baking
+			🔥 Roasting
+			🔥 Grilling
+			🔥 Broiling
+			💨 Smoking & Curing
+
+		💧 Moist Heat Methods
+			💧 Boiling
+			🥣 Simmering
+			💨 Steaming
+			🥚 Poaching
+			🥘 Braising
+			🌡️ Sous Vide Cooking
+			⏱️ Pressure Cooking
+
+		🍳 Frying
+			🍳 Shallow Frying
+			🍟 Deep Frying
+			🍳 Sautéing
+
+		🍳 Combination Methods
+			🫕 Stir-Frying
+			🥣 Stewing
+
+	🔪 Culinary Techniques
+		🔪 Knife Skills
+		🥣 Sauces & Emulsions
+		🦠 Fermentation
+		🍰 Pastry Arts
+		🥓 Charcuterie
+
+	🍽️ Specialized Cooking
+		🌱 Vegan Cooking
+		🥦 Vegetarian Cooking
+		🌾 Gluten-Free Cooking
+		🥛 Dairy-Free Cooking
+		🥜 Nut-Free Cooking
+		🧂 Low-Sodium Cooking
+		🩸 Diabetic-Friendly Cooking
+
+📊 Nutrition and Dietary Approaches
+	🧬 Macronutrients
+		🍞 Carbohydrates
+			🍬🍭 Simple Carbs (Sugars)
+				💧🍬 Monosaccharides (e.g., Glucose, Fructose)
+					🩸🍬 Glucose (Blood Sugar)
+					🍎🍬 Fructose (Fruit Sugar)
+					🥛🍬 Galactose (Part of Milk Sugar)
+				💧💧🍬 Disaccharides (e.g., Sucrose, Lactose)
+					🧂🍬 Sucrose (Table Sugar: Glucose + Fructose)
+					🥛🍬 Lactose (Milk Sugar: Glucose + Galactose)
+					🌾🍬 Maltose (Malt Sugar: Glucose + Glucose)
+			🌾🥔 Complex Carbs (Starches)
+				🌾🍞 Whole Grains (e.g., Oats, Quinoa, Brown Rice)
+				🫘🥔 Legumes & Starchy Vegetables (e.g., Beans, Potatoes, Corn)
+				🍚🥖 Refined Starches (e.g., White Bread, Pasta)
+			⚡️⚡️ Glycemic Index/Load
+				⬆️📈 High GI/GL Foods
+				↔️📈 Medium GI/GL Foods
+				⬇️📈 Low GI/GL Foods
+				🍽️📊 Using GI/GL for Health
+		💪 Proteins
+			✅💪 Complete Proteins (All Essential Amino Acids)
+				🥩🍖 Meat & Poultry
+				🐟🐠 Fish
+				🥚🥛 Eggs & Dairy
+				🌱🥢 Soy Products (Tofu, Tempeh)
+				🌾🌰 Quinoa & Buckwheat
+			❌💪 Incomplete Proteins (Missing some Essential Amino Acids)
+				🫘🥫 Beans & Lentils
+				🥜🌰 Nuts & Seeds
+				🍚🍞 Grains (Most)
+			✨🧬 Essential Amino Acids (From Diet)
+			🔄🧬 Non-Essential Amino Acids (Body Can Produce)
+			🏗️💪 Protein Functions (e.g., Tissue Building, Enzymes)
+		🥑 Fats
+			🧈 Saturated Fats
+				🥩🥓 Red Meat Fat
+				🧈🥛 Butter, Cheese & Lard
+				🥥🌴 Coconut & Palm Oil
+			🥑 Unsaturated Fats
+			🥑 Monounsaturated
+				🫒🏺 Olive Oil & Canola Oil
+				🥑🥑 Avocado
+				🥜🌰 Nuts (Almonds, Cashews, Pecans)
+			🥑 Polyunsaturated
+			🐟 Omega-3
+				🐟🎣 Fatty Fish (Salmon, Mackerel, Sardines)
+				🌱🌰 Flaxseeds & Chia Seeds
+				🌰🥜 Walnuts
+			🌰 Omega-6
+				🌻🌽 Seed Oils (Sunflower, Corn, Soybean)
+				🌰🥜 Walnuts & Other Seeds
+	
+	💊 Micronutrients
+		💊 Vitamins
+			☀️ Fat-Soluble Vitamins
+				🥕 Vitamin A (Retinol)
+				☀️ Vitamin D (Calciferol)
+				🌰 Vitamin E (Tocopherol)
+				🥬 Vitamin K (Phylloquinone, Menaquinone)
+
+			💧 Water-Soluble Vitamins
+				🅱️ B Vitamins
+					🅱️ B1 (Thiamine)
+					🅱️ B2 (Riboflavin)
+					🅱️ B3 (Niacin)
+					🅱️ B5 (Pantothenic Acid)
+					🅱️ B6 (Pyridoxine)
+					🅱️ B7 (Biotin)
+					🥬 B9 (Folate)
+					🅱️ B12 (Cobalamin)
+				🍊 Vitamin C (Ascorbic Acid)
+
+		🧱 Minerals
+			🧱 Macrominerals
+				🥛 Calcium
+				🦴 Phosphorus
+				🍌 Potassium
+				🧂 Sodium
+				🧂 Chloride
+				🧱 Magnesium
+				🧱 Sulfur
+
+			🧱 Microminerals/Trace Minerals
+				🔩 Iron
+				🔩 Zinc
+				🔩 Copper
+				🔩 Manganese
+				🧂 Iodine
+				🧱 Selenium
+				🦷 Fluoride
+				🧱 Chromium
+				🧱 Molybdenum
+
+		🧱 Essential Trace Elements
+			🧱 Boron
+			🧱 Cobalt
+			🧱 Silicon
+			🧱 Vanadium
+			🧱 Nickel
+			🧱 Tin
+			🧱 Lithium
+
+	🌾 Dietary Fiber
+		🌾 Soluble Fiber
+		🌾 Insoluble Fiber
+
+	🥗 Dietary Plans and Trends
+		🥑 Keto Diet
+		🥗 Mediterranean Diet
+		🥩 Paleo Diet
+		🍎 Whole30
+		🌱 Plant-Based/Vegan
+		❤️ DASH Diet
+		🚫 Low FODMAP
+		🥩 Carnivore Diet
+		🧘 Intuitive Eating
+		📊 Macro-Based
+		⏱️ Intermittent Fasting
+		⏱️ 16:8 Method
+		🍽️ OMAD (One Meal A Day)
+		📆 5:2 Approach
+
+	🎓 Nutritional Education
+		📅 Meal Planning
+		📊 Macros Tracking
+		🔄 Recipe Adaptation
+		🍱 Meal Prep Workshops
+		🏷️ Reading Food Labels
+		📏 Portion Control
+		📈 Nutrient Optimization
+		✨ Nutrient Density
+		🤝 Protein Combining
+		🥩 Meat Selection
+		🍳 Preparation Methods (with a focus on nutritional impact)
+		🐟 Sustainable Seafood
+		🐟 Fish Preparation (with a focus on nutritional aspects)
+		🌱 Plant-Based Focus (highlighting nutritional benefits)
+		🌱 Meat Alternatives (with a focus on nutritional aspects)
+		⚖️ Nutritional Balance
+		🐟 Pescatarian Diet
+		🫒 Olive Oil Workshops (highlighting nutritional benefits)
+		🐟 Seafood Preparation (highlighting nutritional benefits)
+		🚫 Special Dietary Needs
+		🌾 Gluten-Free
+		🥛 Dairy-Free
+		🥜 Nut-Free
+		🧂 Low-Sodium
+		🩸 Diabetic-Friendly
+
+🍹 Beverage Exploration
+	🥤 Non-Alcoholic Beverages
+		💧 Water
+			💧 Still Water
+			💧 Sparkling Water
+			💧 Mineral Water
+		🧃 Juices
+			🍊 Fruit Juice
+			🥕 Vegetable Juice
+			🍹 Blended Juice
+		🥤 Smoothies
+		🍵 Tea
+			🍵🎉 Tea Ceremonies
+			🍵 Variety Tea Tastings
+			🌿 Herbal Tea Blending
+			⚫ Black Tea
+			🍵 Green Tea
+			⚪ White Tea
+			🍵 Oolong Tea
+			🌿 Herbal Tea
+		☕️ Coffee
+			🫘 Bean Types
+				☕️ Arabica
+				☕️ Robusta
+				☕️ Liberica
+				☕️ Excelsa
+			⚙️ Brewing Methods
+				💧 Drip
+				💧 Filter
+				🇫🇷 French Press
+				🇮🇹 Moka Pot
+				🔥 Percolator
+				🧪 Siphon
+				✈️ AeroPress
+				🧪 Chemex
+				🧊 Cold Brew
+				⚡️ Flash Brew
+			☕️ Espresso-Based Drinks
+				☕️ Espresso
+				1️⃣ Single Shot
+				2️⃣ Doppio (Double Shot)
+				🤏 Ristretto
+				↔️ Lungo
+				☕️ Americano
+				☕️ Long Black
+				🤏 Macchiato
+				☕️ Espresso Macchiato
+				🥛 Long Macchiato
+				🥛 Cortado
+				🥛 Flat White
+				☕️ Cappuccino
+				🥛 Wet Cappuccino
+				☁️ Dry Cappuccino
+				🥛 Latte
+				🍬 Flavored Latte
+				🍮 Caramel Macchiato
+				🍫 Mocha
+				🍨 Affogato
+				🍦 Con Panna
+				🥛 Breve
+				🇦🇹 Vienna
+				🥛 Milk-Based Espresso Coffee
+					🇫🇷 Café au Lait
+					🇵🇹 Galão
+					🇮🇹 Caffè Latte
+					🥛 Latte Macchiato
+			🧊 Iced Coffee
+				🧊 Iced Americano
+				🧊 Iced Latte
+				🧊 Cold Brew
+				❄️ Nitro Cold Brew
+				🥤 Frappé
+				🧊 Freddo Espresso
+				🇩🇿 Mazagran
+			🥃 Specialty Coffee
+				🇮🇪 Irish Coffee
+				🇹🇷 Turkish Coffee
+				🇨🇺 Cuban Coffee
+				🇬🇷 Greek Coffee
+				🇻🇳 Vietnamese Coffee
+				☕ Guillermo Coffee
+				🍋 Espresso Romano
+			➕ Coffee with Additives
+				👁️ Red-Eye Coffee
+				👁️👁️ Black-Eye Coffee
+				👁️👁️👁️ Dead-Eye Coffee
+			➕ Coffee Combinations
+				🥛 Coffee with milk
+				🥛 Coffee with condensed milk
+				🥥 Coffee with coconut milk
+				🍵 Coffee with tea
+				☕️ Slow-brewed and espresso
+				🥃 Liqueur coffee
+		🥤 Sports Drinks
+			⚡️ Gatorade
+			⚡️ Powerade
+			💧 Vitamin Water
+			💧 Propel
+			💪 Bodyarmor
+			💧 Liquid I.V.
+		🥤 Soft Drinks
+			🥤 Sodas			
+			⚡️ Energy Drinks
+		🥛 Milk
+			🐄 Dairy
+			🌱 Plant-Based Milk
+					🥜 Nut-Based Milk
+						🥛 Almond Milk
+						🥛 Cashew Milk
+						🥥 Coconut Milk
+						🥛 Macadamia Milk
+						🌰 Hazelnut Milk
+					🌾 Grain-based Milk
+						🥛 Oat Milk
+						🍚 Rice Milk
+						🌿 Hemp Milk
+					🌱 Other Plant Based Milk
+						🥛 Soy Milk
+						🥛 Pea Milk
+						🥛 Quinoa Beverages
+						🌿 Flax Milk
+		🦠 Fermented Drinks
+				🦠 Kombucha
+				🍺 Ginger Beer
+				🍺 Root Beer
+				🍞 Kvass
+				🥛 Kefir
+				🍍 Tepache
+				🍚 Amazake
+		🚫 Non-Alcoholic Versions of Alcoholic Drinks
+			🚫 Non-Alcoholic Beer
+			🍇 De-Alcoholized Wine
+			🍹 Non-Alcoholic Cocktails
+		🍹 Mocktail Creation
+
+	🥂 Alcoholic Beverages
+		🍺 Beer
+			🍺 Ales
+			🍺 Lagers
+			🍺 Stouts
+			🍺 IPAs
+			🏭 Brewing Workshops
+			🍻 Tasting Flights
+			🍽️ Food Pairings
+			🌾 Wheat Beers
+			🇧🇪 Lambics
+			🍺 Other Beer Types
+				🍋🍺 Sour Beer
+				🍫🍺 Porter
+				🌾🍺 Saison
+				🍓🍺 Fruit Beer
+				🌲🍺 Smoked Beer
+				🍦🍺 Cream Ale
+		🍷 Wine
+			🍇 Regional Tastings
+			🍽️ Food Pairings
+			🍇 Vineyard Visits
+			🍷 Red Wine
+			🥂 White Wine
+			🌸 Rosé Wine
+			🍾 Sparkling Wine
+			🍇 Dessert Wine
+			🍇 Fortified Wine
+			🍷 Other Wine Types
+				🍊🍇 Orange Wine
+				🍎🍇 Fruit Wine (Non-Grape)
+				🍚🍇 Rice Wine (e.g., Sake)
+				🌱🍇 Natural Wine
+				⬇️🍇 Low-Alcohol Wine
+		🥃 Spirits
+			🎓 Spirit Education
+			🍸 Vodka
+			🍸 Gin
+			🍹 Rum
+			🍹 Tequila
+			🥃 Whiskey
+			🍇 Brandy
+			🥃 Other Spirits
+			🍸 Cocktails
+			🧪 Mixology Basics
+			🍸 Classic Cocktails
+			🍸 Cocktails by Base Spirit
+			🍸 Cocktails by Style
+			🍎 Cider
+			🍯 Mead
+			🍻 Drinking Culture
+
+🍽️ Dining and Food Culture
+	🤵 Fine Dining
+		🍽️ Casual Dining
+		🏃 Fast Casual
+		🍔 Fast Food
+		🌍 Ethnic Restaurants
+		👨‍👩‍👧‍👦 Family Style Restaurants
+		☕️ Cafes and Diners
+		☕️ Coffeehouses
+		🍵 Tea Houses
+		🍻 Pubs and Gastropubs
+		🍽️ Buffets
+		🚚 Food Trucks
+		👨‍🍳 Chef's Table Experiences
+		🚶 Street Food Tours
+		❓ Other Restaurant Types
+
+	🎉 Dining Experiences
+		🎉 Food Festivals
+		🥕 Farmers Markets
+		🏫 Cookery Schools
+		🗣️ Restaurant Meetups
+
+	🧐 Gastronomy
+		📜 Food History
+		🤝 Food and Culture
+		🧐 Dining Etiquette
+		🔬 Molecular Gastronomy
+
+🌱 Food Sustainability and Ethical Considerations
+	♻️ Sustainable Practices
+		🚜 Farm-to-Table
+		☀️ Seasonal Eating
+		🗑️ Food Waste Reduction
+		📍 Local Sourcing
+		🏙️ Urban Farming
+		🤝 Ethical Sourcing
+		🌱 Sustainable Agriculture
+
+	❤️ Ethical Food Choices
+		🐔 Animal Welfare
+		🤝 Fair Trade
+		🌎 Environmental Impact of Food Production 
+
+🌶️ Southwestern Cuisine
+	🌮 Tex-Mex
+	🌯 New Mexican Fare
+	🌵 Arizona-Sonoran Dishes
+	🔥 Green Chile Specialties
+	🌽 Native American Influences
+	🥙 Navajo Tacos
+	🌴 California-Mexican Fusion
+	🍲 Ranch-Style Cooking

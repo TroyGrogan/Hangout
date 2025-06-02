@@ -1,0 +1,1802 @@
+/* FORCE CSS RELOAD - Updated at 2024-12-28 17:30:00 */
+/* EventList.css */
+html {
+    background-color: #00B488 !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #00B488 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%; /* Full width */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #00B488 !important;
+    background: #00B488 !important;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.main-nav {
+    background-color: #3B5998 !important;
+    color: #FFFFF0;
+    padding: 0.8rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FFFFF0;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.nav-brand:hover {
+    /* Inherits global a:hover color */
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.nav-link {
+    color: #FFFFF0 !important;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.nav-link:hover {
+    color: #D1D8E0 !important;
+}
+
+.logout-btn {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #FFFFF0 !important;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.logout-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #D1D8E0 !important;
+}
+
+/* Secondary Navigation with active tab indicator - exact match to reference */
+.secondary-nav {
+    background-color: #FFFFF0 !important;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.secondary-nav .nav-links {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.secondary-nav .nav-link {
+    color: #555;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s;
+    padding: 1rem 1.2rem;
+    position: relative;
+    text-align: center;
+}
+
+.secondary-nav .nav-link:hover {
+    color: #2E4578 !important;
+}
+
+/* Active tab indicator - exact match to reference */
+.secondary-nav .nav-links .active {
+    font-weight: bold;
+    color: #3B5998;
+    position: relative;
+}
+
+.secondary-nav .nav-links .active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #3B5998;
+}
+
+/* Main navigation active state */
+.main-nav .nav-link.active {
+    position: relative;
+    font-weight: 600;
+}
+
+.main-nav .nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #FFFFF0;
+}
+
+/* Main content wrapper */
+.main-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Grid layout for sections */
+.sections-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    width: 100%;
+    margin: 1.5rem auto;
+}
+
+/* Category section styles */
+.full-width-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    background-color: #FFFFF0 !important;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 200px;
+    overflow: hidden;
+}
+
+.subcategories-section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: -0.5rem;
+}
+
+/* Main section title styling - center all section titles */
+.section-title {
+  color: #3B5998;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 0 1rem 0;
+}
+
+.category-buttons, .subcategory-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+}
+
+.category-button, .subcategory-button {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.category-button:hover, .subcategory-button:hover {
+    background-color: #e0e0e0;
+}
+
+.category-button.selected {
+    background-color: #294C60;
+    color: #FFFFF0;
+}
+
+.subcategory-button {
+    background-color: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    font-size: 0.85rem;
+    padding: 0.35rem 0.8rem;
+}
+
+.subcategory-button.selected {
+    background-color: #ADB6C4;
+    color: #FFFFF0;
+    border-color: #ADB6C4;
+}
+
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    flex-grow: 1;
+    overflow-y: auto;
+    max-height: 600px; /* Limit maximum height for consistent looks */
+}
+
+/* Style for event cards */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.event-card {
+    background-color: #FFFFF0;
+    border-radius: 10px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eaeaea;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 120px;
+    margin-bottom: 1rem;
+}
+
+.event-card h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+    color: #3B5998;
+}
+
+.event-card .event-date {
+    font-size: 0.9rem;
+    color: #3B5998;
+    margin-bottom: 0.5rem;
+}
+
+.event-card .event-description {
+    font-size: 0.9rem;
+    color: #3B5998;
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #3B5998 !important;
+    color: #FFFFF0 !important;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Increase font size for footer text */
+.footer p {
+    font-size: 1.1rem; /* Adjust size as needed */
+    margin: 0; /* Reset default paragraph margin if needed */
+}
+
+.empty-state {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    min-width: 260px;
+    width: 100%;
+    min-height: 160px;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.loading-spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #3B5998;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+/* User preferences toggle */
+.preferences-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    margin: 0.75rem auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+.preferences-toggle {
+    background-color: #FFFFF0;
+    padding: 10px 16px;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.past-events-toggle {
+    border: 1px solid #eaeaea;
+}
+  
+.toggle-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.toggle-label input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+  
+.toggle-text {
+    color: #294C60;
+    font-size: 0.95rem;
+    line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+    .preferences-container {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .preferences-toggle {
+        width: auto;
+        min-width: 250px;
+    }
+}
+
+/* Friends events styling */
+.friends-attending {
+    position: relative;
+    border-left: 4px solid #55917F !important;
+    box-shadow: 0 4px 12px rgba(85, 145, 127, 0.2) !important;
+}
+  
+.friends-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: #55917F;
+    color: #FFFFF0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* Style for the friends events section */
+.sections-grid section:nth-of-type(1) {
+    background-color: #F5F9F8;
+    border: 1px solid #D6E9E5;
+}
+  
+.sections-grid section:nth-of-type(1) .section-title {
+    color: #55917F;
+}
+  
+.friends-attending:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(85, 145, 127, 0.3) !important;
+}
+
+/* Search location styling */
+.location-search-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0.75rem auto 1.5rem auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+  
+.search-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFF0;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.search-input-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 1.5rem;
+}
+
+.location-pin-icon {
+    color: #294C60;
+    margin-right: 15px;
+}
+  
+.location-search-input {
+    flex: 1;
+    height: 40px;
+    padding: 0 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #F5F5DC !important;
+}
+  
+.location-search-input::placeholder {
+    color: #999;
+}
+
+.location-search-input:focus {
+    outline: none;
+    border-color: #294C60;
+}
+  
+.search-button {
+    background-color: #3B5998 !important;
+    color: #FFFFF0 !important;
+    height: 40px;
+    min-width: 180px;
+    padding: 0 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.search-button:hover {
+    background-color: #2E4578 !important;
+}
+
+.search-button:disabled {
+    background-color: #ADB6C4;
+    cursor: not-allowed;
+}
+  
+.clear-search-button {
+    background-color: #f5f5f5;
+    color: #666;
+    height: 40px;
+    min-width: 80px;
+    margin-top: 0.75rem;
+    padding: 0 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+}
+  
+.clear-search-button:hover {
+    background-color: #e0e0e0;
+}
+
+.search-results-summary {
+    font-size: 0.9rem;
+    color: #666;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+    .sections-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .sections-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .search-form-wrapper {
+        padding: 1.5rem 1rem;
+    }
+    
+    .search-input-row {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .location-pin-icon {
+        margin-right: 10px;
+    }
+    
+    .location-search-input {
+        width: 100%;
+    }
+    
+    .search-button,
+    .clear-search-button {
+        width: 100%;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.past-event {
+  opacity: 0.8;
+  position: relative;
+  border-left: 4px solid #666 !important;
+}
+
+.past-event-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: #666;
+  color: #FFFFF0;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  z-index: 1;
+}
+
+/* Adjust position when both badges are present */
+.friends-attending .past-event-badge {
+  top: 40px;
+}
+
+/* Horizontal Events Container Layout */
+.horizontal-events-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.horizontal-section {
+  background-color: #FFFFF0;
+  border-radius: 10px;
+  padding: 0.8rem 1.5rem 1.2rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  width: 100%;
+}
+
+/* Horizontal section title - specific styling for Events sections */
+.horizontal-section .section-title {
+  color: #3B5998;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 0 1rem 0;
+  background: transparent;
+}
+
+.horizontal-event-grid {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding-bottom: 0.8rem;
+  scrollbar-width: thin;
+  scrollbar-color: #294C60 #f0f0f0;
+  min-height: 160px;
+}
+
+.horizontal-event-grid::-webkit-scrollbar {
+  height: 8px;
+}
+
+.horizontal-event-grid::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.horizontal-event-grid::-webkit-scrollbar-thumb {
+  background-color: #294C60;
+  border-radius: 4px;
+}
+
+.horizontal-event-card {
+  min-width: 260px;
+  flex: 0 0 auto;
+}
+
+.horizontal-event-card .event-card {
+  padding: 1rem;
+  min-height: 110px;
+}
+
+/* Adjust empty state for horizontal layout to be more compact */
+.horizontal-section .empty-state,
+.horizontal-section .friends-empty-state {
+  min-height: 160px;
+  padding: 1.5rem;
+}
+
+.friends-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1.5rem;
+  color: #666;
+  width: 100%;
+  min-height: 160px;
+  margin: 0 auto;
+}
+
+.friends-empty-state svg {
+  color: #55917F;
+  margin-bottom: 1rem;
+}
+
+/* Center the empty state when in horizontal layout */
+.horizontal-section .friends-empty-state {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Ensure event categories and horizontal sections have same width */
+.section.full-width-section,
+.horizontal-section {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Make sure content wrapper applies consistent constraints to all children */
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+/* Full width section title - for category sections */
+.section.full-width-section .section-title {
+  color: #3B5998;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 0 1rem 0;
+  background: transparent;
+}
+
+/* Make sure all event sections have consistent sizing */
+.horizontal-event-card,
+.horizontal-section .empty-state {
+  width: 260px;
+}
+
+/* Friends events styling in horizontal layout */
+.friends-events-section {
+  background-color: #F5F9F8;
+  border: 1px solid #D6E9E5;
+}
+
+.friends-events-section .section-title {
+  color: #55917F !important;
+  display: grid !important;
+  place-items: center !important;
+  width: 100% !important;
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Category preferences toggle above Life Categories */
+.category-preferences-toggle {
+  background-color: #FFFFF0;
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin: 1.5rem auto -1.5rem auto;
+  width: auto;
+  min-width: 250px;
+  max-width: 300px; /* Add max-width to keep it compact */
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+}
+
+/* Categories container to hold all category-related sections */
+.categories-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Spacer for toggle spacing consistency */
+.toggle-spacer {
+  height: 1rem;
+  width: 100%;
+}
+
+/* Specific spacer after the calendar navigation */
+.calendar-spacer {
+  height: 1rem;
+}
+
+/* Center the preferences container for the Hide Past Events toggle */
+.preferences-container {
+  display: flex;
+  justify-content: center;
+  margin: 0.75rem auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Style specific to the secondary nav and preferences container spacing */
+.secondary-nav + .toggle-spacer + .preferences-container {
+  margin-top: 0.5rem;
+}
+
+/* Section styling */
+.section.full-width-section {
+  margin-bottom: 30px;
+  background-color: #FFFFF0 !important;
+  border-radius: 12px;
+  padding: 15px 15px 20px 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+/* Categories Grid Layout - ensure 4x4 grid with equal sizing */
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 1050px;
+  box-sizing: border-box;
+}
+
+/* Category Card Styling - updated to match reference */
+.category-card {
+  background-color: #EAF4EB;
+  color: #294C60;
+  border-radius: 8px;
+  padding: 0.75rem 0.5rem;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 110px;
+  width: 100%;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Style for the selected indicator emoji (copied from preferences) */
+.selected-indicator {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 1.2rem; /* Adjust size as needed */
+    line-height: 1;
+    z-index: 1; /* Ensure emoji is above other content */
+}
+
+/* Use more specific selector for hover and add !important */
+.categories-grid > .category-card:hover {
+  background-color: #D6E0D7 !important; /* Changed selector and added !important */
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Category Card selected state */
+.categories-grid > .category-card.selected {
+  background-color: #294C60 !important;
+  color: #FFFFF0 !important;
+  /* Remove transform and box-shadow to prevent staying lifted */
+  /* transform: translateY(-3px); */ 
+  /* box-shadow: 0 4px 8px rgba(0,0,0,0.15); */
+}
+
+/* Hover state for selected category cards */
+.categories-grid > .category-card.selected:hover {
+  background-color: #1e3a4a !important;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Explicitly set children color for selected main category */
+.categories-grid > .category-card.selected > .category-name,
+.categories-grid > .category-card.selected > .category-icon {
+  color: #FFFFF0 !important;
+}
+
+/* Category icon adjustments */
+.category-card .category-icon {
+  font-size: 1.8rem;
+  margin-bottom: 0.4rem;
+  flex-shrink: 0;
+}
+
+/* Category name styling */
+.category-name {
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-height: 1.3;
+  font-size: 0.98rem;
+  font-weight: normal;
+  letter-spacing: 0.2px;
+  text-shadow: 0 0.5px 0 rgba(255,255,255,0.5);
+  margin-top: 0.1rem;
+}
+
+/* Special styling for long-text categories */
+.category-card.long-text .category-name {
+  font-size: 0.87rem;
+  line-height: 1.2;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  max-height: 60px;
+}
+
+.category-card.long-text .category-icon {
+  font-size: 1.6rem;
+  margin-bottom: 0.3rem;
+}
+
+/* Media queries specific to category cards */
+@media (max-width: 992px) {
+  .category-card {
+    height: 110px;
+  }
+  
+  .category-name {
+    font-size: 12px;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+  }
+  
+  .category-card.long-text .category-name {
+    font-size: 0.82rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section.full-width-section .categories-grid,
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .section.full-width-section .category-card {
+    height: 105px;
+  }
+  
+  .category-card .category-icon {
+    font-size: 1.7rem;
+  }
+  
+  .category-card .category-name {
+    font-size: 0.92rem;
+  }
+  
+  .category-card.long-text .category-name {
+    font-size: 0.82rem;
+  }
+  
+  .section.full-width-section .subcategories-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .section.full-width-section .categories-grid,
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  
+  .section.full-width-section .category-card {
+    height: 100px;
+  }
+  
+  .category-card .category-icon {
+    font-size: 1.6rem;
+    margin-bottom: 6px;
+  }
+  
+  .category-card.long-text .category-icon {
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+  }
+  
+  .category-card .category-name {
+    font-size: 0.9rem;
+  }
+  
+  .category-card.long-text .category-name {
+    font-size: 0.8rem;
+  }
+}
+
+/* Subcategories Grid Layout */
+.subcategories-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+/* Subcategory Card Styling */
+.subcategory-card {
+  background-color: #eaf4eb;
+  color: #294C60;
+  border-radius: 8px;
+  padding: 14px 10px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px; /* Increased for consistency with main categories */
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Add default styling for icon/name within subcategory card */
+.subcategories-grid > .subcategory-card > .category-icon {
+  color: #294C60;
+  /* We might need explicit font-size etc. if icons also disappear */
+}
+
+.subcategories-grid > .subcategory-card > .category-name {
+  color: #294C60; /* Default icon/text color */
+  /* Copy essential styles from .category-name to ensure visibility */
+  white-space: pre-wrap;
+  overflow: visible; /* Changed from hidden just in case */
+  text-overflow: ellipsis;
+  max-width: 100%;
+  display: -webkit-box; 
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-height: 1.3;
+  font-size: 0.9rem; /* Slightly smaller for subcats perhaps */
+  font-weight: normal;
+}
+
+.subcategories-grid > .subcategory-card.selected {
+  background-color: #294C60; /* Changed to dark blue */
+  color: #FFFFF0; /* Added for contrast */
+}
+
+/* Hover state for selected subcategory cards */
+.subcategories-grid > .subcategory-card.selected:hover {
+  background-color: #1e3a4a !important;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Explicitly set children color for selected subcategory */
+.subcategories-grid > .subcategory-card.selected > .category-icon,
+.subcategories-grid > .subcategory-card.selected > .category-name {
+  color: #FFFFF0;
+}
+
+.subcategory-icon {
+  font-size: 24px;
+  margin-bottom: 6px;
+  line-height: 1;
+}
+
+.subcategory-content {
+  width: 100%;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+/* Adjustments for subcategories section in the layout */
+.subcategories-section {
+  background-color: #FFFFF0;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: none;
+}
+
+/* Hide the old category and subcategory buttons */
+.category-buttons, .subcategory-buttons {
+  display: none;
+}
+
+/* Override any potential settings interfering with the grid */
+.category-buttons {
+  display: none !important;
+}
+
+/* Full-width-section specific styles to ensure proper container for grid */
+.section.full-width-section .categories-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  max-width: 1050px;
+  gap: 1rem;
+}
+
+/* Fix height for consistency */
+.section.full-width-section .category-card {
+  background-color: #EAF4EB;
+  color: #294C60;
+  border-radius: 8px;
+  padding: 0.75rem 0.5rem;
+  height: 110px;
+  aspect-ratio: auto;
+}
+
+/* Fix subcategory grid as well */
+.section.full-width-section .subcategories-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+/* Special styling for long-text categories */
+.category-card.long-text .category-name {
+  font-size: 0.87rem;
+  line-height: 1.2;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  max-height: 60px;
+}
+
+/* Media query for tablets - more specific selectors */
+@media (max-width: 992px) {
+  .section.full-width-section .categories-grid,
+  .categories-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .section.full-width-section .category-card {
+    height: 105px;
+  }
+  
+  .section.full-width-section .category-name {
+    font-size: 12px;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+  }
+  
+  .section.full-width-section .category-card.long-text .category-name {
+    font-size: 0.82rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section.full-width-section .categories-grid,
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .section.full-width-section .category-card {
+    height: 105px;
+  }
+  
+  .category-card .category-icon {
+    font-size: 1.7rem;
+  }
+  
+  .category-card .category-name {
+    font-size: 0.92rem;
+  }
+  
+  .section.full-width-section .category-card.long-text .category-name {
+    font-size: 0.82rem;
+  }
+  
+  .section.full-width-section .subcategories-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .section.full-width-section .categories-grid,
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  
+  .section.full-width-section .category-card {
+    height: 100px;
+  }
+  
+  .category-card .category-icon {
+    font-size: 1.6rem;
+    margin-bottom: 6px;
+  }
+  
+  .category-card.long-text .category-icon {
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+  }
+  
+  .category-card .category-name {
+    font-size: 0.9rem;
+  }
+  
+  .category-card.long-text .category-name {
+    font-size: 0.8rem;
+  }
+}
+
+/* Category Detail Styling */
+.category-detail-header {
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.category-detail-title {
+  margin-bottom: 10px;
+  text-align: center; /* Center the title with emoji */
+}
+
+.category-detail-header .section-title {
+  margin: 0;
+  text-align: center; /* Center the combined emoji + text */
+  color: #294C60;
+  font-size: 1.8rem;
+  display: grid !important;
+  place-items: center !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.category-description {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0 0 20px 0;
+  max-width: 800px;
+}
+
+.category-events-container {
+  margin-bottom: 25px;
+}
+
+/* Events section title within category sections */
+/* Aka this is the word "Events" that appears in the category event section */
+/* This is the category section with the "Create Event" and "Ask AI" buttons */
+.events-section-title {
+  color: #3B5998;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: -1.3rem auto 0 auto;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 0rem 0 1rem 0;
+  background: transparent;
+}
+
+.category-events-grid.horizontal-event-grid {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding-bottom: 15px;
+  min-height: 200px;
+}
+
+/* When there are no events, we want the empty state to be centered */
+.empty-events-grid {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Empty state styling */
+.category-events-grid .empty-state {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 200px;
+  text-align: center;
+  padding: 20px;
+}
+
+.category-events-grid .empty-state svg {
+  margin-bottom: 15px;
+  color: #294C60;
+  opacity: 0.8;
+}
+
+.category-events-grid .empty-state p {
+  margin: 5px 0;
+  color: #666;
+}
+
+/* Category Action Buttons */
+.category-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.category-action-button {
+  background-color: #FFFFF0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 200px;
+  max-width: 350px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.action-icon {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.category-action-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the FIRST button (Create Event - Blue) */
+button.category-action-button.create-button {
+  background-color: #f0f7ff !important;
+  border: 2px solid #90c0ff !important;
+  color: #333;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(144, 192, 255, 0.2);
+}
+
+button.category-action-button.create-button:hover {
+  background-color: #e5f1ff !important;
+  border-color: #6090ff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(96, 144, 255, 0.25);
+}
+
+/* Style for the SECOND button (Ask AI - Red) using talk-button class */
+button.category-action-button.talk-button {
+  background-color: #fff0f0 !important; /* Red background */
+  border: 2px solid #ff9090 !important; /* Red border */
+  color: #333;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(255, 144, 144, 0.2); /* Red shadow */
+  border-radius: 8px !important; /* Match border radius */
+}
+
+button.category-action-button.talk-button:hover {
+  background-color: #ffe5e5 !important; /* Red hover background */
+  border-color: #ff6060 !important; /* Red hover border */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(255, 96, 96, 0.25); /* Red hover shadow */
+  border-radius: 8px !important;
+}
+
+@media (max-width: 992px) {
+  .category-actions {
+    flex-direction: column;
+  }
+  
+  .category-action-button {
+    max-width: 100%;
+  }
+  
+  /* Ensure button styles are maintained on smaller screens */
+  button.category-action-button.create-button,
+  button.category-action-button.talk-button {
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .category-action-button {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+  }
+  
+  .action-icon {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .category-detail-icon {
+    font-size: 28px;
+    margin-right: 10px;
+  }
+  
+  .category-detail-header .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .category-description {
+    font-size: 0.95rem;
+  }
+  
+  .events-section-title {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .category-detail-title {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .category-detail-icon {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  .category-detail-header .section-title {
+    text-align: center;
+  }
+  
+  .category-description {
+    text-align: center;
+  }
+}
+
+/* When the horizontal event grid has no events, make it a flex container with centering */
+.horizontal-event-grid:empty,
+.horizontal-event-grid:only-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 160px;
+  width: 100%;
+}
+
+.horizontal-section .empty-state {
+  width: 100%;
+  flex: 1;
+  min-height: 160px;
+}
+
+/* When there are no events, modify the grid to center content */
+.horizontal-event-grid:has(.empty-state) {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for dynamically added category levels */
+.category-level-section {
+  margin-top: 1.5rem; /* Add space between levels */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.category-level-section .section-title {
+  color: #3B5998;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0 1rem 0;
+  background: transparent;
+}
+
+/* Style for the "All" card in subcategory grids */
+.category-card.all-card {
+  background-color: #f0f0f0; /* Different background for distinction */
+  color: #555;
+  height: 100px; /* Explicitly set height */
+  padding: 14px 10px; /* Match padding */
+  border: none; /* Match border */
+  /* Ensure box-sizing is consistent if necessary, but it's likely inherited */
+  box-sizing: border-box; /* Add explicitly for safety */
+}
+
+/* Update hover rule to not apply when selected */
+.subcategories-grid > .category-card.all-card:hover:not(.selected) {
+  background-color: #D6E0D7; /* Removed !important */
+  transform: translateY(-3px); 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Increase specificity for selected rule */
+.subcategories-grid > .category-card.all-card.selected {
+  background-color: #294C60; /* Match category selected style */
+  color: #FFFFF0;
+  border-color: #294C60; /* Match background */
+}
+
+.category-card.all-card .category-icon {
+  opacity: 0.8;
+}
+
+/* Add a specific class for long-text categories */
+.category-card.long-text .category-name {
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+/* Equal sizing for all cards in the grid */
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 1050px;
+  box-sizing: border-box;
+}
+
+/* Make sure each grid item takes equal space */
+.categories-grid > * {
+  min-width: 0; /* Allows grid items to shrink below content size */
+}
+
+/* Media queries to ensure responsiveness */
+@media (max-width: 992px) {
+  .category-card {
+    height: 110px;
+  }
+  
+  .category-name {
+    font-size: 12px;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+  }
+  
+  .category-card.long-text .category-name {
+    font-size: 0.82rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section.full-width-section .categories-grid,
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .section.full-width-section .category-card {
+    height: 105px;
+  }
+  
+  .category-card .category-icon {
+    font-size: 1.7rem;
+  }
+  
+  .category-card .category-name {
+    font-size: 0.92rem;
+  }
+  
+  .category-card.long-text .category-name {
+    font-size: 0.82rem;
+  }
+  
+  .section.full-width-section .subcategories-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .category-card {
+    height: 90px;
+  }
+  
+  .category-icon {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+}
+
+/* Added hover effect for subcategories */
+.subcategory-card:hover {
+  background-color: #D6E0D7;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.subcategories-grid > .subcategory-card.selected {
+  background-color: #294C60;
+  color: #FFFFF0;
+}
+
+/* Style for the "All" card in subcategory grids when parent name is long */
+/* .subcategory-card.all-card.long-parent-name .category-name {
+    font-size: 11px; 
+    line-height: 1.2;
+    -webkit-line-clamp: 4; 
+    line-clamp: 4;
+    max-height: none; 
+} */
+
+/* Update hover rule to not apply when selected */
+.subcategories-grid > .category-card.all-card:hover:not(.selected) {
+  background-color: #D6E0D7; /* Removed !important */
+  transform: translateY(-3px); 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Style for the "All" card when parent name IS NOT long (match default subcat font) */
+/* .subcategory-card.all-card:not(.long-parent-name) .category-name {
+    
+    color: #294C60; 
+    white-space: pre-wrap;
+    overflow: visible; 
+    text-overflow: ellipsis;
+    max-width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    line-height: 1.3;
+    font-size: 0.9rem;
+    font-weight: normal;
+} */
+
+/* Style for the "All" card ONLY for specific long parent category names */
+.subcategory-card.all-card.specific-long-parent .category-name {
+    font-size: 11.5px; /* Slightly smaller font */
+    line-height: 1.25; /* Adjust line height slightly */
+    -webkit-line-clamp: 4; /* Allow an extra line if needed */
+    line-clamp: 4;
+}
+
+/* Add styling for subcategory loading */
+.subcategories-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: #666;
+}
+
+.loading-spinner.small {
+  width: 30px;
+  height: 30px;
+  border-width: 3px;
+  margin-bottom: 10px;
+}
+
+/* Connection warning styling */
+.connection-warning {
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%;
+  max-width: 900px;
+  border: 1px solid #ffeeba;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.connection-warning p {
+  margin: 0.5rem 0;
+}
+
+.connection-warning p:first-child {
+  font-weight: bold;
+}
+
+/* Error container styling */
+.error-container {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #f5c6cb;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.error-container p {
+  margin: 1rem 0;
+}
+
+.search-buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.search-form:has(.clear-search-button) {
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .search-buttons-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+}
+
+/* Main navigation hover states - use more specific selectors */
+.main-nav .nav-link:hover {
+  color: #D1D8E0 !important; /* Slightly darker than #FFFFF0 with !important */
+}
+
+.main-nav .logout-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #D1D8E0 !important; /* Slightly darker than #FFFFF0 with !important */
+}
+
+/* Secondary navigation hover states - much darker */
+.secondary-nav .nav-link:hover {
+  color: #2E4578 !important; /* Much darker than original */
+}
+
+/* Toggle label hover states */
+.toggle-label:hover {
+  cursor: pointer;
+}
+
+/* Remove the old less specific toggle text hover rule */
+/* .toggle-label:hover .toggle-text {
+  color: #1e3a4a;
+} */
+
+/* Specific hover for Show Preferred Categories toggle */
+/* .category-preferences-toggle .toggle-label:hover .toggle-text {
+  color: #1e3a4a;
+} */
+
+/* Toggle hover states - added at end to ensure they work */
+.category-preferences-toggle .toggle-label:hover .toggle-text,
+.preferences-toggle .toggle-label:hover .toggle-text {
+  color: #1a2f3d !important; /* Much darker hover color for toggles */
+}

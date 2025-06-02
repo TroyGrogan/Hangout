@@ -1,0 +1,331 @@
+[
+  {
+    "id": 1,
+    "prompt": "Suggest different meditation techniques (Mindfulness, Loving-Kindness, Body Scan, etc.).",
+    "displayText": "Explore Meditation Techniques",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 2,
+    "prompt": "Suggest ways to incorporate prayer, chanting, or affirmations into a spiritual practice.",
+    "displayText": "Prayer/Devotion Practices",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 3,
+    "prompt": "Explain energy practices like Qigong, Tai Chi, Reiki, or Chakra Balancing.",
+    "displayText": "Learn Energy Practices",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 4,
+    "prompt": "Suggest resources for exploring consciousness (Lucid Dreaming, Astral Projection, Breathwork).",
+    "displayText": "Explore Consciousness",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 5,
+    "prompt": "Suggest ways to connect with nature spiritually (Forest Bathing, Earth-Based Traditions, Nature Rituals).",
+    "displayText": "Connect with Nature Spiritually",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 6,
+    "prompt": "Explain contemporary spiritual movements like New Age, SBNR, or Integral Spirituality.",
+    "displayText": "Contemporary Spiritual Movements",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 7,
+    "prompt": "Suggest resources for learning about mystical traditions (Sufism, Kabbalah, Christian Mysticism, Gnosticism).",
+    "displayText": "Learn Mystical Traditions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 8,
+    "prompt": "Suggest practices for spiritual development (Shadow Work, Inner Child Healing, Spiritual Direction).",
+    "displayText": "Spiritual Development Practices",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 9,
+    "prompt": "Explain the core beliefs and practices of major Christian denominations (Catholicism, Orthodoxy, Protestantism).",
+    "displayText": "Learn about Christianity",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 10,
+    "prompt": "Explain the core beliefs and practices of Islam (Sunni, Shia, Sufism).",
+    "displayText": "Learn about Islam",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 11,
+    "prompt": "Explain the core beliefs and practices of Judaism (Orthodox, Conservative, Reform).",
+    "displayText": "Learn about Judaism",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 12,
+    "prompt": "Explain the core beliefs and practices of the Baha'i Faith.",
+    "displayText": "Learn about Baha'i Faith",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 13,
+    "prompt": "Explain the core beliefs and practices of Hinduism (Vaishnavism, Shaivism, Shaktism, Yoga).",
+    "displayText": "Learn about Hinduism",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 14,
+    "prompt": "Explain the core beliefs and practices of Buddhism (Theravada, Mahayana, Vajrayana, Zen).",
+    "displayText": "Learn about Buddhism",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 15,
+    "prompt": "Explain the core beliefs and practices of Jainism.",
+    "displayText": "Learn about Jainism",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 16,
+    "prompt": "Explain the core beliefs and practices of Sikhism.",
+    "displayText": "Learn about Sikhism",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 17,
+    "prompt": "Explain the core beliefs and practices of Taoism and Confucianism.",
+    "displayText": "Learn Taoism/Confucianism",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 18,
+    "prompt": "Explain the core beliefs and practices of Shinto.",
+    "displayText": "Learn about Shinto",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 19,
+    "prompt": "Suggest resources for learning about various Indigenous Religions (Native American, African Traditional, etc.).",
+    "displayText": "Learn Indigenous Religions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 20,
+    "prompt": "Explain the beliefs and practices of modern religious movements (Scientology, Unitarian Universalism, Neopaganism).",
+    "displayText": "Modern Religious Movements",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 21,
+    "prompt": "Suggest ways to learn about religious rituals, festivals, or practices (Worship, Prayer, Sacred Texts, Pilgrimage).",
+    "displayText": "Explore Religious Rituals/Practices",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 22,
+    "prompt": "Suggest resources or ways to engage in interfaith dialogue or comparative religion studies.",
+    "displayText": "Engage in Interfaith Dialogue",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 23,
+    "prompt": "Explain key concepts from Ancient Western Philosophy (Socrates, Plato, Aristotle, Stoicism, Epicureanism).",
+    "displayText": "Ancient Western Philosophy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 24,
+    "prompt": "Explain key concepts from Medieval Philosophy (Scholasticism, Augustine, Aquinas, Islamic Philosophy).",
+    "displayText": "Medieval Philosophy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 25,
+    "prompt": "Explain key concepts from Modern Philosophy (Rationalism, Empiricism, Kant, German Idealism, Utilitarianism).",
+    "displayText": "Modern Western Philosophy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 26,
+    "prompt": "Explain key concepts from Contemporary Western Philosophy (Existentialism, Phenomenology, Postmodernism, Critical Theory).",
+    "displayText": "Contemporary Western Philosophy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 27,
+    "prompt": "Explain key concepts from Chinese Philosophy (Confucianism, Taoism, Legalism).",
+    "displayText": "Chinese Philosophy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 28,
+    "prompt": "Explain key concepts from Indian Philosophy (Vedanta, Yoga, Buddhist Philosophy, Jain Philosophy).",
+    "displayText": "Indian Philosophy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 29,
+    "prompt": "Explain key concepts from Japanese Philosophy (Zen, Bushido, Aesthetics).",
+    "displayText": "Japanese Philosophy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 30,
+    "prompt": "Suggest resources for learning about African Philosophy (Ubuntu, Sage Philosophy).",
+    "displayText": "African Philosophy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 31,
+    "prompt": "Suggest resources for learning about Latin American Philosophy (Liberation Philosophy).",
+    "displayText": "Latin American Philosophy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 32,
+    "prompt": "Explain the main questions explored in Metaphysics (nature of reality).",
+    "displayText": "Explore Metaphysics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 33,
+    "prompt": "Explain the main questions explored in Epistemology (nature of knowledge).",
+    "displayText": "Explore Epistemology",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 34,
+    "prompt": "Explain different approaches to Ethics (Virtue, Deontology, Consequentialism, Care Ethics).",
+    "displayText": "Explore Ethics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 35,
+    "prompt": "Explain the main questions explored in Aesthetics (nature of beauty and art).",
+    "displayText": "Explore Aesthetics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 36,
+    "prompt": "Explain the main questions explored in Logic (principles of reasoning).",
+    "displayText": "Explore Logic",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 37,
+    "prompt": "Explain the main questions explored in Political Philosophy (justice, rights, government).",
+    "displayText": "Explore Political Philosophy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 38,
+    "prompt": "Explain the main questions explored in the Philosophy of Science, Mind, Language, or Religion.",
+    "displayText": "Specific Philosophy Branches",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 39,
+    "prompt": "Discuss ethical considerations in Bioethics, Business Ethics, Environmental Ethics, or Technology Ethics.",
+    "displayText": "Explore Applied Ethics",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 40,
+    "prompt": "Suggest philosophical approaches to exploring the meaning and purpose of life.",
+    "displayText": "Philosophical Views on Meaning/Purpose",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 41,
+    "prompt": "Suggest philosophical perspectives on death, mortality, grief, and the concept of an afterlife.",
+    "displayText": "Philosophical Views on Death/Mortality",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 42,
+    "prompt": "Discuss philosophical views on the human condition (suffering, joy, love, freedom, authenticity).",
+    "displayText": "Philosophical Views on Human Condition",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 43,
+    "prompt": "Explore philosophical concepts of ultimate reality, God, or consciousness.",
+    "displayText": "Philosophical Views on Ultimate Reality",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 44,
+    "prompt": "Discuss the philosophical debate between free will and determinism.",
+    "displayText": "Explore Free Will vs. Determinism",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 45,
+    "prompt": "Explore philosophical ideas about personal identity, self-concept, and the nature of self.",
+    "displayText": "Philosophical Views on Identity/Self",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 46,
+    "prompt": "Discuss different philosophical approaches to ethics, morality, justice, and rights.",
+    "displayText": "Philosophical Views on Ethics/Morality",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 47,
+    "prompt": "Explore philosophical questions about the nature of knowledge, truth, and ways of knowing.",
+    "displayText": "Philosophical Views on Knowledge/Truth",
+    "isTemplate": false,
+    "type": "do"
+  }
+]

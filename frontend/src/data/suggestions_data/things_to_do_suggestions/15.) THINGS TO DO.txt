@@ -1,0 +1,704 @@
+"Suggest recipes or ways to use different types of berries (strawberries, blueberries, raspberries)."
+"Berry Recipes/Uses"
+
+"Suggest recipes or ways to use citrus fruits (oranges, lemons, limes, grapefruit)."
+"Citrus Fruit Recipes/Uses"
+
+"Suggest recipes or ways to use stone fruits (peaches, plums, cherries, mangoes)."
+"Stone Fruit Recipes/Uses"
+
+"Suggest recipes or ways to use pome fruits (apples, pears, quince)."
+"Pome Fruit Recipes/Uses"
+
+"Suggest recipes or ways to use tropical/exotic fruits (banana, pineapple, kiwi, dragon fruit)."
+"Tropical/Exotic Fruit Recipes/Uses"
+
+"Suggest recipes or ways to use different types of melons (watermelon, cantaloupe, honeydew)."
+"Melon Recipes/Uses"
+
+"Suggest recipes using dried fruits (raisins, prunes, dates, apricots)."
+"Dried Fruit Recipes/Uses"
+
+"Suggest ways to identify or use wild/foraged fruits (pawpaw, persimmon, wild berries)."
+"Identify/Use Wild Fruits"
+
+"Suggest recipes or ways to use leafy greens (spinach, kale, collards, chard)."
+"Leafy Green Recipes/Uses"
+
+"Suggest recipes featuring cruciferous greens (broccoli, Brussels sprouts, bok choy)."
+"Cruciferous Green Recipes/Uses"
+
+"Suggest ways to use common Mediterranean herbs (basil, oregano, rosemary, thyme, sage)."
+"Use Mediterranean Herbs"
+
+"Suggest ways to use common leafy herbs (parsley, cilantro, dill, chives)."
+"Use Leafy Herbs"
+
+"Suggest ways to use mint family herbs (peppermint, spearmint, lemon balm, lavender)."
+"Use Mint Family Herbs"
+
+"Suggest ways to use Asian/Tropical herbs (lemongrass, curry leaf, kaffir lime, shiso)."
+"Use Asian/Tropical Herbs"
+
+"Suggest ways to identify or use wild/foraged herbs (dandelion, nettle, ramps)."
+"Identify/Use Wild Herbs"
+
+"Suggest uses for common medicinal or aromatic herbs (chamomile, echinacea, valerian)."
+"Uses for Medicinal/Aromatic Herbs"
+
+"Suggest ways to use flavoring herbs (fennel, caraway, anise, fenugreek)."
+"Use Flavoring Herbs"
+
+"Suggest ways to use herbs for salads or garnishes (nasturtium, chervil, salad burnet)."
+"Use Salad/Garnishing Herbs"
+
+"Suggest recipes featuring red/orange vegetables (carrots, sweet potatoes, red peppers, tomatoes)."
+"Red/Orange Vegetable Recipes"
+
+"Suggest recipes using starchy vegetables (potatoes, yams, cassava, corn, winter squash)."
+"Starchy Vegetable Recipes"
+
+"Suggest recipes using beans (black, kidney, pinto), peas, or lentils."
+"Bean/Pea/Lentil Recipes"
+
+"Suggest ways to cook with allium vegetables (onions, garlic, leeks, shallots)."
+"Cook with Alliums"
+
+"Suggest recipes using non-leafy cruciferous vegetables (cauliflower, cabbage, radish, turnip)."
+"Cruciferous Vegetable Recipes (Non-Leafy)"
+
+"Suggest recipes featuring stem vegetables (celery, asparagus, rhubarb, fennel)."
+"Stem Vegetable Recipes"
+
+"Suggest recipes using non-starchy gourds/squashes (zucchini, cucumber, bitter melon)."
+"Gourd/Squash Recipes (Non-Starchy)"
+
+"Suggest recipes using nightshade vegetables (eggplant, green peppers)."
+"Nightshade Vegetable Recipes"
+
+"Suggest ways to cook with sea vegetables (seaweed, kelp, nori, wakame)."
+"Cook with Sea Vegetables"
+
+"Suggest ways to use sprouts or shoots in cooking."
+"Use Sprouts/Shoots in Cooking"
+
+"Explain the difference between whole grains and refined grains."
+"Whole vs. Refined Grains"
+
+"Suggest recipes or cooking methods for different types of meat (beef, pork, lamb, goat)."
+"Meat Recipes/Cooking Methods"
+
+"Suggest recipes or cooking methods for game meats (venison, bison, rabbit)."
+"Game Meat Recipes/Methods"
+
+"Suggest recipes or cooking methods for poultry (chicken, turkey, duck)."
+"Poultry Recipes/Methods"
+
+"Suggest recipes or cooking methods for finfish (salmon, tuna, cod)."
+"Finfish Recipes/Methods"
+
+"Suggest recipes or cooking methods for shellfish (shrimp, crab, lobster, clams, oysters)."
+"Shellfish Recipes/Methods"
+
+"Suggest ways to incorporate dairy products into meals."
+"Use Dairy in Meals"
+
+"Suggest different ways to cook eggs."
+"Ways to Cook Eggs"
+
+"Suggest recipes using common mushrooms (button, shiitake, portobello, oyster)."
+"Common Mushroom Recipes"
+
+"Suggest recipes using specialty mushrooms (chanterelles, morels, porcini, truffles)."
+"Specialty Mushroom Recipes"
+
+"Suggest recipes or resources for exploring North African cuisine (Moroccan, Tunisian)."
+"Explore North African Cuisine"
+
+"Suggest recipes or resources for exploring West African cuisine (Ghanaian, Nigerian, Senegalese)."
+"Explore West African Cuisine"
+
+"Suggest recipes or resources for exploring East African cuisine (Ethiopian, Kenyan, Somali)."
+"Explore East African Cuisine"
+
+"Suggest recipes or resources for exploring Southern African cuisine (South African, Zimbabwean)."
+"Explore Southern African Cuisine"
+
+"Suggest resources for learning about different regional Chinese cuisines (Cantonese, Sichuan, Hunan)."
+"Explore Regional Chinese Cuisines"
+
+"Suggest recipes or resources for exploring Japanese cuisine."
+"Explore Japanese Cuisine"
+
+"Suggest recipes or resources for exploring Korean cuisine."
+"Explore Korean Cuisine"
+
+"Suggest recipes or resources for exploring Thai cuisine."
+"Explore Thai Cuisine"
+
+"Suggest recipes or resources for exploring Vietnamese cuisine."
+"Explore Vietnamese Cuisine"
+
+"Suggest recipes or resources for exploring Filipino cuisine."
+"Explore Filipino Cuisine"
+
+"Suggest recipes or resources for exploring Indonesian or Malaysian cuisine."
+"Explore Indonesian/Malaysian Cuisine"
+
+"Suggest resources for learning about other Southeast Asian cuisines (Cambodian, Laotian, Burmese)."
+"Explore Other SE Asian Cuisines"
+
+"Suggest recipes or resources for exploring Indian cuisine."
+"Explore Indian Cuisine"
+
+"Suggest recipes or resources for exploring Pakistani or Bangladeshi cuisine."
+"Explore Pakistani/Bangladeshi Cuisine"
+
+"Suggest recipes or resources for exploring Nepali or Sri Lankan cuisine."
+"Explore Nepali/Sri Lankan Cuisine"
+
+"Suggest resources for learning about Central Asian cuisines (Uzbek, Kazakh)."
+"Explore Central Asian Cuisines"
+
+"Suggest recipes or resources for exploring Middle Eastern cuisines (Turkish, Lebanese, Persian, Israeli)."
+"Explore Middle Eastern Cuisines"
+
+"Suggest recipes or resources for exploring Italian cuisine."
+"Explore Italian Cuisine"
+
+"Suggest recipes or resources for exploring Spanish cuisine."
+"Explore Spanish Cuisine"
+
+"Suggest recipes or resources for exploring Greek cuisine."
+"Explore Greek Cuisine"
+
+"Suggest recipes or resources for exploring French cuisine."
+"Explore French Cuisine"
+
+"Suggest recipes or resources for exploring German cuisine."
+"Explore German Cuisine"
+
+"Suggest recipes or resources for exploring British cuisine."
+"Explore British Cuisine"
+
+"Suggest resources for learning about Eastern European cuisines (Polish, Russian, Ukrainian)."
+"Explore Eastern European Cuisines"
+
+"Suggest resources for learning about Nordic/Scandinavian cuisines (Swedish, Norwegian, Danish)."
+"Explore Nordic Cuisines"
+
+"Suggest recipes for classic American dishes (burgers, hot dogs, pizza, apple pie)."
+"Classic American Recipes"
+
+"Suggest recipes or resources for exploring Southern US cuisine (BBQ, Soul Food)."
+"Explore Southern US Cuisine"
+
+"Suggest recipes or resources for exploring Cajun or Creole cuisine."
+"Explore Cajun/Creole Cuisine"
+
+"Suggest recipes or resources for exploring New England cuisine (clam chowder, lobster)."
+"Explore New England Cuisine"
+
+"Suggest recipes or resources for exploring Midwestern US cuisine (casseroles, comfort food)."
+"Explore Midwestern US Cuisine"
+
+"Suggest recipes or resources for exploring Southwestern US cuisine (Tex-Mex, New Mexican)."
+"Explore Southwestern US Cuisine"
+
+"Suggest resources for learning about Pacific Northwest or California cuisine."
+"Explore Pacific NW/California Cuisine"
+
+"Suggest resources for learning about Mid-Atlantic cuisine (Chesapeake seafood, NY Deli)."
+"Explore Mid-Atlantic Cuisine"
+
+"Suggest recipes or resources for exploring Hawaiian cuisine (poke, kalua pork)."
+"Explore Hawaiian Cuisine"
+
+"Suggest resources for learning about regional Canadian cuisines (Quebecois, Atlantic)."
+"Explore Canadian Cuisines"
+
+"Suggest recipes or resources for exploring regional Mexican cuisines."
+"Explore Regional Mexican Cuisines"
+
+"Suggest resources for learning about Central American cuisines (Costa Rican, Guatemalan)."
+"Explore Central American Cuisines"
+
+"Suggest recipes or resources for exploring Brazilian cuisine."
+"Explore Brazilian Cuisine"
+
+"Suggest recipes or resources for exploring Argentine cuisine."
+"Explore Argentine Cuisine"
+
+"Suggest recipes or resources for exploring Peruvian cuisine."
+"Explore Peruvian Cuisine"
+
+"Suggest resources for learning about other South American cuisines (Colombian, Chilean, Venezuelan)."
+"Explore Other South American Cuisines"
+
+"Suggest recipes or resources for exploring Jamaican cuisine."
+"Explore Jamaican Cuisine"
+
+"Suggest recipes or resources for exploring Cuban cuisine."
+"Explore Cuban Cuisine"
+
+"Suggest recipes or resources for exploring Puerto Rican or Dominican cuisine."
+"Explore Puerto Rican/Dominican Cuisine"
+
+"Suggest resources for learning about other Caribbean cuisines (Haitian, Trinidadian)."
+"Explore Other Caribbean Cuisines"
+
+"Suggest resources for learning about Australian or New Zealander cuisine."
+"Explore Australian/NZ Cuisine"
+
+"Suggest resources for learning about Pacific Islander cuisines."
+"Explore Pacific Islander Cuisines"
+
+"Suggest resources for learning about Jewish cuisines (Ashkenazi, Sephardic, Mizrahi)."
+"Explore Jewish Cuisines"
+
+"Suggest resources for learning about Roma cuisine."
+"Explore Roma Cuisine"
+
+"Suggest resources for learning about diaspora cuisines (Chinese, Indian, Italian diaspora)."
+"Explore Diaspora Cuisines"
+
+"Suggest resources for learning about religious/cultural cuisines (Halal, Hindu Vegetarian, Buddhist)."
+"Explore Religious/Cultural Cuisines"
+
+"Suggest resources for learning about Indigenous/First Nations cuisines (Native American, Aboriginal)."
+"Explore Indigenous Cuisines"
+
+"Suggest examples or recipes for fusion cuisines (Creole, Cajun, Peranakan, Tex-Mex)."
+"Explore Fusion Cuisines"
+
+"Suggest resources for learning about historical cuisines (Ancient, Medieval)."
+"Explore Historical Cuisines"
+
+"Suggest resources for learning basic baking techniques (bread, pastry, cakes, cookies)."
+"Learn Basic Baking Techniques"
+
+"Suggest resources for learning advanced baking (sourdough, laminated dough, cake decorating)."
+"Learn Advanced Baking Techniques"
+
+"Suggest techniques for roasting, grilling, or broiling different foods."
+"Learn Roasting/Grilling/Broiling"
+
+"Suggest resources for learning food smoking or curing techniques."
+"Learn Smoking/Curing Food"
+
+"Suggest techniques for boiling, simmering, steaming, or poaching."
+"Learn Moist Heat Cooking (Boil, Steam, Poach)"
+
+"Suggest techniques for braising meats or vegetables."
+"Learn Braising Techniques"
+
+"Suggest resources for learning sous vide or pressure cooking."
+"Learn Sous Vide/Pressure Cooking"
+
+"Suggest techniques for shallow frying, deep frying, or sautéing."
+"Learn Frying Techniques (Shallow, Deep, Sauté)"
+
+"Suggest techniques for stir-frying or stewing."
+"Learn Stir-Frying/Stewing"
+
+"Suggest resources or classes for improving knife skills."
+"Improve Knife Skills"
+
+"Suggest resources for learning how to make sauces and emulsions."
+"Learn Sauces/Emulsions"
+
+"Suggest resources for learning about food fermentation (sauerkraut, kimchi, yogurt)."
+"Learn Food Fermentation"
+
+"Suggest resources for learning pastry arts or charcuterie."
+"Learn Pastry Arts/Charcuterie"
+
+"Suggest resources or recipes for vegan or vegetarian cooking."
+"Vegan/Vegetarian Cooking Resources"
+
+"Suggest resources or recipes for gluten-free, dairy-free, or nut-free cooking."
+"Allergy-Friendly Cooking (Gluten/Dairy/Nut)"
+
+"Suggest resources or recipes for low-sodium or diabetic-friendly cooking."
+"Low-Sodium/Diabetic-Friendly Cooking"
+
+"Explain the difference between simple and complex carbohydrates."
+"Simple vs. Complex Carbs"
+
+"Explain the Glycemic Index/Load and how to use it."
+"Understand Glycemic Index/Load"
+
+"Explain the difference between complete and incomplete proteins and provide examples."
+"Complete vs. Incomplete Proteins"
+
+"Explain the different types of dietary fats (saturated, monounsaturated, polyunsaturated, omega-3/6)."
+"Types of Dietary Fats"
+
+"Explain the difference between fat-soluble and water-soluble vitamins."
+"Fat-Soluble vs. Water-Soluble Vitamins"
+
+"Suggest food sources for important B vitamins (B1, B2, B3, B6, B9, B12) and Vitamin C."
+"Food Sources for B Vitamins & Vitamin C"
+
+"Suggest food sources for important fat-soluble vitamins (A, D, E, K)."
+"Food Sources for Fat-Soluble Vitamins"
+
+"Explain the difference between macrominerals and microminerals/trace minerals."
+"Macro vs. Micro Minerals"
+
+"Suggest food sources for important minerals (Calcium, Iron, Potassium, Magnesium, Zinc)."
+"Food Sources for Important Minerals"
+
+"Explain the difference between soluble and insoluble dietary fiber and their benefits."
+"Soluble vs. Insoluble Fiber"
+
+"Suggest resources for learning about specific dietary plans (Keto, Mediterranean, Paleo, Whole30, Vegan)."
+"Learn Specific Dietary Plans"
+
+"Explain intuitive eating or macro-based dietary approaches."
+"Intuitive Eating/Macro-Based Diets"
+
+"Explain different methods of intermittent fasting (16:8, OMAD, 5:2)."
+"Intermittent Fasting Methods"
+
+"Suggest strategies for effective meal planning and meal prep."
+"Meal Planning/Prep Strategies"
+
+"Suggest resources for learning how to read food labels effectively."
+"Learn to Read Food Labels"
+
+"Suggest ways to practice portion control."
+"Practice Portion Control"
+
+"Explain the concept of nutrient density in foods."
+"Understand Nutrient Density"
+
+"Suggest ways to choose sustainable seafood options."
+"Choose Sustainable Seafood"
+
+"Suggest tips for adapting recipes for special dietary needs (gluten-free, dairy-free, etc.)."
+"Adapt Recipes for Dietary Needs"
+
+"Suggest different types of non-alcoholic beverages besides water (juice, smoothies, tea, coffee)."
+"Explore Non-Alcoholic Beverages"
+
+"Suggest resources for learning about tea ceremonies or tea tasting."
+"Learn About Tea Ceremonies/Tasting"
+
+"Explain different coffee bean types (Arabica, Robusta) and brewing methods (drip, French press, cold brew)."
+"Coffee Beans & Brewing Methods"
+
+"Suggest common espresso-based coffee drinks (latte, cappuccino, macchiato, mocha)."
+"Common Espresso Drinks"
+
+"Suggest different types of plant-based milk alternatives (almond, soy, oat, cashew)."
+"Explore Plant-Based Milks"
+
+"Suggest fermented drinks to try (kombucha, kefir, kvass)."
+"Try Fermented Drinks"
+
+"Suggest recipes for creating mocktails (non-alcoholic cocktails)."
+"Mocktail Recipes"
+
+"Suggest resources for learning about different beer styles (ales, lagers, stouts, IPAs)."
+"Learn Beer Styles"
+
+"Suggest resources for attending beer brewing workshops or tastings."
+"Attend Beer Brewing/Tasting Events"
+
+"Suggest resources for learning about wine tasting, food pairings, or vineyard visits."
+"Learn Wine Tasting/Pairing/Vineyards"
+
+"Explain different types of wine (red, white, rosé, sparkling, dessert, fortified)."
+"Types of Wine Explained"
+
+"Suggest resources for learning about different spirits (vodka, gin, rum, tequila, whiskey, brandy)."
+"Learn About Spirits"
+
+"Suggest resources for learning mixology basics or classic cocktail recipes."
+"Learn Mixology/Classic Cocktails"
+
+"Suggest resources for learning about cider or mead."
+"Learn About Cider/Mead"
+
+"Suggest ways to find different types of restaurants in my area (fine dining, casual, ethnic, food trucks)."
+"Find Local Restaurant Types"
+
+"Suggest ways to find local food festivals or farmers markets."
+"Find Food Festivals/Farmers Markets"
+
+"Suggest resources for finding cooking schools or classes."
+"Find Cooking Schools/Classes"
+
+"Suggest resources for learning about food history or the relationship between food and culture."
+"Learn Food History/Culture"
+
+"Suggest resources for learning dining etiquette for different situations."
+"Learn Dining Etiquette"
+
+"Explain molecular gastronomy concepts and techniques."
+"Molecular Gastronomy Explained"
+
+"Suggest ways to adopt farm-to-table or seasonal eating practices."
+"Adopt Farm-to-Table/Seasonal Eating"
+
+"Suggest strategies for reducing food waste at home."
+"Reduce Food Waste at Home"
+
+"Suggest ways to support local food sourcing or urban farming initiatives."
+"Support Local Food/Urban Farming"
+
+"Suggest resources for learning about sustainable agriculture practices."
+"Learn Sustainable Agriculture"
+
+"Suggest ways to make ethical food choices regarding animal welfare or fair trade."
+"Make Ethical Food Choices (Welfare/Fair Trade)"
+
+"Suggest resources for understanding the environmental impact of food production."
+"Understand Environmental Impact of Food"
+
+"Suggest recipes or uses for specific berries like goji, acai, elderberries, or currants."
+"Specific Berry Recipes (Goji, Acai, etc.)"
+
+"Suggest ways to use less common citrus fruits like kumquats or pomelos."
+"Use Kumquats/Pomelos"
+
+"Suggest recipes using lychees, olives, or dates."
+"Lychee/Olive/Date Recipes"
+
+"Suggest ways to cook with quince, crabapples, or loquats."
+"Cook with Quince/Crabapples/Loquats"
+
+"Suggest recipes for less common tropical fruits like guava, starfruit, jackfruit, or durian."
+"Exotic Fruit Recipes (Guava, Jackfruit, etc.)"
+
+"Suggest ways to use different melon varieties like Casaba, Persian, or Winter Melon."
+"Different Melon Variety Uses"
+
+"Suggest ways to make or use cold-pressed juices."
+"Make/Use Cold-Pressed Juices"
+
+"Suggest ways to use specific dried fruits like figs, cranberries, mango, or banana chips."
+"Use Specific Dried Fruits (Figs, Mango, etc.)"
+
+"Suggest recipes or uses for specific leafy greens like arugula, watercress, or beet greens."
+"Recipes for Arugula/Watercress/Beet Greens"
+
+"Suggest ways to use specific Mediterranean herbs like marjoram, savory, or tarragon."
+"Use Marjoram/Savory/Tarragon"
+
+"Suggest ways to use specific leafy herbs like chervil, sorrel, lovage, or borage."
+"Use Chervil/Sorrel/Lovage/Borage"
+
+"Suggest uses for lavender, hyssop, or bergamot (bee balm) in cooking or drinks."
+"Use Lavender/Hyssop/Bergamot"
+
+"Suggest ways to use specific Asian herbs like Vietnamese coriander, pandan, or culantro."
+"Use Rau Ram/Pandan/Culantro"
+
+"Suggest ways to use specific wild herbs like chickweed, lamb's quarters, or wood sorrel."
+"Use Chickweed/Lamb's Quarters/Wood Sorrel"
+
+"Suggest ways to use specific flavoring herbs like epazote or juniper."
+"Use Epazote/Juniper"
+
+"Suggest recipes using specific red/orange vegetables like red cabbage or red onions."
+"Red Cabbage/Red Onion Recipes"
+
+"Suggest ways to cook with specific tubers like cassava, taro, yucca, or jicama."
+"Cook Cassava/Taro/Yucca/Jicama"
+
+"Suggest ways to use hominy in cooking."
+"Cook with Hominy"
+
+"Suggest recipes using acorn squash or buttercup squash."
+"Acorn/Buttercup Squash Recipes"
+
+"Suggest ways to cook plantains (green or ripe)."
+"Cook Plantains"
+
+"Suggest recipes using specific beans like navy beans, lima beans, or black-eyed peas."
+"Navy/Lima/Black-Eyed Pea Recipes"
+
+"Suggest recipes using soybeans or edamame."
+"Soybean/Edamame Recipes"
+
+"Suggest recipes using specific peas like snow peas, snap peas, split peas, or pigeon peas."
+"Snow/Snap/Split/Pigeon Pea Recipes"
+
+"Suggest recipes using specific lentils like brown, red, green, black, or yellow lentils."
+"Specific Lentil Recipes (Brown, Red, etc.)"
+
+"Suggest recipes using kohlrabi or rutabaga."
+"Kohlrabi/Rutabaga Recipes"
+
+"Suggest recipes using bamboo shoots or chayote."
+"Bamboo Shoot/Chayote Recipes"
+
+"Suggest recipes using specific fungi like enoki or porcini mushrooms."
+"Enoki/Porcini Mushroom Recipes"
+
+"Suggest resources for learning about Mongolian cuisine."
+"Explore Mongolian Cuisine"
+
+"Suggest resources for learning about Singaporean or Brunei cuisine."
+"Explore Singaporean/Brunei Cuisine"
+
+"Suggest resources for learning about Cambodian, Laotian, or Burmese cuisine."
+"Explore Cambodian/Laotian/Burmese Cuisine"
+
+"Suggest resources for learning about Tajikistani or Turkmenistani cuisine."
+"Explore Tajikistani/Turkmenistani Cuisine"
+
+"Suggest resources for learning about specific US BBQ styles (e.g., Carolina, Kansas City, Texas)."
+"Explore Regional US BBQ Styles"
+
+"Suggest classic Soul Food recipes (fried chicken, collards, cornbread, gumbo)."
+"Classic Soul Food Recipes"
+
+"Suggest classic Cajun recipes (crawfish boil, jambalaya, étouffée, blackened dishes)."
+"Classic Cajun Recipes"
+
+"Suggest classic Creole recipes (shrimp creole, red beans & rice, beignets)."
+"Classic Creole Recipes"
+
+"Suggest recipes typical of Midwestern hotdish or comfort food."
+"Midwestern Hotdish/Comfort Food Recipes"
+
+"Suggest recipes featuring green chiles or other New Mexican specialties."
+"New Mexican Recipes (Green Chile)"
+
+"Suggest recipes for Navajo tacos or other Native American influenced Southwestern dishes."
+"Navajo Tacos & SW Native Recipes"
+
+"Suggest recipes featuring Chesapeake Bay seafood (crab cakes, etc.)."
+"Chesapeake Bay Seafood Recipes"
+
+"Suggest classic New York Deli or Philadelphia fare recipes."
+"NY Deli / Philadelphia Recipes"
+
+"Suggest recipes featuring poke, Spam musubi, or plate lunch from Hawaii."
+"Classic Hawaiian Recipes"
+
+"Suggest resources for learning about Belizean or Panamanian cuisine."
+"Explore Belizean/Panamanian Cuisine"
+
+"Suggest resources for learning about Colombian, Chilean, or Venezuelan cuisine."
+"Explore Colombian/Chilean/Venezuelan Cuisine"
+
+"Suggest resources for learning about Ecuadorian, Bolivian, or Uruguayan cuisine."
+"Explore Ecuadorian/Bolivian/Uruguayan Cuisine"
+
+"Suggest resources for learning about Guyanese or Surinamese cuisine."
+"Explore Guyanese/Surinamese Cuisine"
+
+"Suggest resources for learning about Haitian or Trinidadian cuisine."
+"Explore Haitian/Trinidadian Cuisine"
+
+"Suggest resources for learning about lesser-known Caribbean cuisines (Anguilla, Aruba, Bermuda)."
+"Explore Lesser-Known Caribbean Cuisines"
+
+"Suggest resources for learning about Sámi or Maori cuisine."
+"Explore Sámi/Maori Cuisine"
+
+"Suggest resources for learning about Peranakan or Indo-Chinese cuisine."
+"Explore Peranakan/Indo-Chinese Cuisine"
+
+"Suggest resources for learning about Ancient Mesopotamian or Egyptian cuisine."
+"Explore Ancient Mesopotamian/Egyptian Food"
+
+"Suggest resources for learning sourdough bread making."
+"Learn Sourdough Baking"
+
+"Suggest resources for learning how to make specific French pastries (croissants, macarons, éclairs)."
+"Learn French Pastry Techniques"
+
+"Suggest resources for learning cake decorating with fondant or buttercream."
+"Learn Cake Decorating (Fondant/Buttercream)"
+
+"Suggest resources for learning chocolate work (tempering, molding)."
+"Learn Chocolate Work"
+
+"Suggest tips for successful gluten-free or vegan baking."
+"Gluten-Free/Vegan Baking Tips"
+
+"Explain the different functions of protein in the body (tissue building, enzymes, etc.)."
+"Functions of Protein"
+
+"List the essential amino acids and explain why they are essential."
+"Essential Amino Acids"
+
+"Suggest ways to combine incomplete proteins to make a complete protein meal (e.g., rice and beans)."
+"Protein Combining Strategies"
+
+"Explain the importance of Omega-3 and Omega-6 fatty acids and suggest food sources."
+"Omega-3 & Omega-6 Fatty Acids"
+
+"Explain the roles of specific vitamins like Vitamin D, Vitamin K, or Folate (B9)."
+"Roles of Specific Vitamins (D, K, Folate)"
+
+"Explain the roles of specific minerals like Phosphorus, Sodium, Iodine, or Selenium."
+"Roles of Specific Minerals (Phosphorus, Iodine)"
+
+"Suggest resources for learning about the Carnivore Diet or Low FODMAP diet."
+"Learn Carnivore/Low FODMAP Diets"
+
+"Suggest resources for learning about the DASH diet."
+"Learn About the DASH Diet"
+
+"Explain how different cooking methods affect the nutritional value of food."
+"Cooking Methods & Nutrition"
+
+"Suggest resources for learning about the Pescatarian diet."
+"Learn About Pescatarian Diet"
+
+"Suggest ways to incorporate more sparkling or mineral water into hydration habits."
+"Incorporate Sparkling/Mineral Water"
+
+"Suggest resources for learning herbal tea blending."
+"Learn Herbal Tea Blending"
+
+"Explain the differences between black, green, white, and oolong tea processing and flavor."
+"Tea Types Explained (Black, Green, White)"
+
+"Suggest resources for learning specific coffee brewing methods like AeroPress, Chemex, or Siphon."
+"Learn Specific Coffee Brewing (AeroPress, etc.)"
+
+"Explain the difference between espresso drinks like Cortado, Flat White, and Macchiato."
+"Espresso Drink Differences (Cortado, Flat White)"
+
+"Suggest recipes for specialty coffee drinks like Turkish, Vietnamese, or Irish coffee."
+"Specialty Coffee Recipes"
+
+"Explain the differences between various sports drinks and their uses."
+"Sports Drinks Explained"
+
+"Suggest resources for learning how to make kombucha, kefir, or kvass at home."
+"Home Fermented Drinks (Kombucha, Kefir)"
+
+"Suggest non-alcoholic beer or de-alcoholized wine options."
+"Non-Alcoholic Beer/Wine Options"
+
+"Explain the characteristics of specific beer styles like Wheat beers, Lambics, Sours, or Porters."
+"Specific Beer Styles Explained (Wheat, Sour)"
+
+"Explain the characteristics of specific wine types like Orange wine, Natural wine, or Sake."
+"Specific Wine Types Explained (Orange, Natural)"
+
+"Suggest resources for learning about specific spirits like Mezcal, Absinthe, or Aquavit."
+"Learn About Specific Spirits (Mezcal, etc.)"
+
+"Suggest resources for learning about drinking culture in different regions."
+"Learn About Drinking Cultures"
+
+"Suggest ways to find Cafes, Pubs, Gastropubs, or Buffets in my area."
+"Find Cafes/Pubs/Buffets"
+
+"Suggest ways to find Chef's Table experiences or unique dining events."
+"Find Chef's Table/Unique Dining"
+
+"Suggest resources for learning about ethical sourcing in food production."
+"Learn Ethical Food Sourcing"
+
+"Suggest resources for learning about urban farming techniques or initiatives."
+"Learn Urban Farming"

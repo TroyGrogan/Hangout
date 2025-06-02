@@ -1,0 +1,39 @@
+prompt: 
+What are some possible conversation starters that I can start with someone in regard to <INSERT CATEGORY>?
+displayText: "Conversation starters related to <INSERT CATEGORY>"
+
+prompt:
+What are some ice breaker questions that I can ask someone in regard to <INSERT CATEGORY>?
+displayText: "Ice breaker questions related to <INSERT CATEGORY>"
+
+prompt:
+What are some Thought-Provoking questions that I can ask someone in regard to <INSERT CATEGORY>?
+displayText: "Thought-Provoking questions related to <INSERT CATEGORY>"
+
+prompt:
+What are some interesting topics to discuss with someone about in regard to <INSERT CATEGORY>?
+displayText: "Interesting topics related to <INSERT CATEGORY>"
+
+prompt:
+Can you please suggest for me some Open-Ended questions that I can ask someone in regard to <INSERT CATEGORY>?
+displayText: "Open-Ended questions related to <INSERT CATEGORY>"
+
+prompt:
+Can you please suggest for me some possible things that I can talk to someone about, with someone whom I have never met before, in regard to <INSERT CATEGORY>?
+displayText: "Talking to strangers about <INSERT CATEGORY>"
+
+prompt:
+Can you please suggest for me some fun and lighthearted questions that I can ask someone in regard to <INSERT CATEGORY>?
+displayText: "Fun questions related to <INSERT CATEGORY>"
+
+Prompt:
+Can you please suggest for me some deep questions that I can ask someone in regard to <INSERT CATEGORY>?
+displayText: "Deep questions related to <INSERT CATEGORY>"
+
+prompt:
+Can you please suggest for me some reflective questions that I can ask someone in regard to <INSERT CATEGORY>?
+displayText: "Reflective questions related to <INSERT CATEGORY>"
+
+prompt:
+What are some phrases that one can talk to a stranger about, in order to become friends with them, in regard to <INSERT CATEGORY>?
+displayText: "Becoming friends: <INSERT CATEGORY> conversation starters"

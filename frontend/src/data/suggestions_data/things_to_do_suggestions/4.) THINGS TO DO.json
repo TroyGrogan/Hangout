@@ -1,0 +1,492 @@
+[
+  {
+    "id": 1,
+    "prompt": "Suggest ways I can clarify my personal values and align them with my career.",
+    "displayText": "Clarify Personal Values for Career",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 2,
+    "prompt": "Suggest things I can do to discover my strengths and skills for career planning.",
+    "displayText": "Discover Career Strengths",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 3,
+    "prompt": "Suggest ways I can map my interests to potential career paths.",
+    "displayText": "Map Interests to Careers",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 4,
+    "prompt": "Suggest ways I can assess my personality and preferred work style.",
+    "displayText": "Assess Personality/Work Style",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 5,
+    "prompt": "Suggest things I can do to plan my long-term career path and milestones.",
+    "displayText": "Plan Career Path",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 6,
+    "prompt": "Suggest ways I can research different industries and their trends.",
+    "displayText": "Explore Industries",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 7,
+    "prompt": "Suggest things I can do to evaluate potential job roles and functions.",
+    "displayText": "Evaluate Job Roles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 8,
+    "prompt": "Suggest strategies for better integrating my career with my overall life goals.",
+    "displayText": "Integrate Career & Life",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 9,
+    "prompt": "Suggest strategies for making a successful career change or pivot.",
+    "displayText": "Career Change Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 10,
+    "prompt": "Suggest ways I can explore entrepreneurship or starting a side hustle.",
+    "displayText": "Explore Entrepreneurship/Side Hustles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 11,
+    "prompt": "Suggest strategies for returning to work after a career break.",
+    "displayText": "Return to Work After Break",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 12,
+    "prompt": "Suggest things I can do to plan for post-career life or phased retirement.",
+    "displayText": "Plan Post-Career/Retirement",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 13,
+    "prompt": "Suggest resources or tips for improving my resume and optimizing it for ATS.",
+    "displayText": "Improve Resume/ATS Optimization",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 14,
+    "prompt": "Suggest ways to write effective and personalized cover letters.",
+    "displayText": "Write Effective Cover Letters",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 15,
+    "prompt": "Suggest things I can do to build a professional portfolio (online or physical).",
+    "displayText": "Build Professional Portfolio",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 16,
+    "prompt": "Suggest ways I can optimize my online professional presence (e.g., LinkedIn).",
+    "displayText": "Optimize Online Presence",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 17,
+    "prompt": "Suggest effective strategies for planning and organizing my job search.",
+    "displayText": "Plan/Organize Job Search",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 18,
+    "prompt": "Suggest ways to find job openings through different channels (boards, company sites, recruiters).",
+    "displayText": "Find Job Openings",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 19,
+    "prompt": "Suggest things I can do to customize my applications for specific jobs.",
+    "displayText": "Customize Job Applications",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 20,
+    "prompt": "Suggest best practices for following up after submitting job applications.",
+    "displayText": "Job Application Follow-Up",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 21,
+    "prompt": "Suggest things I can do to prepare for different types of job interviews (phone, video, behavioral, technical).",
+    "displayText": "Prepare for Job Interviews",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 22,
+    "prompt": "Suggest ways to improve my interview skills (answering questions, asking questions, body language).",
+    "displayText": "Improve Interview Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 23,
+    "prompt": "Suggest resources or methods for practicing job interviews (mock interviews, coaching).",
+    "displayText": "Practice Job Interviews",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 24,
+    "prompt": "Suggest ways I can research companies and interviewers before an interview.",
+    "displayText": "Research Companies/Interviewers",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 25,
+    "prompt": "Suggest ways I can evaluate a job offer, including salary, benefits, and total compensation.",
+    "displayText": "Evaluate Job Offers",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 26,
+    "prompt": "Suggest strategies for negotiating salary and other aspects of a job offer.",
+    "displayText": "Job Offer Negotiation Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 27,
+    "prompt": "Suggest ways to find job search resources like job fairs, career centers, or recruiters.",
+    "displayText": "Find Job Search Resources",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 28,
+    "prompt": "Suggest things I can do to create a plan for my professional growth and development.",
+    "displayText": "Plan Professional Growth",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 29,
+    "prompt": "Suggest ways I can prepare for and make the most of performance reviews.",
+    "displayText": "Prepare for Performance Reviews",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 30,
+    "prompt": "Suggest resources for developing specific technical skills relevant to my industry.",
+    "displayText": "Develop Technical Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 31,
+    "prompt": "Suggest ways I can improve my soft skills (communication, leadership, emotional intelligence).",
+    "displayText": "Improve Soft Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 32,
+    "prompt": "Suggest things I can do to enhance my digital literacy and learn new software/tools.",
+    "displayText": "Enhance Digital Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 33,
+    "prompt": "Suggest ways I can deepen my specialized knowledge or become a subject matter expert.",
+    "displayText": "Become Subject Matter Expert",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 34,
+    "prompt": "Suggest ways to find and pursue relevant professional certifications or licenses.",
+    "displayText": "Pursue Professional Credentials",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 35,
+    "prompt": "Suggest resources for continuing education or pursuing further academic degrees.",
+    "displayText": "Find Continuing Education/Degrees",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 36,
+    "prompt": "Suggest strategies for getting promoted or advancing to the next level in my career.",
+    "displayText": "Career Advancement Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 37,
+    "prompt": "Suggest ways I can increase my visibility and showcase my work effectively.",
+    "displayText": "Increase Professional Visibility",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 38,
+    "prompt": "Suggest resources or activities for developing leadership skills.",
+    "displayText": "Develop Leadership Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 39,
+    "prompt": "Suggest ways I can find mentors, coaches, or sponsors for career support.",
+    "displayText": "Find Career Mentors/Coaches",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 40,
+    "prompt": "Suggest ways I can build and maintain my professional network effectively.",
+    "displayText": "Build/Maintain Professional Network",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 41,
+    "prompt": "Suggest tips for networking effectively at industry events, conferences, or meetups.",
+    "displayText": "Networking at Events",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 42,
+    "prompt": "Suggest ways to leverage professional associations or alumni networks.",
+    "displayText": "Leverage Associations/Alumni Networks",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 43,
+    "prompt": "Suggest strategies for improving networking skills (introductions, conversation, follow-up).",
+    "displayText": "Improve Networking Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 44,
+    "prompt": "Suggest ways I can build positive relationships with colleagues and peers.",
+    "displayText": "Build Colleague Relationships",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 45,
+    "prompt": "Suggest strategies for effectively managing relationships with supervisors ('managing up').",
+    "displayText": "Manage Supervisor Relationships",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 46,
+    "prompt": "Suggest ways to effectively manage and support direct reports (if applicable).",
+    "displayText": "Manage Direct Reports",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 47,
+    "prompt": "Suggest strategies for building strong relationships with clients or customers.",
+    "displayText": "Build Client/Customer Relationships",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 48,
+    "prompt": "Suggest ways to improve collaboration with colleagues on cross-functional teams or projects.",
+    "displayText": "Improve Cross-Functional Collaboration",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 49,
+    "prompt": "Suggest resources for improving public speaking and presentation skills.",
+    "displayText": "Improve Public Speaking",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 50,
+    "prompt": "Suggest ways to improve my professional written communication (emails, reports, proposals).",
+    "displayText": "Improve Written Communication",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 51,
+    "prompt": "Suggest techniques for persuasion and influencing others effectively at work.",
+    "displayText": "Improve Persuasion/Influence Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 52,
+    "prompt": "Suggest ways I can optimize my physical and digital workspace for better focus and productivity.",
+    "displayText": "Optimize Workspace",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 53,
+    "prompt": "Suggest strategies for working effectively in remote or hybrid environments.",
+    "displayText": "Remote/Hybrid Work Strategies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 54,
+    "prompt": "Suggest ways I can better understand and navigate my workplace culture.",
+    "displayText": "Navigate Workplace Culture",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 55,
+    "prompt": "Suggest effective task management and prioritization techniques.",
+    "displayText": "Task Management/Prioritization",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 56,
+    "prompt": "Suggest effective time management techniques for work (time blocking, calendar management).",
+    "displayText": "Work Time Management Techniques",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 57,
+    "prompt": "Suggest ways I can improve my personal organization systems (digital and physical).",
+    "displayText": "Improve Organizational Systems",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 58,
+    "prompt": "Suggest resources or methodologies for managing projects effectively.",
+    "displayText": "Project Management Methods",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 59,
+    "prompt": "Suggest ways to run more effective and productive meetings.",
+    "displayText": "Run Effective Meetings",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 60,
+    "prompt": "Suggest useful productivity or collaboration tools and how to learn them.",
+    "displayText": "Learn Productivity/Collaboration Tools",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 61,
+    "prompt": "Suggest ways I can improve my focus and concentration during work.",
+    "displayText": "Improve Focus/Concentration",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 62,
+    "prompt": "Suggest strategies for engaging in deep work or achieving flow states.",
+    "displayText": "Practice Deep Work/Flow",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 63,
+    "prompt": "Suggest ways I can manage my mental energy and cognitive performance at work.",
+    "displayText": "Manage Mental Energy/Cognitive Performance",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 64,
+    "prompt": "Suggest strategies for setting and maintaining healthy work-life boundaries.",
+    "displayText": "Set Work-Life Boundaries",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 65,
+    "prompt": "Suggest ways I can negotiate or find flexible work arrangements.",
+    "displayText": "Find Flexible Work Arrangements",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 66,
+    "prompt": "Suggest techniques for managing workplace stress and preventing burnout.",
+    "displayText": "Manage Workplace Stress/Burnout",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 67,
+    "prompt": "Suggest ways to support my mental and physical wellbeing at work.",
+    "displayText": "Support Wellbeing at Work",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 68,
+    "prompt": "Suggest ways I can practice mindfulness or be more present during my workday.",
+    "displayText": "Practice Mindfulness at Work",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 69,
+    "prompt": "Suggest ways I can find more meaning or purpose in my work.",
+    "displayText": "Find Meaning/Purpose in Work",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 70,
+    "prompt": "Suggest things I can do to increase joy and engagement in my daily work activities.",
+    "displayText": "Increase Joy/Engagement at Work",
+    "isTemplate": false,
+    "type": "do"
+  }
+]

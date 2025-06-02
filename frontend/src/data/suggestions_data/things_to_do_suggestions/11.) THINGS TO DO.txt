@@ -1,0 +1,140 @@
+"Suggest different meditation techniques (Mindfulness, Loving-Kindness, Body Scan, etc.)."
+"Explore Meditation Techniques"
+
+"Suggest ways to incorporate prayer, chanting, or affirmations into a spiritual practice."
+"Prayer/Devotion Practices"
+
+"Explain energy practices like Qigong, Tai Chi, Reiki, or Chakra Balancing."
+"Learn Energy Practices"
+
+"Suggest resources for exploring consciousness (Lucid Dreaming, Astral Projection, Breathwork)."
+"Explore Consciousness"
+
+"Suggest ways to connect with nature spiritually (Forest Bathing, Earth-Based Traditions, Nature Rituals)."
+"Connect with Nature Spiritually"
+
+"Explain contemporary spiritual movements like New Age, SBNR, or Integral Spirituality."
+"Contemporary Spiritual Movements"
+
+"Suggest resources for learning about mystical traditions (Sufism, Kabbalah, Christian Mysticism, Gnosticism)."
+"Learn Mystical Traditions"
+
+"Suggest practices for spiritual development (Shadow Work, Inner Child Healing, Spiritual Direction)."
+"Spiritual Development Practices"
+
+"Explain the core beliefs and practices of major Christian denominations (Catholicism, Orthodoxy, Protestantism)."
+"Learn about Christianity"
+
+"Explain the core beliefs and practices of Islam (Sunni, Shia, Sufism)."
+"Learn about Islam"
+
+"Explain the core beliefs and practices of Judaism (Orthodox, Conservative, Reform)."
+"Learn about Judaism"
+
+"Explain the core beliefs and practices of the Baha'i Faith."
+"Learn about Baha'i Faith"
+
+"Explain the core beliefs and practices of Hinduism (Vaishnavism, Shaivism, Shaktism, Yoga)."
+"Learn about Hinduism"
+
+"Explain the core beliefs and practices of Buddhism (Theravada, Mahayana, Vajrayana, Zen)."
+"Learn about Buddhism"
+
+"Explain the core beliefs and practices of Jainism."
+"Learn about Jainism"
+
+"Explain the core beliefs and practices of Sikhism."
+"Learn about Sikhism"
+
+"Explain the core beliefs and practices of Taoism and Confucianism."
+"Learn Taoism/Confucianism"
+
+"Explain the core beliefs and practices of Shinto."
+"Learn about Shinto"
+
+"Suggest resources for learning about various Indigenous Religions (Native American, African Traditional, etc.)."
+"Learn Indigenous Religions"
+
+"Explain the beliefs and practices of modern religious movements (Scientology, Unitarian Universalism, Neopaganism)."
+"Modern Religious Movements"
+
+"Suggest ways to learn about religious rituals, festivals, or practices (Worship, Prayer, Sacred Texts, Pilgrimage)."
+"Explore Religious Rituals/Practices"
+
+"Suggest resources or ways to engage in interfaith dialogue or comparative religion studies."
+"Engage in Interfaith Dialogue"
+
+"Explain key concepts from Ancient Western Philosophy (Socrates, Plato, Aristotle, Stoicism, Epicureanism)."
+"Ancient Western Philosophy"
+
+"Explain key concepts from Medieval Philosophy (Scholasticism, Augustine, Aquinas, Islamic Philosophy)."
+"Medieval Philosophy"
+
+"Explain key concepts from Modern Philosophy (Rationalism, Empiricism, Kant, German Idealism, Utilitarianism)."
+"Modern Western Philosophy"
+
+"Explain key concepts from Contemporary Western Philosophy (Existentialism, Phenomenology, Postmodernism, Critical Theory)."
+"Contemporary Western Philosophy"
+
+"Explain key concepts from Chinese Philosophy (Confucianism, Taoism, Legalism)."
+"Chinese Philosophy"
+
+"Explain key concepts from Indian Philosophy (Vedanta, Yoga, Buddhist Philosophy, Jain Philosophy)."
+"Indian Philosophy"
+
+"Explain key concepts from Japanese Philosophy (Zen, Bushido, Aesthetics)."
+"Japanese Philosophy"
+
+"Suggest resources for learning about African Philosophy (Ubuntu, Sage Philosophy)."
+"African Philosophy"
+
+"Suggest resources for learning about Latin American Philosophy (Liberation Philosophy)."
+"Latin American Philosophy"
+
+"Explain the main questions explored in Metaphysics (nature of reality)."
+"Explore Metaphysics"
+
+"Explain the main questions explored in Epistemology (nature of knowledge)."
+"Explore Epistemology"
+
+"Explain different approaches to Ethics (Virtue, Deontology, Consequentialism, Care Ethics)."
+"Explore Ethics"
+
+"Explain the main questions explored in Aesthetics (nature of beauty and art)."
+"Explore Aesthetics"
+
+"Explain the main questions explored in Logic (principles of reasoning)."
+"Explore Logic"
+
+"Explain the main questions explored in Political Philosophy (justice, rights, government)."
+"Explore Political Philosophy"
+
+"Explain the main questions explored in the Philosophy of Science, Mind, Language, or Religion."
+"Specific Philosophy Branches"
+
+"Discuss ethical considerations in Bioethics, Business Ethics, Environmental Ethics, or Technology Ethics."
+"Explore Applied Ethics"
+
+"Suggest philosophical approaches to exploring the meaning and purpose of life."
+"Philosophical Views on Meaning/Purpose"
+
+"Suggest philosophical perspectives on death, mortality, grief, and the concept of an afterlife."
+"Philosophical Views on Death/Mortality"
+
+"Discuss philosophical views on the human condition (suffering, joy, love, freedom, authenticity)."
+"Philosophical Views on Human Condition"
+
+"Explore philosophical concepts of ultimate reality, God, or consciousness."
+"Philosophical Views on Ultimate Reality"
+
+"Discuss the philosophical debate between free will and determinism."
+"Explore Free Will vs. Determinism"
+
+"Explore philosophical ideas about personal identity, self-concept, and the nature of self."
+"Philosophical Views on Identity/Self"
+
+"Discuss different philosophical approaches to ethics, morality, justice, and rights."
+"Philosophical Views on Ethics/Morality"
+
+"Explore philosophical questions about the nature of knowledge, truth, and ways of knowing."
+"Philosophical Views on Knowledge/Truth"

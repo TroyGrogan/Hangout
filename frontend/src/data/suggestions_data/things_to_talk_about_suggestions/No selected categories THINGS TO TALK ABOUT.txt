@@ -1,0 +1,19 @@
+prompt:
+What are some topics or phrases that one can talk to a stranger about in order to become friends with them?
+displayText: "Making friends with strangers"
+
+prompt:
+What are some single words or phrases that can be used in order to function as an ice breaker and to conquer small talk? 
+displayText: "Single-Word/Single-phrase ice breakers"
+
+prompt:
+People. LOVEEE. To talk about themselves. And why wouldn't they? We all want to be heard. What are some ways to efficiently get people to talk about themselves and their interests in life? To learn about what have been their ups and downs in this wave we call life? In learning about the journey that they have been on, and what are the things in life that they love, unconditionally? I want to conquer ice breakers and small talk.
+displayText: "Getting people to talk about themselves"
+
+prompt:
+What are the possible ways out there that exist in the world, in order to start a conversation with someone that you have never met before, and to be able to meet and connect with them on a deep level?
+displayText: "Starting deep conversations with strangers"
+
+prompt:
+Can you please suggest for me some single word questions that I can ask someone that I have never met before, so that I can talk to them wholeheartedly?
+displayText: "Single-word questions for connection"

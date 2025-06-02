@@ -1,0 +1,173 @@
+"Suggest some things I can do for first dates."
+"First Dates"
+
+"Suggest fun, unique activities for group dates."
+"Group Dates"
+
+"Suggest ways I can find speed dating events near me."
+"Speed Dating"
+
+"Suggest ways to find out if there are any singles mixers happening locally."
+"Singles Mixers"
+
+"Suggest things I can do for a romantic date night."
+"Date Night"
+
+"Suggest ways I can organize a friend meetup."
+"Friend Meetups"
+
+"Suggest some popular games to play for game night."
+"Game Night"
+
+"Suggest ideas for planning a memorable friend reunion."
+"Friend Reunions"
+
+"Suggest ways I can find local hobby groups to join."
+"Hobby Groups"
+
+"Suggest some interesting books for a book club."
+"Book Clubs"
+
+"Suggest some engaging activities for a family reunion."
+"Family Reunions"
+
+"Suggest some creative ideas for family dinner nights."
+"Family Dinner"
+
+"Suggest fun parent-child activities for different age groups."
+"Parent-child Activities"
+
+"Suggest ways we can organize an extended family gathering."
+"Extended Family Gatherings"
+
+"Suggest some ideas for family holiday celebrations."
+"Holiday Celebrations"
+
+"Suggest themes and ideas for a birthday party."
+"Birthday Party"
+
+"Suggest ways to host a great Super Bowl party."
+"Super Bowl Party"
+
+"Suggest tips for throwing a successful house party."
+"House Party"
+
+"Suggest some elegant ideas for a dinner party."
+"Dinner Party"
+
+"Suggest ways to host a sophisticated cocktail party."
+"Cocktail Party"
+
+"Suggest creative themes for a themed party."
+"Themed Party"
+
+"Suggest ways I can organize a block party for my neighborhood."
+"Block Party"
+
+"Suggest ideas for a casual neighborhood meetup."
+"Neighborhood Meetup"
+
+"Suggest ways I can find local community service opportunities."
+"Community Service"
+
+"Suggest ways to find and join local club meetings."
+"Local Club Meetings"
+
+"Suggest ways to find upcoming concerts in my area."
+"Concerts"
+
+"Suggest ways to find out what music festivals are happening nearby."
+"Music Festivals"
+
+"Suggest ways to find venues with live bands playing this week."
+"Live Bands At Venues"
+
+"Suggest ways to find out if there are any orchestra performances scheduled soon."
+"Orchestra Performances"
+
+"Suggest some good jazz clubs to visit."
+"Jazz Clubs"
+
+"Suggest ways I can find open mic nights."
+"Open Mic Nights"
+
+"Suggest ways to find out what theater productions are currently running."
+"Theater Productions"
+
+"Suggest ways to find upcoming dance performances."
+"Dance Performances"
+
+"Suggest ways I can watch live comedy shows."
+"Comedy Shows"
+
+"Suggest ways to find out if there are any improv shows happening locally."
+"Improv Shows"
+
+"Suggest ways to find spoken word or poetry reading events."
+"Spoken Word/Poetry Readings"
+
+"Suggest ways to find out what professional sports games are happening this weekend."
+"Professional Sports Games"
+
+"Suggest ways to find the schedule for local collegiate sports teams."
+"Collegiate Sports"
+
+"Suggest ways to find out if there are any motorsports events nearby."
+"Motorsports"
+
+"Suggest ways I can watch Wrestling/WWE events."
+"Wrestling/WWE Events"
+
+"Suggest ways to find upcoming boxing matches."
+"Boxing Matches"
+
+"Suggest ways to find out if there are any MMA fights scheduled."
+"MMA Fights"
+
+"Suggest ways to find information about circuses coming to town."
+"Circuses"
+
+"Suggest ways to find out if there are any magic shows happening near me."
+"Magic Shows"
+
+"Suggest ways I can see stand-up comedy."
+"Stand-up Comedy"
+
+"Suggest ways to find local drag shows."
+"Drag Shows"
+
+"Suggest ways to find out if there are any cultural performances or festivals."
+"Cultural Performances"
+
+"Suggest ways to find out if Monster Jam is coming to my area."
+"Monster Jam"
+
+"Suggest ways to find the schedule for Disney On Ice."
+"Disney On Ice"
+
+"Suggest ideas for planning wedding-related events (showers, rehearsals)."
+"Wedding Events"
+
+"Suggest fun ways to celebrate a graduation."
+"Graduation Celebrations"
+
+"Suggest creative ideas for an anniversary party."
+"Anniversary Parties"
+
+"Suggest ways to plan a memorable baby shower."
+"Baby Showers"
+
+"Suggest ideas for festive holiday gatherings."
+"Holiday Gatherings"
+
+"Suggest ways to find professional meetups in my field."
+"Professional Meetups"
+
+"Suggest ways to find upcoming industry events and conferences."
+"Industry Events"
+
+"Suggest ways I can connect with alumni from my school."
+"Alumni Gatherings"
+
+"Suggest ways I can find social mixers for networking."
+"Social Mixers"

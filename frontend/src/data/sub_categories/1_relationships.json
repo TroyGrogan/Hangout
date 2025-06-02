@@ -1,0 +1,375 @@
+{
+  "id": 79,
+  "name": "Relationships and Social Life",
+  "icon": "👥",
+  "subcategories": [
+    {
+      "name": "Dating",
+      "icon": "💘",
+      "subcategories": [
+        {
+          "name": "First Dates",
+          "icon": "🤝",
+          "subcategories": []
+        },
+        {
+          "name": "Group Dates",
+          "icon": "🧑‍🧑‍🧒‍🧒",
+          "subcategories": []
+        },
+        {
+          "name": "Speed Dating",
+          "icon": "⏱️",
+          "subcategories": []
+        },
+        {
+          "name": "Singles Mixers",
+          "icon": "🥳",
+          "subcategories": []
+        },
+        {
+          "name": "Date Night",
+          "icon": "🌃",
+          "subcategories": []
+        }
+      ]
+    },
+    {
+      "name": "Friendships",
+      "icon": "👬👭",
+      "subcategories": [
+        {
+          "name": "Friend Meetups",
+          "icon": "👋",
+          "subcategories": []
+        },
+        {
+          "name": "Game Night",
+          "icon": "🎲",
+          "subcategories": []
+        },
+        {
+          "name": "Friend Reunions",
+          "icon": "🎉",
+          "subcategories": []
+        },
+        {
+          "name": "Hobby Groups",
+          "icon": "🎨",
+          "subcategories": []
+        },
+        {
+          "name": "Book Clubs",
+          "icon": "📚",
+          "subcategories": []
+        }
+      ]
+    },
+    {
+      "name": "Family",
+      "icon": "🧑‍🧑‍🧒‍🧒",
+      "subcategories": [
+        {
+          "name": "Family Reunions",
+          "icon": "🧑‍🧑‍🧒‍🧒",
+          "subcategories": []
+        },
+        {
+          "name": "Family Dinner",
+          "icon": "🍽️",
+          "subcategories": []
+        },
+        {
+          "name": "Parent-child Activities",
+          "icon": "🧸",
+          "subcategories": []
+        },
+        {
+          "name": "Extended Family Gatherings",
+          "icon": "🧑‍🧑‍🧒‍🧒",
+          "subcategories": []
+        },
+        {
+          "name": "Holiday Celebrations",
+          "icon": "🎄",
+          "subcategories": []
+        }
+      ]
+    },
+    {
+      "name": "Social Activities",
+      "icon": "🎉",
+      "subcategories": [
+        {
+          "name": "Party Types",
+          "icon": "🥳",
+          "subcategories": [
+            {
+              "name": "Birthday Party",
+              "icon": "🎂",
+              "subcategories": []
+            },
+            {
+              "name": "Super Bowl Party",
+              "icon": "🏈",
+              "subcategories": []
+            },
+            {
+              "name": "House Party",
+              "icon": "🏠",
+              "subcategories": []
+            },
+            {
+              "name": "Dinner Party",
+              "icon": "🥂",
+              "subcategories": []
+            },
+            {
+              "name": "Cocktail Party",
+              "icon": "🍸",
+              "subcategories": []
+            },
+            {
+              "name": "Themed Party",
+              "icon": "🎭",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Community Events",
+          "icon": "🏘️",
+          "subcategories": [
+            {
+              "name": "Block Party",
+              "icon": "🏘️",
+              "subcategories": []
+            },
+            {
+              "name": "Neighborhood Meetup",
+              "icon": "👋",
+              "subcategories": []
+            },
+            {
+              "name": "Community Service",
+              "icon": "🤝",
+              "subcategories": []
+            },
+            {
+              "name": "Local Club Meetings",
+              "icon": "🗣️",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Live Entertainment",
+          "icon": "🎤",
+          "subcategories": [
+            {
+              "name": "Music Events",
+              "icon": "🎶",
+              "subcategories": [
+                {
+                  "name": "Concerts",
+                  "icon": "🎸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Music Festivals",
+                  "icon": "🎪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Live Bands At Venues",
+                  "icon": "🎤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Orchestra Performances",
+                  "icon": "🎻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Jazz Clubs",
+                  "icon": "🎷",
+                  "subcategories": []
+                },
+                {
+                  "name": "Open Mic Nights",
+                  "icon": "🎙️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Performing Arts",
+              "icon": "🎭",
+              "subcategories": [
+                {
+                  "name": "Theater Productions",
+                  "icon": "🎭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dance Performances",
+                  "icon": "💃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Comedy Shows",
+                  "icon": "😂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Improv Shows",
+                  "icon": "🤣",
+                  "subcategories": []
+                },
+                {
+                  "name": "Spoken Word/Poetry Readings",
+                  "icon": "🗣️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Sporting Events",
+              "icon": "🏆",
+              "subcategories": [
+                {
+                  "name": "Professional Sports Games",
+                  "icon": "🏅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Collegiate Sports",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Motorsports",
+                  "icon": "🏁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Wrestling/WWE Events",
+                  "icon": "🤼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Boxing Matches",
+                  "icon": "🥊",
+                  "subcategories": []
+                },
+                {
+                  "name": "MMA Fights",
+                  "icon": "🥋",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Other Entertainment",
+              "icon": "🎪",
+              "subcategories": [
+                {
+                  "name": "Circuses",
+                  "icon": "🎪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Magic Shows",
+                  "icon": "🪄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stand-up Comedy",
+                  "icon": "🎤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Drag Shows",
+                  "icon": "🏳️‍🌈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Performances",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Monster Jam",
+                  "icon": "🛻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Disney On Ice",
+                  "icon": "🏰",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Celebrations",
+          "icon": "🎊",
+          "subcategories": [
+            {
+              "name": "Wedding Events",
+              "icon": "💍",
+              "subcategories": []
+            },
+            {
+              "name": "Graduation Celebrations",
+              "icon": "🎓",
+              "subcategories": []
+            },
+            {
+              "name": "Anniversary Parties",
+              "icon": "🎉",
+              "subcategories": []
+            },
+            {
+              "name": "Baby Showers",
+              "icon": "🍼",
+              "subcategories": []
+            },
+            {
+              "name": "Holiday Gatherings",
+              "icon": "🎄",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Networking",
+      "icon": "🤝",
+      "subcategories": [
+        {
+          "name": "Professional Meetups",
+          "icon": "👨‍💼👩‍💼",
+          "subcategories": []
+        },
+        {
+          "name": "Industry Events",
+          "icon": "🏢",
+          "subcategories": []
+        },
+        {
+          "name": "Alumni Gatherings",
+          "icon": "🎓",
+          "subcategories": []
+        },
+        {
+          "name": "Social Mixers",
+          "icon": "🍸",
+          "subcategories": []
+        }
+      ]
+    }
+  ]
+}

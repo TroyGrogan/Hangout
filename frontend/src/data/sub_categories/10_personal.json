@@ -1,0 +1,4007 @@
+{
+  "id": 88,
+  "name": "Personal Growth, Education, and Learning",
+  "icon": "📚",
+  "subcategories": [
+    {
+      "name": "Skill Development",
+      "icon": "🛠️",
+      "subcategories": [
+        {
+          "name": "Technical Skills",
+          "icon": "💻",
+          "subcategories": [
+            {
+              "name": "Programming & Development",
+              "icon": "💻",
+              "subcategories": [
+                {
+                  "name": "Coding Workshops",
+                  "icon": "🤓",
+                  "subcategories": [
+                    {
+                      "name": "Web Development",
+                      "icon": "🌐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mobile App Development",
+                      "icon": "📱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Game Development",
+                      "icon": "🎮",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Data Science Programming",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "AI/ML Programming",
+                      "icon": "🤖",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Frontend Development",
+                      "icon": "🖥️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Backend Development",
+                      "icon": "⚙️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Full Stack Development",
+                      "icon": "🛠️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Software Engineering Practices",
+                  "icon": "⚙️",
+                  "subcategories": [
+                    {
+                      "name": "Agile Development",
+                      "icon": "🔄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "DevOps Skills",
+                      "icon": "🛠️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Version Control",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Test-Driven Development",
+                      "icon": "🧪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Clean Code Practices",
+                      "icon": "🧹",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Database Management",
+                  "icon": "💾",
+                  "subcategories": [
+                    {
+                      "name": "SQL Skills",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "NoSQL Systems",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Data Modeling",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Database Design",
+                      "icon": "📊",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Cloud Computing",
+                  "icon": "☁️",
+                  "subcategories": [
+                    {
+                      "name": "AWS Certification Path",
+                      "icon": "☁️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Azure Skills Development",
+                      "icon": "☁️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Google Cloud Platform",
+                      "icon": "☁️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cloud Architecture",
+                      "icon": "☁️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Digital Tools Training",
+              "icon": "🛠️",
+              "subcategories": [
+                {
+                  "name": "Productivity Software",
+                  "icon": "📈",
+                  "subcategories": [
+                    {
+                      "name": "Office Suite Mastery",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Project Management Tools",
+                      "icon": "📋",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Collaboration Platforms",
+                      "icon": "🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Note-Taking Systems",
+                      "icon": "📝",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Design Tools",
+                  "icon": "🎨",
+                  "subcategories": [
+                    {
+                      "name": "Graphic Design Software",
+                      "icon": "🎨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "UI/UX Design Tools",
+                      "icon": "🎨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "3D Modeling Software",
+                      "icon": "🧊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Video Editing Software",
+                      "icon": "🎬",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Audio Production Tools",
+                      "icon": "🎧",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Analytical Tools",
+                  "icon": "📊",
+                  "subcategories": [
+                    {
+                      "name": "Data Analysis Software",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Business Intelligence Tools",
+                      "icon": "👨‍💼🛠️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Statistical Packages",
+                      "icon": "📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Research Tools",
+                      "icon": "🔎",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Content Creation Tools",
+                  "icon": "🎥",
+                  "subcategories": [
+                    {
+                      "name": "Content Management Systems",
+                      "icon": "🎥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Blogging Platforms",
+                      "icon": "🎥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Podcast Production",
+                      "icon": "🎥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Video Creation Tools",
+                      "icon": "🎥",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Technical Certifications",
+              "icon": "📜",
+              "subcategories": [
+                {
+                  "name": "IT Certifications",
+                  "icon": "💻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Industry-Specific Technical Credentials",
+                  "icon": "🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vendor Certifications",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technical Professional Licensure",
+                  "icon": "📜",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Emerging Technologies",
+              "icon": "🚀",
+              "subcategories": [
+                {
+                  "name": "Blockchain Skills",
+                  "icon": "🔗",
+                  "subcategories": []
+                },
+                {
+                  "name": "Virtual/Augmented Reality",
+                  "icon": "🕶️",
+                  "subcategories": []
+                },
+                {
+                  "name": "IoT Development",
+                  "icon": "🏠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Robotics",
+                  "icon": "🤖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Quantum Computing Fundamentals",
+                  "icon": "⚛️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Creative Skills",
+          "icon": "🎨",
+          "subcategories": [
+            {
+              "name": "Visual Arts",
+              "icon": "🎨",
+              "subcategories": [
+                {
+                  "name": "Art Techniques",
+                  "icon": "🖌️",
+                  "subcategories": [
+                    {
+                      "name": "Drawing Fundamentals",
+                      "icon": "✏️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Painting Methods",
+                      "icon": "🎨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Digital Art",
+                      "icon": "💻",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sculpture",
+                      "icon": "🗿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Photography",
+                      "icon": "📸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Filmmaking",
+                      "icon": "🎬",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Animation",
+                      "icon": "🎬",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Visual Design",
+                  "icon": "🖌️",
+                  "subcategories": [
+                    {
+                      "name": "Graphic Design",
+                      "icon": "🎨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Typography",
+                      "icon": "🅰️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Color Theory",
+                      "icon": "🎨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Layout Design",
+                      "icon": "✍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Brand Design",
+                      "icon": "✍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "User Interface Design",
+                      "icon": "✍️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Written Expression",
+              "icon": "✍️",
+              "subcategories": [
+                {
+                  "name": "Writing Workshops",
+                  "icon": "✍️",
+                  "subcategories": [
+                    {
+                      "name": "Creative Writing",
+                      "icon": "✍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fiction Crafting",
+                      "icon": "📚",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Poetry",
+                      "icon": "✍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Screenwriting",
+                      "icon": "🎬",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Playwriting",
+                      "icon": "🎭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nonfiction Writing",
+                      "icon": "📰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Blogging",
+                      "icon": "✍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Technical Writing",
+                      "icon": "✍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Copywriting",
+                      "icon": "✍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Academic Writing",
+                      "icon": "🎓",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Editing & Revision",
+                  "icon": "✏️",
+                  "subcategories": [
+                    {
+                      "name": "Self-Editing Techniques",
+                      "icon": "✏️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Peer Review Methods",
+                      "icon": "✏️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Professional Editing Skills",
+                      "icon": "✏️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Publishing Preparation",
+                      "icon": "✏️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Performing Arts",
+              "icon": "🎭",
+              "subcategories": [
+                {
+                  "name": "Music Skills",
+                  "icon": "🎵",
+                  "subcategories": [
+                    {
+                      "name": "Music Lessons",
+                      "icon": "🎵",
+                      "subcategories": [
+                        {
+                          "name": "Instrument Instruction",
+                          "icon": "🎸",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Vocal Training",
+                          "icon": "🎤",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Music Theory",
+                          "icon": "🎶",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Composition",
+                          "icon": "🎵",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Songwriting",
+                          "icon": "✍️",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Music Production",
+                          "icon": "🎧",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Performance Skills",
+                      "icon": "🎤",
+                      "subcategories": [
+                        {
+                          "name": "Solo Performance",
+                          "icon": "👤🎵",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Ensemble Playing",
+                          "icon": "👥🎵",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Recording Techniques",
+                          "icon": "🎙️",
+                          "subcategories": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Dance & Movement",
+                  "icon": "💃",
+                  "subcategories": [
+                    {
+                      "name": "Dance Styles",
+                      "icon": "🕺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Movement Practices",
+                      "icon": "🤸‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Choreography",
+                      "icon": "🕺💃",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Performance Preparation",
+                      "icon": "💃🏋️‍♀️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Acting & Drama",
+                  "icon": "🎭",
+                  "subcategories": [
+                    {
+                      "name": "Acting Techniques",
+                      "icon": "🎭🛠️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Character Development",
+                      "icon": "🦹‍♂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Improvisation",
+                      "icon": "⏳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Public Speaking",
+                      "icon": "🗣️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Storytelling",
+                      "icon": "📖",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Culinary Arts",
+              "icon": "🍽️",
+              "subcategories": [
+                {
+                  "name": "Cooking Classes",
+                  "icon": "🍳",
+                  "subcategories": [
+                    {
+                      "name": "Cuisine-Specific Techniques",
+                      "icon": "🍲🍳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Baking & Pastry",
+                      "icon": "🎂",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Cooking Methods",
+                      "icon": "🧑‍🍳🛠️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Knife Skills",
+                      "icon": "🔪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Food Science",
+                      "icon": "🔬🍲",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nutrition-Focused Cooking",
+                      "icon": "🥗🧑‍🍳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Plant-Based Cooking",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fermentation",
+                      "icon": "🍺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Preservation Techniques",
+                      "icon": "🏺🧊",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Beverage Arts",
+                  "icon": "🍹",
+                  "subcategories": [
+                    {
+                      "name": "Coffee Brewing",
+                      "icon": "☕️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tea Cultivation",
+                      "icon": "🍵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mixology",
+                      "icon": "🍹",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wine Appreciation",
+                      "icon": "🍷",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Craft Beer Knowledge",
+                      "icon": "🍺",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Food Presentation",
+                  "icon": "🍽️",
+                  "subcategories": [
+                    {
+                      "name": "Plating Techniques",
+                      "icon": "🍽️🎨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Food Photography",
+                      "icon": "📸🍽️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Menu Design",
+                      "icon": "📜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Food Styling",
+                      "icon": "🍎📝",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Practical Skills",
+          "icon": "🛠️",
+          "subcategories": [
+            {
+              "name": "Home & Lifestyle",
+              "icon": "🏠",
+              "subcategories": [
+                {
+                  "name": "DIY Crafts",
+                  "icon": "✂️",
+                  "subcategories": [
+                    {
+                      "name": "Textile Arts",
+                      "icon": "🧶",
+                      "subcategories": [
+                        {
+                          "name": "Sewing",
+                          "icon": "🧵",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Knitting",
+                          "icon": "🧶",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Crochet",
+                          "icon": "🧶",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Weaving",
+                          "icon": "🪡🧵🧶",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Embroidery",
+                          "icon": "🧵",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Wood Crafts",
+                      "icon": "🪵",
+                      "subcategories": [
+                        {
+                          "name": "Woodworking",
+                          "icon": "🪵",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Carving",
+                          "icon": "🪵",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Furniture Making",
+                          "icon": "🛋️",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Paper Crafts",
+                      "icon": "📄",
+                      "subcategories": [
+                        {
+                          "name": "Bookbinding",
+                          "icon": "📚",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Paper Making",
+                          "icon": "📄👐",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Origami",
+                          "icon": "📄🦢",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Home Decor",
+                      "icon": "🖼️",
+                      "subcategories": [
+                        {
+                          "name": "Upholstery",
+                          "icon": "🛋️",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Interior Design Basics",
+                          "icon": "🛋️📐",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Upcycling",
+                          "icon": "♻️",
+                          "subcategories": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Repair & Maintenance",
+                  "icon": "🔧",
+                  "subcategories": [
+                    {
+                      "name": "Home Repair",
+                      "icon": "🏠",
+                      "subcategories": [
+                        {
+                          "name": "Basic Plumbing",
+                          "icon": "🪠",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Electrical Basics",
+                          "icon": "⚡️",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Carpentry Skills",
+                          "icon": "🔨",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Painting & Finishing",
+                          "icon": "🎨",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Vehicle Maintenance",
+                      "icon": "🚗",
+                      "subcategories": [
+                        {
+                          "name": "Basic Auto Repair",
+                          "icon": "🚗🔧",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Bicycle Maintenance",
+                          "icon": "🚲",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Small Engine Repair",
+                          "icon": "⚙️🔧",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Electronics Repair",
+                      "icon": "💡",
+                      "subcategories": [
+                        {
+                          "name": "Troubleshooting",
+                          "icon": "❓💡",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Basic Soldering",
+                          "icon": "🔥🔩",
+                          "subcategories": []
+                        },
+                        {
+                          "name": "Computer Hardware",
+                          "icon": "💻🔩",
+                          "subcategories": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Appliance Maintenance",
+                      "icon": "🔧🏠",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Outdoor Skills",
+                  "icon": "🏞️",
+                  "subcategories": [
+                    {
+                      "name": "Gardening",
+                      "icon": "🌱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Landscaping",
+                      "icon": "🌳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Survival Skills",
+                      "icon": "🔥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Navigation",
+                      "icon": "🧭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Camping Skills",
+                      "icon": "🏕️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Professional Competencies",
+              "icon": "💼",
+              "subcategories": [
+                {
+                  "name": "Project Management",
+                  "icon": "📋",
+                  "subcategories": [
+                    {
+                      "name": "Planning Methodologies",
+                      "icon": "📅📈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Resource Allocation",
+                      "icon": "📊👥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Timeline Management",
+                      "icon": "⏳🗓️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Risk Assessment",
+                      "icon": "⚠️🔍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Stakeholder Management",
+                      "icon": "👥🤝",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Financial Literacy",
+                  "icon": "💰",
+                  "subcategories": [
+                    {
+                      "name": "Personal Finance",
+                      "icon": "💰👤",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Budgeting",
+                      "icon": "💸",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Investment Basics",
+                      "icon": "📈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tax Planning",
+                      "icon": "🧾💵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Retirement Planning",
+                      "icon": "👵👴💰",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Organization Systems",
+                  "icon": "🗂️",
+                  "subcategories": [
+                    {
+                      "name": "Time Management",
+                      "icon": "⏱️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Workspace Organization",
+                      "icon": "🏢🧹",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Digital Organization",
+                      "icon": "💻🗂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Process Development",
+                      "icon": "📈🔄",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Presentation Skills",
+                  "icon": "🗣️",
+                  "subcategories": [
+                    {
+                      "name": "Slide Design",
+                      "icon": "🖼️🗣️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Public Speaking",
+                      "icon": "🗣️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Data Visualization",
+                      "icon": "📊👀",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Storytelling for Business",
+                      "icon": "🗣️💼",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Soft Skills & Human Development",
+          "icon": "🤝",
+          "subcategories": [
+            {
+              "name": "Communication Training",
+              "icon": "🗣️",
+              "subcategories": [
+                {
+                  "name": "Verbal Communication",
+                  "icon": "🗣️",
+                  "subcategories": [
+                    {
+                      "name": "Public Speaking",
+                      "icon": "🗣️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Conversation Skills",
+                      "icon": "🗣️💬",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Active Listening",
+                      "icon": "👂",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Negotiation Techniques",
+                      "icon": "🤝⚖️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Persuasive Speaking",
+                      "icon": "🗣️✨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Storytelling",
+                      "icon": "📖🗣️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Written Communication",
+                  "icon": "✍️",
+                  "subcategories": [
+                    {
+                      "name": "Business Writing",
+                      "icon": "✍️💼",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Email Etiquette",
+                      "icon": "📧✅",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Proposal Writing",
+                      "icon": "✍️📄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Report Writing",
+                      "icon": "✍️📊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Grant Writing",
+                      "icon": "✍️💰",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Non-verbal Communication",
+                  "icon": "🧍‍♀️",
+                  "subcategories": [
+                    {
+                      "name": "Body Language",
+                      "icon": "🧍‍♂️🗣️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Facial Expressions",
+                      "icon": "🙂🙁",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Physical Presence",
+                      "icon": "🧍‍♀️✨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Voice Modulation",
+                      "icon": "🗣️〰️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Cross-cultural Communication",
+                  "icon": "🌍",
+                  "subcategories": [
+                    {
+                      "name": "Cultural Sensitivity",
+                      "icon": "🌍🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "International Business Etiquette",
+                      "icon": "🌍💼🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Translation Skills",
+                      "icon": "🗣️↔️🗣️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Intercultural Awareness",
+                      "icon": "🌍🧠",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Emotional Intelligence",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Self-Awareness Development",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": [
+                    {
+                      "name": "Emotion Recognition",
+                      "icon": "😊😠😢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Personal Values Clarification",
+                      "icon": "🤔💖",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Strength Identification",
+                      "icon": "💪✨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Limitation Acknowledgment",
+                      "icon": "🤔⚠️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Self-Regulation",
+                  "icon": "🧘‍♀️🧘‍♂️",
+                  "subcategories": [
+                    {
+                      "name": "Emotional Management",
+                      "icon": "🧘‍♂️💨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Impulse Control",
+                      "icon": "✋🛑",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Stress Management",
+                      "icon": "🧘‍♀️🛀",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Adaptability Development",
+                      "icon": "🔄🌿",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Social Awareness",
+                  "icon": "👥",
+                  "subcategories": [
+                    {
+                      "name": "Empathy Development",
+                      "icon": "🤗❤️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Organizational Awareness",
+                      "icon": "🏢👀",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Service Orientation",
+                      "icon": "💁‍♂️🤝",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Relationship Management",
+                  "icon": "🤝",
+                  "subcategories": [
+                    {
+                      "name": "Influence Development",
+                      "icon": "✨🗣️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Conflict Management",
+                      "icon": "🤝☮️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Team Collaboration",
+                      "icon": "👥🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Change Catalysis",
+                      "icon": "✨🚀",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Bond Building",
+                      "icon": "🤝🔗",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Leadership Development",
+              "icon": "🤴🫅",
+              "subcategories": [
+                {
+                  "name": "Leadership Styles",
+                  "icon": "👑📊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Team Building",
+                  "icon": "👥🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vision Creation",
+                  "icon": "✨🔭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ethical Leadership",
+                  "icon": "⚖️👑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Change Management",
+                  "icon": "🔄📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mentoring Skills",
+                  "icon": "🧑‍🏫🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Coaching Techniques",
+                  "icon": "🎯🗣️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Interpersonal Skills",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Conflict Resolution",
+                  "icon": "🤝",
+                  "subcategories": [
+                    {
+                      "name": "Mediation Skills",
+                      "icon": "🧑‍⚖️🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "De-escalation Techniques",
+                      "icon": "☮️🗣️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Win-Win Negotiation",
+                      "icon": "🤝🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Difficult Conversations",
+                      "icon": "🗣️🔥",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Relationship Building",
+                  "icon": "🤝",
+                  "subcategories": [
+                    {
+                      "name": "Networking",
+                      "icon": "🌐🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Trust Development",
+                      "icon": "🤝💖",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Authentic Connection",
+                      "icon": "🤗❤️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Team Dynamics",
+                      "icon": "👥⚙️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Collaboration Skills",
+                  "icon": "🤝",
+                  "subcategories": [
+                    {
+                      "name": "Group Facilitation",
+                      "icon": "🗣️👥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Consensus Building",
+                      "icon": "👍🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Collective Problem Solving",
+                      "icon": "👥💡",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Interdisciplinary Collaboration",
+                      "icon": "🔬🎨🤝",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Courses & Education Formats",
+      "icon": "🎓",
+      "subcategories": [
+        {
+          "name": "Formal Education",
+          "icon": "🏫",
+          "subcategories": [
+            {
+              "name": "Degree Programs",
+              "icon": "🎓",
+              "subcategories": [
+                {
+                  "name": "Associate Degrees",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bachelor's Degrees",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Master's Programs",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Doctoral Studies",
+                  "icon": "🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Professional Degrees",
+                  "icon": "🎓",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Certification Programs",
+              "icon": "📜",
+              "subcategories": [
+                {
+                  "name": "Professional Certifications",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Industry-Specific Certifications",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technical Credentials",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "License Preparation",
+                  "icon": "📜",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Academic Institutions",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "Universities",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community Colleges",
+                  "icon": "🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trade Schools",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technical Institutes",
+                  "icon": "🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Online Universities",
+                  "icon": "💻",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Continuing Education",
+          "icon": "📚",
+          "subcategories": [
+            {
+              "name": "Professional Development",
+              "icon": "📈",
+              "subcategories": [
+                {
+                  "name": "Industry Conferences",
+                  "icon": "🗣️👥🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Trade Exhibitions",
+                  "icon": "🏢🛍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Professional Associations",
+                  "icon": "🤝🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Continuing Education Units",
+                  "icon": "🎓📜",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Certification Preparation",
+              "icon": "📜",
+              "subcategories": [
+                {
+                  "name": "Exam Study Groups",
+                  "icon": "📚👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Practice Tests",
+                  "icon": "📝✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Review Courses",
+                  "icon": "📚🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Refresher Training",
+                  "icon": "🔄🎓",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Career Advancement Programs",
+              "icon": "🚀",
+              "subcategories": [
+                {
+                  "name": "Career Transition Programs",
+                  "icon": "🚀🏢",
+                  "subcategories": []
+                },
+                {
+                  "name": "Specialization Courses",
+                  "icon": "🎯📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Advanced Professional Training",
+                  "icon": "🎓📈",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alternative Learning Formats",
+          "icon": "💡",
+          "subcategories": [
+            {
+              "name": "Masterclasses",
+              "icon": "⭐",
+              "subcategories": [
+                {
+                  "name": "Expert-Led Intensive Learning",
+                  "icon": "🧑‍🏫🔥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Specialized Knowledge Transfer",
+                  "icon": "🧠✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Craft Mastery Sessions",
+                  "icon": "🛠️🏆",
+                  "subcategories": []
+                },
+                {
+                  "name": "Creative Excellence Programs",
+                  "icon": "🎨✨",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Boot Camps",
+              "icon": "🚀",
+              "subcategories": [
+                {
+                  "name": "Intensive Skill Development",
+                  "icon": "💪🔥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Immersive Learning Experiences",
+                  "icon": "🌊🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Accelerated Training Programs",
+                  "icon": "🚀⏱️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cohort-Based Learning",
+                  "icon": "👥📚",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Webinars & Online Learning",
+              "icon": "💻",
+              "subcategories": [
+                {
+                  "name": "Live Online Sessions",
+                  "icon": "💻🔴",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pre-recorded Courses",
+                  "icon": "💻▶️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Micro-learning Modules",
+                  "icon": "📱🤏📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Virtual Conferences",
+                  "icon": "💻🌍🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Workshops",
+                  "icon": "💻🛠️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Hands-on Workshops",
+              "icon": "🛠️",
+              "subcategories": [
+                {
+                  "name": "Experiential Learning",
+                  "icon": "👋🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Practical Application",
+                  "icon": "🛠️➡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Skill-Building Intensives",
+                  "icon": "💪🔥📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Making & Creating Sessions",
+                  "icon": "🎨🛠️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Lecture Series",
+              "icon": "🗣️",
+              "subcategories": [
+                {
+                  "name": "Topic-Focused Presentations",
+                  "icon": "🎯🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Expert Speaker Series",
+                  "icon": "🧑‍🏫🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Academic Lectures",
+                  "icon": "🎓🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Intellectual Talks",
+                  "icon": "🧠🌍🗣️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Community-Based Learning",
+          "icon": "👥",
+          "subcategories": [
+            {
+              "name": "Study Groups",
+              "icon": "📚",
+              "subcategories": [
+                {
+                  "name": "Peer Learning Circles",
+                  "icon": "👥🔄📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Subject-Specific Groups",
+                  "icon": "🔬📚👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Exam Preparation Groups",
+                  "icon": "📝📚👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Accountability Partners",
+                  "icon": "🤝🎯",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Research Circles",
+              "icon": "🔬",
+              "subcategories": [
+                {
+                  "name": "Collaborative Investigation",
+                  "icon": "👥🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shared Inquiry Projects",
+                  "icon": "👥❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Action Research",
+                  "icon": "🏃‍♀️🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community-Based Research",
+                  "icon": "🏘️🔬",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Book Discussions",
+              "icon": "📖",
+              "subcategories": [
+                {
+                  "name": "Literary Analysis Groups",
+                  "icon": "📚🧐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nonfiction Study Clubs",
+                  "icon": "📖🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Philosophy Reading Groups",
+                  "icon": "🤔📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Professional Book Clubs",
+                  "icon": "💼📚",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Peer Teaching",
+              "icon": "🫂",
+              "subcategories": [
+                {
+                  "name": "Skill Exchange",
+                  "icon": "🔄🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Knowledge Sharing",
+                  "icon": "🧠🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Teaching to Learn",
+                  "icon": "🧑‍🏫➡️🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reciprocal Learning",
+                  "icon": "🔄📚",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Collaborative Learning",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Problem-Based Learning",
+                  "icon": "❓➡️🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Project-Based Collaboration",
+                  "icon": "🏗️🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Learning Communities",
+                  "icon": "📚🏘️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Collective Knowledge Building",
+                  "icon": "👥🧠🏗️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Self-Directed Learning",
+          "icon": "🚶‍♂️",
+          "subcategories": [
+            {
+              "name": "Personal Curriculum Design",
+              "icon": "🗺️",
+              "subcategories": [
+                {
+                  "name": "Learning Path Creation",
+                  "icon": "🗺️➡️🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Knowledge Gap Analysis",
+                  "icon": "❓🧠🔍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Self-Assessment",
+                  "icon": "🤔✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Progress Tracking",
+                  "icon": "📈📊",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Resource Curation",
+              "icon": "📚",
+              "subcategories": [
+                {
+                  "name": "Book Collections",
+                  "icon": "📚📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Online Resource Libraries",
+                  "icon": "💻📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Learning Materials Organization",
+                  "icon": "📚🗂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Personal Knowledge Management",
+                  "icon": "🧠🗂️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Learning Project Development",
+              "icon": "🏗️",
+              "subcategories": [
+                {
+                  "name": "Self-Directed Challenges",
+                  "icon": "🎯🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Personal Research Projects",
+                  "icon": "🔬🚶‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Applied Learning Activities",
+                  "icon": "🛠️🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Skills Implementation",
+                  "icon": "💪🚶‍♀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Autodidactic Methods",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Deliberate Practice Design",
+                  "icon": "🎯🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Strategic Learning Plans",
+                  "icon": "🗺️🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Efficient Self-Teaching",
+                  "icon": "⏱️🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Learning Transfer Techniques",
+                  "icon": "🧠➡️🌍",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Self-Improvement",
+      "icon": "🌱",
+      "subcategories": [
+        {
+          "name": "Inner Development",
+          "icon": "🧘‍♂️🧘‍♀️",
+          "subcategories": [
+            {
+              "name": "Personal Reflection",
+              "icon": "🧘‍♀️",
+              "subcategories": [
+                {
+                  "name": "Self-Discovery Practices",
+                  "icon": "🤔🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Values Clarification",
+                  "icon": "💖❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Life Purpose Exploration",
+                  "icon": "🧭❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Belief Examination",
+                  "icon": "🤔❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Personal Philosophy Development",
+                  "icon": "🤔📜",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Mindfulness Practice",
+              "icon": "🧘‍♂️",
+              "subcategories": [
+                {
+                  "name": "Present Moment Awareness",
+                  "icon": "🧘‍♀️⏳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Contemplative Practices",
+                  "icon": "🤔🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mindful Living",
+                  "icon": "🧘‍♀️🌿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Attention Training",
+                  "icon": "🧠🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Non-Judgmental Awareness",
+                  "icon": "❤️🧠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Journaling Workshops",
+              "icon": "✍️",
+              "subcategories": [
+                {
+                  "name": "Reflective Writing",
+                  "icon": "✍️🤔",
+                  "subcategories": []
+                },
+                {
+                  "name": "Gratitude Journaling",
+                  "icon": "🙏✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Morning Pages",
+                  "icon": "🌅✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Prompted Journaling",
+                  "icon": "❓✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Art Journaling",
+                  "icon": "🎨✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dream Journaling",
+                  "icon": "🌙✍️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Emotional Growth",
+              "icon": "💖",
+              "subcategories": [
+                {
+                  "name": "Emotional Regulation",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Emotional Literacy",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vulnerability Practice",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Resilience Building",
+                  "icon": "💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Compassion Development",
+                  "icon": "💖",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Character Development",
+          "icon": "🌟",
+          "subcategories": [
+            {
+              "name": "Virtue Development",
+              "icon": "✨",
+              "subcategories": [
+                {
+                  "name": "Integrity Practice",
+                  "icon": "✨⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Honesty Cultivation",
+                  "icon": "✅💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Courage Building",
+                  "icon": "💪🦁",
+                  "subcategories": []
+                },
+                {
+                  "name": "Humility Development",
+                  "icon": "🙇‍♀️💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Patience Practice",
+                  "icon": "⏳🧘‍♂️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Ethical Development",
+              "icon": "⚖️",
+              "subcategories": [
+                {
+                  "name": "Personal Ethics Clarification",
+                  "icon": "🤔⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ethical Decision Making",
+                  "icon": "✅⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Moral Reasoning",
+                  "icon": "🤔🧠⚖️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Value-Based Living",
+                  "icon": "💖➡️🚶",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Habit Cultivation",
+              "icon": "🔄",
+              "subcategories": [
+                {
+                  "name": "Positive Habit Formation",
+                  "icon": "✅🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Habit Change Methodology",
+                  "icon": "🔄🛠️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Virtue Habit Building",
+                  "icon": "✨🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Character-Strengthening Routines",
+                  "icon": "💪🔄",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Wisdom Development",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Life Experience Integration",
+                  "icon": "🌍➡️🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Judgment Improvement",
+                  "icon": "🤔📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Perspective Taking",
+                  "icon": "👀🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Prudence Development",
+                  "icon": "🤔⚖️🧠",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Confidence & Self-Efficacy",
+          "icon": "💪",
+          "subcategories": [
+            {
+              "name": "Confidence Building",
+              "icon": "💪",
+              "subcategories": [
+                {
+                  "name": "Self-Talk Improvement",
+                  "icon": "🗣️💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Positive Self-Image",
+                  "icon": "✨👤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Self-Acceptance",
+                  "icon": "🤗❤️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Imposter Syndrome Management",
+                  "icon": "🎭🚫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Performance Confidence",
+                  "icon": "💪✨🎭",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Strengths Discovery",
+              "icon": "⭐",
+              "subcategories": [
+                {
+                  "name": "Personal Strengths Inventory",
+                  "icon": "💪📝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Strength Utilization",
+                  "icon": "💪➡️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Talent Development",
+                  "icon": "✨📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Signature Strength Exploration",
+                  "icon": "✨💖🔍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Competence Development",
+              "icon": "🏆",
+              "subcategories": [
+                {
+                  "name": "Skill Mastery Pursuit",
+                  "icon": "🏆🎯",
+                  "subcategories": []
+                },
+                {
+                  "name": "Expertise Development",
+                  "icon": "🧑‍🔬📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Deliberate Practice",
+                  "icon": "🎯🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Progressive Challenge",
+                  "icon": "📈🧗‍♀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Achievement Orientation",
+              "icon": "🎯",
+              "subcategories": [
+                {
+                  "name": "Goal Setting",
+                  "icon": "🎯📝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Achievement Motivation",
+                  "icon": "🏆🔥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Productive Persistence",
+                  "icon": "💪⏳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Milestone Recognition",
+                  "icon": "🎉🎯",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Personal Transformation",
+          "icon": "🦋",
+          "subcategories": [
+            {
+              "name": "Career Transitions",
+              "icon": "🏢➡️🏢",
+              "subcategories": []
+            },
+            {
+              "name": "Relationship Changes",
+              "icon": "💔➡️❤️",
+              "subcategories": []
+            },
+            {
+              "name": "Geographic Relocations",
+              "icon": "🗺️➡️🏠",
+              "subcategories": []
+            },
+            {
+              "name": "Life Stage Passages",
+              "icon": "👶➡️👴",
+              "subcategories": []
+            },
+            {
+              "name": "Identity Shifts",
+              "icon": "👤➡️👤✨",
+              "subcategories": []
+            },
+            {
+              "name": "Growth Mindset Cultivation",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Learning Orientation",
+                  "icon": "🧠➡️📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Challenge Embracing",
+                  "icon": "🤗⛰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Effort Valuing",
+                  "icon": "💪💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Resilience After Setbacks",
+                  "icon": "💪❤️‍🩹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Continuous Improvement Focus",
+                  "icon": "📈➡️✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Personal Reinvention",
+                  "icon": "🚀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Identity Exploration",
+                  "icon": "🤔👤",
+                  "subcategories": []
+                },
+                {
+                  "name": "New Skill Acquisition",
+                  "icon": "✨💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Comfort Zone Expansion",
+                  "icon": "🚶➡️🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Life Vision Reframing",
+                  "icon": "🖼️🔄🔭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Transformative Experiences",
+                  "icon": "✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Retreat Participation",
+                  "icon": "🧘‍♀️🏞️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Vision Quests",
+                  "icon": "🔭✨🧘‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Rites of Passage",
+                  "icon": "🎉🚶‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Transformative Travel",
+                  "icon": "✈️✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Deep Change Processes",
+                  "icon": "🦋🔄",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Languages & Intercultural Learning",
+      "icon": "🗣️",
+      "subcategories": [
+        {
+          "name": "Language Acquisition",
+          "icon": "🗣️",
+          "subcategories": [
+            {
+              "name": "Language Fundamentals",
+              "icon": "📚",
+              "subcategories": [
+                {
+                  "name": "Grammar Workshops",
+                  "icon": "📖",
+                  "subcategories": [
+                    {
+                      "name": "Structural Understanding",
+                      "icon": "🏗️🧠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Usage Rules",
+                      "icon": "✅📜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pattern Recognition",
+                      "icon": "🧩👀",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Syntax Mastery",
+                      "icon": "📜✍️🏆",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Vocabulary Building",
+                  "icon": "📖",
+                  "subcategories": [
+                    {
+                      "name": "Thematic Vocabulary",
+                      "icon": "📚🗂️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Frequency-Based Learning",
+                      "icon": "📊📚",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Context-Based Acquisition",
+                      "icon": "🌍📚",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mnemonic Techniques",
+                      "icon": "🧠🔗",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Pronunciation Training",
+                  "icon": "🗣️",
+                  "subcategories": [
+                    {
+                      "name": "Phonetics",
+                      "icon": "🗣️👂",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Accent Reduction",
+                      "icon": "🗣️🌍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Intonation Patterns",
+                      "icon": "🗣️📈📉",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Rhythm & Stress",
+                      "icon": "🥁🗣️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Language Practice Methods",
+              "icon": "🗣️",
+              "subcategories": [
+                {
+                  "name": "Conversation Practice",
+                  "icon": "🗣️",
+                  "subcategories": [
+                    {
+                      "name": "Language Partners",
+                      "icon": "🗣️🤝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Conversation Clubs",
+                      "icon": "💬👥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Guided Discussion",
+                      "icon": "🗣️❓",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Role Playing",
+                      "icon": "🎭🗣️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Immersion Experiences",
+                  "icon": "✈️",
+                  "subcategories": [
+                    {
+                      "name": "Study Abroad",
+                      "icon": "✈️📚",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Language Villages",
+                      "icon": "🗣️🏘️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Immersion Weekends",
+                      "icon": "🗣️⏳🌊",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Target Language Environments",
+                      "icon": "🗣️🎯🌍",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Multimedia Learning",
+                  "icon": "💻",
+                  "subcategories": [
+                    {
+                      "name": "Film & Television",
+                      "icon": "🎬📺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Music & Lyrics",
+                      "icon": "🎵✍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Podcasts & Radio",
+                      "icon": "🎙️📻",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Literature & Poetry",
+                      "icon": "📚✍️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Language Exchange",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Tandem Learning",
+                  "icon": "🗣️🔄🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Online Language Communities",
+                  "icon": "💻🗣️🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "International Partnerships",
+                  "icon": "🌍🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Exchange Programs",
+                  "icon": "🌍🔄🌍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Specialized Language Skills",
+              "icon": "🗣️",
+              "subcategories": [
+                {
+                  "name": "Professional Language",
+                  "icon": "🗣️💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Academic Language",
+                  "icon": "🗣️🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Literary Language",
+                  "icon": "🗣️📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Technical Vocabulary",
+                  "icon": "🗣️⚙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Slang & Idioms",
+                  "icon": "🗣️🤪",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cultural Learning",
+          "icon": "🌍",
+          "subcategories": [
+            {
+              "name": "Cultural Context Learning",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Cultural Norms & Values",
+                  "icon": "🌍🤝💖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Historical Background",
+                  "icon": "📜🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Societal Structures",
+                  "icon": "👥🌍🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Products & Practices",
+                  "icon": "🎨🌍🎭",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Intercultural Competence",
+              "icon": "🤝",
+              "subcategories": [
+                {
+                  "name": "Cultural Sensitivity",
+                  "icon": "🌍🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cross-Cultural Communication",
+                  "icon": "🗣️🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Intelligence",
+                  "icon": "🌍🧠💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Culture Shock Management",
+                  "icon": "🤯🌍➡️🧘‍♀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Cultural Immersion",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Cultural Events Participation",
+                  "icon": "🎉🌍🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Mentorships",
+                  "icon": "🧑‍🏫🌍🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Homestay Experiences",
+                  "icon": "🏠🌍🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Communities Engagement",
+                  "icon": "🏘️🌍🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Global Perspectives",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "International Relations",
+                  "icon": "🌍🤝🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Global Issues Awareness",
+                  "icon": "🌍⚠️🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Comparative Cultural Studies",
+                  "icon": "🌍🆚🌍📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Global Citizenship",
+                  "icon": "🌍👤🤝",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Multi-Language Development",
+          "icon": "🗣️",
+          "subcategories": [
+            {
+              "name": "Polyglot Techniques",
+              "icon": "🗣️📚📚",
+              "subcategories": [
+                {
+                  "name": "Language Family Learning",
+                  "icon": "🗣️🌳📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Transfer Skills",
+                  "icon": "🧠🗣️➡️🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "|| 📚 Parallel Learning",
+                  "icon": "📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Language Maintenance",
+                  "icon": "🗣️🔄💪",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Translation & Interpretation",
+              "icon": "🗣️🔄🗣️",
+              "subcategories": [
+                {
+                  "name": "Basic Translation Skills",
+                  "icon": "🗣️➡️🗣️✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sight Translation",
+                  "icon": "👀🗣️➡️🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Consecutive Interpretation",
+                  "icon": "🗣️👂➡️🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Simultaneous Interpretation",
+                  "icon": "🎧🗣️➡️🗣️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Comparative Linguistics",
+              "icon": "🗣️🆚🗣️🔬",
+              "subcategories": [
+                {
+                  "name": "Language Patterns",
+                  "icon": "🗣️🧩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cognate Recognition",
+                  "icon": "🗣️🤝🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Linguistic Similarities",
+                  "icon": "🗣️≈🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Translation Challenges",
+                  "icon": "🗣️❓🗣️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Academic Learning",
+      "icon": "🎓",
+      "subcategories": [
+        {
+          "name": "Academic Subjects",
+          "icon": "📚",
+          "subcategories": [
+            {
+              "name": "Mathematical Studies",
+              "icon": "➕",
+              "subcategories": [
+                {
+                  "name": "Math Study",
+                  "icon": "➕",
+                  "subcategories": [
+                    {
+                      "name": "Pure Mathematics",
+                      "icon": "➕♾️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Applied Mathematics",
+                      "icon": "➕🌍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mathematical Modeling",
+                      "icon": "➕💻🌍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Statistical Analysis",
+                      "icon": "📊📈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Computational Mathematics",
+                      "icon": "💻➕",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Mathematics Applications",
+                  "icon": "➕",
+                  "subcategories": [
+                    {
+                      "name": "Finance Mathematics",
+                      "icon": "💰➕",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Engineering Mathematics",
+                      "icon": "⚙️➕",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Scientific Mathematics",
+                      "icon": "🔬➕",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Data Science Mathematics",
+                      "icon": "📊💻➕",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mathematical Logic",
+                      "icon": "🤔➕",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Scientific Exploration",
+              "icon": "🔬",
+              "subcategories": [
+                {
+                  "name": "Physical Sciences",
+                  "icon": "⚛️",
+                  "subcategories": [
+                    {
+                      "name": "Physics",
+                      "icon": "⚛️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Chemistry",
+                      "icon": "🧪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Astronomy",
+                      "icon": "🔭",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Earth Sciences",
+                      "icon": "🌍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Materials Science",
+                      "icon": "🧱",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Life Sciences",
+                  "icon": "🧬",
+                  "subcategories": [
+                    {
+                      "name": "Biology",
+                      "icon": "🧬",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ecology",
+                      "icon": "🌳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Botany",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Zoology",
+                      "icon": "🐾",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Microbiology",
+                      "icon": "🦠",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Applied Sciences",
+                  "icon": "🔬",
+                  "subcategories": [
+                    {
+                      "name": "Engineering Disciplines",
+                      "icon": "⚙️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Medical Sciences",
+                      "icon": "🩺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Agricultural Sciences",
+                      "icon": "🚜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Environmental Sciences",
+                      "icon": "🌳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Computer Science",
+                      "icon": "💻",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Scientific Methods",
+                  "icon": "🔬",
+                  "subcategories": [
+                    {
+                      "name": "Empirical Research",
+                      "icon": "🔬👀",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Experimental Design",
+                      "icon": "🧪📐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Data Collection",
+                      "icon": "📊📥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Analysis Techniques",
+                      "icon": "🔬📈🛠️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Scientific Writing",
+                      "icon": "✍️🔬",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Humanities",
+              "icon": "🏛️",
+              "subcategories": [
+                {
+                  "name": "History Discussions",
+                  "icon": "📜",
+                  "subcategories": [
+                    {
+                      "name": "World History",
+                      "icon": "🌍📜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Regional Histories",
+                      "icon": "🗺️📜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Thematic Historical Studies",
+                      "icon": "🎯📜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Historiography",
+                      "icon": "📜✍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Historical Methods",
+                      "icon": "📜🛠️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Literature Analysis",
+                  "icon": "📚",
+                  "subcategories": [
+                    {
+                      "name": "Literary Genres",
+                      "icon": "📚🎭✍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Critical Theory",
+                      "icon": "🤔📚",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Comparative Literature",
+                      "icon": "📚🆚📚",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "World Literature",
+                      "icon": "🌍📚",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Contemporary Literature",
+                      "icon": "⏳📚",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Philosophy Studies",
+                  "icon": "🤔",
+                  "subcategories": [
+                    {
+                      "name": "Philosophical Traditions",
+                      "icon": "🤔🏛️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ethics",
+                      "icon": "⚖️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Logic",
+                      "icon": "💡",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Metaphysics",
+                      "icon": "🌌",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Epistemology",
+                      "icon": "💡",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Religious Studies",
+                  "icon": "🛐📖",
+                  "subcategories": [
+                    {
+                      "name": "World Religions",
+                      "icon": "🌍🛐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Comparative Religion",
+                      "icon": "🛐🆚🛐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Theology",
+                      "icon": "🕊️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Religious History",
+                      "icon": "🛐📜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Spirituality Studies",
+                      "icon": "✨🧘‍♂️📚",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Social Sciences",
+              "icon": "👥",
+              "subcategories": [
+                {
+                  "name": "Psychology",
+                  "icon": "🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sociology",
+                  "icon": "👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Anthropology",
+                  "icon": "👤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Political Science",
+                  "icon": "🏛️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Economics",
+                  "icon": "💰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Geography",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Linguistics",
+                  "icon": "🗣️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Arts & Culture",
+              "icon": "🎨",
+              "subcategories": [
+                {
+                  "name": "Art History",
+                  "icon": "🎨📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Music Theory & History",
+                  "icon": "🎵📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Theater & Drama Studies",
+                  "icon": "🎭📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Film Studies",
+                  "icon": "🎬📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cultural Studies",
+                  "icon": "🌍🎨📚",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Academic Skills",
+          "icon": "🎓",
+          "subcategories": [
+            {
+              "name": "Research Methodology",
+              "icon": "🔬",
+              "subcategories": [
+                {
+                  "name": "Primary Research",
+                  "icon": "🔬🥇",
+                  "subcategories": []
+                },
+                {
+                  "name": "Secondary Research",
+                  "icon": "📚🥈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Qualitative Methods",
+                  "icon": "🗣️✍️🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Quantitative Methods",
+                  "icon": "📊🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mixed Methods",
+                  "icon": "🗣️📊🔬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Research Ethics",
+                  "icon": "⚖️🔬",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Critical Thinking",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Logical Reasoning",
+                  "icon": "🤔💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Argument Analysis",
+                  "icon": "🗣️➡️🧐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Evidence Evaluation",
+                  "icon": "📊✅❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conceptual Analysis",
+                  "icon": "🤔🧩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fallacy Recognition",
+                  "icon": "🤔🚫💡",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Academic Writing",
+              "icon": "✍️",
+              "subcategories": [
+                {
+                  "name": "Essay Writing",
+                  "icon": "✍️📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Research Papers",
+                  "icon": "✍️🔬📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Literature Reviews",
+                  "icon": "📚🧐📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Thesis Development",
+                  "icon": "🎓✍️📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Academic Integrity",
+                  "icon": "🎓✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Citation Methods",
+                  "icon": "✍️📚🔗",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Study Strategies",
+              "icon": "📚",
+              "subcategories": [
+                {
+                  "name": "Note-Taking Systems",
+                  "icon": "📝🗂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reading Comprehension",
+                  "icon": "📚➡️🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Information Synthesis",
+                  "icon": "📚🧩➡️💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Memory Techniques",
+                  "icon": "🧠💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Exam Preparation",
+                  "icon": "📝",
+                  "subcategories": [
+                    {
+                      "name": "Test-Taking Strategies",
+                      "icon": "📝🏆",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Subject-Specific Preparation",
+                      "icon": "🔬📚📝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Standardized Test Preparation",
+                      "icon": "🎓📝",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Stress Management for Exams",
+                      "icon": "🧘‍♀️📝",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Scholarly Development",
+          "icon": "🧐",
+          "subcategories": [
+            {
+              "name": "Intellectual Growth",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Interdisciplinary Learning",
+                  "icon": "🔬🎨📚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Knowledge Integration",
+                  "icon": "🧠🧩🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conceptual Understanding",
+                  "icon": "🤔💡✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Theoretical Development",
+                  "icon": "🤔📈💡",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Academic Discourse",
+              "icon": "🗣️",
+              "subcategories": [
+                {
+                  "name": "Scholarly Discussion",
+                  "icon": "🎓🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Academic Debate",
+                  "icon": "🎓🗣️🆚",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conference Participation",
+                  "icon": "🎓🗣️👥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Intellectual Exchange",
+                  "icon": "🧠🔄🧠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Publication & Dissemination",
+              "icon": "📖",
+              "subcategories": [
+                {
+                  "name": "Academic Publishing",
+                  "icon": "🎓✍️➡️🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Presentation Skills",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Research Communication",
+                  "icon": "🔬🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Public Scholarship",
+                  "icon": "🎓🗣️🌍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Mentor Relationships",
+              "icon": "🧑",
+              "subcategories": [
+                {
+                  "name": "Academic Mentorship",
+                  "icon": "🎓🧑‍🏫🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Research Supervision",
+                  "icon": "🔬👀🧑‍🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Scholarly Guidance",
+                  "icon": "🎓🧭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Intellectual Legacy",
+                  "icon": "🧠➡️🌍✨",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Learning Psychology & Methodologies",
+      "icon": "🧠",
+      "subcategories": [
+        {
+          "name": "Learning Theories & Applications",
+          "icon": "💡",
+          "subcategories": [
+            {
+              "name": "Cognitive Learning",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Information Processing",
+                  "icon": "📥➡️🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mental Models Construction",
+                  "icon": "🧠🏗️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Schema Development",
+                  "icon": "🧠🕸️📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cognitive Load Management",
+                  "icon": "🧠🏋️‍♀️➡️🧘‍♀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Behavioral Learning",
+              "icon": "⚙️",
+              "subcategories": [
+                {
+                  "name": "Skill Acquisition",
+                  "icon": "💪➡️✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Habit Formation",
+                  "icon": "🔄➡️✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reinforcement Strategies",
+                  "icon": "👍🔄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Practice Methods",
+                  "icon": "🧘‍♀️🛠️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Social Learning",
+              "icon": "👥",
+              "subcategories": [
+                {
+                  "name": "Observational Learning",
+                  "icon": "👀➡️🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Community of Practice",
+                  "icon": "👥🛠️🤝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Apprenticeship Models",
+                  "icon": "🧑‍🏫➡️🧑‍🎓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Peer Learning",
+                  "icon": "🧑‍🎓🔄🧑‍🎓",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Experiential Learning",
+              "icon": "✋",
+              "subcategories": [
+                {
+                  "name": "Learning by Doing",
+                  "icon": "👋➡️🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Reflection on Experience",
+                  "icon": "🤔🔄🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Applied Learning Cycles",
+                  "icon": "🔄🌍🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hands-On Skill Development",
+                  "icon": "👋💪📈",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Learning Methodologies",
+          "icon": "🧠",
+          "subcategories": [
+            {
+              "name": "Active Learning Strategies",
+              "icon": "⚡️",
+              "subcategories": [
+                {
+                  "name": "Problem-Based Learning",
+                  "icon": "❓➡️🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Inquiry-Based Learning",
+                  "icon": "❓🔍➡️🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Project-Based Learning",
+                  "icon": "🏗️➡️🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Discovery Learning",
+                  "icon": "💡➡️🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Flipped Learning",
+                  "icon": "🔄🏫",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Accelerated Learning Techniques",
+              "icon": "🚀",
+              "subcategories": [
+                {
+                  "name": "Spaced Repetition",
+                  "icon": "⏳🔄🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Interleaving Practice",
+                  "icon": "🔀🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Retrieval Practice",
+                  "icon": "🧠❓➡️💪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dual Coding",
+                  "icon": "🗣️🖼️➡️🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Memory Palaces",
+                  "icon": "🧠🏰",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Deep Learning Approaches",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Elaborative Questioning",
+                  "icon": "🤔❓➡️🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conceptual Mapping",
+                  "icon": "🧠🗺️",
+                  "subcategories": []
+                },
+                {
+                  "name": "First Principles Thinking",
+                  "icon": "🤔fundamental➡️💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Transfer Learning",
+                  "icon": "🧠➡️🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Systems Thinking",
+                  "icon": "🕸️🧠",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Learning Optimization",
+          "icon": "📈",
+          "subcategories": [
+            {
+              "name": "Learning Environment Design",
+              "icon": "🏠",
+              "subcategories": [
+                {
+                  "name": "Physical Space Optimization",
+                  "icon": "🏠✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Digital Learning Environments",
+                  "icon": "💻✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Learning Tools Selection",
+                  "icon": "🛠️✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Distraction Management",
+                  "icon": "🚫📱🧘‍♀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Learning Style Adaptation",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Multi-Modal Learning",
+                  "icon": "👂👀👋➡️🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sensory Preference Integration",
+                  "icon": "👂👀👃👅👋➡️🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Learning Preference Awareness",
+                  "icon": "🤔❤️🧠",
+                  "subcategories": []
+                },
+                {
+                  "name": "Flexible Learning Approaches",
+                  "icon": "🤸‍♀️📚",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Metacognition Development",
+              "icon": "🧠",
+              "subcategories": [
+                {
+                  "name": "Learning Self-Awareness",
+                  "icon": "🤔🧠✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Strategy Selection",
+                  "icon": "🛠️🗺️✅",
+                  "subcategories": []
+                },
+                {
+                  "name": "Learning Monitoring",
+                  "icon": "👀🧠📈",
+                  "subcategories": []
+                },
+                {
+                  "name": "Self-Evaluation",
+                  "icon": "🤔✅👤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Learning Adjustment",
+                  "icon": "🧠🔄🔧",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Lifelong Learning Cultivation",
+              "icon": "📚",
+              "subcategories": [
+                {
+                  "name": "Learning Mindset",
+                  "icon": "💡",
+                  "subcategories": [
+                    {
+                      "name": "Growth Orientation",
+                      "icon": "🌱📈",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Curiosity Development",
+                      "icon": "🤔❓✨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Beginner's Mind Cultivation",
+                      "icon": "🌱🧠",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Intellectual Humility",
+                      "icon": "🧠🙇‍♀️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Learning Habits",
+                  "icon": "🔄",
+                  "subcategories": [
+                    {
+                      "name": "Daily Learning Rituals",
+                      "icon": "🌅📚🔄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Regular Knowledge Refresh",
+                      "icon": "🔄🧠✨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Deliberate Study",
+                      "icon": "🎯📚",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Learning Integration",
+                      "icon": "🧠🤝🌍",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Continuous Development Framework",
+                  "icon": "🗺️",
+                  "subcategories": [
+                    {
+                      "name": "Skill Evolution Planning",
+                      "icon": "💪📈🗺️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Knowledge Gap Analysis",
+                      "icon": "🧠❓🔍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Development Portfolio",
+                      "icon": "📈📂",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Learning Biography",
+                      "icon": "👤📚📜",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

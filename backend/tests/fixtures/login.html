@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Test Page</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('login-form');
+            const errorDiv = document.querySelector('.error');
+            
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const username = document.getElementById('username').value;
+                const password = document.getElementById('password').value;
+                
+                // Show error for invalid test credentials
+                if (username === 'wronguser' && password === 'wrongpass') {
+                    errorDiv.style.display = 'block';
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <form id="login-form">
+            <div>
+                <label for="username">Username</label>
+                <input
+                    id="username"
+                    name="username"
+                    type="text"
+                    required
+                />
+            </div>
+
+            <div>
+                <label for="password">Password</label>
+                <input
+                    id="password"
+                    name="password"
+                    type="password"
+                    required
+                />
+            </div>
+
+            <button type="submit">Login</button>
+        </form>
+        <div class="error" style="display:none;">Failed to login</div>
+    </div>
+</body>
+</html>

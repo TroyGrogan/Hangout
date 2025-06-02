@@ -1,0 +1,688 @@
+[
+  {
+    "id": 1,
+    "prompt": "Suggest ideas for urban exploration day trips (walking tours, street art, historical districts).",
+    "displayText": "Urban Exploration Day Trips",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 2,
+    "prompt": "Suggest ideas for countryside day trips (scenic drives, rural towns, farm visits).",
+    "displayText": "Countryside Day Trips",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 3,
+    "prompt": "Suggest nearby natural areas for day trips (hiking trails, waterfalls, viewpoints, beaches, lakes).",
+    "displayText": "Natural Area Day Trips",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 4,
+    "prompt": "Suggest local cultural immersion day trips (museums, galleries, festivals, food tours).",
+    "displayText": "Cultural Immersion Day Trips",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 5,
+    "prompt": "Suggest ideas for weekend getaways to nearby small towns, resorts, or natural retreats.",
+    "displayText": "Weekend Getaway Destinations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 6,
+    "prompt": "Suggest themed weekend trip ideas (wellness, romantic, family, solo, creative, adventure).",
+    "displayText": "Themed Weekend Trip Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 7,
+    "prompt": "Suggest seasonal weekend getaway ideas (fall foliage, winter wonderland, spring blooms).",
+    "displayText": "Seasonal Weekend Getaways",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 8,
+    "prompt": "Suggest types of local retreats (meditation, yoga, nature immersion, digital detox).",
+    "displayText": "Local Retreat Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 9,
+    "prompt": "Suggest ideas for regional road trips (scenic byways, historic routes, coastal drives).",
+    "displayText": "Regional Road Trip Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 10,
+    "prompt": "Suggest notable regional natural wonders to visit (state parks, mountains, lakes, unique ecosystems).",
+    "displayText": "Explore Regional Natural Wonders",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 11,
+    "prompt": "Suggest regional cultural heritage sites to explore (landmarks, indigenous sites, museums).",
+    "displayText": "Explore Regional Cultural Heritage",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 12,
+    "prompt": "Suggest ways to find unique local experiences or hidden gems in a region.",
+    "displayText": "Find Unique Local Experiences",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 13,
+    "prompt": "Suggest ways to practice slow travel locally (walking tours, deep immersion, sensory exploration).",
+    "displayText": "Mindful Slow Travel Locally",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 14,
+    "prompt": "Suggest ways to connect with the local community while exploring (local guides, homestays, events).",
+    "displayText": "Connect with Local Community",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 15,
+    "prompt": "Suggest ways to practice sustainable and low-impact local tourism.",
+    "displayText": "Sustainable Local Tourism",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 16,
+    "prompt": "Suggest travel destinations within a specific continent (North America, South America, Europe, Asia, Africa, Oceania).",
+    "displayText": "Explore Destinations by Continent",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 17,
+    "prompt": "Suggest travel ideas based on geographical features (mountains, deserts, islands, coastlines, rivers).",
+    "displayText": "Travel Ideas by Geography",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 18,
+    "prompt": "Suggest significant cultural heritage sites or historical cities to visit globally.",
+    "displayText": "Global Cultural Heritage Sites",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 19,
+    "prompt": "Suggest themed international travel ideas (culinary, art, history, music, spiritual, photography).",
+    "displayText": "Themed International Travel",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 20,
+    "prompt": "Provide tips for researching destinations and planning a travel itinerary.",
+    "displayText": "Travel Research & Itinerary Planning",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 21,
+    "prompt": "Suggest preparation steps for international travel (health, documents, finance, packing).",
+    "displayText": "International Travel Preparation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 22,
+    "prompt": "Compare different transportation options for international travel (flights, trains, buses, boats).",
+    "displayText": "International Transportation Options",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 23,
+    "prompt": "Compare different accommodation approaches (hotels, hostels, homestays, rentals, unique lodging).",
+    "displayText": "Travel Accommodation Options",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 24,
+    "prompt": "Suggest ways to achieve cultural immersion while traveling (language, workshops, ceremonies).",
+    "displayText": "Cultural Immersion Activities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 25,
+    "prompt": "Suggest educational travel opportunities (study abroad, field schools, educational tours).",
+    "displayText": "Educational Travel Opportunities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 26,
+    "prompt": "Suggest ideas for purposeful travel (volunteering, impact tourism, transformational journeys).",
+    "displayText": "Purposeful Travel Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 27,
+    "prompt": "Suggest special interest travel ideas based on hobbies (food, art, music, sports).",
+    "displayText": "Special Interest Travel Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 28,
+    "prompt": "Explain different travel styles (luxury, budget, backpacking, slow travel, solo, family).",
+    "displayText": "Explore Different Travel Styles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 29,
+    "prompt": "Suggest ideas and planning tips for long-term travel (gap year, sabbatical, digital nomad).",
+    "displayText": "Long-Term Travel Planning",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 30,
+    "prompt": "Provide tips for mindful, conscious, and ethical travel practices.",
+    "displayText": "Mindful & Ethical Travel Tips",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 31,
+    "prompt": "Discuss different travel philosophies (travel as education, journey vs. destination, global citizenship).",
+    "displayText": "Explore Travel Philosophies",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 32,
+    "prompt": "Suggest ways to explore different forest and woodland environments.",
+    "displayText": "Explore Forests & Woodlands",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 33,
+    "prompt": "Suggest ways to explore freshwater aquatic ecosystems (rivers, lakes, wetlands).",
+    "displayText": "Explore Freshwater Ecosystems",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 34,
+    "prompt": "Suggest ways to explore marine environments (coral reefs, mangroves, tide pools, open ocean).",
+    "displayText": "Explore Marine Environments",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 35,
+    "prompt": "Suggest ways to explore grasslands, plains, and meadows.",
+    "displayText": "Explore Grasslands & Plains",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 36,
+    "prompt": "Suggest ways to explore interesting geological formations (mountains, canyons, caves, volcanoes).",
+    "displayText": "Explore Geological Formations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 37,
+    "prompt": "Suggest ways to explore desert and arid landscapes.",
+    "displayText": "Explore Desert Landscapes",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 38,
+    "prompt": "Suggest ideas for day hikes on local nature trails or in urban parks.",
+    "displayText": "Day Hiking Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 39,
+    "prompt": "Suggest resources for planning backpacking or multi-day trekking trips.",
+    "displayText": "Backpacking/Trekking Planning",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 40,
+    "prompt": "Suggest specialized hiking ideas (waterfalls, summits, coastal trails, wildlife viewing).",
+    "displayText": "Specialized Hiking Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 41,
+    "prompt": "Suggest resources and tips for bird watching.",
+    "displayText": "Bird Watching Tips & Resources",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 42,
+    "prompt": "Suggest ideas for mammal viewing or wildlife safaris (ethical considerations).",
+    "displayText": "Mammal Viewing/Safari Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 43,
+    "prompt": "Suggest ways to observe specialized wildlife (insects, reptiles, marine life, fungi).",
+    "displayText": "Specialized Wildlife Observation",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 44,
+    "prompt": "Suggest paddling adventures (canoeing, kayaking, paddleboarding, rafting).",
+    "displayText": "Paddling Adventure Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 45,
+    "prompt": "Suggest underwater exploration activities (snorkeling, scuba diving, freediving).",
+    "displayText": "Underwater Exploration Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 46,
+    "prompt": "Suggest shoreline activities (beachcombing, tide pooling, coastal foraging).",
+    "displayText": "Shoreline Activity Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 47,
+    "prompt": "Suggest ways to connect with nature during different seasons (spring wildflowers, summer hiking, fall foliage, winter tracking).",
+    "displayText": "Seasonal Nature Connection Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 48,
+    "prompt": "Suggest resources for learning species identification skills (plants, birds, mammals, insects).",
+    "displayText": "Learn Species Identification",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 49,
+    "prompt": "Suggest field observation techniques (journaling, sketching, photography, field notes).",
+    "displayText": "Field Observation Techniques",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 50,
+    "prompt": "Suggest resources for learning navigation skills (map, compass, GPS, natural navigation).",
+    "displayText": "Learn Navigation Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 51,
+    "prompt": "Suggest ways to study local ecosystems and natural history.",
+    "displayText": "Study Local Ecosystems",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 52,
+    "prompt": "Suggest resources for learning about natural cycles and processes (water cycle, life cycles).",
+    "displayText": "Learn About Natural Cycles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 53,
+    "prompt": "Suggest resources for learning specialized nature knowledge (ethnobotany, foraging, survival skills, tracking).",
+    "displayText": "Specialized Nature Knowledge",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 54,
+    "prompt": "Suggest ways to participate in citizen science projects (surveys, monitoring, counts).",
+    "displayText": "Citizen Science Opportunities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 55,
+    "prompt": "Suggest conservation activities to get involved in (habitat restoration, cleanups, stewardship).",
+    "displayText": "Conservation Activities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 56,
+    "prompt": "Suggest environmental education programs or resources (naturalist programs, guided walks, classes).",
+    "displayText": "Environmental Education Resources",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 57,
+    "prompt": "Suggest nature awareness practices (sensory awareness, nature meditation, sound mapping).",
+    "displayText": "Nature Awareness Practices",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 58,
+    "prompt": "Suggest ways to practice solo time in nature (sit spot, journaling, solitude).",
+    "displayText": "Solo Time in Nature Practices",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 59,
+    "prompt": "Explain deep ecology practices (Council of All Beings, bioregional awareness).",
+    "displayText": "Deep Ecology Practices",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 60,
+    "prompt": "Explain different types of nature therapy (ecotherapy, horticultural therapy, wilderness therapy).",
+    "displayText": "Explore Nature Therapy Types",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 61,
+    "prompt": "Suggest ways nature can be used for healing and stress reduction.",
+    "displayText": "Nature for Healing & Stress Reduction",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 62,
+    "prompt": "Suggest ways to improve wellbeing through nature connection (mental, physical, social, spiritual).",
+    "displayText": "Nature Connection for Wellbeing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 63,
+    "prompt": "Suggest ways to connect with seasonal cycles (phenology, ceremonies, solstice/equinox).",
+    "displayText": "Connect with Seasonal Cycles",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 64,
+    "prompt": "Suggest ways to connect with celestial events (night sky watching, moon tracking, meteor showers).",
+    "displayText": "Celestial Observation Activities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 65,
+    "prompt": "Suggest ways to connect with weather and the elements (cloud watching, storm appreciation).",
+    "displayText": "Connect with Weather & Elements",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 66,
+    "prompt": "Suggest resources for learning mountaineering or high-altitude trekking.",
+    "displayText": "Learn Mountaineering/Trekking",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 67,
+    "prompt": "Suggest resources for learning rock climbing (sport, trad, bouldering) or finding climbing gyms.",
+    "displayText": "Learn Rock Climbing",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 68,
+    "prompt": "Suggest resources for learning caving (spelunking) safely.",
+    "displayText": "Learn Caving/Spelunking",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 69,
+    "prompt": "Suggest resources for getting started with mountain biking (XC, downhill, enduro).",
+    "displayText": "Learn Mountain Biking",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 70,
+    "prompt": "Suggest resources for planning road cycling tours or finding cycling events.",
+    "displayText": "Road Cycling Touring/Events",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 71,
+    "prompt": "Suggest resources for specialized cycling like gravel biking or bikepacking.",
+    "displayText": "Gravel Biking/Bikepacking",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 72,
+    "prompt": "Suggest resources for learning off-road driving or overlanding techniques.",
+    "displayText": "Learn Off-Road Driving/Overlanding",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 73,
+    "prompt": "Suggest resources for adventure motorcycling or long-distance touring.",
+    "displayText": "Adventure Motorcycling Resources",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 74,
+    "prompt": "Suggest ideas for animal-powered journeys (horseback riding, dog sledding, camel trekking).",
+    "displayText": "Animal-Powered Journey Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 75,
+    "prompt": "Suggest resources for learning snow sports (skiing, snowboarding, backcountry).",
+    "displayText": "Learn Snow Sports",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 76,
+    "prompt": "Suggest winter exploration activities (snowshoeing, winter camping, ice climbing).",
+    "displayText": "Winter Exploration Activities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 77,
+    "prompt": "Suggest air-based adventure activities (paragliding, hot air ballooning, scenic flights).",
+    "displayText": "Air-Based Adventure Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 78,
+    "prompt": "Suggest aerial sports like skydiving, BASE jumping, wingsuit flying, or bungee jumping.",
+    "displayText": "Aerial Sports Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 79,
+    "prompt": "Suggest whitewater activities (kayaking, rafting, river boarding).",
+    "displayText": "Whitewater Adventure Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 80,
+    "prompt": "Suggest flatwater paddling activities (kayaking, canoeing, SUPing, packrafting).",
+    "displayText": "Flatwater Paddling Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 81,
+    "prompt": "Suggest resources for learning to sail or finding sailing charters.",
+    "displayText": "Learn Sailing / Sailing Charters",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 82,
+    "prompt": "Suggest surfing sports (surfing, bodyboarding, windsurfing, kitesurfing).",
+    "displayText": "Surfing Sports Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 83,
+    "prompt": "Suggest resources for learning scuba diving, technical diving, or freediving.",
+    "displayText": "Learn Diving (Scuba/Freediving)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 84,
+    "prompt": "Suggest coastal exploration activities (coasteering, sea kayaking, island hopping).",
+    "displayText": "Coastal Exploration Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 85,
+    "prompt": "Suggest multi-sport activities like adventure racing, triathlon, or orienteering.",
+    "displayText": "Multi-Sport Adventure Ideas",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 86,
+    "prompt": "Suggest resources for learning wilderness survival, bushcraft, or primitive skills.",
+    "displayText": "Learn Survival/Bushcraft Skills",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 87,
+    "prompt": "Provide guidance on planning remote expeditions or adventure filmmaking.",
+    "displayText": "Expedition Planning/Adventure Film",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 88,
+    "prompt": "Suggest resources for adaptive adventure sports and inclusive planning.",
+    "displayText": "Adaptive Adventure Resources",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 89,
+    "prompt": "Discuss how adventure can foster personal growth (resilience, confidence, fear management).",
+    "displayText": "Adventure for Personal Growth",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 90,
+    "prompt": "Suggest mindful approaches to adventure (flow state, presence, intentional design).",
+    "displayText": "Mindful Adventure Approaches",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 91,
+    "prompt": "Suggest adventure ideas for life transitions or rites of passage.",
+    "displayText": "Adventure for Life Transitions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 92,
+    "prompt": "Suggest outdoor education programs or resources for learning wilderness skills.",
+    "displayText": "Outdoor Education Programs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 93,
+    "prompt": "Suggest ways adventure can build community and teamwork skills.",
+    "displayText": "Adventure for Community Building",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 94,
+    "prompt": "Explain Leave No Trace principles and sustainable adventure practices.",
+    "displayText": "Sustainable Adventure Practices (LNT)",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 95,
+    "prompt": "Discuss ethical tourism approaches in adventure (community benefit, cultural respect).",
+    "displayText": "Ethical Adventure Tourism",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 96,
+    "prompt": "Suggest ways to document adventures (journaling, writing, photo/video, storytelling).",
+    "displayText": "Documenting Adventures",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 97,
+    "prompt": "Suggest ways to integrate lessons learned from adventures into daily life.",
+    "displayText": "Integrating Adventure Lessons",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 98,
+    "prompt": "Suggest ideas for incorporating adventure into daily life (micro-adventures, urban adventure).",
+    "displayText": "Adventure in Daily Life",
+    "isTemplate": false,
+    "type": "do"
+  }
+]

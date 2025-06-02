@@ -1,0 +1,2453 @@
+{
+  "id": 94,
+  "name": "Art, Creativity, and Expression",
+  "icon": "🎨",
+  "subcategories": [
+    {
+      "name": "Fine Arts",
+      "icon": "🖼️",
+      "subcategories": [
+        {
+          "name": "Literary Art",
+          "icon": "📚",
+          "subcategories": [
+            {
+              "name": "Poetry",
+              "icon": "✍️",
+              "subcategories": [
+                {
+                  "name": "Epic Poetry",
+                  "icon": "📖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lyric Poetry",
+                  "icon": "🎵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Narrative Poetry",
+                  "icon": "📜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Haiku & Tanka",
+                  "icon": "🇯🇵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sonnets",
+                  "icon": "📝",
+                  "subcategories": []
+                },
+                {
+                  "name": "Free Verse",
+                  "icon": "✍️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Slam Poetry",
+                  "icon": "🎤",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Prose",
+              "icon": "📖",
+              "subcategories": [
+                {
+                  "name": "Novel",
+                  "icon": "📚",
+                  "subcategories": [
+                    {
+                      "name": "Science Fiction Novel",
+                      "icon": "👽",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fantasy Novel",
+                      "icon": "🧙",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mystery Novel",
+                      "icon": "❓",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Romance Novel",
+                      "icon": "❤️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Historical Novel",
+                      "icon": "🏰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Thriller/Suspense Novel",
+                      "icon": "😨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Literary Fiction Novel",
+                      "icon": "📖",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Novella",
+                  "icon": "📖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Short Story",
+                  "icon": "📄",
+                  "subcategories": []
+                },
+                {
+                  "name": "Essay",
+                  "icon": "🧑‍🏫",
+                  "subcategories": []
+                },
+                {
+                  "name": "Biography & Autobiography",
+                  "icon": "👤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Memoir",
+                  "icon": "🧠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Graphic Novel",
+              "icon": "📖",
+              "subcategories": [
+                {
+                  "name": "Superhero Comics",
+                  "icon": "🦸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Manga",
+                  "icon": "🇯🇵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indie Comics",
+                  "icon": "✏️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Webcomics",
+                  "icon": "🌐",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Comic Books",
+              "icon": "💥",
+              "subcategories": []
+            },
+            {
+              "name": "Fiction",
+              "icon": "💭",
+              "subcategories": []
+            },
+            {
+              "name": "Non-fiction",
+              "icon": "📰",
+              "subcategories": []
+            },
+            {
+              "name": "Drama",
+              "icon": "🎭",
+              "subcategories": [
+                {
+                  "name": "Tragedy",
+                  "icon": "😭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Comedy",
+                  "icon": "😂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Musical Theater (might be redundant w/ Performing Arts)",
+                  "icon": "🎶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Historical Drama",
+                  "icon": "👑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Melodrama",
+                  "icon": "🎭",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Visual Art",
+          "icon": "🎨",
+          "subcategories": [
+            {
+              "name": "2D Visual Art",
+              "icon": "🖼️",
+              "subcategories": [
+                {
+                  "name": "Drawing",
+                  "icon": "✏️",
+                  "subcategories": [
+                    {
+                      "name": "Graphite/Pencil Drawing",
+                      "icon": "✏️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Charcoal Drawing",
+                      "icon": "⚫",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pen & Ink Drawing",
+                      "icon": "🖊️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Pastel Drawing (Oil & Chalk)",
+                      "icon": "🖍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Colored Pencil Drawing",
+                      "icon": "🖍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sketching",
+                      "icon": "✍️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Technical Drawing",
+                      "icon": "🖼️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Digital Drawing",
+                      "icon": "💻",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Animation",
+                      "icon": "🎬",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Painting",
+                  "icon": "🎨",
+                  "subcategories": [
+                    {
+                      "name": "Watercolor Painting",
+                      "icon": "💧",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Oil Painting",
+                      "icon": "⛽",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Acrylic Painting",
+                      "icon": "🎨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tempera Painting",
+                      "icon": "🥚",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fresco Painting",
+                      "icon": "🧱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ink Wash Painting",
+                      "icon": "🖋️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Miniature Painting",
+                      "icon": "🖼️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mural Painting",
+                      "icon": "🧱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Airbrush Painting",
+                      "icon": "💨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Digital Painting",
+                      "icon": "💻",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Printmaking",
+                  "icon": "📠",
+                  "subcategories": [
+                    {
+                      "name": "Relief Printing (Woodcut, Linocut)",
+                      "icon": "🪵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Intaglio (Etching, Engraving)",
+                      "icon": "⛓️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Planographic (Lithography)",
+                      "icon": "🎨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Screen Printing (Silkscreen)",
+                      "icon": "🕸️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Monoprinting",
+                      "icon": "☝️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Digital Printmaking",
+                      "icon": "💻",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Photography",
+                  "icon": "📸",
+                  "subcategories": [
+                    {
+                      "name": "Landscape Photography",
+                      "icon": "🏞️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Portrait Photography",
+                      "icon": "🧑‍🤝‍🧑",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Photojournalism",
+                      "icon": "📰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fashion Photography",
+                      "icon": "👗",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sports Photography",
+                      "icon": "🏀",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Nature/Wildlife Photography",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Architectural Photography",
+                      "icon": "🏙️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Astrophotography",
+                      "icon": "🌌",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Macro Photography",
+                      "icon": "🔬",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Street Photography",
+                      "icon": "🚶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Aerial Photography",
+                      "icon": "✈️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Black & White Photography",
+                      "icon": "⚫⚪",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mobile Photography",
+                      "icon": "📱",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Mosaics",
+                  "icon": "🏺",
+                  "subcategories": [
+                    {
+                      "name": "Glass Mosaics",
+                      "icon": "💎",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Ceramic/Tile Mosaics",
+                      "icon": "🧱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Stone/Pebble Mosaics",
+                      "icon": "🪨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Micro Mosaics",
+                      "icon": "🤏",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Mixed Media Mosaics",
+                      "icon": "🌿",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Calligraphy(Letter Art)",
+                  "icon": "🖋️",
+                  "subcategories": [
+                    {
+                      "name": "Western Calligraphy (Roman, Gothic, Italic)",
+                      "icon": "📜",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Eastern Calligraphy (Chinese, Japanese, Arabic)",
+                      "icon": "🖌️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Modern Calligraphy",
+                      "icon": "✨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Brush Lettering",
+                      "icon": "✍️",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "3D Visual Art",
+              "icon": "🗿",
+              "subcategories": [
+                {
+                  "name": "Architecture",
+                  "icon": "🏛️",
+                  "subcategories": [
+                    {
+                      "name": "Classical Architecture",
+                      "icon": "🏛️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Gothic Architecture",
+                      "icon": "🏰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Baroque Architecture",
+                      "icon": "👑",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Modern Architecture",
+                      "icon": "✨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Contemporary Architecture",
+                      "icon": "🏙️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Landscape Architecture",
+                      "icon": "🌳",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Residential Architecture",
+                      "icon": "🏘️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Commercial Architecture",
+                      "icon": "🏢",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Industrial Architecture",
+                      "icon": "🏗️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Sustainable/Green Architecture",
+                      "icon": "🌿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Urban Planning & Design",
+                      "icon": "🗺️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Interior Architecture",
+                      "icon": "🛋️",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Pottery",
+                  "icon": "🏺",
+                  "subcategories": [
+                    {
+                      "name": "Hand-building (Pinch, Coil, Slab)",
+                      "icon": "👐",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Wheel Throwing",
+                      "icon": "🔄",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Glazing Techniques",
+                      "icon": "✨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Firing Techniques (Raku, Pit, Kiln)",
+                      "icon": "🔥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Earthenware",
+                      "icon": "🏺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Stoneware",
+                      "icon": "🧱",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Ceramics",
+                  "icon": "🏺",
+                  "subcategories": [
+                    {
+                      "name": "Sculptural Ceramics",
+                      "icon": "🏺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Functional Ceramics (Tableware)",
+                      "icon": "🍽️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tile Making",
+                      "icon": "🧱",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Porcelain",
+                      "icon": "🍶",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Sculpture",
+                  "icon": "🗿",
+                  "subcategories": [
+                    {
+                      "name": "Carving (Wood, Stone, Ice, Plaster)",
+                      "icon": "🗿",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Modeling (Clay, Wax, Polymer Clay)",
+                      "icon": "🏺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Casting (Bronze, Aluminum, Resin, Glass)",
+                      "icon": "🔩",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Assemblage & Found Object Art",
+                      "icon": "⚙️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Metal Fabrication & Welding",
+                      "icon": "🔥",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Kinetic & Interactive Sculpture",
+                      "icon": "💨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Figurative & Representational Sculpture",
+                      "icon": "🗽",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Abstract & Non-representational Sculpture",
+                      "icon": "🎨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Land Art & Environmental Sculpture",
+                      "icon": "🌍",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Light Sculpture & Installation",
+                      "icon": "💡",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Monument & Public Art Design",
+                      "icon": "🗿",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Textile Arts",
+                  "icon": "🧶",
+                  "subcategories": [
+                    {
+                      "name": "Weaving (Hand & Power Loom)",
+                      "icon": "🕸️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Knitting (Hand & Machine)",
+                      "icon": "🧶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Crocheting",
+                      "icon": "🧶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Embroidery & Needlepoint",
+                      "icon": "🧵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Quilting & Appliqué",
+                      "icon": "🪡",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Felting (Wet & Needle)",
+                      "icon": "🐑",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Fabric Dyeing & Printing (Batik, Shibori, Screen Printing)",
+                      "icon": "🎨",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Macrame & Knotting",
+                      "icon": "➰",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Tapestry Design",
+                      "icon": "🖼️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Lace Making",
+                      "icon": "🎗️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Basketry & Fiber Sculpture",
+                      "icon": "🧺",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Yarn Spinning & Fiber Prep",
+                      "icon": "🧶",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Textile Conservation & Restoration",
+                      "icon": "🧵",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Textile Design for Industry (Interiors, Fashion)",
+                      "icon": "🏭",
+                      "subcategories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Conceptual Art",
+              "icon": "💭",
+              "subcategories": [
+                {
+                  "name": "Idea-Based Art (Focus on the concept itself)",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Language-Based Art (Using text as the primary medium)",
+                  "icon": "🗣️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Performance Art (Conceptual focus, action as art)",
+                  "icon": "🚶‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Installation Art (Concept-driven environments)",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Readymades & Found Objects (Challenging definitions of art)",
+                  "icon": "❓",
+                  "subcategories": []
+                },
+                {
+                  "name": "Institutional Critique (Examining art institutions)",
+                  "icon": "🏛️",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Recorded Music",
+          "icon": "🎵",
+          "subcategories": [
+            {
+              "name": "Classical",
+              "icon": "🎻",
+              "subcategories": [
+                {
+                  "name": "Baroque Era",
+                  "icon": "🎼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Classical Era",
+                  "icon": "🎼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Romantic Era",
+                  "icon": "🎼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Modern Classical",
+                  "icon": "🎼",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Folk",
+              "icon": "🪕",
+              "subcategories": [
+                {
+                  "name": "Traditional Folk",
+                  "icon": "🌲",
+                  "subcategories": []
+                },
+                {
+                  "name": "Contemporary Folk",
+                  "icon": "✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Folk Rock",
+                  "icon": "🎸",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Blues",
+              "icon": "🎷",
+              "subcategories": [
+                {
+                  "name": "Delta Blues",
+                  "icon": "🌊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Chicago Blues",
+                  "icon": "🏙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Electric Blues",
+                  "icon": "⚡️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Bluegrass",
+              "icon": "🪕",
+              "subcategories": [
+                {
+                  "name": "Traditional Bluegrass",
+                  "icon": "🎻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Progressive Bluegrass",
+                  "icon": "💡",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Country",
+              "icon": "🤠",
+              "subcategories": [
+                {
+                  "name": "Classic Country",
+                  "icon": "🕰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Country Rock",
+                  "icon": "🎸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pop Country",
+                  "icon": "🎤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Americana",
+                  "icon": "🦅",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Rock And Roll",
+              "icon": "🎸",
+              "subcategories": [
+                {
+                  "name": "Classic Rock",
+                  "icon": "🕰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hard Rock",
+                  "icon": "🤘",
+                  "subcategories": []
+                },
+                {
+                  "name": "Alternative Rock",
+                  "icon": "💿",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indie Rock",
+                  "icon": "🎸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Psychedelic Rock",
+                  "icon": "🌀",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Punk",
+              "icon": "🤘",
+              "subcategories": [
+                {
+                  "name": "Punk Rock",
+                  "icon": "💥",
+                  "subcategories": []
+                },
+                {
+                  "name": "Post-Punk",
+                  "icon": "🧐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hardcore Punk",
+                  "icon": "✊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pop Punk",
+                  "icon": "🎤",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Pop",
+              "icon": "🎤",
+              "subcategories": [
+                {
+                  "name": "Dance Pop",
+                  "icon": "🕺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Indie Pop",
+                  "icon": "✨",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Gospel",
+              "icon": "⛪",
+              "subcategories": [
+                {
+                  "name": "Traditional Gospel",
+                  "icon": "🙏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Contemporary Gospel",
+                  "icon": "✨",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Soul",
+              "icon": "🎤",
+              "subcategories": [
+                {
+                  "name": "Classic Soul",
+                  "icon": "🕰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Neo Soul",
+                  "icon": "✨",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Rhythm And Blues (R&B)",
+              "icon": "🎤",
+              "subcategories": [
+                {
+                  "name": "Classic R&B",
+                  "icon": "🕰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Contemporary R&B",
+                  "icon": "✨",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Ragtime",
+              "icon": "🎹",
+              "subcategories": []
+            },
+            {
+              "name": "Jazz",
+              "icon": "🎷",
+              "subcategories": [
+                {
+                  "name": "Dixieland",
+                  "icon": "🎺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Swing",
+                  "icon": "🎷",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bebop",
+                  "icon": "🎼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Cool Jazz",
+                  "icon": "🧊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fusion Jazz",
+                  "icon": "🎸",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Funk",
+              "icon": "🕺",
+              "subcategories": [
+                {
+                  "name": "Classic Funk",
+                  "icon": "🕰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Funk Rock",
+                  "icon": "🎸",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Hip Hop",
+              "icon": "🎤",
+              "subcategories": [
+                {
+                  "name": "Old School Hip Hop",
+                  "icon": "🕰️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Golden Age Hip Hop",
+                  "icon": "🎧",
+                  "subcategories": []
+                },
+                {
+                  "name": "Conscious Hip Hop",
+                  "icon": "🧐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Gangsta Rap",
+                  "icon": "😎",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Trap",
+              "icon": "🎧",
+              "subcategories": []
+            },
+            {
+              "name": "EDM",
+              "icon": "🎧",
+              "subcategories": [
+                {
+                  "name": "Trance",
+                  "icon": "🌌",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dubstep",
+                  "icon": "🔊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Drum and Bass",
+                  "icon": "🥁",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "House",
+              "icon": "🏠",
+              "subcategories": [
+                {
+                  "name": "Deep House",
+                  "icon": "🎶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Progressive House",
+                  "icon": "🚀",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Synth Pop",
+              "icon": "🎹",
+              "subcategories": []
+            },
+            {
+              "name": "Electro Funk",
+              "icon": "🎧",
+              "subcategories": []
+            },
+            {
+              "name": "Techno",
+              "icon": "🎧",
+              "subcategories": []
+            },
+            {
+              "name": "Reggae",
+              "icon": "🇯🇲",
+              "subcategories": [
+                {
+                  "name": "Roots Reggae",
+                  "icon": "🌳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dancehall",
+                  "icon": "💃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Dub",
+                  "icon": "🔊",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Metal",
+              "icon": "🎸",
+              "subcategories": [
+                {
+                  "name": "Heavy Metal",
+                  "icon": "🤘",
+                  "subcategories": []
+                },
+                {
+                  "name": "Speed Metal",
+                  "icon": "⚡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Black Metal",
+                  "icon": "🖤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Death Metal",
+                  "icon": "💀",
+                  "subcategories": []
+                },
+                {
+                  "name": "Glam Metal",
+                  "icon": "🎭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Thrash Metal",
+                  "icon": "🤘",
+                  "subcategories": []
+                },
+                {
+                  "name": "Symphonic Metal",
+                  "icon": "🎻",
+                  "subcategories": []
+                },
+                {
+                  "name": "Nu Metal",
+                  "icon": "🎤",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "World Music",
+              "icon": "🌍",
+              "subcategories": [
+                {
+                  "name": "Indian Classical",
+                  "icon": "🇮🇳",
+                  "subcategories": []
+                },
+                {
+                  "name": "Asian Traditional",
+                  "icon": "🌏",
+                  "subcategories": []
+                },
+                {
+                  "name": "African Traditional",
+                  "icon": "🌍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Latin American",
+                  "icon": "🇧🇷",
+                  "subcategories": []
+                },
+                {
+                  "name": "European Folk",
+                  "icon": "🇪🇺",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Classical Crossover",
+              "icon": "🎵",
+              "subcategories": []
+            },
+            {
+              "name": "Ambient",
+              "icon": "🪗",
+              "subcategories": [
+                {
+                  "name": "Dark Ambient",
+                  "icon": "🌊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Downtempo",
+                  "icon": "🏙️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Meditation Music",
+                  "icon": "🧘‍♂️🧘‍♀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Grunge",
+              "icon": "🎸",
+              "subcategories": []
+            },
+            {
+              "name": "Alternative",
+              "icon": "🎸",
+              "subcategories": []
+            },
+            {
+              "name": "Desert Rock",
+              "icon": "🏜️",
+              "subcategories": []
+            },
+            {
+              "name": "Lo-fi",
+              "icon": "🎧",
+              "subcategories": []
+            },
+            {
+              "name": "New Age",
+              "icon": "🎹",
+              "subcategories": []
+            },
+            {
+              "name": "Opera",
+              "icon": "🎭",
+              "subcategories": []
+            },
+            {
+              "name": "A Cappella",
+              "icon": "🎵",
+              "subcategories": []
+            },
+            {
+              "name": "Disco",
+              "icon": "🎶",
+              "subcategories": []
+            },
+            {
+              "name": "Indie",
+              "icon": "📻",
+              "subcategories": []
+            },
+            {
+              "name": "Chillwave",
+              "icon": "🎧",
+              "subcategories": []
+            },
+            {
+              "name": "Vaporwave",
+              "icon": "🌃",
+              "subcategories": []
+            },
+            {
+              "name": "K-pop",
+              "icon": "🎵",
+              "subcategories": []
+            },
+            {
+              "name": "J-pop",
+              "icon": "🎵",
+              "subcategories": []
+            },
+            {
+              "name": "Flamenco",
+              "icon": "🇪🇸",
+              "subcategories": []
+            },
+            {
+              "name": "Post-Rock",
+              "icon": "🎧",
+              "subcategories": []
+            },
+            {
+              "name": "Brass Band",
+              "icon": "📯",
+              "subcategories": []
+            },
+            {
+              "name": "Zydeco",
+              "icon": "🪕",
+              "subcategories": []
+            },
+            {
+              "name": "Chamber Music",
+              "icon": "🎻",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Performing Art",
+          "icon": "🎭",
+          "subcategories": [
+            {
+              "name": "Live Music/Music Performance",
+              "icon": "🎵",
+              "subcategories": [
+                {
+                  "name": "Concerts",
+                  "icon": "🎸",
+                  "subcategories": []
+                },
+                {
+                  "name": "Festivals",
+                  "icon": "🎪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Open Mic Nights",
+                  "icon": "🎤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Recitals",
+                  "icon": "🎻",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Dance",
+              "icon": "💃",
+              "subcategories": [
+                {
+                  "name": "Modern Dance",
+                  "icon": "🧘‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Contemporary Dance",
+                  "icon": "✨",
+                  "subcategories": []
+                },
+                {
+                  "name": "Jazz Dance",
+                  "icon": "🕺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tap Dance",
+                  "icon": "👞",
+                  "subcategories": []
+                },
+                {
+                  "name": "Hip Hop Dance",
+                  "icon": "👟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ballroom Dance",
+                  "icon": "💃🕺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Folk Dance",
+                  "icon": "🌍",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Theater",
+              "icon": "🎭",
+              "subcategories": [
+                {
+                  "name": "Drama",
+                  "icon": "🎭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Play",
+                  "icon": "🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Comedy",
+                  "icon": "😂",
+                  "subcategories": []
+                },
+                {
+                  "name": "Musical Theater",
+                  "icon": "🎶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tragedy",
+                  "icon": "😭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Improvisational Theater",
+                  "icon": "💡",
+                  "subcategories": []
+                },
+                {
+                  "name": "Physical Theater",
+                  "icon": "🤸‍♀️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Acrobatics",
+              "icon": "🤸‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Ballet",
+              "icon": "🩰",
+              "subcategories": []
+            },
+            {
+              "name": "Circus Skills",
+              "icon": "🎪",
+              "subcategories": [
+                {
+                  "name": "Juggling",
+                  "icon": "🤹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Aerial Arts (Silks, Trapeze)",
+                  "icon": "🤸‍♀️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Tightrope Walking",
+                  "icon": "🚶‍♂️",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Clown",
+              "icon": "🤡",
+              "subcategories": []
+            },
+            {
+              "name": "Gymnastics",
+              "icon": "🤸‍♂️",
+              "subcategories": []
+            },
+            {
+              "name": "Magic",
+              "icon": "✨",
+              "subcategories": [
+                {
+                  "name": "Close-up Magic",
+                  "icon": "🤏",
+                  "subcategories": []
+                },
+                {
+                  "name": "Stage Illusions",
+                  "icon": "🎩",
+                  "subcategories": []
+                },
+                {
+                  "name": "Mentalism",
+                  "icon": "🧠",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Mime",
+              "icon": "🤫",
+              "subcategories": []
+            },
+            {
+              "name": "Opera",
+              "icon": "🎤",
+              "subcategories": []
+            },
+            {
+              "name": "Professional Wrestling",
+              "icon": "🤼",
+              "subcategories": []
+            },
+            {
+              "name": "Puppetry",
+              "icon": "🧸",
+              "subcategories": [
+                {
+                  "name": "Hand Puppets",
+                  "icon": "✋",
+                  "subcategories": []
+                },
+                {
+                  "name": "Marionettes",
+                  "icon": "🧵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Shadow Puppetry",
+                  "icon": "🔦",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Public Speaking",
+              "icon": "🗣️",
+              "subcategories": [
+                {
+                  "name": "Storytelling",
+                  "icon": "📖",
+                  "subcategories": []
+                },
+                {
+                  "name": "Lectures & Speeches",
+                  "icon": "🎤",
+                  "subcategories": []
+                },
+                {
+                  "name": "Debates",
+                  "icon": "🤝",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Stand-up Comedy",
+              "icon": "🎤",
+              "subcategories": []
+            },
+            {
+              "name": "Street Performance",
+              "icon": "🚀",
+              "subcategories": []
+            },
+            {
+              "name": "Ventriloquism",
+              "icon": "🗣️",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Multidisciplinary Art",
+          "icon": "🌐",
+          "subcategories": [
+            {
+              "name": "Fashion",
+              "icon": "👗",
+              "subcategories": [
+                {
+                  "name": "Haute Couture",
+                  "icon": "👑",
+                  "subcategories": []
+                },
+                {
+                  "name": "Ready-to-Wear (Prêt-à-Porter)",
+                  "icon": "🚶‍♂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Streetwear & Urban Fashion",
+                  "icon": "👟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Menswear Design",
+                  "icon": "💼",
+                  "subcategories": []
+                },
+                {
+                  "name": "Womenswear Design",
+                  "icon": "💃",
+                  "subcategories": []
+                },
+                {
+                  "name": "Childrenswear Design",
+                  "icon": "👶",
+                  "subcategories": []
+                },
+                {
+                  "name": "Costume Design (Film, Theater)",
+                  "icon": "🎭",
+                  "subcategories": []
+                },
+                {
+                  "name": "Accessory Design (Bags, Belts, Hats)",
+                  "icon": "👜",
+                  "subcategories": []
+                },
+                {
+                  "name": "Jewelry Design",
+                  "icon": "💍",
+                  "subcategories": []
+                },
+                {
+                  "name": "Footwear Design",
+                  "icon": "👟",
+                  "subcategories": []
+                },
+                {
+                  "name": "Pattern Making & Draping",
+                  "icon": "✂️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Garment Construction & Tailoring",
+                  "icon": "🧵",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sustainable & Ethical Fashion",
+                  "icon": "🌱",
+                  "subcategories": []
+                },
+                {
+                  "name": "Fashion Technology (Wearables, 3D Printing)",
+                  "icon": "💻",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "Film/Motion Pictures",
+              "icon": "🎬",
+              "subcategories": [
+                {
+                  "name": "Cinema/Movies",
+                  "icon": "🎬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Television/TV Shows",
+                  "icon": "📺",
+                  "subcategories": []
+                },
+                {
+                  "name": "Short Films",
+                  "icon": "⏱️",
+                  "subcategories": []
+                },
+                {
+                  "name": "Documentary Film",
+                  "icon": "📰",
+                  "subcategories": []
+                },
+                {
+                  "name": "Experimental Film",
+                  "icon": "🧪",
+                  "subcategories": []
+                },
+                {
+                  "name": "Music Videos",
+                  "icon": "🎶",
+                  "subcategories": []
+                }
+              ]
+            },
+            {
+              "name": "New Media Art",
+              "icon": "💻",
+              "subcategories": [
+                {
+                  "name": "Interactive Art",
+                  "icon": "🖱️",
+                  "subcategories": [
+                    {
+                      "name": "Video Games",
+                      "icon": "🎮",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Virtual Reality Experiences",
+                      "icon": "🕶️",
+                      "subcategories": []
+                    },
+                    {
+                      "name": "Robotic Art",
+                      "icon": "🤖",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Generative Art",
+                  "icon": "🤖",
+                  "subcategories": [
+                    {
+                      "name": "Artificial Intelligence Art",
+                      "icon": "🤖",
+                      "subcategories": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Video Art",
+                  "icon": "📹",
+                  "subcategories": []
+                },
+                {
+                  "name": "Sound Art",
+                  "icon": "🔊",
+                  "subcategories": []
+                },
+                {
+                  "name": "Net Art (Internet Art)",
+                  "icon": "🌐",
+                  "subcategories": []
+                },
+                {
+                  "name": "Bio Art",
+                  "icon": "🧬",
+                  "subcategories": []
+                },
+                {
+                  "name": "Augmented Reality Art",
+                  "icon": "✨",
+                  "subcategories": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Applied Arts",
+      "icon": "🛠️",
+      "subcategories": [
+        {
+          "name": "Automotive Design",
+          "icon": "🚗",
+          "subcategories": [
+            {
+              "name": "Concept Cars",
+              "icon": "🚗✍️",
+              "subcategories": []
+            },
+            {
+              "name": "Performance Vehicle Design",
+              "icon": "🏎️",
+              "subcategories": []
+            },
+            {
+              "name": "Public Transport Design",
+              "icon": "🚌",
+              "subcategories": []
+            },
+            {
+              "name": "Marine Vehicle Design",
+              "icon": "🛥️",
+              "subcategories": []
+            },
+            {
+              "name": "Aerospace Design Interface",
+              "icon": "✈️",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Architectural Design",
+          "icon": "🏛️",
+          "subcategories": [
+            {
+              "name": "Classical Architecture",
+              "icon": "🏛️",
+              "subcategories": []
+            },
+            {
+              "name": "Gothic Architecture",
+              "icon": "🏰",
+              "subcategories": []
+            },
+            {
+              "name": "Baroque Architecture",
+              "icon": "👑",
+              "subcategories": []
+            },
+            {
+              "name": "Modern Architecture",
+              "icon": "✨",
+              "subcategories": []
+            },
+            {
+              "name": "Contemporary Architecture",
+              "icon": "🏙️",
+              "subcategories": []
+            },
+            {
+              "name": "Landscape Architecture",
+              "icon": "🌳",
+              "subcategories": []
+            },
+            {
+              "name": "Residential Architecture",
+              "icon": "🏘️",
+              "subcategories": []
+            },
+            {
+              "name": "Commercial Architecture",
+              "icon": "🏢",
+              "subcategories": []
+            },
+            {
+              "name": "Industrial Architecture",
+              "icon": "🏗️",
+              "subcategories": []
+            },
+            {
+              "name": "Sustainable/Green Architecture",
+              "icon": "🌿",
+              "subcategories": []
+            },
+            {
+              "name": "Urban Planning & Design",
+              "icon": "🗺️",
+              "subcategories": []
+            },
+            {
+              "name": "Interior Architecture",
+              "icon": "🛋️",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Industrial Design",
+          "icon": "🏛️",
+          "subcategories": [
+            {
+              "name": "Product Design (Consumer Electronics, Appliances)",
+              "icon": "📱",
+              "subcategories": []
+            },
+            {
+              "name": "Tool & Equipment Design",
+              "icon": "🛠️",
+              "subcategories": []
+            },
+            {
+              "name": "Packaging Design",
+              "icon": "📦",
+              "subcategories": []
+            },
+            {
+              "name": "Medical Device Design",
+              "icon": "⚕️",
+              "subcategories": []
+            },
+            {
+              "name": "Toy Design",
+              "icon": "🧸",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Interior Design",
+          "icon": "🛋️",
+          "subcategories": [
+            {
+              "name": "Residential Interior Design",
+              "icon": "🏠",
+              "subcategories": []
+            },
+            {
+              "name": "Commercial Interior Design (Offices, Retail)",
+              "icon": "🏢",
+              "subcategories": []
+            },
+            {
+              "name": "Hospitality Design (Hotels, Restaurants)",
+              "icon": "🏨",
+              "subcategories": []
+            },
+            {
+              "name": "Space Planning",
+              "icon": "🛋️",
+              "subcategories": []
+            },
+            {
+              "name": "Lighting Design",
+              "icon": "💡",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Furniture Design",
+          "icon": "🛋️",
+          "subcategories": [
+            {
+              "name": "Chair & Seating Design",
+              "icon": "🪑",
+              "subcategories": []
+            },
+            {
+              "name": "Wooden Furniture",
+              "icon": "🪵",
+              "subcategories": []
+            },
+            {
+              "name": "Metal Furniture",
+              "icon": "🔩",
+              "subcategories": []
+            },
+            {
+              "name": "Upholstery Design",
+              "icon": "🛋️",
+              "subcategories": []
+            },
+            {
+              "name": "Lighting Fixture Design",
+              "icon": "💡",
+              "subcategories": []
+            },
+            {
+              "name": "Bedroom Furniture",
+              "icon": "🛏️",
+              "subcategories": []
+            },
+            {
+              "name": "Dining Furniture",
+              "icon": "🍽️",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Fashion Design",
+          "icon": "👗",
+          "subcategories": [
+            {
+              "name": "Haute Couture",
+              "icon": "👑",
+              "subcategories": []
+            },
+            {
+              "name": "Ready-to-Wear (Prêt-à-Porter)",
+              "icon": "🚶",
+              "subcategories": []
+            },
+            {
+              "name": "Streetwear & Urban Fashion",
+              "icon": "👟",
+              "subcategories": []
+            },
+            {
+              "name": "Menswear Design",
+              "icon": "💼",
+              "subcategories": []
+            },
+            {
+              "name": "Womenswear Design",
+              "icon": "💃",
+              "subcategories": []
+            },
+            {
+              "name": "Childrenswear Design",
+              "icon": "👶",
+              "subcategories": []
+            },
+            {
+              "name": "Costume Design (Film, Theater)",
+              "icon": "🎭",
+              "subcategories": []
+            },
+            {
+              "name": "Accessory Design (Bags, Belts, Hats)",
+              "icon": "👜",
+              "subcategories": []
+            },
+            {
+              "name": "Jewelry Design",
+              "icon": "💍",
+              "subcategories": []
+            },
+            {
+              "name": "Footwear Design",
+              "icon": "👟",
+              "subcategories": []
+            },
+            {
+              "name": "Pattern Making & Draping",
+              "icon": "✂️",
+              "subcategories": []
+            },
+            {
+              "name": "Garment Construction & Tailoring",
+              "icon": "🧵",
+              "subcategories": []
+            },
+            {
+              "name": "Sustainable & Ethical Fashion",
+              "icon": "🌱",
+              "subcategories": []
+            },
+            {
+              "name": "Fashion Technology (Wearables, 3D Printing)",
+              "icon": "💻",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Textile Art",
+          "icon": "🧶",
+          "subcategories": [
+            {
+              "name": "Weaving (Hand & Power Loom)",
+              "icon": "🕸️",
+              "subcategories": []
+            },
+            {
+              "name": "Knitting (Hand & Machine)",
+              "icon": "🧶",
+              "subcategories": []
+            },
+            {
+              "name": "Crocheting",
+              "icon": "🧶",
+              "subcategories": []
+            },
+            {
+              "name": "Embroidery & Needlepoint",
+              "icon": "🧵",
+              "subcategories": []
+            },
+            {
+              "name": "Quilting & Appliqué",
+              "icon": "🪡",
+              "subcategories": []
+            },
+            {
+              "name": "Felting (Wet & Needle)",
+              "icon": "🐑",
+              "subcategories": []
+            },
+            {
+              "name": "Fabric Dyeing & Printing (Batik, Shibori, Screen Printing)",
+              "icon": "🎨",
+              "subcategories": []
+            },
+            {
+              "name": "Macrame & Knotting",
+              "icon": "➰",
+              "subcategories": []
+            },
+            {
+              "name": "Tapestry Design",
+              "icon": "🖼️",
+              "subcategories": []
+            },
+            {
+              "name": "Lace Making",
+              "icon": "🎗️",
+              "subcategories": []
+            },
+            {
+              "name": "Basketry & Fiber Sculpture",
+              "icon": "🧺",
+              "subcategories": []
+            },
+            {
+              "name": "Yarn Spinning & Fiber Prep",
+              "icon": "🧶",
+              "subcategories": []
+            },
+            {
+              "name": "Textile Conservation & Restoration",
+              "icon": "🧵",
+              "subcategories": []
+            },
+            {
+              "name": "Textile Design for Industry (Interiors, Fashion)",
+              "icon": "🏭",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Graphic Design",
+          "icon": "📐",
+          "subcategories": [
+            {
+              "name": "Web Design & UI/UX",
+              "icon": "🌐",
+              "subcategories": []
+            },
+            {
+              "name": "Branding & Identity Design (Logos, Style Guides)",
+              "icon": "🎨",
+              "subcategories": []
+            },
+            {
+              "name": "Publication Design (Magazines, Books, Newspapers)",
+              "icon": "📰",
+              "subcategories": []
+            },
+            {
+              "name": "Advertising Design (Print & Digital Ads)",
+              "icon": "📢",
+              "subcategories": []
+            },
+            {
+              "name": "Information Design (Infographics, Data Visualization)",
+              "icon": "📈",
+              "subcategories": []
+            },
+            {
+              "name": "Motion Graphics",
+              "icon": "🎬",
+              "subcategories": []
+            },
+            {
+              "name": "Environmental Graphic Design (Signage, Wayfinding)",
+              "icon": "🌏📐",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Calligraphy (Letter Design)",
+          "icon": "🖋️",
+          "subcategories": [
+            {
+              "name": "Pointed Pen Calligraphy (Copperplate, Spencerian)",
+              "icon": "📜",
+              "subcategories": []
+            },
+            {
+              "name": "Broad Edge Calligraphy (Foundational Hand, Gothic, Italic)",
+              "icon": "✒️",
+              "subcategories": []
+            },
+            {
+              "name": "Brush Calligraphy/Lettering",
+              "icon": "🖌️",
+              "subcategories": []
+            },
+            {
+              "name": "Modern Calligraphy Styles",
+              "icon": "✨",
+              "subcategories": []
+            },
+            {
+              "name": "Digital Calligraphy & Lettering",
+              "icon": "💻",
+              "subcategories": []
+            },
+            {
+              "name": "Calligraphy for Invitations & Stationery",
+              "icon": "💌",
+              "subcategories": []
+            },
+            {
+              "name": "Calligraphy in Branding & Logos",
+              "icon": "🏷️",
+              "subcategories": []
+            },
+            {
+              "name": "Certificate & Formal Document Calligraphy",
+              "icon": "📜",
+              "subcategories": []
+            },
+            {
+              "name": "Signage & Environmental Lettering",
+              "icon": "🌏📐",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Cartographic Design (Map Design)",
+          "icon": "🗺️",
+          "subcategories": [
+            {
+              "name": "Thematic Mapping",
+              "icon": "📍🗺️",
+              "subcategories": []
+            },
+            {
+              "name": "Web Mapping & GIS",
+              "icon": "🌐",
+              "subcategories": []
+            },
+            {
+              "name": "Artistic & Illustrative Maps",
+              "icon": "🎨",
+              "subcategories": []
+            },
+            {
+              "name": "Navigation Design",
+              "icon": "🧭",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Crafts",
+          "icon": "✂️",
+          "subcategories": [
+            {
+              "name": "Woodworking & Furniture Making",
+              "icon": "🪵",
+              "subcategories": []
+            },
+            {
+              "name": "Jewelry Making & Metalsmithing",
+              "icon": "💎",
+              "subcategories": []
+            },
+            {
+              "name": "Candle Making",
+              "icon": "🕯️",
+              "subcategories": []
+            },
+            {
+              "name": "Soap Making",
+              "icon": "🧼",
+              "subcategories": []
+            },
+            {
+              "name": "Bookbinding",
+              "icon": "📖",
+              "subcategories": []
+            },
+            {
+              "name": "Sewing, Knitting & Needlecrafts",
+              "icon": "🧵",
+              "subcategories": []
+            },
+            {
+              "name": "Pottery & Ceramics",
+              "icon": "🏺",
+              "subcategories": []
+            },
+            {
+              "name": "Metalworking (Small scale/Decorative)",
+              "icon": "🔨",
+              "subcategories": []
+            },
+            {
+              "name": "Decorative Painting & Finishing",
+              "icon": "🎨",
+              "subcategories": []
+            },
+            {
+              "name": "Glass Art (Stained Glass, Glassblowing)",
+              "icon": "🪟",
+              "subcategories": []
+            },
+            {
+              "name": "Paper Crafts (Origami, Scrapbooking)",
+              "icon": "📃",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Ceramic Art",
+          "icon": "🏺",
+          "subcategories": [
+            {
+              "name": "Sculptural Ceramics & Installations",
+              "icon": "🏺",
+              "subcategories": []
+            },
+            {
+              "name": "Functional Pottery & Tableware Design",
+              "icon": "🍽️",
+              "subcategories": []
+            },
+            {
+              "name": "Architectural Ceramics & Tile Making",
+              "icon": "🧱",
+              "subcategories": []
+            },
+            {
+              "name": "Porcelain Art & Craft",
+              "icon": "🍶",
+              "subcategories": []
+            },
+            {
+              "name": "Studio Pottery",
+              "icon": "🏺",
+              "subcategories": []
+            },
+            {
+              "name": "Glaze Chemistry & Application",
+              "icon": "✨",
+              "subcategories": []
+            },
+            {
+              "name": "Kiln Building & Firing Techniques",
+              "icon": "🔥",
+              "subcategories": []
+            },
+            {
+              "name": "Ceramic Restoration & Conservation",
+              "icon": "🏺",
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "name": "Sculpture",
+          "icon": "🗿",
+          "subcategories": [
+            {
+              "name": "Carving (Wood, Stone, Ice, Plaster)",
+              "icon": "🗿",
+              "subcategories": []
+            },
+            {
+              "name": "Modeling (Clay, Wax, Polymer Clay)",
+              "icon": "🏺",
+              "subcategories": []
+            },
+            {
+              "name": "Casting (Bronze, Aluminum, Resin, Glass)",
+              "icon": "🔩",
+              "subcategories": []
+            },
+            {
+              "name": "Assemblage & Found Object Art",
+              "icon": "⚙️",
+              "subcategories": []
+            },
+            {
+              "name": "Metal Fabrication & Welding",
+              "icon": "🔥",
+              "subcategories": []
+            },
+            {
+              "name": "Kinetic & Interactive Sculpture",
+              "icon": "💨",
+              "subcategories": []
+            },
+            {
+              "name": "Figurative & Representational Sculpture",
+              "icon": "🗽",
+              "subcategories": []
+            },
+            {
+              "name": "Abstract & Non-representational Sculpture",
+              "icon": "🎨",
+              "subcategories": []
+            },
+            {
+              "name": "Land Art & Environmental Sculpture",
+              "icon": "🌍",
+              "subcategories": []
+            },
+            {
+              "name": "Light Sculpture & Installation",
+              "icon": "💡",
+              "subcategories": []
+            },
+            {
+              "name": "Monument & Public Art Design",
+              "icon": "🗿",
+              "subcategories": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

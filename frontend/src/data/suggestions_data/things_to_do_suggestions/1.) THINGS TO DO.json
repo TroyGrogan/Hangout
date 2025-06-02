@@ -1,0 +1,408 @@
+[
+  {
+    "id": 1,
+    "prompt": "Suggest some things I can do for first dates.",
+    "displayText": "First Dates",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 2,
+    "prompt": "Suggest fun, unique activities for group dates.",
+    "displayText": "Group Dates",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 3,
+    "prompt": "Suggest ways I can find speed dating events near me.",
+    "displayText": "Speed Dating",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 4,
+    "prompt": "Suggest ways to find out if there are any singles mixers happening locally.",
+    "displayText": "Singles Mixers",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 5,
+    "prompt": "Suggest things I can do for a romantic date night.",
+    "displayText": "Date Night",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 6,
+    "prompt": "Suggest ways I can organize a friend meetup.",
+    "displayText": "Friend Meetups",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 7,
+    "prompt": "Suggest some popular games to play for game night.",
+    "displayText": "Game Night",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 8,
+    "prompt": "Suggest ideas for planning a memorable friend reunion.",
+    "displayText": "Friend Reunions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 9,
+    "prompt": "Suggest ways I can find local hobby groups to join.",
+    "displayText": "Hobby Groups",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 10,
+    "prompt": "Suggest some interesting books for a book club.",
+    "displayText": "Book Clubs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 11,
+    "prompt": "Suggest some engaging activities for a family reunion.",
+    "displayText": "Family Reunions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 12,
+    "prompt": "Suggest some creative ideas for family dinner nights.",
+    "displayText": "Family Dinner",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 13,
+    "prompt": "Suggest fun parent-child activities for different age groups.",
+    "displayText": "Parent-child Activities",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 14,
+    "prompt": "Suggest ways we can organize an extended family gathering.",
+    "displayText": "Extended Family Gatherings",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 15,
+    "prompt": "Suggest some ideas for family holiday celebrations.",
+    "displayText": "Holiday Celebrations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 16,
+    "prompt": "Suggest themes and ideas for a birthday party.",
+    "displayText": "Birthday Party",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 17,
+    "prompt": "Suggest ways to host a great Super Bowl party.",
+    "displayText": "Super Bowl Party",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 18,
+    "prompt": "Suggest tips for throwing a successful house party.",
+    "displayText": "House Party",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 19,
+    "prompt": "Suggest some elegant ideas for a dinner party.",
+    "displayText": "Dinner Party",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 20,
+    "prompt": "Suggest ways to host a sophisticated cocktail party.",
+    "displayText": "Cocktail Party",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 21,
+    "prompt": "Suggest creative themes for a themed party.",
+    "displayText": "Themed Party",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 22,
+    "prompt": "Suggest ways I can organize a block party for my neighborhood.",
+    "displayText": "Block Party",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 23,
+    "prompt": "Suggest ideas for a casual neighborhood meetup.",
+    "displayText": "Neighborhood Meetup",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 24,
+    "prompt": "Suggest ways I can find local community service opportunities.",
+    "displayText": "Community Service",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 25,
+    "prompt": "Suggest ways to find and join local club meetings.",
+    "displayText": "Local Club Meetings",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 26,
+    "prompt": "Suggest ways to find upcoming concerts in my area.",
+    "displayText": "Concerts",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 27,
+    "prompt": "Suggest ways to find out what music festivals are happening nearby.",
+    "displayText": "Music Festivals",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 28,
+    "prompt": "Suggest ways to find venues with live bands playing this week.",
+    "displayText": "Live Bands At Venues",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 29,
+    "prompt": "Suggest ways to find out if there are any orchestra performances scheduled soon.",
+    "displayText": "Orchestra Performances",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 30,
+    "prompt": "Suggest some good jazz clubs to visit.",
+    "displayText": "Jazz Clubs",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 31,
+    "prompt": "Suggest ways I can find open mic nights.",
+    "displayText": "Open Mic Nights",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 32,
+    "prompt": "Suggest ways to find out what theater productions are currently running.",
+    "displayText": "Theater Productions",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 33,
+    "prompt": "Suggest ways to find upcoming dance performances.",
+    "displayText": "Dance Performances",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 34,
+    "prompt": "Suggest ways I can watch live comedy shows.",
+    "displayText": "Comedy Shows",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 35,
+    "prompt": "Suggest ways to find out if there are any improv shows happening locally.",
+    "displayText": "Improv Shows",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 36,
+    "prompt": "Suggest ways to find spoken word or poetry reading events.",
+    "displayText": "Spoken Word/Poetry Readings",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 37,
+    "prompt": "Suggest ways to find out what professional sports games are happening this weekend.",
+    "displayText": "Professional Sports Games",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 38,
+    "prompt": "Suggest ways to find the schedule for local collegiate sports teams.",
+    "displayText": "Collegiate Sports",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 39,
+    "prompt": "Suggest ways to find out if there are any motorsports events nearby.",
+    "displayText": "Motorsports",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 40,
+    "prompt": "Suggest ways I can watch Wrestling/WWE events.",
+    "displayText": "Wrestling/WWE Events",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 41,
+    "prompt": "Suggest ways to find upcoming boxing matches.",
+    "displayText": "Boxing Matches",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 42,
+    "prompt": "Suggest ways to find out if there are any MMA fights scheduled.",
+    "displayText": "MMA Fights",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 43,
+    "prompt": "Suggest ways to find information about circuses coming to town.",
+    "displayText": "Circuses",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 44,
+    "prompt": "Suggest ways to find out if there are any magic shows happening near me.",
+    "displayText": "Magic Shows",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 45,
+    "prompt": "Suggest ways I can see stand-up comedy.",
+    "displayText": "Stand-up Comedy",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 46,
+    "prompt": "Suggest ways to find local drag shows.",
+    "displayText": "Drag Shows",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 47,
+    "prompt": "Suggest ways to find out if there are any cultural performances or festivals.",
+    "displayText": "Cultural Performances",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 48,
+    "prompt": "Suggest ways to find out if Monster Jam is coming to my area.",
+    "displayText": "Monster Jam",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 49,
+    "prompt": "Suggest ways to find the schedule for Disney On Ice.",
+    "displayText": "Disney On Ice",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 50,
+    "prompt": "Suggest ideas for planning wedding-related events (showers, rehearsals).",
+    "displayText": "Wedding Events",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 51,
+    "prompt": "Suggest fun ways to celebrate a graduation.",
+    "displayText": "Graduation Celebrations",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 52,
+    "prompt": "Suggest creative ideas for an anniversary party.",
+    "displayText": "Anniversary Parties",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 53,
+    "prompt": "Suggest ways to plan a memorable baby shower.",
+    "displayText": "Baby Showers",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 54,
+    "prompt": "Suggest ideas for festive holiday gatherings.",
+    "displayText": "Holiday Gatherings",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 55,
+    "prompt": "Suggest ways to find professional meetups in my field.",
+    "displayText": "Professional Meetups",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 56,
+    "prompt": "Suggest ways to find upcoming industry events and conferences.",
+    "displayText": "Industry Events",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 57,
+    "prompt": "Suggest ways I can connect with alumni from my school.",
+    "displayText": "Alumni Gatherings",
+    "isTemplate": false,
+    "type": "do"
+  },
+  {
+    "id": 58,
+    "prompt": "Suggest ways I can find social mixers for networking.",
+    "displayText": "Social Mixers",
+    "isTemplate": false,
+    "type": "do"
+  }
+]

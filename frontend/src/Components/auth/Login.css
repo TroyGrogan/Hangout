@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFC49B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  header {
+    width: 100%;
+    background-color: #3B5998;
+    padding: 10px 0;
+    color: #FFFFF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1000px;
+    padding: 200px 20px 20px; /* Added top padding to account for header */
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  /* Card Styles */
+  .card {
+    background-color: #FFFFF0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .card h2 {
+    color: #3B5998;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+  
+  .card .success {
+    color: green;
+    margin-bottom: 10px;
+  }
+  
+  .card .error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #3B5998;
+    font-weight: bold;
+    font-size: 0.95rem;
+  }
+  
+  form input {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: auto;
+  }
+  
+  form input:focus {
+    border-color: #3B5998;
+    outline: none;
+    box-shadow: 0 0 3px rgba(59, 89, 152, 0.5);
+  }
+  
+  form button {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    background-color: #3B5998;
+    color: #FFFFF0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: auto;
+    transition: background-color 0.3s;
+  }
+  
+  form button:disabled {
+    background-color: #ADB6C4;
+    cursor: not-allowed;
+  }
+  
+  form button:hover:not(:disabled) {
+    background-color: #2E4578;
+  }
+  
+  /* Link Styles */
+  form p {
+    color: #3B5998;
+    font-size: 0.9rem;
+  }
+  
+  form a {
+    color: #3B5998;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  form a:hover {
+    color: #2E4578;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #3B5998;
+  }
+  
