@@ -12,10 +12,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'your-default-secret-key-for-dev')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-# ^^SET DEBUG TO True WHENEVER TRYING TO RUN LOCALLY!!
+DEBUG = os.environ.get('DJANGO_DEBUG', 'False').lower() == 'true'
 
-ALLOWED_HOSTS = ['standinonbusiness.onrender.com',  '127.0.0.1', 'localhost']
+# Dynamic ALLOWED_HOSTS for production
+ALLOWED_HOSTS = []
+if DEBUG:
+    ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+else:
+    # For production, allow any Render subdomain
+    ALLOWED_HOSTS = ['*']  # You can restrict this to your specific Render URL later
 
 # Application definition
 INSTALLED_APPS = [
@@ -38,6 +43,7 @@ AUTH_USER_MODEL = 'users.User'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -149,12 +155,22 @@ if not DEBUG:  # Only include frontend files in production
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS settings
-CORS_ALLOW_ALL_ORIGINS = True  # Only for development
+CORS_ALLOW_ALL_ORIGINS = DEBUG  # Only allow all origins in development
 CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-    "http://localhost:3000",
-]
+
+# Dynamic CORS origins based on environment
+if DEBUG:
+    CORS_ALLOWED_ORIGINS = [
+        "http://localhost:5173",
+        "http://localhost:3000",
+    ]
+else:
+    # For production, add your frontend URL here
+    CORS_ALLOWED_ORIGINS = [
+        "https://your-frontend-url.netlify.app",  # Update this with your actual frontend URL
+        "https://your-frontend-url.vercel.app",   # or Vercel URL
+    ]
+
 CORS_ALLOW_METHODS = [
     'DELETE',
     'GET',
