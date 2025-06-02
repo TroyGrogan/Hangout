@@ -200,6 +200,15 @@ SUPABASE_SERVICE_KEY = os.environ.get('SUPABASE_SERVICE_KEY')
 # Maximum upload size for images (5MB)
 MAX_UPLOAD_SIZE = 5 * 1024 * 1024
 
+# AI Model Timeout Settings for Production
+# Increase timeouts for AI model processing
+DATA_UPLOAD_MAX_MEMORY_SIZE = 10 * 1024 * 1024  # 10MB
+FILE_UPLOAD_MAX_MEMORY_SIZE = 10 * 1024 * 1024  # 10MB
+
+# Session timeout settings
+SESSION_COOKIE_AGE = 86400  # 24 hours
+SESSION_EXPIRE_AT_BROWSER_CLOSE = False
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
@@ -219,6 +228,11 @@ LOGGING = {
         'apps.events': {
             'handlers': ['console'],
             'level': 'DEBUG',
+            'propagate': True,
+        },
+        'apps.ai_chat': {
+            'handlers': ['console'],
+            'level': 'INFO',
             'propagate': True,
         },
     },
