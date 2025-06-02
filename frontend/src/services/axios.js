@@ -6,7 +6,7 @@ import { clearChatState } from '../utils/chatStateUtils'; // Import from utility
 const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
 const baseURL = isDevelopment 
     ? 'http://localhost:8000/api' // Your local backend API base
-    : 'https://hangout-8prs.onrender.com'; // UPDATE THIS with your actual Render backend URL
+    : 'https://hangout-8prs.onrender.com/api'; // Fixed: Added /api path for production
 
 const axiosInstance = axios.create({
   baseURL: baseURL,
