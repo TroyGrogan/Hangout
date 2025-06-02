@@ -84,7 +84,8 @@ DATABASES = {
         'PORT': '6543',  # Standard Supabase port
         'OPTIONS': {
             'sslmode': 'require'
-        }
+        },
+        'CONN_MAX_AGE': 0  # Don't reuse connections for long requests
     }
 }
 
@@ -204,6 +205,11 @@ MAX_UPLOAD_SIZE = 5 * 1024 * 1024
 # Increase timeouts for AI model processing
 DATA_UPLOAD_MAX_MEMORY_SIZE = 10 * 1024 * 1024  # 10MB
 FILE_UPLOAD_MAX_MEMORY_SIZE = 10 * 1024 * 1024  # 10MB
+
+# Extended timeout settings for AI model processing (20 minutes)
+# These settings help Django handle very long-running AI requests
+DATA_UPLOAD_MAX_NUMBER_FIELDS = 1000
+DATA_UPLOAD_MAX_NUMBER_FILES = 100
 
 # Session timeout settings
 SESSION_COOKIE_AGE = 86400  # 24 hours
