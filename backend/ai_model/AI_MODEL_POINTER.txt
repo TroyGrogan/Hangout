@@ -44,3 +44,32 @@ Before running:
 
 - The download will take some time as the model file is about 1.1GB. 
   You'll see a progress indicator in your terminal. Once it's complete, the model file will be in the specified directory.
+
+
+
+FOR RENDER IN PARTICULAR:
+Steps to Access Render Shell:
+1. Upgrade to a paid tier (Shell access is not available on free tier)
+2. Go to your backend service in Render dashboard
+3. Click the "Shell" button in the top navigation
+4. Run the command: 
+cd ai_model && curl -L -o "tinyllama-1.1b-chat-v1.0.Q8_0.gguf" "https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q8_0.gguf?download=true"
+
+Important Notes:
+⚠️ File Persistence: 
+Files downloaded this way will persist across deployments on Render's paid tiers 
+(unlike some other platforms)
+
+⚠️ Download Size: The model is ~1.1GB, so it will take several minutes to download
+
+⚠️ Disk Space: Make sure your Render plan has enough storage for the model file
+
+You're spot on with the path - 
+since Render's shell starts you in the backend directory, 
+cd ai_model is exactly right! 🚀
+
+
+SO, IN SHORT, RUN THIS COMMAND THROUGH YOUR SHELL IN YOUR BACKEND DEPLOYED ENVIRONMENT,
+THROUGH THE SHELL:
+
+cd ai_model && curl -L -o "tinyllama-1.1b-chat-v1.0.Q8_0.gguf" "https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q8_0.gguf?download=true"
