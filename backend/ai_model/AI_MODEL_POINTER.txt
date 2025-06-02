@@ -73,3 +73,28 @@ SO, IN SHORT, RUN THIS COMMAND THROUGH YOUR SHELL IN YOUR BACKEND DEPLOYED ENVIR
 THROUGH THE SHELL:
 
 cd ai_model && curl -L -o "tinyllama-1.1b-chat-v1.0.Q8_0.gguf" "https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q8_0.gguf?download=true"
+
+
+Make sure that this is the start command in render so that timeout issues don't occurr:
+
+gunicorn --workers 1 --worker-class sync --timeout 1200 --keep-alive 1200 --graceful-timeout 1200 --max-requests 1000 --max-requests-jitter 50 --preload backend.wsgi:application --bind 0.0.0.0:$PORT
+
+What This Does:
+--timeout 1200 = 20 minutes worker timeout
+--keep-alive 1200 = 20 minutes keep-alive timeout
+--graceful-timeout 1200 = 20 minutes graceful shutdown timeout
+--worker-class sync = Synchronous workers (better for long-running tasks)
+--preload = Preload the application (can help with memory management)
+--bind 0.0.0.0:$PORT = Bind to Render's required port
+
+Steps:
+Click "Edit" next to the Start Command
+Replace the existing command with the one above
+Save/Apply the changes
+Render will automatically redeploy with the new timeout settings
+
+This will bypass the Procfile entirely and force Render 
+to use our extended timeout settings directly! 🚀
+
+Once you update this, the AI model should have the full 20 minutes 
+to complete its processing without timing out.
