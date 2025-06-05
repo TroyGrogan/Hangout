@@ -20,8 +20,7 @@ if DEBUG:
     ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 else:
     # For production, allow any Render subdomain
-    # ALLOWED_HOSTS = ['*']  # You can restrict this to your specific Render URL
-    ALLOWED_HOSTS = ['hangout-2jy4.onrender.com']
+    ALLOWED_HOSTS = ['*'] 
 
 # Application definition
 INSTALLED_APPS = [
