@@ -127,10 +127,18 @@ Then, in a separate terminal, do this:
 
     npm run dev
 
+**If running locally, change this code found in settings.py in the backend/backend directory to TRUE**
+    # SECURITY WARNING: don't run with debug turned on in production!
+    DEBUG = os.environ.get('DJANGO_DEBUG', 'True').lower() == 'true'
+
+**For production, change this code found in settings.py in the backend/backend directory to FALSE**
+    # SECURITY WARNING: don't run with debug turned on in production!
+    DEBUG = os.environ.get('DJANGO_DEBUG', 'False').lower() == 'true'
+
 # Deployment
 If you would like to visit the Deployment of our Web Application, it can be accessed at:
 
-https://standinonbusiness-1.onrender.com
+https://hangout-2jy4.onrender.com
 
 
 # Testing

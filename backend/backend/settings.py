@@ -20,7 +20,8 @@ if DEBUG:
     ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 else:
     # For production, allow any Render subdomain
-    ALLOWED_HOSTS = ['*']  # You can restrict this to your specific Render URL later
+    # ALLOWED_HOSTS = ['*']  # You can restrict this to your specific Render URL
+    ALLOWED_HOSTS = ['hangout-2jy4.onrender.com']
 
 # Application definition
 INSTALLED_APPS = [
@@ -168,9 +169,7 @@ if DEBUG:
 else:
     # For production, add your frontend URL here
     CORS_ALLOWED_ORIGINS = [
-        "https://hangout-2jy4.onrender.com",  # Your actual Render frontend URL
-        "https://your-frontend-url.netlify.app",  # Update this with your actual frontend URL
-        "https://your-frontend-url.vercel.app",   # or Vercel URL
+        "https://hangout-2jy4.onrender.com",  # Update this with your actual frontend URL
     ]
 
 CORS_ALLOW_METHODS = [

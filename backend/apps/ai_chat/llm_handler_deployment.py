@@ -15,6 +15,7 @@ import psutil
 import gc
 import time
 from contextlib import contextmanager
+import re
 
 try:
     from llama_cpp import LlamaRAMCache
@@ -36,23 +37,23 @@ BASE_MAX_RESPONSE_TOKENS = 384  # Reduced for safety
 # Adaptive parameters based on available memory
 ADAPTIVE_MEMORY_THRESHOLDS = {
     'minimal': {  # < 0.3GB available
-        'context_window': 768,
-        'max_response_tokens': 256,
+        'context_window': 1024,
+        'max_response_tokens': 320,
         'max_history': 4
     },
     'low': {     # 0.3-0.5GB available
-        'context_window': 1024,
-        'max_response_tokens': 384,
+        'context_window': 1536,
+        'max_response_tokens': 512,
         'max_history': 6
     },
     'medium': {  # 0.5-0.8GB available
-        'context_window': 1280,
-        'max_response_tokens': 512,
+        'context_window': 1792,
+        'max_response_tokens': 640,
         'max_history': 8
     },
     'high': {    # > 0.8GB available
-        'context_window': 1536,
-        'max_response_tokens': 640,
+        'context_window': 2048,
+        'max_response_tokens': 768,
         'max_history': 10
     }
 }
@@ -242,7 +243,16 @@ class UltraLlamaModel:
         self._initialized = False
         self._last_gc = time.time()
         self._last_memory_check = 0
-        self.system_message = "You are a helpful AI assistant. Provide complete, well-structured responses."
+        # self.system_prompt = "You are a helpful, truthful, insightful, curious, and concise AI assistant. Provide well-structured, complete sentences. Avoid overly long paragraphs, but paragraphs are allowed. Get straight to the point, while also explaining in detail the nuances of it all."
+        # === SYSTEM PROMPT ===
+        self.system_prompt = """You are a concise, helpful, truthful, grounded, insightful, knowledgeable, balanced, curious, and creative AI assistant.
+- Provide well-structured, complete sentences.
+- Use simple Markdown for formatting:
+  - For bold text, use **text**. Example: **This is important**.
+  - For unordered lists, start each item with a single * or -. Example: * First item. Do not use ** - for list items.
+  - For numbered lists, use the format: 1. **Item Title:** (followed by a colon). Example: 1. **Reading:** Check out books...
+  - Ensure all Markdown is correctly formed (e.g., **bold text must be closed**).
+- Avoid overly long paragraphs, but paragraphs are allowed. Get straight to the point, but explain details if asked."""
         
         logger.info(f"UltraLlamaModel initialized: context={self.context_window}, "
                    f"max_tokens={self.max_response_tokens}, tier={adaptive_params['tier']}")
@@ -286,22 +296,22 @@ class UltraLlamaModel:
         import re
         
         # Fix sentences that got split incorrectly at periods
-        response = re.sub(r'(\w+\.)\s*\n+\s*([A-Z])', r'\1 \2', response)
+        response = re.sub(r'(\w+\.)\s*[\r\n]+\s*([A-Z])', r'\1 \2', response)
         
         # Join continuation sentences that start with common transition words
         transition_words = r'(In addition|However|Furthermore|Moreover|Also|Additionally|Therefore|Thus|Meanwhile|Subsequently|Nevertheless|Nonetheless|Consequently|Similarly|Likewise|On the other hand|For example|For instance|In contrast|In fact|Indeed|Overall|Finally|Lastly|First|Second|Third|Next|Then|After|Before|During|While|Although|Though|Despite|Because|Since|As|When|Where|Which|That|This|These|Such|Many|Some|Most|All|Each|Every|Another|Other)'
-        response = re.sub(rf'\.\s*\n+\s*({transition_words})', r'. \1', response, flags=re.IGNORECASE)
+        response = re.sub(rf'(\.)\s*[\r\n]+\s*({transition_words})', r'\1 \2', response, flags=re.IGNORECASE)
         
         # Fix mid-sentence breaks (any word followed by period, then lowercase continuation)
-        response = re.sub(r'(\w+\.)\s*\n+\s*([a-z])', r'\1 \2', response)
+        response = re.sub(r'(\w+\.)\s*[\r\n]+\s*([a-z])', r'\1 \2', response)
         
         # Fix breaks where a sentence ends and the next word should continue the thought
         # Pattern: "word. \n Next" -> "word. Next" (but only for logical continuations)
-        response = re.sub(r'(\w+\.)\s*\n+\s*([A-Z][a-z])', r'\1 \2', response)
+        response = re.sub(r'(\w+\.)\s*[\r\n]+\s*([A-Z][a-z])', r'\1 \2', response)
         
         # Fix incomplete sentences that end abruptly and continue on next line
         # Pattern: "incomplete phrase\n continuation" -> "incomplete phrase continuation"
-        response = re.sub(r'([a-z,])\s*\n+\s*([a-z])', r'\1 \2', response)
+        response = re.sub(r'(?<=[a-z,])\s*[\r\n]\s*(?=[a-z])', ' ', response) # Using [\r\n] for single newline
         
         # Clean up multiple line breaks
         response = re.sub(r'\n\s*\n\s*\n+', '\n\n', response)  # Max 2 line breaks
@@ -488,7 +498,7 @@ class UltraLlamaModel:
             history = self.get_conversation_history(chat_session_id)
             
             # Proper Zephyr format - system message should be more comprehensive
-            system_msg = "You are a helpful AI assistant. Provide complete, well-structured responses."
+            system_msg = self.system_prompt
             prompt_parts = [f"<|system|>\n{system_msg}</s>\n"]
             
             # Add conversation history with proper formatting
@@ -511,39 +521,40 @@ class UltraLlamaModel:
         except Exception as e:
             logger.error(f"Error building prompt: {str(e)}")
             # Emergency fallback with better system message
-            system_msg = "You are a helpful AI assistant. Provide complete, well-structured responses."
+            system_msg = """You are a helpful AI assistant.
+- Provide well-structured, complete sentences.
+- Use simple Markdown for formatting:
+  - For bold text, use **text**. Example: **This is important**.
+  - For unordered lists, start each item with a single * or -. Example: * First item. Do not use ** - for list items.
+  - For numbered lists, use the format: 1. **Item Title:** (followed by a colon). Example: 1. **Reading:** Check out books...
+  - Ensure all Markdown is correctly formed (e.g., **bold text must be closed**).
+- Avoid overly long paragraphs. Get straight to the point, but explain details if asked."""
             return f"<|system|>\n{system_msg}</s>\n<|user|>\n{user_input}</s>\n<|assistant|>\n"
 
     def _enhanced_post_process_response(self, response):
         """Enhanced post-processing to handle fragmentation better"""
+        import re
         if not response:
             return response
             
         # Remove any remaining special tokens that might have leaked through
         response = response.replace("<|assistant|>", "").replace("<|user|>", "").replace("<|system|>", "")
         response = response.replace("</s>", "").strip()
+
+        # === Simplified Formatting Fixes ===
+        # Correct '::' to ':'
+        response = re.sub(r'::+', ':', response)
         
-        # Fix common fragmentation patterns
-        import re
+        # === End of Simplified Formatting Fixes ===
         
-        # Fix sentences that got split incorrectly at periods
-        response = re.sub(r'(\w+\.)\s*\n+\s*([A-Z])', r'\1 \2', response)
-        
-        # Join continuation sentences that start with common transition words
-        transition_words = r'(In addition|However|Furthermore|Moreover|Also|Additionally|Therefore|Thus|Meanwhile|Subsequently|Nevertheless|Nonetheless|Consequently|Similarly|Likewise|On the other hand|For example|For instance|In contrast|In fact|Indeed|Overall|Finally|Lastly|First|Second|Third|Next|Then|After|Before|During|While|Although|Though|Despite|Because|Since|As|When|Where|Which|That|This|These|Such|Many|Some|Most|All|Each|Every|Another|Other)'
-        response = re.sub(rf'\.\s*\n+\s*({transition_words})', r'. \1', response, flags=re.IGNORECASE)
-        
+        # === Essential Line Joining ===
         # Fix mid-sentence breaks (any word followed by period, then lowercase continuation)
-        response = re.sub(r'(\w+\.)\s*\n+\s*([a-z])', r'\1 \2', response)
+        response = re.sub(r'(\w+\.)\s*[\r\n]+\s*([a-z])', r'\1 \2', response)
         
-        # Fix breaks where a sentence ends and the next word should continue the thought
-        # Pattern: "word. \n Next" -> "word. Next" (but only for logical continuations)
-        response = re.sub(r'(\w+\.)\s*\n+\s*([A-Z][a-z])', r'\1 \2', response)
+        # Fix incomplete sentences that end abruptly and continue on next line (lowercase or comma, then lowercase)
+        response = re.sub(r'(?<=[a-z,])\s*[\r\n]\s*(?=[a-z])', ' ', response)
         
-        # Fix incomplete sentences that end abruptly and continue on next line
-        # Pattern: "incomplete phrase\n continuation" -> "incomplete phrase continuation"
-        response = re.sub(r'([a-z,])\s*\n+\s*([a-z])', r'\1 \2', response)
-        
+        # === Final Cleanup ===
         # Clean up multiple line breaks
         response = re.sub(r'\n\s*\n\s*\n+', '\n\n', response)  # Max 2 line breaks
         response = re.sub(r' +', ' ', response)  # Remove extra spaces
@@ -552,6 +563,7 @@ class UltraLlamaModel:
 
     def _response_seems_incomplete(self, response):
         """Check if the response seems incomplete or fragmented"""
+        import re
         if not response:
             return True
         
@@ -559,7 +571,7 @@ class UltraLlamaModel:
         response_clean = response.strip()
         
         # Too short responses are likely incomplete
-        if len(response_clean.split()) < 20:
+        if len(response_clean.split()) < 15:
             return True
         
         # Ends abruptly without proper punctuation
@@ -568,19 +580,15 @@ class UltraLlamaModel:
         
         # Contains obvious fragmentation patterns
         fragmentation_patterns = [
-            r'\w+\.\s*$',  # Ends with "word."
             r'\w+\,\s*$',  # Ends with "word,"
-            r'\w+\s+\w+\.\s*$',  # Ends with "word word." (any two-word phrase ending abruptly)
             r'[a-z]+\s*$',  # Ends with lowercase word (likely incomplete)
             r'\w+\s+(to|and|or|of|in|on|at|for|with|by)\s*$',  # Ends with preposition (incomplete phrase)
             r'\w+\s+(can|will|should|could|would|may|might)\s*$',  # Ends with modal verb (incomplete)
-            r'\w+\s+(help|improve|develop|enhance|promote)\s*$',  # Ends with action verb (incomplete)
             r'necessary\s+(to|for)\s*$',  # Incomplete "necessary to/for" phrases
             r'able\s+to\s*$',  # Incomplete "able to" phrases
             r'in\s+order\s+to\s*$',  # Incomplete "in order to" phrases
         ]
         
-        import re
         for pattern in fragmentation_patterns:
             if re.search(pattern, response_clean):
                 return True
@@ -624,8 +632,8 @@ class UltraLlamaModel:
             # Use minimal parameters for completion to save memory
             completion_response = self.llm.create_completion(
                 continuation_prompt,
-                max_tokens=min(128, adaptive_params.get('max_response_tokens', 256) // 4),  # Quarter of normal tokens
-                stop=["<|user|>", "<|system|>", "\n\n<|", "Human:", "User:"],
+                max_tokens=min(128, adaptive_params.get('max_response_tokens', 256) // 2),
+                stop=["<|user|>", "<|system|>", "\n\n<|", "Human:", "User:", "</s>"],
                 temperature=0.6,  # Lower temperature for consistency
                 top_p=0.85,
                 top_k=20,
@@ -698,40 +706,45 @@ def generate_deployment_response(prompt, chat_session=None, user=None):
                 prompt_with_history = model.build_prompt_with_history(chat_session, prompt)
             else:
                 # Use improved system message for standalone queries
-                system_msg = "You are a helpful AI assistant. Provide complete, well-structured responses."
+                system_msg = """You are a helpful AI assistant.
+- Provide well-structured, complete sentences.
+- Use simple Markdown for formatting:
+  - For bold text, use **text**. Example: **This is important**.
+  - For unordered lists, start each item with a single * or -. Example: * First item. Do not use ** - for list items.
+  - For numbered lists, use the format: 1. **Item Title:** (followed by a colon). Example: 1. **Reading:** Check out books...
+  - Ensure all Markdown is correctly formed (e.g., **bold text must be closed**).
+- Avoid overly long paragraphs. Get straight to the point, but explain details if asked."""
                 prompt_with_history = f"<|system|>\n{system_msg}</s>\n<|user|>\n{prompt}</s>\n<|assistant|>\n"
             
             try:
                 # Get current adaptive parameters for generation
                 adaptive_params = UltraMemoryManager.get_adaptive_parameters()
                 
-                # Adjust generation parameters based on memory tier
+                # Adjust generation parameters based on memory tier - simplified effective_max_tokens
+                effective_max_tokens = model.max_response_tokens # Use full budget for the tier
+
                 if adaptive_params['tier'] == 'minimal':
-                    temperature = 0.5  # Lower temperature for consistency
-                    top_p = 0.85
+                    temperature = 0.5  # Reverted from 0.65
+                    top_p = 0.80       # Reduced from 0.85
                     top_k = 20
-                    # Use shorter but complete responses in minimal mode
-                    effective_max_tokens = min(model.max_response_tokens, 200)
                 elif adaptive_params['tier'] == 'low':
-                    temperature = 0.6
-                    top_p = 0.9
+                    temperature = 0.6  # Reverted from 0.75
+                    top_p = 0.85       # Reduced from 0.9
                     top_k = 30
-                    effective_max_tokens = min(model.max_response_tokens, 350)
                 else:
-                    temperature = 0.7
-                    top_p = 0.95
+                    temperature = 0.7  # Reverted from 0.85
+                    top_p = 0.90       # Reduced from 0.95
                     top_k = 40
-                    effective_max_tokens = model.max_response_tokens
                 
                 # Memory-adaptive generation with improved stopping
                 generation_params = {
                     'prompt': prompt_with_history,
                     'max_tokens': effective_max_tokens,
-                    'stop': ["<|user|>", "<|system|>", "\n\n<|", "Human:", "User:"],
+                    'stop': ["<|user|>", "<|system|>", "\n\n<|", "Human:", "User:", "</s>"],
                     'temperature': temperature,
                     'top_p': top_p,
                     'top_k': top_k,
-                    'repeat_penalty': 1.05,
+                    'repeat_penalty': 1.15, # Increased from 1.05
                     'frequency_penalty': 0.0,
                     'presence_penalty': 0.0,
                     'stream': False,
