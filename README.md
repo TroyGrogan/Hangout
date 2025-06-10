@@ -15,8 +15,10 @@ In order to build this project you first have to install:
 
 ## Setup
 
-**Setting Up The Backend:**  
-Create and activate a virtual enviornment.
+**Setting up the app's virtual environment:**  
+Create and Activate a virtual enviornment in the home directory of the app.
+
+In other words, create the virtual environemnt where the files and directories: backend, frontend, package-lock.json, package.json, and READEME.md are located.
 
 **Windows:**
 
@@ -28,11 +30,13 @@ Create and activate a virtual enviornment.
     python3 -m venv env
     source env/bin/activate
 
+**Setting Up The Backend:** 
+
 **Navigate to the backend directory.**
 
     cd backend
 
-**Install Postgre-SQL:**
+**Next, Install Postgre-SQL on your Computer:**
 
 **Windows:**
 
@@ -67,7 +71,7 @@ Verify that PostgreSQL is properly installed and accessible:
 
 **-> Once PostgreSQL is successfully installed, THEN ->**
 
-**Install Dependencies.**
+**Install the Backend Dependencies.**
 
     pip install -r requirements.txt
 
@@ -105,13 +109,15 @@ whenever running the enter the virtual environment command.
 
 
 ## Running
+For both the frontend and backend, make sure that your virtual environment (env) is activated!!
+
 **Running The Backend:**
 
-**Navigate to the backend directory.**
+Navigate to the backend directory.
 
     cd backend
 
-**Then Run this command:**
+Then, run this command:
 
     python manage.py runserver
 
@@ -119,13 +125,32 @@ Then, in a separate terminal, do this:
 
 **Running The Frontend:**
 
-**Navigate to the frontend directory.**
+Navigate to the frontend directory.
 
     cd frontend
 
-**Then Run this command:**
+Then, run this command:
 
     npm run dev
+
+## Running Locally For Development
+Make sure to have your .env file, placed in the main backend directory, filled out with your correlated information, accordingly.
+
+**.env file structure example:**
+
+    # Django Settings
+    DJANGO_SECRET_KEY='your-django-secret-key-here'
+
+    # Supabase Connection Settings
+    SUPABASE_URL='https://your-project-id.supabase.co'
+
+    # Supabase API key aka ANON Public Key
+    SUPABASE_ANON_KEY='your-supabase-anon-key-here'
+
+    SUPABASE_SERVICE_KEY='your-supabase-service-key-here'
+
+    # Database Password
+    DB_PASSWORD='your-database-password-here'
 
 **If running locally, change this code found in settings.py in the backend/backend directory to TRUE**
 
@@ -137,11 +162,15 @@ Then, in a separate terminal, do this:
     # SECURITY WARNING: don't run with debug turned on in production!
     DEBUG = os.environ.get('DJANGO_DEBUG', 'False').lower() == 'true'
 
-    Run:
+**For Local Network Mobile Phone Development, Run this command for the backend:**
 
     python manage.py runserver 0.0.0.0:8000
 
-    For Local Network Mobile Development.
+**Also, change the ALLOWED_HOSTS information found in the backend/backend/settings.py file to match your local network link accordingly.**
+
+**Example of what a Local Network Link looks like:**
+
+    Network: http://100.64.14.100:5173/
 
 # Deployment
 If you would like to visit the Deployment of our Web Application, it can be accessed at:
