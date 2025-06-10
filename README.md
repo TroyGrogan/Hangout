@@ -137,6 +137,12 @@ Then, in a separate terminal, do this:
     # SECURITY WARNING: don't run with debug turned on in production!
     DEBUG = os.environ.get('DJANGO_DEBUG', 'False').lower() == 'true'
 
+    Run:
+
+    python manage.py runserver 0.0.0.0:8000
+
+    For Local Network Mobile Development.
+
 # Deployment
 If you would like to visit the Deployment of our Web Application, it can be accessed at:
 

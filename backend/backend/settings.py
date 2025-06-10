@@ -17,7 +17,7 @@ DEBUG = os.environ.get('DJANGO_DEBUG', 'False').lower() == 'true'
 # Dynamic ALLOWED_HOSTS for production
 ALLOWED_HOSTS = []
 if DEBUG:
-    ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+    ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '100.64.14.100']
 else:
     # For production, allow any Render subdomain
     ALLOWED_HOSTS = ['*'] 
@@ -164,6 +164,7 @@ if DEBUG:
     CORS_ALLOWED_ORIGINS = [
         "http://localhost:5173",
         "http://localhost:3000",
+        "http://100.64.14.100:5173",
     ]
 else:
     # For production, add your frontend URL here

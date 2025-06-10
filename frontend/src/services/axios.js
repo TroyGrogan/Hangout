@@ -3,10 +3,27 @@ import axios from 'axios';
 import { clearChatState } from '../utils/chatStateUtils'; // Import from utility file instead
 
 // Determine base URL based on hostname
-const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+// const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+const isDevelopment = window.location.hostname === 'localhost' 
+    || window.location.hostname === '127.0.0.1'
+    // || window.location.hostname === '100.64.14.100';
+    || window.location.hostname.startsWith('100.64');
+    // ^^ Flexible check that will work ^^
+    // ^^ even if your IP address changes in the future, ^^
+    // ^^ as long as it starts with 100.64 ^^
+
+    
 const baseURL = isDevelopment 
-    ? 'http://localhost:8000/api' // Your local backend API base
-    : 'https://hangout-8prs.onrender.com/api'; // Fixed: Added /api path for production
+    // ? 'http://localhost:8000/api' // Your local backend API base
+    // : 'https://hangout-8prs.onrender.com/api'; // Fixed: Added /api path for production
+    ? `http://${window.location.hostname}:8000/api` // Use dynamic hostname
+    : 'https://hangout-8prs.onrender.com/api'; // Production URL
+
+// ^^ Here you would run the django backend by running this command:
+// python manage.py runserver 0.0.0.0:8000
+// This command allows for you to be able to log into the same
+// local network on your phone or other mobile devices.
+
 
 const axiosInstance = axios.create({
   baseURL: baseURL,

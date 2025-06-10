@@ -1,13 +1,14 @@
-import React, { useState } from "react";
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
-import "./CodeBlock.css";
+import React, { useState } from 'react';
+import { Copy } from 'lucide-react';
+import 'highlight.js/styles/atom-one-dark.css';
+import './CodeBlock.css';
 
-const CodeBlock = ({ language, value }) => {
+const CodeBlock = ({ language, children, codeString, className }) => {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(value);
+    const textToCopy = codeString || children?.toString() || '';
+    navigator.clipboard.writeText(textToCopy);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -17,22 +18,15 @@ const CodeBlock = ({ language, value }) => {
       <div className="code-header">
         <span className="code-language">{language || 'code'}</span>
         <button onClick={handleCopy} className="copy-button">
-          {copied ? "Copied!" : "Copy"}
+          <Copy size={14} className="copy-icon" />
+          {copied ? 'Copied!' : 'Copy'}
         </button>
       </div>
-      <SyntaxHighlighter
-        language={language || 'javascript'}
-        style={vscDarkPlus}
-        wrapLines={true}
-        showLineNumbers={true}
-        customStyle={{
-          margin: 0,
-          padding: "1rem",
-          borderRadius: "0 0 4px 4px",
-        }}
-      >
-        {value}
-      </SyntaxHighlighter>
+      <pre className="pre-style">
+        <code className={className}>
+          {children}
+        </code>
+      </pre>
     </div>
   );
 };

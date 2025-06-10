@@ -75,6 +75,7 @@ const Chat = () => {
   const [selectedCategory, setSelectedCategory] = useState(null); // Store the selected category object from HARDCODED list
   const [categoryFromUrl, setCategoryFromUrl] = useState(null); // Store category from URL
   const [isFetchingSuggestions, setIsFetchingSuggestions] = useState(false); // New state for loading suggestions
+  const [isTyping, setIsTyping] = useState(false); // Add this state
   
   const messagesEndRef = useRef(null);
   const prevMessagesLengthRef = useRef(0); // Ref to track previous message count
@@ -226,79 +227,71 @@ const Chat = () => {
   };
 
   const handleSendMessage = async (messageContent = input) => {
-    if (!messageContent.trim()) return;
-    if (isLoading) return; // Prevent sending while loading
+    if (!messageContent.trim() || isLoading) return;
 
-    const userMessage = messageContent;
-    if (messageContent === input) {
-      setInput(''); // Clear input only if it came from the text area
-    }
+    const userMessage = { type: 'user', content: messageContent, timestamp: new Date().toISOString() };
+    setMessages(prevMessages => [...prevMessages, userMessage]);
+    
+    const aiPlaceholder = { type: 'ai', content: '', timestamp: new Date().toISOString(), id: `ai-placeholder-${Date.now()}` };
+    setMessages(prevMessages => [...prevMessages, aiPlaceholder]);
+
+    setInput('');
     setIsLoading(true);
     setError(null);
+    setIsTyping(true);
 
-    const newMessage = { 
-      type: 'user', 
-      content: userMessage,
-      timestamp: new Date().toISOString()
-    };
-    setMessages(prevMessages => [...prevMessages, newMessage]);
-
-    // Ensure model is initialized before sending message
     const initialized = await initializeModel();
     if (!initialized) {
-      setError("AI Model is not ready. Please wait or try again later.");
+      setError("AI Model is not ready. Please try again later.");
       setIsLoading(false);
-      // Optional: Remove the user message or add an error message to the chat
-      setMessages(prevMessages => prevMessages.filter(msg => msg !== newMessage)); 
+      setIsTyping(false);
+      setMessages(prev => prev.filter(m => m.id !== aiPlaceholder.id));
       return;
     }
 
-    // Ensure we have a session ID
     let currentSessionId = sessionId;
     if (!currentSessionId) {
-      console.log('No session ID found, creating a new one before sending message...');
       try {
         currentSessionId = await createNewChatSession();
         if (!currentSessionId) throw new Error("Failed to get session ID");
         setSessionId(currentSessionId);
-        console.log('New session created for first message:', currentSessionId);
       } catch (err) {
-        console.error('Critical error: Could not create session to send message:', err);
         setError('Could not start chat session. Please refresh and try again.');
         setIsLoading(false);
-        setMessages(prevMessages => prevMessages.filter(msg => msg !== newMessage)); 
+        setIsTyping(false);
+        setMessages(prev => prev.filter(m => m.id !== aiPlaceholder.id));
         return;
       }
     }
-    
-    console.log(`Sending message: "${userMessage}" to session: ${currentSessionId}`);
 
     try {
-      // Ensure sendMessage works and handles the API call correctly
-      const response = await sendMessage(userMessage, currentSessionId); 
+      // Correctly handle the complete response from the AI service.
+      const aiResponseData = await sendMessage(userMessage.content, currentSessionId);
       
-      // Check if the response structure is as expected
-      if (response && response.response) {
-        setMessages(prevMessages => [...prevMessages, { 
-          type: 'ai', 
-          content: response.response,
-          timestamp: new Date().toISOString() // Use current time or timestamp from response if available
-        }]);
+      let responseText = '';
+      // Check for different possible response structures.
+      if (typeof aiResponseData === 'string') {
+        responseText = aiResponseData;
+      } else if (aiResponseData && typeof aiResponseData.response === 'string') {
+        responseText = aiResponseData.response;
       } else {
-        throw new Error("Invalid response structure from AI service");
+        console.error("Unexpected AI response structure:", aiResponseData);
+        throw new Error('Received an unexpected response format from the AI service.');
       }
+
+      // Update the placeholder with the final, complete message.
+      const finalAiMessage = { ...aiPlaceholder, content: responseText };
+      setMessages(prev => prev.map(msg => 
+        msg.id === aiPlaceholder.id ? finalAiMessage : msg
+      ));
+
     } catch (err) {
-      console.error('Error sending message or processing response:', err);
-      setError(`Failed to get response: ${err.message || 'Please try again.'}`);
-      // Add an error message directly to the chat
-      setMessages(prevMessages => [...prevMessages, { 
-        type: 'ai', 
-        content: `Sorry, I encountered an error. Please try again. (Error: ${err.message || 'Unknown'})`,
-        timestamp: new Date().toISOString(),
-        isError: true // Custom flag for styling
-      }]);
+      console.error('Error sending message:', err);
+      const errorMessage = { ...aiPlaceholder, content: `Sorry, an error occurred: ${err.message}`, isError: true };
+      setMessages(prev => prev.map(msg => msg.id === aiPlaceholder.id ? errorMessage : msg));
     } finally {
       setIsLoading(false);
+      setIsTyping(false);
     }
   };
 
@@ -647,32 +640,22 @@ const Chat = () => {
            </div>
         )}
 
-        {messages.map((msg, index) => (
-          <div key={index} className={`message ${msg.type} ${msg.isError ? 'error' : ''}`}>
+        {messages.map((message, index) => (
+          <div key={message.id || index} className={`message ${message.type} ${message.isError ? 'error' : ''}`}>
             <div className="message-content">
               <div className="message-header">
-                <span className="message-sender">{msg.type === 'user' ? 'You' : 'AI'}</span>
-                <span className="message-time">{formatTimestamp(msg.timestamp)}</span>
+                <span className="message-sender">{message.type === 'user' ? 'You' : 'AI'}</span>
+                <span className="message-time">{formatTimestamp(message.timestamp)}</span>
               </div>
-              {msg.type === 'ai' ? (
-                <MarkdownRenderer content={msg.content} />
+              {message.type === 'user' ? (
+                <p className="user-message-text">{message.content}</p>
               ) : (
-                <p>{msg.content}</p>
+                <MarkdownRenderer content={message.content} isTyping={isTyping && message.content === ''} />
               )}
             </div>
           </div>
         ))}
         
-        {/* Loading indicator for AI response (distinct from suggestion loading) */} 
-        {isLoading && (
-          <div className="message ai loading">
-            <div className="message-content">
-              <LoadingIndicator /> 
-            </div>
-          </div>
-        )}
-        {/* Display fetch errors if messages are present */} 
-        {error && messages.length > 0 && <div className="error-message">{error}</div>}
         <div ref={messagesEndRef} />
       </div>
 

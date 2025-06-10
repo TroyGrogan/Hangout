@@ -130,4 +130,24 @@
   margin: 1.5em 0;
   border: 0;
   border-top: 1px solid #ddd;
-} 
+}
+
+/* 
+  This rule targets any `code` element inside the markdown content
+  that is *not* part of a full, highlighted code block.
+  This ensures that our newly-corrected inline code snippets
+  have a distinct background, making them easy to read.
+*/
+.markdown-content code:not([class*="hljs"]) {
+  font-family: monospace;
+  background-color: #f0f0f0;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* 
+  The styles for .inline-highlight-wrapper have been removed 
+  as the new logic uses the default `code` styling,
+  which is more robust and cleaner.
+*/ 

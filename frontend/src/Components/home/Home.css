@@ -360,7 +360,7 @@ a {
     animation: spin 1s linear infinite;
 }
 
-/* User preferences toggle */
+/* USER PREFERENCES TOGGLE */
 .preferences-container {
     display: flex;
     flex-direction: column;
@@ -372,18 +372,20 @@ a {
 }
 
 .preferences-toggle {
-    background-color: #FFFFF0;
-    padding: 10px 16px;
-    border-radius: 8px;
-    width: 100%;
-    text-align: center;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.past-events-toggle {
-    border: 1px solid #eaeaea;
+  background-color: #FFFFF0;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
   
+.past-events-toggle {
+  width: fit-content; /* Make the container only as wide as its content */
+  margin: 0 auto; /* Center it horizontally */
+}
+
 .toggle-label {
     display: flex;
     align-items: center;

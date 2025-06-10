@@ -189,6 +189,26 @@ export const getSuggestions = async (params = {}) => {
     }
 };
 
+/**
+ * Updates the AI's system prompt on the backend.
+ * @param {string} newPrompt - The new system prompt content.
+ * @returns {Promise<object>} - Promise resolving to the API response.
+ */
+export const updateSystemPrompt = async (newPrompt) => {
+  try {
+    // This endpoint must be created on the backend (e.g., in ai_chat/urls.py and views.py)
+    // It should accept a POST request with the new prompt content.
+    const response = await axiosInstance.post(`${AI_API_BASE}/update-system-prompt/`, {
+      system_prompt: newPrompt,
+    });
+    console.log("System prompt updated successfully:", response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error updating system prompt:', error.response?.data || error.message);
+    throw error;
+  }
+};
+
 /* // Comment out or remove the unused function
 /**
  * Fetches the main categories (those without a parent).

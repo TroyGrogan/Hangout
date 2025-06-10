@@ -1,8 +1,9 @@
 .code-block-container {
-  margin: 1rem 0;
-  border-radius: 4px;
-  overflow: hidden;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
 }
 
 .code-header {
@@ -10,38 +11,39 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 1rem;
-  background-color: #1e1e1e;
-  color: #d4d4d4;
-  font-size: 0.85rem;
+  background-color: #333;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
 .code-language {
   font-family: monospace;
-  text-transform: uppercase;
-  font-size: 0.75rem;
-  color: #9cdcfe;
+  font-size: 0.9rem;
 }
 
 .copy-button {
-  background-color: transparent;
-  border: 1px solid #4d4d4d;
-  color: #d4d4d4;
-  padding: 0.25rem 0.5rem;
-  border-radius: 3px;
-  font-size: 0.75rem;
+  background: #555;
+  color: #fff;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.3rem;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
 .copy-button:hover {
-  background-color: #4d4d4d;
-  color: #FFFFF0;
+  background: #666;
 }
 
-.copy-button.copied {
-  background-color: #4d9e4d;
-  border-color: #4d9e4d;
-  color: #FFFFF0;
+.pre-style {
+  margin: 0;
+  padding: 1rem 1rem 1rem 2rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 /* Override some syntax highlighter styles */
