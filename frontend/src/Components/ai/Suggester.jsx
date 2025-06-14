@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
+import { Menu, X } from 'lucide-react';
 import Chat from './Chat';
 import './Suggester.css';
 import { useAuth } from '../../contexts/AuthContext';
@@ -8,6 +9,7 @@ const Suggester = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const { logout } = useAuth();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Check if the current path matches a given path for active tab styling
   const isActive = (path) => {
@@ -15,28 +17,83 @@ const Suggester = () => {
   };
 
   return (
-    <div className="page-container">
-      {/* Main Navigation (Dark Blue) */}
+    <div className="page-container suggester-page">
+      {/* Main Navigation */}
       <nav className="main-nav">
         <Link to="/" className="nav-brand">
           Hangout
         </Link>
-        <div className="nav-links">
+        <div className="nav-links-desktop">
           <Link to="/events/create" className="nav-link">Create Event</Link>
           <Link to="/dashboard" className="nav-link">My Events</Link>
           <Link to="/profile" className="nav-link">Profile</Link>
           <button onClick={logout} className="logout-btn">Logout</button>
         </div>
+        <button className="hamburger-icon" onClick={() => setIsMenuOpen(true)}>
+          <Menu size={28} />
+        </button>
       </nav>
 
-      {/* Secondary Navigation (White) */}
-      <div className="secondary-nav">
-        <div className="nav-links">
-          <Link to="/" className={isActive('/') ? 'active' : ''}>Home</Link>
-          <Link to="/suggester" className={isActive('/suggester') ? 'active' : ''}>Suggester</Link>
-          <Link to="/calendar" className={isActive('/calendar') ? 'active' : ''}>Calendar</Link>
+      {/* Secondary Navigation */}
+      <div className="secondary-nav" style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '100%'
+      }}>
+        <div className="nav-links" style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          width: '100%',
+          flexGrow: 1,
+          textAlign: 'center'
+        }}>
+          <Link to="/" className={isActive('/') ? 'active' : ''} style={{
+            flex: '1',
+            textAlign: 'center',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}>Home</Link>
+          <Link to="/suggester" className={isActive('/suggester') ? 'active' : ''} style={{
+            flex: '1',
+            textAlign: 'center',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}>Suggester</Link>
+          <Link to="/calendar" className={isActive('/calendar') ? 'active' : ''} style={{
+            flex: '1',
+            textAlign: 'center',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}>Calendar</Link>
         </div>
       </div>
+
+      {/* Side Menu */}
+      <div className={`side-menu ${isMenuOpen ? 'open' : ''}`}>
+        <div className="side-menu-header">
+          <span className="nav-brand">
+            Hangout
+          </span>
+          <button className="close-btn" onClick={() => setIsMenuOpen(false)}>
+            <X size={28} />
+          </button>
+        </div>
+        <div className="side-menu-links">
+          <Link to="/events/create" className="nav-link" onClick={() => setIsMenuOpen(false)}>Create Event</Link>
+          <Link to="/dashboard" className="nav-link" onClick={() => setIsMenuOpen(false)}>My Events</Link>
+          <Link to="/profile" className="nav-link" onClick={() => setIsMenuOpen(false)}>Profile</Link>
+          <button onClick={() => {
+              logout();
+              setIsMenuOpen(false);
+            }} className="logout-btn">Logout</button>
+        </div>
+      </div>
+      {isMenuOpen && <div className="overlay" onClick={() => setIsMenuOpen(false)}></div>}
 
       {/* Content container */}
       <div className="content-container">

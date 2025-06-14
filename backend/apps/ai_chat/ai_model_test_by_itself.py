@@ -32,18 +32,54 @@ CONTEXT_WINDOW = 2048  # Using a default from the handler's 'high' tier
 
 # System prompt from llm_handler_deployment.py
 SYSTEM_PROMPT = """You are a concise, helpful, truthful, grounded, insightful, knowledgeable, balanced, curious, and creative AI assistant.
-- Provide well-structured, complete sentences.
-- Use simple Markdown for formatting:
-  - For bold text, use **text**. Example: **This is important**.
-  - For unordered lists, start each item with a single * or -. Example: * First item. Do not use ** - for list items.
-  - For numbered lists, use the format: 1. **Item Title:** (followed by a colon). Example: 1. **Reading:** Check out books...
-  - Ensure all Markdown is correctly formed (e.g., **bold text must be closed**).
-- Avoid overly long paragraphs, but paragraphs are allowed. Get straight to the point, but explain details if asked."""
+- Provide well-structured, complete sentences using standard Markdown for formatting when appropriate.
+- Get straight to the point, but explain details if asked."""
 
 
-def run_model_test():
+def run_inference_for_prompt(llm, user_prompt):
     """
-    Loads the TinyLlama model with deployment settings and runs a test inference.
+    Runs a single inference for a given user prompt against the loaded model.
+    """
+    # Using the Zephyr prompt format from the handler
+    full_prompt = f"<|system|>\n{SYSTEM_PROMPT}</s>\n<|user|>\n{user_prompt}</s>\n<|assistant|>\n"
+
+    print("\n--- PROMPT SENT TO MODEL ---")
+    print(full_prompt)
+    print("----------------------------")
+
+    # 4. Generate the response
+    print("\nGenerating raw response (this may take a moment)...")
+
+    # Using generation parameters from generate_deployment_response in the handler
+    try:
+        response = llm.create_completion(
+            prompt=full_prompt,
+            max_tokens=768,      # Using 'high' tier max tokens from handler
+            stop=["<|user|>", "<|system|>", "</s>"],
+            temperature=0.3,
+            top_p=0.90,
+            top_k=40,
+            repeat_penalty=1.2,
+            stream=False,
+            echo=False,
+        )
+
+        raw_output = response['choices'][0]['text'].strip()
+
+        print("\n--- RAW AI OUTPUT (No Frontend Post-Processing) ---")
+        print(raw_output)
+        print("-----------------------------------------------------")
+
+    except Exception as e:
+        print(f"\n--- ERROR ---")
+        print(f"Failed during response generation: {e}")
+        print("---------------")
+
+
+def main():
+    """
+    Loads the TinyLlama model once, then runs a series of test prompts against it
+    to get a comprehensive understanding of its behavior.
     """
     print("--- STANDALONE AI MODEL TEST ---")
 
@@ -54,7 +90,7 @@ def run_model_test():
         return
 
     print(f"Found model: {MODEL_PATH}")
-    print("Initializing model with deployment parameters...")
+    print("Initializing model with deployment parameters (this happens only once)...")
 
     # 2. Initialize the Llama model
     try:
@@ -77,46 +113,24 @@ def run_model_test():
         print("---------------")
         return
 
-    # 3. Define the user prompt and build the full prompt
-    # --- You can change the user_prompt here to test different inputs! ---
-    # user_prompt = "write me a simple C hello world program."
-    user_prompt = "please write me a simple hello world program in python."
+    # 3. Define a list of diverse user prompts to test model behavior.
+    # --- You can add or change prompts here to test different inputs! ---
+    test_prompts = [
+        "please write me a simple hello world program in python.",
+        "List the three primary colors. Use a numbered list with bold titles as specified in the system prompt.",
+        "What are the pros and cons of using a local LLM versus a cloud-based API? Use an unordered list and bold key terms.",
+        "Write a very short story (3-4 sentences) about a robot who discovers music.",
+        "Explain the water cycle in a single, short paragraph.",
+        "Describe a cat. Do not use the words \"cute\" or \"fluffy\".",
+        "Write a simple \"hello world\" in both Python and JavaScript inside the same response, using appropriate Markdown for each code block.",
+    ]
 
-    # Using the Zephyr prompt format from the handler
-    full_prompt = f"<|system|>\n{SYSTEM_PROMPT}</s>\n<|user|>\n{user_prompt}</s>\n<|assistant|>\n"
-
-    print("\n--- PROMPT SENT TO MODEL ---")
-    print(full_prompt)
-    print("----------------------------")
-
-    # 4. Generate the response
-    print("\nGenerating raw response (this may take a moment)...")
-
-    # Using generation parameters from generate_deployment_response in the handler
-    try:
-        response = llm.create_completion(
-            prompt=full_prompt,
-            max_tokens=768,      # Using 'high' tier max tokens from handler
-            stop=["<|user|>", "<|system|>", "</s>"],
-            temperature=0.7,
-            top_p=0.90,
-            top_k=40,
-            repeat_penalty=1.15,
-            stream=False,
-            echo=False,
-        )
-
-        raw_output = response['choices'][0]['text'].strip()
-
-        print("\n--- RAW AI OUTPUT (No Frontend Post-Processing) ---")
-        print(raw_output)
-        print("-----------------------------------------------------")
-
-    except Exception as e:
-        print(f"\n--- ERROR ---")
-        print(f"Failed during response generation: {e}")
-        print("---------------")
+    # 4. Run inference for each prompt
+    for i, prompt in enumerate(test_prompts):
+        print(f"\n\n========================= TEST CHAT {i + 1}/{len(test_prompts)} =========================")
+        run_inference_for_prompt(llm, prompt)
+        print("==================================================================\n")
 
 
 if __name__ == "__main__":
-    run_model_test() 
+    main() 

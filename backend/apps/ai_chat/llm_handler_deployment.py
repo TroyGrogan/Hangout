@@ -243,16 +243,11 @@ class UltraLlamaModel:
         self._initialized = False
         self._last_gc = time.time()
         self._last_memory_check = 0
-        # self.system_prompt = "You are a helpful, truthful, insightful, curious, and concise AI assistant. Provide well-structured, complete sentences. Avoid overly long paragraphs, but paragraphs are allowed. Get straight to the point, while also explaining in detail the nuances of it all."
+        
         # === SYSTEM PROMPT ===
         self.system_prompt = """You are a concise, helpful, truthful, grounded, insightful, knowledgeable, balanced, curious, and creative AI assistant.
-- Provide well-structured, complete sentences.
-- Use simple Markdown for formatting:
-  - For bold text, use **text**. Example: **This is important**.
-  - For unordered lists, start each item with a single * or -. Example: * First item. Do not use ** - for list items.
-  - For numbered lists, use the format: 1. **Item Title:** (followed by a colon). Example: 1. **Reading:** Check out books...
-  - Ensure all Markdown is correctly formed (e.g., **bold text must be closed**).
-- Avoid overly long paragraphs, but paragraphs are allowed. Get straight to the point, but explain details if asked."""
+- Provide well-structured, complete sentences using standard Markdown for formatting when appropriate.
+- Get straight to the point, but explain details if asked."""
         
         logger.info(f"UltraLlamaModel initialized: context={self.context_window}, "
                    f"max_tokens={self.max_response_tokens}, tier={adaptive_params['tier']}")
@@ -520,15 +515,10 @@ class UltraLlamaModel:
             
         except Exception as e:
             logger.error(f"Error building prompt: {str(e)}")
-            # Emergency fallback with better system message
-            system_msg = """You are a helpful AI assistant.
-- Provide well-structured, complete sentences.
-- Use simple Markdown for formatting:
-  - For bold text, use **text**. Example: **This is important**.
-  - For unordered lists, start each item with a single * or -. Example: * First item. Do not use ** - for list items.
-  - For numbered lists, use the format: 1. **Item Title:** (followed by a colon). Example: 1. **Reading:** Check out books...
-  - Ensure all Markdown is correctly formed (e.g., **bold text must be closed**).
-- Avoid overly long paragraphs. Get straight to the point, but explain details if asked."""
+            # Emergency fallback
+            system_msg = """You are a concise, helpful, truthful, grounded, insightful, knowledgeable, balanced, curious, and creative AI assistant.
+- Provide well-structured, complete sentences using standard Markdown for formatting when appropriate.
+- Get straight to the point, but explain details if asked."""
             return f"<|system|>\n{system_msg}</s>\n<|user|>\n{user_input}</s>\n<|assistant|>\n"
 
     def _enhanced_post_process_response(self, response):
@@ -634,10 +624,10 @@ class UltraLlamaModel:
                 continuation_prompt,
                 max_tokens=min(128, adaptive_params.get('max_response_tokens', 256) // 2),
                 stop=["<|user|>", "<|system|>", "\n\n<|", "Human:", "User:", "</s>"],
-                temperature=0.6,  # Lower temperature for consistency
+                temperature=0.3,  # Lower temperature for consistency
                 top_p=0.85,
                 top_k=20,
-                repeat_penalty=1.1,
+                repeat_penalty=1.2,
                 stream=False,
                 echo=False,
             )
@@ -706,14 +696,9 @@ def generate_deployment_response(prompt, chat_session=None, user=None):
                 prompt_with_history = model.build_prompt_with_history(chat_session, prompt)
             else:
                 # Use improved system message for standalone queries
-                system_msg = """You are a helpful AI assistant.
-- Provide well-structured, complete sentences.
-- Use simple Markdown for formatting:
-  - For bold text, use **text**. Example: **This is important**.
-  - For unordered lists, start each item with a single * or -. Example: * First item. Do not use ** - for list items.
-  - For numbered lists, use the format: 1. **Item Title:** (followed by a colon). Example: 1. **Reading:** Check out books...
-  - Ensure all Markdown is correctly formed (e.g., **bold text must be closed**).
-- Avoid overly long paragraphs. Get straight to the point, but explain details if asked."""
+                system_msg = """You are a concise, helpful, truthful, grounded, insightful, knowledgeable, balanced, curious, and creative AI assistant.
+- Provide well-structured, complete sentences using standard Markdown for formatting when appropriate.
+- Get straight to the point, but explain details if asked."""
                 prompt_with_history = f"<|system|>\n{system_msg}</s>\n<|user|>\n{prompt}</s>\n<|assistant|>\n"
             
             try:
@@ -723,17 +708,18 @@ def generate_deployment_response(prompt, chat_session=None, user=None):
                 # Adjust generation parameters based on memory tier - simplified effective_max_tokens
                 effective_max_tokens = model.max_response_tokens # Use full budget for the tier
 
+                # --- UNIFIED TEMPERATURE FROM TESTING ---
+                # A lower temperature provides more predictable and less verbose responses.
+                temperature = 0.3
+
                 if adaptive_params['tier'] == 'minimal':
-                    temperature = 0.5  # Reverted from 0.65
-                    top_p = 0.80       # Reduced from 0.85
+                    top_p = 0.80
                     top_k = 20
                 elif adaptive_params['tier'] == 'low':
-                    temperature = 0.6  # Reverted from 0.75
-                    top_p = 0.85       # Reduced from 0.9
+                    top_p = 0.85
                     top_k = 30
                 else:
-                    temperature = 0.7  # Reverted from 0.85
-                    top_p = 0.90       # Reduced from 0.95
+                    top_p = 0.90
                     top_k = 40
                 
                 # Memory-adaptive generation with improved stopping
@@ -744,7 +730,7 @@ def generate_deployment_response(prompt, chat_session=None, user=None):
                     'temperature': temperature,
                     'top_p': top_p,
                     'top_k': top_k,
-                    'repeat_penalty': 1.15, # Increased from 1.05
+                    'repeat_penalty': 1.2, # UPDATED from testing
                     'frequency_penalty': 0.0,
                     'presence_penalty': 0.0,
                     'stream': False,

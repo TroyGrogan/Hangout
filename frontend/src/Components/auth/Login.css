@@ -2,12 +2,14 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #FFC49B;
+    background-color: #00B488;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     flex-direction: column;
+    padding-top: 50px; /* Add space for the fixed header */
+    box-sizing: border-box; /* Ensure padding is included in height */
   }
   
   header {
@@ -31,13 +33,14 @@ body {
   .container {
     width: 100%;
     max-width: 1000px;
-    padding: 200px 20px 20px; /* Added top padding to account for header */
+    padding: 70px; /* Top padding for Horiztonal View */
     margin: auto;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
   }
   
   /* Card Styles */
@@ -49,6 +52,7 @@ body {
     max-width: 350px;
     width: 100%;
     text-align: center;
+    color: #3B5998;
   }
   
   .card h2 {
@@ -145,4 +149,12 @@ body {
     font-size: 0.85rem;
     color: #3B5998;
   }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .container {
+      padding: 80px 15px 15px; /* Adjust padding for smaller screens */
+    }
+  }
+  
   

@@ -13,18 +13,38 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Content Container */
+/* Add suggester-page class for specific targeting */
+.suggester-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #00B488;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Content Container - Add green background spacing like Home page */
 .content-container {
   width: 100%;
   max-width: 1200px;
   display: flex;
   justify-content: center;
-  margin: 0 auto;
+  margin: 1.5rem auto; /* Add top and bottom margin for green spacing */
+  padding: 0 15px; /* Add horizontal padding like Home page */
+  box-sizing: border-box;
 }
 
-/* Main Navigation - Dark Blue Bar */
+/* Main Navigation - Match Home component exactly */
 .main-nav {
-  background-color: #294C60;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #3B5998 !important;
   color: #FFFFF0;
   padding: 0.8rem 2rem;
   display: flex;
@@ -40,29 +60,36 @@
   font-weight: 600;
   color: #FFFFF0;
   text-decoration: none;
+  transition: color 0.2s;
 }
 
-.nav-links {
-  display: flex;
-  gap: 1.5rem;
-  align-items: center;
+.nav-links-desktop {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .nav-links-desktop {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
 }
 
 .nav-link {
-  color: #FFFFF0;
+  color: #FFFFF0 !important;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s;
 }
 
 .nav-link:hover {
-  color: #ADB6C4;
+  color: #D1D8E0 !important;
 }
 
 .logout-btn {
   background-color: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  color: #FFFFF0;
+  color: #FFFFF0 !important;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   cursor: pointer;
@@ -71,27 +98,37 @@
 
 .logout-btn:hover {
   background-color: rgba(255, 255, 255, 0.2);
+  color: #D1D8E0 !important;
 }
 
-/* Secondary Navigation - White Bar */
+/* Secondary Navigation with active tab indicator - exact match to Home */
 .secondary-nav {
-  background-color: #FFFFF0;
+  background-color: #FFFFF0 !important;
   padding: 0;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   width: 100%;
   box-sizing: border-box;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+/* Override for desktop - left align on larger screens */
+@media (min-width: 769px) {
+  .secondary-nav {
+    justify-content: flex-start;
+  }
+}
+
 .secondary-nav .nav-links {
   display: flex;
   padding: 0;
   margin: 0;
+  width: 100%;
+  justify-content: center;
 }
 
-.secondary-nav .nav-links a {
+.secondary-nav .nav-link {
   color: #555;
   text-decoration: none;
   font-weight: 500;
@@ -101,15 +138,41 @@
   text-align: center;
 }
 
-.secondary-nav .nav-links a:hover {
-  color: #2E4578;
+.secondary-nav .nav-link:hover {
+  color: #2E4578 !important;
 }
 
-/* Active tab styling - Exactly like image 2 */
+/* Active tab indicator - exact match to Home */
 .secondary-nav .nav-links .active {
   font-weight: bold;
   color: #3B5998;
-  border-bottom: 3px solid #3B5998;
+  position: relative;
+}
+
+.secondary-nav .nav-links .active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #3B5998;
+}
+
+/* Main navigation active state */
+.main-nav .nav-link.active {
+  position: relative;
+  font-weight: 600;
+}
+
+.main-nav .nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #FFFFF0;
 }
 
 .suggester-content {
@@ -125,10 +188,176 @@
   /* Removed fixed min-height */
 }
 
+/* Hamburger Menu Styles - Match Home component */
+.hamburger-icon {
+  display: none;
+  background: none;
+  border: none;
+  color: #FFFFF0;
+  cursor: pointer;
+  padding: 0;
+}
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 280px;
+  max-width: 80%;
+  height: 100%;
+  background-color: #3B5998;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+  transition: right 0.3s ease-in-out;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.side-menu.open {
+  right: 0;
+}
+
+.side-menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 1rem;
+}
+
+.side-menu-header .nav-brand {
+  font-size: 1.5rem;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: #FFFFF0;
+  cursor: pointer;
+}
+
+.side-menu-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.side-menu-links .nav-link {
+  font-size: 1.2rem;
+}
+
+.side-menu-links .logout-btn {
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  padding: 0;
+  text-align: left;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+}
+
+/* Mobile Styles - Match Calendar component exactly */
 @media (max-width: 768px) {
-  .suggester-content {
-    padding: 10px;
-    margin-top: 10px;
-  }
-  /* No specific styles needed for ai-chat-container wrapper on mobile */
+    .nav-links-desktop {
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: block;
+    }
+    
+    /* Mobile navigation centering - match Calendar component */
+    body .page-container .secondary-nav,
+    html body .page-container .secondary-nav,
+    .page-container .secondary-nav {
+        justify-content: center !important;
+        display: flex !important;
+        width: 100% !important;
+        align-items: center !important;
+    }
+    
+    body .page-container .secondary-nav .nav-links,
+    html body .page-container .secondary-nav .nav-links,
+    .page-container .secondary-nav .nav-links {
+        justify-content: center !important;
+        width: 100% !important;
+        display: flex !important;
+        flex-grow: 1 !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+        align-items: center !important;
+    }
+    
+    body .page-container .secondary-nav .nav-links .nav-link,
+    html body .page-container .secondary-nav .nav-links .nav-link,
+    .page-container .secondary-nav .nav-links .nav-link,
+    .page-container .secondary-nav .nav-links a {
+        flex: 1 1 auto !important;
+        text-align: center !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    /* Ensure green background is visible on mobile */
+    .content-container {
+        margin: 1rem auto; /* Reduced margin on mobile but still visible green space */
+        padding: 0 10px; /* Reduced padding on mobile */
+    }
+
+    .suggester-content {
+        padding: 0; /* Remove padding on mobile to let content-container handle spacing */
+    }
+}
+
+/* Additional mobile portrait orientation styles - match Calendar component exactly */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    .suggester-page .secondary-nav {
+        justify-content: center !important;
+        display: flex !important;
+        width: 100% !important;
+        align-items: center !important;
+    }
+    
+    .suggester-page .secondary-nav .nav-links {
+        justify-content: center !important;
+        width: 100% !important;
+        display: flex !important;
+        flex-grow: 1 !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+        align-items: center !important;
+    }
+    
+    .suggester-page .secondary-nav .nav-links a,
+    .suggester-page .secondary-nav .nav-links .nav-link {
+        flex: 1 1 auto !important;
+        text-align: center !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .suggester-page [class*="secondary-nav"] {
+        justify-content: center !important;
+    }
+    
+    .suggester-page [class*="secondary-nav"] [class*="nav-links"] {
+        justify-content: center !important;
+        width: 100% !important;
+    }
 } 

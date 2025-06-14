@@ -1,13 +1,17 @@
 /* Define the color palette */
+
+/*
+Old nasty OG colors of the app:
 :root {
     --primary-color: #001B2E; /* Dark Blue */
-    --secondary-color: #294C60; /* Medium Blue */
-    --background-color: #FFEFD3; /* Light Cream */
-    --text-color: #ADB6C4; /* Light Gray */
-    --accent-color: #FFC49B; /* Peach */
-    --white-color: #ffffff; /* White */
-    --shadow-color: rgba(0, 0, 0, 0.1); /* Light Shadow */
-}
+    /* --secondary-color: #294C60; Medium Blue */
+    /* --background-color: #FFEFD3; Light Cream */
+    /* --text-color: #ADB6C4; Light Gray */
+    /* --accent-color: #FFC49B; Peach */
+    /* --white-color: #ffffff; White */
+    /* --shadow-color: rgba(0, 0, 0, 0.1); Light Shadow */
+/* } */
+
 
 /* Apply the color palette */
 body {

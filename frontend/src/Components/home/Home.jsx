@@ -6,7 +6,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
-import { User, Calendar, MapPin, Users, Search } from 'lucide-react';
+import { User, Calendar, MapPin, Users, Search, Menu, X } from 'lucide-react';
 import axiosInstance from '../../services/axios';
 import { useAuth } from '../../contexts/AuthContext';
 // import { fetchAllCategoriesWithPagination, fetchSubcategories } from '../../services/categoryService';
@@ -294,6 +294,7 @@ const Home = () => {
   const [userLocation, setUserLocation] = useState(null); // State for user's coordinates
   const [scrollToLevel, setScrollToLevel] = useState(null);
   const categorySectionsContainerRef = useRef(null);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // --- Error state for backend connectivity ---
   const [backendConnected, setBackendConnected] = useState(true);
@@ -940,28 +941,83 @@ const Home = () => {
    };
 
   return (
-    <div className="page-container" style={{ backgroundColor: '#00B488' }}>
-      {/* Main Navigation */}
+    <div className="page-container home-page" style={{ backgroundColor: '#00B488' }}>
+      {/* 1. Main Navigation */}
       <nav className="main-nav">
         <Link to="/" className="nav-brand">
           Hangout
         </Link>
-        <div className="nav-links">
+        <div className="nav-links-desktop">
           <Link to="/events/create" className="nav-link">Create Event</Link>
           <Link to="/dashboard" className="nav-link">My Events</Link>
           <Link to="/profile" className="nav-link">Profile</Link>
           <button onClick={logout} className="logout-btn">Logout</button>
         </div>
+        <button className="hamburger-icon" onClick={() => setIsMenuOpen(true)}>
+          <Menu size={28} />
+        </button>
       </nav>
 
       {/* Secondary Navigation */}
-      <div className="secondary-nav">
-        <div className="nav-links">
-          <Link to="/" className={isActive('/') ? 'active' : ''}>Home</Link>
-          <Link to="/suggester" className={isActive('/suggester') ? 'active' : ''}>Suggester</Link>
-          <Link to="/calendar" className={isActive('/calendar') ? 'active' : ''}>Calendar</Link>
+      <div className="secondary-nav" style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '100%'
+      }}>
+        <div className="nav-links" style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          width: '100%',
+          flexGrow: 1,
+          textAlign: 'center'
+        }}>
+          <Link to="/" className={isActive('/') ? 'active' : ''} style={{
+            flex: '1',
+            textAlign: 'center',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}>Home</Link>
+          <Link to="/suggester" className={isActive('/suggester') ? 'active' : ''} style={{
+            flex: '1',
+            textAlign: 'center',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}>Suggester</Link>
+          <Link to="/calendar" className={isActive('/calendar') ? 'active' : ''} style={{
+            flex: '1',
+            textAlign: 'center',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}>Calendar</Link>
         </div>
       </div>
+
+      {/* Side Menu */}
+      <div className={`side-menu ${isMenuOpen ? 'open' : ''}`}>
+        <div className="side-menu-header">
+          <span className="nav-brand">
+            Hangout
+          </span>
+          <button className="close-btn" onClick={() => setIsMenuOpen(false)}>
+            <X size={28} />
+          </button>
+        </div>
+        <div className="side-menu-links">
+          <Link to="/events/create" className="nav-link" onClick={() => setIsMenuOpen(false)}>Create Event</Link>
+          <Link to="/dashboard" className="nav-link" onClick={() => setIsMenuOpen(false)}>My Events</Link>
+          <Link to="/profile" className="nav-link" onClick={() => setIsMenuOpen(false)}>Profile</Link>
+          <button onClick={() => {
+              logout();
+              setIsMenuOpen(false);
+            }} className="logout-btn">Logout</button>
+        </div>
+      </div>
+      {isMenuOpen && <div className="overlay" onClick={() => setIsMenuOpen(false)}></div>}
 
       {/* Display connection warning if backend is not connected */}
       {renderBackendConnectionWarning()}

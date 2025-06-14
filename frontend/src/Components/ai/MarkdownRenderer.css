@@ -33,12 +33,17 @@
 .markdown-content ul,
 .markdown-content ol {
   margin: 1em 0;
-  padding-left: 1.5em;
+  padding-left: 2.5em; /* Increased from 1.5em for better indentation */
 }
 
 .markdown-content li {
   margin-bottom: 1em; /* More space between list items */
   position: relative;
+}
+
+/* Add extra vertical space after a list item that contains a nested list */
+.markdown-content li:has(ul, ol) {
+  margin-bottom: 2em;
 }
 
 /* Special styling for numbered lists to match the screenshot */

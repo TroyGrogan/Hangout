@@ -64,21 +64,41 @@
     background-color: #FFFFF0;
     padding: 1rem 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
     box-sizing: border-box;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+/* Override for desktop - left align on larger screens */
+@media (min-width: 769px) {
+    .secondary-nav .nav-links {
+        justify-content: flex-start;
+    }
+}
+
 .secondary-nav .nav-links a {
-    color: #3B5998;
+    color: #555;
     text-decoration: none;
-    margin-right: 1.5rem;
+    font-weight: 500;
+    transition: all 0.2s;
+    padding: 1rem 1.2rem;
+    position: relative;
+    text-align: center;
+}
+
+/* Add the missing .nav-links container rule */
+.secondary-nav .nav-links {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Add full width */
+    justify-content: center; /* Center the links */
 }
 
 .secondary-nav .nav-links a:hover {
-    color: #1d3a4c;
+    color: #2E4578;
 }
 
 /* Footer */
@@ -421,6 +441,52 @@
     .location-group,
     .price-attendees-group {
       grid-template-columns: 1fr;
+    }
+    
+    /* Make name-recurring-group stack vertically on mobile */
+    .name-recurring-group {
+      grid-template-columns: 1fr !important;
+      align-items: stretch !important;
+      gap: 1.5rem !important; /* Use standard form spacing */
+    }
+    
+    .name-recurring-group .form-group {
+      margin-bottom: 0 !important; /* Remove bottom margin since gap handles spacing */
+    }
+    
+    .name-recurring-group .checkbox-group {
+      margin: 0 !important; /* Remove all margins, let gap handle spacing */
+      align-self: stretch !important;
+      justify-self: stretch !important;
+    }
+    
+    /* CENTER NAVIGATION ON MOBILE */
+    .secondary-nav {
+        justify-content: center !important;
+        display: flex !important;
+        width: 100% !important;
+        align-items: center !important;
+        padding: 0 !important;
+    }
+    
+    .secondary-nav .nav-links {
+        justify-content: center !important;
+        width: 100% !important;
+        display: flex !important;
+        flex-grow: 1 !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+        align-items: center !important;
+    }
+    
+    .secondary-nav .nav-links a {
+        flex: 1 1 auto !important;
+        text-align: center !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-right: 0 !important;
+        padding: 1rem 1.2rem !important;
     }
   }
 

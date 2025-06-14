@@ -25,6 +25,8 @@
   padding: 1rem 1.5rem;
   background-color: #F5F5DC; /* Changed from #fff to match container */
   border-bottom: 1px solid #eaeaea;
+  position: relative;
+  z-index: 2;
 }
 
 .chat-header h2 {
@@ -398,66 +400,54 @@
   }
 }
 
+/* Mobile-specific optimizations for chat container */
 @media (max-width: 768px) {
   .chat-container {
-    height: calc(100vh - 160px); /* Adjusted for nav bars */
-    width: 100%;
-    margin: 1.5rem auto;
-    border-radius: 0;
-    box-shadow: none;
+    height: calc(100vh - 200px); /* Reduced height on mobile to prevent scrolling to input */
+    width: 98%; /* Slightly wider on mobile */
+    margin: 1rem auto; /* Reduced margin on mobile */
+    border-radius: 8px; /* Smaller border radius on mobile */
   }
-  
   .chat-header {
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 1rem; /* Reduced padding on mobile */
+    flex-wrap: wrap; /* Allow wrapping on very small screens */
   }
-  
   .header-buttons {
-    gap: 10px;
+    gap: 8px; /* Reduced gap between buttons on mobile */
   }
-  
   .header-buttons button {
-    padding: 0.4rem 0.8rem;
-    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem; /* Smaller button padding on mobile */
+    font-size: 0.85rem; /* Smaller font size on mobile */
   }
-  
   .message-content {
-    max-width: 85%;
-    padding: 0.75rem;
+    max-width: 85%; /* Wider messages on mobile */
   }
-  
   .messages-container {
-    padding: 0.75rem;
+    padding: 0.75rem; /* Reduced padding to save space */
+    gap: 0.75rem; /* Reduced gap between messages */
   }
-  
   .suggestions {
-    max-width: 90%;
-    align-self: center; /* Center suggestions on mobile */
+    padding: 1rem 0.75rem; /* Reduced padding for suggestions */
   }
-
   .chat-input-form {
-    padding: 10px 15px;
+    padding: 10px 15px; /* Reduced padding to save vertical space */
   }
-
   .chat-input-form textarea {
-    padding: 10px 50px 10px 12px;
-    font-size: 13px;
+    min-height: 44px; /* Slightly smaller minimum height */
+    padding: 10px 50px 10px 12px; /* Adjusted padding */
   }
-
   .chat-input-form .send-button {
-    right: 18px;
-    bottom: 12px;
-    width: 36px;
-    height: 36px;
+    right: 20px; /* Adjusted position */
+    bottom: 15px; /* Adjusted position */
+    width: 36px; /* Slightly smaller button */
+    height: 36px; /* Slightly smaller button */
   }
-
   .chat-input-form .send-button svg {
-    width: 18px;
-    height: 18px;
+    width: 18px; /* Smaller icon */
+    height: 18px; /* Smaller icon */
   }
-
   .empty-chat {
-    padding: 1.5rem;
-    margin-top: 1rem;
+    padding: 1rem 0.75rem; /* Reduced padding for empty state */
   }
 }
 

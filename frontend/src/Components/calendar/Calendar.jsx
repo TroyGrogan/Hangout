@@ -4,6 +4,7 @@ import moment from 'moment';
 import axiosInstance from '../../services/axios';
 import { useAuth } from '../../contexts/AuthContext';
 import { useNavigate, Link, useLocation } from 'react-router-dom';
+import { Menu, X } from 'lucide-react';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import './Calendar.css';
 
@@ -73,6 +74,7 @@ const Calendar = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [showOnlyMyEvents, setShowOnlyMyEvents] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Check if the current path matches a given path for active tab styling
   const isActive = (path) => {
@@ -208,77 +210,134 @@ const Calendar = () => {
   };
 
   return (
-    <div className="page-container">
+    <div className="page-container calendar-page">
       {/* Main Navigation */}
       <nav className="main-nav">
         <Link to="/" className="nav-brand">
           Hangout
         </Link>
-        <div className="nav-links">
+        <div className="nav-links-desktop">
           <Link to="/events/create" className="nav-link">Create Event</Link>
           <Link to="/dashboard" className="nav-link">My Events</Link>
           <Link to="/profile" className="nav-link">Profile</Link>
           <button onClick={logout} className="logout-btn">Logout</button>
         </div>
+        <button className="hamburger-icon" onClick={() => setIsMenuOpen(true)}>
+          <Menu size={28} />
+        </button>
       </nav>
 
       {/* Secondary Navigation */}
-      <div className="secondary-nav">
-        <div className="nav-links">
-          <Link to="/" className={isActive('/') ? 'active' : ''}>Home</Link>
-          <Link to="/suggester" className={isActive('/suggester') ? 'active' : ''}>Suggester</Link>
-          <Link to="/calendar" className={isActive('/calendar') ? 'active' : ''}>Calendar</Link>
+      <div className="secondary-nav" style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '100%'
+      }}>
+        <div className="nav-links" style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          width: '100%',
+          flexGrow: 1,
+          textAlign: 'center'
+        }}>
+          <Link to="/" className={isActive('/') ? 'active' : ''} style={{
+            flex: '1',
+            textAlign: 'center',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}>Home</Link>
+          <Link to="/suggester" className={isActive('/suggester') ? 'active' : ''} style={{
+            flex: '1',
+            textAlign: 'center',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}>Suggester</Link>
+          <Link to="/calendar" className={isActive('/calendar') ? 'active' : ''} style={{
+            flex: '1',
+            textAlign: 'center',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}>Calendar</Link>
         </div>
       </div>
 
-      <div className="calendar-container">
-        <h2 className="calendar-title">Events Calendar</h2>
-        
-        {/* Toggle switch with mode indicator */}
-        <div className="calendar-toggle">
-          <label className="toggle-switch">
-            <input 
-              type="checkbox" 
-              checked={showOnlyMyEvents} 
-              onChange={handleToggleChange}
-            />
-            <span className="toggle-slider"></span>
-          </label>
-          <span className="toggle-label">
-            {showOnlyMyEvents ? 'Showing my events only' : 'Showing all events'}
+      {/* Side Menu */}
+      <div className={`side-menu ${isMenuOpen ? 'open' : ''}`}>
+        <div className="side-menu-header">
+          <span className="nav-brand">
+            Hangout
           </span>
+          <button className="close-btn" onClick={() => setIsMenuOpen(false)}>
+            <X size={28} />
+          </button>
         </div>
+        <div className="side-menu-links">
+          <Link to="/events/create" className="nav-link" onClick={() => setIsMenuOpen(false)}>Create Event</Link>
+          <Link to="/dashboard" className="nav-link" onClick={() => setIsMenuOpen(false)}>My Events</Link>
+          <Link to="/profile" className="nav-link" onClick={() => setIsMenuOpen(false)}>Profile</Link>
+          <button onClick={() => {
+              logout();
+              setIsMenuOpen(false);
+            }} className="logout-btn">Logout</button>
+        </div>
+      </div>
+      {isMenuOpen && <div className="overlay" onClick={() => setIsMenuOpen(false)}></div>}
 
-        {/* Loading state */}
-        {loading && (
-          <div className="loading-message">Loading events...</div>
-        )}
-        
-        {/* Error state */}
-        {error && (
-          <div className="error-message">{error}</div>
-        )}
-        
-        {/* Empty state */}
-        {!loading && !error && displayedEvents.length === 0 && (
-          <div className="empty-message">
-            {showOnlyMyEvents 
-              ? "You don't have any events. Try creating one or RSVPing to others' events!"
-              : "No events available."}
+      <div className="content-container">
+        <div className="calendar-container">
+          <h2 className="calendar-title">Events Calendar</h2>
+          
+          {/* Toggle switch with mode indicator */}
+          <div className="calendar-toggle">
+            <label className="toggle-switch">
+              <input 
+                type="checkbox" 
+                checked={showOnlyMyEvents} 
+                onChange={handleToggleChange}
+              />
+              <span className="toggle-slider"></span>
+            </label>
+            <span className="toggle-label">
+              {showOnlyMyEvents ? 'Showing my events only' : 'Showing all events'}
+            </span>
           </div>
-        )}
 
-        {/* Calendar */}
-        {!loading && !error && displayedEvents.length > 0 && (
-          <BigCalendar
-            localizer={localizer}
-            events={displayedEvents}
-            startAccessor="start"
-            endAccessor="end"
-            style={{ height: 600 }}
-            onSelectEvent={handleEventClick}
-          />
-        )}
+          {/* Loading state */}
+          {loading && (
+            <div className="loading-message">Loading events...</div>
+          )}
+          
+          {/* Error state */}
+          {error && (
+            <div className="error-message">{error}</div>
+          )}
+          
+          {/* Empty state */}
+          {!loading && !error && displayedEvents.length === 0 && (
+            <div className="empty-message">
+              {showOnlyMyEvents 
+                ? "You don't have any events. Try creating one or RSVPing to others' events!"
+                : "No events available."}
+            </div>
+          )}
+
+          {/* Calendar */}
+          {!loading && !error && displayedEvents.length > 0 && (
+            <BigCalendar
+              localizer={localizer}
+              events={displayedEvents}
+              startAccessor="start"
+              endAccessor="end"
+              style={{ height: 600 }}
+              onSelectEvent={handleEventClick}
+            />
+          )}
+        </div>
       </div>
     </div>
   );
