@@ -171,4 +171,164 @@
 .alert-success {
   background-color: rgba(76, 175, 80, 0.1);
   color: #4caf50;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .requests-container {
+    padding: 10px 0;
+  }
+
+  .requests-title {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .requests-loading,
+  .requests-error {
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .empty-requests {
+    padding: 20px 15px;
+    margin: 10px 0;
+  }
+
+  .empty-requests p {
+    font-size: 1rem;
+    margin: 8px 0;
+  }
+
+  .empty-requests svg {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 12px;
+  }
+
+  .requests-section {
+    margin-bottom: 20px;
+  }
+
+  .section-title {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .requests-list {
+    gap: 10px;
+  }
+
+  .request-item {
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px;
+    align-items: stretch;
+  }
+
+  .request-info {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .request-avatar,
+  .request-avatar-placeholder {
+    width: 60px;
+    height: 60px;
+    align-self: center;
+  }
+
+  .request-name {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  .request-actions {
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .accept-button,
+  .reject-button,
+  .cancel-button {
+    flex: 1;
+    max-width: 120px;
+    padding: 12px 16px;
+    font-size: 14px;
+    min-height: 44px;
+    justify-content: center;
+  }
+
+  .alert {
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+  .requests-container {
+    padding: 5px 0;
+  }
+
+  .requests-title {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+  }
+
+  .empty-requests {
+    padding: 15px 10px;
+  }
+
+  .empty-requests svg {
+    width: 36px;
+    height: 36px;
+  }
+
+  .section-title {
+    font-size: 0.95rem;
+    gap: 6px;
+  }
+
+  .request-item {
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .request-avatar,
+  .request-avatar-placeholder {
+    width: 50px;
+    height: 50px;
+  }
+
+  .request-name {
+    font-size: 0.95rem;
+  }
+
+  .request-actions {
+    gap: 8px;
+  }
+
+  .accept-button,
+  .reject-button,
+  .cancel-button {
+    padding: 10px 14px;
+    font-size: 13px;
+    min-height: 42px;
+    max-width: 110px;
+  }
+
+  .alert {
+    padding: 10px;
+    font-size: 13px;
+  }
 } 

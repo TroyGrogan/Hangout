@@ -204,3 +204,193 @@
     line-height: 1;
     z-index: 1;
   }
+
+  /* Mobile Responsive Styles */
+  @media (max-width: 768px) {
+    .category-preferences-container {
+      padding: 15px; /* Reduced padding to give more space */
+      min-height: 100vh;
+    }
+    
+    .category-preferences-card {
+      width: calc(100% - 20px); /* Ensure margins on both sides */
+      max-width: none; /* Remove max-width constraint */
+      margin: 10px auto; /* Reduced margins */
+      padding: 20px; /* Reduced padding for more content space */
+      border-radius: 12px; /* Maintain rounded corners */
+      box-sizing: border-box; /* Include padding in width calculation */
+    }
+    
+    .preferences-title {
+      font-size: 1.5rem; /* Slightly smaller for mobile */
+      margin-bottom: 0.8rem;
+      text-align: center;
+    }
+    
+    .preferences-subtitle {
+      font-size: 14px; /* Smaller font size */
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    
+    .categories-grid {
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); /* Smaller minimum size for mobile */
+      gap: 1rem; /* Reduced gap */
+      margin-bottom: 1.5rem;
+    }
+    
+    .category-item {
+      padding: 1rem; /* Reduced padding */
+      min-height: 120px; /* Reduced minimum height */
+    }
+    
+    .category-icon {
+      font-size: 2rem; /* Smaller icon size */
+      margin-bottom: 0.5rem;
+    }
+    
+    .category-name {
+      font-size: 0.85rem; /* Smaller font size for mobile */
+      line-height: 1.2;
+    }
+    
+    .preferences-actions {
+      flex-direction: column; /* Stack buttons vertically on mobile */
+      gap: 0.75rem;
+    }
+    
+    .skip-button, .save-button {
+      width: 100%; /* Full width buttons */
+      padding: 12px 20px; /* Better touch targets */
+      font-size: 16px;
+    }
+    
+    .back-button {
+      padding: 10px 15px; /* Better touch target */
+      font-size: 14px;
+    }
+    
+    .preferences-error,
+    .preferences-success {
+      padding: 12px;
+      font-size: 14px;
+      margin: 10px 0;
+      border-radius: 6px;
+    }
+  }
+
+  /* Horizontal Mobile Phone (Landscape) - 4x4 Grid */
+  @media (max-width: 926px) and (orientation: landscape) and (max-height: 500px) {
+    .category-preferences-container {
+      padding: 10px;
+      align-items: flex-start; /* Align to top instead of center */
+      min-height: auto; /* Remove fixed height constraint */
+    }
+    
+    .category-preferences-card {
+      width: calc(100% - 20px);
+      margin: 5px auto;
+      padding: 15px;
+      min-height: auto; /* Remove height constraints */
+      max-height: none; /* Remove max-height limit */
+      overflow-y: visible; /* Remove scroll behavior */
+      height: auto; /* Let content determine height */
+    }
+    
+    .preferences-title {
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .preferences-subtitle {
+      font-size: 13px;
+      margin-bottom: 1rem;
+    }
+    
+    .categories-grid {
+      grid-template-columns: repeat(4, 1fr); /* Force 4 columns for 4x4 grid */
+      grid-template-rows: repeat(4, 1fr); /* Force 4 rows for 4x4 grid */
+      gap: 0.8rem;
+      margin-bottom: 1rem;
+      max-width: 100%;
+    }
+    
+    .category-item {
+      padding: 0.7rem;
+      min-height: 80px; /* Smaller height for landscape */
+      max-height: 100px; /* Limit height */
+    }
+    
+    .category-icon {
+      font-size: 1.5rem;
+      margin-bottom: 0.3rem;
+    }
+    
+    .category-name {
+      font-size: 0.75rem;
+      line-height: 1.1;
+    }
+    
+    .preferences-actions {
+      flex-direction: row; /* Keep buttons horizontal in landscape */
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    
+    .skip-button, .save-button {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+    
+    .back-button {
+      padding: 8px 12px;
+      font-size: 13px;
+    }
+  }
+
+  /* Additional optimizations for very small screens */
+  @media (max-width: 480px) {
+    .category-preferences-container {
+      padding: 10px; /* Even less padding on very small screens */
+    }
+    
+    .category-preferences-card {
+      width: calc(100% - 10px); /* Minimal margins */
+      margin: 5px auto;
+      padding: 15px; /* Minimal padding while maintaining usability */
+    }
+    
+    .preferences-title {
+      font-size: 1.3rem;
+      margin-bottom: 0.6rem;
+    }
+    
+    .preferences-subtitle {
+      font-size: 13px;
+      margin-bottom: 1.2rem;
+    }
+    
+    .categories-grid {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Even smaller for very small screens */
+      gap: 0.8rem;
+    }
+    
+    .category-item {
+      padding: 0.8rem;
+      min-height: 100px;
+    }
+    
+    .category-icon {
+      font-size: 1.8rem;
+      margin-bottom: 0.4rem;
+    }
+    
+    .category-name {
+      font-size: 0.8rem;
+    }
+    
+    .skip-button, .save-button {
+      padding: 12px 15px;
+      font-size: 15px;
+    }
+  }

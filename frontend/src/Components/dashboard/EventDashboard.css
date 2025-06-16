@@ -339,6 +339,23 @@
   }
   
   @media (max-width: 768px) {
+    .dashboard-content {
+      width: 95%;
+      margin: 1.5rem auto;
+    }
+    
+    .dashboard-title {
+      font-size: 2.4rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.1;
+    }
+    
+    .dashboard-title::before {
+      white-space: normal;
+      line-height: 1.1;
+      font-size: 2.4rem;
+    }
+    
     .attending-events-grid {
       grid-template-columns: 1fr;
     }
@@ -350,5 +367,28 @@
     
     .events-table {
       font-size: 0.85rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .dashboard-content {
+      width: 95%;
+      margin: 1rem auto;
+    }
+    
+    .dashboard-title {
+      font-size: 2.1rem;
+      margin-bottom: 1.25rem;
+      line-height: 1.1;
+    }
+    
+    .dashboard-title::before {
+      font-size: 2.1rem;
+      white-space: normal;
+      line-height: 1.1;
+    }
+    
+    .dashboard-nav {
+      padding: 1rem 1.5rem;
     }
   }

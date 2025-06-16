@@ -258,6 +258,8 @@
     color: #3B5998;
     margin-bottom: 1rem;
     padding: 1.5rem 0 0 0;
+    font-size: 2.0rem;
+    line-height: 1.1;
 }
 
 .calendar-toggle {
@@ -369,6 +371,46 @@ input:checked + .toggle-slider:before {
     background-color: #f5f5f5;
 }
 
+/* Fix invisible day numbers and time elements */
+.rbc-date-cell > a,
+.rbc-date-cell button,
+.rbc-button-link {
+    color: #3B5998 !important;
+    text-decoration: none;
+}
+
+.rbc-date-cell > a:hover,
+.rbc-date-cell button:hover,
+.rbc-button-link:hover {
+    color: #2E4578 !important;
+}
+
+/* Fix time gutter and time slots for week/day views */
+.rbc-time-gutter .rbc-timeslot-group,
+.rbc-time-gutter .rbc-time-slot,
+.rbc-time-view .rbc-time-gutter,
+.rbc-time-view .rbc-time-content {
+    color: #3B5998 !important;
+}
+
+/* Fix agenda view text */
+.rbc-agenda-view table,
+.rbc-agenda-view td,
+.rbc-agenda-view th {
+    color: #3B5998 !important;
+}
+
+/* Fix toolbar navigation text */
+.rbc-toolbar button,
+.rbc-btn-group button {
+    color: #3B5998 !important;
+}
+
+.rbc-toolbar button:hover,
+.rbc-btn-group button:hover {
+    color: #2E4578 !important;
+}
+
 /* Mobile Styles - Match Home component exactly */
 @media (max-width: 768px) {
     .nav-links-desktop {
@@ -427,9 +469,10 @@ input:checked + .toggle-slider:before {
     }
 
     .calendar-title {
-        font-size: 1.3rem; /* Reduced font size */
+        font-size: 2.0rem; /* Increased from 1.3rem for more prominence */
         padding: 0.75rem 0 0 0; /* Reduced padding */
         margin-bottom: 0.75rem; /* Reduced margin */
+        line-height: 1.1; /* Tighter line height for better spacing */
     }
 
     .calendar-toggle {
@@ -535,9 +578,10 @@ input:checked + .toggle-slider:before {
     }
 
     .calendar-title {
-        font-size: 1.2rem;
+        font-size: 1.7rem; /* Increased from 1.2rem for more prominence */
         padding: 0.5rem 0 0 0;
         margin-bottom: 0.5rem;
+        line-height: 1.1; /* Tighter line height for better spacing */
     }
 
     .rbc-calendar {

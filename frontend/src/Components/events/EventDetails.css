@@ -62,7 +62,7 @@
 
 #event-details-page .event-title {
   color: #3B5998;
-  font-size: 2.5rem !important;
+  font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
   line-height: 1.2;
@@ -542,16 +542,19 @@
 /* Responsive styling */
 @media (max-width: 768px) {
   .event-card {
-    width: calc(100% - 2rem);
-    margin: 1rem auto;
+    width: calc(100% - 3rem);
+    margin: 1.5rem auto;
+    max-width: none;
   }
   
   .event-info {
     padding: 1.5rem;
   }
   
-  .event-title {
-    font-size: 1.5rem;
+  #event-details-page .event-info .event-title {
+    font-size: 2.2rem !important;
+    line-height: 1.1;
+    margin-bottom: 1.25rem;
   }
 
   .rsvp-buttons {
@@ -562,6 +565,28 @@
   .rsvp-button {
     width: 100%;
     max-width: 250px;
+  }
+}
+
+/* Additional styling for very small screens */
+@media (max-width: 480px) {
+  .event-card {
+    width: calc(100% - 2.5rem);
+    margin: 1.25rem auto;
+  }
+  
+  .nav-bar {
+    padding: 1rem 1.5rem;
+  }
+  
+  .event-info {
+    padding: 1.25rem;
+  }
+    
+  #event-details-page .event-info .event-title {
+    font-size: 1.9rem !important;
+    line-height: 1.1;
+    margin-bottom: 1.25rem;
   }
 }
 

@@ -165,9 +165,10 @@
   }
   
   .form-group h3 {
-    font-size: 18px;
-    color: #36454F;
-    margin: 30px 0 20px;
+    font-size: 16px;
+    margin: 20px 0 15px;
+    text-align: left;
+    color: #294c60;
   }
   
   .button-group {
@@ -341,7 +342,7 @@
   }
   
   .toggle-button:hover {
-    background-color: #2E4578 !important;
+    background-color: #2E4578;
   }
   
   .toggle-button.active {
@@ -349,5 +350,213 @@
   }
   
   .toggle-button.active:hover {
-    background-color: #c62828 !important;
+    background-color: #c62828;
+  }
+
+  /* Mobile Responsive Styles */
+  @media (max-width: 768px) {
+    .profile-container {
+        padding: 15px; /* Reduced padding to give more space */
+        min-height: 100vh;
+    }
+    
+    .profile-card {
+        width: calc(100% - 20px); /* Ensure margins on both sides */
+        max-width: none; /* Remove max-width constraint */
+        margin: 10px auto; /* Reduced top/bottom margin */
+        padding: 20px; /* Reduced padding for more content space */
+        border-radius: 12px; /* Maintain rounded corners */
+        box-sizing: border-box; /* Include padding in width calculation */
+    }
+    
+    .profile-header {
+        font-size: 20px; /* Slightly smaller for mobile */
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .profile-tabs {
+        flex-wrap: nowrap; /* Prevent tabs from wrapping */
+        justify-content: center;
+        margin-bottom: 15px;
+        gap: 2px; /* Small gap between tabs */
+    }
+    
+    .tab-button {
+        padding: 8px 12px; /* Compact padding for mobile */
+        font-size: 13px; /* Smaller font size to fit all tabs */
+        min-width: auto; /* Remove minimum width constraint */
+        flex: 1; /* Make tabs evenly distribute available space */
+        max-width: none; /* Remove max-width constraint */
+        text-align: center;
+    }
+    
+    .tab-button span {
+        display: block; /* Ensure text doesn't break */
+        white-space: nowrap; /* Prevent text wrapping */
+        overflow: hidden;
+        text-overflow: ellipsis; /* Add ellipsis if text is too long */
+    }
+    
+    .profile-header-actions {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: flex-start; /* Align to left */
+    }
+    
+    .back-button {
+        padding: 10px 15px; /* Better touch target */
+        font-size: 14px;
+        width: auto; /* Remove full width, use auto width */
+        text-align: center;
+        display: inline-block; /* Make it inline-block instead of full width */
+    }
+    
+    .profile-image-container {
+        width: 100px; /* Slightly smaller for mobile */
+        height: 100px;
+        margin: 0 auto 20px;
+    }
+    
+    .image-upload-label {
+        width: 28px; /* Proportionally smaller */
+        height: 28px;
+    }
+    
+    .form-group {
+        margin-bottom: 15px; /* Reduced spacing */
+    }
+    
+    .form-group label {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+        padding: 12px; /* Increased padding for better touch targets */
+        font-size: 16px; /* Larger font to prevent zoom on iOS */
+        border-radius: 6px;
+        box-sizing: border-box;
+    }
+    
+    .form-group textarea {
+        min-height: 80px; /* Smaller on mobile */
+    }
+    
+    .form-group h3 {
+        font-size: 16px;
+        margin: 20px 0 15px;
+        text-align: left;
+    }
+    
+    .button-group {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 10px;
+        margin-top: 20px;
+    }
+    
+    .form-actions {
+        margin-top: 20px;
+    }
+    
+    .update-button {
+        width: 100%; /* Full width on mobile */
+        min-width: auto;
+        padding: 14px 20px; /* Better touch target */
+        font-size: 16px;
+    }
+    
+    /* Optimize preference tags for mobile */
+    .preference-tag {
+        font-size: 12px;
+        padding: 4px 8px;
+        margin: 2px;
+    }
+    
+    .preferences-link {
+        padding: 12px 20px; /* Better touch target */
+        font-size: 14px;
+        text-align: center;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    /* Password section mobile optimization */
+    .password-header {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: flex-start; /* Change from center to flex-start for left alignment */
+        gap: 10px;
+    }
+    
+    .password-header h3 {
+        text-align: left; /* Ensure password header is left-aligned */
+        margin: 0; /* Remove default margin */
+        color: #294c60; /* Add specific color */
+    }
+    
+    .toggle-button {
+        width: 100%; /* Full width on mobile */
+        max-width: 200px;
+        padding: 12px 20px;
+    }
+    
+    /* Alert messages mobile optimization */
+    .alert {
+        padding: 12px;
+        font-size: 14px;
+        margin: 10px 0;
+        border-radius: 6px;
+    }
+  }
+
+  /* Additional optimizations for very small screens */
+  @media (max-width: 480px) {
+    .profile-container {
+        padding: 10px; /* Even less padding on very small screens */
+    }
+    
+    .profile-card {
+        width: calc(100% - 10px); /* Minimal margins */
+        margin: 5px auto;
+        padding: 15px; /* Minimal padding while maintaining usability */
+    }
+    
+    .profile-header {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    
+    .tab-button {
+        padding: 6px 8px; /* Even more compact for very small screens */
+        font-size: 12px;
+        min-width: auto;
+    }
+    
+    .profile-image-container {
+        width: 80px; /* Smaller for very small screens */
+        height: 80px;
+        margin: 0 auto 15px;
+    }
+    
+    .image-upload-label {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .form-group {
+        margin-bottom: 12px;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+        padding: 10px;
+        font-size: 16px; /* Maintain 16px to prevent zoom */
+    }
+    
+    .update-button {
+        padding: 12px 15px;
+        font-size: 15px;
+    }
   }

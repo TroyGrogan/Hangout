@@ -133,4 +133,132 @@
 .alert-success {
   background-color: rgba(76, 175, 80, 0.1);
   color: #4caf50;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .friends-container {
+    padding: 10px 0;
+  }
+
+  .friends-title {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .friends-loading,
+  .friends-error {
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .empty-friends {
+    padding: 20px 15px;
+    margin: 10px 0;
+  }
+
+  .empty-friends p {
+    font-size: 1rem;
+    margin: 8px 0;
+  }
+
+  .empty-friends svg {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 12px;
+  }
+
+  .friends-list {
+    gap: 10px;
+  }
+
+  .friend-item {
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px;
+    align-items: stretch;
+  }
+
+  .friend-info {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .friend-avatar,
+  .friend-avatar-placeholder {
+    width: 60px;
+    height: 60px;
+    align-self: center;
+  }
+
+  .friend-name {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .remove-friend-button {
+    align-self: center;
+    max-width: 150px;
+    padding: 12px 16px;
+    font-size: 14px;
+    min-height: 44px;
+    justify-content: center;
+  }
+
+  .alert {
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+  .friends-container {
+    padding: 5px 0;
+  }
+
+  .friends-title {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+  }
+
+  .empty-friends {
+    padding: 15px 10px;
+  }
+
+  .empty-friends svg {
+    width: 36px;
+    height: 36px;
+  }
+
+  .friend-item {
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .friend-avatar,
+  .friend-avatar-placeholder {
+    width: 50px;
+    height: 50px;
+  }
+
+  .friend-name {
+    font-size: 1rem;
+  }
+
+  .remove-friend-button {
+    padding: 10px 14px;
+    font-size: 13px;
+    min-height: 42px;
+    max-width: 130px;
+  }
+
+  .alert {
+    padding: 10px;
+    font-size: 13px;
+  }
 } 
