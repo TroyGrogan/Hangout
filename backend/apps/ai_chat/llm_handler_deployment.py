@@ -323,7 +323,7 @@ class OptimizedLlamaModel:
             if self._initialized:
                 return self.llm is not None
 
-            logger.info("Initializing OpenChat 3.6 8B Q4_K_M for HIGH-PERFORMANCE DEPLOYMENT (16 CPU, 61GB RAM)")
+            logger.info("Initializing OpenChat 3.6 8B IQ2_XXS for HIGH-PERFORMANCE DEPLOYMENT (16 CPU, 61GB RAM)")
             self._initialized = True
 
             # Log memory status before loading
@@ -337,7 +337,7 @@ class OptimizedLlamaModel:
             if memory_status['available_gb'] < 8.0:
                 logger.warning(f"Low memory for 8B model: {memory_status['available_gb']:.2f}GB available")
 
-            model_filename = "openchat-3.6-8b-20240522-Q4_K_M.gguf"
+            model_filename = "openchat-3.6-8b-20240522-IQ2_XXS.gguf"
             model_path = os.path.join(BASE_DIR, "ai_model", model_filename)
             
             if not os.path.exists(model_path):
@@ -392,7 +392,7 @@ class OptimizedLlamaModel:
                         rope_freq_base=10000.0,          # Default rope freq
                     )
                     
-                    logger.info(f"OpenChat 3.6 8B Q4_K_M loaded! Tier: {adaptive_params['tier']}, Threads: {self.n_threads}")
+                    logger.info(f"OpenChat 3.6 8B IQ2_XXS loaded! Tier: {adaptive_params['tier']}, Threads: {self.n_threads}")
                     
                     # Performance test with new prompt format
                     start_time = time.time()

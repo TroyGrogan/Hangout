@@ -175,3 +175,8 @@ https://huggingface.co/bartowski/openchat-3.6-8b-20240522-GGUF/resolve/main/open
 downloading the Q4_k_m MODEL THROUGH COMMAND LINE:
 
 cd backend/ai_model && curl -L -o "openchat-3.6-8b-20240522-Q4_K_M.gguf" "https://huggingface.co/bartowski/openchat-3.6-8b-20240522-GGUF/resolve/main/openchat-3.6-8b-20240522-Q4_K_M.gguf?download=true"
+
+
+^^MODEL TOO BIG. TRYING IQ2_XXS MODEL NOW:
+
+cd backend/ai_model && curl -L "https://huggingface.co/bartowski/openchat-3.6-8b-20240522-GGUF/resolve/main/openchat-3.6-8b-20240522-IQ2_XXS.gguf?download=true"
