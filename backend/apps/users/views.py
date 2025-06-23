@@ -24,7 +24,7 @@ class UserViewSet(viewsets.ModelViewSet):
     """
     queryset = User.objects.all()
     serializer_class = UserSerializer
-    permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]  # Require authentication for user operations
     pagination_class = None  # Disable pagination for this ViewSet
 
     def get_queryset(self):
@@ -482,7 +482,7 @@ class ChangePasswordView(APIView):
     """
     API endpoint for changing the user's password
     """
-    permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]  # Require authentication for password changes
 
     def post(self, request):
         user = request.user

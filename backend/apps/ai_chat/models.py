@@ -19,7 +19,11 @@ class Chat(models.Model):
     class Meta:
         # Ensure correct ordering for retrieving messages within a session
         ordering = ['chat_session', 'created_at'] 
-        # Add index for faster session lookup?
-        # indexes = [
-        #     models.Index(fields=['user', 'chat_session']),
-        # ] 
+        # Add indexes for faster session lookup and pagination
+        indexes = [
+            models.Index(fields=['user', 'chat_session']),  # For session-specific queries
+            models.Index(fields=['user', 'created_at']),    # For chronological ordering
+            models.Index(fields=['user', 'chat_session', 'created_at']),  # Composite for session ordering
+            models.Index(fields=['chat_session', '-created_at']),  # For latest message per session
+            models.Index(fields=['title']),  # For title searches
+        ] 

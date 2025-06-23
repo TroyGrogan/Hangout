@@ -7,8 +7,198 @@
 /* Enhanced styling for bold text, especially for title labels */
 .markdown-content strong {
   font-weight: 700;
-  color: #2c3e50; /* Slightly darker color for emphasis */
+  color: #294c60; /* Changed to requested color */
   letter-spacing: 0.02em;
+}
+
+/* Specific styling for bolded list item titles */
+.markdown-content li strong {
+  color: #2c5aa0; /* Slightly darker blue for better contrast */
+  font-weight: 600; /* Slightly bolder */
+  font-size: 1.02em; /* Slightly larger */
+  display: inline-block; /* Better spacing control */
+}
+
+/* Ensure numbered list titles are clearly distinguishable */
+.markdown-content ol li strong {
+  font-weight: 800;
+  color: #294c60; /* Changed to requested color */
+}
+
+/* Ensure bulleted list titles are clearly distinguishable */
+.markdown-content ul li strong {
+  font-weight: 800;
+  color: #294c60; /* Changed to requested color */
+}
+
+/* ULTRA-SPECIFIC: Remove any spacing between strong elements and colons */
+.markdown-content li strong + *:before,
+.markdown-content li strong:after {
+  content: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Target strong elements immediately followed by text containing colons */
+.markdown-content li strong {
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Remove any letter-spacing or word-spacing that might cause gaps */
+.markdown-content li {
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+/* Enhanced styling for auto-generated headings */
+.markdown-content h2 {
+  font-size: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  color: #1a365d; /* Darker blue for headers */
+  border-bottom: 2px solid #e2e8f0; /* Add subtle underline */
+  padding-bottom: 0.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.markdown-content h3 {
+  font-size: 1.3em;
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+  color: #34495e;
+}
+
+/* Enhanced paragraph spacing */
+.markdown-content p {
+  margin: 1.2em 0;
+  line-height: 1.7;
+  max-width: 100%;
+  hyphens: auto;
+}
+
+/* Better paragraph separation after processing */
+.markdown-content p + p {
+  margin-top: 1.5em;
+}
+
+/* Enhanced spacing and styling for lists */
+.markdown-content ul,
+.markdown-content ol {
+  margin: 1.5em 0;
+  padding-left: 2.5em;
+}
+
+.markdown-content li {
+  margin-bottom: 0.75rem; /* Consistent spacing */
+  position: relative;
+  line-height: 1.6; /* Better readability */
+}
+
+/* Better spacing for nested lists */
+.markdown-content li ul,
+.markdown-content li ol {
+  margin: 0.5em 0;
+  padding-left: 1.5em;
+}
+
+/* ENHANCED: Better styling for nested lists within numbered lists */
+.markdown-content ol li ul {
+  margin: 0.75em 0 1em 0; /* More space around nested bullet lists */
+  padding-left: 2em; /* Increased indentation for better visual hierarchy */
+  border-left: 2px solid #e2e8f0; /* Subtle left border to show nesting */
+  margin-left: 0.5em; /* Additional left margin */
+}
+
+/* Style nested bullet points differently */
+.markdown-content ol li ul li {
+  margin-bottom: 0.5rem; /* Slightly less spacing for nested items */
+  font-size: 0.95em; /* Slightly smaller font for nested items */
+  line-height: 1.5; /* Tighter line height for nested content */
+}
+
+/* Different marker style for nested bullets */
+.markdown-content ol li ul li::marker {
+  color: #6c757d; /* Lighter color for nested bullets */
+  font-weight: normal; /* Less bold for nested items */
+}
+
+/* Ensure nested list content has proper spacing from parent */
+.markdown-content ol li:has(ul) {
+  margin-bottom: 1.5rem; /* Extra space for list items that contain nested lists */
+}
+
+/* Style for nested list items with bold titles */
+.markdown-content ol li ul li strong {
+  color: #2c5aa0; /* Maintain bold color for nested titles */
+  font-weight: 600; /* Slightly less bold than main list items */
+  font-size: 1em; /* Same size as nested text */
+}
+
+/* Enhanced numbered list styling */
+.markdown-content ol > li {
+  padding-left: 0.5em;
+}
+
+/* Improved spacing for lists following headers */
+.markdown-content h2 + ol,
+.markdown-content h2 + ul {
+  margin-top: 0.75rem; /* Reduced gap between header and list */
+}
+
+/* Style for the colon after bold list titles */
+.markdown-content li strong + * {
+  margin-left: 0.25rem; /* Small space after colon */
+}
+
+/* Enhanced code block styling integration */
+.markdown-content pre {
+  margin: 1.5em 0;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+/* Better integration with processed inline code */
+.markdown-content code:not([class*="hljs"]):not([class*="language-"]) {
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  background-color: #f1f3f4;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+  color: #d73a49;
+  font-weight: 600;
+}
+
+/* Enhanced styling for definition-style content */
+.markdown-content p strong:first-child {
+  display: inline-block;
+  margin-right: 0.5em;
+  color: #294c60; /* Changed to requested color */
+}
+
+/* Better visual hierarchy for processed content */
+.markdown-content h1:first-child,
+.markdown-content h2:first-child,
+.markdown-content h3:first-child {
+  margin-top: 0;
+}
+
+/* Enhanced spacing for consecutive headings */
+.markdown-content h2 + h3 {
+  margin-top: 1em;
+}
+
+/* Better styling for processed bullet points */
+.markdown-content ul li::marker {
+  color: #294c60; /* Changed from #6c757d to match bolded text color */
+  font-weight: bold;
+}
+
+.markdown-content ol li::marker {
+  color: #294c60; /* Changed from #6c757d to match bolded text color */
+  font-weight: bold;
 }
 
 /* Additional spacing for paragraphs to improve readability */
@@ -29,26 +219,9 @@
   hyphens: auto; /* Improve word breaking */
 }
 
-/* Enhanced spacing and styling for lists */
-.markdown-content ul,
-.markdown-content ol {
-  margin: 1em 0;
-  padding-left: 2.5em; /* Increased from 1.5em for better indentation */
-}
-
-.markdown-content li {
-  margin-bottom: 1em; /* More space between list items */
-  position: relative;
-}
-
 /* Add extra vertical space after a list item that contains a nested list */
 .markdown-content li:has(ul, ol) {
   margin-bottom: 2em;
-}
-
-/* Special styling for numbered lists to match the screenshot */
-.markdown-content ol > li {
-  padding-left: 0.5em;
 }
 
 /* Add extra padding after strong element if followed by a line break */
@@ -59,8 +232,6 @@
 }
 
 .markdown-content h1,
-.markdown-content h2,
-.markdown-content h3,
 .markdown-content h4,
 .markdown-content h5,
 .markdown-content h6 {
@@ -73,12 +244,16 @@
   font-size: 1.8em;
 }
 
-.markdown-content h2 {
-  font-size: 1.5em;
+.markdown-content h4 {
+  font-size: 1.3em;
 }
 
-.markdown-content h3 {
-  font-size: 1.3em;
+.markdown-content h5 {
+  font-size: 1.2em;
+}
+
+.markdown-content h6 {
+  font-size: 1.1em;
 }
 
 .markdown-content a {

@@ -77,12 +77,17 @@ const ChatSession = () => {
   
   // Go back to the main chat/suggester page
   const goToChat = () => {
-    // Adjust the path if your suggester/chat page is different
-    navigate('/suggester'); 
+    // Navigate with state to indicate we're returning from a chat session
+    navigate('/suggester', { 
+      state: { fromChatSession: true } 
+    }); 
   };
 
   const goToHistory = () => {
-    navigate('/chat-history'); // Adjust if your history path is different
+    // Navigate back to history with state indicating we came from a chat session
+    navigate('/chat-history', { 
+      state: { fromChatSession: true }
+    });
   }
   
   // Render loading state

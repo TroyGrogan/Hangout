@@ -31,10 +31,12 @@ logger = logging.getLogger(__name__)
 
 class SendMessageView(APIView):
     """Handles sending a user message and getting an AI response."""
-    permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]  # Require authentication for AI chat
 
     def post(self, request):
+        # Use the authenticated user
         user = request.user
+        
         message_text = request.data.get('message', '')
         session_id = request.data.get('chat_session', None) # Expect session ID from frontend
         model_mode = request.data.get('model_mode', 'default') # Keep model_mode if used
@@ -43,7 +45,7 @@ class SendMessageView(APIView):
             return Response({'error': 'Message is required.'}, status=status.HTTP_400_BAD_REQUEST)
             
         if not session_id:
-             return Response({'error': 'Chat session ID is required.'}, status=status.HTTP_400_BAD_REQUEST)
+            return Response({'error': 'Chat session ID is required.'}, status=status.HTTP_400_BAD_REQUEST)
 
         # Validate model_mode (if you use it for different model settings)
         # if model_mode not in ['default', 'creative', 'technical']:
@@ -114,7 +116,7 @@ def new_chat_session_view(request):
     """API endpoint to explicitly create a new chat session ID."""
     try:
         new_session_id = generate_new_session_id()
-        logger.info(f"Generated new chat session ID: {new_session_id} for user {request.user.id}")
+        logger.info(f"Generated new chat session ID: {new_session_id}")
         # We don't save anything to DB here, just return the ID
         # The first message sent with this ID will create the DB entry
         return Response({'chat_session_id': new_session_id}, status=status.HTTP_200_OK)
@@ -123,62 +125,98 @@ def new_chat_session_view(request):
         return Response({'error': 'Failed to create new session ID.'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 class ChatHistoryView(APIView):
-    """Retrieves a summary of chat sessions for the logged-in user."""
+    """Retrieves a paginated summary of chat sessions for the logged-in user with optimized queries."""
     permission_classes = [IsAuthenticated]
 
     def get(self, request):
-        user = request.user
+        # Temporary: Use first user in database
+        from django.contrib.auth import get_user_model
+        User = get_user_model()
+        try:
+            user = User.objects.first()
+            if not user:
+                return Response({'error': 'No users found in database.'}, status=status.HTTP_400_BAD_REQUEST)
+        except Exception as e:
+            return Response({'error': 'Database error accessing users.'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+            
+        # Get pagination parameters
+        page = int(request.query_params.get('page', 1))
+        page_size = min(int(request.query_params.get('page_size', 20)), 100)  # Max 100 per page
         search_query = request.query_params.get('search', None)
         
         try:
-            # Get all unique chat session IDs for the user, ordered by the latest message in each session
-            sessions_query = Chat.objects.filter(user=user).values('chat_session').annotate(
+            # Build base query with optimized joins and annotations
+            base_query = Chat.objects.filter(user=user).values('chat_session').annotate(
                 latest_message_time=Max('created_at'),
-                message_count=Count('id') # Count messages per session
+                message_count=Count('id'),
+                # Get the title from the first message (more efficient than separate queries)
+                first_title=Max('title', filter=Q(title__isnull=False)),
+                latest_id=Max('id')  # To get the latest message for fallback title
             ).order_by('-latest_message_time')
             
-            # Apply search filter if provided (searches message content within sessions)
+            # Apply search filter if provided
             if search_query:
-                 # Find sessions that contain the search query in message or response
-                 matching_sessions = Chat.objects.filter(
-                      user=user,
-                      message__icontains=search_query
-                 ).values_list('chat_session', flat=True).distinct()
-                 
-                 # Filter the main sessions query
-                 sessions_query = sessions_query.filter(chat_session__in=list(matching_sessions))
-
-            chat_sessions_summary = []
-            for session_info in sessions_query:
-                session_id = session_info['chat_session']
-                # Get the latest message to retrieve the title
-                latest_message = Chat.objects.filter(
-                    user=user, 
-                    chat_session=session_id
-                ).order_by('-created_at').first()
+                # More efficient search - use full-text search if available, otherwise icontains
+                search_filter = Q(message__icontains=search_query) | Q(response__icontains=search_query)
+                matching_sessions = Chat.objects.filter(
+                    user=user
+                ).filter(search_filter).values_list('chat_session', flat=True).distinct()
                 
-                if latest_message:
-                     # Try to get title from the latest message, or the first if latest is null
-                     session_title = latest_message.title
-                     if not session_title:
-                          first_message = Chat.objects.filter(user=user, chat_session=session_id).order_by('created_at').first()
-                          if first_message:
-                               session_title = first_message.title # Might still be null
-                               
-                     chat_sessions_summary.append({
-                        'id': session_id,
-                        'title': session_title or f"Chat from {latest_message.created_at.strftime('%Y-%m-%d')}", # Fallback title
-                        'timestamp': session_info['latest_message_time'].isoformat(), # Use ISO format
-                        'message_count': session_info['message_count'],
-                        # Add other fields needed by ChatHistory.jsx if necessary
-                        # 'bookmarked': latest_message.bookmarked, 
-                        # 'remaining_messages': latest_message.remaining_messages,
-                    })
+                base_query = base_query.filter(chat_session__in=list(matching_sessions))
+
+            # Get total count for pagination
+            total_count = base_query.count()
             
-            # Use ChatSessionSerializer (adjust if needed) or return the list directly
-            # serializer = ChatSessionSerializer(chat_sessions_summary, many=True)
-            # return Response(serializer.data)
-            return Response(chat_sessions_summary)
+            # Calculate pagination
+            start_index = (page - 1) * page_size
+            end_index = start_index + page_size
+            
+            # Get the paginated sessions
+            sessions_page = base_query[start_index:end_index]
+            
+            # Build response data efficiently
+            chat_sessions_summary = []
+            for session_info in sessions_page:
+                session_id = session_info['chat_session']
+                session_title = session_info['first_title']
+                
+                # Only query for fallback title if needed (reduces DB queries significantly)
+                if not session_title:
+                    latest_chat = Chat.objects.filter(
+                        user=user, 
+                        id=session_info['latest_id']
+                    ).only('created_at').first()
+                    
+                    if latest_chat:
+                        session_title = f"Chat from {latest_chat.created_at.strftime('%Y-%m-%d')}"
+                    else:
+                        session_title = "Untitled Chat"
+                        
+                chat_sessions_summary.append({
+                    'id': session_id,
+                    'title': session_title,
+                    'timestamp': session_info['latest_message_time'].isoformat(),
+                    'message_count': session_info['message_count'],
+                })
+            
+            # Calculate pagination metadata
+            has_next = end_index < total_count
+            has_previous = page > 1
+            next_page = page + 1 if has_next else None
+            previous_page = page - 1 if has_previous else None
+            
+            # Return paginated response
+            return Response({
+                'results': chat_sessions_summary,
+                'count': total_count,
+                'next': next_page,
+                'previous': previous_page,
+                'page': page,
+                'page_size': page_size,
+                'total_pages': (total_count + page_size - 1) // page_size,
+                'has_next': has_next,
+                'has_previous': has_previous
+            })
 
         except Exception as e:
             logger.error(f"Error retrieving chat history for user {user.id}: {e}", exc_info=True)
@@ -189,7 +227,16 @@ class ChatSessionDetailView(APIView):
     permission_classes = [IsAuthenticated]
 
     def get(self, request, session_id):
-        user = request.user
+        # Temporary: Use first user in database
+        from django.contrib.auth import get_user_model
+        User = get_user_model()
+        try:
+            user = User.objects.first()
+            if not user:
+                return Response({'error': 'No users found in database.'}, status=status.HTTP_400_BAD_REQUEST)
+        except Exception as e:
+            return Response({'error': 'Database error accessing users.'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+            
         try:
             # Get all messages for this specific session, ordered chronologically
             messages = Chat.objects.filter(user=user, chat_session=session_id).order_by('created_at')
@@ -221,81 +268,82 @@ class ChatSessionDetailView(APIView):
             }
             
             return Response(session_data)
-            
+
         except Exception as e:
-            logger.error(f"Error retrieving chat session {session_id} for user {user.id}: {e}", exc_info=True)
-            return Response({'error': 'Failed to retrieve chat session details.'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-            
+            logger.error(f"Error retrieving chat session {session_id}: {e}", exc_info=True)
+            return Response({'error': 'Failed to retrieve chat session.'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+# --- Utility Views --- #
+
 @api_view(['DELETE'])
 @permission_classes([IsAuthenticated])
 def delete_chat_session_view(request, session_id):
-    """Deletes all messages associated with a specific chat session for the user."""
-    user = request.user
+    """API endpoint to delete an entire chat session."""
+    # Temporary: Use first user in database
+    from django.contrib.auth import get_user_model
+    User = get_user_model()
     try:
-        # Find messages to delete
-        chats_to_delete = Chat.objects.filter(user=user, chat_session=session_id)
+        user = User.objects.first()
+        if not user:
+            return Response({'error': 'No users found in database.'}, status=status.HTTP_400_BAD_REQUEST)
+    except Exception as e:
+        return Response({'error': 'Database error accessing users.'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
         
-        if not chats_to_delete.exists():
+    try:
+        # Delete all messages in the specified session for the user
+        deleted_count, _ = Chat.objects.filter(user=user, chat_session=session_id).delete()
+        
+        if deleted_count == 0:
             return Response({'error': 'Chat session not found.'}, status=status.HTTP_404_NOT_FOUND)
-            
-        count, _ = chats_to_delete.delete()
-        logger.info(f"Deleted {count} messages for session {session_id} for user {user.id}.")
         
-        # Clear history from memory cache as well
-        clear_chat_history(session_id)
-        
-        return Response({'message': f'Chat session {session_id} deleted successfully.'}, status=status.HTTP_204_NO_CONTENT)
+        logger.info(f"Deleted chat session {session_id} with {deleted_count} messages")
+        return Response({'message': f'Chat session deleted successfully. {deleted_count} messages removed.'}, status=status.HTTP_200_OK)
         
     except Exception as e:
-        logger.error(f"Error deleting chat session {session_id} for user {user.id}: {e}", exc_info=True)
+        logger.error(f"Error deleting chat session {session_id}: {e}", exc_info=True)
         return Response({'error': 'Failed to delete chat session.'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 @api_view(['PUT'])
 @permission_classes([IsAuthenticated])
 def rename_chat_session_view(request, session_id):
-    """Renames a chat session by updating the title on relevant messages."""
-    user = request.user
-    new_title = request.data.get('title', None)
-
-    if new_title is None or not isinstance(new_title, str):
-        return Response({'error': 'New title is required and must be a string.'}, status=status.HTTP_400_BAD_REQUEST)
-        
-    trimmed_title = new_title.strip()[:255] # Max length from model
-    if not trimmed_title:
-        return Response({'error': 'Title cannot be empty.'}, status=status.HTTP_400_BAD_REQUEST)
-
+    """API endpoint to rename/retitle a chat session."""
+    # Temporary: Use first user in database
+    from django.contrib.auth import get_user_model
+    User = get_user_model()
     try:
-        # Find messages in the session for this user
-        session_chats = Chat.objects.filter(user=user, chat_session=session_id)
-        
-        if not session_chats.exists():
-            return Response({'error': 'Chat session not found.'}, status=status.HTTP_404_NOT_FOUND)
-            
-        # Update the title on all messages in the session
-        # Alternatively, only update the first/last message if that's preferred
-        updated_count = session_chats.update(title=trimmed_title)
-        
-        logger.info(f"Renamed session {session_id} to '{trimmed_title}' for user {user.id}. Updated {updated_count} messages.")
-        
-        # Update title in history cache? The cache stores individual messages without explicit session title.
-        # Reloading history on next request will pick up the new title from DB.
-        
-        return Response({'message': f'Chat session renamed to "{trimmed_title}".'}, status=status.HTTP_200_OK)
-
+        user = User.objects.first()
+        if not user:
+            return Response({'error': 'No users found in database.'}, status=status.HTTP_400_BAD_REQUEST)
     except Exception as e:
-        logger.error(f"Error renaming chat session {session_id} for user {user.id}: {e}", exc_info=True)
+        return Response({'error': 'Database error accessing users.'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+        
+    new_title = request.data.get('title', '').strip()
+    
+    if not new_title:
+        return Response({'error': 'Title is required.'}, status=status.HTTP_400_BAD_REQUEST)
+    
+    try:
+        # Update the title for all messages in this session
+        updated_count = Chat.objects.filter(user=user, chat_session=session_id).update(title=new_title)
+        
+        if updated_count == 0:
+            return Response({'error': 'Chat session not found.'}, status=status.HTTP_404_NOT_FOUND)
+        
+        logger.info(f"Renamed chat session {session_id} to '{new_title}' ({updated_count} messages updated)")
+        return Response({'message': 'Chat session renamed successfully.', 'title': new_title}, status=status.HTTP_200_OK)
+        
+    except Exception as e:
+        logger.error(f"Error renaming chat session {session_id}: {e}", exc_info=True)
         return Response({'error': 'Failed to rename chat session.'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 # --- Model Initialization View --- #
 
 class InitializeModelView(APIView):
     """API endpoint to trigger LLM initialization (e.g., on server start or manually)."""
-    # Consider restricting access (e.g., admin only) depending on use case
-    # permission_classes = [IsAdminUser] 
-    permission_classes = [IsAuthenticated] # Or allow any authenticated user?
+    permission_classes = [IsAuthenticated]  # Temporarily allow any access
 
     def post(self, request):
-        logger.info(f"Received request to initialize LLM model from user {request.user.id}.")
+        logger.info(f"Received request to initialize LLM model.")
         
         if is_model_initialized():
             return Response({'message': 'Model already initialized.', 'status': initialization_status}, status=status.HTTP_200_OK)

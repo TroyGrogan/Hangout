@@ -54,14 +54,18 @@ export const createNewChatSession = async () => {
 };
 
 /**
- * Fetches the chat history summary.
+ * Fetches the chat history summary with pagination support.
  * @param {string} [searchQuery=''] - Optional search term.
- * @returns {Promise<Array<object>>} - Promise resolving to an array of session summaries.
+ * @param {number} [page=1] - Page number for pagination.
+ * @param {number} [pageSize=20] - Number of items per page.
+ * @returns {Promise<object>} - Promise resolving to paginated session summaries with metadata.
  */
-export const getChatHistory = async (searchQuery = '') => {
+export const getChatHistory = async (searchQuery = '', page = 1, pageSize = 20) => {
   try {
     const params = new URLSearchParams();
-    if (searchQuery) params.append('search', searchQuery); // Use 'search' param name if backend expects it
+    if (searchQuery) params.append('search', searchQuery);
+    params.append('page', page.toString());
+    params.append('page_size', pageSize.toString());
     
     // Corresponds to path('history/', ...) in ai_chat/urls.py
     const response = await axiosInstance.get(`${AI_API_BASE}/history/?${params.toString()}`);

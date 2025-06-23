@@ -5,6 +5,7 @@
   margin: 0 auto;
   padding: 24px;
   min-height: calc(100vh - 120px);
+  height: calc(100vh - 120px);
 }
 
 .history-header {
@@ -106,6 +107,8 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+  /* Enable hardware acceleration for smooth scrolling */
+  transform: translateZ(0);
 }
 
 .session-item {
@@ -117,12 +120,30 @@
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s ease, border 0.25s ease;
+  will-change: transform;
+  border: 4px solid transparent; /* Default transparent border for smooth transitions */
+  position: relative; /* For better stacking context */
 }
 
-.session-item:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.session-item:hover,
+.session-item.hovered {
+  transform: translateX(-12px) translateY(-2px); /* Enhanced wave effect: more pronounced left shift */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18), 0 2px 4px rgba(52, 152, 219, 0.1); /* Layered shadow with blue tint */
+  border: 4px solid #3498db; /* Blue outline on hover */
+  z-index: 10; /* Bring hovered item to front */
+}
+
+.session-item.selected {
+  border: 4px solid #3B5998; /* Different blue outline for selected */
+}
+
+.session-item.selected:hover,
+.session-item.selected.hovered {
+  transform: translateX(-12px) translateY(-2px); /* Same enhanced wave effect for selected items */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18), 0 2px 4px rgba(52, 152, 219, 0.1); /* Same layered shadow */
+  border: 4px solid #3498db; /* Hover color takes priority over selected */
+  z-index: 10; /* Bring hovered item to front */
 }
 
 .session-info {
@@ -154,6 +175,30 @@
   gap: 8px;
 }
 
+.rename-button {
+  background-color: transparent;
+  border: 1px solid #3498db;
+  color: #3498db;
+  padding: 6px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+}
+
+.rename-button:hover {
+  background-color: #3498db;
+  color: #FFFFF0;
+}
+
+.rename-button svg {
+  width: 14px;
+  height: 14px;
+}
+
 .delete-button {
   background-color: transparent;
   border: 1px solid #e74c3c;
@@ -167,6 +212,93 @@
 .delete-button:hover {
   background-color: #e74c3c;
   color: #FFFFF0;
+}
+
+/* Rename input and action buttons */
+.rename-section {
+  margin-bottom: 4px;
+}
+
+.rename-input {
+  width: calc(100% - 80px); /* Subtract space for the save/cancel buttons */
+  padding: 6px 8px;
+  border: 1px solid #3498db;
+  border-radius: 4px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #2c3e50;
+  background-color: #FFFFF0;
+  outline: none;
+}
+
+.rename-input:focus {
+  border-color: #2980b9;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.save-rename-button {
+  background-color: transparent;
+  border: 1px solid #27ae60;
+  color: #27ae60;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: bold;
+  transition: all 0.15s ease;
+}
+
+.save-rename-button:hover {
+  background-color: #27ae60;
+  color: #FFFFF0;
+}
+
+.cancel-rename-button {
+  background-color: transparent;
+  border: 1px solid #95a5a6;
+  color: #95a5a6;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: bold;
+  transition: all 0.15s ease;
+}
+
+.cancel-rename-button:hover {
+  background-color: #95a5a6;
+  color: #FFFFF0;
+}
+
+/* Loading more indicator */
+.loading-more-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 8px;
+}
+
+.loading-more-container p {
+  margin: 0;
+  color: #666;
+  font-size: 0.875rem;
+}
+
+/* Pagination info */
+.pagination-info {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  margin-top: 16px;
+  border-top: 1px solid #eee;
+}
+
+.pagination-info p {
+  margin: 0;
+  color: #666;
+  font-size: 0.875rem;
+  text-align: center;
 }
 
 /* Responsive design */
@@ -187,4 +319,119 @@
   .search-input {
     flex: 1;
   }
+  
+  .pagination-info {
+    padding: 12px;
+  }
+  
+  .loading-more-container {
+    padding: 16px;
+  }
+  
+  .chat-sessions {
+    padding-right: 4px; /* Reduce padding on mobile */
+  }
+}
+
+/* Chat sessions container with scroll */
+.chat-sessions {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 8px; /* Space for scrollbar */
+  padding-left: 16px; /* Extra space on left for wave effect */
+  scroll-behavior: auto;
+  min-height: 0;
+  position: relative;
+}
+
+/* Disable hover effects when actively scrolling */
+.chat-sessions.scrolling .session-item:hover {
+  transform: translateX(0) translateY(0) !important; /* Reset enhanced wave effect when scrolling */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+  border: 4px solid transparent !important;
+  z-index: auto !important;
+}
+
+.chat-sessions.scrolling .session-item.selected:hover {
+  transform: translateX(0) translateY(0) !important; /* Reset enhanced wave effect for selected when scrolling */
+  border: 4px solid #3B5998 !important; /* Keep selected border when scrolling */
+  z-index: auto !important;
+}
+
+/* Custom scrollbar styling */
+.chat-sessions::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chat-sessions::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.chat-sessions::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.chat-sessions::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Restoring position indicator */
+.restoring-position-indicator {
+  position: sticky;
+  top: 0;
+  background: rgba(52, 152, 219, 0.95);
+  color: white;
+  padding: 12px 16px;
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
+  border: 1px solid rgba(52, 152, 219, 0.4);
+  z-index: 100;
+  animation: pulseRestore 0.6s ease-in-out infinite alternate;
+}
+
+.restoring-position-indicator p {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.restoring-position-indicator p::before {
+  content: "⟲";
+  font-size: 1.1rem;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes pulseRestore {
+  0% { 
+    opacity: 0.9; 
+    transform: translateY(0) scale(1); 
+  }
+  100% { 
+    opacity: 1; 
+    transform: translateY(-1px) scale(1.02); 
+  }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Optimize session list for large datasets */
+.sessions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  /* Enable hardware acceleration for smooth scrolling */
+  transform: translateZ(0);
 } 

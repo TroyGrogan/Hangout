@@ -15,10 +15,10 @@ logger = logging.getLogger(__name__)
 
 class EventViewSet(viewsets.ModelViewSet):
     """
-    ViewSet for handling event-related operations
+    ViewSet for viewing and editing events
     """
     serializer_class = EventSerializer
-    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
+    permission_classes = [permissions.IsAuthenticated]  # Require authentication for events
     pagination_class = None  # Disable pagination for this ViewSet
     
     def get_queryset(self):
@@ -265,7 +265,7 @@ class EventAttendeeViewSet(viewsets.ModelViewSet):
     ViewSet for managing event attendees and RSVPs
     """
     serializer_class = EventAttendeeSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    permission_classes = [permissions.IsAuthenticated]  # Require authentication for RSVPs
     pagination_class = None  # Disable pagination for this ViewSet
     
     def get_queryset(self):

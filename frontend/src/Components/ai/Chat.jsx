@@ -76,6 +76,8 @@ const Chat = () => {
   const [categoryFromUrl, setCategoryFromUrl] = useState(null); // Store category from URL
   const [isFetchingSuggestions, setIsFetchingSuggestions] = useState(false); // New state for loading suggestions
   const [isTyping, setIsTyping] = useState(false); // Add this state
+  const [isReturningFromHistory, setIsReturningFromHistory] = useState(false); // Add state to track return from history
+  const [isStateLoaded, setIsStateLoaded] = useState(false); // Add state to track when localStorage state is loaded
   
   const messagesEndRef = useRef(null);
   const prevMessagesLengthRef = useRef(0); // Ref to track previous message count
@@ -93,6 +95,7 @@ const Chat = () => {
       clearChatState();
       setSelectedCategory(null);
       setSuggestionTypes({ talk: false, do: false });
+      setIsStateLoaded(false);
     }
   }, [user]); // Dependency on user to detect login/logout changes
 
@@ -105,8 +108,41 @@ const Chat = () => {
         setSelectedCategory(savedCategory);
       }
       setSuggestionTypes(savedSuggestionTypes);
+      setIsStateLoaded(true); // Mark state as loaded
+      console.log("[Chat.jsx] State loaded from localStorage:", {
+        savedCategory: savedCategory?.textName,
+        savedSuggestionTypes
+      });
     }
   }, [user]); // Run when user changes (login/logout)
+
+  // Detect return from chat history and handle it AFTER state is loaded
+  useEffect(() => {
+    if ((location.state?.fromChatHistory || location.state?.fromChatSession) && user && isStateLoaded) {
+      console.log("[Chat.jsx] Detected return from chat history/session with loaded state, forcing suggestions update");
+      console.log("[Chat.jsx returnFromHistory] Current state:", {
+        selectedCategory: selectedCategory?.textName,
+        suggestionTypes
+      });
+      setIsReturningFromHistory(true);
+      
+      // Small delay to ensure state is fully processed, then force update suggestions
+      setTimeout(() => {
+        setIsFetchingSuggestions(true);
+        updateSuggestions(false, "returnFromHistory")
+          .catch((err) => {
+            console.error("[Chat.jsx returnFromHistory] Error during updateSuggestions:", err);
+          })
+          .finally(() => {
+            setIsFetchingSuggestions(false);
+            setIsReturningFromHistory(false);
+          });
+      }, 100);
+      
+      // Clear the navigation state to prevent repeated triggers
+      navigate(location.pathname, { replace: true });
+    }
+  }, [location.state, user, isStateLoaded, selectedCategory, suggestionTypes]); // Wait for state to be loaded
 
   // Save state to localStorage whenever selectedCategory or suggestionTypes change
   useEffect(() => {
@@ -152,25 +188,43 @@ const Chat = () => {
         // Generate appropriate prompt - both main categories and subcategories use same format
         const promptText = `Can you please tell me about ${decodedCategory}? Please explain this to me in detail.`;
         setInput(promptText);
-      } else if (!categoryParam && currentSessionId && !selectedCategory && !suggestionTypes.talk && !suggestionTypes.do) {
+      } else if (!categoryParam && currentSessionId && !selectedCategory && !suggestionTypes.talk && !suggestionTypes.do && isStateLoaded) {
         // Only fetch default/mixed suggestions if:
         // 1. Session exists
         // 2. No category is selected (neither from URL nor user click)
         // 3. No suggestion type (talk/do) is active
-        console.log("[Chat.jsx useEffect[sessionId, location.search]] Fetching initial/default suggestions (CLEAN SLATE).");
-        updateSuggestions(false, "useEffect[initialDefault_CLEAN]");
+        // 4. Not returning from chat history (handled by separate useEffect)
+        // 5. State is loaded from localStorage
+        if (!location.state?.fromChatHistory && !location.state?.fromChatSession && !isReturningFromHistory) {
+          console.log("[Chat.jsx useEffect[sessionId, location.search]] Fetching initial/default suggestions (CLEAN SLATE).");
+          updateSuggestions(false, "useEffect[initialDefault_CLEAN]");
+        } else {
+          console.log("[Chat.jsx useEffect[sessionId, location.search]] Skipping initial suggestions - returning from chat history/session or state not loaded.");
+        }
       } else {
-        console.log("[Chat.jsx useEffect[sessionId, location.search]] Skipping initial/default suggestions as filters/category are active or session issue (CLEAN SLATE).");
+        console.log("[Chat.jsx useEffect[sessionId, location.search]] Skipping initial/default suggestions as filters/category are active or session issue or state not loaded (CLEAN SLATE).");
       }
     };
 
     initializeAndLoad();
 
-  }, [sessionId, location.search, categoryFromUrl]); // Keep dependencies
+  }, [sessionId, location.search, categoryFromUrl, isStateLoaded, isReturningFromHistory]); // Added isStateLoaded and isReturningFromHistory
 
   useEffect(() => {
     // This is the PRIMARY effect for updating suggestions based on user interaction
     console.log("[Chat.jsx useEffect[suggestionTypes, selectedCategory]] Filters changed. Updating (CLEAN SLATE).", { suggestionTypes, selectedCategoryName: selectedCategory?.name });
+    
+    // Skip if state is not loaded yet
+    if (!isStateLoaded) {
+      console.log("[Chat.jsx useEffect[suggestionTypes, selectedCategory]] Skipping update - state not loaded yet.");
+      return;
+    }
+    
+    // Skip if returning from chat history (handled by dedicated useEffect)
+    if (isReturningFromHistory) {
+      console.log("[Chat.jsx useEffect[suggestionTypes, selectedCategory]] Skipping update - returning from chat history.");
+      return;
+    }
     
     // Do not run if an initial category is still being processed from the URL
     // to prevent double-calls when selectedCategory is set by the other effect.
@@ -190,7 +244,7 @@ const Chat = () => {
       .finally(() => {
         setIsFetchingSuggestions(false);
       });
-  }, [suggestionTypes, selectedCategory]); // Primary trigger
+  }, [suggestionTypes, selectedCategory, isStateLoaded, isReturningFromHistory]); // Added isStateLoaded and isReturningFromHistory as dependencies
 
   useEffect(() => {
     // Scroll to bottom only if the number of messages increased
@@ -534,6 +588,17 @@ const Chat = () => {
         {messages.length === 0 && !isLoading && (
            // Show suggestions view only if chat is empty and not loading first message
            <div className={`empty-chat ${selectedCategory ? 'chat-category-selected-view' : ''}`} style={{ backgroundColor: '#FFFFF0' }}>
+              {/* Disclaimer Text, moved to the top */}
+              <div className="suggestions-disclaimer">
+                ‼️DISCLAIMER‼️
+                <br /><br />
+                ALL AI'S ARE PRONE TO HALLUCINATIONS, INCLUDING THIS ONE.
+                <br /><br />
+                THIS MEANS IT'LL TELL YOU SOMETHING BELIEVING IT'S 100% TRUE, WHEN IT REALLY ISN'T.
+                <br /><br />
+                BE AWARE OF BIASIS AND CONSUME INFORMATION RESPONSIBLY.
+              </div>
+              
               {selectedCategory ? (
                 <div className="chat-selected-category-header">
                   <h3>Suggest Based On:</h3>
@@ -546,8 +611,11 @@ const Chat = () => {
                 </div>
               ) : (
                 <>
-                  <h3>Start a conversation with your AI assistant</h3>
-                  <p>Ask for suggestions, advice, or any questions about life, events, recipes, and more.</p>
+                  {/* <h3>Start a conversation with your AI assistant</h3> */}
+                  <h3>Ask your AI assistant for Life Suggestions</h3>
+                  <p>Bored and don't know what there is to talk about with someone else? 
+                    Bored and don't have any ideas for what there is to do? 
+                    Ask AI for some suggestions! What could possibly go wrong, right?</p>
                 </>
               )}
               
@@ -636,6 +704,9 @@ const Chat = () => {
                         Refresh Suggestions <span>↻</span>
                       </button>
                   )}
+                  
+                  {/* Disclaimer Text */}
+                  {/* MOVED TO TOP OF THE EMPTY CHAT VIEW */}
               </div>
            </div>
         )}

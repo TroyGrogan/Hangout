@@ -98,3 +98,80 @@ to use our extended timeout settings directly! 🚀
 
 Once you update this, the AI model should have the full 20 minutes 
 to complete its processing without timing out.
+
+
+
+
+NEW MODEL AFTER FINDING OUT SYSTEM SPECS FOR REAL.
+
+->
+
+My Shell: 
+CPU:
+render@srv-d0v0k3fdiees73ccb5bg-594cd9fd5-dcdwm:~/project/src/backend$ lscpu
+Architecture:             x86_64
+  CPU op-mode(s):         32-bit, 64-bit
+  Address sizes:          48 bits physical, 48 bits virtual
+  Byte Order:             Little Endian
+CPU(s):                   16
+  On-line CPU(s) list:    0-15
+Vendor ID:                AuthenticAMD
+  Model name:             AMD EPYC 7R13 Processor
+    CPU family:           25
+    Model:                1
+    Thread(s) per core:   2
+    Core(s) per socket:   8
+    Socket(s):            1
+    Stepping:             1
+    BogoMIPS:             5300.00
+    Flags:                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb 
+                          rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 ss
+                          e4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch topoext 
+                          ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero 
+                          xsaveerptr rdpru wbnoinvd arat npt nrip_save vaes vpclmulqdq rdpid
+Virtualization features:  
+  Hypervisor vendor:      KVM
+  Virtualization type:    full
+Caches (sum of all):      
+  L1d:                    256 KiB (8 instances)
+  L1i:                    256 KiB (8 instances)
+  L2:                     4 MiB (8 instances)
+  L3:                     32 MiB (1 instance)
+NUMA:                     
+  NUMA node(s):           1
+  NUMA node0 CPU(s):      0-15
+Vulnerabilities:          
+  Gather data sampling:   Not affected
+  Itlb multihit:          Not affected
+  L1tf:                   Not affected
+  Mds:                    Not affected
+  Meltdown:               Not affected
+  Mmio stale data:        Not affected
+  Reg file data sampling: Not affected
+  Retbleed:               Not affected
+  Spec rstack overflow:   Vulnerable: Safe RET, no microcode
+  Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+  Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+  Spectre v2:             Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+  Srbds:                  Not affected
+  Tsx async abort:        Not affected
+render@srv-d0v0k3fdiees73ccb5bg-594cd9fd5-dcdwm:~/project/src/backend$ 
+
+RAM:
+render@srv-d0v0k3fdiees73ccb5bg-594cd9fd5-dcdwm:~/project/src/backend$ free -h
+               total        used        free      shared  buff/cache   available
+Mem:            61Gi        22Gi       2.6Gi       136Mi        37Gi        38Gi
+Swap:             0B          0B          0B
+
+render@srv-d0v0k3fdiees73ccb5bg-594cd9fd5-dcdwm:~/project/src/backend$ 
+
+JUST THE OPENCHAT 3.6 QUANTIZED MODEL:
+https://huggingface.co/bartowski/openchat-3.6-8b-20240522-GGUF
+
+DOWNLOAD LINK:
+https://huggingface.co/bartowski/openchat-3.6-8b-20240522-GGUF/resolve/main/openchat-3.6-8b-20240522-Q4_K_M.gguf?download=true
+
+
+downloading the Q4_k_m MODEL THROUGH COMMAND LINE:
+
+cd backend/ai_model && curl -L -o "tinyllama-1.1b-chat-v1.0.Q8_0.gguf" "https://huggingface.co/bartowski/openchat-3.6-8b-20240522-GGUF/resolve/main/openchat-3.6-8b-20240522-Q4_K_M.gguf?download=true"

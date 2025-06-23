@@ -17,7 +17,7 @@ DEBUG = os.environ.get('DJANGO_DEBUG', 'False').lower() == 'true'
 # Dynamic ALLOWED_HOSTS for production
 ALLOWED_HOSTS = []
 if DEBUG:
-    ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '192.168.0.20']
+    ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '192.168.0.20', '100.64.5.109']
 else:
     # For production, allow any Render subdomain
     ALLOWED_HOSTS = ['*'] 
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'apps.users.apps.UsersConfig',
     'apps.events.apps.EventsConfig',
     'apps.ai_chat',
+    'apps.utils',  # Add utils app for Supabase integration
 ]
 
 AUTH_USER_MODEL = 'users.User'
@@ -124,10 +125,13 @@ SIMPLE_JWT = {
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
+        # 'apps.utils.supabase_auth.SupabaseAuthentication',  # Keep disabled - not needed
+        'rest_framework_simplejwt.authentication.JWTAuthentication',  # Use DJANGO'S simple JWT auth over Supabase
         'rest_framework.authentication.SessionAuthentication',
     ),
-    'DEFAULT_PERMISSION_CLASSES': [],
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',  # Secure by default
+    ],
 }
 
 # Internationalization
@@ -165,6 +169,7 @@ if DEBUG:
         "http://localhost:5173",
         "http://localhost:3000",
         "http://192.168.0.20:5173",
+        "http://100.64.5.109:5173",
     ]
 else:
     # For production, add your frontend URL here

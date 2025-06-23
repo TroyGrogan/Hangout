@@ -242,9 +242,10 @@
   background-color: #FFFFF0;
 }
 
+/* Ask your AI assistant for Life Suggestions, etc. part of the page */
 .empty-chat h3,
 .chat-selected-category-header h3 {
-  margin-bottom: 1rem;
+  margin-bottom: 0rem; /* Reduced margin to decrease space */
   color: #333;
   font-size: 1.2em;
   margin-top: 0.5rem; /* Add consistent top margin */
@@ -265,6 +266,19 @@
   width: 100%;
   max-width: 500px; /* Increased from 400px to match category view */
   position: relative;
+}
+
+/* Adjusted padding for disclaimer text */
+.suggestions-disclaimer {
+  margin-top: -2.5rem; /* Removed space above the disclaimer */
+  margin-bottom: 1rem; /* Add space below the disclaimer */
+  color: #666;
+  text-align: center;
+  max-width: 90%; /* Make it wider to use horizontal space */
+  padding: 0 1rem;
+  font-size: 0.9em;
+  line-height: 1.4;
+  font-weight: bold;
 }
 
 /* Style for the Suggest heading */
@@ -300,6 +314,8 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
+  margin-top: -0.5rem; 
+  margin-bottom: -3rem; /* Removed space below the refresh button */
 }
 
 .suggestions button.refresh-button:hover {
@@ -451,9 +467,172 @@
   }
 }
 
+/* Mobile landscape orientation optimizations */
+@media (max-width: 896px) and (orientation: landscape) {
+  .chat-container {
+    height: calc(100vh - 140px); /* More height available in landscape */
+    width: 99%; /* Use more width in landscape */
+    margin: 0.5rem auto; /* Reduced margin to maximize space */
+    border-radius: 6px; /* Slightly smaller border radius */
+  }
+  
+  .chat-header {
+    padding: 0.5rem 1rem; /* Even more compact header */
+    min-height: 60px; /* Set minimum height to prevent squishing */
+  }
+  
+  .chat-header h2 {
+    font-size: 1.1rem; /* Slightly smaller title */
+    margin: 0;
+  }
+  
+  .header-buttons {
+    gap: 6px; /* Tighter gap between buttons */
+    flex-wrap: wrap; /* Allow buttons to wrap if needed */
+  }
+  
+  .header-buttons button {
+    padding: 0.3rem 0.6rem; /* More compact button padding */
+    font-size: 0.8rem; /* Smaller font size */
+    min-height: 32px; /* Ensure buttons aren't too small */
+  }
+  
+  .categories-dropdown-container {
+    position: relative;
+  }
+  
+  .categories-btn {
+    padding: 0.3rem 0.6rem; /* Match other buttons */
+    font-size: 0.8rem;
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+  
+  .messages-container {
+    padding: 0.5rem; /* Minimal padding to maximize message space */
+    gap: 0.5rem; /* Tighter gap between messages */
+    /* Ensure proper scrolling */
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  }
+  
+  .message-content {
+    max-width: 75%; /* Reduced from 90% to make bubbles more proportional */
+    padding: 0.6rem 0.8rem; /* More balanced padding - smaller but not cramped */
+    font-size: 0.85rem; /* Slightly smaller base font size */
+  }
+  
+  .message-header {
+    font-size: 0.7rem; /* Smaller header text */
+    margin-bottom: 0.3rem; /* Slightly more margin for readability */
+  }
+  
+  .message p {
+    font-size: 0.85rem; /* Consistent with message-content font size */
+    line-height: 1.35; /* Balanced line height for readability */
+    margin: 0; /* Ensure no extra margin */
+  }
+  
+  /* Specific adjustments for user and AI messages */
+  .message.user .message-content {
+    max-width: 70%; /* Slightly smaller for user messages */
+    padding: 0.6rem 0.9rem; /* Slightly more horizontal padding for user messages */
+  }
+  
+  .message.ai .message-content {
+    max-width: 80%; /* AI messages can be slightly wider */
+    padding: 0.6rem 0.8rem; /* Consistent padding */
+  }
+  
+  /* Ensure proper message spacing */
+  .message {
+    margin-bottom: 0.6rem; /* Consistent spacing between message bubbles */
+  }
+  
+  .chat-input-form {
+    padding: 8px 12px; /* Minimal padding for input area */
+    min-height: 60px; /* Ensure input area isn't too small */
+  }
+  
+  .chat-input-form textarea {
+    min-height: 40px; /* Smaller minimum height */
+    max-height: 80px; /* Limit maximum height */
+    padding: 8px 45px 8px 10px; /* Adjusted padding */
+    font-size: 0.9rem; /* Slightly smaller font */
+  }
+  
+  .chat-input-form .send-button {
+    right: 16px; /* Adjusted position */
+    bottom: 12px; /* Adjusted position */
+    width: 32px; /* Smaller button */
+    height: 32px; /* Smaller button */
+  }
+  
+  .chat-input-form .send-button svg {
+    width: 16px; /* Smaller icon */
+    height: 16px; /* Smaller icon */
+  }
+  
+  /* Empty chat state optimizations for landscape */
+  .empty-chat {
+    padding: 1rem 0.5rem; /* Reduced padding */
+    margin-top: 0.5rem; /* Less top margin */
+  }
+  
+  .empty-chat h3 {
+    font-size: 1.1rem; /* Smaller heading */
+    margin-bottom: 0.75rem; /* Reduced margin */
+  }
+  
+  .empty-chat p {
+    font-size: 0.9rem; /* Smaller paragraph text */
+    margin-bottom: 1rem; /* Reduced margin */
+    line-height: 1.4; /* Tighter line height */
+  }
+  
+  .suggestions {
+    max-width: 600px; /* Wider suggestions area in landscape */
+  }
+  
+  .suggestion-type-checkboxes {
+    padding: 8px; /* Reduced padding */
+    margin-bottom: 10px; /* Reduced margin */
+  }
+  
+  .suggestion-heading {
+    font-size: 1rem; /* Smaller heading */
+    margin-bottom: 6px; /* Reduced margin */
+  }
+  
+  .suggestion-type-checkboxes label {
+    padding: 4px 8px; /* Smaller label padding */
+    font-size: 0.8rem; /* Smaller font */
+  }
+  
+  .suggestions button {
+    padding: 0.6rem 0.8rem; /* Smaller button padding */
+    font-size: 0.85rem; /* Smaller font */
+    margin-bottom: 8px; /* Reduced margin */
+  }
+  
+  .suggestions-content-area {
+    min-height: 200px; /* Reduced minimum height */
+  }
+  
+  /* Category view optimizations for landscape */
+  .chat-selected-category-header h3 {
+    font-size: 1.1rem; /* Smaller heading */
+    margin-bottom: 0.75rem; /* Reduced margin */
+  }
+  
+  .chat-selected-category-box {
+    padding: 8px 16px; /* Smaller padding */
+    font-size: 1rem; /* Smaller font */
+    margin-bottom: 1rem; /* Reduced margin */
+  }
+}
+
 /* Categories Dropdown Styles */
 .categories-btn {
-  /* background-color: #e9ecef; */ /* Old grey background */
   background-color: #eaf4eb; /* New light green background to match dropdown */
   color: #333; /* Adjust text color for better contrast on green */
   padding: 8px 12px;
@@ -538,11 +717,13 @@
   padding-top: 0; /* Remove any additional padding */
 }
 
+/* This controls the category selected box, more specifically, the spacing below it */
 .chat-selected-category-header {
   text-align: center;
-  margin-bottom: 1.5rem; /* Reduced from 2rem to match normal view spacing */
+  margin-bottom: 0rem; /* Reduced from 2rem to match normal view spacing */
 }
 
+/* This controls the category selected box, more specifically, the spacing above it */
 .chat-selected-category-header h3 {
   margin-bottom: 1rem;
   color: #333;

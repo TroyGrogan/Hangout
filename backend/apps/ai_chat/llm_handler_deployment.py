@@ -1,11 +1,12 @@
-# llm_handler_deployment.py - ULTRA OPTIMIZED for 1 CPU + 2GB RAM deployment
-# This is the production-ready version with extreme constraints
+# llm_handler_deployment.py - OPTIMIZED for 16 CPU + 61GB RAM deployment
+# Production-ready version optimized for actual hardware specifications
 # Key optimizations:
-# 1. Ultra-aggressive memory management
-# 2. Minimal context window (1024 tokens)
-# 3. Single-threaded operation
-# 4. Emergency memory recovery
-# 5. Swap-aware operation
+# 1. Multi-threaded operation (16 cores)
+# 2. Large context window and response capabilities
+# 3. Intelligent memory management for 61GB system
+# 4. Performance-focused caching
+# 5. Adaptive scaling based on actual resources
+# 6. UPGRADED TO OPENCHAT 3.6 8B MODEL with NEW PROMPT FORMAT
 
 import os
 import threading
@@ -24,49 +25,53 @@ except ImportError:
     LlamaRAMCache = None
     LLAMA_CACHE_AVAILABLE = False
 
-# === DEPLOYMENT CONSTRAINTS ===
-CPU_THRESHOLD = 98          # Ultra-high threshold for single CPU
-MEMORY_THRESHOLD = 98       # Push to absolute limit
-CACHE_SIZE_GB = 0.05        # Minimal 50MB cache
+# === OPTIMIZED DEPLOYMENT CONSTRAINTS ===
+CPU_THRESHOLD = 85          # Reasonable threshold for 16 cores
+MEMORY_THRESHOLD = 70       # Conservative for 61GB system
+CACHE_SIZE_GB = 2.0         # 2GB cache for performance
 
-# === ADAPTIVE MEMORY CONSTRAINTS ===
-# Base parameters (ultra-conservative for 2GB)
-BASE_CONTEXT_WINDOW = 1024
-BASE_MAX_RESPONSE_TOKENS = 384  # Reduced for safety
+# === ADAPTIVE MEMORY CONSTRAINTS OPTIMIZED FOR 61GB SYSTEM ===
+# Base parameters (optimized for high-memory system with larger model)
+BASE_CONTEXT_WINDOW = 8192  # Increased for OpenChat 3.6 8B
+BASE_MAX_RESPONSE_TOKENS = 2048
 
-# Adaptive parameters based on available memory
+# Adaptive parameters based on available memory (scaled for 61GB system + OpenChat 8B)
 ADAPTIVE_MEMORY_THRESHOLDS = {
-    'minimal': {  # < 0.3GB available
-        'context_window': 1024,
-        'max_response_tokens': 320,
-        'max_history': 4
+    'minimal': {  # < 8GB available (emergency mode)
+        'context_window': 4096,
+        'max_response_tokens': 1024,
+        'max_history': 6,
+        'n_threads': 8
     },
-    'low': {     # 0.3-0.5GB available
-        'context_window': 1536,
-        'max_response_tokens': 512,
-        'max_history': 6
+    'low': {     # 8-20GB available
+        'context_window': 6144,
+        'max_response_tokens': 1536,
+        'max_history': 12,
+        'n_threads': 12
     },
-    'medium': {  # 0.5-0.8GB available
-        'context_window': 1792,
-        'max_response_tokens': 640,
-        'max_history': 8
+    'medium': {  # 20-30GB available
+        'context_window': 8192,
+        'max_response_tokens': 2048,
+        'max_history': 18,
+        'n_threads': 14
     },
-    'high': {    # > 0.8GB available
-        'context_window': 2048,
-        'max_response_tokens': 768,
-        'max_history': 10
+    'high': {    # > 30GB available
+        'context_window': 16384,  # Large context for OpenChat
+        'max_response_tokens': 4096,
+        'max_history': 24,
+        'n_threads': 16
     }
 }
 
-SWAP_THRESHOLD_GB = 1.0     # Monitor swap aggressively
-GC_FREQUENCY = 2            # Very frequent GC
+SWAP_THRESHOLD_GB = 0.0     # No swap configured
+GC_FREQUENCY = 10           # Less frequent GC for performance
 
-# Ultra-aggressive memory pressure levels
+# Optimized memory pressure levels for 61GB system with 8B model
 MEMORY_PRESSURE_LEVELS = {
-    'low': 60,
-    'medium': 75,
-    'high': 90,
-    'critical': 95
+    'low': 45,      # 27GB used
+    'medium': 60,   # 37GB used  
+    'high': 75,     # 46GB used
+    'critical': 90  # 55GB used
 }
 
 # === PATH CONFIGURATION ===
@@ -83,13 +88,13 @@ logger = logging.getLogger(__name__)
 if not logger.hasHandlers():
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# === ULTRA MEMORY MANAGER ===
-class UltraMemoryManager:
-    """Ultra-aggressive memory management for 2GB constraint"""
+# === OPTIMIZED MEMORY MANAGER ===
+class OptimizedMemoryManager:
+    """Intelligent memory management optimized for 61GB system"""
     
     @staticmethod
     def get_memory_pressure():
-        """Get memory pressure with deployment thresholds"""
+        """Get memory pressure with optimized thresholds for 61GB system"""
         mem = psutil.virtual_memory()
         percent = mem.percent
         
@@ -104,21 +109,12 @@ class UltraMemoryManager:
     
     @staticmethod
     def emergency_memory_recovery():
-        """Emergency memory recovery for critical situations"""
-        logger.warning("EMERGENCY: Performing aggressive memory recovery")
+        """Intelligent memory recovery for high-memory system"""
+        logger.warning("Performing memory cleanup")
         
-        # Multiple GC passes
-        for i in range(3):
-            collected = gc.collect()
-            logger.debug(f"GC pass {i+1}: freed {collected} objects")
-        
-        # Force memory cleanup
-        try:
-            import ctypes
-            libc = ctypes.CDLL("libc.so.6")
-            libc.malloc_trim(0)
-        except:
-            pass
+        # Single GC pass (system has plenty of memory)
+        collected = gc.collect()
+        logger.debug(f"GC freed {collected} objects")
         
         return True
     
@@ -130,7 +126,7 @@ class UltraMemoryManager:
     
     @staticmethod
     def monitor_swap_usage():
-        """Monitor swap usage"""
+        """Monitor swap usage (should be 0 for this system)"""
         try:
             swap = psutil.swap_memory()
             return swap.used / (1024**3)
@@ -139,28 +135,27 @@ class UltraMemoryManager:
     
     @staticmethod
     def check_memory_emergency():
-        """Check if we're in memory emergency"""
-        pressure = UltraMemoryManager.get_memory_pressure()
-        available = UltraMemoryManager.get_available_memory_gb()
+        """Check if we're in memory emergency (rare with 61GB)"""
+        pressure = OptimizedMemoryManager.get_memory_pressure()
+        available = OptimizedMemoryManager.get_available_memory_gb()
         
-        if pressure == 'critical' or available < 0.1:  # Less than 100MB
+        # Emergency only if less than 2GB available or critical pressure
+        if pressure == 'critical' or available < 2.0:
             return True
         return False
 
     @staticmethod
     def get_adaptive_memory_tier():
-        """Get memory tier for adaptive parameter selection"""
-        available_gb = UltraMemoryManager.get_available_memory_gb()
-        pressure = UltraMemoryManager.get_memory_pressure()
+        """Get memory tier for adaptive parameter selection (updated for 8B model)"""
+        available_gb = OptimizedMemoryManager.get_available_memory_gb()
+        pressure = OptimizedMemoryManager.get_memory_pressure()
         
-        # If memory pressure is critical, force minimal tier
-        if pressure == 'critical' or available_gb < 0.2:
+        # Adjusted thresholds for larger 8B model
+        if pressure == 'critical' or available_gb < 8:
             return 'minimal'
-        elif pressure == 'high' or available_gb < 0.3:
-            return 'minimal'
-        elif pressure == 'medium' or available_gb < 0.5:
+        elif pressure == 'high' or available_gb < 20:
             return 'low'
-        elif available_gb < 0.8:
+        elif pressure == 'medium' or available_gb < 30:
             return 'medium'
         else:
             return 'high'
@@ -168,12 +163,12 @@ class UltraMemoryManager:
     @staticmethod
     def get_adaptive_parameters():
         """Get adaptive parameters based on current memory situation"""
-        tier = UltraMemoryManager.get_adaptive_memory_tier()
+        tier = OptimizedMemoryManager.get_adaptive_memory_tier()
         params = ADAPTIVE_MEMORY_THRESHOLDS[tier].copy()
         
         # Add tier info for logging
         params['tier'] = tier
-        params['available_gb'] = UltraMemoryManager.get_available_memory_gb()
+        params['available_gb'] = OptimizedMemoryManager.get_available_memory_gb()
         
         return params
     
@@ -183,14 +178,14 @@ class UltraMemoryManager:
         mem = psutil.virtual_memory()
         available_gb = mem.available / (1024**3)
         used_gb = mem.used / (1024**3)
-        pressure = UltraMemoryManager.get_memory_pressure()
-        tier = UltraMemoryManager.get_adaptive_memory_tier()
+        pressure = OptimizedMemoryManager.get_memory_pressure()
+        tier = OptimizedMemoryManager.get_adaptive_memory_tier()
         
         logger.info(f"MEMORY: {used_gb:.1f}GB used, {available_gb:.1f}GB available, "
                    f"pressure={pressure}, tier={tier}")
         
-        # Warn if approaching limits
-        if available_gb < 0.2:
+        # Only warn if actually low for this system
+        if available_gb < 5:
             logger.warning(f"LOW MEMORY: Only {available_gb:.2f}GB available!")
         
         return {
@@ -201,21 +196,21 @@ class UltraMemoryManager:
         }
 
 @contextmanager
-def ultra_memory_operation():
-    """Ultra-conservative memory operation context"""
-    # Pre-operation cleanup
-    if UltraMemoryManager.check_memory_emergency():
-        UltraMemoryManager.emergency_memory_recovery()
+def optimized_memory_operation():
+    """Optimized memory operation context for high-memory system"""
+    # Light pre-operation check
+    if OptimizedMemoryManager.check_memory_emergency():
+        OptimizedMemoryManager.emergency_memory_recovery()
     
     try:
         yield
     finally:
-        # Post-operation cleanup
-        gc.collect()
+        # Minimal post-operation cleanup
+        pass
 
-# === ULTRA-OPTIMIZED LLAMA MODEL ===
-class UltraLlamaModel:
-    """Ultra-optimized LLM for deployment constraints"""
+# === OPTIMIZED LLAMA MODEL ===
+class OptimizedLlamaModel:
+    """High-performance LLM optimized for 16-core, 61GB system with OpenChat 3.6 8B"""
     _instance = None
     _lock = threading.Lock()
     _operation_count = 0
@@ -224,110 +219,89 @@ class UltraLlamaModel:
         if cls._instance is None:
             with cls._lock:
                 if cls._instance is None:
-                    cls._instance = super(UltraLlamaModel, cls).__new__(cls)
+                    cls._instance = super(OptimizedLlamaModel, cls).__new__(cls)
                     cls._instance._initialize_attributes()
         return cls._instance
 
     def _initialize_attributes(self):
-        """Initialize with adaptive memory-aware settings"""
+        """Initialize with optimized memory-aware settings"""
         self.llm = None
         self.cache = None
         self.conversation_history = {}
         
         # Use adaptive parameters based on available memory
-        adaptive_params = UltraMemoryManager.get_adaptive_parameters()
+        adaptive_params = OptimizedMemoryManager.get_adaptive_parameters()
         self.context_window = adaptive_params['context_window']
         self.max_response_tokens = adaptive_params['max_response_tokens']
         self.max_prompt_tokens = self.context_window - self.max_response_tokens
+        self.n_threads = adaptive_params['n_threads']
         
         self._initialized = False
         self._last_gc = time.time()
         self._last_memory_check = 0
         
-        # === SYSTEM PROMPT ===
-        self.system_prompt = """You are a concise, helpful, truthful, grounded, insightful, knowledgeable, balanced, curious, and creative AI assistant.
-- Provide well-structured, complete sentences using standard Markdown for formatting when appropriate.
-- Get straight to the point, but explain details if asked."""
+        # === ENHANCED SYSTEM PROMPT FOR OPENCHAT 3.6 8B ===
+        self.system_prompt = """You are OpenChat, an exceptionally helpful, knowledgeable, and honest AI assistant. You provide detailed, accurate, and thoughtful responses to help users with a wide variety of topics and questions. You are creative, curious, and always strive to be maximally helpful while being truthful and harmless. Feel free to engage in comprehensive explanations and thoughtful conversations."""
         
-        logger.info(f"UltraLlamaModel initialized: context={self.context_window}, "
-                   f"max_tokens={self.max_response_tokens}, tier={adaptive_params['tier']}")
+        logger.info(f"OptimizedLlamaModel initialized: context={self.context_window}, "
+                   f"max_tokens={self.max_response_tokens}, threads={self.n_threads}, tier={adaptive_params['tier']}")
 
     def _check_and_adjust_parameters(self):
         """Dynamically adjust parameters based on current memory"""
         current_time = time.time()
         
-        # Check memory every 30 seconds or when memory pressure is high
-        if (current_time - self._last_memory_check > 30 or 
-            UltraMemoryManager.get_memory_pressure() in ['high', 'critical']):
+        # Check memory every 60 seconds (less frequent for stable system)
+        if (current_time - self._last_memory_check > 60 or 
+            OptimizedMemoryManager.get_memory_pressure() in ['high', 'critical']):
             
-            adaptive_params = UltraMemoryManager.get_adaptive_parameters()
+            adaptive_params = OptimizedMemoryManager.get_adaptive_parameters()
             
             # Only adjust if parameters need to change significantly
             new_context = adaptive_params['context_window']
             new_max_tokens = adaptive_params['max_response_tokens']
+            new_threads = adaptive_params['n_threads']
             
-            if (abs(new_context - self.context_window) > 128 or 
-                abs(new_max_tokens - self.max_response_tokens) > 64):
+            if (abs(new_context - self.context_window) > 512 or 
+                abs(new_max_tokens - self.max_response_tokens) > 256 or
+                new_threads != self.n_threads):
                 
                 self.context_window = new_context
                 self.max_response_tokens = new_max_tokens
                 self.max_prompt_tokens = self.context_window - self.max_response_tokens
+                self.n_threads = new_threads
                 
                 logger.info(f"ADAPTIVE: Adjusted to context={self.context_window}, "
-                           f"max_tokens={self.max_response_tokens}, tier={adaptive_params['tier']}")
+                           f"max_tokens={self.max_response_tokens}, threads={self.n_threads}, tier={adaptive_params['tier']}")
             
             self._last_memory_check = current_time
 
     def _post_process_response(self, response):
-        """Post-process AI response to fix common formatting issues"""
+        """Enhanced post-processing for better responses with new prompt format"""
         if not response:
             return response
             
-        # Remove any remaining special tokens that might have leaked through
+        # Remove any remaining special tokens from the new format
+        response = response.replace("<|start_header_id|>", "").replace("<|end_header_id|>", "")
+        response = response.replace("<|begin_of_text|>", "").replace("<|eot_id|>", "")
+        response = response.replace("GPT4 Correct User", "").replace("GPT4 Correct Assistant", "")
+        
+        # Remove legacy tokens that might still appear
         response = response.replace("<|assistant|>", "").replace("<|user|>", "").replace("<|system|>", "")
         response = response.replace("</s>", "").strip()
         
-        # Fix common fragmentation patterns
-        import re
-        
-        # Fix sentences that got split incorrectly at periods
-        response = re.sub(r'(\w+\.)\s*[\r\n]+\s*([A-Z])', r'\1 \2', response)
-        
-        # Join continuation sentences that start with common transition words
-        transition_words = r'(In addition|However|Furthermore|Moreover|Also|Additionally|Therefore|Thus|Meanwhile|Subsequently|Nevertheless|Nonetheless|Consequently|Similarly|Likewise|On the other hand|For example|For instance|In contrast|In fact|Indeed|Overall|Finally|Lastly|First|Second|Third|Next|Then|After|Before|During|While|Although|Though|Despite|Because|Since|As|When|Where|Which|That|This|These|Such|Many|Some|Most|All|Each|Every|Another|Other)'
-        response = re.sub(rf'(\.)\s*[\r\n]+\s*({transition_words})', r'\1 \2', response, flags=re.IGNORECASE)
-        
-        # Fix mid-sentence breaks (any word followed by period, then lowercase continuation)
-        response = re.sub(r'(\w+\.)\s*[\r\n]+\s*([a-z])', r'\1 \2', response)
-        
-        # Fix breaks where a sentence ends and the next word should continue the thought
-        # Pattern: "word. \n Next" -> "word. Next" (but only for logical continuations)
-        response = re.sub(r'(\w+\.)\s*[\r\n]+\s*([A-Z][a-z])', r'\1 \2', response)
-        
-        # Fix incomplete sentences that end abruptly and continue on next line
-        # Pattern: "incomplete phrase\n continuation" -> "incomplete phrase continuation"
-        response = re.sub(r'(?<=[a-z,])\s*[\r\n]\s*(?=[a-z])', ' ', response) # Using [\r\n] for single newline
-        
-        # Clean up multiple line breaks
-        response = re.sub(r'\n\s*\n\s*\n+', '\n\n', response)  # Max 2 line breaks
-        response = re.sub(r' +', ' ', response)  # Remove extra spaces
-        
-        return response.strip()
+        return response
 
-    def _ultra_garbage_collect(self):
-        """Ultra-frequent garbage collection"""
-        self._operation_count += 1
-        current_time = time.time()
-        
-        if (self._operation_count % GC_FREQUENCY == 0 or 
-            current_time - self._last_gc > 15 or  # Every 15 seconds
-            UltraMemoryManager.get_memory_pressure() in ['high', 'critical']):
-            
-            gc.collect()
-            self._last_gc = current_time
+    def _optimized_garbage_collect(self):
+        """Perform memory-conscious garbage collection for high-performance system"""
+        try:
+            collected = gc.collect()
+            if collected > 0:
+                logger.debug(f"Garbage collected {collected} objects")
+        except Exception as e:
+            logger.warning(f"Garbage collection failed: {str(e)}")
 
     def initialize_model(self):
-        """Initialize model with adaptive memory-aware parameters"""
+        """Initialize model with optimized parameters for 16-core, 61GB system"""
         if self._initialized:
             return self.llm is not None
 
@@ -335,84 +309,93 @@ class UltraLlamaModel:
             if self._initialized:
                 return self.llm is not None
 
-            logger.info("Initializing Q8_0 TinyLlama for DEPLOYMENT (1 CPU, 2GB RAM)")
+            logger.info("Initializing OpenChat 3.6 8B Q4_K_M for HIGH-PERFORMANCE DEPLOYMENT (16 CPU, 61GB RAM)")
             self._initialized = True
 
             # Log memory status before loading
-            memory_status = UltraMemoryManager.log_memory_status()
-            adaptive_params = UltraMemoryManager.get_adaptive_parameters()
+            memory_status = OptimizedMemoryManager.log_memory_status()
+            adaptive_params = OptimizedMemoryManager.get_adaptive_parameters()
             
-            logger.info(f"Loading model with tier='{adaptive_params['tier']}', "
-                       f"context={self.context_window}, max_tokens={self.max_response_tokens}")
+            logger.info(f"Loading OpenChat 3.6 8B model with tier='{adaptive_params['tier']}', "
+                       f"context={self.context_window}, max_tokens={self.max_response_tokens}, threads={self.n_threads}")
             
-            # Stricter memory check for initialization
-            if memory_status['available_gb'] < 0.2:
-                logger.error(f"Insufficient memory for model loading: {memory_status['available_gb']:.2f}GB available")
-                return False
+            # Check memory availability for 8B model
+            if memory_status['available_gb'] < 8.0:
+                logger.warning(f"Low memory for 8B model: {memory_status['available_gb']:.2f}GB available")
 
-            model_filename = "tinyllama-1.1b-chat-v1.0.Q8_0.gguf"
+            model_filename = "openchat-3.6-8b-20240522-Q4_K_M.gguf"
             model_path = os.path.join(BASE_DIR, "ai_model", model_filename)
             
             if not os.path.exists(model_path):
-                logger.error(f"Model file not found: {model_path}")
+                logger.error(f"OpenChat model file not found: {model_path}")
+                logger.info("Please download the model from: https://huggingface.co/bartowski/openchat-3.6-8b-20240522-GGUF")
                 return False
 
-            with ultra_memory_operation():
+            with optimized_memory_operation():
                 try:
-                    # Adaptive cache size based on memory tier
+                    # Optimized cache size based on memory tier for 8B model
                     cache_gb = CACHE_SIZE_GB
                     if adaptive_params['tier'] == 'minimal':
-                        cache_gb = 0.02  # 20MB cache
+                        cache_gb = 1.0   # 1GB cache
                     elif adaptive_params['tier'] == 'low':
-                        cache_gb = 0.03  # 30MB cache
+                        cache_gb = 1.5   # 1.5GB cache
+                    elif adaptive_params['tier'] == 'medium':
+                        cache_gb = 2.0   # 2GB cache
+                    else:
+                        cache_gb = 3.0   # 3GB cache for high tier
                     
-                    # Ultra-minimal cache
+                    # High-performance cache for 8B model
                     if LLAMA_CACHE_AVAILABLE and cache_gb > 0:
                         cache_bytes = int(cache_gb * 1024 * 1024 * 1024)
                         self.cache = LlamaRAMCache(capacity_bytes=cache_bytes)
-                        logger.info(f"Adaptive cache: {cache_gb:.2f} GB")
+                        logger.info(f"High-performance cache: {cache_gb:.1f} GB")
 
                     from llama_cpp import Llama
                     
-                    # MEMORY-ADAPTIVE DEPLOYMENT PARAMETERS
+                    # HIGH-PERFORMANCE DEPLOYMENT PARAMETERS FOR OPENCHAT 8B
                     self.llm = Llama(
                         model_path=model_path,
-                        n_ctx=self.context_window,        # Adaptive context window
-                        n_threads=1,                      # Single thread
-                        n_gpu_layers=0,                   # CPU only
+                        n_ctx=self.context_window,        # Large context window
+                        n_threads=self.n_threads,         # Multi-threaded
+                        n_gpu_layers=0,                   # CPU only (but many cores)
                         verbose=False,
                         cache=self.cache,
                         
-                        # === ULTRA MEMORY OPTIMIZATION ===
+                        # === PERFORMANCE OPTIMIZATION FOR 8B MODEL ===
                         use_mmap=True,                    # Memory-map file
-                        use_mlock=False,                  # No memory locking
-                        n_batch=1,                        # Single batch
-                        last_n_tokens_size=16 if adaptive_params['tier'] == 'minimal' else 32,
+                        use_mlock=True,                   # Lock memory for performance
+                        n_batch=512,                      # Large batch for throughput
+                        last_n_tokens_size=256,           # Larger for 8B model
                         
-                        # === DEPLOYMENT SPECIFIC ===
-                        numa=False,                       # No NUMA
+                        # === HIGH-PERFORMANCE SPECIFIC ===
+                        numa=True,                        # Enable NUMA awareness
                         offload_kqv=False,               # Keep in main memory
                         flash_attn=False,                # Disable for compatibility
                         
-                        # === ULTRA CONSERVATIVE ===
+                        # === OPTIMIZED SETTINGS FOR OPENCHAT ===
                         rope_scaling_type=0,             # No rope scaling
                         rope_freq_base=10000.0,          # Default rope freq
                     )
                     
-                    logger.info(f"Q8_0 TinyLlama loaded! Tier: {adaptive_params['tier']}")
+                    logger.info(f"OpenChat 3.6 8B Q4_K_M loaded! Tier: {adaptive_params['tier']}, Threads: {self.n_threads}")
                     
-                    # Minimal test
-                    test_response = self.llm.create_completion("Hi", max_tokens=1)
-                    logger.info("Deployment model test successful")
+                    # Performance test with new prompt format
+                    start_time = time.time()
+                    test_response = self.llm.create_completion(
+                        "<|begin_of_text|><|start_header_id|>GPT4 Correct User<|end_header_id|>\n\nHi<|eot_id|><|start_header_id|>GPT4 Correct Assistant<|end_header_id|>\n\n", 
+                        max_tokens=10
+                    )
+                    test_time = time.time() - start_time
+                    logger.info(f"OpenChat performance test: {test_time:.2f}s for 10 tokens")
                     
                     # Final memory check
-                    final_memory = UltraMemoryManager.log_memory_status()
+                    final_memory = OptimizedMemoryManager.log_memory_status()
                     logger.info(f"Post-load memory: {final_memory['available_gb']:.2f}GB available")
                     
                     return True
                     
                 except Exception as e:
-                    logger.error(f"Deployment model loading failed: {str(e)}")
+                    logger.error(f"OpenChat 3.6 8B model loading failed: {str(e)}")
                     self.llm = None
                     return False
 
@@ -421,7 +404,7 @@ class UltraLlamaModel:
         return self.llm is not None
 
     def count_tokens(self, text):
-        """Ultra-fast token counting"""
+        """Optimized token counting"""
         if not text:
             return 0
         
@@ -429,7 +412,7 @@ class UltraLlamaModel:
         return len(text.split()) * 1.2  # Conservative estimate
 
     def add_to_history(self, chat_session_id, role, content):
-        """Ultra-conservative history management with emergency cleanup"""
+        """Optimized history management for high-memory system"""
         if not chat_session_id:
             return
             
@@ -442,69 +425,50 @@ class UltraLlamaModel:
         })
         
         # Get adaptive parameters for history management
-        adaptive_params = UltraMemoryManager.get_adaptive_parameters()
+        adaptive_params = OptimizedMemoryManager.get_adaptive_parameters()
         max_history = adaptive_params['max_history']
         
-        # Emergency memory handling - aggressive cleanup
-        if UltraMemoryManager.check_memory_emergency():
-            # Clear all sessions except current one
-            sessions_to_clear = [sid for sid in self.conversation_history.keys() if sid != chat_session_id]
-            for sid in sessions_to_clear:
-                del self.conversation_history[sid]
-            
-            # Keep only last 2 messages in current session
-            if len(self.conversation_history[chat_session_id]) > 4:
-                self.conversation_history[chat_session_id] = \
-                    self.conversation_history[chat_session_id][-4:]
-                    
-            logger.warning(f"EMERGENCY: Cleared {len(sessions_to_clear)} chat sessions, trimmed current to 4 messages")
-        else:
-            # Normal trimming based on adaptive parameters
-            if len(self.conversation_history[chat_session_id]) > max_history:
-                self.conversation_history[chat_session_id] = \
-                    self.conversation_history[chat_session_id][-max_history:]
+        # Only trim if we have excessive history
+        if len(self.conversation_history[chat_session_id]) > max_history * 2:
+            self.conversation_history[chat_session_id] = \
+                self.conversation_history[chat_session_id][-max_history:]
         
-        # Ultra-frequent garbage collection
-        self._ultra_garbage_collect()
-        
-        # Emergency memory check after adding to history
-        if UltraMemoryManager.check_memory_emergency():
-            UltraMemoryManager.emergency_memory_recovery()
+        # Less frequent garbage collection
+        self._optimized_garbage_collect()
 
     def get_conversation_history(self, chat_session_id):
-        """Get history with adaptive memory pressure awareness"""
+        """Get history with optimized memory management"""
         history = self.conversation_history.get(chat_session_id, [])
         
         # Get adaptive parameters for history management
-        adaptive_params = UltraMemoryManager.get_adaptive_parameters()
+        adaptive_params = OptimizedMemoryManager.get_adaptive_parameters()
         max_history = adaptive_params['max_history']
         
-        # Emergency memory handling - but preserve continuity
-        if UltraMemoryManager.check_memory_emergency():
-            # Keep minimum for continuity even in emergency
-            return history[-4:] if len(history) >= 4 else history
-        
-        # Use adaptive history limit based on memory tier
+        # Return more history for better context
         return history[-max_history:] if len(history) > max_history else history
 
     def build_prompt_with_history(self, chat_session_id, user_input):
-        """Build ultra-compact prompt with proper Zephyr formatting"""
+        """Build optimized prompt with new GPT4 Correct format"""
         try:
             history = self.get_conversation_history(chat_session_id)
             
-            # Proper Zephyr format - system message should be more comprehensive
-            system_msg = self.system_prompt
-            prompt_parts = [f"<|system|>\n{system_msg}</s>\n"]
+            # Start with the new format
+            prompt_parts = ["<|begin_of_text|>"]
             
-            # Add conversation history with proper formatting
-            for message in history[-8:]:  # Increased from 6 to 8 messages (4 exchanges)
+            # Add system message using the new format
+            system_msg = self.system_prompt
+            prompt_parts.append(f"<|start_header_id|>system<|end_header_id|>\n\n{system_msg}<|eot_id|>")
+            
+            # Add conversation history using the new format
+            for message in history[-16:]:  # Up to 16 messages (8 exchanges)
                 if message["role"] == "user":
-                    prompt_parts.append(f"<|user|>\n{message['content']}</s>\n")
+                    prompt_parts.append(f"<|start_header_id|>GPT4 Correct User<|end_header_id|>\n\n{message['content']}<|eot_id|>")
                 elif message["role"] == "assistant":
-                    prompt_parts.append(f"<|assistant|>\n{message['content']}</s>\n")
+                    prompt_parts.append(f"<|start_header_id|>GPT4 Correct Assistant<|end_header_id|>\n\n{message['content']}<|eot_id|>")
             
             # Current user input
-            prompt_parts.append(f"<|user|>\n{user_input}</s>\n<|assistant|>\n")
+            prompt_parts.append(f"<|start_header_id|>GPT4 Correct User<|end_header_id|>\n\n{user_input}<|eot_id|>")
+            prompt_parts.append(f"<|start_header_id|>GPT4 Correct Assistant<|end_header_id|>\n\n")
             
             full_prompt = "".join(prompt_parts)
             
@@ -515,222 +479,105 @@ class UltraLlamaModel:
             
         except Exception as e:
             logger.error(f"Error building prompt: {str(e)}")
-            # Emergency fallback
-            system_msg = """You are a concise, helpful, truthful, grounded, insightful, knowledgeable, balanced, curious, and creative AI assistant.
-- Provide well-structured, complete sentences using standard Markdown for formatting when appropriate.
-- Get straight to the point, but explain details if asked."""
-            return f"<|system|>\n{system_msg}</s>\n<|user|>\n{user_input}</s>\n<|assistant|>\n"
+            # Enhanced fallback with new format
+            system_msg = """You are OpenChat, an exceptionally helpful, knowledgeable, and honest AI assistant. You provide detailed, accurate, and thoughtful responses to help users with a wide variety of topics and questions. You are creative, curious, and always strive to be maximally helpful while being truthful and harmless."""
+            return f"<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n{system_msg}<|eot_id|><|start_header_id|>GPT4 Correct User<|end_header_id|>\n\n{user_input}<|eot_id|><|start_header_id|>GPT4 Correct Assistant<|end_header_id|>\n\n"
 
     def _enhanced_post_process_response(self, response):
-        """Enhanced post-processing to handle fragmentation better"""
-        import re
+        """Minimal post-processing - ONLY remove tokens, preserve all formatting for frontend"""
         if not response:
             return response
             
-        # Remove any remaining special tokens that might have leaked through
-        response = response.replace("<|assistant|>", "").replace("<|user|>", "").replace("<|system|>", "")
-        response = response.replace("</s>", "").strip()
+        # ONLY remove special tokens - preserve ALL spacing and formatting
+        response = response.replace("<|start_header_id|>", "")
+        response = response.replace("<|end_header_id|>", "")
+        response = response.replace("<|begin_of_text|>", "")
+        response = response.replace("<|eot_id|>", "")
+        response = response.replace("GPT4 Correct User", "")
+        response = response.replace("GPT4 Correct Assistant", "")
+        
+        # Remove legacy tokens that might still appear
+        response = response.replace("<|assistant|>", "")
+        response = response.replace("<|user|>", "")
+        response = response.replace("<|system|>", "")
+        response = response.replace("</s>", "")
+        
+        # ONLY strip leading/trailing whitespace - preserve internal formatting
+        response = response.strip()
+        
+        return response
 
-        # === Simplified Formatting Fixes ===
-        # Correct '::' to ':'
-        response = re.sub(r'::+', ':', response)
-        
-        # === End of Simplified Formatting Fixes ===
-        
-        # === Essential Line Joining ===
-        # Fix mid-sentence breaks (any word followed by period, then lowercase continuation)
-        response = re.sub(r'(\w+\.)\s*[\r\n]+\s*([a-z])', r'\1 \2', response)
-        
-        # Fix incomplete sentences that end abruptly and continue on next line (lowercase or comma, then lowercase)
-        response = re.sub(r'(?<=[a-z,])\s*[\r\n]\s*(?=[a-z])', ' ', response)
-        
-        # === Final Cleanup ===
-        # Clean up multiple line breaks
-        response = re.sub(r'\n\s*\n\s*\n+', '\n\n', response)  # Max 2 line breaks
-        response = re.sub(r' +', ' ', response)  # Remove extra spaces
-        
-        return response.strip()
-
-    def _response_seems_incomplete(self, response):
-        """Check if the response seems incomplete or fragmented"""
-        import re
-        if not response:
-            return True
-        
-        # Check for various indicators of incomplete responses
-        response_clean = response.strip()
-        
-        # Too short responses are likely incomplete
-        if len(response_clean.split()) < 15:
-            return True
-        
-        # Ends abruptly without proper punctuation
-        if not response_clean.endswith(('.', '!', '?', ':')):
-            return True
-        
-        # Contains obvious fragmentation patterns
-        fragmentation_patterns = [
-            r'\w+\,\s*$',  # Ends with "word,"
-            r'[a-z]+\s*$',  # Ends with lowercase word (likely incomplete)
-            r'\w+\s+(to|and|or|of|in|on|at|for|with|by)\s*$',  # Ends with preposition (incomplete phrase)
-            r'\w+\s+(can|will|should|could|would|may|might)\s*$',  # Ends with modal verb (incomplete)
-            r'necessary\s+(to|for)\s*$',  # Incomplete "necessary to/for" phrases
-            r'able\s+to\s*$',  # Incomplete "able to" phrases
-            r'in\s+order\s+to\s*$',  # Incomplete "in order to" phrases
-        ]
-        
-        for pattern in fragmentation_patterns:
-            if re.search(pattern, response_clean):
-                return True
-                
-        return False
-
-    def _attempt_response_completion(self, incomplete_response, original_prompt, adaptive_params):
-        """Attempt to complete an incomplete response within memory constraints"""
-        try:
-            # Only attempt completion if we have sufficient memory
-            if UltraMemoryManager.check_memory_emergency():
-                return incomplete_response
-            
-            logger.debug(f"Attempting to complete response: '{incomplete_response[:50]}...'")
-            
-            # Create a continuation prompt that encourages natural completion
-            # Remove the incomplete ending and let the model naturally continue
-            words = incomplete_response.strip().split()
-            
-            # If the response ends with an incomplete phrase, remove the last few words
-            # to give the model a better starting point for continuation
-            if len(words) > 5:
-                # Check if it ends with incomplete patterns
-                last_few_words = ' '.join(words[-3:]).lower()
-                if any(pattern in last_few_words for pattern in ['necessary to', 'able to', 'in order to', 'help to', 'tend to']):
-                    # Remove the incomplete phrase
-                    truncated_response = ' '.join(words[:-2])
-                elif words[-1].lower() in ['to', 'and', 'or', 'of', 'in', 'on', 'at', 'for', 'with', 'by', 'can', 'will', 'should']:
-                    # Remove the dangling preposition or modal verb
-                    truncated_response = ' '.join(words[:-1])
-                else:
-                    truncated_response = incomplete_response
-            else:
-                truncated_response = incomplete_response
-            
-            # Create continuation prompt
-            continuation_prompt = f"{original_prompt}{truncated_response}"
-            if not continuation_prompt.endswith('\n<|assistant|>\n'):
-                continuation_prompt += '\n<|assistant|>\n'
-            
-            # Use minimal parameters for completion to save memory
-            completion_response = self.llm.create_completion(
-                continuation_prompt,
-                max_tokens=min(128, adaptive_params.get('max_response_tokens', 256) // 2),
-                stop=["<|user|>", "<|system|>", "\n\n<|", "Human:", "User:", "</s>"],
-                temperature=0.3,  # Lower temperature for consistency
-                top_p=0.85,
-                top_k=20,
-                repeat_penalty=1.2,
-                stream=False,
-                echo=False,
-            )
-            
-            completion_text = completion_response['choices'][0]['text'].strip()
-            
-            if completion_text and len(completion_text) > 10:
-                # Combine the responses intelligently
-                if truncated_response != incomplete_response:
-                    # We truncated, so combine truncated + completion
-                    combined = f"{truncated_response} {completion_text}"
-                else:
-                    # No truncation, just append
-                    combined = f"{incomplete_response} {completion_text}"
-                
-                combined = self._enhanced_post_process_response(combined)
-                logger.debug(f"Successfully completed response (+{len(completion_text)} chars)")
-                return combined
-            
-        except Exception as e:
-            logger.warning(f"Failed to complete response: {str(e)}")
-        
-        return incomplete_response
-
-# === DEPLOYMENT GENERATION FUNCTION ===
+# === OPTIMIZED GENERATION FUNCTION ===
 def generate_deployment_response(prompt, chat_session=None, user=None):
-    """Memory-adaptive response generation for 2GB constraints"""
+    """High-performance response generation optimized for 16-core, 61GB system with OpenChat 3.6 8B"""
     try:
-        model = UltraLlamaModel()
+        model = OptimizedLlamaModel()
         
         # Log memory status for monitoring
-        memory_status = UltraMemoryManager.log_memory_status()
+        memory_status = OptimizedMemoryManager.log_memory_status()
         
-        # Emergency memory check with aggressive recovery
-        if UltraMemoryManager.check_memory_emergency():
-            UltraMemoryManager.emergency_memory_recovery()
-            logger.warning("Emergency memory recovery performed")
-            
-            # If still in emergency after recovery, use minimal response
-            if UltraMemoryManager.check_memory_emergency():
-                return "I'm currently running low on system resources. Please try again with a shorter message."
+        # Light memory check (emergency rare with 61GB)
+        if OptimizedMemoryManager.check_memory_emergency():
+            OptimizedMemoryManager.emergency_memory_recovery()
+            logger.warning("Memory recovery performed")
         
         # Check and adjust parameters dynamically
         model._check_and_adjust_parameters()
         
-        # Initialize if needed with memory check
+        # Initialize if needed
         if not model.is_initialized():
-            logger.info("Initializing deployment model...")
+            logger.info("Initializing high-performance model...")
             
-            # Ensure we have enough memory before initializing
-            if memory_status['available_gb'] < 0.15:  # Less than 150MB
-                UltraMemoryManager.emergency_memory_recovery()
-                return "Insufficient memory to load AI model. Please try again shortly."
-            
-            with ultra_memory_operation():
+            with optimized_memory_operation():
                 success = model.initialize_model()
             
             if not success:
-                logger.error("DEPLOYMENT: Model initialization failed")
+                logger.error("HIGH-PERFORMANCE: Model initialization failed")
                 return "I'm currently unavailable due to system constraints. Please try again shortly."
         
-        # Generate response with adaptive parameters
-        with ultra_memory_operation():
+        # Generate response with optimized parameters
+        with optimized_memory_operation():
             if chat_session:
                 model.add_to_history(chat_session, "user", prompt)
                 prompt_with_history = model.build_prompt_with_history(chat_session, prompt)
             else:
-                # Use improved system message for standalone queries
-                system_msg = """You are a concise, helpful, truthful, grounded, insightful, knowledgeable, balanced, curious, and creative AI assistant.
-- Provide well-structured, complete sentences using standard Markdown for formatting when appropriate.
-- Get straight to the point, but explain details if asked."""
-                prompt_with_history = f"<|system|>\n{system_msg}</s>\n<|user|>\n{prompt}</s>\n<|assistant|>\n"
+                # Enhanced system message for standalone queries with OpenChat and new format
+                system_msg = """You are OpenChat, an exceptionally helpful, knowledgeable, and honest AI assistant. You provide detailed, accurate, and thoughtful responses to help users with a wide variety of topics and questions. You are creative, curious, and always strive to be maximally helpful while being truthful and harmless."""
+                prompt_with_history = f"<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n{system_msg}<|eot_id|><|start_header_id|>GPT4 Correct User<|end_header_id|>\n\n{prompt}<|eot_id|><|start_header_id|>GPT4 Correct Assistant<|end_header_id|>\n\n"
             
             try:
                 # Get current adaptive parameters for generation
-                adaptive_params = UltraMemoryManager.get_adaptive_parameters()
+                adaptive_params = OptimizedMemoryManager.get_adaptive_parameters()
                 
-                # Adjust generation parameters based on memory tier - simplified effective_max_tokens
-                effective_max_tokens = model.max_response_tokens # Use full budget for the tier
+                # Use full token budget for high-performance system
+                effective_max_tokens = model.max_response_tokens
 
-                # --- UNIFIED TEMPERATURE FROM TESTING ---
-                # A lower temperature provides more predictable and less verbose responses.
-                temperature = 0.3
+                # Optimized temperature for OpenChat 3.6 8B with new format
+                temperature = 0.7  # Higher for more creative responses from 8B model
 
+                # Tier-based generation parameters optimized for OpenChat
                 if adaptive_params['tier'] == 'minimal':
-                    top_p = 0.80
-                    top_k = 20
-                elif adaptive_params['tier'] == 'low':
                     top_p = 0.85
-                    top_k = 30
-                else:
-                    top_p = 0.90
                     top_k = 40
+                elif adaptive_params['tier'] == 'low':
+                    top_p = 0.90
+                    top_k = 50
+                elif adaptive_params['tier'] == 'medium':
+                    top_p = 0.92
+                    top_k = 60
+                else:  # high tier
+                    top_p = 0.95
+                    top_k = 80
                 
-                # Memory-adaptive generation with improved stopping
+                # High-performance generation parameters with new stop tokens
                 generation_params = {
                     'prompt': prompt_with_history,
                     'max_tokens': effective_max_tokens,
-                    'stop': ["<|user|>", "<|system|>", "\n\n<|", "Human:", "User:", "</s>"],
+                    'stop': ["<|start_header_id|>", "<|eot_id|>", "GPT4 Correct User", "Human:", "User:"],
                     'temperature': temperature,
                     'top_p': top_p,
                     'top_k': top_k,
-                    'repeat_penalty': 1.2, # UPDATED from testing
+                    'repeat_penalty': 1.15,  # Slightly lower for more natural flow
                     'frequency_penalty': 0.0,
                     'presence_penalty': 0.0,
                     'stream': False,
@@ -741,47 +588,35 @@ def generate_deployment_response(prompt, chat_session=None, user=None):
                 
                 ai_response = response['choices'][0]['text'].strip()
                 
-                # Log raw response for debugging fragmentation issues
-                logger.debug(f"Raw response length: {len(ai_response)} chars")
-                if len(ai_response) < 100:
-                    logger.debug(f"Short response: '{ai_response}'")
-                
-                # Enhanced post-processing to handle fragmentation
+                # Enhanced post-processing with new format
                 ai_response = model._enhanced_post_process_response(ai_response)
                 
-                # Check if response seems incomplete and try to complete it (memory permitting)
-                if model._response_seems_incomplete(ai_response) and adaptive_params['tier'] != 'minimal':
-                    logger.warning(f"Detected incomplete response, attempting completion. Tier: {adaptive_params['tier']}")
-                    ai_response = model._attempt_response_completion(ai_response, prompt_with_history, adaptive_params)
+                # Log final response stats
+                logger.debug(f"Final response length: {len(ai_response)} chars")
                 
                 if chat_session:
                     model.add_to_history(chat_session, "assistant", ai_response)
                 
-                logger.info(f"DEPLOYMENT: Generated {len(ai_response)} chars, tier={adaptive_params['tier']}")
+                # Perform optimized garbage collection
+                model._optimized_garbage_collect()
+                
                 return ai_response
                 
             except Exception as e:
-                logger.error(f"DEPLOYMENT: Generation error: {str(e)}")
-                
-                # Emergency fallback with better message
-                fallback = "I apologize, but I'm experiencing high system load right now. Could you please try asking your question again? I'll do my best to provide a complete response."
-                if chat_session:
-                    model.add_to_history(chat_session, "assistant", fallback)
-                
-                return fallback
+                logger.error(f"Generation error: {str(e)}")
+                return f"I apologize, but I encountered an error while processing your request. Please try again."
                 
     except Exception as e:
-        logger.critical(f"DEPLOYMENT: Critical error: {str(e)}")
-        return "I'm temporarily experiencing technical difficulties. Please try again in a moment, and I'll be happy to help you."
+        logger.error(f"HIGH-PERFORMANCE: Deployment generation failed: {str(e)}")
+        return "I'm currently experiencing technical difficulties. Please try again shortly."
 
-# === DEPLOYMENT UTILITIES ===
+# === OPTIMIZED UTILITIES ===
 def clear_deployment_history(chat_session_id):
-    """Clear history with memory cleanup"""
+    """Clear history with optimized cleanup"""
     try:
-        model = UltraLlamaModel()
+        model = OptimizedLlamaModel()
         if chat_session_id in model.conversation_history:
             del model.conversation_history[chat_session_id]
-            gc.collect()  # Immediate cleanup
             return True
         return False
     except Exception as e:
@@ -789,12 +624,12 @@ def clear_deployment_history(chat_session_id):
         return False
 
 def get_deployment_status():
-    """Get comprehensive deployment system status with adaptive parameters"""
+    """Get comprehensive deployment system status optimized for high-performance system"""
     try:
-        memory_status = UltraMemoryManager.log_memory_status()
-        adaptive_params = UltraMemoryManager.get_adaptive_parameters()
+        memory_status = OptimizedMemoryManager.log_memory_status()
+        adaptive_params = OptimizedMemoryManager.get_adaptive_parameters()
         
-        model = UltraLlamaModel()
+        model = OptimizedLlamaModel()
         model_loaded = model.is_initialized()
         
         # Get current model parameters if loaded
@@ -803,20 +638,33 @@ def get_deployment_status():
             current_params = {
                 'context_window': model.context_window,
                 'max_response_tokens': model.max_response_tokens,
-                'max_prompt_tokens': model.max_prompt_tokens
+                'max_prompt_tokens': model.max_prompt_tokens,
+                'n_threads': model.n_threads
             }
         
+        # CPU information
+        cpu_info = {
+            'cpu_count': psutil.cpu_count(),
+            'cpu_percent': psutil.cpu_percent(interval=1),
+            'load_avg': os.getloadavg() if hasattr(os, 'getloadavg') else None
+        }
+        
         return {
+            'system_type': 'high_performance',
+            'model_format': 'GPT4_Correct',
             'memory_pressure': memory_status['pressure'],
             'memory_tier': memory_status['tier'],
             'available_memory_gb': memory_status['available_gb'],
             'used_memory_gb': memory_status['used_gb'],
-            'swap_usage_gb': UltraMemoryManager.monitor_swap_usage(),
+            'total_memory_gb': psutil.virtual_memory().total / (1024**3),
+            'swap_usage_gb': OptimizedMemoryManager.monitor_swap_usage(),
             'model_loaded': model_loaded,
-            'emergency_mode': UltraMemoryManager.check_memory_emergency(),
+            'emergency_mode': OptimizedMemoryManager.check_memory_emergency(),
             'adaptive_parameters': adaptive_params,
             'current_model_parameters': current_params,
-            'memory_thresholds': ADAPTIVE_MEMORY_THRESHOLDS
+            'memory_thresholds': ADAPTIVE_MEMORY_THRESHOLDS,
+            'cpu_info': cpu_info,
+            'cache_size_gb': CACHE_SIZE_GB
         }
     except Exception as e:
         logger.error(f"Error getting deployment status: {str(e)}")
@@ -824,20 +672,20 @@ def get_deployment_status():
 
 # === STANDALONE TESTING ===
 if __name__ == "__main__":
-    print("=== DEPLOYMENT MODEL TEST ===")
+    print("=== OPENCHAT 3.6 8B HIGH-PERFORMANCE MODEL TEST (GPT4 Correct Format) ===")
     
     # Test deployment response
-    test_prompt = "Hello! How are you?"
+    test_prompt = "Hello! How are you today? Can you tell me about your capabilities as OpenChat?"
     print(f"Testing: '{test_prompt}'")
     
-    response = generate_deployment_response(test_prompt, chat_session="deploy_test")
+    response = generate_deployment_response(test_prompt, chat_session="openchat_test")
     print(f"Response: {response}")
     
     # Check status
     status = get_deployment_status()
     print(f"Status: {status}")
     
-    print("=== DEPLOYMENT TEST COMPLETE ===")
+    print("=== OPENCHAT 3.6 8B HIGH-PERFORMANCE TEST COMPLETE ===")
 
 # Global initialization status tracking (for compatibility with views.py)
 initialization_status = {
@@ -856,7 +704,7 @@ def clear_chat_history(chat_session_id):
     return clear_deployment_history(chat_session_id)
 
 def initialize_model():
-    """Initialize the ultra-optimized model with status tracking"""
+    """Initialize the optimized model with status tracking"""
     global initialization_status
     
     if initialization_status["initialized"]:
@@ -872,7 +720,7 @@ def initialize_model():
     initialization_status["timestamp"] = time.time()
     
     try:
-        model = UltraLlamaModel()
+        model = OptimizedLlamaModel()
         result = model.initialize_model()
         
         initialization_status["initialized"] = result
@@ -891,9 +739,9 @@ def initialize_model():
         return False
 
 def is_model_initialized():
-    """Check if the ultra model is initialized"""
+    """Check if the optimized model is initialized"""
     try:
-        model = UltraLlamaModel()
+        model = OptimizedLlamaModel()
         return model.is_initialized()
     except:
         return False
@@ -904,11 +752,11 @@ def generate_new_session_id():
     return str(uuid.uuid4())
 
 def load_history_from_database(user, chat_session_id):
-    """Load chat history from database into ultra model memory"""
+    """Load chat history from database into optimized model memory"""
     try:
         from .models import Chat
         
-        model = UltraLlamaModel()
+        model = OptimizedLlamaModel()
         
         # Clear existing memory history for this session
         if chat_session_id in model.conversation_history:
