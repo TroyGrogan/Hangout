@@ -179,4 +179,14 @@ cd backend/ai_model && curl -L -o "openchat-3.6-8b-20240522-Q4_K_M.gguf" "https:
 
 ^^MODEL TOO BIG. TRYING IQ2_XXS MODEL NOW:
 
-cd backend/ai_model && curl -L "https://huggingface.co/bartowski/openchat-3.6-8b-20240522-GGUF/resolve/main/openchat-3.6-8b-20240522-IQ2_XXS.gguf?download=true"
+cd backend/ai_model && curl -L -o "openchat-3.6-8b-20240522-IQ2_XXS.gguf" "https://huggingface.co/bartowski/openchat-3.6-8b-20240522-GGUF/resolve/main/openchat-3.6-8b-20240522-IQ2_XXS.gguf?download=true"
+
+
+OKAY. REALIZED THAT THESE OPENCHAT MODELS ARE WAY TOO BIG. STILL. 1 BILLION PARAMETER IS THE MAX/ LIMIT, GIVEN THESE RESOURCE CONSTRAINTS.
+
+SWITCHING TO THIS MODEL:
+gemma-3-1b-it-Q8_0.gguf
+
+downloading the Q8_0 MODEL THROUGH COMMAND LINE:
+
+cd backend/ai_model && curl -L -o "gemma-3-1b-it-Q8_0.gguf" "https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF/resolve/main/gemma-3-1b-it-Q8_0.gguf?download=true"

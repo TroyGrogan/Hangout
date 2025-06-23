@@ -31,35 +31,35 @@ MEMORY_THRESHOLD = 70       # Conservative for 61GB system
 CACHE_SIZE_GB = 2.0         # 2GB cache for performance
 
 # === ADAPTIVE MEMORY CONSTRAINTS OPTIMIZED FOR 61GB SYSTEM ===
-# Base parameters (optimized for high-memory system with larger model)
-BASE_CONTEXT_WINDOW = 8192  # Increased for OpenChat 3.6 8B
+# Base parameters (optimized for Gemma 3 1B with 32K context window)
+BASE_CONTEXT_WINDOW = 32000  # For Gemma 3 1B with 32K context window
 BASE_MAX_RESPONSE_TOKENS = 2048
 
-# Adaptive parameters based on available memory (scaled for 61GB system + OpenChat 8B)
+# Adaptive parameters based on available memory for Gemma 3 1B
 ADAPTIVE_MEMORY_THRESHOLDS = {
     'minimal': {  # < 8GB available (emergency mode)
-        'context_window': 2048,
-        'max_response_tokens': 512,
+        'context_window': 4096,
+        'max_response_tokens': 1024,
         'max_history': 3,
         'n_threads': 1
     },
     'low': {     # 8-20GB available
-        'context_window': 6144,
+        'context_window': 8192,
         'max_response_tokens': 1536,
         'max_history': 12,
-        'n_threads': 12
+        'n_threads': 4
     },
     'medium': {  # 20-30GB available
-        'context_window': 8192,
+        'context_window': 16000,
         'max_response_tokens': 2048,
         'max_history': 18,
-        'n_threads': 14
+        'n_threads': 6
     },
     'high': {    # > 30GB available
-        'context_window': 16384,  # Large context for OpenChat
-        'max_response_tokens': 4096,
+        'context_window': 32000,
+        'max_response_tokens': 2048,
         'max_history': 24,
-        'n_threads': 16
+        'n_threads': 8
     }
 }
 
@@ -147,9 +147,7 @@ class OptimizedMemoryManager:
     @staticmethod
     def get_adaptive_memory_tier():
         """Get memory tier for adaptive parameter selection (updated for 8B model)"""
-        # Force minimal mode if an environment variable indicates a low resource server
-        if os.environ.get("LOW_RESOURCE", "0").lower() in ("1", "true"):
-            return 'minimal'
+        # Removed forced low resource mode check: LOW_RESOURCE env variable is not used anymore
 
         # Force minimal mode if physical CPU count is 1 or less
         physical_cores = psutil.cpu_count(logical=False)
@@ -254,9 +252,10 @@ class OptimizedLlamaModel:
         self._last_gc = time.time()
         self._last_memory_check = 0
         
-        # === ENHANCED SYSTEM PROMPT FOR OPENCHAT 3.6 8B ===
-        self.system_prompt = """You are OpenChat, an exceptionally helpful, knowledgeable, and honest AI assistant. You provide detailed, accurate, and thoughtful responses to help users with a wide variety of topics and questions. You are creative, curious, and always strive to be maximally helpful while being truthful and harmless. Feel free to engage in comprehensive explanations and thoughtful conversations."""
-        
+        # === ENHANCED SYSTEM PROMPT FOR OPENCHAT 3.6 8B ===You are
+        # self.system_prompt = "You are Gemma, a lightweight yet state-of-the-art AI assistant built with Gemma 3. Provide detailed, accurate, and concise responses to help users."
+        self.system_prompt = """You are Gemma, an exceptionally helpful, knowledgeable, and honest AI assistant. You provide detailed, accurate, and thoughtful responses to help users with a wide variety of topics and questions. You are creative, curious, and always strive to be maximally helpful while being truthful and harmless."""
+
         logger.info(f"OptimizedLlamaModel initialized: context={self.context_window}, "
                    f"max_tokens={self.max_response_tokens}, threads={self.n_threads}, tier={adaptive_params['tier']}")
 
@@ -323,25 +322,25 @@ class OptimizedLlamaModel:
             if self._initialized:
                 return self.llm is not None
 
-            logger.info("Initializing OpenChat 3.6 8B IQ2_XXS for HIGH-PERFORMANCE DEPLOYMENT (16 CPU, 61GB RAM)")
+            logger.info("Initializing gemma-3-1b-it-Q8_0 for HIGH-PERFORMANCE DEPLOYMENT (16 CPU, 61GB RAM)")
             self._initialized = True
 
             # Log memory status before loading
             memory_status = OptimizedMemoryManager.log_memory_status()
             adaptive_params = OptimizedMemoryManager.get_adaptive_parameters()
             
-            logger.info(f"Loading OpenChat 3.6 8B model with tier='{adaptive_params['tier']}', "
+            logger.info(f"Loading gemma-3-1b-it-Q8_0 model with tier='{adaptive_params['tier']}', "
                        f"context={self.context_window}, max_tokens={self.max_response_tokens}, threads={self.n_threads}")
             
             # Check memory availability for 8B model
             if memory_status['available_gb'] < 8.0:
                 logger.warning(f"Low memory for 8B model: {memory_status['available_gb']:.2f}GB available")
 
-            model_filename = "openchat-3.6-8b-20240522-IQ2_XXS.gguf"
+            model_filename = "gemma-3-1b-it-Q8_0.gguf"
             model_path = os.path.join(BASE_DIR, "ai_model", model_filename)
             
             if not os.path.exists(model_path):
-                logger.error(f"OpenChat model file not found: {model_path}")
+                logger.error(f"Gemma model file not found: {model_path}")
                 logger.info("Please download the model from: https://huggingface.co/bartowski/openchat-3.6-8b-20240522-GGUF")
                 return False
 
@@ -397,7 +396,7 @@ class OptimizedLlamaModel:
                     # Performance test with new prompt format
                     start_time = time.time()
                     test_response = self.llm.create_completion(
-                        "<|begin_of_text|><|start_header_id|>GPT4 Correct User<|end_header_id|>\n\nHi<|eot_id|><|start_header_id|>GPT4 Correct Assistant<|end_header_id|>\n\n", 
+                        "<s> <start_of_turn>user Hi<end_of_turn> <start_of_turn>model ", 
                         max_tokens=10
                     )
                     test_time = time.time() - start_time
@@ -463,64 +462,50 @@ class OptimizedLlamaModel:
         return history[-max_history:] if len(history) > max_history else history
 
     def build_prompt_with_history(self, chat_session_id, user_input):
-        """Build optimized prompt with new GPT4 Correct format"""
+        """Build prompt using Gemma chat template."""
         try:
+            messages = []
             history = self.get_conversation_history(chat_session_id)
+            # Prepend system message if not present
+            if not history or history[0]["role"] != "system":
+                messages.append({"role": "system", "content": self.system_prompt})
+            messages.extend(history)
+            messages.append({"role": "user", "content": user_input})
             
-            # Start with the new format
-            prompt_parts = ["<|begin_of_text|>"]
+            bos_token = "<s>"
+            prompt = bos_token + " "
             
-            # Add system message using the new format
-            system_msg = self.system_prompt
-            prompt_parts.append(f"<|start_header_id|>system<|end_header_id|>\n\n{system_msg}<|eot_id|>")
+            if messages and messages[0]["role"] == "system":
+                first_user_prefix = messages[0]["content"].strip() + " "
+                loop_messages = messages[1:]
+            else:
+                first_user_prefix = ""
+                loop_messages = messages
             
-            # Add conversation history using the new format
-            for message in history[-16:]:  # Up to 16 messages (8 exchanges)
-                if message["role"] == "user":
-                    prompt_parts.append(f"<|start_header_id|>GPT4 Correct User<|end_header_id|>\n\n{message['content']}<|eot_id|>")
-                elif message["role"] == "assistant":
-                    prompt_parts.append(f"<|start_header_id|>GPT4 Correct Assistant<|end_header_id|>\n\n{message['content']}<|eot_id|>")
+            for i, message in enumerate(loop_messages):
+                # Expect roles to alternate: user then assistant
+                role = "model" if message["role"] == "assistant" else message["role"]
+                if i == 0:
+                    prompt += f"<start_of_turn>{role} {first_user_prefix}{message['content'].strip()}<end_of_turn> "
+                else:
+                    prompt += f"<start_of_turn>{role} {message['content'].strip()}<end_of_turn> "
             
-            # Current user input
-            prompt_parts.append(f"<|start_header_id|>GPT4 Correct User<|end_header_id|>\n\n{user_input}<|eot_id|>")
-            prompt_parts.append(f"<|start_header_id|>GPT4 Correct Assistant<|end_header_id|>\n\n")
+            # Append generation prompt for the model's turn
+            prompt += "<start_of_turn>model "
             
-            full_prompt = "".join(prompt_parts)
-            
-            # Log the prompt for debugging (truncated)
-            logger.debug(f"Built prompt length: {len(full_prompt)} chars")
-            
-            return full_prompt
-            
+            logger.debug(f"Built prompt length: {len(prompt)} chars")
+            return prompt
         except Exception as e:
             logger.error(f"Error building prompt: {str(e)}")
-            # Enhanced fallback with new format
-            system_msg = """You are OpenChat, an exceptionally helpful, knowledgeable, and honest AI assistant. You provide detailed, accurate, and thoughtful responses to help users with a wide variety of topics and questions. You are creative, curious, and always strive to be maximally helpful while being truthful and harmless."""
-            return f"<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n{system_msg}<|eot_id|><|start_header_id|>GPT4 Correct User<|end_header_id|>\n\n{user_input}<|eot_id|><|start_header_id|>GPT4 Correct Assistant<|end_header_id|>\n\n"
+            # Fallback prompt
+            return f"<s> <start_of_turn>system {self.system_prompt}<end_of_turn> <start_of_turn>user {user_input}<end_of_turn> <start_of_turn>model "
 
     def _enhanced_post_process_response(self, response):
-        """Minimal post-processing - ONLY remove tokens, preserve all formatting for frontend"""
+        """Post-process response for Gemma - remove turn markers."""
         if not response:
             return response
-            
-        # ONLY remove special tokens - preserve ALL spacing and formatting
-        response = response.replace("<|start_header_id|>", "")
-        response = response.replace("<|end_header_id|>", "")
-        response = response.replace("<|begin_of_text|>", "")
-        response = response.replace("<|eot_id|>", "")
-        response = response.replace("GPT4 Correct User", "")
-        response = response.replace("GPT4 Correct Assistant", "")
-        
-        # Remove legacy tokens that might still appear
-        response = response.replace("<|assistant|>", "")
-        response = response.replace("<|user|>", "")
-        response = response.replace("<|system|>", "")
-        response = response.replace("</s>", "")
-        
-        # ONLY strip leading/trailing whitespace - preserve internal formatting
-        response = response.strip()
-        
-        return response
+        response = response.replace("<start_of_turn>", "").replace("<end_of_turn>", "")
+        return response.strip()
 
 # === OPTIMIZED GENERATION FUNCTION ===
 def generate_deployment_response(prompt, chat_session=None, user=None):
@@ -557,8 +542,9 @@ def generate_deployment_response(prompt, chat_session=None, user=None):
                 prompt_with_history = model.build_prompt_with_history(chat_session, prompt)
             else:
                 # Enhanced system message for standalone queries with OpenChat and new format
-                system_msg = """You are OpenChat, an exceptionally helpful, knowledgeable, and honest AI assistant. You provide detailed, accurate, and thoughtful responses to help users with a wide variety of topics and questions. You are creative, curious, and always strive to be maximally helpful while being truthful and harmless."""
-                prompt_with_history = f"<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n{system_msg}<|eot_id|><|start_header_id|>GPT4 Correct User<|end_header_id|>\n\n{prompt}<|eot_id|><|start_header_id|>GPT4 Correct Assistant<|end_header_id|>\n\n"
+                # system_msg = "You are Gemma, a lightweight yet state-of-the-art AI assistant built with Gemma 3. Provide detailed, accurate, and concise responses to help users."
+                system_msg = "You are Gemma, an exceptionally helpful, knowledgeable, and honest AI assistant. You provide detailed, accurate, and thoughtful responses to help users with a wide variety of topics and questions. You are creative, curious, and always strive to be maximally helpful while being truthful and harmless."
+                prompt_with_history = f"<s> <start_of_turn>system {system_msg}<end_of_turn> <start_of_turn>user {prompt.strip()}<end_of_turn> <start_of_turn>model "
             
             try:
                 # Get current adaptive parameters for generation
@@ -588,7 +574,7 @@ def generate_deployment_response(prompt, chat_session=None, user=None):
                 generation_params = {
                     'prompt': prompt_with_history,
                     'max_tokens': effective_max_tokens,
-                    'stop': ["<|start_header_id|>", "<|eot_id|>", "GPT4 Correct User", "Human:", "User:"],
+                    'stop': ["<end_of_turn>"],
                     'temperature': temperature,
                     'top_p': top_p,
                     'top_k': top_k,
