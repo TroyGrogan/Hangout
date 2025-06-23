@@ -272,7 +272,7 @@ class OptimizedLlamaModel:
         
         # === SYSTEM PROMPT FOR GEMMA 3 ===
         # Per official Google guidance, system prompts are included in the first user turn.
-        self.system_prompt = "You are Gemma, a helpful and honest AI assistant. You provide concise and accurate responses to help users."
+        self.system_prompt = "You are a helpful AI assistant. Provide concise and accurate responses."
 
         logger.info(f"OptimizedLlamaModel initialized: context={self.context_window}, "
                    f"max_tokens={self.max_response_tokens}, threads={self.n_threads}, tier={adaptive_params['tier']}")
@@ -364,7 +364,7 @@ class OptimizedLlamaModel:
                     from llama_cpp import Llama
                     
                     # Set reduced batch size for low-resource minimal tier
-                    n_batch_value = 64 if adaptive_params['tier'] == 'minimal' else 128
+                    n_batch_value = 32 # Lowered from 64/128 for better memory stability
                     self.llm = Llama(
                         model_path=model_path,
                         n_ctx=self.context_window,        # Context window adjusted for low memory
@@ -466,9 +466,6 @@ class OptimizedLlamaModel:
             history = self.get_conversation_history(chat_session_id)
             prompt_parts = []
 
-            # Start with the beginning-of-string token
-            prompt_parts.append("<bos>")
-
             for i, message in enumerate(history):
                 role = "model" if message["role"] == "assistant" else message["role"]
                 content = message['content'].strip()
@@ -490,7 +487,7 @@ class OptimizedLlamaModel:
             logger.error(f"Error building prompt: {traceback.format_exc()}")
             # Fallback prompt that also follows the template
             user_input = history[-1]['content'] if history else ""
-            return f"<bos>\n<start_of_turn>user\n{self.system_prompt}\n\n{user_input.strip()}<end_of_turn>\n<start_of_turn>model"
+            return f"<start_of_turn>user\n{self.system_prompt}\n\n{user_input.strip()}<end_of_turn>\n<start_of_turn>model"
 
     def _enhanced_post_process_response(self, response):
         """Post-process response for Gemma - remove turn markers."""
@@ -534,7 +531,7 @@ def generate_deployment_response(prompt, chat_session=None, user=None):
                 prompt_with_history = model.build_prompt_with_history(chat_session)
             else:
                 # Use the official Gemma 3 template for standalone queries
-                prompt_with_history = f"<bos>\n<start_of_turn>user\n{model.system_prompt}\n\n{prompt.strip()}<end_of_turn>\n<start_of_turn>model"
+                prompt_with_history = f"<start_of_turn>user\n{model.system_prompt}\n\n{prompt.strip()}<end_of_turn>\n<start_of_turn>model"
             
             try:
                 # Get current adaptive parameters for generation
