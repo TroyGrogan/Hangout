@@ -38,10 +38,10 @@ BASE_MAX_RESPONSE_TOKENS = 2048
 # Adaptive parameters based on available memory (scaled for 61GB system + OpenChat 8B)
 ADAPTIVE_MEMORY_THRESHOLDS = {
     'minimal': {  # < 8GB available (emergency mode)
-        'context_window': 4096,
-        'max_response_tokens': 1024,
-        'max_history': 6,
-        'n_threads': 8
+        'context_window': 2048,
+        'max_response_tokens': 512,
+        'max_history': 3,
+        'n_threads': 1
     },
     'low': {     # 8-20GB available
         'context_window': 6144,
@@ -336,7 +336,7 @@ class OptimizedLlamaModel:
                     # Optimized cache size based on memory tier for 8B model
                     cache_gb = CACHE_SIZE_GB
                     if adaptive_params['tier'] == 'minimal':
-                        cache_gb = 1.0   # 1GB cache
+                        cache_gb = 0.0   # disable cache for minimal tier to save memory
                     elif adaptive_params['tier'] == 'low':
                         cache_gb = 1.5   # 1.5GB cache
                     elif adaptive_params['tier'] == 'medium':
@@ -352,20 +352,21 @@ class OptimizedLlamaModel:
 
                     from llama_cpp import Llama
                     
-                    # HIGH-PERFORMANCE DEPLOYMENT PARAMETERS FOR OPENCHAT 8B
+                    # Set reduced batch size for low-resource minimal tier
+                    n_batch_value = 128 if adaptive_params['tier'] == 'minimal' else 512
                     self.llm = Llama(
                         model_path=model_path,
-                        n_ctx=self.context_window,        # Large context window
-                        n_threads=self.n_threads,         # Multi-threaded
-                        n_gpu_layers=0,                   # CPU only (but many cores)
+                        n_ctx=self.context_window,        # Context window adjusted for low memory
+                        n_threads=self.n_threads,         # Reduced threads for 1 CPU
+                        n_gpu_layers=0,                   # CPU only
                         verbose=False,
                         cache=self.cache,
                         
                         # === PERFORMANCE OPTIMIZATION FOR 8B MODEL ===
                         use_mmap=True,                    # Memory-map file
                         use_mlock=True,                   # Lock memory for performance
-                        n_batch=512,                      # Large batch for throughput
-                        last_n_tokens_size=256,           # Larger for 8B model
+                        n_batch=n_batch_value,            # Adjusted batch size for minimal tier
+                        last_n_tokens_size=256,           # Token buffer size
                         
                         # === HIGH-PERFORMANCE SPECIFIC ===
                         numa=True,                        # Enable NUMA awareness
