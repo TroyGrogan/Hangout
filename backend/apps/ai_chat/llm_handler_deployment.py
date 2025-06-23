@@ -147,10 +147,24 @@ class OptimizedMemoryManager:
     @staticmethod
     def get_adaptive_memory_tier():
         """Get memory tier for adaptive parameter selection (updated for 8B model)"""
+        # Force minimal mode if an environment variable indicates a low resource server
+        if os.environ.get("LOW_RESOURCE", "0").lower() in ("1", "true"):
+            return 'minimal'
+
+        # Force minimal mode if physical CPU count is 1 or less
+        physical_cores = psutil.cpu_count(logical=False)
+        if physical_cores is not None and physical_cores <= 1:
+            return 'minimal'
+
+        # Force minimal mode if total system memory is below 4GB
+        total_gb = psutil.virtual_memory().total / (1024 ** 3)
+        if total_gb < 4:
+            return 'minimal'
+
         available_gb = OptimizedMemoryManager.get_available_memory_gb()
         pressure = OptimizedMemoryManager.get_memory_pressure()
         
-        # Adjusted thresholds for larger 8B model
+        # Adjusted thresholds for larger 8B model, use minimal if in emergency
         if pressure == 'critical' or available_gb < 8:
             return 'minimal'
         elif pressure == 'high' or available_gb < 20:
