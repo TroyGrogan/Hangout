@@ -10,14 +10,23 @@
 # Exit on error
 set -o errexit
 
-# Install Python dependencies
+# Install Python dependencies. Since this script is run from the `backend` directory,
+# the path 'requirements.txt' is correct.
+echo "Installing Python dependencies..."
 pip install -r requirements.txt
 
-# Create the directory for the AI model if it doesn't exist
-# mkdir -p backend/ai_model
+# Create the directory for the AI model.
+# The path is now correctly relative to the `backend` directory where this script runs.
+echo "Creating AI model directory..."
+mkdir -p ai_model
 
-# Download the AI model file from Hugging Face
-# This uses curl to download the file and places it in the correct directory
+# Download the AI model file from Hugging Face into the correct `ai_model` directory.
 echo "Downloading Gemma 3 1B model... this may take a few minutes."
-curl -L -o backend/ai_model/gemma-3-1b-it-Q8_0.gguf "https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF/resolve/main/gemma-3-1b-it-Q8_0.gguf?download=true"
-echo "Model download complete." 
+curl -L -o ai_model/gemma-3-1b-it-Q8_0.gguf "https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF/resolve/main/gemma-3-1b-it-Q8_0.gguf?download=true"
+echo "Model download complete."
+
+# Run Django management commands for deployment.
+# These are run from the `backend` directory where manage.py is located.
+echo "Running Django management commands..."
+python manage.py collectstatic --no-input
+python manage.py migrate --no-input 
