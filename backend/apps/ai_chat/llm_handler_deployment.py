@@ -6,7 +6,7 @@
 # 3. Intelligent memory management for 61GB system
 # 4. Performance-focused caching
 # 5. Adaptive scaling based on actual resources
-# 6. UPGRADED TO OPENCHAT 3.6 8B MODEL with NEW PROMPT FORMAT
+# 6. UPGRADED TO GEMMA 3 1B MODEL
 
 import os
 import threading
@@ -222,7 +222,7 @@ def optimized_memory_operation():
 
 # === OPTIMIZED LLAMA MODEL ===
 class OptimizedLlamaModel:
-    """High-performance LLM optimized for 16-core, 61GB system with OpenChat 3.6 8B"""
+    """High-performance LLM optimized for 16-core, 61GB system with Gemma 3 1B"""
     _instance = None
     _lock = threading.Lock()
     _operation_count = 0
@@ -252,7 +252,7 @@ class OptimizedLlamaModel:
         self._last_gc = time.time()
         self._last_memory_check = 0
         
-        # === ENHANCED SYSTEM PROMPT FOR OPENCHAT 3.6 8B ===You are
+        # === SYSTEM PROMPT FOR GEMMA 3 ===
         # self.system_prompt = "You are Gemma, a lightweight yet state-of-the-art AI assistant built with Gemma 3. Provide detailed, accurate, and concise responses to help users."
         self.system_prompt = """You are Gemma, an exceptionally helpful, knowledgeable, and honest AI assistant. You provide detailed, accurate, and thoughtful responses to help users with a wide variety of topics and questions. You are creative, curious, and always strive to be maximally helpful while being truthful and harmless."""
 
@@ -289,14 +289,13 @@ class OptimizedLlamaModel:
             self._last_memory_check = current_time
 
     def _post_process_response(self, response):
-        """Enhanced post-processing for better responses with new prompt format"""
+        """Post-processing for Gemma responses"""
         if not response:
             return response
             
         # Remove any remaining special tokens from the new format
         response = response.replace("<|start_header_id|>", "").replace("<|end_header_id|>", "")
         response = response.replace("<|begin_of_text|>", "").replace("<|eot_id|>", "")
-        response = response.replace("GPT4 Correct User", "").replace("GPT4 Correct Assistant", "")
         
         # Remove legacy tokens that might still appear
         response = response.replace("<|assistant|>", "").replace("<|user|>", "").replace("<|system|>", "")
@@ -341,7 +340,7 @@ class OptimizedLlamaModel:
             
             if not os.path.exists(model_path):
                 logger.error(f"Gemma model file not found: {model_path}")
-                logger.info("Please download the model from: https://huggingface.co/bartowski/openchat-3.6-8b-20240522-GGUF")
+                logger.info("Please download the model from: https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF?show_file_info=gemma-3-1b-it-Q8_0.gguf")
                 return False
 
             with optimized_memory_operation():
@@ -382,16 +381,16 @@ class OptimizedLlamaModel:
                         last_n_tokens_size=256,           # Token buffer size
                         
                         # === HIGH-PERFORMANCE SPECIFIC ===
-                        numa=True,                        # Enable NUMA awareness
+                        numa=False,                       # Disable NUMA awareness on non-Linux
                         offload_kqv=False,               # Keep in main memory
                         flash_attn=False,                # Disable for compatibility
                         
-                        # === OPTIMIZED SETTINGS FOR OPENCHAT ===
+                        # === OPTIMIZED SETTINGS FOR GEMMA ===
                         rope_scaling_type=0,             # No rope scaling
                         rope_freq_base=10000.0,          # Default rope freq
                     )
                     
-                    logger.info(f"OpenChat 3.6 8B IQ2_XXS loaded! Tier: {adaptive_params['tier']}, Threads: {self.n_threads}")
+                    logger.info(f"Gemma 3 1B loaded! Tier: {adaptive_params['tier']}, Threads: {self.n_threads}")
                     
                     # Performance test with new prompt format
                     start_time = time.time()
@@ -400,7 +399,7 @@ class OptimizedLlamaModel:
                         max_tokens=10
                     )
                     test_time = time.time() - start_time
-                    logger.info(f"OpenChat performance test: {test_time:.2f}s for 10 tokens")
+                    logger.info(f"Gemma performance test: {test_time:.2f}s for 10 tokens")
                     
                     # Final memory check
                     final_memory = OptimizedMemoryManager.log_memory_status()
@@ -409,7 +408,7 @@ class OptimizedLlamaModel:
                     return True
                     
                 except Exception as e:
-                    logger.error(f"OpenChat 3.6 8B model loading failed: {str(e)}")
+                    logger.error(f"Gemma 3 1B model loading failed: {str(e)}")
                     self.llm = None
                     return False
 
@@ -509,7 +508,7 @@ class OptimizedLlamaModel:
 
 # === OPTIMIZED GENERATION FUNCTION ===
 def generate_deployment_response(prompt, chat_session=None, user=None):
-    """High-performance response generation optimized for 16-core, 61GB system with OpenChat 3.6 8B"""
+    """High-performance response generation optimized for 16-core, 61GB system with Gemma 3 1B"""
     try:
         model = OptimizedLlamaModel()
         
@@ -553,10 +552,10 @@ def generate_deployment_response(prompt, chat_session=None, user=None):
                 # Use full token budget for high-performance system
                 effective_max_tokens = model.max_response_tokens
 
-                # Optimized temperature for OpenChat 3.6 8B with new format
+                # Optimized temperature for Gemma 3 1B
                 temperature = 0.7  # Higher for more creative responses from 8B model
 
-                # Tier-based generation parameters optimized for OpenChat
+                # Tier-based generation parameters optimized for Gemma
                 if adaptive_params['tier'] == 'minimal':
                     top_p = 0.85
                     top_k = 40
@@ -570,7 +569,7 @@ def generate_deployment_response(prompt, chat_session=None, user=None):
                     top_p = 0.95
                     top_k = 80
                 
-                # High-performance generation parameters with new stop tokens
+                # High-performance generation parameters
                 generation_params = {
                     'prompt': prompt_with_history,
                     'max_tokens': effective_max_tokens,
@@ -673,20 +672,20 @@ def get_deployment_status():
 
 # === STANDALONE TESTING ===
 if __name__ == "__main__":
-    print("=== OPENCHAT 3.6 8B HIGH-PERFORMANCE MODEL TEST (GPT4 Correct Format) ===")
+    print("=== GEMMA 3 1B HIGH-PERFORMANCE MODEL TEST ===")
     
     # Test deployment response
-    test_prompt = "Hello! How are you today? Can you tell me about your capabilities as OpenChat?"
+    test_prompt = "Hello! How are you today? Can you tell me about your capabilities as Gemma?"
     print(f"Testing: '{test_prompt}'")
     
-    response = generate_deployment_response(test_prompt, chat_session="openchat_test")
+    response = generate_deployment_response(test_prompt, chat_session="gemma_test")
     print(f"Response: {response}")
     
     # Check status
     status = get_deployment_status()
     print(f"Status: {status}")
     
-    print("=== OPENCHAT 3.6 8B HIGH-PERFORMANCE TEST COMPLETE ===")
+    print("=== GEMMA 3 1B HIGH-PERFORMANCE TEST COMPLETE ===")
 
 # Global initialization status tracking (for compatibility with views.py)
 initialization_status = {
