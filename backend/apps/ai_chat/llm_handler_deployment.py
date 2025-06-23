@@ -364,7 +364,7 @@ class OptimizedLlamaModel:
                     from llama_cpp import Llama
                     
                     # Set reduced batch size for low-resource minimal tier
-                    n_batch_value = 32 # Lowered from 64/128 for better memory stability
+                    n_batch_value = 32 if adaptive_params['tier'] != 'minimal' else 1 # Lowered for stability
                     self.llm = Llama(
                         model_path=model_path,
                         n_ctx=self.context_window,        # Context window adjusted for low memory
@@ -381,7 +381,7 @@ class OptimizedLlamaModel:
                         
                         # === LOW-RESOURCE SPECIFIC ===
                         numa=False,                       # Disable NUMA awareness
-                        offload_kqv=True,                 # Offload key/query vectors to save RAM
+                        offload_kqv=False,                 # Offload key/query vectors to save RAM
                         flash_attn=False,                 # Disable for compatibility
                         
                         # === OPTIMIZED SETTINGS FOR GEMMA ===
