@@ -21,9 +21,15 @@ echo "Creating AI model directory..."
 mkdir -p ai_model
 
 # Download the AI model file from Hugging Face into the correct `ai_model` directory.
-echo "Downloading Gemma 3 1B model... this may take a few minutes."
-curl -L -o ai_model/gemma-3-1b-it-Q8_0.gguf "https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF/resolve/main/gemma-3-1b-it-Q8_0.gguf?download=true"
+# We are using the Q4_K_M version which is smaller and more suitable for low-memory environments.
+echo "Downloading Gemma 3 1B (Q4_K_M) model... this may take a few minutes."
+curl -L -o ai_model/gemma-3-1b-it-Q4_K_M.gguf "https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF/resolve/main/gemma-3-1b-it-Q4_K_M.gguf?download=true"
 echo "Model download complete."
+
+# Remove unnecessary directories to reduce slug size.
+echo "Removing unnecessary directories..."
+rm -rf tests
+rm -rf database_rls_things
 
 # Run Django management commands for deployment.
 # These are run from the `backend` directory where manage.py is located.

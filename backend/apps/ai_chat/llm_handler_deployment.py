@@ -353,12 +353,12 @@ class OptimizedLlamaModel:
             if memory_status['available_gb'] < 1.2:
                 logger.warning(f"Very low memory for 1B model: {memory_status['available_gb']:.2f}GB available")
 
-            model_filename = "gemma-3-1b-it-Q8_0.gguf"
+            model_filename = "gemma-3-1b-it-Q4_K_M.gguf"
             model_path = os.path.join(BASE_DIR, "ai_model", model_filename)
             
             if not os.path.exists(model_path):
                 logger.error(f"Gemma model file not found: {model_path}")
-                logger.info("Please download the model from: https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF?show_file_info=gemma-3-1b-it-Q8_0.gguf")
+                logger.info("Please download the model from: https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF?show_file_info=gemma-3-1b-it-Q4_K_M.gguf")
                 return False
 
             with optimized_memory_operation():
