@@ -3,7 +3,7 @@
 # Change it to: bash build.sh
 # Find the Start Command setting. 
 #It should already be set to what's in your Procfile: 
-#gunicorn --workers 1 --timeout 1200 --max-requests 1000 --max-requests-jitter 50 backend.wsgi:application
+#gunicorn --workers 1 --timeout 1200 --max-requests 1000 --max-requests-jitter 50 backend.wsgi:application --bind 0.0.0.0:$PORT
 # Click Save Changes and trigger a new deployment.
 
 #!/usr/bin/env bash
@@ -21,9 +21,8 @@ echo "Creating AI model directory..."
 mkdir -p ai_model
 
 # Download the AI model file from Hugging Face into the correct `ai_model` directory.
-# We are switching to the Q8_0 version of TinyLlama as requested.
-echo "Downloading TinyLlama 1.1B (Q8_0) model... this may take a few minutes."
-curl -L -o ai_model/tinyllama-1.1b-chat-v1.0.Q8_0.gguf "https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q8_0.gguf?download=true"
+echo "Downloading Gemma 3 1B model... this may take a few minutes."
+curl -L -o ai_model/gemma-3-1b-it-Q8_0.gguf "https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF/resolve/main/gemma-3-1b-it-Q8_0.gguf?download=true"
 echo "Model download complete."
 
 # Remove unnecessary directories to reduce slug size.
@@ -33,6 +32,6 @@ rm -rf database_rls_things
 
 # Run Django management commands for deployment.
 # These are run from the `backend` directory where manage.py is located.
-echo "Running Django management commands..."
-python manage.py collectstatic --no-input
-python manage.py migrate --no-input 
+# echo "Running Django management commands..."
+# python manage.py collectstatic --no-input
+# python manage.py migrate --no-input 

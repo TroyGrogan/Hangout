@@ -6,7 +6,7 @@
 # 3. Intelligent memory management for 2GB system
 # 4. Disabled caching to conserve memory
 # 5. Adaptive scaling based on actual limited resources
-# 6. USING TINYLLAMA 1.1B Q8_0 (1.17GB) - HIGH MEMORY RISK
+# 6. UPGRADED TO GEMMA 3 1B MODEL
 
 import os
 import threading
@@ -36,7 +36,7 @@ SIMULATED_TOTAL_RAM_GB = 2.0 # Hard cap for memory calculations to simulate a 2G
 BASE_CONTEXT_WINDOW = 4096  # Reduced base context
 BASE_MAX_RESPONSE_TOKENS = 1536 # Increased base response tokens to prioritize complete answers
 
-# Adaptive parameters based on available memory for TinyLlama 1.1B on a 2GB system.
+# Adaptive parameters based on available memory for Gemma 3 1B on a 2GB system.
 # These have been re-balanced to prioritize response completeness over long-term context.
 ADAPTIVE_MEMORY_THRESHOLDS = {
     'minimal': {  # < 250MB available (emergency mode)
@@ -240,7 +240,7 @@ def optimized_memory_operation():
 
 # === OPTIMIZED LLAMA MODEL ===
 class OptimizedLlamaModel:
-    """Low-resource LLM optimized for 1-core, 2GB system with TinyLlama 1.1B"""
+    """Low-resource LLM optimized for 1-core, 2GB system with Gemma 3 1B"""
     _instance = None
     _lock = threading.Lock()
     _operation_count = 0
@@ -270,8 +270,9 @@ class OptimizedLlamaModel:
         self._last_gc = time.time()
         self._last_memory_check = 0
         
-        # === SYSTEM PROMPT FOR TINYLLAMA (ZEPHYR) ===
-        self.system_prompt = "You are a friendly chatbot who always responds in the style of a pirate"
+        # === SYSTEM PROMPT FOR GEMMA 3 ===
+        # Per official Google guidance, system prompts are included in the first user turn.
+        self.system_prompt = "You are Gemma, a helpful and honest AI assistant. You provide concise and accurate responses to help users."
 
         logger.info(f"OptimizedLlamaModel initialized: context={self.context_window}, "
                    f"max_tokens={self.max_response_tokens}, threads={self.n_threads}, tier={adaptive_params['tier']}")
@@ -306,13 +307,12 @@ class OptimizedLlamaModel:
             self._last_memory_check = current_time
 
     def _post_process_response(self, response):
-        """Post-processing for TinyLlama responses"""
+        """Post-processing for Gemma responses"""
         if not response:
             return response
             
-        # Remove any remaining special tokens from the new format
-        response = response.replace("<|im_start|>", "").replace("<|im_end|>", "")
-        response = response.replace("</s>", "").strip()
+        # Gemma 3 response cleanup
+        response = response.replace("<end_of_turn>", "").strip()
         
         return response
 
@@ -334,26 +334,26 @@ class OptimizedLlamaModel:
             if self._initialized:
                 return self.llm is not None
 
-            logger.info("Initializing tinyllama-1.1b-chat-v1.0.Q8_0 for LOW-RESOURCE DEPLOYMENT (1 CPU, 2GB RAM)")
+            logger.info("Initializing gemma-3-1b-it-Q8_0 for LOW-RESOURCE DEPLOYMENT (1 CPU, 2GB RAM)")
             self._initialized = True
 
             # Log memory status before loading
             memory_status = OptimizedMemoryManager.log_memory_status()
             adaptive_params = OptimizedMemoryManager.get_adaptive_parameters()
             
-            logger.info(f"Loading tinyllama-1.1b-chat-v1.0.Q8_0 model with tier='{adaptive_params['tier']}', "
+            logger.info(f"Loading gemma-3-1b-it-Q8_0 model with tier='{adaptive_params['tier']}', "
                        f"context={self.context_window}, max_tokens={self.max_response_tokens}, threads={self.n_threads}")
             
             # Check memory availability for 1B model
-            if memory_status['available_gb'] < 0.8:
-                logger.warning(f"CRITICAL low memory for 1.17GB model: {memory_status['available_gb']:.2f}GB available")
+            if memory_status['available_gb'] < 1.2:
+                logger.warning(f"Very low memory for 1B model: {memory_status['available_gb']:.2f}GB available")
 
-            model_filename = "tinyllama-1.1b-chat-v1.0.Q8_0.gguf"
+            model_filename = "gemma-3-1b-it-Q8_0.gguf"
             model_path = os.path.join(BASE_DIR, "ai_model", model_filename)
             
             if not os.path.exists(model_path):
-                logger.error(f"TinyLlama model file not found: {model_path}")
-                logger.info("Please download the model from: https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/blob/main/tinyllama-1.1b-chat-v1.0.Q8_0.gguf")
+                logger.error(f"Gemma model file not found: {model_path}")
+                logger.info("Please download the model from: https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF?show_file_info=gemma-3-1b-it-Q8_0.gguf")
                 return False
 
             with optimized_memory_operation():
@@ -384,21 +384,22 @@ class OptimizedLlamaModel:
                         offload_kqv=True,                 # Offload key/query vectors to save RAM
                         flash_attn=False,                 # Disable for compatibility
                         
-                        # === OPTIMIZED SETTINGS FOR TINYLLAMA ===
+                        # === OPTIMIZED SETTINGS FOR GEMMA ===
                         rope_scaling_type=0,             # No rope scaling
                         rope_freq_base=10000.0,          # Default rope freq
                     )
                     
-                    logger.info(f"TinyLlama 1.1B loaded! Tier: {adaptive_params['tier']}, Threads: {self.n_threads}")
+                    logger.info(f"Gemma 3 1B loaded! Tier: {adaptive_params['tier']}, Threads: {self.n_threads}")
                     
                     # Performance test with new prompt format
                     start_time = time.time()
                     test_response = self.llm.create_completion(
-                        "<|system|>\n</s>\n<|user|>\nHi</s>\n<|assistant|>\n",
-                        max_tokens=10
+                        "<start_of_turn>user\nHello!<end_of_turn>\n<start_of_turn>model", 
+                        max_tokens=10,
+                        stop=["<end_of_turn>"]
                     )
                     test_time = time.time() - start_time
-                    logger.info(f"TinyLlama performance test: {test_time:.2f}s for 10 tokens")
+                    logger.info(f"Gemma performance test: {test_time:.2f}s for 10 tokens")
                     
                     # Final memory check
                     final_memory = OptimizedMemoryManager.log_memory_status()
@@ -407,7 +408,7 @@ class OptimizedLlamaModel:
                     return True
                     
                 except Exception as e:
-                    logger.error(f"TinyLlama 1.1B model loading failed: {str(e)}")
+                    logger.error(f"Gemma 3 1B model loading failed: {str(e)}")
                     self.llm = None
                     return False
 
@@ -460,45 +461,47 @@ class OptimizedLlamaModel:
         return history[-max_history:] if len(history) > max_history else history
 
     def build_prompt_with_history(self, chat_session_id):
-        """Build prompt using the official TinyLlama (Zephyr) chat template."""
+        """Build prompt using the official Gemma 3 chat template."""
         try:
             history = self.get_conversation_history(chat_session_id)
-            
-            # Start with the system prompt
-            prompt = f"<|system|>\n{self.system_prompt}</s>\n"
+            prompt_parts = []
 
-            # Add conversation history
-            for message in history:
-                if message["role"] == "user":
-                    prompt += f"<|user|>\n{message['content'].strip()}</s>\n"
-                elif message["role"] == "assistant":
-                    prompt += f"<|assistant|>\n{message['content'].strip()}</s>\n"
-            
-            # Add the final generation prompt
-            prompt += "<|assistant|>\n"
+            # Start with the beginning-of-string token
+            prompt_parts.append("<bos>")
 
-            logger.debug(f"Built prompt length: {len(prompt)} chars")
-            return prompt
+            for i, message in enumerate(history):
+                role = "model" if message["role"] == "assistant" else message["role"]
+                content = message['content'].strip()
+
+                # Prepend system prompt to the first user message
+                if i == 0 and role == 'user':
+                    content = f"{self.system_prompt}\n\n{content}"
+                
+                prompt_parts.append(f"<start_of_turn>{role}\n{content}<end_of_turn>")
+
+            # Add the generation prompt for the model's turn
+            prompt_parts.append("<start_of_turn>model")
+
+            final_prompt = "\n".join(prompt_parts)
+            logger.debug(f"Built prompt length: {len(final_prompt)} chars")
+            return final_prompt
             
         except Exception as e:
             logger.error(f"Error building prompt: {traceback.format_exc()}")
             # Fallback prompt that also follows the template
             user_input = history[-1]['content'] if history else ""
-            return f"<|system|>\n{self.system_prompt}</s>\n<|user|>\n{user_input.strip()}</s>\n<|assistant|>\n"
+            return f"<bos>\n<start_of_turn>user\n{self.system_prompt}\n\n{user_input.strip()}<end_of_turn>\n<start_of_turn>model"
 
     def _enhanced_post_process_response(self, response):
-        """Post-process response for TinyLlama - remove turn markers and stop tokens."""
+        """Post-process response for Gemma - remove turn markers."""
         if not response:
             return response
-        # Remove the stop token first
-        response = response.replace("</s>", "")
-        # Then remove any chat markers
-        response = response.replace("<|system|>", "").replace("<|user|>", "").replace("<|assistant|>", "")
+        response = response.replace("<start_of_turn>", "").replace("<end_of_turn>", "")
         return response.strip()
 
 # === OPTIMIZED GENERATION FUNCTION ===
 def generate_deployment_response(prompt, chat_session=None, user=None):
-    """High-performance response generation optimized for 1-core, 2GB system with TinyLlama 1.1B"""
+    """High-performance response generation optimized for 1-core, 2GB system with Gemma 3 1B"""
     try:
         model = OptimizedLlamaModel()
         
@@ -530,9 +533,8 @@ def generate_deployment_response(prompt, chat_session=None, user=None):
                 model.add_to_history(chat_session, "user", prompt)
                 prompt_with_history = model.build_prompt_with_history(chat_session)
             else:
-                # Use the official TinyLlama Zephyr template for standalone queries
-                system_msg = "You are a friendly chatbot who always responds in the style of a pirate"
-                prompt_with_history = f"<|system|>\n{system_msg}</s>\n<|user|>\n{prompt.strip()}</s>\n<|assistant|>\n"
+                # Use the official Gemma 3 template for standalone queries
+                prompt_with_history = f"<bos>\n<start_of_turn>user\n{model.system_prompt}\n\n{prompt.strip()}<end_of_turn>\n<start_of_turn>model"
             
             try:
                 # Get current adaptive parameters for generation
@@ -541,10 +543,10 @@ def generate_deployment_response(prompt, chat_session=None, user=None):
                 # Use full token budget for high-performance system
                 effective_max_tokens = model.max_response_tokens
 
-                # Optimized temperature for TinyLlama 1.1B on low-resource
+                # Optimized temperature for Gemma 3 1B on low-resource
                 temperature = 0.6  # Lower for more controlled responses
 
-                # Tier-based generation parameters optimized for TinyLlama
+                # Tier-based generation parameters optimized for Gemma
                 if adaptive_params['tier'] == 'minimal':
                     top_p = 0.80
                     top_k = 30
@@ -562,7 +564,7 @@ def generate_deployment_response(prompt, chat_session=None, user=None):
                 generation_params = {
                     'prompt': prompt_with_history,
                     'max_tokens': effective_max_tokens,
-                    'stop': ["</s>", "<|user|>", "<|system|>"],
+                    'stop': ["<end_of_turn>", "<|eot_id|>", "</s>"], # Added more stop tokens
                     'temperature': temperature,
                     'top_p': top_p,
                     'top_k': top_k,
@@ -578,7 +580,7 @@ def generate_deployment_response(prompt, chat_session=None, user=None):
                 ai_response = response['choices'][0]['text'].strip()
                 
                 # Enhanced post-processing with new format
-                ai_response = model._enhanced_post_process_response(ai_response)
+                ai_response = model._post_process_response(ai_response)
                 
                 # Log final response stats
                 logger.debug(f"Final response length: {len(ai_response)} chars")
@@ -661,20 +663,20 @@ def get_deployment_status():
 
 # === STANDALONE TESTING ===
 if __name__ == "__main__":
-    print("=== TinyLlama 1.1B LOW-RESOURCE MODEL TEST (Q8_0) ===")
+    print("=== GEMMA 3 1B LOW-RESOURCE MODEL TEST ===")
     
     # Test deployment response
-    test_prompt = "Hello! How are you today? Can you tell me about your capabilities?"
+    test_prompt = "Hello! How are you today? Can you tell me about your capabilities as Gemma?"
     print(f"Testing: '{test_prompt}'")
     
-    response = generate_deployment_response(test_prompt, chat_session="tinyllama_test_q8")
+    response = generate_deployment_response(test_prompt, chat_session="gemma_test")
     print(f"Response: {response}")
     
     # Check status
     status = get_deployment_status()
     print(f"Status: {status}")
     
-    print("=== TinyLlama 1.1B LOW-RESOURCE TEST (Q8_0) COMPLETE ===")
+    print("=== GEMMA 3 1B LOW-RESOURCE TEST COMPLETE ===")
 
 # Global initialization status tracking (for compatibility with views.py)
 initialization_status = {
