@@ -1,3 +1,11 @@
+# Go to the service's Settings page on the Render dashboard.
+# Find the Build Command setting.
+# Change it to: bash build.sh
+# Find the Start Command setting. 
+#It should already be set to what's in your Procfile: 
+#gunicorn --workers 1 --timeout 1200 --max-requests 1000 --max-requests-jitter 50 backend.wsgi:application
+# Click Save Changes and trigger a new deployment.
+
 #!/usr/bin/env bash
 # Exit on error
 set -o errexit
