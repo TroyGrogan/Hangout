@@ -364,15 +364,19 @@ const Chat = () => {
 
   const handleNewChat = () => {
     console.log("[Chat.jsx handleNewChat] Creating new chat while preserving category state (CLEAN SLATE).");
-    createNewSession(); // This will set sessionId to null then new ID, triggering the first useEffect
+    createNewSession(); // This will set sessionId to a new ID, triggering effects
     setMessages([]);
     setError(null);
-    setInput('');
-    // PRESERVE the selected category and suggestion types - don't reset them
-    // setSelectedCategory(null); // REMOVED - keep the current category
-    // setSuggestionTypes({ talk: false, do: false }); // REMOVED - keep current suggestion types
-    setCategoryFromUrl(null); // Still reset this as it's URL-specific
-    // The useEffects will handle updating suggestions based on the preserved state
+    setInput(''); // Explicitly clear the input field
+    setCategoryFromUrl(null); // Reset URL-specific category processing
+    
+    // By not resetting selectedCategory or suggestionTypes here, we preserve the user's filters.
+    // The existing useEffects will then fetch new suggestions for the clean slate if needed.
+    
+    // If the URL has a category, we should also clear it to prevent the useEffect from re-triggering.
+    if (location.search.includes('category')) {
+      navigate(location.pathname, { replace: true });
+    }
   };
 
   const toggleCategoriesDropdown = () => {

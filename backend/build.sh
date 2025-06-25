@@ -1,10 +1,36 @@
 # Go to the service's Settings page on the Render dashboard.
 # Find the Build Command setting.
 # Change it to: bash build.sh
-# Find the Start Command setting. 
-#It should already be set to what's in your Procfile: 
-#gunicorn --preload --workers 1 --timeout 1200 --max-requests 1000 --max-requests-jitter 50 backend.wsgi:application --bind 0.0.0.0:$PORT
+# Find the Start Command setting.
+#
+# It should already be set to what's in your Procfile: 
+# gunicorn --preload --workers 1 --timeout 1200 --max-requests 1000 --max-requests-jitter 50 backend.wsgi:application --bind 0.0.0.0:$PORT
+# 
 # Click Save Changes and trigger a new deployment.
+# 
+# Without --bind 0.0.0.0:$PORT, gunicorn would likely default 
+# to listening on 127.0.0.1:8000 (localhost). 
+# This would mean it's only listening for connections 
+# from inside its own container.
+# Render's load balancers wouldn't be able to connect to it, 
+# the app would fail its health checks, 
+# and it would be completely inaccessible from the internet.
+# 
+# --preload is used to preload the application into memory, 
+# which can improve performance for subsequent requests.
+# 
+# --workers 1 specifies that only one worker process should be used.
+# This is a simple configuration that works well for most small-scale applications.
+# 
+# --timeout 1200 sets the maximum request processing time to 20 minutes.
+# This is a safety net to prevent any one request from blocking the entire server.
+# 
+# --max-requests 1000 and --max-requests-jitter 50 are used to limit the number of requests
+# a worker can handle before it's automatically restarted.
+# This helps prevent memory leaks and ensures the server remains responsive.
+
+
+
 
 #!/usr/bin/env bash
 # Exit on error

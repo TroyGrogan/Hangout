@@ -272,8 +272,8 @@ class OptimizedLlamaModel:
         
         # === SYSTEM PROMPT FOR GEMMA 3 ===
         # Per official Google guidance, system prompts are included in the first user turn.
-        self.system_prompt = "You are a helpful AI assistant. Provide concise and accurate responses."
-
+        self.system_prompt = "You are a balanced, grounded, helpful, creative, and insightful AI assistant. Your purpose is to provide friendly, conversational, and genuinely helpful responses. Strive to understand the user's intent, even if the query is ambiguous. Your goal is to be a thoughtful and engaging conversation partner."
+        
         logger.info(f"OptimizedLlamaModel initialized: context={self.context_window}, "
                    f"max_tokens={self.max_response_tokens}, threads={self.n_threads}, tier={adaptive_params['tier']}")
 
@@ -541,7 +541,7 @@ def generate_deployment_response(prompt, chat_session=None, user=None):
                 effective_max_tokens = model.max_response_tokens
 
                 # Optimized temperature for Gemma 3 1B on low-resource
-                temperature = 0.6  # Lower for more controlled responses
+                temperature = 0.75  # Increased for more creative and natural responses
 
                 # Tier-based generation parameters optimized for Gemma
                 if adaptive_params['tier'] == 'minimal':
@@ -561,11 +561,11 @@ def generate_deployment_response(prompt, chat_session=None, user=None):
                 generation_params = {
                     'prompt': prompt_with_history,
                     'max_tokens': effective_max_tokens,
-                    'stop': ["<end_of_turn>", "<|eot_id|>", "</s>"], # Added more stop tokens
+                    'stop': ["<end_of_turn>", "<|eot_id|>", ""], # Added more stop tokens
                     'temperature': temperature,
                     'top_p': top_p,
                     'top_k': top_k,
-                    'repeat_penalty': 1.15,  # Slightly lower for more natural flow
+                    'repeat_penalty': 1.1,  # Standard penalty to discourage repetition
                     'frequency_penalty': 0.0,
                     'presence_penalty': 0.0,
                     'stream': False,
