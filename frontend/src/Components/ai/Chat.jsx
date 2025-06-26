@@ -600,7 +600,7 @@ const Chat = () => {
                 <br /><br />
                 THIS MEANS IT'LL TELL YOU SOMETHING BELIEVING IT'S 100% TRUE, WHEN IT REALLY ISN'T.
                 <br /><br />
-                BE AWARE OF BIASIS AND CONSUME INFORMATION RESPONSIBLY.
+                BE AWARE OF BIASIS AND CONSUME INFORMATION RESPONSIBLY!
               </div>
               
               {selectedCategory ? (

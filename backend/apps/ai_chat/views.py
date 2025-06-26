@@ -129,15 +129,8 @@ class ChatHistoryView(APIView):
     permission_classes = [IsAuthenticated]
 
     def get(self, request):
-        # Temporary: Use first user in database
-        from django.contrib.auth import get_user_model
-        User = get_user_model()
-        try:
-            user = User.objects.first()
-            if not user:
-                return Response({'error': 'No users found in database.'}, status=status.HTTP_400_BAD_REQUEST)
-        except Exception as e:
-            return Response({'error': 'Database error accessing users.'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+        # Use the authenticated user
+        user = request.user
             
         # Get pagination parameters
         page = int(request.query_params.get('page', 1))
@@ -227,15 +220,8 @@ class ChatSessionDetailView(APIView):
     permission_classes = [IsAuthenticated]
 
     def get(self, request, session_id):
-        # Temporary: Use first user in database
-        from django.contrib.auth import get_user_model
-        User = get_user_model()
-        try:
-            user = User.objects.first()
-            if not user:
-                return Response({'error': 'No users found in database.'}, status=status.HTTP_400_BAD_REQUEST)
-        except Exception as e:
-            return Response({'error': 'Database error accessing users.'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+        # Use the authenticated user
+        user = request.user
             
         try:
             # Get all messages for this specific session, ordered chronologically
@@ -279,15 +265,8 @@ class ChatSessionDetailView(APIView):
 @permission_classes([IsAuthenticated])
 def delete_chat_session_view(request, session_id):
     """API endpoint to delete an entire chat session."""
-    # Temporary: Use first user in database
-    from django.contrib.auth import get_user_model
-    User = get_user_model()
-    try:
-        user = User.objects.first()
-        if not user:
-            return Response({'error': 'No users found in database.'}, status=status.HTTP_400_BAD_REQUEST)
-    except Exception as e:
-        return Response({'error': 'Database error accessing users.'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+    # Use the authenticated user
+    user = request.user
         
     try:
         # Delete all messages in the specified session for the user
@@ -307,15 +286,8 @@ def delete_chat_session_view(request, session_id):
 @permission_classes([IsAuthenticated])
 def rename_chat_session_view(request, session_id):
     """API endpoint to rename/retitle a chat session."""
-    # Temporary: Use first user in database
-    from django.contrib.auth import get_user_model
-    User = get_user_model()
-    try:
-        user = User.objects.first()
-        if not user:
-            return Response({'error': 'No users found in database.'}, status=status.HTTP_400_BAD_REQUEST)
-    except Exception as e:
-        return Response({'error': 'Database error accessing users.'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+    # Use the authenticated user
+    user = request.user
         
     new_title = request.data.get('title', '').strip()
     
