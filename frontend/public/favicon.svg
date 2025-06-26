@@ -4,7 +4,7 @@
   <rect x="5" y="5" width="90" height="90" rx="15" ry="15" fill="#3B5998" />
   
   <!-- Stylized "H" Letter using Segoe UI font style -->
-  <text x="50" y="50" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" 
+  <text x="50" y="70" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" 
         font-size="55" font-weight="600" text-anchor="middle" 
-        fill="#FFFFF0" dominant-baseline="central">H</text>
+        fill="#FFFFF0" dominant-baseline="auto">H</text>
 </svg> 
