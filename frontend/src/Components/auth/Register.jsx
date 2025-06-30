@@ -155,7 +155,7 @@ export const Register = () => {
             {loading ? 'Creating Account...' : 'Register'}
           </button>
            <p>
-                      Alreagy have an account?{' '}
+                      Already have an account?{' '}
                       <Link to="/login">Login!</Link>
                     </p>
         </form>

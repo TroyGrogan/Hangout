@@ -6,13 +6,73 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
-import { User, Calendar, MapPin, Users, Search, Menu, X } from 'lucide-react';
+import { User, Calendar, MapPin, Users, Search, Menu, X, ChevronDown, ChevronUp } from 'lucide-react';
+import { MapContainer, TileLayer, Marker, useMapEvents } from 'react-leaflet';
+import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
 import axiosInstance from '../../services/axios';
 import { useAuth } from '../../contexts/AuthContext';
 // import { fetchAllCategoriesWithPagination, fetchSubcategories } from '../../services/categoryService';
 // ^^Dynamically fetches subcategories on click. Is very stuttery and stiff.^^
 import { fetchAllCategories } from '../../services/categoryService';
+import categorySearchService from '../../services/categorySearchService';
 import './Home.css';
+
+// Configure Leaflet icons
+delete L.Icon.Default.prototype._getIconUrl;
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon-2x.png',
+  iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+});
+
+// Map marker component for location selection
+function LocationMarker({ position, setPosition }) {
+  useMapEvents({
+    click(e) {
+      setPosition(e.latlng);
+    },
+  });
+
+  return position === null ? null : (
+    <Marker position={position} />
+  );
+}
+
+// Calendar helper functions
+const formatDateForDisplay = (date) => {
+  return date.toLocaleDateString('en-US', { 
+    weekday: 'short', 
+    month: 'short', 
+    day: 'numeric',
+    year: 'numeric'
+  });
+};
+
+const getWeekendDates = () => {
+  const today = new Date();
+  const dayOfWeek = today.getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
+  
+  // Calculate days until Friday (5)
+  let daysUntilFriday = (5 - dayOfWeek + 7) % 7;
+  if (daysUntilFriday === 0 && dayOfWeek !== 5) {
+    daysUntilFriday = 7; // If today is not Friday, get next Friday
+  }
+  
+  const friday = new Date(today);
+  friday.setDate(today.getDate() + daysUntilFriday);
+  
+  const sunday = new Date(friday);
+  sunday.setDate(friday.getDate() + 2);
+  
+  return { start: friday, end: sunday };
+};
+
+const isSameDay = (date1, date2) => {
+  return date1.getFullYear() === date2.getFullYear() &&
+         date1.getMonth() === date2.getMonth() &&
+         date1.getDate() === date2.getDate();
+};
 
 // --- Fetcher Functions ---
 const fetchEvents = async () => {
@@ -284,8 +344,8 @@ const Home = () => {
   const [categoryMap, setCategoryMap] = useState(new Map());
   const [displayedCategoryLevels, setDisplayedCategoryLevels] = useState([]);
   const [selectionPath, setSelectionPath] = useState([]);
-  const [showPreferredOnly, setShowPreferredOnly] = useState(true); // Keep this for filtering main categories
-  const [hidePastEvents, setHidePastEvents] = useState(true);
+  const [showPreferredOnly, setShowPreferredOnly] = useState(false); // Keep this for filtering main categories
+  const [hidePastEvents, setHidePastEvents] = useState(false);
   const [eventsWithFriends, setEventsWithFriends] = useState(new Set()); // Initialize as Set
   const [searchLocation, setSearchLocation] = useState('');
   const [isSearching, setIsSearching] = useState(false);
@@ -294,10 +354,38 @@ const Home = () => {
   const [userLocation, setUserLocation] = useState(null); // State for user's coordinates
   const [scrollToLevel, setScrollToLevel] = useState(null);
   const categorySectionsContainerRef = useRef(null);
+  const categoryDetailSectionRef = useRef(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // --- Map-related state ---
+  const [showMap, setShowMap] = useState(false);
+  const [mapPosition, setMapPosition] = useState({ lat: 33.9937, lng: -81.0299 }); // Default to Columbia, SC
+  const [geocoding, setGeocoding] = useState(false);
+  const [searchingField, setSearchingField] = useState(null);
+  const [locationFound, setLocationFound] = useState(false);
+
+  // --- Calendar-related state ---
+  const [showCalendar, setShowCalendar] = useState(false);
+  const [selectedStartDate, setSelectedStartDate] = useState(null);
+  const [selectedEndDate, setSelectedEndDate] = useState(null);
+  const [calendarMode, setCalendarMode] = useState('select'); // 'today', 'weekend', 'select'
+  const [calendarMonth, setCalendarMonth] = useState(new Date().getMonth());
+  const [calendarYear, setCalendarYear] = useState(new Date().getFullYear());
+  const [isSelectingRange, setIsSelectingRange] = useState(false);
+  const [datesAvailableText, setDatesAvailableText] = useState('');
 
   // --- Error state for backend connectivity ---
   const [backendConnected, setBackendConnected] = useState(true);
+
+  // --- Category Search State ---
+  const [categorySearchTerm, setCategorySearchTerm] = useState('');
+  const [isCategorySearching, setIsCategorySearching] = useState(false);
+  const [categorySearchResults, setCategorySearchResults] = useState(null);
+  const [categorySearchFound, setCategorySearchFound] = useState(false);
+  const [selectedCategoryBubble, setSelectedCategoryBubble] = useState(null);
+
+  // --- Refs ---
+  const calendarRef = useRef(null);
 
   // --- React Query Data Fetching ---
 
@@ -386,14 +474,6 @@ const Home = () => {
 
   // --- Derived Data and State Updates from Queries ---
 
-  // Update state based on preferences query
-  useEffect(() => {
-    if (preferencesQuery.data?.preferred_categories) {
-      setShowPreferredOnly(preferencesQuery.data.preferred_categories.length > 0);
-    }
-    // No need to set userPreferences state directly if we use preferencesQuery.data.preferred_categories
-  }, [preferencesQuery.data]);
-
   // Update set of events friends are attending
   useEffect(() => {
     if (friendEventsQuery.data) {
@@ -464,6 +544,11 @@ const Home = () => {
         setSelectionPath([]); // Reset selection on new data
         
         console.log("Hierarchy and map set successfully");
+        
+        // Initialize category search service
+        categorySearchService.initialize().catch(error => {
+          console.error('Failed to initialize category search service:', error);
+        });
         
         // Log main categories and their immediate children
         if (map.size > 0) {
@@ -544,6 +629,22 @@ const Home = () => {
     // Handle hash on initial load and when location changes
     handleHashScroll();
   }, [location.hash]); // Dependency on location.hash
+
+  // Effect: Handle clicking outside calendar to close it
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (calendarRef.current && !calendarRef.current.contains(event.target)) {
+        setShowCalendar(false);
+      }
+    };
+
+    if (showCalendar) {
+      document.addEventListener('mousedown', handleClickOutside);
+      return () => {
+        document.removeEventListener('mousedown', handleClickOutside);
+      };
+    }
+  }, [showCalendar]);
 
   // Filter events based on the DEEPEST selected category in the path
   const getFilteredEvents = useCallback(() => {
@@ -677,6 +778,70 @@ const Home = () => {
     return eventsWithFriends.has(eventId);
   };
 
+  // --- Map and Geocoding Functions ---
+  const geocodeAddress = async (address) => {
+    if (!address.trim()) return;
+    
+    setGeocoding(true);
+    setSearchingField('location');
+    setLocationFound(false); // Reset location found state
+    try {
+      const response = await fetch(
+        `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}&limit=1&addressdetails=1`,
+        {
+          headers: {
+            'User-Agent': 'HangoutWebApp/1.0'
+          }
+        }
+      );
+      
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      
+      const data = await response.json();
+      
+      if (data && data.length > 0) {
+        const result = data[0];
+        const newPosition = {
+          lat: parseFloat(result.lat),
+          lng: parseFloat(result.lon)
+        };
+        setMapPosition(newPosition);
+        
+        // Update the nearby events query with the new coordinates
+        setUserLocation(newPosition);
+        setLocationFound(true);
+        
+        // Hide the success message after 1.5 seconds
+        setTimeout(() => {
+          setLocationFound(false);
+        }, 1500);
+      } else {
+        console.warn('Address not found');
+      }
+    } catch (err) {
+      console.error('Geocoding error:', err);
+    } finally {
+      setGeocoding(false);
+      setSearchingField(null);
+    }
+  };
+
+  const handleAddressKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      const searchValue = e.target.value;
+      if (searchValue.trim()) {
+        geocodeAddress(searchValue);
+      }
+    }
+  };
+
+  const toggleMap = () => {
+    setShowMap(!showMap);
+  };
+
   const handleLocationSearch = async (e) => {
     e.preventDefault();
     const trimmedLocation = searchLocation.trim();
@@ -694,15 +859,314 @@ const Home = () => {
   };
 
   const clearLocationFilter = async () => {
-    // Update state to trigger queryKey change and refetch
-    setIsSearching(true);
     setSearchLocation('');
     setIsLocationFiltered(false);
+    setLocationFound(false);
     
     // Reset isSearching state when the query completes
     setTimeout(() => {
       setIsSearching(false);
     }, 500);
+  };
+
+  // Category search handler functions
+  const handleCategorySearch = async (e) => {
+    e.preventDefault();
+    
+    if (!categorySearchTerm.trim()) {
+      setCategorySearchResults(null);
+      setCategorySearchFound(false);
+      return;
+    }
+
+    setIsCategorySearching(true);
+    setCategorySearchFound(false);
+
+    try {
+      console.log(`Searching categories for: "${categorySearchTerm}"`);
+      const searchResults = await categorySearchService.searchCategories(categorySearchTerm.trim());
+      
+      console.log('Search results:', searchResults);
+      
+      if (searchResults.totalMatches > 0) {
+        setCategorySearchResults(searchResults);
+        setCategorySearchFound(true);
+      } else {
+        setCategorySearchResults({ results: [], mainCategories: [], totalMatches: 0 });
+        setCategorySearchFound(false);
+      }
+    } catch (error) {
+      console.error('Error searching categories:', error);
+      setCategorySearchResults(null);
+      setCategorySearchFound(false);
+    } finally {
+      setIsCategorySearching(false);
+    }
+  };
+
+  const handleCategoryResultClick = async (mainCategory, targetCategory) => {
+    console.log('Category result clicked:', { mainCategory, targetCategory });
+    
+    try {
+      // Set the selected bubble state
+      setSelectedCategoryBubble(mainCategory.id);
+      
+      // Get the full path to the target category
+      const path = categorySearchService.getCategoryPath(targetCategory);
+      console.log('Category path:', path);
+      
+      // Build selection path with IDs
+      const selectionIds = path.map(cat => cat.id);
+      setSelectionPath(selectionIds);
+      
+      // Build the displayed levels - we need to show each level in the hierarchy
+      const levels = [];
+      
+      // Start with main categories
+      levels.push(categoryHierarchy.root);
+      
+      // For each level in the path (except the main category which is already shown)
+      for (let i = 1; i < path.length; i++) {
+        const parentCategory = categoryMap.get(path[i - 1].id);
+        if (parentCategory && parentCategory.children) {
+          levels.push(parentCategory.children);
+        }
+      }
+      
+      setDisplayedCategoryLevels(levels);
+      
+      // Keep search results and found status visible after navigation
+      // Note: NOT clearing search results or found status to preserve the search UI
+      
+      // Scroll to position the category detail section at the bottom of the viewport
+      // This allows users to see both the category hierarchy and the events section
+      setTimeout(() => {
+        if (categoryDetailSectionRef.current) {
+          categoryDetailSectionRef.current.scrollIntoView({ 
+            behavior: 'smooth',
+            block: 'end' // Position at bottom of viewport instead of top
+          });
+        }
+      }, 100);
+      
+    } catch (error) {
+      console.error('Error navigating to category:', error);
+    }
+  };
+
+  const clearCategorySearch = () => {
+    setCategorySearchTerm('');
+    setCategorySearchResults(null);
+    setCategorySearchFound(false);
+    setSelectedCategoryBubble(null);
+  };
+
+  // Calendar handler functions
+  const toggleCalendar = () => {
+    setShowCalendar(!showCalendar);
+  };
+
+  const handleCalendarDateClick = (date) => {
+    if (calendarMode === 'select') {
+      if (!isSelectingRange) {
+        // First click - set start date
+        setSelectedStartDate(date);
+        setSelectedEndDate(null);
+        setIsSelectingRange(true);
+      } else {
+        // Second click - set end date
+        if (date < selectedStartDate) {
+          // If clicked date is before start, swap them
+          setSelectedEndDate(selectedStartDate);
+          setSelectedStartDate(date);
+        } else {
+          setSelectedEndDate(date);
+        }
+        setIsSelectingRange(false);
+      }
+    }
+  };
+
+  const handleTodayClick = () => {
+    const today = new Date();
+    setSelectedStartDate(today);
+    setSelectedEndDate(null);
+    setCalendarMode('today');
+    setIsSelectingRange(false);
+  };
+
+  const handleWeekendClick = () => {
+    const { start, end } = getWeekendDates();
+    setSelectedStartDate(start);
+    setSelectedEndDate(end);
+    setCalendarMode('weekend');
+    setIsSelectingRange(false);
+  };
+
+  const handleSelectMultipleClick = () => {
+    setCalendarMode('select');
+    setSelectedStartDate(null);
+    setSelectedEndDate(null);
+    setIsSelectingRange(false);
+  };
+
+  const handleSetClick = () => {
+    if (selectedStartDate) {
+      let displayText = '';
+      if (selectedEndDate && !isSameDay(selectedStartDate, selectedEndDate)) {
+        // Multiple dates - check if they span different years
+        if (selectedStartDate.getFullYear() === selectedEndDate.getFullYear()) {
+          // Same year - show year only at the end
+          const startDateWithoutYear = selectedStartDate.toLocaleDateString('en-US', { 
+            weekday: 'short', 
+            month: 'short', 
+            day: 'numeric'
+          });
+          const endDateWithYear = formatDateForDisplay(selectedEndDate);
+          displayText = `From ${startDateWithoutYear} to ${endDateWithYear}`;
+        } else {
+          // Different years - show year for both dates
+          displayText = `From ${formatDateForDisplay(selectedStartDate)} to ${formatDateForDisplay(selectedEndDate)}`;
+        }
+      } else {
+        // Single date
+        displayText = formatDateForDisplay(selectedStartDate);
+      }
+      setDatesAvailableText(displayText);
+      setShowCalendar(false);
+    }
+  };
+
+  const navigateCalendar = (direction) => {
+    if (direction === 'prev') {
+      if (calendarMonth === 0) {
+        setCalendarMonth(11);
+        setCalendarYear(calendarYear - 1);
+      } else {
+        setCalendarMonth(calendarMonth - 1);
+      }
+    } else {
+      if (calendarMonth === 11) {
+        setCalendarMonth(0);
+        setCalendarYear(calendarYear + 1);
+      } else {
+        setCalendarMonth(calendarMonth + 1);
+      }
+    }
+  };
+
+  const renderCalendar = () => {
+    if (!showCalendar) return null;
+
+    const monthNames = [
+      'January', 'February', 'March', 'April', 'May', 'June',
+      'July', 'August', 'September', 'October', 'November', 'December'
+    ];
+
+    const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    
+    const firstDay = new Date(calendarYear, calendarMonth, 1);
+    const lastDay = new Date(calendarYear, calendarMonth + 1, 0);
+    const startDate = new Date(firstDay);
+    startDate.setDate(startDate.getDate() - firstDay.getDay());
+    
+    const days = [];
+    const currentDate = new Date(startDate);
+    
+    // Generate 42 days (6 weeks)
+    for (let i = 0; i < 42; i++) {
+      days.push(new Date(currentDate));
+      currentDate.setDate(currentDate.getDate() + 1);
+    }
+
+    const today = new Date();
+    
+    const isDateInRange = (date) => {
+      if (!selectedStartDate) return false;
+      if (!selectedEndDate) return isSameDay(date, selectedStartDate);
+      return date >= selectedStartDate && date <= selectedEndDate;
+    };
+
+    const isDateSelected = (date) => {
+      return (selectedStartDate && isSameDay(date, selectedStartDate)) ||
+             (selectedEndDate && isSameDay(date, selectedEndDate));
+    };
+
+    return (
+      <div className="calendar-dropdown" ref={calendarRef}>
+        <div className="calendar-header">
+          <button type="button" onClick={() => navigateCalendar('prev')} className="calendar-nav-btn">
+            &#8249;
+          </button>
+          <h3 className="calendar-month-year">
+            {monthNames[calendarMonth]} {calendarYear}
+          </h3>
+          <button type="button" onClick={() => navigateCalendar('next')} className="calendar-nav-btn">
+            &#8250;
+          </button>
+        </div>
+        
+        <div className="calendar-controls">
+          <button 
+            type="button" 
+            onClick={handleTodayClick}
+            className={`calendar-control-btn ${calendarMode === 'today' ? 'active' : ''}`}
+          >
+            Today
+          </button>
+          <button 
+            type="button" 
+            onClick={handleWeekendClick}
+            className={`calendar-control-btn ${calendarMode === 'weekend' ? 'active' : ''}`}
+          >
+            This Weekend
+          </button>
+          <button 
+            type="button" 
+            onClick={handleSelectMultipleClick}
+            className={`calendar-control-btn ${calendarMode === 'select' ? 'active' : ''}`}
+          >
+            Select Multiple
+          </button>
+          <button 
+            type="button" 
+            onClick={handleSetClick}
+            className="calendar-set-btn"
+            disabled={!selectedStartDate}
+          >
+            Set
+          </button>
+        </div>
+
+        <div className="calendar-grid">
+          <div className="calendar-weekdays">
+            {daysOfWeek.map(day => (
+              <div key={day} className="calendar-weekday">{day}</div>
+            ))}
+          </div>
+          <div className="calendar-days">
+            {days.map((date, index) => {
+              const isCurrentMonth = date.getMonth() === calendarMonth;
+              const isToday = isSameDay(date, today);
+              const inRange = isDateInRange(date);
+              const selected = isDateSelected(date);
+              
+              return (
+                <button
+                  key={index}
+                  type="button"
+                  onClick={() => handleCalendarDateClick(date)}
+                  className={`calendar-day ${!isCurrentMonth ? 'other-month' : ''} ${isToday ? 'today' : ''} ${inRange ? 'in-range' : ''} ${selected ? 'selected' : ''}`}
+                  disabled={!isCurrentMonth}
+                >
+                  {date.getDate()}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    );
   };
 
   // Get appropriate description for category (Mainly for Level 0)
@@ -1022,13 +1486,14 @@ const Home = () => {
       {/* Display connection warning if backend is not connected */}
       {renderBackendConnectionWarning()}
 
-      {/* LIFE CATEGORIES SECTION - MOVED TO TOP */}
-      {/* Add the ref to this container which holds the category sections */}
-      <div className="categories-container" ref={categorySectionsContainerRef}>
-        {/* Preferred Categories Toggle */}
-        {/* Use userPreferences from query */}
+      {/* TOGGLES AND SEARCH SECTION - MOVED ABOVE LIFE CATEGORIES */}
+      {/* Extra spacer div for consistent vertical spacing */}
+      <div className="toggle-spacer calendar-spacer"></div>
+
+      <div className="preferences-container">
+        {/* Show Preferred Categories Toggle */}
         {userPreferences.length > 0 && ( 
-          <div className="category-preferences-toggle">
+          <div className="preferences-toggle category-preferences-toggle">
             <label className="toggle-label">
               <input
                 type="checkbox"
@@ -1042,6 +1507,208 @@ const Home = () => {
           </div>
         )}
         
+        {/* Hide Past Events Toggle */}
+        <div className="preferences-toggle past-events-toggle">
+          <label className="toggle-label">
+            <input
+              type="checkbox"
+              checked={hidePastEvents}
+              onChange={() => setHidePastEvents(!hidePastEvents)}
+            />
+            <span className="toggle-text">
+              Hide Past Events
+            </span>
+          </label>
+        </div>
+      </div>
+
+      <div className="location-search-container">
+        <form className="search-form-wrapper" onSubmit={handleLocationSearch}>
+          <div className="search-row">
+            <Calendar size={20} className="calendar-icon" />
+            <div className="dates-input-container">
+              <input
+                type="text"
+                placeholder="Dates Available"
+                className="dates-input"
+                value={datesAvailableText}
+                onClick={toggleCalendar}
+                onChange={() => {}} // Prevent direct typing
+                readOnly
+              />
+              {/* Calendar dropdown */}
+              {renderCalendar()}
+            </div>
+          </div>
+          
+          <div className="search-row location-row">
+            <MapPin size={20} className="location-pin-icon" />
+            <input
+              type="text"
+              placeholder="Enter Location or ZIP Code"
+              value={searchLocation}
+              onChange={(e) => {
+                setSearchLocation(e.target.value);
+                setLocationFound(false); // Reset location found state when user starts typing
+              }}
+              onKeyDown={handleAddressKeyPress}
+              className="location-search-input"
+              disabled={geocoding}
+            />
+            <button
+              type="button"
+              onClick={toggleMap}
+              className="see-map-button"
+            >
+              {showMap ? <ChevronUp size={20} className="see-map-arrow" /> : <ChevronDown size={20} className="see-map-arrow" />}
+              <span className="see-map-text">{showMap ? 'Close Map' : 'See Map'}</span>
+            </button>
+          </div>
+          
+          {/* Geocoding indicator */}
+          {geocoding && searchingField === 'location' && (
+            <div className="geocoding-indicator">
+              <span>🔍 Searching for location...</span>
+            </div>
+          )}
+          
+          {/* Location found success indicator */}
+          {locationFound && !geocoding && (
+            <div className="location-found-indicator">
+              <span>✅ Location Found!</span>
+            </div>
+          )}
+          
+          {/* Expandable Map Section */}
+          {showMap && (
+            <div className="map-section">
+              <h2 className="section-title map-title">Map</h2>
+              <div className="map-container">
+                <MapContainer
+                  center={mapPosition}
+                  zoom={13}
+                  style={{ height: "100%", width: "100%" }}
+                  key={`${mapPosition.lat}-${mapPosition.lng}`}
+                >
+                  <TileLayer
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                  />
+                  <LocationMarker position={mapPosition} setPosition={setMapPosition} />
+                </MapContainer>
+              </div>
+            </div>
+          )}
+          
+          <div className="search-row">
+            <Search size={20} className="search-icon" />
+            <input
+              type="text"
+              placeholder="Search Categories For Events"
+              className="search-categories-input"
+              value={categorySearchTerm}
+              onChange={(e) => setCategorySearchTerm(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') {
+                  handleCategorySearch(e);
+                }
+              }}
+            />
+          </div>
+          
+          {/* Category search indicator */}
+          {isCategorySearching && (
+            <div className="category-searching-indicator">
+              <span>🔍 Searching Categories for "{categorySearchTerm}"...</span>
+            </div>
+          )}
+          
+          {/* Category search results */}
+          {categorySearchFound && categorySearchResults && (
+            <div className="category-search-found-indicator">
+              <span>✅ Search Term Found!</span>
+            </div>
+          )}
+          
+          {/* Category search results display */}
+          {categorySearchResults && categorySearchResults.mainCategories.length > 0 && (
+            <div className="category-search-results">
+              {categorySearchResults.mainCategories.length === 1 ? (
+                <div className="category-search-result-text">
+                  <p>Found "{categorySearchTerm}" in the following Life Category:</p>
+                </div>
+              ) : (
+                <div className="category-search-result-text">
+                  <p>Found "{categorySearchTerm}" in the following Life Categories:</p>
+                </div>
+              )}
+              
+              <div className="category-search-bubbles">
+                {categorySearchResults.mainCategories.map((categoryGroup, index) => (
+                  <button
+                    key={index}
+                    className={`category-search-bubble ${selectedCategoryBubble === categoryGroup.mainCategory.id ? 'selected' : ''}`}
+                    onClick={() => {
+                      // Find the best match in this category group
+                      const bestMatch = categoryGroup.matches[0]; // First match is usually most relevant
+                      handleCategoryResultClick(categoryGroup.mainCategory, bestMatch);
+                    }}
+                  >
+                    <span className="category-icon">{categoryGroup.mainCategory.icon}</span>
+                    <span className="category-name">{categoryGroup.mainCategory.name}</span>
+                  </button>
+                ))}
+              </div>
+              
+              <button 
+                type="button" 
+                onClick={clearCategorySearch}
+                className="clear-category-search-button"
+              >
+                Clear Search
+              </button>
+            </div>
+          )}
+          
+          {/* No results message */}
+          {categorySearchResults && categorySearchResults.totalMatches === 0 && categorySearchTerm.trim() && (
+            <div className="category-no-results">
+              <span>❌ No categories found for "{categorySearchTerm}"</span>
+            </div>
+          )}
+          
+          <div className="search-row">
+            <button
+              type="button"
+              className="search-button"
+              onClick={handleCategorySearch}
+              disabled={isCategorySearching || !categorySearchTerm.trim()}
+            >
+              {isCategorySearching ? 'Searching...' : 'Search'}
+            </button>
+          </div>
+        </form>
+        
+        {isLocationFiltered && (
+          <div className="search-results-summary">
+            Showing events within {searchRadius} miles of "{searchLocation}"
+          </div>
+        )}
+        
+        {isLocationFiltered && (
+          <button
+            type="button"
+            onClick={clearLocationFilter}
+            className="clear-search-button"
+          >
+            Clear Search
+          </button>
+        )}
+      </div>
+
+      {/* LIFE CATEGORIES SECTION */}
+      {/* Add the ref to this container which holds the category sections */}
+      <div className="categories-container" ref={categorySectionsContainerRef}>
         {/* Categories Section - Render based on displayedCategoryLevels */}
         {displayedCategoryLevels.map((categoriesForLevel, index) =>
           renderCategoryLevel(categoriesForLevel, index)
@@ -1049,7 +1716,7 @@ const Home = () => {
 
         {/* Category-Specific Events - Only show events if backend is connected */}
         {selectionPath.length > 0 && ( // Show only if a category path is selected
-          <section className="section full-width-section category-events-section">
+          <section className="section full-width-section category-events-section" ref={categoryDetailSectionRef}>
             {renderCategoryDetailHeader()} {/* Render the header */}
 
             {backendConnected && (
@@ -1157,153 +1824,92 @@ const Home = () => {
         )}
       </div>
 
-      {/* TOGGLES AND SEARCH SECTION - MOVED TO MIDDLE */}
-      {/* Extra spacer div for consistent vertical spacing */}
-      <div className="toggle-spacer calendar-spacer"></div>
-
-      <div className="preferences-container">
-        <div className="preferences-toggle past-events-toggle">
-          <label className="toggle-label">
-            <input
-              type="checkbox"
-              checked={hidePastEvents}
-              onChange={() => setHidePastEvents(!hidePastEvents)}
-            />
-            <span className="toggle-text">
-              Hide Past Events
-            </span>
-          </label>
-        </div>
-      </div>
-
-      <div className="location-search-container">
-        <div className="search-form-wrapper">
-          <div className="search-input-row">
-            <MapPin size={24} className="location-pin-icon" />
-            <input
-              type="text"
-              placeholder="Search By Location (Example: Columbia, SC)"
-              value={searchLocation}
-              onChange={(e) => setSearchLocation(e.target.value)}
-              className="location-search-input"
-            />
-          </div>
-          <button
-            type="submit"
-            className="search-button"
-            onClick={handleLocationSearch}
-            disabled={isSearching || !backendConnected}
-          >
-            Search
-          </button>
-          {isLocationFiltered && (
-            <button
-              type="button"
-              onClick={clearLocationFilter}
-              className="clear-search-button"
-            >
-              Clear
-            </button>
-          )}
-        </div>
-        {isLocationFiltered && (
-          <div className="search-results-summary">
-            Showing events within {searchRadius} miles of "{searchLocation}"
-          </div>
-        )}
-      </div>
-
-      {/* Main Content Wrapper */}
-      <div className="content-wrapper">
-        <main className="main-content">
-          {/* EVENTS SECTIONS - STAYS AT BOTTOM */}
-          <div className="horizontal-events-container">
-            {/* Only show events sections if backend is connected */}
-            {backendConnected && (
-              <>
-                {/* Nearby Events Section */}
-                <section className="horizontal-section" id="events-near-you">
-                  <h2 className="section-title">Events Near You</h2>
-                  {/* Handle nearby loading/error states */}
-                  {nearbyEventsQuery.isLoading && <p>Loading nearby events...</p>}
-                  {nearbyEventsQuery.isError && <p>Could not load nearby events.</p>}
-                  {!userLocation && !nearbyEventsQuery.isLoading && <p>Enable location services to see nearby events.</p>}
-                  {userLocation && !nearbyEventsQuery.isLoading && !nearbyEventsQuery.isError && (
-                    <div className="horizontal-event-grid">
-                      {/* Use nearbyEventsData */}
-                      {nearbyEventsData.length > 0 ? ( 
-                        filterEvents(nearbyEventsData.slice(0, 5)).map(event => ( // Slice here if needed
-                          <Link to={`/events/${event.id}?from=home`} key={event.id} className="horizontal-event-card">
-                            <EventCard event={event} 
-                              friendsAttending={hasFriendsAttending(event.id)}
-                            />
-                          </Link>
-                        ))
-                      ) : (
-                        <div className="empty-state">
-                          <MapPin size={32} />
-                          <p>No nearby events found</p>
-                           {isLocationFiltered && <p>within {searchRadius} miles of "{searchLocation}"</p>}
-                        </div>
-                      )}
+      {/* EVENTS SECTIONS - STAYS AT BOTTOM */}
+      <div className="horizontal-events-container">
+        {/* Only show events sections if backend is connected */}
+        {backendConnected && (
+          <>
+            {/* Nearby Events Section */}
+            <section className="horizontal-section" id="events-near-you">
+              <h2 className="section-title">Events Near You</h2>
+              {/* Handle nearby loading/error states */}
+              {nearbyEventsQuery.isLoading && <p>Loading nearby events...</p>}
+              {nearbyEventsQuery.isError && <p>Could not load nearby events.</p>}
+              {!userLocation && !nearbyEventsQuery.isLoading && <p>Enable location services to see nearby events.</p>}
+              {userLocation && !nearbyEventsQuery.isLoading && !nearbyEventsQuery.isError && (
+                <div className="horizontal-event-grid">
+                  {/* Use nearbyEventsData */}
+                  {nearbyEventsData.length > 0 ? ( 
+                    filterEvents(nearbyEventsData.slice(0, 5)).map(event => ( // Slice here if needed
+                      <Link to={`/events/${event.id}?from=home`} key={event.id} className="horizontal-event-card">
+                        <EventCard event={event} 
+                          friendsAttending={hasFriendsAttending(event.id)}
+                        />
+                      </Link>
+                    ))
+                  ) : (
+                    <div className="empty-state">
+                      <MapPin size={32} />
+                      <p>No nearby events found</p>
+                       {isLocationFiltered && <p>within {searchRadius} miles of "{searchLocation}"</p>}
                     </div>
                   )}
-                </section>
+                </div>
+              )}
+            </section>
 
-                {/* Friends' Events Section */}
-                <section className="horizontal-section friends-events-section">
-                  <h2 className="section-title">Events Your Friends Are Attending</h2>
-                   {friendEventsQuery.isLoading && <p>Loading friends' events...</p>}
-                   {friendEventsQuery.isError && <p>Could not load friends' events.</p>}
-                   {!friendEventsQuery.isLoading && !friendEventsQuery.isError && (
-                    <div className="horizontal-event-grid">
-                      {/* Use friendEventsData */}
-                      {friendEventsData.length > 0 ? ( 
-                        filterEvents(friendEventsData).map(event => (
-                          <Link to={`/events/${event.id}?from=home`} key={event.id} className="horizontal-event-card">
-                            <EventCard event={event} friendsAttending={true} />
-                          </Link>
-                        ))
-                      ) : (
-                        <div className="friends-empty-state">
-                          <Users size={32} />
-                          <p>No events with friends attending yet</p>
-                          <p>When your friends RSVP to events, they'll appear here</p>
-                        </div>
-                      )}
+            {/* Friends' Events Section */}
+            <section className="horizontal-section friends-events-section">
+              <h2 className="section-title">Events Your Friends Are Attending</h2>
+               {friendEventsQuery.isLoading && <p>Loading friends' events...</p>}
+               {friendEventsQuery.isError && <p>Could not load friends' events.</p>}
+               {!friendEventsQuery.isLoading && !friendEventsQuery.isError && (
+                <div className="horizontal-event-grid">
+                  {/* Use friendEventsData */}
+                  {friendEventsData.length > 0 ? ( 
+                    filterEvents(friendEventsData).map(event => (
+                      <Link to={`/events/${event.id}?from=home`} key={event.id} className="horizontal-event-card">
+                        <EventCard event={event} friendsAttending={true} />
+                      </Link>
+                    ))
+                  ) : (
+                    <div className="friends-empty-state">
+                      <Users size={32} />
+                      <p>No events with friends attending yet</p>
+                      <p>When your friends RSVP to events, they'll appear here</p>
                     </div>
-                   )}
-                </section>
+                  )}
+                </div>
+               )}
+            </section>
 
-                {/* Popular Events Section */}
-                <section className="horizontal-section">
-                  <h2 className="section-title">Popular Events</h2>
-                  {popularEventsQuery.isLoading && <p>Loading popular events...</p>}
-                  {popularEventsQuery.isError && <p>Could not load popular events.</p>}
-                  {!popularEventsQuery.isLoading && !popularEventsQuery.isError && (
-                      <div className="horizontal-event-grid">
-                        {/* Use popularEventsData */}
-                        {popularEventsData.length > 0 ? (
-                          filterEvents(popularEventsData).map(event => (
-                            <Link to={`/events/${event.id}?from=home`} key={event.id} className="horizontal-event-card">
-                              <EventCard event={event}
-                                friendsAttending={hasFriendsAttending(event.id)} />
-                            </Link>
-                          ))
-                        ) : (
-                          <div className="empty-state">
-                            <Calendar size={32} />
-                            <p>No popular events yet</p>
-                            <p>Check back later for popular events</p>
-                          </div>
-                        )}
+            {/* Popular Events Section */}
+            <section className="horizontal-section">
+              <h2 className="section-title">Popular Events</h2>
+              {popularEventsQuery.isLoading && <p>Loading popular events...</p>}
+              {popularEventsQuery.isError && <p>Could not load popular events.</p>}
+              {!popularEventsQuery.isLoading && !popularEventsQuery.isError && (
+                  <div className="horizontal-event-grid">
+                    {/* Use popularEventsData */}
+                    {popularEventsData.length > 0 ? (
+                      filterEvents(popularEventsData).map(event => (
+                        <Link to={`/events/${event.id}?from=home`} key={event.id} className="horizontal-event-card">
+                          <EventCard event={event}
+                            friendsAttending={hasFriendsAttending(event.id)} />
+                        </Link>
+                      ))
+                    ) : (
+                      <div className="empty-state">
+                        <Calendar size={32} />
+                        <p>No popular events yet</p>
+                        <p>Check back later for popular events</p>
                       </div>
-                  )}
-                </section>
-              </>
-            )}
-          </div>
-        </main>
+                    )}
+                  </div>
+              )}
+            </section>
+          </>
+        )}
       </div>
 
       {/* Footer */}

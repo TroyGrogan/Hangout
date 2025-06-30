@@ -8,7 +8,8 @@ const isDevelopment = window.location.hostname === 'localhost'
     || window.location.hostname === '127.0.0.1'
     // || window.location.hostname === '100.64.14.100';
     || window.location.hostname.startsWith('100.64')
-    || window.location.hostname.startsWith('192.168');
+    || window.location.hostname.startsWith('192.168')
+    || window.location.hostname.startsWith('10.179');
     // ^^ Flexible check that will work ^^
     // ^^ even if your IP address changes in the future, ^^
     // ^^ as long as it starts with 100.64 ^^
