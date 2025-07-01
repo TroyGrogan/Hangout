@@ -16,27 +16,27 @@ const __dirname = path.dirname(__filename);
 // Icon sizes needed for PWA
 const iconSizes = [72, 96, 128, 144, 152, 192, 384, 512];
 
-// Regular SVG content (with padding for better appearance)
+// Regular SVG content (fills entire canvas with subtle rounded corners)
 const svgTemplateRegular = `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="SIZE" height="SIZE">
-  <!-- Background Square with Rounded Corners -->
-  <rect x="5" y="5" width="90" height="90" rx="15" ry="15" fill="#3B5998" />
+  <!-- Background Square with subtle rounded corners for modern look -->
+  <rect x="0" y="0" width="100" height="100" rx="12" ry="12" fill="#3B5998" />
   
   <!-- Stylized "H" Letter using Segoe UI font style -->
   <text x="50" y="70" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" 
-        font-size="55" font-weight="600" text-anchor="middle" 
+        font-size="58" font-weight="600" text-anchor="middle" 
         fill="#FFFFF0" dominant-baseline="auto">H</text>
 </svg>`;
 
 // Maskable SVG content (fills entire canvas for adaptive icons)
 const svgTemplateMaskable = `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="SIZE" height="SIZE">
-  <!-- Full canvas background -->
+  <!-- Full canvas background for maskable - no rounded corners (OS handles this) -->
   <rect x="0" y="0" width="100" height="100" fill="#3B5998" />
   
   <!-- Stylized "H" Letter centered and sized for maskable icon -->
   <text x="50" y="70" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" 
-        font-size="55" font-weight="600" text-anchor="middle" 
+        font-size="58" font-weight="600" text-anchor="middle" 
         fill="#FFFFF0" dominant-baseline="auto">H</text>
 </svg>`;
 
