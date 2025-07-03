@@ -395,39 +395,62 @@
   
   /* Geocoding indicator styling */
   .geocoding-indicator {
-    margin-top: 0.5rem;
-    padding: 0.5rem;
+    margin-top: 8px;
+    padding: 8px 12px;
     border-radius: 4px;
-    font-size: 0.875rem;
-    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
   }
 
   /* Blue styling for location geocoding (matches Create Event button) */
   .geocoding-indicator.location-geocoding {
-    background-color: #f0f7ff;
-    border: 1px solid #90c0ff;
-    color: #333;
-    box-shadow: 0 2px 4px rgba(144, 192, 255, 0.2);
+    background-color: #e3f2fd;
+    color: #1976d2;
+    border: 1px solid #bbdefb;
   }
 
   /* Red styling for address geocoding (matches Ask AI button) */
   .geocoding-indicator.address-geocoding {
-    background-color: #fff0f0;
-    border: 1px solid #ff9090;
-    color: #333;
-    box-shadow: 0 2px 4px rgba(255, 144, 144, 0.2);
+    background-color: #ffebee;
+    color: #d32f2f;
+    border: 1px solid #ffcdd2;
   }
 
   .geocoding-indicator span {
-    display: inline-block;
-    animation: pulse 1.5s infinite;
+    display: flex;
+    align-items: center;
+    gap: 8px;
   }
 
-  @keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.5; }
+  /* Validation success indicator styling */
+  .validation-success {
+    margin-top: 8px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #e8f5e8;
+    color: #2e7d32;
+    border: 1px solid #c8e6c9;
   }
-  
+
+  .validation-success span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* Validated input styling */
+  .form-input.validated {
+    border-color: #4caf50;
+    background-color: #f9fff9;
+  }
+
+  .form-input.validated:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+  }
+
   /* Input help text styling */
   .input-help {
     margin-top: 0.5rem;

@@ -2,6 +2,11 @@ from rest_framework import serializers
 from decimal import Decimal
 from .models import Event, EventAttendee
 from apps.users.serializers import BasicUserSerializer
+from geopy.geocoders import Nominatim
+from geopy.exc import GeocoderTimedOut, GeocoderServiceError
+import logging
+
+logger = logging.getLogger(__name__)
 
 class EventSerializer(serializers.ModelSerializer):
     attendee_count = serializers.IntegerField(read_only=True)
@@ -31,6 +36,60 @@ class EventSerializer(serializers.ModelSerializer):
                 rsvp_status='going'
             ).exists()
         return False
+
+    def validate_location_name(self, value):
+        """Validate that the location name can be geocoded"""
+        if not value or not value.strip():
+            raise serializers.ValidationError("Location name is required.")
+        
+        try:
+            geolocator = Nominatim(user_agent="hangout_app")
+            location_info = geolocator.geocode(value.strip(), timeout=10)
+            
+            if not location_info:
+                raise serializers.ValidationError(
+                    "Invalid location name. Please provide a valid location that can be found on the map."
+                )
+            
+            return value.strip()
+            
+        except (GeocoderTimedOut, GeocoderServiceError) as e:
+            logger.error(f"Geocoding service error for location_name '{value}': {str(e)}")
+            raise serializers.ValidationError(
+                "Unable to validate location name due to service error. Please try again."
+            )
+        except Exception as e:
+            logger.error(f"Unexpected error validating location_name '{value}': {str(e)}")
+            raise serializers.ValidationError(
+                "Unable to validate location name. Please try again."
+            )
+
+    def validate_event_address(self, value):
+        """Validate that the event address can be geocoded"""
+        if not value or not value.strip():
+            raise serializers.ValidationError("Event address is required.")
+        
+        try:
+            geolocator = Nominatim(user_agent="hangout_app")
+            location_info = geolocator.geocode(value.strip(), timeout=10)
+            
+            if not location_info:
+                raise serializers.ValidationError(
+                    "Invalid event address. Please provide a valid address that can be found on the map."
+                )
+            
+            return value.strip()
+            
+        except (GeocoderTimedOut, GeocoderServiceError) as e:
+            logger.error(f"Geocoding service error for event_address '{value}': {str(e)}")
+            raise serializers.ValidationError(
+                "Unable to validate event address due to service error. Please try again."
+            )
+        except Exception as e:
+            logger.error(f"Unexpected error validating event_address '{value}': {str(e)}")
+            raise serializers.ValidationError(
+                "Unable to validate event address. Please try again."
+            )
 
     def validate(self, data):
         # Validate end_time is after start_time

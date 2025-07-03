@@ -34,6 +34,10 @@ export default function EventEdit() {
   const [geocoding, setGeocoding] = useState(false);
   const [searchingField, setSearchingField] = useState(null);
   const [position, setPosition] = useState(null);
+  const [validatedLocations, setValidatedLocations] = useState({
+    location_name: false,
+    event_address: false
+  }); // Track which locations have been validated
   const [formData, setFormData] = useState({
     name: '',
     description: '',
@@ -48,6 +52,43 @@ export default function EventEdit() {
     image: null
   });
   const [currentImageUrl, setCurrentImageUrl] = useState('');
+
+  // Validate location function
+  const validateLocation = async (address, fieldName) => {
+    if (!address.trim()) {
+      setValidatedLocations(prev => ({ ...prev, [fieldName]: false }));
+      return false;
+    }
+    
+    try {
+      const response = await fetch(
+        `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}&limit=1&addressdetails=1`,
+        {
+          headers: {
+            'User-Agent': 'HangoutWebApp/1.0'
+          }
+        }
+      );
+      
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      
+      const data = await response.json();
+      
+      if (data && data.length > 0) {
+        setValidatedLocations(prev => ({ ...prev, [fieldName]: true }));
+        return true;
+      } else {
+        setValidatedLocations(prev => ({ ...prev, [fieldName]: false }));
+        return false;
+      }
+    } catch (err) {
+      console.error('Location validation error:', err);
+      setValidatedLocations(prev => ({ ...prev, [fieldName]: false }));
+      return false;
+    }
+  };
 
   const geocodeAddress = async (address) => {
     if (!address.trim()) return;
@@ -78,14 +119,18 @@ export default function EventEdit() {
         setPosition(newPosition);
         
         setError('');
+        // Mark the field as validated
+        setValidatedLocations(prev => ({ ...prev, [searchingField]: true }));
       } else {
         setError('Address not found. Please try a different search term or be more specific.');
         setTimeout(() => setError(''), 4000);
+        setValidatedLocations(prev => ({ ...prev, [searchingField]: false }));
       }
     } catch (err) {
       console.error('Geocoding error:', err);
       setError('Failed to search for address. Please check your internet connection and try again.');
       setTimeout(() => setError(''), 4000);
+      setValidatedLocations(prev => ({ ...prev, [searchingField]: false }));
     } finally {
       setGeocoding(false);
       setSearchingField(null);
@@ -146,6 +191,12 @@ export default function EventEdit() {
           setCurrentImageUrl(eventData.image_url);
         }
 
+        // Mark existing locations as validated since they came from the database
+        setValidatedLocations({
+          location_name: true,
+          event_address: true
+        });
+
       } catch (err) {
         console.error('Failed to fetch event data:', err);
         setError('Failed to load event data');
@@ -166,12 +217,34 @@ export default function EventEdit() {
               type === 'number' ? parseFloat(value) : 
               value
     }));
+
+    // Reset validation status when user changes location fields
+    if (name === 'location_name' || name === 'event_address') {
+      setValidatedLocations(prev => ({ ...prev, [name]: false }));
+    }
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
     setError('');
+
+    // Validate locations before submission
+    const locationNameValid = await validateLocation(formData.location_name, 'location_name');
+    const eventAddressValid = await validateLocation(formData.event_address, 'event_address');
+
+    if (!locationNameValid || !eventAddressValid) {
+      let errorMessage = 'Please provide valid locations:\n';
+      if (!locationNameValid) {
+        errorMessage += '• Location Name: Please enter a valid location that can be found on the map\n';
+      }
+      if (!eventAddressValid) {
+        errorMessage += '• Event Address: Please enter a valid address that can be found on the map\n';
+      }
+      setError(errorMessage);
+      setLoading(false);
+      return;
+    }
 
     try {
       const eventData = new FormData();
@@ -222,12 +295,34 @@ export default function EventEdit() {
       navigate(`/events/${response.data.id}`);
     } catch (err) {
       console.error('Failed to update event:', err);
-      const errorMessage = err.response?.data?.error || 
-                          err.response?.data?.message || 
-                          'Failed to update event';
-      setError(typeof errorMessage === 'object' ? 
-              JSON.stringify(errorMessage, null, 2) : 
-              errorMessage);
+      
+      // Handle specific location validation errors from backend
+      if (err.response?.data?.error) {
+        const errorData = err.response.data.error;
+        let errorMessage = '';
+        
+        if (errorData.location_name) {
+          errorMessage += `Location Name: ${errorData.location_name[0]}\n`;
+        }
+        if (errorData.event_address) {
+          errorMessage += `Event Address: ${errorData.event_address[0]}\n`;
+        }
+        if (errorData.non_field_errors) {
+          errorMessage += errorData.non_field_errors.join('\n');
+        }
+        
+        // If no specific location errors, show general error
+        if (!errorMessage) {
+          errorMessage = err.response?.data?.message || 
+                        'Failed to update event. Please check all fields and try again.';
+        }
+        
+        setError(errorMessage);
+      } else {
+        const errorMessage = err.response?.data?.message || 
+                            'Failed to update event. Please try again.';
+        setError(errorMessage);
+      }
     } finally {
       setLoading(false);
     }
@@ -255,7 +350,11 @@ export default function EventEdit() {
 
         <h2 className="event-create-title">Edit Event</h2>
 
-        {error && <div className="error-message">{error}</div>}
+        {error && (
+          <div className="error-message" style={{ whiteSpace: 'pre-line' }}>
+            {error}
+          </div>
+        )}
 
         <form onSubmit={handleSubmit}>
           <div className="name-recurring-group">
@@ -356,7 +455,7 @@ export default function EventEdit() {
             <div className="form-group">
               <label className="form-label" htmlFor="location_name">Location Name</label>
               <input
-                className="form-input"
+                className={`form-input ${validatedLocations.location_name ? 'validated' : ''}`}
                 type="text"
                 id="location_name"
                 name="location_name"
@@ -372,11 +471,16 @@ export default function EventEdit() {
                   <span>🔍 Searching for location...</span>
                 </div>
               )}
+              {validatedLocations.location_name && (
+                <div className="validation-success">
+                  <span>✅ Location validated</span>
+                </div>
+              )}
             </div>
             <div className="form-group">
               <label className="form-label" htmlFor="event_address">Event Address</label>
               <input
-                className="form-input"
+                className={`form-input ${validatedLocations.event_address ? 'validated' : ''}`}
                 type="text"
                 id="event_address"
                 name="event_address"
@@ -390,6 +494,11 @@ export default function EventEdit() {
               {geocoding && searchingField === 'event_address' && (
                 <div className="geocoding-indicator address-geocoding">
                   <span>🔍 Searching for address...</span>
+                </div>
+              )}
+              {validatedLocations.event_address && (
+                <div className="validation-success">
+                  <span>✅ Address validated</span>
                 </div>
               )}
             </div>
