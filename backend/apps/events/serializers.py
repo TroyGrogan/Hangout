@@ -131,11 +131,12 @@ class EventAttendeeListSerializer(serializers.ModelSerializer):
     username = serializers.CharField(source='user.username')
     full_name = serializers.SerializerMethodField()
     profile_image = serializers.URLField(source='user.profile_image', default='')
-    id = serializers.IntegerField(source='user.id')
+    user_id = serializers.IntegerField(source='user.id')
+    attendee_id = serializers.IntegerField(source='id')
     
     class Meta:
         model = EventAttendee
-        fields = ['id', 'username', 'full_name', 'profile_image', 'rsvp_status']
+        fields = ['attendee_id', 'user_id', 'username', 'full_name', 'profile_image', 'rsvp_status']
         
     def get_full_name(self, obj):
         if obj.user.first_name or obj.user.last_name:

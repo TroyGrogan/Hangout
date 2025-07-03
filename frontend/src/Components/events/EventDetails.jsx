@@ -99,7 +99,7 @@ const EventDetails = () => {
           }
           
           // Set current user's RSVP status if found
-          if (attendee.username === user?.username) {
+          if (attendee.user_id === user?.user_id) {
             setRsvpStatus(attendee.rsvp_status);
           }
         });
@@ -120,33 +120,86 @@ const EventDetails = () => {
   // Handle RSVP actions
   const handleRSVP = async (status) => {
     try {
-      const response = await axiosInstance.post('/event-attendees/', {
-        event: id,
-        rsvp_status: status
-      });
-
-      // Update RSVP status
-      setRsvpStatus(status);
+      console.log('handleRSVP called with status:', status);
+      console.log('Current rsvpStatus:', rsvpStatus);
+      console.log('User object:', user);
       
-      // Refresh attendees list to show updated groupings
-      const attendeesResponse = await axiosInstance.get('/event-attendees/', {
-        params: { event: id }
-      });
-      
-      // Group attendees by RSVP status
-      const grouped = {
-        going: [],
-        maybe: [],
-        not_going: []
-      };
+      // If user clicks the same status they already have, remove their RSVP
+      if (rsvpStatus === status) {
+        console.log('Attempting to remove RSVP...');
+        
+        // Find the current user's attendee record to delete it
+        const currentUserAttendee = [
+          ...attendees.going,
+          ...attendees.maybe,
+          ...attendees.not_going
+        ].find(attendee => attendee.user_id === user?.user_id);
 
-      attendeesResponse.data.forEach(attendee => {
-        if (grouped[attendee.rsvp_status]) {
-          grouped[attendee.rsvp_status].push(attendee);
+        console.log('Found current user attendee:', currentUserAttendee);
+
+        if (currentUserAttendee) {
+          console.log('Deleting attendee record with ID:', currentUserAttendee.attendee_id);
+          
+          // Delete the attendee record using the attendee_id
+          await axiosInstance.delete(`/event-attendees/${currentUserAttendee.attendee_id}/`);
+          
+          // Clear the user's RSVP status
+          setRsvpStatus(null);
+          
+          // Refresh attendees list to show updated groupings
+          const attendeesResponse = await axiosInstance.get('/event-attendees/', {
+            params: { event: id }
+          });
+          
+          // Group attendees by RSVP status
+          const grouped = {
+            going: [],
+            maybe: [],
+            not_going: []
+          };
+
+          attendeesResponse.data.forEach(attendee => {
+            if (grouped[attendee.rsvp_status]) {
+              grouped[attendee.rsvp_status].push(attendee);
+            }
+          });
+          
+          setAttendees(grouped);
+          console.log('RSVP removed successfully');
         }
-      });
-      
-      setAttendees(grouped);
+      } else {
+        console.log('Creating/updating RSVP...');
+        
+        // Normal RSVP creation/update
+        const response = await axiosInstance.post('/event-attendees/', {
+          event: id,
+          rsvp_status: status
+        });
+
+        // Update RSVP status
+        setRsvpStatus(status);
+        
+        // Refresh attendees list to show updated groupings
+        const attendeesResponse = await axiosInstance.get('/event-attendees/', {
+          params: { event: id }
+        });
+        
+        // Group attendees by RSVP status
+        const grouped = {
+          going: [],
+          maybe: [],
+          not_going: []
+        };
+
+        attendeesResponse.data.forEach(attendee => {
+          if (grouped[attendee.rsvp_status]) {
+            grouped[attendee.rsvp_status].push(attendee);
+          }
+        });
+        
+        setAttendees(grouped);
+        console.log('RSVP created/updated successfully');
+      }
       
     } catch (err) {
       console.error('Error updating RSVP:', err);
@@ -185,12 +238,13 @@ const EventDetails = () => {
   const handleCancelRequest = async (userId) => {
     try {
       setActionLoading(true);
-      await axiosInstance.post(`/users/${userId}/cancel-request/`);
+      await axiosInstance.delete(`/users/${userId}/cancel-friend-request/`);
       
       // Refresh friend requests
       const requestsResponse = await axiosInstance.get('/users/friend-requests/');
       const outgoingRequests = requestsResponse.data.outgoing.map(req => req.friend);
       setPendingRequests(outgoingRequests);
+      
     } catch (err) {
       console.error('Error canceling friend request:', err);
     } finally {
@@ -203,9 +257,11 @@ const EventDetails = () => {
     try {
       setActionLoading(true);
       await axiosInstance.delete(`/users/${userId}/remove-friend/`);
-      // Update friends list
+      
+      // Refresh friends list
       const friendsResponse = await axiosInstance.get('/users/friends/');
       setFriends(friendsResponse.data.map(friendship => friendship.friend));
+      
     } catch (err) {
       console.error('Error removing friend:', err);
     } finally {
@@ -215,22 +271,22 @@ const EventDetails = () => {
 
   // Render the friend action button based on relationship status
   const renderFriendButton = (attendee) => {
-    if (isFriend(attendee.id)) {
+    if (isFriend(attendee.user_id)) {
       return (
         <button 
           className="friend-button friend-remove"
-          onClick={() => handleRemoveFriend(attendee.id)}
+          onClick={() => handleRemoveFriend(attendee.user_id)}
           disabled={actionLoading}
         >
           <UserMinus size={16} />
           <span>Remove Friend</span>
         </button>
       );
-    } else if (isPendingRequest(attendee.id)) {
+    } else if (isPendingRequest(attendee.user_id)) {
       return (
         <button 
           className="friend-button friend-pending"
-          onClick={() => handleCancelRequest(attendee.id)}
+          onClick={() => handleCancelRequest(attendee.user_id)}
           disabled={actionLoading}
         >
           <Clock3 size={16} />
@@ -241,7 +297,7 @@ const EventDetails = () => {
       return (
         <button 
           className="friend-button friend-add"
-          onClick={() => handleAddFriend(attendee.id)}
+          onClick={() => handleAddFriend(attendee.user_id)}
           disabled={actionLoading}
         >
           <UserPlus size={16} />
@@ -477,7 +533,7 @@ const EventDetails = () => {
                       <span>{attendee.username || attendee.full_name}</span>
                       
                       {/* Don't show friend buttons for yourself */}
-                      {attendee.id !== user.user_id && (
+                      {attendee.user_id !== user?.user_id && (
                         <div className="friend-action">
                           {renderFriendButton(attendee)}
                         </div>
@@ -510,7 +566,7 @@ const EventDetails = () => {
                       <span>{attendee.username || attendee.full_name}</span>
                       
                       {/* Don't show friend buttons for yourself */}
-                      {attendee.id !== user.user_id && (
+                      {attendee.user_id !== user?.user_id && (
                         <div className="friend-action">
                           {renderFriendButton(attendee)}
                         </div>
@@ -543,7 +599,7 @@ const EventDetails = () => {
                       <span>{attendee.username || attendee.full_name}</span>
                       
                       {/* Don't show friend buttons for yourself */}
-                      {attendee.id !== user.user_id && (
+                      {attendee.user_id !== user?.user_id && (
                         <div className="friend-action">
                           {renderFriendButton(attendee)}
                         </div>

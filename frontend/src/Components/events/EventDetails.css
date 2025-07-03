@@ -280,6 +280,17 @@
   color: #FFFFF0;
 }
 
+.rsvp-button.going.active:hover {
+  background-color: #0d5a28;
+  transform: scale(0.98);
+}
+
+.rsvp-button.going.active:hover::after {
+  content: " (Click to remove)";
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+
 .rsvp-button.maybe {
   background-color: #fef7e0;
   color: #b06000;
@@ -295,6 +306,17 @@
   color: #FFFFF0;
 }
 
+.rsvp-button.maybe.active:hover {
+  background-color: #8b4a00;
+  transform: scale(0.98);
+}
+
+.rsvp-button.maybe.active:hover::after {
+  content: " (Click to remove)";
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+
 .rsvp-button.not-going {
   background-color: #fbe9e7;
   color: #c53929;
@@ -308,6 +330,17 @@
 .rsvp-button.not-going.active {
   background-color: #c53929;
   color: #FFFFF0;
+}
+
+.rsvp-button.not-going.active:hover {
+  background-color: #a02e20;
+  transform: scale(0.98);
+}
+
+.rsvp-button.not-going.active:hover::after {
+  content: " (Click to remove)";
+  font-size: 0.8em;
+  opacity: 0.8;
 }
 
 /* Action Buttons */
