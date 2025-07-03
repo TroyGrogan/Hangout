@@ -767,6 +767,10 @@ a {
 /* Location row specific styling */
 .location-row {
     position: relative;
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Match the gap of other search rows */
+    margin-bottom: 0.75rem;
 }
 
 /* Remove bottom margin from location row when map is shown */
@@ -900,7 +904,7 @@ a {
     .location-row {
         display: flex;
         align-items: center;
-        gap: 8px; /* Slightly smaller gap for mobile */
+        gap: 12px; /* Match the gap of other search rows instead of 8px */
     }
     
     .search-categories-input,
@@ -2858,13 +2862,15 @@ button.category-action-button.talk-button:hover {
   border-radius: 25px;
   padding: 12px 20px;
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* Changed from center to flex-start for better multi-line text alignment */
   gap: 8px;
   cursor: pointer;
   font-weight: 500;
   font-size: 14px;
   transition: all 0.2s ease;
   box-shadow: 0 2px 4px rgba(234, 244, 235, 0.2);
+  min-height: 44px; /* Add minimum height for consistency */
+  max-width: 300px; /* Add maximum width to prevent overly wide bubbles */
 }
 
 .category-search-bubble:hover {
@@ -2887,10 +2893,17 @@ button.category-action-button.talk-button:hover {
 
 .category-search-bubble .category-icon {
   font-size: 16px;
+  flex-shrink: 0; /* Prevent icon from shrinking */
+  margin-top: 2px; /* Add small top margin to align with first line of text */
 }
 
 .category-search-bubble .category-name {
-  white-space: nowrap;
+  white-space: normal; /* Changed from nowrap to normal to allow wrapping */
+  word-wrap: break-word; /* Allow long words to break */
+  overflow-wrap: break-word; /* Modern property for word breaking */
+  line-height: 1.3; /* Improve line spacing for wrapped text */
+  text-align: center; /* Center the text within the bubble */
+  hyphens: auto; /* Allow hyphenation for better text flow */
 }
 
 .clear-category-search-button {
@@ -2931,6 +2944,23 @@ button.category-action-button.talk-button:hover {
   gap: 8px;
 }
 
+.location-error {
+  background-color: #FEF2F2;
+  border: 1px solid #FECACA;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin: 8px 0;
+  animation: slideDown 0.3s ease-out;
+}
+
+.location-error span {
+  color: #DC2626;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 /* Mobile responsiveness for category search */
 @media (max-width: 768px) {
   .category-search-bubbles {
@@ -2943,6 +2973,12 @@ button.category-action-button.talk-button:hover {
     justify-content: center;
     padding: 14px 20px;
     font-size: 15px;
+    max-width: none; /* Remove max-width constraint on mobile */
+    min-height: 50px; /* Slightly taller on mobile for better touch targets */
+  }
+  
+  .category-search-bubble .category-name {
+    line-height: 1.4; /* Slightly more line height on mobile for better readability */
   }
   
   .category-search-result-text p {

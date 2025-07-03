@@ -363,6 +363,10 @@ const Home = () => {
   const [geocoding, setGeocoding] = useState(false);
   const [searchingField, setSearchingField] = useState(null);
   const [locationFound, setLocationFound] = useState(false);
+  
+  // State for location validation errors
+  const [locationError, setLocationError] = useState(null);
+  const [locationErrorType, setLocationErrorType] = useState(null); // 'location' or 'zip'
 
   // --- Calendar-related state ---
   const [showCalendar, setShowCalendar] = useState(false);
@@ -785,6 +789,9 @@ const Home = () => {
     setGeocoding(true);
     setSearchingField('location');
     setLocationFound(false); // Reset location found state
+    setLocationError(null); // Reset error state
+    setLocationErrorType(null);
+    
     try {
       const response = await fetch(
         `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}&limit=1&addressdetails=1`,
@@ -818,10 +825,36 @@ const Home = () => {
           setLocationFound(false);
         }, 1500);
       } else {
+        // Determine if it's a ZIP code or location based on input format
+        const isZipCode = /^\d{5}(-\d{4})?$/.test(address.trim());
+        
+        if (isZipCode) {
+          setLocationError(address.trim());
+          setLocationErrorType('zip');
+        } else {
+          setLocationError(address.trim());
+          setLocationErrorType('location');
+        }
+        
+        // Hide the error message after 1.5 seconds
+        setTimeout(() => {
+          setLocationError(null);
+          setLocationErrorType(null);
+        }, 1500);
+        
         console.warn('Address not found');
       }
     } catch (err) {
       console.error('Geocoding error:', err);
+      // On network error, show generic location error
+      setLocationError(address.trim());
+      setLocationErrorType('location');
+      
+      // Hide the error message after 1.5 seconds
+      setTimeout(() => {
+        setLocationError(null);
+        setLocationErrorType(null);
+      }, 1500);
     } finally {
       setGeocoding(false);
       setSearchingField(null);
@@ -862,6 +895,8 @@ const Home = () => {
     setSearchLocation('');
     setIsLocationFiltered(false);
     setLocationFound(false);
+    setLocationError(null); // Clear error state
+    setLocationErrorType(null);
     
     // Reset isSearching state when the query completes
     setTimeout(() => {
@@ -894,6 +929,11 @@ const Home = () => {
       } else {
         setCategorySearchResults({ results: [], mainCategories: [], totalMatches: 0 });
         setCategorySearchFound(false);
+        
+        // Hide the "No categories found" message after 1.5 seconds
+        setTimeout(() => {
+          setCategorySearchResults(null);
+        }, 1500);
       }
     } catch (error) {
       console.error('Error searching categories:', error);
@@ -1550,6 +1590,8 @@ const Home = () => {
               onChange={(e) => {
                 setSearchLocation(e.target.value);
                 setLocationFound(false); // Reset location found state when user starts typing
+                setLocationError(null); // Clear error state when user starts typing
+                setLocationErrorType(null);
               }}
               onKeyDown={handleAddressKeyPress}
               className="location-search-input"
@@ -1576,6 +1618,18 @@ const Home = () => {
           {locationFound && !geocoding && (
             <div className="location-found-indicator">
               <span>✅ Location Found!</span>
+            </div>
+          )}
+          
+          {/* Location error message */}
+          {locationError && !geocoding && (
+            <div className="location-error">
+              <span>
+                {locationErrorType === 'zip' 
+                  ? `❌ Invalid ZIP Code. Please enter a valid ZIP Code.`
+                  : `❌ Invalid Location. Please enter a valid Location.`
+                }
+              </span>
             </div>
           )}
           
