@@ -387,9 +387,11 @@ const Home = () => {
   const [categorySearchResults, setCategorySearchResults] = useState(null);
   const [categorySearchFound, setCategorySearchFound] = useState(false);
   const [selectedCategoryBubble, setSelectedCategoryBubble] = useState(null);
+  const [cameFromCategorySearch, setCameFromCategorySearch] = useState(false);
 
   // --- Refs ---
   const calendarRef = useRef(null);
+  const categorySearchSectionRef = useRef(null);
 
   // --- React Query Data Fetching ---
 
@@ -487,31 +489,7 @@ const Home = () => {
   }, [friendEventsQuery.data]);
 
 
-  // Effect: Get Geolocation
-  useEffect(() => {
-    if ("geolocation" in navigator) {
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          setUserLocation({
-            latitude: position.coords.latitude,
-            longitude: position.coords.longitude,
-          });
-        },
-        (err) => {
-          console.warn(`ERROR(${err.code}): ${err.message}`);
-          // Handle location error - maybe disable nearby section or show message
-        },
-        {
-          enableHighAccuracy: false, // Lower accuracy is often faster and sufficient
-          timeout: 10000,          // Wait 10 seconds
-          maximumAge: 1000 * 60 * 15 // Accept cached position up to 15 mins old
-        }
-      );
-    } else {
-      console.log("Geolocation is not available");
-      // Handle case where geolocation is not supported
-    }
-  }, []); // Run only once on mount
+  // Removed automatic geolocation - now handled by user button click
 
 
   // Effect: Process categories into hierarchy once fetched
@@ -622,7 +600,7 @@ const Home = () => {
           const element = document.getElementById(elementId);
           if (element) {
             console.log(`Found element with ID: ${elementId}, scrolling...`);
-            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            element.scrollIntoView({ behavior: 'smooth', block: 'center' });
           } else {
             console.log(`Element with ID: ${elementId} not found`);
           }
@@ -708,6 +686,9 @@ const Home = () => {
   const handleCategorySelect = (category, level) => {
     const clickedCategoryId = category ? category.id : null; // Handle "All" click
     const currentSelectedId = selectionPath[level];
+
+    // Reset the flag when user navigates categories manually (not through search)
+    setCameFromCategorySearch(false);
 
     let newPath;
     let newDisplayedLevels;
@@ -819,6 +800,7 @@ const Home = () => {
         // Update the nearby events query with the new coordinates
         setUserLocation(newPosition);
         setLocationFound(true);
+        setIsLocationFiltered(true); // Enable location filtering for manual location entry
         
         // Hide the success message after 1.5 seconds
         setTimeout(() => {
@@ -904,6 +886,266 @@ const Home = () => {
     }, 500);
   };
 
+  const handleCurrentLocation = async () => {
+    console.log("🎯 LOCATION BUTTON CLICKED - Enhanced mobile support");
+    
+    // Check if we're on mobile
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    console.log("📱 Mobile device detected:", isMobile);
+    
+    if ("geolocation" in navigator) {
+      // Check current permission state first
+      let permissionState = 'unknown';
+      try {
+        const permission = await navigator.permissions.query({ name: 'geolocation' });
+        permissionState = permission.state;
+        console.log("🔍 Current permission state:", permissionState);
+      } catch (e) {
+        console.log("❌ Permissions API not supported (common on mobile)");
+      }
+
+      // If permission is already denied, provide helpful guidance
+      if (permissionState === 'denied') {
+        console.log("🚫 Permission is cached as denied");
+        
+        // Focus on the manual input field to guide user
+        const locationInput = document.querySelector('input[placeholder*="Location"]');
+        if (locationInput) {
+          locationInput.focus();
+        }
+        
+        // Show mobile-specific message
+        const message = isMobile 
+          ? 'You can type your current location above.'
+          : 'You can type your current location above.';
+        
+        setLocationError(message);
+        setLocationErrorType('location');
+        
+        setTimeout(() => {
+          setLocationError(null);
+          setLocationErrorType(null);
+        }, 5000); // Longer timeout for mobile users to read
+        
+        return;
+      }
+
+      // If permission is granted, proceed normally
+      if (permissionState === 'granted') {
+        console.log("✅ Permission already granted, getting location");
+        
+        try {
+          const position = await new Promise((resolve, reject) => {
+            navigator.geolocation.getCurrentPosition(
+              resolve,
+              reject,
+              {
+                enableHighAccuracy: isMobile, // Use GPS on mobile for better accuracy
+                timeout: isMobile ? 20000 : 8000, // Longer timeout for mobile
+                maximumAge: 60000 // Allow 1 minute cache for granted permissions
+              }
+            );
+          });
+          
+          await processLocationSuccess(position);
+          return;
+        } catch (error) {
+          console.log("❌ Location request failed despite granted permission:", error);
+          // Fall through to permission request
+        }
+      }
+
+      // For 'prompt' state or unknown, attempt to get location
+      console.log("🔄 Attempting location request with mobile optimizations...");
+      
+      try {
+        const position = await new Promise((resolve, reject) => {
+          navigator.geolocation.getCurrentPosition(
+            resolve,
+            reject,
+            {
+              enableHighAccuracy: isMobile, // Use GPS on mobile for better accuracy  
+              timeout: isMobile ? 25000 : 10000, // Much longer timeout for mobile
+              maximumAge: 0 // Always get fresh location
+            }
+          );
+        });
+        
+        console.log("✅ Location request successful");
+        await processLocationSuccess(position);
+        
+      } catch (error) {
+        console.log("⚠️ Location request failed:", error);
+        
+        if (error.code === error.PERMISSION_DENIED) {
+          console.log("🚫 User denied permission");
+          
+          // Focus on manual input as fallback
+          const locationInput = document.querySelector('input[placeholder*="Location"]');
+          if (locationInput) {
+            locationInput.focus();
+            locationInput.setAttribute('placeholder', 'Enter your location manually');
+          }
+          
+          // Show encouraging message about manual input
+          const message = isMobile 
+            ? 'You can type your current location above.'
+            : 'You can type your current location above.';
+          
+          setLocationError(message);
+          setLocationErrorType('location');
+          
+          setTimeout(() => {
+            setLocationError(null);
+            setLocationErrorType(null);
+            // Reset placeholder
+            if (locationInput) {
+              locationInput.setAttribute('placeholder', 'Enter Location or ZIP Code');
+            }
+          }, 4000);
+          
+        } else if (error.code === error.TIMEOUT) {
+          console.log("⏱️ Request timed out");
+          const message = isMobile 
+            ? 'You can type your current location above.'
+            : 'You can type your current location above.';
+          
+          setLocationError(message);
+          setLocationErrorType('location');
+          
+          setTimeout(() => {
+            setLocationError(null);
+            setLocationErrorType(null);
+          }, 4000);
+          
+        } else if (error.code === error.POSITION_UNAVAILABLE) {
+          console.log("📍 Position unavailable");
+          const message = isMobile 
+            ? 'You can type your current location above.'
+            : 'You can type your current location above.';
+          
+          setLocationError(message);
+          setLocationErrorType('location');
+          
+          setTimeout(() => {
+            setLocationError(null);
+            setLocationErrorType(null);
+          }, 4000);
+          
+        } else {
+          console.log("❓ Unknown error occurred");
+          const message = isMobile 
+            ? 'You can type your current location above.'
+            : 'You can type your current location above.';
+          
+          setLocationError(message);
+          setLocationErrorType('location');
+          
+          setTimeout(() => {
+            setLocationError(null);
+            setLocationErrorType(null);
+          }, 4000);
+        }
+      }
+
+    } else {
+      console.log("❌ Geolocation not available");
+      const message = isMobile 
+        ? 'You can type your current location above.'
+        : 'You can type your current location above.';
+      
+      setLocationError(message);
+      setLocationErrorType('location');
+      
+      setTimeout(() => {
+        setLocationError(null);
+        setLocationErrorType(null);
+      }, 4000);
+    }
+  };
+
+  const processLocationSuccess = async (position) => {
+    const { latitude, longitude } = position.coords;
+    
+    // Set user location for the map
+    setUserLocation({
+      latitude,
+      longitude,
+    });
+    
+    // Update map position
+    setMapPosition({
+      lat: latitude,
+      lng: longitude
+    });
+    
+    // Reverse geocode to get the address
+    try {
+      const response = await fetch(
+        `https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}&addressdetails=1`,
+        {
+          headers: {
+            'User-Agent': 'HangoutWebApp/1.0'
+          }
+        }
+      );
+      
+      if (response.ok) {
+        const data = await response.json();
+        const address = data.display_name || `${latitude.toFixed(4)}, ${longitude.toFixed(4)}`;
+        
+        // Set the location in the input field
+        setSearchLocation(address);
+        
+        // Trigger location search automatically
+        setIsSearching(true);
+        setIsLocationFiltered(true);
+        setLocationFound(true);
+        
+        // Hide the success message after 1.5 seconds
+        setTimeout(() => {
+          setLocationFound(false);
+        }, 1500);
+        
+        // Reset isSearching state when the query completes
+        nearbyEventsQuery.refetch().finally(() => {
+          setIsSearching(false);
+        });
+      } else {
+        throw new Error('Reverse geocoding failed');
+      }
+    } catch (error) {
+      console.error('Error getting address:', error);
+      // Fall back to coordinates if reverse geocoding fails
+      const coordsString = `${latitude.toFixed(4)}, ${longitude.toFixed(4)}`;
+      setSearchLocation(coordsString);
+      setIsSearching(true);
+      setIsLocationFiltered(true);
+      setLocationFound(true);
+      
+      setTimeout(() => {
+        setLocationFound(false);
+      }, 1500);
+      
+      nearbyEventsQuery.refetch().finally(() => {
+        setIsSearching(false);
+      });
+    }
+  };
+
+  const handleLocationError = (err) => {
+    console.warn(`ERROR(${err.code}): ${err.message}`);
+    // Handle location error
+    setLocationError('Unable to get current location');
+    setLocationErrorType('location');
+    
+    // Hide the error message after 1.5 seconds
+    setTimeout(() => {
+      setLocationError(null);
+      setLocationErrorType(null);
+    }, 1500);
+  };
+
   // Category search handler functions
   const handleCategorySearch = async (e) => {
     e.preventDefault();
@@ -951,6 +1193,9 @@ const Home = () => {
       // Set the selected bubble state
       setSelectedCategoryBubble(mainCategory.id);
       
+      // Set flag to indicate user came from category search
+      setCameFromCategorySearch(true);
+      
       // Get the full path to the target category
       const path = categorySearchService.getCategoryPath(targetCategory);
       console.log('Category path:', path);
@@ -978,13 +1223,13 @@ const Home = () => {
       // Keep search results and found status visible after navigation
       // Note: NOT clearing search results or found status to preserve the search UI
       
-      // Scroll to position the category detail section at the bottom of the viewport
-      // This allows users to see both the category hierarchy and the events section
+      // Scroll to position the category detail section in the center of the viewport
+      // This provides better visual focus and user experience
       setTimeout(() => {
         if (categoryDetailSectionRef.current) {
           categoryDetailSectionRef.current.scrollIntoView({ 
             behavior: 'smooth',
-            block: 'end' // Position at bottom of viewport instead of top
+            block: 'center' // Center the category detail section in the viewport
           });
         }
       }, 100);
@@ -999,6 +1244,17 @@ const Home = () => {
     setCategorySearchResults(null);
     setCategorySearchFound(false);
     setSelectedCategoryBubble(null);
+    setCameFromCategorySearch(false);
+  };
+
+  const handleBackToCategorySearch = () => {
+    // Scroll back to the category search section, centered in the viewport
+    if (categorySearchSectionRef.current) {
+      categorySearchSectionRef.current.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'center'
+      });
+    }
   };
 
   // Calendar handler functions
@@ -1562,7 +1818,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="location-search-container">
+      <div className="location-search-container" ref={categorySearchSectionRef}>
         <form className="search-form-wrapper" onSubmit={handleLocationSearch}>
           <div className="search-row">
             <Calendar size={20} className="calendar-icon" />
@@ -1583,20 +1839,39 @@ const Home = () => {
           
           <div className="search-row location-row">
             <MapPin size={20} className="location-pin-icon" />
-            <input
-              type="text"
-              placeholder="Enter Location or ZIP Code"
-              value={searchLocation}
-              onChange={(e) => {
-                setSearchLocation(e.target.value);
-                setLocationFound(false); // Reset location found state when user starts typing
-                setLocationError(null); // Clear error state when user starts typing
-                setLocationErrorType(null);
-              }}
-              onKeyDown={handleAddressKeyPress}
-              className="location-search-input"
-              disabled={geocoding}
-            />
+            <div className="location-input-container">
+              <input
+                type="text"
+                placeholder="Enter Location or ZIP Code"
+                value={searchLocation}
+                onChange={(e) => {
+                  setSearchLocation(e.target.value);
+                  setLocationFound(false); // Reset location found state when user starts typing
+                  setLocationError(null); // Clear error state when user starts typing
+                  setLocationErrorType(null);
+                }}
+                onKeyDown={handleAddressKeyPress}
+                className="location-search-input"
+                disabled={geocoding}
+              />
+              <button
+                type="button"
+                onClick={handleCurrentLocation}
+                onTouchStart={() => {}} // Ensure touch events are handled properly
+                className="current-location-button"
+                title="Use current location"
+                disabled={geocoding}
+                aria-label="Use current location"
+              >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="22" y1="12" x2="18" y2="12"></line>
+                  <line x1="6" y1="12" x2="2" y2="12"></line>
+                  <line x1="12" y1="6" x2="12" y2="2"></line>
+                  <line x1="12" y1="22" x2="12" y2="18"></line>
+                </svg>
+              </button>
+            </div>
             <button
               type="button"
               onClick={toggleMap}
@@ -1625,12 +1900,30 @@ const Home = () => {
           {locationError && !geocoding && (
             <div className="location-error">
               <span>
-                {locationErrorType === 'zip' 
-                  ? `❌ Invalid ZIP Code. Please enter a valid ZIP Code.`
-                  : `❌ Invalid Location. Please enter a valid Location.`
-                }
+                                  {locationErrorType === 'zip' 
+                    ? `❌ Invalid ZIP Code. Please enter a valid ZIP Code.`
+                    : locationError.includes('❌') 
+                      ? locationError
+                      : `💡 ${locationError}`
+                  }
               </span>
             </div>
+          )}
+          
+          {/* Location search results when map is closed */}
+          {!showMap && isLocationFiltered && (
+            <>
+              <div className="search-results-summary">
+                Showing events within {searchRadius} miles of "{searchLocation}"
+              </div>
+              <button
+                type="button"
+                onClick={clearLocationFilter}
+                className="clear-search-button"
+              >
+                Clear Search
+              </button>
+            </>
           )}
           
           {/* Expandable Map Section */}
@@ -1651,6 +1944,22 @@ const Home = () => {
                   <LocationMarker position={mapPosition} setPosition={setMapPosition} />
                 </MapContainer>
               </div>
+              
+              {/* Location search results when map is open */}
+              {isLocationFiltered && (
+                <>
+                  <div className="search-results-summary">
+                    Showing events within {searchRadius} miles of "{searchLocation}"
+                  </div>
+                  <button
+                    type="button"
+                    onClick={clearLocationFilter}
+                    className="clear-search-button"
+                  >
+                    Clear Search
+                  </button>
+                </>
+              )}
             </div>
           )}
           
@@ -1742,22 +2051,6 @@ const Home = () => {
             </button>
           </div>
         </form>
-        
-        {isLocationFiltered && (
-          <div className="search-results-summary">
-            Showing events within {searchRadius} miles of "{searchLocation}"
-          </div>
-        )}
-        
-        {isLocationFiltered && (
-          <button
-            type="button"
-            onClick={clearLocationFilter}
-            className="clear-search-button"
-          >
-            Clear Search
-          </button>
-        )}
       </div>
 
       {/* LIFE CATEGORIES SECTION */}
@@ -1799,6 +2092,16 @@ const Home = () => {
             )}
             
             <div className="category-actions">
+              {/* Back to Category Search button - only show if user came from category search */}
+              {cameFromCategorySearch && (
+                <button 
+                  className="category-action-button back-button"
+                  onClick={handleBackToCategorySearch}
+                >
+                  <span className="action-icon">⏪</span>
+                  Back To Categories Search
+                </button>
+              )}
               <button 
                 className="category-action-button create-button"
                 onClick={() => {

@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true,
-    https: false, // Set to true if you need HTTPS
+    https: false, // Disabled due to mobile certificate issues - geolocation won't work on mobile via IP
     cors: true,
     strictPort: true,
     port: 5173, // Default Vite port
