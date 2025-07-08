@@ -993,11 +993,32 @@ a {
         flex: 1; /* Take available space */
     }
     
-    /* Mobile specific styling for dates input to keep it shorter */
-    .dates-input {
-        flex: 0 0 60% !important; /* Fixed width at 60% instead of flex: 1 */
-        width: 60% !important;
-        max-width: 300px !important; /* Slightly smaller max-width for mobile */
+    /* Mobile specific styling for dates input to match other inputs */
+    .search-categories-input,
+    .dates-input,
+    .search-form-wrapper .search-row .dates-input,
+    .location-search-container .search-form-wrapper .search-row .dates-input,
+    .dates-input-container .dates-input {
+        flex: 1 !important; /* Full width to match other inputs on mobile */
+        width: 100% !important;
+        max-width: none !important; /* Remove desktop width constraints on mobile */
+        background-color: red !important; /* TEMPORARY: Test if our CSS is working */
+        border: 5px solid yellow !important; /* TEMPORARY: Very obvious test change */
+    }
+    
+    /* CRITICAL: Override the global dates-input-container styles that come later in the CSS */
+    .dates-input-container {
+        flex: 1 !important; /* Match search-categories-input behavior */
+        max-width: none !important; /* Remove any width constraints */
+        width: auto !important; /* Let it size naturally within flex container */
+        position: relative !important; /* Maintain dropdown positioning */
+    }
+    
+    /* Override the global .dates-input-container .dates-input rule */
+    .dates-input-container .dates-input {
+        flex: 1 !important; /* Override the global width: 100% */
+        width: 100% !important; /* Full width within container */
+        max-width: none !important; /* Remove desktop constraints */
     }
     
     /* Location input with optimized width for mobile */
@@ -1026,7 +1047,7 @@ a {
 
     .location-input-container .location-search-input {
         flex: 1;
-        padding-right: 45px; /* Add padding to make room for the larger button */
+        padding-right: 40px; /* Increased padding to prevent text overlap with icon */
         border-radius: 8px;
     }
 
@@ -3134,5 +3155,105 @@ button.category-action-button.back-button:hover {
   
   .category-search-results {
     padding: 16px;
+  }
+  
+  /* 🚨 ULTIMATE NUCLEAR OVERRIDE 🚨 */
+  /* Force both input rows to have identical layouts */
+  
+  /* Step 1: Make both search rows behave exactly the same */
+  .search-row {
+      display: flex !important;
+      align-items: center !important;
+      gap: 12px !important;
+      margin-bottom: 0.75rem !important;
+      width: 100% !important;
+      box-sizing: border-box !important;
+  }
+  
+  /* Step 2: Make all icons the same size */
+  .calendar-icon,
+  .search-icon {
+      flex-shrink: 0 !important;
+      width: 20px !important;
+      height: 20px !important;
+      min-width: 20px !important;
+  }
+  
+     /* Step 3: Force both input areas to take identical space */
+   /* Only the container should get flex: 1, not the direct input */
+   .dates-input-container {
+       flex: 1 !important;
+       width: 0 !important; /* Force flex to calculate width */
+       min-width: 0 !important;
+       max-width: none !important;
+       margin: 0 !important;
+       padding: 0 !important;
+       box-sizing: border-box !important;
+   }
+   
+   /* Force search categories input to match dates container exact space */
+   .search-categories-input {
+       /* Use calc to give exact same space as flex: 1 after icon space */
+       flex: none !important;
+       width: calc(100% - 32px) !important; /* Total width minus icon (20px) minus gap (12px) */
+       min-width: 0 !important;
+       max-width: none !important;
+       margin: 0 !important;
+       padding: 0 15px !important;
+       box-sizing: border-box !important;
+   }
+  
+     /* Step 4: Make both actual input elements identical */
+   .dates-input,
+   .search-categories-input,
+   .search-form-wrapper .search-row .dates-input,
+   .location-search-container .search-form-wrapper .search-row .dates-input,
+   .dates-input-container .dates-input {
+       /* Reset everything */
+       flex: none !important;
+       width: 100% !important;
+       min-width: 0 !important;
+       max-width: none !important;
+       margin: 0 !important;
+       padding: 0 15px !important;
+       box-sizing: border-box !important;
+       
+       /* Visual properties */
+       height: 50px !important;
+       font-size: 1.1rem !important;
+       border: 2px solid #D3D3D3 !important;
+       background-color: #F5F5DC !important; /* Tan background */
+       border-radius: 8px !important;
+       outline: none !important;
+       color: #333 !important;
+       
+       /* Remove any transforms or other weird properties */
+       transform: none !important;
+       position: relative !important;
+   }
+  
+  /* Step 5: Ensure container positioning doesn't interfere */
+  .dates-input-container {
+      position: relative !important;
+      display: block !important; /* Not flex */
+  }
+  
+  /* 🚨 FINAL OVERRIDE: Combat the global CSS rule on line 2602 that comes after this media query 🚨 */
+  /* This is the most specific override possible - MUST be last in mobile media query */
+  .search-form-wrapper .search-row .search-categories-input,
+  .location-search-container .search-form-wrapper .search-row .search-categories-input {
+      flex: none !important; /* Override global flex: 1 */
+      width: calc(100% - 32px) !important; /* Override global width: 100% */
+      max-width: none !important;
+      margin: 0 !important;
+      padding: 0 15px !important;
+      box-sizing: border-box !important;
+      height: 50px !important;
+      font-size: 1.1rem !important;
+      border: 2px solid #D3D3D3 !important;
+      background-color: #F5F5DC !important; /* Tan background */
+      border-radius: 8px !important;
+      outline: none !important;
+      color: #333 !important;
   }
 }

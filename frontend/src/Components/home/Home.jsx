@@ -6,7 +6,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
-import { User, Calendar, MapPin, Users, Search, Menu, X, ChevronDown, ChevronUp } from 'lucide-react';
+import { User, Calendar, MapPin, Users, Search, Menu, X, ChevronDown, ChevronUp, LocateFixed } from 'lucide-react';
 import { MapContainer, TileLayer, Marker, useMapEvents } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -1863,13 +1863,7 @@ const Home = () => {
                 disabled={geocoding}
                 aria-label="Use current location"
               >
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <circle cx="12" cy="12" r="10"></circle>
-                  <line x1="22" y1="12" x2="18" y2="12"></line>
-                  <line x1="6" y1="12" x2="2" y2="12"></line>
-                  <line x1="12" y1="6" x2="12" y2="2"></line>
-                  <line x1="12" y1="22" x2="12" y2="18"></line>
-                </svg>
+                <LocateFixed size={20} />
               </button>
             </div>
             <button
