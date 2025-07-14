@@ -258,7 +258,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 0.5rem 0 1rem 0;
+  padding: 0.3rem 0 0.5rem 0;
 }
 
 .category-buttons, .subcategory-buttons {
@@ -459,6 +459,28 @@ a {
     margin: 0;
 }
 
+/* New centered checkbox container for individual checkboxes */
+.centered-checkbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+.centered-checkbox-container .preferences-toggle {
+    background-color: #FFFFF0;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    min-width: 280px;
+}
+
 .toggle-label input[type="checkbox"] {
     width: 16px;
     height: 16px;
@@ -492,6 +514,12 @@ a {
     }
     
     .preferences-toggle {
+        width: 280px; /* Keep consistent width on mobile */
+        min-width: 280px;
+        max-width: 280px;
+    }
+    
+    .centered-checkbox-container .preferences-toggle {
         width: 280px; /* Keep consistent width on mobile */
         min-width: 280px;
         max-width: 280px;
@@ -538,7 +566,7 @@ a {
 .location-search-container {
     width: 100%;
     max-width: 1000px;
-    margin: 0.75rem auto 1.5rem auto;
+    margin: 0.75rem auto 0.75rem auto;
     padding: 0 1rem;
     box-sizing: border-box;
 }
@@ -1002,8 +1030,6 @@ a {
         flex: 1 !important; /* Full width to match other inputs on mobile */
         width: 100% !important;
         max-width: none !important; /* Remove desktop width constraints on mobile */
-        background-color: red !important; /* TEMPORARY: Test if our CSS is working */
-        border: 5px solid yellow !important; /* TEMPORARY: Very obvious test change */
     }
     
     /* CRITICAL: Override the global dates-input-container styles that come later in the CSS */
@@ -1251,7 +1277,8 @@ a {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   width: 100%;
   max-width: 1200px;
 }
@@ -1420,8 +1447,8 @@ a {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  margin-top: 0.8rem; /* Changed from 2rem to 0.8rem to match Events sections spacing pattern */
-  margin-bottom: 2rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
   width: 100%;
   max-width: 1200px;
   padding: 0 15px;
@@ -2744,18 +2771,74 @@ button.category-action-button.back-button:hover {
 }
 
 .calendar-nav-btn {
-  background: none;
-  border: none;
+  background: transparent !important;
+  border: 0 !important;
   font-size: 1.5rem;
   cursor: pointer;
   color: #3B5998;
   padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  transition: background-color 0.2s;
+  border-radius: 0 !important;
+  transition: none !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+  -webkit-touch-callout: none !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
 }
 
 .calendar-nav-btn:hover {
-  background-color: #f0f0f0;
+  color: #2E4578 !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-color: transparent !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+}
+
+.calendar-nav-btn:active {
+  color: #2E4578 !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-color: transparent !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  transform: none !important;
+}
+
+.calendar-nav-btn:focus {
+  color: #2E4578 !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-color: transparent !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+}
+
+.calendar-nav-btn:focus-visible {
+  color: #2E4578 !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-color: transparent !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
 }
 
 .calendar-month-year {
@@ -2838,6 +2921,15 @@ button.category-action-button.back-button:hover {
   color: #221F1F;
   padding: 0.5rem 0;
   font-size: 0.875rem;
+}
+
+/* Show full weekday names by default */
+.calendar-weekday .weekday-full {
+  display: inline;
+}
+
+.calendar-weekday .weekday-short {
+  display: none;
 }
 
 .calendar-days {
@@ -2957,6 +3049,49 @@ button.category-action-button.back-button:hover {
   .calendar-weekday {
     font-size: 0.8rem;
     padding: 0.25rem 0;
+  }
+}
+
+/* Position calendar dropdown below input field on vertical mobile screens */
+@media (max-width: 640px) and (orientation: portrait) {
+  .location-search-container {
+    position: relative;
+  }
+  
+  .search-form-wrapper {
+    position: static;
+  }
+  
+  .dates-input-container {
+    position: static;
+  }
+  
+  .calendar-dropdown {
+    position: absolute !important;
+    top: 70px !important; /* Position below the dates input field */
+    /* This transform centers the calendar dropdown*/
+    transform: translateX(-6%) !important;
+    width: 90vw !important;
+    max-width: 350px !important;
+    z-index: 1001 !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2) !important;
+  }
+  
+  /* Show abbreviated day names on vertical mobile devices */
+  .calendar-weekday .weekday-full {
+    display: none !important;
+  }
+  
+  .calendar-weekday .weekday-short {
+    display: inline !important;
+  }
+  
+  /* Make dates input text smaller on vertical mobile for long date ranges. Especially dates from one year to a different year.*/
+  .dates-input,
+  .search-form-wrapper .search-row .dates-input,
+  .location-search-container .search-form-wrapper .search-row .dates-input,
+  .dates-input-container .dates-input {
+    font-size: 0.95rem !important;
   }
 }
 

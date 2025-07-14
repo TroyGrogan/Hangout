@@ -17,7 +17,7 @@ DEBUG = os.environ.get('DJANGO_DEBUG', 'False').lower() == 'true'
 # Dynamic ALLOWED_HOSTS for production
 ALLOWED_HOSTS = []
 if DEBUG:
-    ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '192.168.0.20', '100.64.5.109', '10.179.1.154']
+    ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '192.168.0.20', '100.64.5.109', '10.179.1.154', '100.64.6.77']
 else:
     # For production, allow any Render subdomain
     ALLOWED_HOSTS = ['*'] 
@@ -171,6 +171,7 @@ if DEBUG:
         "http://192.168.0.20:5173",
         "http://100.64.5.109:5173",
         "http://10.179.1.154:5173",
+        "http://100.64.6.77:5173",
     ]
 else:
     # For production, add your frontend URL here

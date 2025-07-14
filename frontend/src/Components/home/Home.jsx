@@ -1289,6 +1289,9 @@ const Home = () => {
     setSelectedEndDate(null);
     setCalendarMode('today');
     setIsSelectingRange(false);
+    // Navigate calendar to current month/year
+    setCalendarMonth(today.getMonth());
+    setCalendarYear(today.getFullYear());
   };
 
   const handleWeekendClick = () => {
@@ -1297,6 +1300,10 @@ const Home = () => {
     setSelectedEndDate(end);
     setCalendarMode('weekend');
     setIsSelectingRange(false);
+    // Navigate calendar to current month/year
+    const today = new Date();
+    setCalendarMonth(today.getMonth());
+    setCalendarYear(today.getFullYear());
   };
 
   const handleSelectMultipleClick = () => {
@@ -1360,6 +1367,7 @@ const Home = () => {
     ];
 
     const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const daysOfWeekShort = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
     
     const firstDay = new Date(calendarYear, calendarMonth, 1);
     const lastDay = new Date(calendarYear, calendarMonth + 1, 0);
@@ -1422,7 +1430,7 @@ const Home = () => {
             onClick={handleSelectMultipleClick}
             className={`calendar-control-btn ${calendarMode === 'select' ? 'active' : ''}`}
           >
-            Select Multiple
+            Select
           </button>
           <button 
             type="button" 
@@ -1436,8 +1444,11 @@ const Home = () => {
 
         <div className="calendar-grid">
           <div className="calendar-weekdays">
-            {daysOfWeek.map(day => (
-              <div key={day} className="calendar-weekday">{day}</div>
+            {daysOfWeek.map((day, index) => (
+              <div key={day} className="calendar-weekday">
+                <span className="weekday-full">{day}</span>
+                <span className="weekday-short">{daysOfWeekShort[index]}</span>
+              </div>
             ))}
           </div>
           <div className="calendar-days">
@@ -1782,41 +1793,9 @@ const Home = () => {
       {/* Display connection warning if backend is not connected */}
       {renderBackendConnectionWarning()}
 
-      {/* TOGGLES AND SEARCH SECTION - MOVED ABOVE LIFE CATEGORIES */}
+      {/* SEARCH SECTION */}
       {/* Extra spacer div for consistent vertical spacing */}
       <div className="toggle-spacer calendar-spacer"></div>
-
-      <div className="preferences-container">
-        {/* Show Preferred Categories Toggle */}
-        {userPreferences.length > 0 && ( 
-          <div className="preferences-toggle category-preferences-toggle">
-            <label className="toggle-label">
-              <input
-                type="checkbox"
-                checked={showPreferredOnly}
-                onChange={() => setShowPreferredOnly(!showPreferredOnly)}
-              />
-              <span className="toggle-text">
-                Show Preferred Categories
-              </span>
-            </label>
-          </div>
-        )}
-        
-        {/* Hide Past Events Toggle */}
-        <div className="preferences-toggle past-events-toggle">
-          <label className="toggle-label">
-            <input
-              type="checkbox"
-              checked={hidePastEvents}
-              onChange={() => setHidePastEvents(!hidePastEvents)}
-            />
-            <span className="toggle-text">
-              Hide Past Events
-            </span>
-          </label>
-        </div>
-      </div>
 
       <div className="location-search-container" ref={categorySearchSectionRef}>
         <form className="search-form-wrapper" onSubmit={handleLocationSearch}>
@@ -2047,6 +2026,24 @@ const Home = () => {
         </form>
       </div>
 
+      {/* Show Preferred Categories Toggle - Positioned above Life Categories */}
+      {userPreferences.length > 0 && ( 
+        <div className="centered-checkbox-container">
+          <div className="preferences-toggle category-preferences-toggle">
+            <label className="toggle-label">
+              <input
+                type="checkbox"
+                checked={showPreferredOnly}
+                onChange={() => setShowPreferredOnly(!showPreferredOnly)}
+              />
+              <span className="toggle-text">
+                Show Preferred Categories
+              </span>
+            </label>
+          </div>
+        </div>
+      )}
+
       {/* LIFE CATEGORIES SECTION */}
       {/* Add the ref to this container which holds the category sections */}
       <div className="categories-container" ref={categorySectionsContainerRef}>
@@ -2173,6 +2170,22 @@ const Home = () => {
             </div>
           </section>
         )}
+      </div>
+
+      {/* Hide Past Events Toggle - Positioned above Events Near You */}
+      <div className="centered-checkbox-container">
+        <div className="preferences-toggle past-events-toggle">
+          <label className="toggle-label">
+            <input
+              type="checkbox"
+              checked={hidePastEvents}
+              onChange={() => setHidePastEvents(!hidePastEvents)}
+            />
+            <span className="toggle-text">
+              Hide Past Events
+            </span>
+          </label>
+        </div>
       </div>
 
       {/* EVENTS SECTIONS - STAYS AT BOTTOM */}

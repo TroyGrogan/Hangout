@@ -735,20 +735,40 @@ const Chat = () => {
       </div>
 
       <form onSubmit={(e) => {e.preventDefault(); handleSendMessage();}} className="chat-input-form">
-        <textarea
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyPress={handleKeyPress}
-          placeholder="Type your message here..."
-          rows="1"
-        />
-        <button 
-          type="submit" 
-          className={`send-button ${showLoadingSpinner ? 'loading' : ''}`}
-          disabled={showLoadingSpinner || !input.trim()}
-        >
-          {showLoadingSpinner ? <LoadingIndicator size="small" /> : <PaperAirplane />}
-        </button>
+        <div className="model-info-text model-info-above">
+          <p>
+            The AI in use here is the{' '}
+            <a 
+              href="https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF?show_file_info=gemma-3-1b-it-Q8_0.gguf" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="model-link"
+            >
+              Gemma 3 1B Parameter 8-Bit Quantized Model
+            </a>
+            .
+          </p>
+        </div>
+        <div className="input-container">
+          <textarea
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            onKeyPress={handleKeyPress}
+            placeholder="Type your message here..."
+            rows="1"
+          />
+          <button 
+            type="submit" 
+            className={`send-button ${showLoadingSpinner ? 'loading' : ''}`}
+            disabled={showLoadingSpinner || !input.trim()}
+          >
+            {showLoadingSpinner ? <LoadingIndicator size="small" /> : <PaperAirplane />}
+          </button>
+        </div>
+        <div className="model-info-text model-info-below">
+          <p>This model is running on <b>1 CPU and 2 GB of RAM,</b> so do please be patient with its response time!</p>
+          <p>It takes around <b>~1 min</b> on average for the AI to respond with its message.</p>
+        </div>
       </form>
     </div>
   );

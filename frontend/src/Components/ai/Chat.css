@@ -5,7 +5,7 @@
   height: calc(100vh - 160px); /* Reverted back to original height for main chat */
   max-width: 1000px;
   width: 95%;
-  margin: 2rem auto;
+  margin: -0.05rem auto; /* Significantly reduced to match Calendar visual spacing */
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -159,12 +159,59 @@
 
 .chat-input-form {
   display: flex;
+  flex-direction: column; /* Changed to column to stack the info text above textarea */
   position: relative;
   width: 100%;
-  padding: 15px 20px;
+  padding: 10px 20px; /* Reduced from 15px to decrease dead space */
   border-top: 1px solid #e0e0e0;
   background: #F5F5DC; /* Changed from #f9f9f9 to match the tan color */
   box-sizing: border-box;
+}
+
+.model-info-text {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  line-height: 1.2; /* Reduced from 1.3 to tighten spacing */
+}
+
+.model-info-text.model-info-above {
+  margin-bottom: -10px; /* Removed all margin to match desktop */
+}
+
+.model-info-text.model-info-below {
+  margin-top: -10px; /* Removed all margin to match desktop */
+}
+
+.model-info-text p {
+  margin: -1px 0; /* Removed all vertical margin for tightest spacing */
+  font-weight: 500;
+}
+
+.model-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.model-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.model-link:visited {
+  color: #6f42c1;
+}
+
+.model-link:visited:hover {
+  color: #5a2d91;
+}
+
+.chat-input-form .input-container {
+  display: flex;
+  position: relative;
+  width: 100%;
 }
 
 .chat-input-form textarea {
@@ -188,8 +235,8 @@
 
 .chat-input-form .send-button {
   position: absolute;
-  right: 25px;
-  bottom: 20px;
+  right: 5px;
+  bottom: 5px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -421,7 +468,7 @@
   .chat-container {
     height: calc(100vh - 200px); /* Reduced height on mobile to prevent scrolling to input */
     width: 98%; /* Slightly wider on mobile */
-    margin: 1rem auto; /* Reduced margin on mobile */
+    margin: 0.25rem auto; /* Reduced proportionally to maintain spacing consistency */
     border-radius: 8px; /* Smaller border radius on mobile */
   }
   .chat-header {
@@ -446,15 +493,27 @@
     padding: 1rem 0.75rem; /* Reduced padding for suggestions */
   }
   .chat-input-form {
-    padding: 10px 15px; /* Reduced padding to save vertical space */
+    padding: 8px 15px; /* Reduced from 10px to match desktop reduction */
+  }
+  .model-info-text {
+    font-size: 11px; /* Slightly smaller text on mobile */
+  }
+  .model-info-text.model-info-above {
+    margin-bottom: 0px; /* Removed all margin to match desktop */
+  }
+  .model-info-text.model-info-below {
+    margin-top: 0px; /* Removed all margin to match desktop */
+  }
+  .model-link {
+    font-size: 11px; /* Match the mobile text size */
   }
   .chat-input-form textarea {
     min-height: 44px; /* Slightly smaller minimum height */
     padding: 10px 50px 10px 12px; /* Adjusted padding */
   }
   .chat-input-form .send-button {
-    right: 20px; /* Adjusted position */
-    bottom: 15px; /* Adjusted position */
+    right: 5px; /* Adjusted position for input-container */
+    bottom: 5px; /* Adjusted position for input-container */
     width: 36px; /* Slightly smaller button */
     height: 36px; /* Slightly smaller button */
   }
@@ -472,7 +531,7 @@
   .chat-container {
     height: calc(100vh - 140px); /* More height available in landscape */
     width: 99%; /* Use more width in landscape */
-    margin: 0.5rem auto; /* Reduced margin to maximize space */
+    margin: 0.25rem auto; /* Minimal margin for landscape to match new spacing */
     border-radius: 6px; /* Slightly smaller border radius */
   }
   
@@ -549,8 +608,24 @@
   }
   
   .chat-input-form {
-    padding: 8px 12px; /* Minimal padding for input area */
+    padding: 6px 12px; /* Reduced from 8px to match desktop reduction pattern */
     min-height: 60px; /* Ensure input area isn't too small */
+  }
+  
+  .model-info-text {
+    font-size: 10px; /* Even smaller text in landscape */
+  }
+  
+  .model-info-text.model-info-above {
+    margin-bottom: 0px; /* Removed all margin to match desktop and mobile */
+  }
+  
+  .model-info-text.model-info-below {
+    margin-top: 0px; /* Removed all margin to match desktop and mobile */
+  }
+  
+  .model-link {
+    font-size: 10px; /* Match the landscape mobile text size */
   }
   
   .chat-input-form textarea {
@@ -561,8 +636,8 @@
   }
   
   .chat-input-form .send-button {
-    right: 16px; /* Adjusted position */
-    bottom: 12px; /* Adjusted position */
+    right: 5px; /* Adjusted position for input-container */
+    bottom: 5px; /* Adjusted position for input-container */
     width: 32px; /* Smaller button */
     height: 32px; /* Smaller button */
   }
