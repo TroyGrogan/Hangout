@@ -377,6 +377,7 @@ const Home = () => {
   const [calendarYear, setCalendarYear] = useState(new Date().getFullYear());
   const [isSelectingRange, setIsSelectingRange] = useState(false);
   const [datesAvailableText, setDatesAvailableText] = useState('');
+  const [isMultiYearRange, setIsMultiYearRange] = useState(false);
 
   // --- Error state for backend connectivity ---
   const [backendConnected, setBackendConnected] = useState(true);
@@ -1292,6 +1293,11 @@ const Home = () => {
     // Navigate calendar to current month/year
     setCalendarMonth(today.getMonth());
     setCalendarYear(today.getFullYear());
+    
+    // Update display text and multi-year state
+    const displayText = formatDateForDisplay(today);
+    setDatesAvailableText(displayText);
+    setIsMultiYearRange(false); // Single date is never multi-year
   };
 
   const handleWeekendClick = () => {
@@ -1304,6 +1310,29 @@ const Home = () => {
     const today = new Date();
     setCalendarMonth(today.getMonth());
     setCalendarYear(today.getFullYear());
+    
+    // Update display text and multi-year state
+    let displayText = '';
+    let isMultiYear = false;
+    
+    if (start.getFullYear() === end.getFullYear()) {
+      // Same year - show year only at the end
+      const startDateWithoutYear = start.toLocaleDateString('en-US', { 
+        weekday: 'short', 
+        month: 'short', 
+        day: 'numeric'
+      });
+      const endDateWithYear = formatDateForDisplay(end);
+      displayText = `From ${startDateWithoutYear} to ${endDateWithYear}`;
+      isMultiYear = false;
+    } else {
+      // Different years - show year for both dates
+      displayText = `From ${formatDateForDisplay(start)} to ${formatDateForDisplay(end)}`;
+      isMultiYear = true;
+    }
+    
+    setDatesAvailableText(displayText);
+    setIsMultiYearRange(isMultiYear);
   };
 
   const handleSelectMultipleClick = () => {
@@ -1316,6 +1345,8 @@ const Home = () => {
   const handleSetClick = () => {
     if (selectedStartDate) {
       let displayText = '';
+      let isMultiYear = false;
+      
       if (selectedEndDate && !isSameDay(selectedStartDate, selectedEndDate)) {
         // Multiple dates - check if they span different years
         if (selectedStartDate.getFullYear() === selectedEndDate.getFullYear()) {
@@ -1327,15 +1358,20 @@ const Home = () => {
           });
           const endDateWithYear = formatDateForDisplay(selectedEndDate);
           displayText = `From ${startDateWithoutYear} to ${endDateWithYear}`;
+          isMultiYear = false;
         } else {
           // Different years - show year for both dates
           displayText = `From ${formatDateForDisplay(selectedStartDate)} to ${formatDateForDisplay(selectedEndDate)}`;
+          isMultiYear = true;
         }
       } else {
         // Single date
         displayText = formatDateForDisplay(selectedStartDate);
+        isMultiYear = false;
       }
+      
       setDatesAvailableText(displayText);
+      setIsMultiYearRange(isMultiYear);
       setShowCalendar(false);
     }
   };
@@ -1805,7 +1841,7 @@ const Home = () => {
               <input
                 type="text"
                 placeholder="Dates Available"
-                className="dates-input"
+                className={`dates-input ${isMultiYearRange ? 'multi-year-range' : ''}`}
                 value={datesAvailableText}
                 onClick={toggleCalendar}
                 onChange={() => {}} // Prevent direct typing

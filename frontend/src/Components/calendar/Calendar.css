@@ -416,6 +416,11 @@ input:checked + .toggle-slider:before {
     color: #2E4578 !important;
 }
 
+/* Fix toolbar label (month/year) text */
+.rbc-toolbar-label {
+    color: #3B5998 !important;
+}
+
 /* Mobile Styles - Match Home component exactly */
 @media (max-width: 768px) {
     .nav-links-desktop {
@@ -533,6 +538,7 @@ input:checked + .toggle-slider:before {
     .rbc-toolbar-label {
         font-size: 0.9rem; /* Smaller toolbar label */
         margin: 0 0.5rem; /* Reduced margin */
+        color: #3B5998 !important; /* Make month/year text visible */
     }
 
     /* Optimize month view specifically */
@@ -614,6 +620,7 @@ input:checked + .toggle-slider:before {
     .rbc-toolbar-label {
         font-size: 0.8rem;
         margin: 0 0.25rem;
+        color: #3B5998 !important; /* Make month/year text visible */
     }
 
     .rbc-btn-group button {

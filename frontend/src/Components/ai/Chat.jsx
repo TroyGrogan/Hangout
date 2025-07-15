@@ -79,8 +79,16 @@ const Chat = () => {
   const [isReturningFromHistory, setIsReturningFromHistory] = useState(false); // Add state to track return from history
   const [isStateLoaded, setIsStateLoaded] = useState(false); // Add state to track when localStorage state is loaded
   
+  // Slider functionality state
+  const [slidePosition, setSlidePosition] = useState(0); // 0 = fully visible, 1 = fully hidden
+  const [isDragging, setIsDragging] = useState(false);
+  const [dragStartY, setDragStartY] = useState(0);
+  const [dragStartSlidePosition, setDragStartSlidePosition] = useState(0);
+  
   const messagesEndRef = useRef(null);
   const prevMessagesLengthRef = useRef(0); // Ref to track previous message count
+  const sliderRef = useRef(null);
+  const inputFormRef = useRef(null);
   const navigate = useNavigate();
   const location = useLocation(); // Access URL location including query parameters
   const { user } = useAuth(); // Access user information
@@ -98,6 +106,87 @@ const Chat = () => {
       setIsStateLoaded(false);
     }
   }, [user]); // Dependency on user to detect login/logout changes
+
+  // --- Slider Event Handlers --- //
+  
+  const handleSliderMouseDown = (e) => {
+    setIsDragging(true);
+    setDragStartY(e.clientY);
+    setDragStartSlidePosition(slidePosition);
+    e.preventDefault();
+  };
+  
+  const handleSliderTouchStart = (e) => {
+    setIsDragging(true);
+    setDragStartY(e.touches[0].clientY);
+    setDragStartSlidePosition(slidePosition);
+    e.preventDefault();
+  };
+  
+  const handleMouseMove = (e) => {
+    if (!isDragging) return;
+    
+    const currentY = e.clientY;
+    const deltaY = currentY - dragStartY;
+    const inputFormHeight = inputFormRef.current?.offsetHeight || 200;
+    
+    // Calculate new slide position (0 to 1) with smoother scaling
+    const newSlidePosition = Math.max(0, Math.min(1, dragStartSlidePosition + deltaY / (inputFormHeight * 0.8)));
+    setSlidePosition(newSlidePosition);
+  };
+  
+  const handleTouchMove = (e) => {
+    if (!isDragging) return;
+    
+    const currentY = e.touches[0].clientY;
+    const deltaY = currentY - dragStartY;
+    const inputFormHeight = inputFormRef.current?.offsetHeight || 200;
+    
+    // Calculate new slide position (0 to 1) with smoother scaling
+    const newSlidePosition = Math.max(0, Math.min(1, dragStartSlidePosition + deltaY / (inputFormHeight * 0.8)));
+    setSlidePosition(newSlidePosition);
+  };
+  
+  const handleMouseUp = () => {
+    // Snap to closest position (three positions: 0, 0.5, 1)
+    if (slidePosition < 0.25) {
+      setTimeout(() => setSlidePosition(0), 10); // Snap to fully visible
+    } else if (slidePosition < 0.75) {
+      setTimeout(() => setSlidePosition(0.5), 10); // Snap to middle position
+    } else {
+      setTimeout(() => setSlidePosition(1), 10); // Snap to collapsed with slider visible
+    }
+    setIsDragging(false);
+  };
+  
+  const handleTouchEnd = () => {
+    // Snap to closest position (three positions: 0, 0.5, 1)
+    if (slidePosition < 0.25) {
+      setTimeout(() => setSlidePosition(0), 10); // Snap to fully visible
+    } else if (slidePosition < 0.75) {
+      setTimeout(() => setSlidePosition(0.5), 10); // Snap to middle position
+    } else {
+      setTimeout(() => setSlidePosition(1), 10); // Snap to collapsed with slider visible
+    }
+    setIsDragging(false);
+  };
+  
+  // Add global event listeners for mouse/touch events
+  useEffect(() => {
+    if (isDragging) {
+      document.addEventListener('mousemove', handleMouseMove);
+      document.addEventListener('mouseup', handleMouseUp);
+      document.addEventListener('touchmove', handleTouchMove);
+      document.addEventListener('touchend', handleTouchEnd);
+      
+      return () => {
+        document.removeEventListener('mousemove', handleMouseMove);
+        document.removeEventListener('mouseup', handleMouseUp);
+        document.removeEventListener('touchmove', handleTouchMove);
+        document.removeEventListener('touchend', handleTouchEnd);
+      };
+    }
+  }, [isDragging, dragStartY, dragStartSlidePosition, slidePosition]);
 
   // Load state from localStorage on component mount (MUST BE AFTER logout detection)
   useEffect(() => {
@@ -588,7 +677,15 @@ const Chat = () => {
 
       </div>
 
-      <div className="messages-container" style={{ backgroundColor: '#FFFFF0' }}>
+      <div 
+        className="messages-container" 
+        style={{ 
+          backgroundColor: '#FFFFF0',
+          '--dynamic-margin-bottom': `${slidePosition === 1 ? '20px' : slidePosition >= 0.4 && slidePosition <= 0.6 ? '80px' : `${20 + (125 * (1 - slidePosition))}px`}`,
+          '--dynamic-margin-bottom-mobile': `${slidePosition === 1 ? '20px' : slidePosition >= 0.4 && slidePosition <= 0.6 ? '55px' : `${20 + (110 * (1 - slidePosition))}px`}`,
+          '--dynamic-margin-bottom-landscape': `${slidePosition === 1 ? '20px' : slidePosition >= 0.4 && slidePosition <= 0.6 ? '70px' : `${20 + (100 * (1 - slidePosition))}px`}`
+        }}
+      >
         {messages.length === 0 && !isLoading && (
            // Show suggestions view only if chat is empty and not loading first message
            <div className={`empty-chat ${selectedCategory ? 'chat-category-selected-view' : ''}`} style={{ backgroundColor: '#FFFFF0' }}>
@@ -734,8 +831,46 @@ const Chat = () => {
         <div ref={messagesEndRef} />
       </div>
 
-      <form onSubmit={(e) => {e.preventDefault(); handleSendMessage();}} className="chat-input-form">
-        <div className="model-info-text model-info-above">
+      {/* Integrated Sliding Input Container */}
+      <div 
+        className={`input-container-wrapper ${!isDragging ? 'snapping' : ''}`}
+        ref={inputFormRef}
+        style={{
+          transform: `translateY(${slidePosition === 1 ? 'calc(100% - var(--slider-handle-height, 20px))' : `${slidePosition * 85}%`})`,
+        }}
+      >
+        {/* Slider Handle - Integral part of input container */}
+        <div 
+          className="slider-handle slider-handle-integrated"
+          ref={sliderRef}
+          onMouseDown={handleSliderMouseDown}
+          onTouchStart={handleSliderTouchStart}
+        >
+          <div className="slider-lines">
+            <div className="slider-line"></div>
+            <div className="slider-line"></div>
+          </div>
+        </div>
+
+        {/* Sliding Input Form */}
+        <form 
+          onSubmit={(e) => {e.preventDefault(); handleSendMessage();}} 
+          className="chat-input-form sliding-form"
+          style={{
+            opacity: slidePosition >= 1 ? 0 : 1,
+            pointerEvents: slidePosition >= 1 ? 'none' : 'auto',
+            visibility: slidePosition >= 1 ? 'hidden' : 'visible',
+            paddingTop: slidePosition >= 0.4 && slidePosition <= 0.6 ? (window.innerWidth <= 768 ? '0px' : '20px') : '10px',
+            paddingBottom: slidePosition >= 0.4 && slidePosition <= 0.6 ? (window.innerWidth <= 768 ? '0px' : '20px') : '10px',
+            transform: slidePosition >= 0.4 && slidePosition <= 0.6 ? (window.innerWidth <= 768 ? 'translateY(-20px)' : 'translateY(-25px)') : 'none',
+          }}
+        >
+
+        <div className="model-info-text model-info-above" style={{
+          opacity: slidePosition >= 0.5 ? 0 : 1,
+          visibility: slidePosition >= 0.5 ? 'hidden' : 'visible',
+          transition: 'opacity 0.2s ease'
+        }}>
           <p>
             The AI in use here is the{' '}
             <a 
@@ -765,11 +900,16 @@ const Chat = () => {
             {showLoadingSpinner ? <LoadingIndicator size="small" /> : <PaperAirplane />}
           </button>
         </div>
-        <div className="model-info-text model-info-below">
+        <div className="model-info-text model-info-below" style={{
+          opacity: slidePosition >= 0.5 ? 0 : 1,
+          visibility: slidePosition >= 0.5 ? 'hidden' : 'visible',
+          transition: 'opacity 0.2s ease'
+        }}>
           <p>This model is running on <b>1 CPU and 2 GB of RAM,</b> so do please be patient with its response time!</p>
           <p>It takes around <b>~1 min</b> on average for the AI to respond with its message.</p>
         </div>
       </form>
+      </div>
     </div>
   );
 };

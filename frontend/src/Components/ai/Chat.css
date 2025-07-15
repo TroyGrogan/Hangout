@@ -11,6 +11,7 @@
   overflow: hidden;
   box-sizing: border-box;
   background-color: #F5F5DC; /* Changed from white to match search input tan color */
+  position: relative; /* Add positioning context for absolute positioned children */
 }
 
 /* Apply taller height specifically for the chat session view */
@@ -929,6 +930,18 @@
     padding: 4px 8px;
     font-size: 0.8em;
   }
+  
+  /* Ensure suggestions area has proper spacing on mobile */
+  .suggestions-content-area {
+    margin-bottom: 20px; /* More space before refresh button */
+    padding-bottom: 10px; /* Additional padding for refresh button visibility */
+  }
+  
+  /* Ensure refresh button is fully visible with proper margin */
+  .suggestions button.refresh-button,
+  .chat-category-suggestions button.refresh-button {
+    margin-bottom: 10px; /* Additional margin to ensure visibility */
+  }
 }
 
 /* Style for the Back to Suggester button */
@@ -1018,4 +1031,139 @@
 /* Target the circular dots specifically within the suggestions loading spinner */
 .suggestions-loading-spinner .circular-dot {
   background-color: #007bff; /* Blue color */
-} 
+}
+
+/* Input Container Wrapper */
+.input-container-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  transition: none; /* Remove default transitions for smoother dragging */
+  min-height: 20px; /* Ensure minimum height for slider handle */
+  --slider-handle-height: 20px; /* Default handle height */
+}
+
+/* Add smooth transition when snapping to positions */
+.input-container-wrapper.snapping {
+  transition: transform 0.3s ease-out;
+}
+
+/* Slider Handle Styles - Integrated */
+.slider-handle-integrated {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  background-color: #F5F5DC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+  z-index: 1001;
+  user-select: none;
+  transition: background-color 0.2s ease;
+  border-bottom: 1px solid #e0e0e0;
+  flex-shrink: 0; /* Prevent handle from shrinking */
+}
+
+.slider-handle-integrated:active {
+  cursor: grabbing;
+}
+
+.slider-handle-integrated:hover {
+  background-color: #f0f0d0;
+}
+
+.slider-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-line {
+  width: 40px;
+  height: 3px;
+  background-color: #999;
+  border-radius: 2px;
+  transition: background-color 0.2s ease;
+}
+
+.slider-handle-integrated:hover .slider-line {
+  background-color: #666;
+}
+
+/* Sliding Form Styles */
+.chat-input-form.sliding-form {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  border-top: none; /* Remove border to seamlessly connect with slider */
+}
+
+/* Ensure the messages container has proper spacing from the bottom */
+.messages-container {
+  margin-bottom: var(--dynamic-margin-bottom, 200px); /* Dynamic margin based on slider position */
+  padding-bottom: 20px; /* Additional padding to prevent content from being hidden */
+}
+
+/* Mobile responsive adjustments for slider */
+@media (max-width: 768px) {
+  .input-container-wrapper {
+    --slider-handle-height: 25px; /* Mobile handle height */
+  }
+  
+  .slider-handle {
+    height: 25px;
+  }
+  
+  .slider-lines {
+    gap: 4px;
+  }
+  
+  .slider-line {
+    width: 50px;
+    height: 4px;
+  }
+  
+  .messages-container {
+    margin-bottom: var(--dynamic-margin-bottom-mobile, 170px); /* Dynamic margin for mobile - reduced further for tighter spacing */
+    padding-bottom: 40px; /* Increased padding to ensure refresh button is fully visible */
+  }
+  
+  .slider-handle-integrated {
+    height: 25px; /* Larger touch target for mobile */
+  }
+  
+  .slider-line {
+    width: 50px;
+    height: 4px;
+  }
+  
+  /* Ensure empty chat has proper spacing on mobile */
+  .empty-chat {
+    padding-bottom: 3rem; /* Additional padding to ensure content doesn't get cut off */
+  }
+}
+
+/* Landscape mobile adjustments */
+@media (max-width: 896px) and (orientation: landscape) {
+  .input-container-wrapper {
+    --slider-handle-height: 20px; /* Landscape handle height */
+  }
+  
+  .slider-handle {
+    height: 20px;
+  }
+  
+  .messages-container {
+    margin-bottom: var(--dynamic-margin-bottom-landscape, 160px); /* Dynamic margin for landscape - reduced for tighter spacing */
+    padding-bottom: 30px; /* Additional padding to ensure refresh button is fully visible */
+  }
+  
+  .slider-handle-integrated {
+    height: 20px; /* Standard height for landscape */
+  }
+}

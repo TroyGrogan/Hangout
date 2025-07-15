@@ -3392,3 +3392,13 @@ button.category-action-button.back-button:hover {
       color: #333 !important;
   }
 }
+
+/* Multi-year date range font size adjustment for vertical mobile devices */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  .dates-input.multi-year-range,
+  .search-form-wrapper .search-row .dates-input.multi-year-range,
+  .location-search-container .search-form-wrapper .search-row .dates-input.multi-year-range,
+  .dates-input-container .dates-input.multi-year-range {
+    font-size: 0.9rem !important; /* Smaller font size for multi-year ranges */
+  }
+}
