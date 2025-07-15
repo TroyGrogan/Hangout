@@ -170,16 +170,44 @@ const EventCard = ({ event, friendsAttending = false }) => {
   
   return (
     <div className={`event-card ${friendsAttending ? 'friends-attending' : ''} ${isPastEvent ? 'past-event' : ''}`}>
-      {friendsAttending && (
-        <div className="friends-badge">
-          <Users size={16} /> Friends attending
+      {/* Event Image */}
+      {event.image_url && (
+        <div className="event-image-container">
+          {friendsAttending && (
+            <div className="friends-badge">
+              <Users size={16} /> Friends attending
+            </div>
+          )}
+          {isPastEvent && (
+            <div className="past-event-badge">
+              <Calendar size={16} /> Past event
+            </div>
+          )}
+          <img 
+            src={event.image_url} 
+            alt={event.name}
+            className="event-image"
+            loading="lazy"
+          />
         </div>
       )}
-      {isPastEvent && (
-        <div className="past-event-badge">
-          <Calendar size={16} /> Past event
-        </div>
+      
+      {/* For events without images, show badges in original position */}
+      {!event.image_url && (
+        <>
+          {friendsAttending && (
+            <div className="friends-badge">
+              <Users size={16} /> Friends attending
+            </div>
+          )}
+          {isPastEvent && (
+            <div className="past-event-badge">
+              <Calendar size={16} /> Past event
+            </div>
+          )}
+        </>
       )}
+      
       <h3>{event.name}</h3>
       <div className="event-date">{new Date(event.start_time).toLocaleDateString()}</div>
       <p className="event-description">{event.description}</p>

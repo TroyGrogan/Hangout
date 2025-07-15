@@ -327,8 +327,69 @@ a {
     display: flex;
     flex-direction: column;
     height: auto;
-    min-height: 120px;
+    min-height: 180px;
     margin-bottom: 1rem;
+}
+
+.event-card .event-image-container {
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    position: relative;
+    background-color: #f8f9fa;
+}
+
+.event-card .event-image-container .friends-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: #55917F;
+    color: #FFFFF0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    z-index: 2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.event-card .event-image-container .past-event-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: #666;
+    color: #FFFFF0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    z-index: 2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* When both badges are present on image, adjust past event badge position */
+.event-card .event-image-container .friends-badge ~ .past-event-badge {
+    top: 40px;
+}
+
+.event-card .event-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.event-card:hover .event-image {
+    transform: scale(1.05);
 }
 
 .event-card h3 {

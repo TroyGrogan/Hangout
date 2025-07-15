@@ -194,8 +194,26 @@ const EventDashboard = () => {
                   className="attending-event-card"
                 >
                   <div className="event-date">{formatDate(event.start_time)}</div>
+                  
+                  {/* Event Image */}
+                  {event.image_url && (
+                    <div className="event-image-container">
+                      <img 
+                        src={event.image_url} 
+                        alt={event.name}
+                        className="event-image"
+                        loading="lazy"
+                      />
+                    </div>
+                  )}
+                  
                   <h3 className="event-title">{event.name}</h3>
                   <div className="event-location">{event.location_name}</div>
+                  
+                  {/* Event Description */}
+                  {event.description && (
+                    <div className="event-description">{event.description}</div>
+                  )}
                 </Link>
               ))}
             </div>
