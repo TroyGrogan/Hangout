@@ -19,25 +19,25 @@ const iconSizes = [72, 96, 128, 144, 152, 192, 384, 512];
 // Regular SVG content (fills entire canvas with subtle rounded corners)
 const svgTemplateRegular = `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="SIZE" height="SIZE">
-  <!-- Background Square with subtle rounded corners for modern look -->
-  <rect x="0" y="0" width="100" height="100" rx="12" ry="12" fill="#3B5998" />
+  <!-- Background Square with app theme color -->
+  <rect x="0" y="0" width="100" height="100" rx="12" ry="12" fill="#00B488" />
   
   <!-- Stylized "H" Letter using Segoe UI font style -->
   <text x="50" y="70" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" 
-        font-size="58" font-weight="600" text-anchor="middle" 
-        fill="#FFFFF0" dominant-baseline="auto">H</text>
+        font-size="58" font-weight="700" text-anchor="middle" 
+        fill="#FFFFFF" dominant-baseline="auto">H</text>
 </svg>`;
 
 // Maskable SVG content (fills entire canvas for adaptive icons)
 const svgTemplateMaskable = `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="SIZE" height="SIZE">
   <!-- Full canvas background for maskable - no rounded corners (OS handles this) -->
-  <rect x="0" y="0" width="100" height="100" fill="#3B5998" />
+  <rect x="0" y="0" width="100" height="100" fill="#00B488" />
   
   <!-- Stylized "H" Letter centered and sized for maskable icon -->
   <text x="50" y="70" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" 
-        font-size="58" font-weight="600" text-anchor="middle" 
-        fill="#FFFFF0" dominant-baseline="auto">H</text>
+        font-size="58" font-weight="700" text-anchor="middle" 
+        fill="#FFFFFF" dominant-baseline="auto">H</text>
 </svg>`;
 
 console.log('🎨 Generating PWA icons from SVG favicon...');
@@ -71,7 +71,13 @@ async function generateIcons() {
         const svgBuffer = Buffer.from(svgTemplateRegular.replace(/SIZE/g, size));
         await sharp(svgBuffer)
           .resize(size, size)
-          .png()
+          .flatten({ background: '#00B488' }) // Force solid background, remove alpha
+          .png({ 
+            compressionLevel: 9,
+            palette: false, // Force RGB, not palette
+            quality: 100,
+            force: true // Force PNG output
+          })
           .toFile(path.join(publicDir, `${filenameRegular}.png`));
         
         console.log(`✅ Generated ${filenameRegular}.png`);
@@ -84,7 +90,13 @@ async function generateIcons() {
         const svgBuffer = Buffer.from(svgTemplateMaskable.replace(/SIZE/g, size));
         await sharp(svgBuffer)
           .resize(size, size)
-          .png()
+          .flatten({ background: '#00B488' }) // Force solid background, remove alpha
+          .png({ 
+            compressionLevel: 9,
+            palette: false, // Force RGB, not palette
+            quality: 100,
+            force: true // Force PNG output
+          })
           .toFile(path.join(publicDir, `${filenameMaskable}.png`));
         
         console.log(`✅ Generated ${filenameMaskable}.png`);
@@ -109,7 +121,13 @@ async function generateIcons() {
       const svgBuffer = Buffer.from(svgTemplateRegular.replace(/SIZE/g, 180));
       await sharp(svgBuffer)
         .resize(180, 180)
-        .png()
+        .flatten({ background: '#00B488' }) // Force solid background, remove alpha
+        .png({ 
+          compressionLevel: 9,
+          palette: false, // Force RGB, not palette
+          quality: 100,
+          force: true // Force PNG output
+        })
         .toFile(path.join(publicDir, 'apple-touch-icon.png'));
       
       console.log('✅ Generated apple-touch-icon.png');

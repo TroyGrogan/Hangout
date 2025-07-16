@@ -5,14 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:network": "vite --host",
     "build": "vite build",
-    "lint": "eslint .",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "generate-icons": "node generate-icons.js",
-    "prebuild": "npm run generate-icons"
+    "start": "npm run preview",
+    "serve": "npx serve -s dist -l 5173"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.0",

@@ -380,6 +380,7 @@ const Home = () => {
   const [isLocationFiltered, setIsLocationFiltered] = useState(false);
   const [searchRadius, setSearchRadius] = useState(20);
   const [userLocation, setUserLocation] = useState(null); // State for user's coordinates
+  const [isCurrentLocationUsed, setIsCurrentLocationUsed] = useState(false); // Track if current location button was used
   const [scrollToLevel, setScrollToLevel] = useState(null);
   const categorySectionsContainerRef = useRef(null);
   const categoryDetailSectionRef = useRef(null);
@@ -418,9 +419,15 @@ const Home = () => {
   const [selectedCategoryBubble, setSelectedCategoryBubble] = useState(null);
   const [cameFromCategorySearch, setCameFromCategorySearch] = useState(false);
 
+  // --- New Search Mode State ---
+  const [searchMode, setSearchMode] = useState('none'); // 'none', 'dates', 'location', 'category'
+  const [eventSearchTerm, setEventSearchTerm] = useState(''); // For category-based event search
+  const [isEventSearchActive, setIsEventSearchActive] = useState(false);
+
   // --- Refs ---
   const calendarRef = useRef(null);
   const categorySearchSectionRef = useRef(null);
+  const eventsNearYouRef = useRef(null);
 
   // --- React Query Data Fetching ---
 
@@ -657,6 +664,120 @@ const Home = () => {
     }
   }, [showCalendar]);
 
+  // Check if friends are attending an event
+  const hasFriendsAttending = (eventId) => {
+    return eventsWithFriends.has(eventId);
+  };
+
+  // --- Enhanced Search Filtering Functions ---
+  const getFilteredEventsBySearch = useCallback(() => {
+    let filteredEvents = eventsQuery.data || [];
+    
+    // Check which search inputs are active
+    const hasDateFilter = !!selectedStartDate;
+    const hasLocationFilter = !!(userLocation || isLocationFiltered);
+    const hasCategoryFilter = !!eventSearchTerm.trim();
+    
+    // Start with location filtering if location is specified
+    if (hasLocationFilter) {
+      filteredEvents = nearbyEventsQuery.data || [];
+    }
+    
+    // Apply date filtering
+    if (hasDateFilter && selectedStartDate) {
+      filteredEvents = filteredEvents.filter(event => {
+        const eventDate = new Date(event.start_time);
+        if (selectedEndDate && !isSameDay(selectedStartDate, selectedEndDate)) {
+          // Date range
+          return eventDate >= selectedStartDate && eventDate <= selectedEndDate;
+        } else {
+          // Single date
+          return isSameDay(eventDate, selectedStartDate);
+        }
+      });
+    }
+    
+    // Apply category filtering
+    if (hasCategoryFilter) {
+      filteredEvents = filteredEvents.filter(event => 
+        event.name && event.name.toLowerCase().includes(eventSearchTerm.toLowerCase())
+      );
+    }
+    
+    // If no filters are active, show location-based events or empty array
+    if (!hasDateFilter && !hasLocationFilter && !hasCategoryFilter) {
+      if (userLocation || isLocationFiltered) {
+        return nearbyEventsQuery.data || [];
+      }
+      return []; // Return empty array when no location is selected
+    }
+    
+    return filteredEvents;
+  }, [selectedStartDate, selectedEndDate, eventSearchTerm, nearbyEventsQuery.data, eventsQuery.data, userLocation, isLocationFiltered]);
+
+  const getEventsTitle = () => {
+    // Check which search inputs are active
+    const hasDateFilter = !!selectedStartDate;
+    const hasLocationFilter = !!(userLocation || isLocationFiltered);
+    const hasCategoryFilter = !!eventSearchTerm.trim();
+    
+    // Helper function to format dates
+    const formatDate = (date) => {
+      return date.toLocaleDateString('en-US', { 
+        weekday: 'short', 
+        month: 'short', 
+        day: 'numeric',
+        year: 'numeric'
+      });
+    };
+    
+    // Generate date text
+    let dateText = '';
+    if (hasDateFilter) {
+      if (selectedEndDate && !isSameDay(selectedStartDate, selectedEndDate)) {
+        // Date range
+        dateText = `from "${formatDate(selectedStartDate)} to ${formatDate(selectedEndDate)}"`;
+      } else {
+        // Single date
+        dateText = `on "${formatDate(selectedStartDate)}"`;
+      }
+    }
+    
+    // Generate location text
+    const locationText = hasLocationFilter ? 
+      (searchLocation.trim() ? `"${searchLocation}"` : "your current location") : '';
+    
+    // Generate category text
+    const categoryText = hasCategoryFilter ? `"${eventSearchTerm.trim()}"` : '';
+    
+    // Handle all combinations
+    if (hasDateFilter && hasLocationFilter && hasCategoryFilter) {
+      // All 3: Date + Location + Category
+      return `Showing ${categoryText} Events occurring ${dateText}, Located in: ${locationText}`;
+    } else if (hasDateFilter && hasCategoryFilter) {
+      // Date + Category
+      return `Showing All ${categoryText} Events that occur ${dateText}`;
+    } else if (hasDateFilter && hasLocationFilter) {
+      // Date + Location
+      return `Showing All Events that occur ${dateText}, Located in: ${locationText}`;
+    } else if (hasLocationFilter && hasCategoryFilter) {
+      // Location + Category
+      return `Showing all ${categoryText} events that are Located in: ${locationText}`;
+    } else if (hasDateFilter) {
+      // Date only
+      return `Showing All Events Occurring ${dateText.charAt(0).toUpperCase() + dateText.slice(1)}`;
+    } else if (hasLocationFilter) {
+      // Location only
+      return `Showing All Events Located In ${locationText}`;
+    } else if (hasCategoryFilter) {
+      // Category only
+      return `Showing All Events Related To ${categoryText}`;
+    } else {
+      // No filters
+      return isCurrentLocationUsed ? "Events Near You" : "Events";
+    }
+  };
+
   // Filter events based on the DEEPEST selected category in the path
   const getFilteredEvents = useCallback(() => {
     const deepestSelectedCategoryId = selectionPath.length > 0 ? selectionPath[selectionPath.length - 1] : null;
@@ -787,11 +908,6 @@ const Home = () => {
     }
   };
 
-  // Check if friends are attending an event
-  const hasFriendsAttending = (eventId) => {
-    return eventsWithFriends.has(eventId);
-  };
-
   // --- Map and Geocoding Functions ---
   const geocodeAddress = async (address) => {
     if (!address.trim()) return;
@@ -830,6 +946,7 @@ const Home = () => {
         setUserLocation(newPosition);
         setLocationFound(true);
         setIsLocationFiltered(true); // Enable location filtering for manual location entry
+        setIsCurrentLocationUsed(false); // Mark that manual location entry was used
         
         // Hide the success message after 1.5 seconds
         setTimeout(() => {
@@ -889,12 +1006,20 @@ const Home = () => {
   const handleLocationSearch = async (e) => {
     e.preventDefault();
     const trimmedLocation = searchLocation.trim();
-    if (!trimmedLocation) return;
+    
+    // If location is empty, clear the events box and return to original state
+    if (!trimmedLocation) {
+      clearLocationFilter();
+      return;
+    }
 
     // Update state to trigger queryKey change and refetch
     setIsSearching(true);
     setIsLocationFiltered(true);
     setSearchLocation(trimmedLocation);
+    
+    // Mark that manual location entry was used (not current location button)
+    setIsCurrentLocationUsed(false);
     
     // Reset isSearching state when the query completes
     nearbyEventsQuery.refetch().finally(() => {
@@ -908,6 +1033,8 @@ const Home = () => {
     setLocationFound(false);
     setLocationError(null); // Clear error state
     setLocationErrorType(null);
+    setIsCurrentLocationUsed(false); // Reset current location flag
+    setUserLocation(null); // Clear user location to return to original state
     
     // Reset isSearching state when the query completes
     setTimeout(() => {
@@ -1102,6 +1229,9 @@ const Home = () => {
       longitude,
     });
     
+    // Mark that current location button was used
+    setIsCurrentLocationUsed(true);
+    
     // Update map position
     setMapPosition({
       lat: latitude,
@@ -1152,7 +1282,7 @@ const Home = () => {
       setIsLocationFiltered(true);
       setLocationFound(true);
       
-      setTimeout(() => {
+       setTimeout(() => {
         setLocationFound(false);
       }, 1500);
       
@@ -1274,6 +1404,63 @@ const Home = () => {
     setCategorySearchFound(false);
     setSelectedCategoryBubble(null);
     setCameFromCategorySearch(false);
+    
+    // Also clear event search since they're connected
+    setEventSearchTerm('');
+    setIsEventSearchActive(false);
+  };
+
+  // Handler for event search (searching within event titles)
+  const handleEventSearch = async (e) => {
+    e.preventDefault();
+    
+    if (!categorySearchTerm.trim()) {
+      // Clear event search if term is empty
+      setEventSearchTerm('');
+      setIsEventSearchActive(false);
+      return;
+    }
+
+    // Update search term
+    setEventSearchTerm(categorySearchTerm.trim());
+    setIsEventSearchActive(true);
+  };
+
+  // Combined search handler that does both category and event search
+  const handleCombinedSearch = async (e) => {
+    e.preventDefault();
+    
+    if (!categorySearchTerm.trim()) {
+      // Clear both searches if term is empty
+      setCategorySearchResults(null);
+      setCategorySearchFound(false);
+      setEventSearchTerm('');
+      setIsEventSearchActive(false);
+      return;
+    }
+
+    // Do both category search and event search
+    await handleCategorySearch(e);
+    await handleEventSearch(e);
+  };
+
+  const clearEventSearch = () => {
+    setCategorySearchTerm('');
+    setEventSearchTerm('');
+    setIsEventSearchActive(false);
+  };
+
+  const clearCombinedSearch = () => {
+    // Clear category search
+    setCategorySearchTerm('');
+    setCategorySearchResults(null);
+    setCategorySearchFound(false);
+    setSelectedCategoryBubble(null);
+    setCameFromCategorySearch(false);
+    
+    // Clear event search
+    setEventSearchTerm('');
+    setIsEventSearchActive(false);
   };
 
   const handleBackToCategorySearch = () => {
@@ -1284,6 +1471,56 @@ const Home = () => {
         block: 'center'
       });
     }
+  };
+
+  const handleBackToSearch = () => {
+    // Scroll back to the search section, centered in the viewport
+    if (categorySearchSectionRef.current) {
+      categorySearchSectionRef.current.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'center'
+      });
+    }
+  };
+
+  // Check if any search input has content
+  const hasAnySearchInput = () => {
+    return !!(
+      selectedStartDate || 
+      (userLocation || isLocationFiltered) || 
+      eventSearchTerm.trim()
+    );
+  };
+
+  // Handle main search button click - works for all 3 search types
+  const handleMainSearch = async (e) => {
+    e.preventDefault();
+    
+    // If no search inputs, do nothing
+    if (!hasAnySearchInput()) {
+      return;
+    }
+
+    // Execute the appropriate search based on what inputs are filled
+    if (categorySearchTerm.trim()) {
+      await handleCombinedSearch(e);
+    }
+    
+    if (searchLocation.trim()) {
+      await handleLocationSearch(e);
+    }
+    
+    // Dates search is already handled by the calendar functionality
+    
+    // Scroll to the events section
+    setTimeout(() => {
+      if (eventsNearYouRef.current) {
+        eventsNearYouRef.current.scrollIntoView({ 
+          behavior: 'smooth',
+          block: 'center'
+        });
+      }
+    }, 100);
   };
 
   // Calendar handler functions
@@ -1368,6 +1605,16 @@ const Home = () => {
     setSelectedStartDate(null);
     setSelectedEndDate(null);
     setIsSelectingRange(false);
+  };
+
+  const handleCalendarClear = () => {
+    // Clear all date selections
+    setSelectedStartDate(null);
+    setSelectedEndDate(null);
+    setDatesAvailableText('');
+    setIsMultiYearRange(false);
+    setIsSelectingRange(false);
+    setCalendarMode('select'); // Reset to select mode
   };
 
   const handleSetClick = () => {
@@ -1495,6 +1742,13 @@ const Home = () => {
             className={`calendar-control-btn ${calendarMode === 'select' ? 'active' : ''}`}
           >
             Select
+          </button>
+          <button 
+            type="button" 
+            onClick={handleCalendarClear}
+            className="calendar-clear-btn"
+          >
+            Clear
           </button>
           <button 
             type="button" 
@@ -1872,8 +2126,22 @@ const Home = () => {
                 className={`dates-input ${isMultiYearRange ? 'multi-year-range' : ''}`}
                 value={datesAvailableText}
                 onClick={toggleCalendar}
-                onChange={() => {}} // Prevent direct typing
-                readOnly
+                onChange={(e) => {
+                  // If user clears the input, clear the date search
+                  if (!e.target.value.trim()) {
+                    setSelectedStartDate(null);
+                    setSelectedEndDate(null);
+                    setDatesAvailableText('');
+                  }
+                }}
+                onKeyDown={(e) => {
+                  // Allow users to clear with backspace/delete
+                  if (e.key === 'Backspace' || e.key === 'Delete') {
+                    setSelectedStartDate(null);
+                    setSelectedEndDate(null);
+                    setDatesAvailableText('');
+                  }
+                }}
               />
               {/* Calendar dropdown */}
               {renderCalendar()}
@@ -1948,7 +2216,7 @@ const Home = () => {
           )}
           
           {/* Location search results when map is closed */}
-          {!showMap && isLocationFiltered && (
+          {!showMap && isLocationFiltered && (userLocation || searchLocation.trim()) && (
             <>
               <div className="search-results-summary">
                 Showing events within {searchRadius} miles of "{searchLocation}"
@@ -1983,7 +2251,7 @@ const Home = () => {
               </div>
               
               {/* Location search results when map is open */}
-              {isLocationFiltered && (
+              {isLocationFiltered && (userLocation || searchLocation.trim()) && (
                 <>
                   <div className="search-results-summary">
                     Showing events within {searchRadius} miles of "{searchLocation}"
@@ -2010,7 +2278,7 @@ const Home = () => {
               onChange={(e) => setCategorySearchTerm(e.target.value)}
               onKeyDown={(e) => {
                 if (e.key === 'Enter') {
-                  handleCategorySearch(e);
+                  handleCombinedSearch(e);
                 }
               }}
             />
@@ -2062,7 +2330,7 @@ const Home = () => {
               
               <button 
                 type="button" 
-                onClick={clearCategorySearch}
+                onClick={clearCombinedSearch}
                 className="clear-category-search-button"
               >
                 Clear Search
@@ -2077,12 +2345,28 @@ const Home = () => {
             </div>
           )}
           
+          {/* Event search active indicator and clear button */}
+          {isEventSearchActive && eventSearchTerm.trim() && (
+            <div className="event-search-active">
+              <div className="event-search-active-text">
+                <span>🔍 Searched for "{eventSearchTerm}" events</span>
+              </div>
+                             <button 
+                 type="button" 
+                 onClick={clearCombinedSearch}
+                 className="clear-event-search-button"
+               >
+                 Clear Search
+               </button>
+            </div>
+          )}
+          
           <div className="search-row">
             <button
               type="button"
-              className="search-button"
-              onClick={handleCategorySearch}
-              disabled={isCategorySearching || !categorySearchTerm.trim()}
+              className={`search-button ${hasAnySearchInput() ? 'active' : ''}`}
+              onClick={handleMainSearch}
+              disabled={isCategorySearching || !hasAnySearchInput()}
             >
               {isCategorySearching ? 'Searching...' : 'Search'}
             </button>
@@ -2121,9 +2405,9 @@ const Home = () => {
           <section className="section full-width-section category-events-section" ref={categoryDetailSectionRef}>
             {renderCategoryDetailHeader()} {/* Render the header */}
 
-            {backendConnected && (
-              <div className="category-events-container">
-                <h3 className="events-section-title">Events</h3>
+                          {backendConnected && (
+                <div className="category-events-container">
+                  <h3 className="events-section-title">Events</h3>
                 {/* Render events from simple filtered list */}
                 <div className={`horizontal-event-grid category-events-grid ${displayEvents.length === 0 ? 'empty-events-grid' : ''}`}> 
                   {displayEvents.length > 0 ? (
@@ -2258,30 +2542,63 @@ const Home = () => {
         {backendConnected && (
           <>
             {/* Nearby Events Section */}
-            <section className="horizontal-section" id="events-near-you">
-              <h2 className="section-title">Events Near You</h2>
-              {/* Handle nearby loading/error states */}
-              {nearbyEventsQuery.isLoading && <p>Loading nearby events...</p>}
-              {nearbyEventsQuery.isError && <p>Could not load nearby events.</p>}
-              {!userLocation && !nearbyEventsQuery.isLoading && <p>Enable location services to see nearby events.</p>}
-              {userLocation && !nearbyEventsQuery.isLoading && !nearbyEventsQuery.isError && (
+            <section className="horizontal-section" id="events-near-you" ref={eventsNearYouRef}>
+              <h2 className="section-title">
+                {getEventsTitle()}
+              </h2>
+              {/* Handle loading/error states */}
+              {(eventsQuery.isLoading || nearbyEventsQuery.isLoading) && <p>Loading events...</p>}
+              {(eventsQuery.isError || nearbyEventsQuery.isError) && <p>Could not load events.</p>}
+              
+              {/* Show events */}
+              {!(eventsQuery.isLoading || nearbyEventsQuery.isLoading) && 
+               !(eventsQuery.isError || nearbyEventsQuery.isError) && (
                 <div className="horizontal-event-grid">
-                  {/* Use nearbyEventsData */}
-                  {nearbyEventsData.length > 0 ? ( 
-                    filterEvents(nearbyEventsData.slice(0, 5)).map(event => ( // Slice here if needed
-                      <Link to={`/events/${event.id}?from=home`} key={event.id} className="horizontal-event-card">
-                        <EventCard event={event} 
-                          friendsAttending={hasFriendsAttending(event.id)}
-                        />
-                      </Link>
-                    ))
-                  ) : (
-                    <div className="empty-state">
-                      <MapPin size={32} />
-                      <p>No nearby events found</p>
-                       {isLocationFiltered && <p>within {searchRadius} miles of "{searchLocation}"</p>}
-                    </div>
-                  )}
+                  {(() => {
+                    const filteredEvents = getFilteredEventsBySearch();
+                    const finalEvents = filterEvents(filteredEvents.slice(0, 5)); // Apply past events filter and limit
+                    
+                    if (finalEvents.length > 0) {
+                      return finalEvents.map(event => (
+                        <Link to={`/events/${event.id}?from=home`} key={event.id} className="horizontal-event-card">
+                          <EventCard event={event} 
+                            friendsAttending={hasFriendsAttending(event.id)}
+                          />
+                        </Link>
+                      ));
+                    } else {
+                      // Show appropriate empty state
+                      if (!userLocation && !isLocationFiltered && !selectedStartDate && !eventSearchTerm.trim()) {
+                        return (
+                          <div className="empty-state">
+                            <MapPin size={32} />
+                            <p>No Events Found. <br></br>Please enter a Location to Search for.</p>
+                          </div>
+                        );
+                      } else {
+                        return (
+                          <div className="empty-state">
+                            <Calendar size={32} />
+                            <p>No events found for your search criteria</p>
+                            <p>Try adjusting your search or check back later.</p>
+                          </div>
+                        );
+                      }
+                    }
+                  })()}
+                </div>
+              )}
+              
+              {/* Back To Search Button - only show when there are active search filters */}
+              {hasAnySearchInput() && (
+                <div className="events-actions">
+                  <button 
+                    className="category-action-button back-button"
+                    onClick={handleBackToSearch}
+                  >
+                    <span className="action-icon">⏪</span>
+                    Back To Search
+                  </button>
                 </div>
               )}
             </section>
@@ -2312,7 +2629,7 @@ const Home = () => {
             </section>
 
             {/* Popular Events Section */}
-            <section className="horizontal-section">
+            <section className="horizontal-section popular-events-section">
               <h2 className="section-title">Popular Events</h2>
               {popularEventsQuery.isLoading && <p>Loading popular events...</p>}
               {popularEventsQuery.isError && <p>Could not load popular events.</p>}

@@ -4,18 +4,22 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/', // Ensure base path is set correctly for SPA
   server: {
     host: true,
     https: false, // Disabled due to mobile certificate issues - geolocation won't work on mobile via IP
     cors: true,
     strictPort: true,
     port: 5173, // Default Vite port
-    historyApiFallback: true,
+    historyApiFallback: {
+      index: '/index.html', // Explicit fallback for SPA routing
+    },
   },
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    // Force content hash for better cache busting
+    sourcemap: false, // Disable source maps for production
+    minify: 'esbuild', // Use default esbuild minifier instead of terser
     rollupOptions: {
       output: {
         manualChunks: undefined,
@@ -24,9 +28,16 @@ export default defineConfig({
         assetFileNames: 'assets/[name].[hash].[ext]'
       },
     },
+    // Ensure the build fails if there are errors
+    emptyOutDir: true,
+    chunkSizeWarningLimit: 1000,
   },
   preview: {
     port: 5173,
-    historyApiFallback: true,
+    host: true,
+    strictPort: true,
+    historyApiFallback: {
+      index: '/index.html', // Explicit fallback for SPA routing in preview
+    },
   },
 })
