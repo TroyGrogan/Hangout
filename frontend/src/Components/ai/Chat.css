@@ -16,7 +16,10 @@
 
 /* Apply taller height specifically for the chat session view */
 .chat-container.chat-session-view {
-  height: calc(100vh - 120px); /* Taller height for session view */
+  height: auto; /* Allow flexible height */
+  max-height: 80vh; /* Limit to 80% of viewport height */
+  min-height: 600px; /* Ensure minimum height for readability */
+  margin: 10vh auto; /* Center vertically with 10% viewport height margins */
 }
 
 .chat-header {
@@ -316,9 +319,30 @@
   position: relative;
 }
 
+/* Guest mode warning */
+.guest-mode-warning {
+  color: #e74c3c;
+  background-color: rgba(231, 76, 60, 0.1);
+  border: 1px solid #e74c3c;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 95%;
+  padding: 1rem 1.5rem;
+  font-size: 0.9em;
+  line-height: 1.4;
+  font-weight: bold;
+  margin: 0 auto 1rem auto; /* Default: center horizontally with bottom margin */
+}
+
+/* Guest mode warning in empty chat state */
+.empty-chat .guest-mode-warning {
+  margin-top: -2.5rem; /* Match disclaimer positioning */
+  margin-bottom: 1rem; /* Space between warning and disclaimer */
+}
+
 /* Adjusted padding for disclaimer text */
 .suggestions-disclaimer {
-  margin-top: -2.5rem; /* Removed space above the disclaimer */
+  margin-top: 0; /* Adjusted since guest warning now takes the top position */
   margin-bottom: 1rem; /* Add space below the disclaimer */
   color: #666;
   text-align: center;
@@ -472,6 +496,14 @@
     margin: 0.25rem auto; /* Reduced proportionally to maintain spacing consistency */
     border-radius: 8px; /* Smaller border radius on mobile */
   }
+  
+  /* Center chat session view on mobile */
+  .chat-container.chat-session-view {
+    height: auto; /* Allow flexible height */
+    max-height: 85vh; /* More height on mobile */
+    min-height: 500px; /* Smaller minimum height for mobile */
+    margin: 5vh auto; /* Less top/bottom margin on mobile */
+  }
   .chat-header {
     padding: 0.75rem 1rem; /* Reduced padding on mobile */
     flex-wrap: wrap; /* Allow wrapping on very small screens */
@@ -534,6 +566,14 @@
     width: 99%; /* Use more width in landscape */
     margin: 0.25rem auto; /* Minimal margin for landscape to match new spacing */
     border-radius: 6px; /* Slightly smaller border radius */
+  }
+  
+  /* Center chat session view on landscape mobile */
+  .chat-container.chat-session-view {
+    height: auto; /* Allow flexible height */
+    max-height: 90vh; /* More height available in landscape */
+    min-height: 400px; /* Smaller minimum height for landscape */
+    margin: 3vh auto; /* Minimal top/bottom margin in landscape */
   }
   
   .chat-header {
@@ -1109,6 +1149,12 @@
   padding-bottom: 20px; /* Additional padding to prevent content from being hidden */
 }
 
+/* Override margins for chat session view - no sliding input needed */
+.chat-session-view .messages-container {
+  margin-bottom: 20px !important; /* Much smaller margin for session view */
+  padding-bottom: 20px; /* Keep consistent padding */
+}
+
 /* Mobile responsive adjustments for slider */
 @media (max-width: 768px) {
   .input-container-wrapper {
@@ -1131,6 +1177,12 @@
   .messages-container {
     margin-bottom: var(--dynamic-margin-bottom-mobile, 170px); /* Dynamic margin for mobile - reduced further for tighter spacing */
     padding-bottom: 40px; /* Increased padding to ensure refresh button is fully visible */
+  }
+  
+  /* Override for chat session view on mobile */
+  .chat-session-view .messages-container {
+    margin-bottom: 20px !important; /* Consistent small margin for session view */
+    padding-bottom: 20px !important; /* Consistent padding */
   }
   
   .slider-handle-integrated {
@@ -1163,7 +1215,41 @@
     padding-bottom: 30px; /* Additional padding to ensure refresh button is fully visible */
   }
   
+  /* Override for chat session view on landscape */
+  .chat-session-view .messages-container {
+    margin-bottom: 20px !important; /* Consistent small margin for session view */
+    padding-bottom: 20px !important; /* Consistent padding */
+  }
+  
   .slider-handle-integrated {
     height: 20px; /* Standard height for landscape */
   }
+}
+
+/* Guest warning box styles */
+.guest-warning-box {
+  background-color: #ffebee;
+  color: #c62828;
+  border: 2px solid #e57373;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-weight: 500;
+  text-align: center;
+  margin: 16px 0;
+  font-size: 0.9rem;
+}
+
+/* Chat Session specific guest warning - independent copy of Chat.css guest-mode-warning styling */
+.chat-session-guest-warning {
+  color: #e74c3c;
+  background-color: rgba(231, 76, 60, 0.1);
+  border: 1px solid #e74c3c;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 95%;
+  padding: 1rem 1.5rem;
+  font-size: 0.9em;
+  line-height: 1.4;
+  font-weight: bold;
+  margin: 0 auto 1rem auto; /* Center horizontally and add bottom margin */
 }

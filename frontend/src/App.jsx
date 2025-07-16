@@ -14,7 +14,8 @@ import EventDashboard from './Components/dashboard/EventDashboard';
 import Profile from './Components/profile/Profile';
 import CategoryPreferences from './Components/profile/CategoryPreferences';
 import { Login } from './Components/auth/Login';
-import { Register } from './Components/auth/Register';
+import { Signup } from './Components/auth/Signup';
+import { AutoGuestLogin } from './Components/auth/AutoGuestLogin';
 import { ProtectedRoute } from './Components/auth/ProtectedRoute';
 import { AuthProvider } from './contexts/AuthContext';
 import Suggester from './Components/ai/Suggester';
@@ -27,9 +28,12 @@ function App() {
       <Router>
         <div className="App">
           <Routes>
+            {/* Auto guest login route - default landing page */}
+            <Route path="/welcome" element={<AutoGuestLogin />} />
+            
             {/* Public routes */}
             <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />
+            <Route path="/signup" element={<Signup />} />
             
             {/* Protected routes */}
             <Route
@@ -133,23 +137,15 @@ function App() {
             /> */}
             <Route
               path="/chat/:sessionId"
-              element={
-                <ProtectedRoute>
-                  <ChatSession />
-                </ProtectedRoute>
-              }
+              element={<ChatSession />}
             />
             <Route
               path="/chat-history"
-              element={
-                <ProtectedRoute>
-                  <ChatHistory />
-                </ProtectedRoute>
-              }
+              element={<ChatHistory />}
             />
             
-            {/* Fallback route for any unmatched paths */}
-            <Route path="*" element={<Navigate to="/login" replace />} />
+            {/* Fallback route for any unmatched paths - redirect to welcome/guest login */}
+            <Route path="*" element={<Navigate to="/welcome" replace />} />
           </Routes>
         </div>
       </Router>

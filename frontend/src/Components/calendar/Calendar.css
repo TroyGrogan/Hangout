@@ -84,8 +84,9 @@
 }
 
 .logout-btn:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    color: #D1D8E0 !important;
+    background-color: rgba(255, 255, 255, 0.2) !important; /* Keep semi-transparent background */
+    color: #FFFFF0 !important; /* Keep white text */
+    border-color: #535bf2 !important; /* Purple border on hover */
 }
 
 /* Secondary Navigation with active tab indicator - exact match to Home */
@@ -271,48 +272,76 @@
 }
 
 .toggle-switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
 }
 
 .toggle-switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 
 .toggle-slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    transition: .4s;
-    border-radius: 34px;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
 }
 
 .toggle-slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    transition: .4s;
-    border-radius: 50%;
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
 }
 
 input:checked + .toggle-slider {
-    background-color: #3B5998;
+  background-color: #3B5998;
 }
 
 input:checked + .toggle-slider:before {
-    transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Disabled toggle styles for guest users */
+.toggle-switch.disabled {
+  cursor: not-allowed;
+}
+
+.toggle-switch.disabled input {
+  cursor: not-allowed;
+}
+
+.toggle-slider.disabled {
+  cursor: not-allowed !important;
+  opacity: 0.6;
+  background-color: #ddd !important;
+}
+
+.toggle-slider.disabled:before {
+  cursor: not-allowed !important;
+  background-color: #f5f5f5 !important;
+}
+
+input:checked + .toggle-slider.disabled {
+  background-color: #ddd !important;
+}
+
+input:checked + .toggle-slider.disabled:before {
+  background-color: #f5f5f5 !important;
 }
 
 .toggle-label {
@@ -683,4 +712,86 @@ input:checked + .toggle-slider:before {
         justify-content: center !important;
         width: 100% !important;
     }
+}
+
+/* Guest Placeholder Styles */
+.guest-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 60vh;
+  padding: 2rem;
+}
+
+.placeholder-content {
+  background: #FFFFF0;
+  border-radius: 12px;
+  padding: 3rem;
+  text-align: center;
+  max-width: 500px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.placeholder-content h2 {
+  color: #3B5998;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.placeholder-content p {
+  color: #666;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.placeholder-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.placeholder-btn {
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.placeholder-btn.primary {
+  background-color: #3B5998;
+  color: white;
+}
+
+.placeholder-btn.primary:hover {
+  background-color: #2d4373;
+  transform: translateY(-2px);
+}
+
+.placeholder-btn.secondary {
+  background-color: transparent;
+  color: #3B5998;
+  border: 2px solid #3B5998;
+}
+
+.placeholder-btn.secondary:hover {
+  background-color: #3B5998;
+  color: white;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .placeholder-content {
+    padding: 2rem;
+  }
+  
+  .placeholder-actions {
+    flex-direction: column;
+  }
+  
+  .placeholder-btn {
+    width: 100%;
+  }
 }

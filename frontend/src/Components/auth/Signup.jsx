@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+import { useAuth } from '../../contexts/AuthContext';
 import axiosInstance from '../../services/axios';
 import './Login.css';
 
-export const Register = () => {
+export const Signup = () => {
   const [formData, setFormData] = useState({
     username: '',
     email: '',
@@ -13,6 +14,7 @@ export const Register = () => {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
+  const { guestLogin } = useAuth();
   const navigate = useNavigate();
 
   const handleChange = (e) => {
@@ -91,6 +93,16 @@ export const Register = () => {
   }
 };
 
+  const handleGuestLogin = () => {
+    try {
+      guestLogin();
+      navigate('/', { replace: true });
+    } catch (err) {
+      console.error('Guest login error:', err);
+      setError('Failed to start guest session');
+    }
+  };
+
   return (
     <div className="container">
       <header>
@@ -98,7 +110,7 @@ export const Register = () => {
       </header>
 
       <div className="card">
-        <h2>Register</h2>
+        <h2>Sign Up</h2>
 
         {error && <div className="error">{error}</div>}
 
@@ -152,14 +164,22 @@ export const Register = () => {
           </div>
 
           <button type="submit" disabled={loading}>
-            {loading ? 'Creating Account...' : 'Register'}
+            {loading ? 'Creating Account...' : 'Sign Up'}
           </button>
            <p>
                       Already have an account?{' '}
                       <Link to="/login">Login!</Link>
-                    </p>
+                      <br></br>
+                      Want to just preview the app?{' '}
+                      <span 
+                        onClick={handleGuestLogin}
+                        className="guest-link"
+                      >
+                        Click Here!
+                      </span>
+           </p>
         </form>
       </div>
     </div>
   );
-};
+}; 

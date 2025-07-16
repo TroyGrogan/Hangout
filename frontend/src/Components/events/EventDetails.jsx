@@ -23,7 +23,7 @@ const EventDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const location = useLocation();
-  const { user } = useAuth();
+  const { user, isGuest } = useAuth();
   const [event, setEvent] = useState(null);
   const [attendees, setAttendees] = useState({
     going: [],
@@ -63,14 +63,17 @@ const EventDetails = () => {
       try {
         setLoading(true);
         
-        // Fetch friends list
-        const friendsResponse = await axiosInstance.get('/users/friends/');
-        setFriends(friendsResponse.data.map(friendship => friendship.friend));
-        
-        // Fetch pending friend requests
-        const requestsResponse = await axiosInstance.get('/users/friend-requests/');
-        const outgoingRequests = requestsResponse.data.outgoing.map(req => req.friend);
-        setPendingRequests(outgoingRequests);
+        // Only fetch friends data for authenticated users, not guests
+        if (!isGuest) {
+          // Fetch friends list
+          const friendsResponse = await axiosInstance.get('/users/friends/');
+          setFriends(friendsResponse.data.map(friendship => friendship.friend));
+          
+          // Fetch pending friend requests
+          const requestsResponse = await axiosInstance.get('/users/friend-requests/');
+          const outgoingRequests = requestsResponse.data.outgoing.map(req => req.friend);
+          setPendingRequests(outgoingRequests);
+        }
         
         const eventResponse = await axiosInstance.get(`/events/${id}/`);
         setEvent(eventResponse.data);
@@ -115,7 +118,7 @@ const EventDetails = () => {
     };
 
     fetchEventData();
-  }, [id, user]);
+  }, [id, user, isGuest]);
 
   // Handle RSVP actions
   const handleRSVP = async (status) => {
@@ -479,33 +482,35 @@ const EventDetails = () => {
             </div>
           )}
 
-          {/* Enhanced RSVP Section */}
-          <div className="rsvp-section">
-            <h2>Will you attend this event?</h2>
-            <div className="rsvp-buttons">
-              <button
-                className={`rsvp-button going ${rsvpStatus === 'going' ? 'active' : ''}`}
-                onClick={() => handleRSVP('going')}
-              >
-                <Check size={18} />
-                Going
-              </button>
-              <button
-                className={`rsvp-button maybe ${rsvpStatus === 'maybe' ? 'active' : ''}`}
-                onClick={() => handleRSVP('maybe')}
-              >
-                <HelpCircle size={18} />
-                Maybe
-              </button>
-              <button
-                className={`rsvp-button not-going ${rsvpStatus === 'not_going' ? 'active' : ''}`}
-                onClick={() => handleRSVP('not_going')}
-              >
-                <X size={18} />
-                Not Going
-              </button>
+          {/* Enhanced RSVP Section - Hidden for guest users */}
+          {!isGuest && (
+            <div className="rsvp-section">
+              <h2>Will you attend this event?</h2>
+              <div className="rsvp-buttons">
+                <button
+                  className={`rsvp-button going ${rsvpStatus === 'going' ? 'active' : ''}`}
+                  onClick={() => handleRSVP('going')}
+                >
+                  <Check size={18} />
+                  Going
+                </button>
+                <button
+                  className={`rsvp-button maybe ${rsvpStatus === 'maybe' ? 'active' : ''}`}
+                  onClick={() => handleRSVP('maybe')}
+                >
+                  <HelpCircle size={18} />
+                  Maybe
+                </button>
+                <button
+                  className={`rsvp-button not-going ${rsvpStatus === 'not_going' ? 'active' : ''}`}
+                  onClick={() => handleRSVP('not_going')}
+                >
+                  <X size={18} />
+                  Not Going
+                </button>
+              </div>
             </div>
-          </div>
+          )}
 
           {/* Grouped Attendees Lists */}
           <div className="attendees-section">
@@ -532,8 +537,8 @@ const EventDetails = () => {
                       )}
                       <span>{attendee.username || attendee.full_name}</span>
                       
-                      {/* Don't show friend buttons for yourself */}
-                      {attendee.user_id !== user?.user_id && (
+                      {/* Don't show friend buttons for yourself or guests */}
+                      {!isGuest && attendee.user_id !== user?.user_id && (
                         <div className="friend-action">
                           {renderFriendButton(attendee)}
                         </div>
@@ -565,8 +570,8 @@ const EventDetails = () => {
                       )}
                       <span>{attendee.username || attendee.full_name}</span>
                       
-                      {/* Don't show friend buttons for yourself */}
-                      {attendee.user_id !== user?.user_id && (
+                      {/* Don't show friend buttons for yourself or guests */}
+                      {!isGuest && attendee.user_id !== user?.user_id && (
                         <div className="friend-action">
                           {renderFriendButton(attendee)}
                         </div>
@@ -598,8 +603,8 @@ const EventDetails = () => {
                       )}
                       <span>{attendee.username || attendee.full_name}</span>
                       
-                      {/* Don't show friend buttons for yourself */}
-                      {attendee.user_id !== user?.user_id && (
+                      {/* Don't show friend buttons for yourself or guests */}
+                      {!isGuest && attendee.user_id !== user?.user_id && (
                         <div className="friend-action">
                           {renderFriendButton(attendee)}
                         </div>

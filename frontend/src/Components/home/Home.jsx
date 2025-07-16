@@ -364,7 +364,7 @@ const getDescendantIds = (categoryId, categoryMap) => {
 const Home = () => {
   const location = useLocation();
   const navigate = useNavigate();
-  const { user, logout } = useAuth();
+  const { user, isGuest, logout } = useAuth();
   const queryClient = useQueryClient();
 
   // --- Component State (excluding fetched data) ---
@@ -431,7 +431,7 @@ const Home = () => {
 
   // --- React Query Data Fetching ---
 
-  // Revert Events query to useQuery
+  // Events query - now public for all users including guests
   const eventsQuery = useQuery({ 
     queryKey: ['events'], 
     queryFn: fetchEvents,
@@ -450,10 +450,11 @@ const Home = () => {
     cacheTime: 1000 * 60 * 60  // 60 minutes
   });
 
-  // Query for Friends
+  // Query for Friends - only for authenticated users
   const friendsQuery = useQuery({ 
     queryKey: ['friends'], 
     queryFn: fetchFriends,
+    enabled: !isGuest, // Only fetch for authenticated users
     staleTime: 1000 * 60 * 15, // 15 minutes
     cacheTime: 1000 * 60 * 30,  // 30 minutes
     // Don't fail hard on errors
@@ -461,10 +462,11 @@ const Home = () => {
     onError: () => setBackendConnected(false)
   });
 
-  // Query for User Preferences
+  // Query for User Preferences - only for authenticated users
   const preferencesQuery = useQuery({ 
     queryKey: ['preferences'], 
     queryFn: fetchPreferences,
+    enabled: !isGuest, // Only fetch for authenticated users
     staleTime: 1000 * 60 * 30, // 30 minutes
     cacheTime: 1000 * 60 * 60,  // 60 minutes
     // Don't fail hard on errors
@@ -472,10 +474,11 @@ const Home = () => {
     onError: () => setBackendConnected(false)
   });
 
-  // Query for Friends' Events
+  // Query for Friends' Events - only for authenticated users
   const friendEventsQuery = useQuery({ 
     queryKey: ['friendEvents'], 
     queryFn: fetchFriendEvents,
+    enabled: !isGuest, // Only fetch for authenticated users
     staleTime: 1000 * 60 * 10, // 10 minutes
     cacheTime: 1000 * 60 * 30,  // 30 minutes
     // Don't fail hard on errors 
@@ -483,7 +486,7 @@ const Home = () => {
     onError: () => setBackendConnected(false)
   });
 
-  // Query for Popular Events
+  // Query for Popular Events - now public for all users including guests
   const popularEventsQuery = useQuery({ 
     queryKey: ['popularEvents'], 
     queryFn: fetchPopularEvents,
@@ -505,7 +508,7 @@ const Home = () => {
             : { disabled: true } // Disabled key
     ],
     queryFn: fetchNearbyEvents,
-    // Enable if geolocation available OR text search active
+    // Enable if geolocation available OR text search active (now public for guests too)
     enabled: !!userLocation || (isLocationFiltered && !!searchLocation.trim()),
     staleTime: 1000 * 60 * 5, // 5 minutes - shorter for location-based data
     cacheTime: 1000 * 60 * 15, // 15 minutes
@@ -2037,10 +2040,19 @@ const Home = () => {
           Hangout
         </Link>
         <div className="nav-links-desktop">
-          <Link to="/events/create" className="nav-link">Create Event</Link>
-          <Link to="/dashboard" className="nav-link">My Events</Link>
-          <Link to="/profile" className="nav-link">Profile</Link>
-          <button onClick={logout} className="logout-btn">Logout</button>
+          {isGuest ? (
+            <>
+              <Link to="/signup" className="nav-link">Sign Up</Link>
+              <Link to="/login" className="logout-btn">Login</Link>
+            </>
+          ) : (
+            <>
+              <Link to="/events/create" className="nav-link">Create Event</Link>
+              <Link to="/dashboard" className="nav-link">My Events</Link>
+              <Link to="/profile" className="nav-link">Profile</Link>
+              <button onClick={logout} className="logout-btn">Logout</button>
+            </>
+          )}
         </div>
         <button className="hamburger-icon" onClick={() => setIsMenuOpen(true)}>
           <Menu size={28} />
@@ -2097,13 +2109,22 @@ const Home = () => {
           </button>
         </div>
         <div className="side-menu-links">
-          <Link to="/events/create" className="nav-link" onClick={() => setIsMenuOpen(false)}>Create Event</Link>
-          <Link to="/dashboard" className="nav-link" onClick={() => setIsMenuOpen(false)}>My Events</Link>
-          <Link to="/profile" className="nav-link" onClick={() => setIsMenuOpen(false)}>Profile</Link>
-          <button onClick={() => {
-              logout();
-              setIsMenuOpen(false);
-            }} className="logout-btn">Logout</button>
+          {isGuest ? (
+            <>
+                              <Link to="/signup" className="nav-link" onClick={() => setIsMenuOpen(false)}>Sign Up</Link>
+              <Link to="/login" className="logout-btn" onClick={() => setIsMenuOpen(false)}>Login</Link>
+            </>
+          ) : (
+            <>
+              <Link to="/events/create" className="nav-link" onClick={() => setIsMenuOpen(false)}>Create Event</Link>
+              <Link to="/dashboard" className="nav-link" onClick={() => setIsMenuOpen(false)}>My Events</Link>
+              <Link to="/profile" className="nav-link" onClick={() => setIsMenuOpen(false)}>Profile</Link>
+              <button onClick={() => {
+                  logout();
+                  setIsMenuOpen(false);
+                }} className="logout-btn">Logout</button>
+            </>
+          )}
         </div>
       </div>
       {isMenuOpen && <div className="overlay" onClick={() => setIsMenuOpen(false)}></div>}
@@ -2375,7 +2396,7 @@ const Home = () => {
       </div>
 
       {/* Show Preferred Categories Toggle - Positioned above Life Categories */}
-      {userPreferences.length > 0 && ( 
+      {!isGuest && userPreferences.length > 0 && ( 
         <div className="centered-checkbox-container">
           <div className="preferences-toggle category-preferences-toggle">
             <label className="toggle-label">
@@ -2441,35 +2462,38 @@ const Home = () => {
                   Back To Categories Search
                 </button>
               )}
-              <button 
-                className="category-action-button create-button"
-                onClick={() => {
-                  const deepestSelectedId = selectionPath.length > 0 ? selectionPath[selectionPath.length - 1] : null;
-                  if (deepestSelectedId) {
-                    const category = categoryMap.get(deepestSelectedId);
-                    if (category) {
-                      // Find the root main category by traversing up the hierarchy
-                      let currentCategory = category;
-                      let mainCategoryId = currentCategory.id;
-                      
-                      // Traverse up until we find a category with null parentId (root category)
-                      while (currentCategory && currentCategory.parentId !== null) {
-                        // Get the parent category
-                        currentCategory = categoryMap.get(currentCategory.parentId);
-                        if (currentCategory) {
-                          mainCategoryId = currentCategory.id;
+              {/* Only show Create Event button for logged-in users */}
+              {!isGuest && (
+                <button 
+                  className="category-action-button create-button"
+                  onClick={() => {
+                    const deepestSelectedId = selectionPath.length > 0 ? selectionPath[selectionPath.length - 1] : null;
+                    if (deepestSelectedId) {
+                      const category = categoryMap.get(deepestSelectedId);
+                      if (category) {
+                        // Find the root main category by traversing up the hierarchy
+                        let currentCategory = category;
+                        let mainCategoryId = currentCategory.id;
+                        
+                        // Traverse up until we find a category with null parentId (root category)
+                        while (currentCategory && currentCategory.parentId !== null) {
+                          // Get the parent category
+                          currentCategory = categoryMap.get(currentCategory.parentId);
+                          if (currentCategory) {
+                            mainCategoryId = currentCategory.id;
+                          }
                         }
+                        
+                        navigate(`/create-event?categoryId=${mainCategoryId}&subcategoryId=${deepestSelectedId}&categoryName=${encodeURIComponent(category.name)}&icon=${encodeURIComponent(category.icon || '🧩')}`);
                       }
-                      
-                      navigate(`/create-event?categoryId=${mainCategoryId}&subcategoryId=${deepestSelectedId}&categoryName=${encodeURIComponent(category.name)}&icon=${encodeURIComponent(category.icon || '🧩')}`);
                     }
-                  }
-                }}
-                disabled={!backendConnected}
-              >
-                <span className="action-icon">📝</span>
-                Create Event Based On The Category
-              </button>
+                  }}
+                  disabled={!backendConnected}
+                >
+                  <span className="action-icon">📝</span>
+                  Create Event Based On The Category
+                </button>
+              )}
               <button 
                 className="category-action-button talk-button"
                 onClick={() => {
@@ -2603,30 +2627,32 @@ const Home = () => {
               )}
             </section>
 
-            {/* Friends' Events Section */}
-            <section className="horizontal-section friends-events-section">
-              <h2 className="section-title">Events Your Friends Are Attending</h2>
-               {friendEventsQuery.isLoading && <p>Loading friends' events...</p>}
-               {friendEventsQuery.isError && <p>Could not load friends' events.</p>}
-               {!friendEventsQuery.isLoading && !friendEventsQuery.isError && (
-                <div className="horizontal-event-grid">
-                  {/* Use friendEventsData */}
-                  {friendEventsData.length > 0 ? ( 
-                    filterEvents(friendEventsData).map(event => (
-                      <Link to={`/events/${event.id}?from=home`} key={event.id} className="horizontal-event-card">
-                        <EventCard event={event} friendsAttending={true} />
-                      </Link>
-                    ))
-                  ) : (
-                    <div className="friends-empty-state">
-                      <Users size={32} />
-                      <p>No events with friends attending yet</p>
-                      <p>When your friends RSVP to events, they'll appear here</p>
-                    </div>
-                  )}
-                </div>
-               )}
-            </section>
+            {/* Friends' Events Section - Hidden for guest users */}
+            {!isGuest && (
+              <section className="horizontal-section friends-events-section">
+                <h2 className="section-title">Events Your Friends Are Attending</h2>
+                 {friendEventsQuery.isLoading && <p>Loading friends' events...</p>}
+                 {friendEventsQuery.isError && <p>Could not load friends' events.</p>}
+                 {!friendEventsQuery.isLoading && !friendEventsQuery.isError && (
+                  <div className="horizontal-event-grid">
+                    {/* Use friendEventsData */}
+                    {friendEventsData.length > 0 ? ( 
+                      filterEvents(friendEventsData).map(event => (
+                        <Link to={`/events/${event.id}?from=home`} key={event.id} className="horizontal-event-card">
+                          <EventCard event={event} friendsAttending={true} />
+                        </Link>
+                      ))
+                    ) : (
+                      <div className="friends-empty-state">
+                        <Users size={32} />
+                        <p>No events with friends attending yet</p>
+                        <p>When your friends RSVP to events, they'll appear here</p>
+                      </div>
+                    )}
+                  </div>
+                 )}
+              </section>
+            )}
 
             {/* Popular Events Section */}
             <section className="horizontal-section popular-events-section">

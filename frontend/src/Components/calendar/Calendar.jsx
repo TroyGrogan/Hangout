@@ -65,7 +65,7 @@ const generateRecurringEvents = (event, monthsToGenerate = 6) => {
 };
 
 const Calendar = () => {
-  const { user, logout } = useAuth();
+  const { user, logout, isGuest } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
   const [events, setEvents] = useState([]);
@@ -81,26 +81,31 @@ const Calendar = () => {
     return location.pathname === path;
   };
 
-  // Fetch events
+  // Fetch events - now available for all users including guests
   useEffect(() => {
     fetchEvents();
   }, []);
 
-  // Update displayed events when toggle changes
+  // Update displayed events when toggle changes - only for authenticated users
   useEffect(() => {
-    if (showOnlyMyEvents) {
-      setDisplayedEvents(myEvents);
+    if (!isGuest) {
+      if (showOnlyMyEvents) {
+        setDisplayedEvents(myEvents);
+      } else {
+        setDisplayedEvents(events);
+      }
     } else {
+      // For guests, always show all events
       setDisplayedEvents(events);
     }
-  }, [showOnlyMyEvents, events, myEvents]);
+  }, [showOnlyMyEvents, events, myEvents, isGuest]);
 
   const fetchEvents = async () => {
     setLoading(true);
     setError('');
     
     try {
-      // Get all events
+      // Get all events (now public for all users including guests)
       const response = await axiosInstance.get('/events/');
       console.log('All events:', response.data);
       
@@ -130,62 +135,68 @@ const Calendar = () => {
       // Save all events (including recurring instances)
       setEvents(allEventsWithRecurring);
       
-      // For debugging
-      if (allEventsWithRecurring.length > 0) {
-        console.log('First event structure:', JSON.stringify(allEventsWithRecurring[0].originalEvent, null, 2));
-        console.log('User object:', user);
-        console.log(`Total events with recurring: ${allEventsWithRecurring.length}`);
-      }
-      
-      // Filter for user events (including recurring instances)
-      const userEvents = allEventsWithRecurring.filter(event => {
-        const original = event.originalEvent;
+      // Only filter for user events if authenticated
+      if (!isGuest && user) {
+        // For debugging
+        if (allEventsWithRecurring.length > 0) {
+          console.log('First event structure:', JSON.stringify(allEventsWithRecurring[0].originalEvent, null, 2));
+          console.log('User object:', user);
+          console.log(`Total events with recurring: ${allEventsWithRecurring.length}`);
+        }
         
-        // For recurring instances, check the original event permissions
-        const eventToCheck = original.is_recurring_instance ? 
-          response.data.find(e => e.id === original.original_event_id) || original : 
-          original;
-        
-        // Check if user is host
-        let isHost = false;
-        if (eventToCheck.host) {
-          // If host is an object with id
-          if (typeof eventToCheck.host === 'object' && eventToCheck.host !== null) {
-            isHost = eventToCheck.host.id === user.id || eventToCheck.host.id === user.user_id;
-          } 
-          // If host is directly the ID
-          else if (typeof eventToCheck.host === 'number' || typeof eventToCheck.host === 'string') {
-            isHost = eventToCheck.host.toString() === user.id?.toString() || 
-                    eventToCheck.host.toString() === user.user_id?.toString();
+        // Filter for user events (including recurring instances)
+        const userEvents = allEventsWithRecurring.filter(event => {
+          const original = event.originalEvent;
+          
+          // For recurring instances, check the original event permissions
+          const eventToCheck = original.is_recurring_instance ? 
+            response.data.find(e => e.id === original.original_event_id) || original : 
+            original;
+          
+          // Check if user is host
+          let isHost = false;
+          if (eventToCheck.host) {
+            // If host is an object with id
+            if (typeof eventToCheck.host === 'object' && eventToCheck.host !== null) {
+              isHost = eventToCheck.host.id === user.id || eventToCheck.host.id === user.user_id;
+            } 
+            // If host is directly the ID
+            else if (typeof eventToCheck.host === 'number' || typeof eventToCheck.host === 'string') {
+              isHost = eventToCheck.host.toString() === user.id?.toString() || 
+                      eventToCheck.host.toString() === user.user_id?.toString();
+            }
           }
-        }
+          
+          // Check if user is attending
+          let isAttending = eventToCheck.is_user_attending === true;
+          
+          if (!isAttending && eventToCheck.attendees && Array.isArray(eventToCheck.attendees)) {
+            isAttending = eventToCheck.attendees.some(attendee => {
+              const attendeeId = attendee.user?.id || attendee.user_id || attendee.id;
+              const userId = user.id || user.user_id;
+              return attendeeId === userId && attendee.rsvp_status === 'going';
+            });
+          }
+          
+          // Debug output for each event
+          console.log(`Event ${event.id} "${event.title}": isHost=${isHost}, isAttending=${isAttending}`);
+          
+          return isHost || isAttending;
+        });
         
-        // Check if user is attending
-        let isAttending = eventToCheck.is_user_attending === true;
+        // Log counts for debugging
+        console.log(`Total events: ${allEventsWithRecurring.length}`);
+        console.log(`My events: ${userEvents.length}`);
         
-        if (!isAttending && eventToCheck.attendees && Array.isArray(eventToCheck.attendees)) {
-          isAttending = eventToCheck.attendees.some(attendee => {
-            const attendeeId = attendee.user?.id || attendee.user_id || attendee.id;
-            const userId = user.id || user.user_id;
-            return attendeeId === userId && attendee.rsvp_status === 'going';
-          });
-        }
+        // Save filtered events
+        setMyEvents(userEvents);
         
-        // Debug output for each event
-        console.log(`Event ${event.id} "${event.title}": isHost=${isHost}, isAttending=${isAttending}`);
-        
-        return isHost || isAttending;
-      });
-      
-      // Log counts for debugging
-      console.log(`Total events: ${allEventsWithRecurring.length}`);
-      console.log(`My events: ${userEvents.length}`);
-      
-      // Save filtered events
-      setMyEvents(userEvents);
-      
-      // Set initial display based on toggle state
-      setDisplayedEvents(showOnlyMyEvents ? userEvents : allEventsWithRecurring);
+        // Set initial display based on toggle state
+        setDisplayedEvents(showOnlyMyEvents ? userEvents : allEventsWithRecurring);
+      } else {
+        // For guests, just show all events
+        setDisplayedEvents(allEventsWithRecurring);
+      }
       
     } catch (err) {
       console.error('Error fetching events:', err);
@@ -204,9 +215,12 @@ const Calendar = () => {
   };
 
   const handleToggleChange = () => {
-    const newValue = !showOnlyMyEvents;
-    console.log(`Switching to ${newValue ? 'My Events' : 'All Events'}`);
-    setShowOnlyMyEvents(newValue);
+    // Only allow toggle for authenticated users
+    if (!isGuest) {
+      const newValue = !showOnlyMyEvents;
+      console.log(`Switching to ${newValue ? 'My Events' : 'All Events'}`);
+      setShowOnlyMyEvents(newValue);
+    }
   };
 
   return (
@@ -217,10 +231,19 @@ const Calendar = () => {
           Hangout
         </Link>
         <div className="nav-links-desktop">
-          <Link to="/events/create" className="nav-link">Create Event</Link>
-          <Link to="/dashboard" className="nav-link">My Events</Link>
-          <Link to="/profile" className="nav-link">Profile</Link>
-          <button onClick={logout} className="logout-btn">Logout</button>
+          {isGuest ? (
+            <>
+              <Link to="/signup" className="nav-link">Sign Up</Link>
+              <Link to="/login" className="logout-btn">Login</Link>
+            </>
+          ) : (
+            <>
+              <Link to="/events/create" className="nav-link">Create Event</Link>
+              <Link to="/dashboard" className="nav-link">My Events</Link>
+              <Link to="/profile" className="nav-link">Profile</Link>
+              <button onClick={logout} className="logout-btn">Logout</button>
+            </>
+          )}
         </div>
         <button className="hamburger-icon" onClick={() => setIsMenuOpen(true)}>
           <Menu size={28} />
@@ -277,13 +300,22 @@ const Calendar = () => {
           </button>
         </div>
         <div className="side-menu-links">
-          <Link to="/events/create" className="nav-link" onClick={() => setIsMenuOpen(false)}>Create Event</Link>
-          <Link to="/dashboard" className="nav-link" onClick={() => setIsMenuOpen(false)}>My Events</Link>
-          <Link to="/profile" className="nav-link" onClick={() => setIsMenuOpen(false)}>Profile</Link>
-          <button onClick={() => {
-              logout();
-              setIsMenuOpen(false);
-            }} className="logout-btn">Logout</button>
+          {isGuest ? (
+            <>
+                              <Link to="/signup" className="nav-link" onClick={() => setIsMenuOpen(false)}>Sign Up</Link>
+              <Link to="/login" className="logout-btn" onClick={() => setIsMenuOpen(false)}>Login</Link>
+            </>
+          ) : (
+            <>
+              <Link to="/events/create" className="nav-link" onClick={() => setIsMenuOpen(false)}>Create Event</Link>
+              <Link to="/dashboard" className="nav-link" onClick={() => setIsMenuOpen(false)}>My Events</Link>
+              <Link to="/profile" className="nav-link" onClick={() => setIsMenuOpen(false)}>Profile</Link>
+              <button onClick={() => {
+                  logout();
+                  setIsMenuOpen(false);
+                }} className="logout-btn">Logout</button>
+            </>
+          )}
         </div>
       </div>
       {isMenuOpen && <div className="overlay" onClick={() => setIsMenuOpen(false)}></div>}
@@ -292,18 +324,22 @@ const Calendar = () => {
         <div className="calendar-container">
           <h2 className="calendar-title">Events Calendar</h2>
           
-          {/* Toggle switch with mode indicator */}
+          {/* Toggle switch with mode indicator - disabled for guests */}
           <div className="calendar-toggle">
-            <label className="toggle-switch">
+            <label className={`toggle-switch ${isGuest ? 'disabled' : ''}`}>
               <input 
                 type="checkbox" 
                 checked={showOnlyMyEvents} 
                 onChange={handleToggleChange}
+                disabled={isGuest}
               />
-              <span className="toggle-slider"></span>
+              <span className={`toggle-slider ${isGuest ? 'disabled' : ''}`}></span>
             </label>
             <span className="toggle-label">
-              {showOnlyMyEvents ? 'Showing my events only' : 'Showing all events'}
+              {isGuest 
+                ? 'Showing all events'
+                : (showOnlyMyEvents ? 'Showing my events only' : 'Showing all events')
+              }
             </span>
           </div>
 
@@ -320,9 +356,12 @@ const Calendar = () => {
           {/* Empty state */}
           {!loading && !error && displayedEvents.length === 0 && (
             <div className="empty-message">
-              {showOnlyMyEvents 
-                ? "You don't have any events. Try creating one or RSVPing to others' events!"
-                : "No events available."}
+              {isGuest 
+                ? "No events available."
+                : (showOnlyMyEvents 
+                  ? "You don't have any events. Try creating one or RSVPing to others' events!"
+                  : "No events available.")
+              }
             </div>
           )}
 

@@ -58,7 +58,7 @@ header h1 {
     color: var(--text-color);
 }
 
-.register-button, .submit-button {
+.signup-button, .submit-button {
     background-color: var(--secondary-color);
     color: var(--white-color);
     padding: 10px 20px;
@@ -68,7 +68,7 @@ header h1 {
     cursor: pointer;
 }
 
-.register-button:hover, .submit-button:hover {
+.signup-button:hover, .submit-button:hover {
     background-color: var(--accent-color);
 }
 

@@ -31,11 +31,11 @@ logger = logging.getLogger(__name__)
 
 class SendMessageView(APIView):
     """Handles sending a user message and getting an AI response."""
-    permission_classes = [IsAuthenticated]  # Require authentication for AI chat
+    permission_classes = []  # Allow both authenticated and guest users
 
     def post(self, request):
-        # Use the authenticated user
-        user = request.user
+        # Check if user is authenticated, allow guests
+        user = request.user if request.user.is_authenticated else None
         
         message_text = request.data.get('message', '')
         session_id = request.data.get('chat_session', None) # Expect session ID from frontend
@@ -75,28 +75,43 @@ class SendMessageView(APIView):
                  # Return the error message from the handler to the frontend
                  return Response({'error': ai_response_text}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
-            # Determine title (only for the very first message pair in a session)
-            title = None
-            is_first_message = not Chat.objects.filter(user=user, chat_session=session_id).exists()
-            if is_first_message:
-                title = message_text[:50] + ('...' if len(message_text) > 50 else '')
+            # Only save to database if user is authenticated (skip for guest users)
+            if user and user.is_authenticated:
+                # Determine title (only for the very first message pair in a session)
+                title = None
+                is_first_message = not Chat.objects.filter(user=user, chat_session=session_id).exists()
+                if is_first_message:
+                    title = message_text[:50] + ('...' if len(message_text) > 50 else '')
 
-            # Save the user message and AI response to the database
-            chat_instance = Chat.objects.create(
-                user=user,
-                chat_session=session_id,
-                message=message_text,
-                response=ai_response_text,
-                title=title if is_first_message else None, # Only set title on first message
-                model_mode=model_mode, # Save if used
-                # is_automatic=(model_mode == 'default') # Save if used
-                # remaining_messages = max_messages_per_session - current_message_count - 1 # If using limit
-            )
-            
-            # If it was the first message, update previous null titles for this session
-            # This ensures the session gets the title even if created slightly earlier
-            if is_first_message and title:
-                 Chat.objects.filter(user=user, chat_session=session_id, title__isnull=True).update(title=title)
+                # Save the user message and AI response to the database
+                chat_instance = Chat.objects.create(
+                    user=user,
+                    chat_session=session_id,
+                    message=message_text,
+                    response=ai_response_text,
+                    title=title if is_first_message else None, # Only set title on first message
+                    model_mode=model_mode, # Save if used
+                    # is_automatic=(model_mode == 'default') # Save if used
+                    # remaining_messages = max_messages_per_session - current_message_count - 1 # If using limit
+                )
+                
+                # If it was the first message, update previous null titles for this session
+                # This ensures the session gets the title even if created slightly earlier
+                if is_first_message and title:
+                     Chat.objects.filter(user=user, chat_session=session_id, title__isnull=True).update(title=title)
+            else:
+                # For guest users, create a mock chat instance for consistent response format
+                from datetime import datetime
+                chat_instance = type('MockChat', (), {
+                    'id': None,
+                    'message': message_text,
+                    'response': ai_response_text,
+                    'created_at': datetime.now(),
+                    'chat_session': session_id,
+                    'user': None,
+                    'title': None,
+                    'model_mode': model_mode
+                })()
 
             # Serialize the created chat instance for the response
             serializer = ChatSerializer(chat_instance)
@@ -111,7 +126,7 @@ class SendMessageView(APIView):
 # --- Session Management Views --- #
 
 @api_view(['POST'])
-@permission_classes([IsAuthenticated])
+@permission_classes([])  # Allow guest users to create session IDs
 def new_chat_session_view(request):
     """API endpoint to explicitly create a new chat session ID."""
     try:
@@ -312,7 +327,7 @@ def rename_chat_session_view(request, session_id):
 
 class InitializeModelView(APIView):
     """API endpoint to trigger LLM initialization (e.g., on server start or manually)."""
-    permission_classes = [IsAuthenticated]  # Temporarily allow any access
+    permission_classes = []  # Allow guest users to initialize the model
 
     def post(self, request):
         logger.info(f"Received request to initialize LLM model.")

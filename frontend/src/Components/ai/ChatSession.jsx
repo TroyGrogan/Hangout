@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { getChatSession, renameChatSession } from '../../services/aiService'; // Adjust path as needed
+import { getChatSession, renameChatSession, getGuestChatSession, renameGuestChatSession } from '../../services/aiService'; // Adjust path as needed
+import { useAuth } from '../../contexts/AuthContext';
 import MarkdownRenderer from './MarkdownRenderer';
 import LoadingIndicator from './LoadingIndicator';
 import PaperAirplane from './PaperAirplane'; // Ensure this path is correct
@@ -9,6 +10,7 @@ import './Chat.css'; // Ensure Chat.css exists and styles are appropriate
 const ChatSession = () => {
   const { sessionId } = useParams();
   const navigate = useNavigate();
+  const { user, isGuest } = useAuth();
   
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -22,8 +24,10 @@ const ChatSession = () => {
       try {
         setLoading(true);
         setError('');
-        // Ensure getChatSession handles API calls and auth correctly
-        const data = await getChatSession(sessionId);
+        // Use appropriate function based on user type
+        const data = isGuest 
+          ? await getGuestChatSession(sessionId)
+          : await getChatSession(sessionId);
         if (data) {
           setSession(data);
           setTitle(data.title || 'Untitled Chat'); // Default title
@@ -52,8 +56,12 @@ const ChatSession = () => {
     }
     
     try {
-      // Ensure renameChatSession handles API calls and auth correctly
-      await renameChatSession(sessionId, trimmedTitle);
+      // Use appropriate function based on user type
+      if (isGuest) {
+        await renameGuestChatSession(sessionId, trimmedTitle);
+      } else {
+        await renameChatSession(sessionId, trimmedTitle);
+      }
       setSession(prev => prev ? { ...prev, title: trimmedTitle } : null);
       setIsRenaming(false);
     } catch (err) {
@@ -174,6 +182,12 @@ const ChatSession = () => {
       </div>
       
       <div className="messages-container" /* Add ref for scrolling if needed */>
+        {isGuest && (
+          <div className="chat-session-guest-warning">
+            You are in guest mode. If you refresh or close the website, your chat history will be wiped out completely.
+          </div>
+        )}
+        
         {session.messages && session.messages.length > 0 ? (
           session.messages.map((chat, index) => (
             <React.Fragment key={session.id + '-' + index}> {/* More robust key */} 

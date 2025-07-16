@@ -5,6 +5,9 @@ import axiosInstance from './axiosInstance'; // Use the re-exported instance
 // this path will target 'http://localhost:8000/api/ai/'
 const AI_API_BASE = '/ai';
 
+// Guest chat history storage key
+const GUEST_CHAT_HISTORY_KEY = 'hangout_guest_chat_history';
+
 const SUGGESTIONS_API_BASE = '/suggestions'; // Corresponds to api/suggestions/
 const TALKING_SUGGESTIONS_CATEGORY_ID = 22572; // Placeholder Category ID
 
@@ -232,6 +235,151 @@ export const getMainCategories = async () => {
      }
 };
 */
+
+// ===== GUEST CHAT HISTORY FUNCTIONS =====
+// These functions handle chat history for guest users using sessionStorage
+
+/**
+ * Gets the guest chat history from sessionStorage
+ */
+const getGuestChatHistoryData = () => {
+  try {
+    const data = sessionStorage.getItem(GUEST_CHAT_HISTORY_KEY);
+    return data ? JSON.parse(data) : { sessions: {}, sessionOrder: [] };
+  } catch (error) {
+    console.warn('Failed to load guest chat history:', error);
+    return { sessions: {}, sessionOrder: [] };
+  }
+};
+
+/**
+ * Saves the guest chat history to sessionStorage
+ */
+const saveGuestChatHistoryData = (data) => {
+  try {
+    sessionStorage.setItem(GUEST_CHAT_HISTORY_KEY, JSON.stringify(data));
+  } catch (error) {
+    console.warn('Failed to save guest chat history:', error);
+  }
+};
+
+/**
+ * Adds or updates a message in a guest chat session
+ */
+export const addGuestChatMessage = (sessionId, userMessage, aiResponse) => {
+  const data = getGuestChatHistoryData();
+  
+  if (!data.sessions[sessionId]) {
+    // Create new session
+    const title = userMessage.length > 50 ? userMessage.substring(0, 50) + '...' : userMessage;
+    data.sessions[sessionId] = {
+      id: sessionId,
+      title,
+      messages: [],
+      timestamp: new Date().toISOString(),
+      message_count: 0
+    };
+    data.sessionOrder.unshift(sessionId); // Add to beginning for reverse chronological order
+  }
+  
+  // Add the message pair
+  const messageId = Date.now() + Math.random(); // Simple unique ID
+  data.sessions[sessionId].messages.push({
+    id: messageId,
+    message: userMessage,
+    response: aiResponse,
+    created_at: new Date().toISOString(),
+    chat_session: sessionId,
+    user: null,
+    title: data.sessions[sessionId].title
+  });
+  
+  // Update session metadata
+  data.sessions[sessionId].message_count = data.sessions[sessionId].messages.length;
+  data.sessions[sessionId].timestamp = new Date().toISOString();
+  
+  // Move session to front of order (most recent first)
+  data.sessionOrder = data.sessionOrder.filter(id => id !== sessionId);
+  data.sessionOrder.unshift(sessionId);
+  
+  saveGuestChatHistoryData(data);
+};
+
+/**
+ * Guest version of getChatHistory - returns paginated sessions from sessionStorage
+ */
+export const getGuestChatHistory = async (searchQuery = '', page = 1, pageSize = 20) => {
+  const data = getGuestChatHistoryData();
+  let sessions = data.sessionOrder.map(id => data.sessions[id]).filter(Boolean);
+  
+  // Apply search filter if provided
+  if (searchQuery) {
+    const query = searchQuery.toLowerCase();
+    sessions = sessions.filter(session => 
+      session.title?.toLowerCase().includes(query) ||
+      session.messages.some(msg => 
+        msg.message?.toLowerCase().includes(query) || 
+        msg.response?.toLowerCase().includes(query)
+      )
+    );
+  }
+  
+  // Calculate pagination
+  const total = sessions.length;
+  const startIndex = (page - 1) * pageSize;
+  const endIndex = startIndex + pageSize;
+  const paginatedSessions = sessions.slice(startIndex, endIndex);
+  
+  // Return data in the same format as the backend API
+  return {
+    results: paginatedSessions,
+    count: total,
+    next: endIndex < total ? page + 1 : null,
+    previous: page > 1 ? page - 1 : null
+  };
+};
+
+/**
+ * Guest version of getChatSession - returns session details from sessionStorage
+ */
+export const getGuestChatSession = async (sessionId) => {
+  const data = getGuestChatHistoryData();
+  const session = data.sessions[sessionId];
+  
+  if (!session) {
+    throw new Error(`Guest chat session ${sessionId} not found`);
+  }
+  
+  return session;
+};
+
+/**
+ * Guest version of deleteChatSession - removes session from sessionStorage
+ */
+export const deleteGuestChatSession = async (sessionId) => {
+  const data = getGuestChatHistoryData();
+  delete data.sessions[sessionId];
+  data.sessionOrder = data.sessionOrder.filter(id => id !== sessionId);
+  saveGuestChatHistoryData(data);
+  return { success: true };
+};
+
+/**
+ * Guest version of renameChatSession - updates session title in sessionStorage
+ */
+export const renameGuestChatSession = async (sessionId, newTitle) => {
+  const data = getGuestChatHistoryData();
+  if (data.sessions[sessionId]) {
+    data.sessions[sessionId].title = newTitle;
+    // Update title in all messages of this session
+    data.sessions[sessionId].messages.forEach(msg => {
+      msg.title = newTitle;
+    });
+    saveGuestChatHistoryData(data);
+    return { success: true, title: newTitle };
+  }
+  throw new Error(`Guest chat session ${sessionId} not found`);
+};
 
 // Optional: Export functions individually or as a default object
 // export default {

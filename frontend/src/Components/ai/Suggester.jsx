@@ -8,7 +8,7 @@ import { useAuth } from '../../contexts/AuthContext';
 const Suggester = () => {
   const navigate = useNavigate();
   const location = useLocation();
-  const { logout } = useAuth();
+  const { logout, isGuest } = useAuth();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Check if the current path matches a given path for active tab styling
@@ -24,10 +24,19 @@ const Suggester = () => {
           Hangout
         </Link>
         <div className="nav-links-desktop">
-          <Link to="/events/create" className="nav-link">Create Event</Link>
-          <Link to="/dashboard" className="nav-link">My Events</Link>
-          <Link to="/profile" className="nav-link">Profile</Link>
-          <button onClick={logout} className="logout-btn">Logout</button>
+          {isGuest ? (
+            <>
+              <Link to="/signup" className="nav-link">Sign Up</Link>
+              <Link to="/login" className="logout-btn">Login</Link>
+            </>
+          ) : (
+            <>
+              <Link to="/events/create" className="nav-link">Create Event</Link>
+              <Link to="/dashboard" className="nav-link">My Events</Link>
+              <Link to="/profile" className="nav-link">Profile</Link>
+              <button onClick={logout} className="logout-btn">Logout</button>
+            </>
+          )}
         </div>
         <button className="hamburger-icon" onClick={() => setIsMenuOpen(true)}>
           <Menu size={28} />
@@ -84,13 +93,22 @@ const Suggester = () => {
           </button>
         </div>
         <div className="side-menu-links">
-          <Link to="/events/create" className="nav-link" onClick={() => setIsMenuOpen(false)}>Create Event</Link>
-          <Link to="/dashboard" className="nav-link" onClick={() => setIsMenuOpen(false)}>My Events</Link>
-          <Link to="/profile" className="nav-link" onClick={() => setIsMenuOpen(false)}>Profile</Link>
-          <button onClick={() => {
-              logout();
-              setIsMenuOpen(false);
-            }} className="logout-btn">Logout</button>
+          {isGuest ? (
+            <>
+                              <Link to="/signup" className="nav-link" onClick={() => setIsMenuOpen(false)}>Sign Up</Link>
+              <Link to="/login" className="logout-btn" onClick={() => setIsMenuOpen(false)}>Login</Link>
+            </>
+          ) : (
+            <>
+              <Link to="/events/create" className="nav-link" onClick={() => setIsMenuOpen(false)}>Create Event</Link>
+              <Link to="/dashboard" className="nav-link" onClick={() => setIsMenuOpen(false)}>My Events</Link>
+              <Link to="/profile" className="nav-link" onClick={() => setIsMenuOpen(false)}>Profile</Link>
+              <button onClick={() => {
+                  logout();
+                  setIsMenuOpen(false);
+                }} className="logout-btn">Logout</button>
+            </>
+          )}
         </div>
       </div>
       {isMenuOpen && <div className="overlay" onClick={() => setIsMenuOpen(false)}></div>}

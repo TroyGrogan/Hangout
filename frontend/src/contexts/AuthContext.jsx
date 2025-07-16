@@ -8,6 +8,7 @@ const AuthContext = createContext(null);
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
+  const [isGuest, setIsGuest] = useState(false);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -16,11 +17,21 @@ export const AuthProvider = ({ children }) => {
 
   const checkAuth = () => {
     const token = localStorage.getItem('accessToken');
+    const guestMode = localStorage.getItem('guestMode');
+    
+    if (guestMode === 'true') {
+      setIsGuest(true);
+      setUser({ isGuest: true, username: 'Guest' });
+      setLoading(false);
+      return;
+    }
+    
     if (token) {
       try {
         const decoded = jwtDecode(token);
         if (decoded.exp * 1000 > Date.now()) {
           setUser(decoded);
+          setIsGuest(false);
           axiosInstance.defaults.headers.common['Authorization'] = `Bearer ${token}`;
         } else {
           logout();
@@ -36,9 +47,10 @@ export const AuthProvider = ({ children }) => {
     try {
       console.log('Login attempt with:', { username, password });
       
-      // Clear any existing tokens
+      // Clear any existing tokens and guest mode
       localStorage.removeItem('accessToken');
       localStorage.removeItem('refreshToken');
+      localStorage.removeItem('guestMode');
       delete axiosInstance.defaults.headers.common['Authorization'];
 
       // Make login request
@@ -68,6 +80,7 @@ export const AuthProvider = ({ children }) => {
         const decoded = jwtDecode(access);
         console.log('Decoded token:', decoded);
         setUser(decoded);
+        setIsGuest(false); // Ensure guest mode is cleared for real users
       } catch (decodeError) {
         console.error('Token decode error:', decodeError);
         throw new Error('Invalid token format');
@@ -82,6 +95,21 @@ export const AuthProvider = ({ children }) => {
       });
       throw error;
     }
+  };
+
+  const guestLogin = () => {
+    // Clear any existing tokens
+    localStorage.removeItem('accessToken');
+    localStorage.removeItem('refreshToken');
+    delete axiosInstance.defaults.headers.common['Authorization'];
+    
+    // Set guest mode
+    localStorage.setItem('guestMode', 'true');
+    setIsGuest(true);
+    setUser({ isGuest: true, username: 'Guest' });
+    
+    console.log('Guest login successful');
+    return true;
   };
 
   const register = async (userData) => {
@@ -105,15 +133,19 @@ export const AuthProvider = ({ children }) => {
   const logout = () => {
     localStorage.removeItem('accessToken');
     localStorage.removeItem('refreshToken');
+    localStorage.removeItem('guestMode');
     delete axiosInstance.defaults.headers.common['Authorization'];
     setUser(null);
+    setIsGuest(false);
     clearChatState();
     console.log('[AuthContext] User logged out, chat state cleared');
   };
 
   const value = {
     user,
+    isGuest,
     login,
+    guestLogin,
     logout,
     register,
     loading,

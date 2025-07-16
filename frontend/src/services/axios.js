@@ -110,15 +110,24 @@ axiosInstance.interceptors.response.use(
         isRefreshing = true;
 
         const refreshToken = localStorage.getItem('refreshToken');
+        const isGuestMode = localStorage.getItem('guestMode') === 'true';
+        
         if (!refreshToken) {
-            console.error('No refresh token available. Redirecting to login.');
+            console.error('No refresh token available.');
             isRefreshing = false;
-            // Handle logout/redirect - clear storage, redirect to login page
-            localStorage.removeItem('accessToken');
-            localStorage.removeItem('refreshToken');
-            clearChatState(); // Clear chat state on logout
-            // Consider using AuthContext for logout action if available
-            window.location.href = '/login'; 
+            
+            // Only redirect to login if not in guest mode
+            if (!isGuestMode) {
+                console.log('Redirecting to login for authenticated user.');
+                // Handle logout/redirect - clear storage, redirect to login page
+                localStorage.removeItem('accessToken');
+                localStorage.removeItem('refreshToken');
+                clearChatState(); // Clear chat state on logout
+                // Consider using AuthContext for logout action if available
+                window.location.href = '/login'; 
+            } else {
+                console.log('Guest user - not redirecting to login for 401 error.');
+            }
             return Promise.reject(error); 
         }
 
@@ -154,11 +163,18 @@ axiosInstance.interceptors.response.use(
             isRefreshing = false;
             
             // Handle logout/redirect on refresh failure
-            localStorage.removeItem('accessToken');
-            localStorage.removeItem('refreshToken');
-            clearChatState(); // Clear chat state on logout
-            // Consider using AuthContext for logout action
-            window.location.href = '/login'; 
+            const isGuestMode = localStorage.getItem('guestMode') === 'true';
+            
+            // Only redirect to login if not in guest mode
+            if (!isGuestMode) {
+                localStorage.removeItem('accessToken');
+                localStorage.removeItem('refreshToken');
+                clearChatState(); // Clear chat state on logout
+                // Consider using AuthContext for logout action
+                window.location.href = '/login';
+            } else {
+                console.log('Guest user - not redirecting to login on refresh failure.');
+            } 
             
             return Promise.reject(refreshError);
         }

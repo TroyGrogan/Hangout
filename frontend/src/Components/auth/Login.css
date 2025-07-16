@@ -134,11 +134,24 @@ body {
   form a {
     color: #3B5998;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline;
     transition: color 0.3s;
   }
   
   form a:hover {
+    color: #2E4578;
+  }
+  
+  /* Guest login link styles */
+  .guest-link {
+    color: #3B5998;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: color 0.3s;
+  }
+  
+  .guest-link:hover {
     color: #2E4578;
   }
   

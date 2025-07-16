@@ -10,7 +10,7 @@ export const Login = () => {
   const [success, setSuccess] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const { login, user, loading: authLoading } = useAuth();
+  const { login, guestLogin, user, isGuest, loading: authLoading } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
   // Always redirect to home page after login instead of previous location
@@ -23,12 +23,12 @@ export const Login = () => {
     }
   }, [location.state]);
 
-  // Add effect to handle authenticated users - always redirect to home
+  // Add effect to handle authenticated users - redirect only real authenticated users, not guests
   useEffect(() => {
-    if (user && !authLoading) {
+    if (user && !authLoading && !isGuest) {
       navigate(redirectTo, { replace: true });
     }
-  }, [user, authLoading, navigate, redirectTo]);
+  }, [user, authLoading, isGuest, navigate, redirectTo]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -45,6 +45,16 @@ export const Login = () => {
       );
     } finally {
       setLoading(false);
+    }
+  };
+
+  const handleGuestLogin = () => {
+    try {
+      guestLogin();
+      navigate('/', { replace: true });
+    } catch (err) {
+      console.error('Guest login error:', err);
+      setError('Failed to start guest session');
     }
   };
 
@@ -105,7 +115,15 @@ export const Login = () => {
 
           <p>
             Don't have an account?{' '}
-            <Link to="/register">Sign up here</Link>
+            <Link to="/signup">Sign up here!</Link>
+            <br></br>
+            Want to just preview the app?{' '}
+            <span 
+              onClick={handleGuestLogin}
+              className="guest-link"
+            >
+              Click Here!
+            </span>
           </p>
         </form>
       </div>

@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { getChatHistory, deleteChatSession, renameChatSession } from '../../services/aiService'; // Adjust path as needed
+import { getChatHistory, deleteChatSession, renameChatSession, getGuestChatHistory, deleteGuestChatSession, renameGuestChatSession } from '../../services/aiService'; // Adjust path as needed
 import LoadingIndicator from './LoadingIndicator';
+import { useAuth } from '../../contexts/AuthContext';
 import './ChatHistory.css';
 
 // Simple cache for chat history data
@@ -104,6 +105,9 @@ const ChatHistory = () => {
   const mousePositionRef = useRef({ x: 0, y: 0 });
   const scrollTimeoutRef = useRef();
   const scrollStartTimeoutRef = useRef();
+  
+  // Get auth context to check if user is guest
+  const { user, isGuest } = useAuth();
   
   // Debounce search query to avoid excessive API calls
   const debouncedSearchQuery = useDebounce(searchQuery, 300);
@@ -398,27 +402,57 @@ const ChatHistory = () => {
       
       // Use debounced search query for API calls
       const queryToUse = isInitialLoad ? debouncedSearchQuery : searchQuery;
-      const currentCacheKey = `${queryToUse}-page-${pageToLoad}`;
       
-      // Check cache for this specific page
-      const cachedData = chatHistoryCache.get(currentCacheKey);
-      if (cachedData && Date.now() - cachedData.timestamp < CACHE_DURATION && isInitialLoad) {
-        // Use cached data only for initial loads to avoid pagination issues
-        const sessions = cachedData.data.results || cachedData.data;
-        const totalCount = cachedData.data.count || sessions.length;
-        const nextPage = cachedData.data.next;
+      // For guest users, always use sessionStorage - skip cache and API calls
+      if (isGuest) {
+        const response = await getGuestChatHistory(queryToUse, pageToLoad, 20);
         
-        setChatSessions(sessions);
-        // Ensure totalCount is consistent with loaded sessions
-        setTotalCount(Math.max(totalCount, sessions.length));
-        setHasMore(!!nextPage);
+        // Handle guest response
+        const sessions = response.results || response.data || response;
+        const totalCount = response.count || response.total || sessions.length;
+        const nextPage = response.next;
+        
+        if (isInitialLoad) {
+          setChatSessions(sessions);
+          setTotalCount(totalCount);
+        } else {
+          // For infinite scroll, append new sessions
+          setChatSessions(prev => {
+            const newSessions = [...prev, ...sessions];
+            setTotalCount(prevTotal => Math.max(prevTotal, totalCount, newSessions.length));
+            return newSessions;
+          });
+        }
+        
+        const calculatedHasMore = !!nextPage || (sessions.length === 20 && pageToLoad * 20 < totalCount);
+        setHasMore(calculatedHasMore);
         setCurrentPage(pageToLoad);
         
-        performanceMonitor.end(`Cache hit for ${sessions.length} sessions`);
+        performanceMonitor.end(`Guest sessionStorage fetch for ${sessions.length} sessions (page ${pageToLoad})`);
         
       } else {
-        // Call the updated getChatHistory with pagination
-        const response = await getChatHistory(queryToUse, pageToLoad, 20);
+        // For authenticated users, use cache and API
+        const currentCacheKey = `${queryToUse}-page-${pageToLoad}`;
+        
+        // Check cache for this specific page
+        const cachedData = chatHistoryCache.get(currentCacheKey);
+        if (cachedData && Date.now() - cachedData.timestamp < CACHE_DURATION && isInitialLoad) {
+          // Use cached data only for initial loads to avoid pagination issues
+          const sessions = cachedData.data.results || cachedData.data;
+          const totalCount = cachedData.data.count || sessions.length;
+          const nextPage = cachedData.data.next;
+          
+          setChatSessions(sessions);
+          // Ensure totalCount is consistent with loaded sessions
+          setTotalCount(Math.max(totalCount, sessions.length));
+          setHasMore(!!nextPage);
+          setCurrentPage(pageToLoad);
+          
+          performanceMonitor.end(`Cache hit for ${sessions.length} sessions`);
+          
+        } else {
+          // Call the backend API for authenticated users
+          const response = await getChatHistory(queryToUse, pageToLoad, 20);
         
         // Handle both paginated and non-paginated responses for backward compatibility
         const sessions = response.results || response.data || response;
@@ -456,6 +490,7 @@ const ChatHistory = () => {
         }
         
         performanceMonitor.end(`API fetch for ${sessions.length} sessions (page ${pageToLoad})`);
+        }
       }
       
     } catch (err) {
@@ -545,8 +580,12 @@ const ChatHistory = () => {
     
     if (window.confirm('Are you sure you want to delete this chat? This action cannot be undone.')) {
       try {
-        // Make sure deleteChatSession is correctly implemented and handles authentication
-        await deleteChatSession(sessionId);
+        // Use appropriate delete function based on user type
+        if (isGuest) {
+          await deleteGuestChatSession(sessionId);
+        } else {
+          await deleteChatSession(sessionId);
+        }
         
         // Remove session from state optimistically and update counts
         setChatSessions(prevSessions => {
@@ -586,8 +625,12 @@ const ChatHistory = () => {
     }
     
     try {
-      // Use the renameChatSession function from aiService
-      await renameChatSession(sessionId, trimmedTitle);
+      // Use appropriate rename function based on user type
+      if (isGuest) {
+        await renameGuestChatSession(sessionId, trimmedTitle);
+      } else {
+        await renameChatSession(sessionId, trimmedTitle);
+      }
       
       // Update the session in state
       setChatSessions(prevSessions => 
@@ -652,6 +695,14 @@ const ChatHistory = () => {
           <button type="submit" className="search-button">Search</button>
         </form>
       </div>
+      
+      {isGuest && (
+        <div className="guest-warning-wrapper">
+          <div className="chat-history-guest-warning">
+            You are in guest mode. If you refresh or close the website, your chat history will be wiped out completely.
+          </div>
+        </div>
+      )}
       
       {error && <div className="error-message">{error}</div>}
       

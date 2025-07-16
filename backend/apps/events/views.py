@@ -18,8 +18,22 @@ class EventViewSet(viewsets.ModelViewSet):
     ViewSet for viewing and editing events
     """
     serializer_class = EventSerializer
-    permission_classes = [permissions.IsAuthenticated]  # Require authentication for events
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]  # Allow read access for guests
     pagination_class = None  # Disable pagination for this ViewSet
+    
+    def get_permissions(self):
+        """
+        Override permissions to allow public access for reading events and popular events.
+        Require authentication for creating, updating, and deleting events.
+        """
+        if self.action in ['list', 'retrieve', 'popular']:
+            # Allow anyone to view events and popular events
+            permission_classes = [permissions.AllowAny]
+        else:
+            # Require authentication for create, update, delete
+            permission_classes = [permissions.IsAuthenticated]
+        
+        return [permission() for permission in permission_classes]
     
     def get_queryset(self):
         """
@@ -265,17 +279,37 @@ class EventAttendeeViewSet(viewsets.ModelViewSet):
     ViewSet for managing event attendees and RSVPs
     """
     serializer_class = EventAttendeeSerializer
-    permission_classes = [permissions.IsAuthenticated]  # Require authentication for RSVPs
+    permission_classes = [permissions.IsAuthenticated]  # Default: require authentication
     pagination_class = None  # Disable pagination for this ViewSet
+    
+    def get_permissions(self):
+        """
+        Override permissions to allow public access for viewing attendees.
+        Require authentication for creating, updating, and deleting RSVPs.
+        """
+        if self.action in ['list', 'retrieve']:
+            # Allow anyone to view attendee lists
+            permission_classes = [permissions.AllowAny]
+        else:
+            # Require authentication for RSVP operations
+            permission_classes = [permissions.IsAuthenticated]
+        
+        return [permission() for permission in permission_classes]
     
     def get_queryset(self):
         event_id = self.request.query_params.get('event')
         queryset = EventAttendee.objects.all()
         
         if event_id:
+            # If filtering by event, allow public access to see attendees
             queryset = queryset.filter(event_id=event_id)
         else:
-            queryset = queryset.filter(user=self.request.user)
+            # If no event specified, filter by user (only for authenticated users)
+            if self.request.user.is_authenticated:
+                queryset = queryset.filter(user=self.request.user)
+            else:
+                # For unauthenticated users without event filter, return empty queryset
+                queryset = EventAttendee.objects.none()
             
         return queryset.select_related('user', 'event')
     

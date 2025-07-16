@@ -4,12 +4,12 @@ import MarkdownRenderer from './MarkdownRenderer';
 import LoadingIndicator from './LoadingIndicator';
 import PaperAirplane from './PaperAirplane';
 import './Chat.css';
-import { sendMessage, createNewChatSession } from '../../services/aiService'; // Adjust path as needed
+import { sendMessage, createNewChatSession, addGuestChatMessage } from '../../services/aiService'; // Adjust path as needed
 import axiosInstance from '../../services/axiosInstance'; // Adjust path as needed
 import { HARDCODED_MAIN_CATEGORIES } from '../../utils/categoryUtils'; 
 import { getRandomTalkSuggestions, getRandomDoSuggestions, getMixedSuggestions } from '../../utils/suggestionUtils';
 import { useAuth } from '../../contexts/AuthContext'; // Import useAuth
-import { clearChatState, saveChatState, loadChatState } from '../../utils/chatStateUtils'; // Import utility functions
+import { clearChatState, saveChatState, loadChatState, saveGuestMessages, loadGuestMessages, clearGuestMessages } from '../../utils/chatStateUtils'; // Import utility functions
 
 // --- Model Initialization --- //
 // Using a simple flag approach. Consider a more robust state management if needed.
@@ -95,12 +95,13 @@ const Chat = () => {
 
   // --- Effects --- //
   
-  // Detect user logout and clear localStorage state
+  // Detect user logout and clear state
   useEffect(() => {
     if (!user) {
       // User has logged out or is not authenticated
       console.log("[Chat.jsx] User logged out, clearing category and suggestion type state");
-      clearChatState();
+      clearChatState(false); // Clear localStorage for authenticated users
+      clearGuestMessages(); // Also clear any guest messages
       setSelectedCategory(null);
       setSuggestionTypes({ talk: false, do: false });
       setIsStateLoaded(false);
@@ -188,20 +189,34 @@ const Chat = () => {
     }
   }, [isDragging, dragStartY, dragStartSlidePosition, slidePosition]);
 
-  // Load state from localStorage on component mount (MUST BE AFTER logout detection)
+  // Load state from storage on component mount (MUST BE AFTER logout detection)
   useEffect(() => {
     if (user) {
-      // Only load state if user is authenticated
-      const { selectedCategory: savedCategory, suggestionTypes: savedSuggestionTypes } = loadChatState();
+      const isGuest = user.isGuest || false;
+      const { selectedCategory: savedCategory, suggestionTypes: savedSuggestionTypes } = loadChatState(isGuest);
+      
       if (savedCategory) {
         setSelectedCategory(savedCategory);
       }
       setSuggestionTypes(savedSuggestionTypes);
+      
+      // Load guest messages if user is a guest
+      if (isGuest) {
+        const guestMessages = loadGuestMessages();
+        setMessages(guestMessages);
+        console.log("[Chat.jsx] Guest state loaded from sessionStorage:", {
+          savedCategory: savedCategory?.textName,
+          savedSuggestionTypes,
+          messageCount: guestMessages.length
+        });
+      } else {
+        console.log("[Chat.jsx] User state loaded from localStorage:", {
+          savedCategory: savedCategory?.textName,
+          savedSuggestionTypes
+        });
+      }
+      
       setIsStateLoaded(true); // Mark state as loaded
-      console.log("[Chat.jsx] State loaded from localStorage:", {
-        savedCategory: savedCategory?.textName,
-        savedSuggestionTypes
-      });
     }
   }, [user]); // Run when user changes (login/logout)
 
@@ -233,13 +248,20 @@ const Chat = () => {
     }
   }, [location.state, user, isStateLoaded, selectedCategory, suggestionTypes]); // Wait for state to be loaded
 
-  // Save state to localStorage whenever selectedCategory or suggestionTypes change
+  // Save state to storage whenever selectedCategory or suggestionTypes change
   useEffect(() => {
     if (user) {
-      // Only save state if user is authenticated
-      saveChatState(selectedCategory, suggestionTypes);
+      const isGuest = user.isGuest || false;
+      saveChatState(selectedCategory, suggestionTypes, isGuest);
     }
   }, [selectedCategory, suggestionTypes, user]);
+
+  // Save guest messages to sessionStorage whenever messages change
+  useEffect(() => {
+    if (user?.isGuest && messages.length > 0) {
+      saveGuestMessages(messages);
+    }
+  }, [messages, user]);
 
   useEffect(() => {
     const initializeAndLoad = async () => {
@@ -248,11 +270,20 @@ const Chat = () => {
       let currentSessionId = sessionId;
       if (!currentSessionId) {
         console.log("[Chat.jsx useEffect[sessionId, location.search]] No session, creating new one.");
-        currentSessionId = await createNewChatSession();
-        if (!currentSessionId) {
-          console.error("[Chat.jsx useEffect[sessionId, location.search]] Failed to create session.");
-          // Potentially set an error state here
-          return;
+        
+        // For guest users, create a local session ID instead of calling backend
+        if (user?.isGuest) {
+          currentSessionId = `guest-session-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+          console.log("[Chat.jsx] Created guest session ID:", currentSessionId);
+          setSessionId(currentSessionId);
+        } else {
+          currentSessionId = await createNewChatSession();
+          if (!currentSessionId) {
+            console.error("[Chat.jsx useEffect[sessionId, location.search]] Failed to create session.");
+            // Potentially set an error state here
+            return;
+          }
+          setSessionId(currentSessionId);
         }
         // Session ID state update will trigger re-run if needed.
         // No explicit call to updateSuggestions here to avoid race conditions.
@@ -353,14 +384,23 @@ const Chat = () => {
     console.log('Attempting to create new chat session...');
     setMessages([]); // Clear messages for the new chat
     setError(null);
+    
     try {
-      // Ensure createNewChatSession works and returns a valid session ID
-      const newSessionId = await createNewChatSession(); 
-      if (newSessionId) {
+      // For guest users, create a local session ID instead of calling backend
+      if (user?.isGuest) {
+        const newSessionId = `guest-session-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
         setSessionId(newSessionId);
-        console.log('Created new chat session:', newSessionId);
+        clearGuestMessages(); // Clear any existing guest messages
+        console.log('Created new guest session:', newSessionId);
       } else {
-        throw new Error("createNewChatSession returned null or undefined");
+        // Ensure createNewChatSession works and returns a valid session ID
+        const newSessionId = await createNewChatSession(); 
+        if (newSessionId) {
+          setSessionId(newSessionId);
+          console.log('Created new chat session:', newSessionId);
+        } else {
+          throw new Error("createNewChatSession returned null or undefined");
+        }
       }
     } catch (err) {
       console.error('Error creating new chat session:', err);
@@ -395,9 +435,15 @@ const Chat = () => {
     let currentSessionId = sessionId;
     if (!currentSessionId) {
       try {
-        currentSessionId = await createNewChatSession();
-        if (!currentSessionId) throw new Error("Failed to get session ID");
-        setSessionId(currentSessionId);
+        // For guest users, create a local session ID instead of calling backend
+        if (user?.isGuest) {
+          currentSessionId = `guest-session-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+          setSessionId(currentSessionId);
+        } else {
+          currentSessionId = await createNewChatSession();
+          if (!currentSessionId) throw new Error("Failed to get session ID");
+          setSessionId(currentSessionId);
+        }
       } catch (err) {
         setError('Could not start chat session. Please refresh and try again.');
         setIsLoading(false);
@@ -408,7 +454,7 @@ const Chat = () => {
     }
 
     try {
-      // Correctly handle the complete response from the AI service.
+      // Send message to AI service for both authenticated and guest users
       const aiResponseData = await sendMessage(userMessage.content, currentSessionId);
       
       let responseText = '';
@@ -427,6 +473,11 @@ const Chat = () => {
       setMessages(prev => prev.map(msg => 
         msg.id === aiPlaceholder.id ? finalAiMessage : msg
       ));
+
+      // For guest users, store the message pair in the guest chat history format
+      if (user?.isGuest && currentSessionId) {
+        addGuestChatMessage(currentSessionId, userMessage.content, responseText);
+      }
 
     } catch (err) {
       console.error('Error sending message:', err);
@@ -447,7 +498,7 @@ const Chat = () => {
   };
 
   const handleViewHistory = () => {
-    // Navigate to chat history page, ensure the route exists
+    // Navigate to chat history page for both authenticated and guest users
     navigate('/chat-history'); 
   };
 
@@ -476,11 +527,12 @@ const Chat = () => {
     console.log("Category selected:", category); 
     if (selectedCategory?.id === category.id) {
       setSelectedCategory(null); 
-      // Clear localStorage when deselecting category
-      clearChatState();
+      // Clear storage when deselecting category (localStorage for authenticated users, sessionStorage for guests)
+      const isGuest = user?.isGuest || false;
+      clearChatState(isGuest);
     } else {
       setSelectedCategory(category); // Set the object from the hardcoded list
-      // localStorage will be updated by the useEffect
+      // Storage will be updated by the useEffect
     }
     setShowCategoriesDropdown(false);
   };
@@ -686,9 +738,23 @@ const Chat = () => {
           '--dynamic-margin-bottom-landscape': `${slidePosition === 1 ? '20px' : slidePosition >= 0.4 && slidePosition <= 0.6 ? '70px' : `${20 + (100 * (1 - slidePosition))}px`}`
         }}
       >
+        {/* Guest warning for live chat with messages */}
+        {user?.isGuest && messages.length > 0 && (
+          <div className="guest-mode-warning">
+            You are in guest mode. Your chat history will be wiped out completely if you refresh or close the website.
+          </div>
+        )}
+
         {messages.length === 0 && !isLoading && (
            // Show suggestions view only if chat is empty and not loading first message
            <div className={`empty-chat ${selectedCategory ? 'chat-category-selected-view' : ''}`} style={{ backgroundColor: '#FFFFF0' }}>
+              {/* Guest Mode Warning */}
+              {user?.isGuest && (
+                <div className="guest-mode-warning">
+                  You are in guest mode. Your chat history will be wiped out completely if you refresh or close the website.
+                </div>
+              )}
+              
               {/* Disclaimer Text, moved to the top */}
               <div className="suggestions-disclaimer">
                 ‼️DISCLAIMER‼️
@@ -905,8 +971,8 @@ const Chat = () => {
           visibility: slidePosition >= 0.5 ? 'hidden' : 'visible',
           transition: 'opacity 0.2s ease'
         }}>
-          <p>This model is running on <b>1 CPU and 2 GB of RAM,</b> so do please be patient with its response time!</p>
-          <p>It takes around <b>~1 min</b> on average for the AI to respond with its message.</p>
+          <p>This model is running on <b>1 CPU and 2 GB of RAM,</b> so please do be patient with its response time!</p>
+          <p>It takes around <b>~1 min. to 2 min.</b> on average for the AI to respond with its message.</p>
         </div>
       </form>
       </div>
