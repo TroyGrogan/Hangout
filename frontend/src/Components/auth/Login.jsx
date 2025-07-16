@@ -14,7 +14,7 @@ export const Login = () => {
   const navigate = useNavigate();
   const location = useLocation();
   // Always redirect to home page after login instead of previous location
-  const redirectTo = '/';
+  const redirectTo = '/home';
 
   useEffect(() => {
     if (location.state?.message) {
@@ -51,7 +51,7 @@ export const Login = () => {
   const handleGuestLogin = () => {
     try {
       guestLogin();
-      navigate('/', { replace: true });
+      navigate('/home', { replace: true });
     } catch (err) {
       console.error('Guest login error:', err);
       setError('Failed to start guest session');

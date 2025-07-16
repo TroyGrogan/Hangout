@@ -28,6 +28,9 @@ function App() {
       <Router>
         <div className="App">
           <Routes>
+            {/* Root path redirects to welcome for auto guest login */}
+            <Route path="/" element={<Navigate to="/welcome" replace />} />
+            
             {/* Auto guest login route - default landing page */}
             <Route path="/welcome" element={<AutoGuestLogin />} />
             
@@ -37,7 +40,7 @@ function App() {
             
             {/* Protected routes */}
             <Route
-              path="/"
+              path="/home"
               element={
                 <ProtectedRoute>
                   <Home />

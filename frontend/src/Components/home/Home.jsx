@@ -2036,7 +2036,7 @@ const Home = () => {
     <div className="page-container home-page" style={{ backgroundColor: '#00B488' }}>
       {/* 1. Main Navigation */}
       <nav className="main-nav">
-        <Link to="/" className="nav-brand">
+        <Link to="/home" className="nav-brand">
           Hangout
         </Link>
         <div className="nav-links-desktop">
@@ -2074,7 +2074,7 @@ const Home = () => {
           flexGrow: 1,
           textAlign: 'center'
         }}>
-          <Link to="/" className={isActive('/') ? 'active' : ''} style={{
+          <Link to="/home" className={isActive('/home') ? 'active' : ''} style={{
             flex: '1',
             textAlign: 'center',
             display: 'flex',
@@ -2685,8 +2685,8 @@ const Home = () => {
 
       {/* Footer */}
       <footer className="footer">
-        <Link to="/" onClick={(e) => {
-          if (location.pathname === '/') {
+        <Link to="/home" onClick={(e) => {
+          if (location.pathname === '/home') {
             e.preventDefault();
             window.scrollTo({ top: 0, behavior: 'smooth' });
           }
