@@ -26,6 +26,7 @@ export const Login = () => {
   // Add effect to handle authenticated users - redirect only real authenticated users, not guests
   useEffect(() => {
     if (user && !authLoading && !isGuest) {
+      console.log('Login: Authenticated user detected, redirecting to home');
       navigate(redirectTo, { replace: true });
     }
   }, [user, authLoading, isGuest, navigate, redirectTo]);

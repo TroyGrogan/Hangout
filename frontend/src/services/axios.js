@@ -116,8 +116,8 @@ axiosInstance.interceptors.response.use(
             console.error('No refresh token available.');
             isRefreshing = false;
             
-            // Redirect to home page to show appropriate experience
-            console.log('No refresh token available - redirecting to home.');
+            // Establish guest mode but don't always redirect
+            console.log('No refresh token available - establishing guest mode.');
             localStorage.removeItem('accessToken');
             localStorage.removeItem('refreshToken');
             clearChatState(); // Clear chat state on logout
@@ -125,7 +125,14 @@ axiosInstance.interceptors.response.use(
             // Establish guest mode to prevent auth limbo
             localStorage.setItem('guestMode', 'true');
             
-            window.location.href = '/';
+            // Only redirect if we're not already on a public page
+            const currentPath = window.location.pathname;
+            const publicPaths = ['/', '/login', '/signup', '/welcome'];
+            if (!publicPaths.includes(currentPath)) {
+                console.log('Redirecting to home from protected route');
+                window.location.href = '/';
+            }
+            
             return Promise.reject(error);
         }
 
@@ -160,16 +167,22 @@ axiosInstance.interceptors.response.use(
             processQueue(refreshError, null); // Reject queued requests
             isRefreshing = false;
             
-            // Handle logout/redirect on refresh failure - redirect to home
-            console.log('Token refresh failed - redirecting to home.');
+            // Handle logout/redirect on refresh failure - establish guest mode but don't redirect
+            console.log('Token refresh failed - establishing guest mode.');
             localStorage.removeItem('accessToken');
             localStorage.removeItem('refreshToken');
             clearChatState(); // Clear chat state on logout
             
-            // Establish guest mode to prevent auth limbo
+            // Establish guest mode to prevent auth limbo - don't redirect to prevent infinite loop
             localStorage.setItem('guestMode', 'true');
             
-            window.location.href = '/';
+            // Only redirect if we're not already on a public page
+            const currentPath = window.location.pathname;
+            const publicPaths = ['/', '/login', '/signup', '/welcome'];
+            if (!publicPaths.includes(currentPath)) {
+                console.log('Redirecting to home from protected route');
+                window.location.href = '/';
+            }
             
             return Promise.reject(refreshError);
         }
