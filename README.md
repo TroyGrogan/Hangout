@@ -4,7 +4,7 @@ React / Django Web Application that uses Restful API's. Was made during Fall 202
 
 I personally have made signifigant improvements to the app since the class has finished. These things include:
 - Big improvements to the app's overall color pallete. It before had this ugly coral/ peach color that was very draining on the eyes :)
-- HUGE UI/UX improvements. Things in regards to how the app pages flow, the sizing and positioning of buttons, color contrast, use cases, etc.
+- HUGE UI/UX improvements. Things in regard to how the app pages flow, the sizing and positioning of buttons, color contrast, use cases, etc.
 - Re-designed search bar. Instead of just searching for location, it has these search parameters instead: "Dates Available", "Location", "Search Categories For Events" 
 - Mobile web browser support, as well as PWA support
 - Rearchitected the backend and frontend relationship. Before, the app was storing the massive Life Category and Sugggestion prompt datasets in PostgreSQL. I later realized that this data load can actually be moved to the frontend with JSON files, which are one of the fastest possible files out there. And, in doing this, I don't use slow SQL database operations. I only need SQL operations for when the data changes, not STATIC/ unchanging data, the frontend is a STATIC website, and plus I leave more room for backend compute in general, which is what my AI model needs. It works beautifully.
