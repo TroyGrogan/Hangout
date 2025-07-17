@@ -3,7 +3,7 @@
 React / Django Web Application that uses Restful API's. Was made during Fall 2024 and Spring 2025 for my CSCE 490/492 Capstone Computing Project Class at the University of South Carolina. Was made with a team of 5 people in total, enacting in the Software Development process.
 
 I personally have made signifigant improvements to the app since the class has finished. These things include:
-- Big improvements to the app's overall color pallete. It before had this ugly coral/ peach color that was very draining on the eyes :)
+- Big improvements to the app's overall color pallete. It before had this ugly coral/ peach color that was very draining on the eyes. :) It now has a focus on warm colors, off white, green, and blue, the colors of earth.
 - HUGE UI/UX improvements. Things in regard to how the app pages flow, the sizing and positioning of buttons, color contrast, use cases, etc.
 - Re-designed search bar. Instead of just searching with a location parameter to find events, it has these search parameters instead: "Dates Available", "Location", "Search Categories For Events". In other words, you can type "Running", hit search, and find running events, whereas before you could only type your location in hopes of finding a "Running" event.
 - Mobile web browser support, as well as PWA support
