@@ -200,15 +200,26 @@ const Chat = () => {
       }
       setSuggestionTypes(savedSuggestionTypes);
       
-      // Load guest messages if user is a guest
+      // Load guest messages if user is a guest AND not coming from chat history
+      // If coming from chat history, we want to start fresh
       if (isGuest) {
-        const guestMessages = loadGuestMessages();
-        setMessages(guestMessages);
-        console.log("[Chat.jsx] Guest state loaded from sessionStorage:", {
-          savedCategory: savedCategory?.textName,
-          savedSuggestionTypes,
-          messageCount: guestMessages.length
-        });
+        const isComingFromHistory = location.state?.fromChatHistory || location.state?.fromChatSession;
+        
+        if (isComingFromHistory) {
+          // Clear any existing messages and start fresh
+          setMessages([]);
+          clearGuestMessages(); // Clear sessionStorage messages
+          console.log("[Chat.jsx] Guest returning from chat history - starting fresh chat");
+        } else {
+          // Load existing messages for continuing previous session
+          const guestMessages = loadGuestMessages();
+          setMessages(guestMessages);
+          console.log("[Chat.jsx] Guest state loaded from sessionStorage:", {
+            savedCategory: savedCategory?.textName,
+            savedSuggestionTypes,
+            messageCount: guestMessages.length
+          });
+        }
       } else {
         console.log("[Chat.jsx] User state loaded from localStorage:", {
           savedCategory: savedCategory?.textName,
@@ -218,7 +229,7 @@ const Chat = () => {
       
       setIsStateLoaded(true); // Mark state as loaded
     }
-  }, [user]); // Run when user changes (login/logout)
+  }, [user, location.state]); // Added location.state as dependency to detect navigation from history
 
   // Detect return from chat history and handle it AFTER state is loaded
   useEffect(() => {

@@ -103,11 +103,7 @@ function App() {
             />
             <Route
               path="/calendar"
-              element={
-                <ProtectedRoute>
-                  <Calendar />
-                </ProtectedRoute>
-              }
+              element={<Calendar />}
             />
             
             {/* AI Chat routes */}
