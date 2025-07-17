@@ -48,15 +48,34 @@
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
     
-    <!-- Fallback routing script for SPA -->
+    <!-- SPA Routing and Page State Preservation Script -->
     <script>
-      // This script ensures that if someone navigates directly to a route,
-      // React Router will handle it properly
       (function() {
-        // Store the current path for React Router to use
-        if (window.location.pathname !== '/') {
+        // Capture the current URL before the page loads
+        const currentPath = window.location.pathname;
+        const currentSearch = window.location.search;
+        const currentHash = window.location.hash;
+        const fullUrl = currentPath + currentSearch + currentHash;
+        
+        // Store the current URL for React Router to use
+        if (currentPath !== '/') {
+          window.__INITIAL_PATH__ = fullUrl;
+          console.log('[SPA Router] Captured initial path:', fullUrl);
+        }
+        
+        // Also store in sessionStorage as backup
+        if (currentPath !== '/') {
+          sessionStorage.setItem('lastVisitedPath', fullUrl);
+          console.log('[SPA Router] Stored path in sessionStorage:', fullUrl);
+        }
+        
+        // Handle direct navigation to routes
+        // This ensures that if someone navigates directly to a route,
+        // React Router will handle it properly
+        if (currentPath !== '/' && currentPath !== '/index.html') {
           // Set a flag that React Router can check
-          window.__INITIAL_PATH__ = window.location.pathname + window.location.search + window.location.hash;
+          window.__DIRECT_NAVIGATION__ = true;
+          console.log('[SPA Router] Direct navigation detected to:', currentPath);
         }
       })();
     </script>

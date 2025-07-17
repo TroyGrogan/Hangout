@@ -19,110 +19,113 @@ import { AuthProvider } from './contexts/AuthContext';
 import Suggester from './Components/ai/Suggester';
 import ChatHistory from './Components/ai/ChatHistory';
 import ChatSession from './Components/ai/ChatSession';
+import PageStateManager from './Components/pageState/PageStateManager';
 
 function App() {
   return (
     <AuthProvider>
       <Router>
-        <div className="App">
-          <Routes>
-            {/* Main home route - handles both guest and authenticated users */}
-            <Route path="/" element={<Home />} />
-            
-            {/* Auto guest login route - fallback for any auth issues */}
-            <Route path="/welcome" element={<AutoGuestLogin />} />
-            
-            {/* Public routes */}
-            <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<Signup />} />
-            
-            {/* Protected routes */}
-            <Route
-              path="/events/create"
-              element={
-                <ProtectedRoute>
-                  <EventCreate />
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/create-event"
-              element={
-                <ProtectedRoute>
-                  <EventCreate />
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/events/:id"
-              element={<EventDetails />}
-            />
-            <Route
-              path="/events/edit/:id"
-              element={
-                <ProtectedRoute>
-                  <EventEdit />
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/dashboard"
-              element={
-                <ProtectedRoute>
-                  <EventDashboard />
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/profile"
-              element={
-                <ProtectedRoute>
-                  <Profile />
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/preferences"
-              element={
-                <ProtectedRoute>
-                  <CategoryPreferences isOnboarding={false} />
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/onboarding/preferences"
-              element={
-                <ProtectedRoute>
-                  <CategoryPreferences isOnboarding={true} />
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/calendar"
-              element={<Calendar />}
-            />
-            
-            {/* AI Chat routes */}
-            <Route
-              path="/suggester"
-              element={<Suggester />}
-            />
-            <Route
-              path="/chat/:sessionId"
-              element={<ChatSession />}
-            />
-            <Route
-              path="/chat-history"
-              element={<ChatHistory />}
-            />
-            
-            {/* Legacy /home route - redirect to main home */}
-            <Route path="/home" element={<Navigate to="/" replace />} />
-            
-            {/* Fallback route for any unmatched paths - redirect to main home */}
-            <Route path="*" element={<Navigate to="/" replace />} />
-          </Routes>
-        </div>
+        <PageStateManager>
+          <div className="App">
+            <Routes>
+              {/* Main home route - handles both guest and authenticated users */}
+              <Route path="/" element={<Home />} />
+              
+              {/* Auto guest login route - fallback for any auth issues */}
+              <Route path="/welcome" element={<AutoGuestLogin />} />
+              
+              {/* Public routes */}
+              <Route path="/login" element={<Login />} />
+              <Route path="/signup" element={<Signup />} />
+              
+              {/* Protected routes */}
+              <Route
+                path="/events/create"
+                element={
+                  <ProtectedRoute>
+                    <EventCreate />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/create-event"
+                element={
+                  <ProtectedRoute>
+                    <EventCreate />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/events/:id"
+                element={<EventDetails />}
+              />
+              <Route
+                path="/events/edit/:id"
+                element={
+                  <ProtectedRoute>
+                    <EventEdit />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/dashboard"
+                element={
+                  <ProtectedRoute>
+                    <EventDashboard />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/profile"
+                element={
+                  <ProtectedRoute>
+                    <Profile />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/preferences"
+                element={
+                  <ProtectedRoute>
+                    <CategoryPreferences isOnboarding={false} />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/onboarding/preferences"
+                element={
+                  <ProtectedRoute>
+                    <CategoryPreferences isOnboarding={true} />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/calendar"
+                element={<Calendar />}
+              />
+              
+              {/* AI Chat routes */}
+              <Route
+                path="/suggester"
+                element={<Suggester />}
+              />
+              <Route
+                path="/chat/:sessionId"
+                element={<ChatSession />}
+              />
+              <Route
+                path="/chat-history"
+                element={<ChatHistory />}
+              />
+              
+              {/* Legacy /home route - redirect to main home */}
+              <Route path="/home" element={<Navigate to="/" replace />} />
+              
+              {/* Fallback route for any unmatched paths - redirect to main home */}
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
+          </div>
+        </PageStateManager>
       </Router>
     </AuthProvider>
   );
