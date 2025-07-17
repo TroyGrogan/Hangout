@@ -21,16 +21,17 @@ export const AuthProvider = ({ children }) => {
     delete axiosInstance.defaults.headers.common['Authorization'];
     clearChatState();
     
-    // Clear user state
-    setUser(null);
-    setIsGuest(false);
+    // Instead of leaving user in undefined state, transition to guest mode
+    // This prevents the black screen issue during auth state transitions
+    localStorage.setItem('guestMode', 'true');
+    setUser({ isGuest: true, username: 'Guest' });
+    setIsGuest(true);
     
-    console.log('[AuthContext] User logged out');
+    console.log('[AuthContext] User logged out and transitioned to guest mode');
     
-    // Redirect to login page as requested by user
-    if (shouldRedirect) {
-      window.location.href = '/login';
-    }
+    // Don't automatically redirect - let components handle navigation with React Router
+    // This prevents the black screen issue caused by window.location.href
+    // Components calling logout should handle their own navigation
   }, []);
 
   // Memoized guest login function

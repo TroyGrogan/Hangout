@@ -64,7 +64,10 @@ const Suggester = () => {
               <Link to="/events/create" className="nav-link">Create Event</Link>
               <Link to="/dashboard" className="nav-link">My Events</Link>
               <Link to="/profile" className="nav-link">Profile</Link>
-              <button onClick={logout} className="logout-btn">Logout</button>
+              <button onClick={() => {
+                logout();
+                navigate('/login');
+              }} className="logout-btn">Logout</button>
             </>
           )}
         </div>
@@ -134,9 +137,10 @@ const Suggester = () => {
               <Link to="/dashboard" className="nav-link" onClick={() => setIsMenuOpen(false)}>My Events</Link>
               <Link to="/profile" className="nav-link" onClick={() => setIsMenuOpen(false)}>Profile</Link>
               <button onClick={() => {
-                  logout();
-                  setIsMenuOpen(false);
-                }} className="logout-btn">Logout</button>
+                logout();
+                navigate('/login');
+                setIsMenuOpen(false);
+              }} className="logout-btn">Logout</button>
             </>
           )}
         </div>

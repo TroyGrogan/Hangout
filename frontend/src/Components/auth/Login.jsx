@@ -67,10 +67,26 @@ export const Login = () => {
           Hangout
         </header>
         <div className="card">
-          <div className="flex justify-center items-center">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
+          <h2>Loading...</h2>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '20px' }}>
+            <div style={{
+              width: '48px',
+              height: '48px',
+              border: '2px solid transparent',
+              borderTop: '2px solid #3B5998',
+              borderRadius: '50%',
+              animation: 'spin 1s linear infinite'
+            }}></div>
           </div>
         </div>
+        <style>
+          {`
+            @keyframes spin {
+              0% { transform: rotate(0deg); }
+              100% { transform: rotate(360deg); }
+            }
+          `}
+        </style>
       </div>
     );
   }

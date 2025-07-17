@@ -2080,7 +2080,11 @@ const Home = () => {
               <Link to="/events/create" className="nav-link">Create Event</Link>
               <Link to="/dashboard" className="nav-link">My Events</Link>
               <Link to="/profile" className="nav-link">Profile</Link>
-              <button onClick={logout} className="logout-btn">Logout</button>
+              <button onClick={() => {
+                logout();
+                navigate('/login');
+                setIsMenuOpen(false);
+              }} className="logout-btn">Logout</button>
             </>
           )}
         </div>

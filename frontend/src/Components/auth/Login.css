@@ -4,12 +4,11 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #00B488;
     display: flex;
-    align-items: center;
     justify-content: center;
     min-height: 100vh;
     flex-direction: column;
-    padding-top: 50px; /* Add space for the fixed header */
-    box-sizing: border-box; /* Ensure padding is included in height */
+    padding-top: 100px; /* Adjust this value to control top margin */
+    box-sizing: border-box;
   }
   
   header {
