@@ -116,7 +116,7 @@ axiosInstance.interceptors.response.use(
             console.error('No refresh token available.');
             isRefreshing = false;
             
-            // Establish guest mode but don't always redirect
+            // Establish guest mode but don't redirect - let React Router handle it
             console.log('No refresh token available - establishing guest mode.');
             localStorage.removeItem('accessToken');
             localStorage.removeItem('refreshToken');
@@ -125,13 +125,13 @@ axiosInstance.interceptors.response.use(
             // Establish guest mode to prevent auth limbo
             localStorage.setItem('guestMode', 'true');
             
-            // Only redirect if we're not already on a public page
-            const currentPath = window.location.pathname;
-            const publicPaths = ['/', '/login', '/signup', '/welcome'];
-            if (!publicPaths.includes(currentPath)) {
-                console.log('Redirecting to home from protected route');
-                window.location.href = '/';
-            }
+            // Dispatch custom event to notify AuthContext of localStorage change
+            window.dispatchEvent(new CustomEvent('localStorageChange', {
+                detail: { key: 'guestMode', newValue: 'true' }
+            }));
+            
+            // Don't use window.location.href - let ProtectedRoute and AuthContext handle navigation
+            console.log('Auth state updated - React Router will handle navigation');
             
             return Promise.reject(error);
         }
@@ -173,16 +173,16 @@ axiosInstance.interceptors.response.use(
             localStorage.removeItem('refreshToken');
             clearChatState(); // Clear chat state on logout
             
-            // Establish guest mode to prevent auth limbo - don't redirect to prevent infinite loop
+            // Establish guest mode to prevent auth limbo
             localStorage.setItem('guestMode', 'true');
             
-            // Only redirect if we're not already on a public page
-            const currentPath = window.location.pathname;
-            const publicPaths = ['/', '/login', '/signup', '/welcome'];
-            if (!publicPaths.includes(currentPath)) {
-                console.log('Redirecting to home from protected route');
-                window.location.href = '/';
-            }
+            // Dispatch custom event to notify AuthContext of localStorage change
+            window.dispatchEvent(new CustomEvent('localStorageChange', {
+                detail: { key: 'guestMode', newValue: 'true' }
+            }));
+            
+            // Don't use window.location.href - let ProtectedRoute and AuthContext handle navigation
+            console.log('Auth state updated after refresh failure - React Router will handle navigation');
             
             return Promise.reject(refreshError);
         }

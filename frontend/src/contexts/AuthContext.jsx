@@ -124,6 +124,45 @@ export const AuthProvider = ({ children }) => {
     checkAuth();
   }, []); // Empty dependency array is safe now since checkAuth doesn't use useCallback
 
+  // Listen for localStorage changes (e.g., from axios interceptor)
+  useEffect(() => {
+    const handleStorageChange = (e) => {
+      // If guestMode was set by axios interceptor, update auth state
+      if (e.key === 'guestMode' && e.newValue === 'true') {
+        console.log('[AuthContext] Storage change detected - guestMode set, updating auth state');
+        setIsGuest(true);
+        setUser({ isGuest: true, username: 'Guest' });
+        setLoading(false);
+      }
+      // If tokens were cleared, update auth state
+      if (e.key === 'accessToken' && e.newValue === null) {
+        console.log('[AuthContext] Storage change detected - accessToken cleared');
+        if (localStorage.getItem('guestMode') === 'true') {
+          setIsGuest(true);
+          setUser({ isGuest: true, username: 'Guest' });
+        } else {
+          setUser(null);
+          setIsGuest(false);
+        }
+        setLoading(false);
+      }
+    };
+
+    // Listen for storage events from other tabs/windows or programmatic changes
+    window.addEventListener('storage', handleStorageChange);
+    
+    // Also listen for custom events we can dispatch when localStorage changes in the same tab
+    const handleCustomStorageChange = (e) => {
+      handleStorageChange(e.detail);
+    };
+    window.addEventListener('localStorageChange', handleCustomStorageChange);
+
+    return () => {
+      window.removeEventListener('storage', handleStorageChange);
+      window.removeEventListener('localStorageChange', handleCustomStorageChange);
+    };
+  }, []);
+
   const login = async (username, password) => {
     try {
       console.log('Login attempt with:', { username });
