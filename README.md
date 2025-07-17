@@ -2,6 +2,15 @@
 
 React / Django Web Application that uses Restful API's. Was made during Fall 2024 and Spring 2025 for my CSCE 490/492 Capstone Computing Project Class at the University of South Carolina. Was made with a team of 5 people in total, enacting in the Software Development process.
 
+I personally have made signifigant improvements to the app since the class has finished. These things include:
+- Big improvements to the app's overall color pallete. It before had this ugly coral/ peach color that was very draining on the eyes :)
+- HUGE UI/UX improvements. Things in regards to how the app pages flow, the sizing and positioning of buttons, color contrast, use cases, etc.
+- Mobile web browser support, as well as PWA support
+- Rearchitected the backend and frontend relationship. Before, the app was storing the massive Life Category and Sugggestion prompt dataset in PostgreSQL. I later realized that this data load can actually be moved to the frontend with JSON files, which are one of the fastest possible files out there. And,in doing this, I don't use slow SQL database operations, I only need SQL operations for when the data changes, not STATIC/ unchanging data, the frontend is a STATIC website, and plus I leave more room for backend compute in general, which is what my AI model needs. It works beautifully.
+- Big improvements in regard to the AI chatboat model in use, due to this new rearchitectured backend.
+- The app now uses the Gemma 3 1B Parameter 8-Bit Quantized Model instead of the bad tiny llama 1B Parameter 2-Bit model that was in use.
+
+
 ## Project Overview
 
 This project is a web application catered towards discovering and broadcasting to your local community activities that you can do with other people, like: House Parties, Soccer Games, Videogame meetups, Educational Study Groups, Cooking Classes, or even an Architectural/ Musical digest. The possiblilites are endless here. You can create an event for people to "hangout" at in regard to any of the categories that fall within life. There is also a Calendar feature, as well as an AI Suggester feature, that can suggest to you two things: "Possible Things To talk About?" or "Possible Things To Do?" with other people.
