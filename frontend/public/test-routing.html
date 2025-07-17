@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Routing Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #00B488;
+            color: white;
+        }
+        .test-info {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .success { background: rgba(0,255,0,0.2); }
+        .error { background: rgba(255,0,0,0.2); }
+    </style>
+</head>
+<body>
+    <h1>Routing Test Page</h1>
+    
+    <div class="test-info">
+        <h3>Current URL Information:</h3>
+        <p><strong>Current URL:</strong> <span id="current-url"></span></p>
+        <p><strong>Pathname:</strong> <span id="pathname"></span></p>
+        <p><strong>Search:</strong> <span id="search"></span></p>
+        <p><strong>Hash:</strong> <span id="hash"></span></p>
+    </div>
+
+    <div class="test-info">
+        <h3>Navigation Test:</h3>
+        <p>Click these links to test routing:</p>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/suggester">Suggester</a></li>
+            <li><a href="/events/create">Create Event</a></li>
+            <li><a href="/profile">Profile</a></li>
+            <li><a href="/calendar">Calendar</a></li>
+            <li><a href="/login">Login</a></li>
+            <li><a href="/signup">Signup</a></li>
+        </ul>
+    </div>
+
+    <div class="test-info">
+        <h3>Direct URL Test:</h3>
+        <p>Try refreshing this page or navigating directly to these URLs:</p>
+        <ul>
+            <li><a href="/test-routing.html">This test page</a></li>
+            <li><a href="/suggester">/suggester</a></li>
+            <li><a href="/events/create">/events/create</a></li>
+        </ul>
+    </div>
+
+    <script>
+        // Display current URL information
+        document.getElementById('current-url').textContent = window.location.href;
+        document.getElementById('pathname').textContent = window.location.pathname;
+        document.getElementById('search').textContent = window.location.search;
+        document.getElementById('hash').textContent = window.location.hash;
+
+        // Test if we can access the main app
+        fetch('/')
+            .then(response => {
+                if (response.ok) {
+                    console.log('✅ Main app accessible');
+                } else {
+                    console.log('❌ Main app not accessible:', response.status);
+                }
+            })
+            .catch(error => {
+                console.log('❌ Error accessing main app:', error);
+            });
+    </script>
+</body>
+</html> 

@@ -11,9 +11,6 @@ export default defineConfig({
     cors: true,
     strictPort: true,
     port: 5173, // Default Vite port
-    historyApiFallback: {
-      index: '/index.html', // Explicit fallback for SPA routing
-    },
   },
   build: {
     outDir: 'dist',
@@ -36,8 +33,5 @@ export default defineConfig({
     port: 5173,
     host: true,
     strictPort: true,
-    historyApiFallback: {
-      index: '/index.html', // Explicit fallback for SPA routing in preview
-    },
   },
 })
