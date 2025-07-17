@@ -1,2 +1,17 @@
 # SPA Fallback - All routes should serve index.html for client-side routing
+
+# Explicit routes
+/suggester    /index.html   200
+/events/create    /index.html   200
+/events/*    /index.html   200
+/profile    /index.html   200
+/calendar    /index.html   200
+/login    /index.html   200
+/signup    /index.html   200
+/dashboard    /index.html   200
+/preferences    /index.html   200
+/chat/*    /index.html   200
+/chat-history    /index.html   200
+
+# Catch-all fallback
 /*    /index.html   200 

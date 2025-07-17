@@ -47,5 +47,18 @@
   <body style="background-color: #00B488; margin: 0; padding: 0;">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Fallback routing script for SPA -->
+    <script>
+      // This script ensures that if someone navigates directly to a route,
+      // React Router will handle it properly
+      (function() {
+        // Store the current path for React Router to use
+        if (window.location.pathname !== '/') {
+          // Set a flag that React Router can check
+          window.__INITIAL_PATH__ = window.location.pathname + window.location.search + window.location.hash;
+        }
+      })();
+    </script>
   </body>
 </html>

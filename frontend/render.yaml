@@ -7,11 +7,50 @@ services:
     headers:
       - path: /*
         name: Cache-Control
-        value: no-cache
+        value: no-cache, no-store, must-revalidate
       - path: /assets/*
         name: Cache-Control
         value: public, max-age=31536000, immutable
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
     routes:
+      - type: rewrite
+        source: /suggester
+        destination: /index.html
+      - type: rewrite
+        source: /events/create
+        destination: /index.html
+      - type: rewrite
+        source: /events/*
+        destination: /index.html
+      - type: rewrite
+        source: /profile
+        destination: /index.html
+      - type: rewrite
+        source: /calendar
+        destination: /index.html
+      - type: rewrite
+        source: /login
+        destination: /index.html
+      - type: rewrite
+        source: /signup
+        destination: /index.html
+      - type: rewrite
+        source: /dashboard
+        destination: /index.html
+      - type: rewrite
+        source: /preferences
+        destination: /index.html
+      - type: rewrite
+        source: /chat/*
+        destination: /index.html
+      - type: rewrite
+        source: /chat-history
+        destination: /index.html
       - type: rewrite
         source: /*
         destination: /index.html 
