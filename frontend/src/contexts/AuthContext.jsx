@@ -1,5 +1,5 @@
 // src/contexts/AuthContext.jsx
-import React, { createContext, useState, useContext, useEffect } from 'react';
+import React, { createContext, useState, useContext, useEffect, useCallback } from 'react';
 import { jwtDecode } from 'jwt-decode';
 import axiosInstance from '../services/axios';
 import { clearChatState } from '../utils/chatStateUtils'; // Import from utility file instead
@@ -11,15 +11,37 @@ export const AuthProvider = ({ children }) => {
   const [isGuest, setIsGuest] = useState(false);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    checkAuth();
+  // Memoized logout function to prevent recreation on every render
+  const logout = useCallback((shouldRedirect = true) => {
+    console.log('[AuthContext] Logout called, shouldRedirect:', shouldRedirect);
+    
+    // Clear authenticated user tokens
+    localStorage.removeItem('accessToken');
+    localStorage.removeItem('refreshToken');
+    delete axiosInstance.defaults.headers.common['Authorization'];
+    clearChatState();
+    
+    // Immediately establish guest mode instead of leaving user in auth limbo
+    localStorage.setItem('guestMode', 'true');
+    setIsGuest(true);
+    setUser({ isGuest: true, username: 'Guest' });
+    
+    console.log('[AuthContext] Guest mode established after logout');
+    
+    // Only redirect if explicitly requested (not during auth checks)
+    if (shouldRedirect) {
+      window.location.href = '/';
+    }
   }, []);
 
-  const checkAuth = () => {
+  // Memoized checkAuth function to prevent recreation on every render
+  const checkAuth = useCallback(() => {
+    console.log('[AuthContext] checkAuth called');
     const token = localStorage.getItem('accessToken');
     const guestMode = localStorage.getItem('guestMode');
     
     if (guestMode === 'true') {
+      console.log('[AuthContext] Setting guest mode from localStorage');
       setIsGuest(true);
       setUser({ isGuest: true, username: 'Guest' });
       setLoading(false);
@@ -27,26 +49,56 @@ export const AuthProvider = ({ children }) => {
     }
     
     if (token) {
+      console.log('[AuthContext] Found token, validating...');
       try {
         const decoded = jwtDecode(token);
         if (decoded.exp * 1000 > Date.now()) {
+          console.log('[AuthContext] Token valid, setting authenticated user');
           setUser(decoded);
           setIsGuest(false);
           axiosInstance.defaults.headers.common['Authorization'] = `Bearer ${token}`;
+          setLoading(false);
+          return;
         } else {
-          logout(false); // Don't redirect during auth check
+          console.log('[AuthContext] Token expired, clearing and setting guest mode');
+          // Token expired - clear everything and set guest mode
+          localStorage.removeItem('accessToken');
+          localStorage.removeItem('refreshToken');
+          delete axiosInstance.defaults.headers.common['Authorization'];
+          clearChatState();
+          localStorage.setItem('guestMode', 'true');
+          setIsGuest(true);
+          setUser({ isGuest: true, username: 'Guest' });
+          setLoading(false);
+          return;
         }
       } catch (error) {
-        logout(false); // Don't redirect during auth check
+        console.log('[AuthContext] Token decode error, clearing and setting guest mode');
+        // Token decode error - clear everything and set guest mode
+        localStorage.removeItem('accessToken');
+        localStorage.removeItem('refreshToken');
+        delete axiosInstance.defaults.headers.common['Authorization'];
+        clearChatState();
+        localStorage.setItem('guestMode', 'true');
+        setIsGuest(true);
+        setUser({ isGuest: true, username: 'Guest' });
+        setLoading(false);
+        return;
       }
     } else {
+      console.log('[AuthContext] No token, establishing guest mode');
       // No token and no guest mode - establish guest mode
       localStorage.setItem('guestMode', 'true');
       setIsGuest(true);
       setUser({ isGuest: true, username: 'Guest' });
+      setLoading(false);
+      return;
     }
-    setLoading(false);
-  };
+  }, []);
+
+  useEffect(() => {
+    checkAuth();
+  }, [checkAuth]);
 
   const login = async (username, password) => {
     try {
@@ -102,7 +154,7 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-  const guestLogin = () => {
+  const guestLogin = useCallback(() => {
     // Clear any existing tokens
     localStorage.removeItem('accessToken');
     localStorage.removeItem('refreshToken');
@@ -115,7 +167,7 @@ export const AuthProvider = ({ children }) => {
     
     console.log('Guest login successful');
     return true;
-  };
+  }, []);
 
   const register = async (userData) => {
     try {
@@ -133,26 +185,6 @@ export const AuthProvider = ({ children }) => {
     } catch (error) {
       console.error('Registration error:', error?.response?.data || error.message);
       throw error;
-    }
-  };
-  const logout = (shouldRedirect = true) => {
-    // Clear authenticated user tokens
-    localStorage.removeItem('accessToken');
-    localStorage.removeItem('refreshToken');
-    delete axiosInstance.defaults.headers.common['Authorization'];
-    clearChatState();
-    console.log('[AuthContext] User logged out, chat state cleared');
-    
-    // Immediately establish guest mode instead of leaving user in auth limbo
-    localStorage.setItem('guestMode', 'true');
-    setIsGuest(true);
-    setUser({ isGuest: true, username: 'Guest' });
-    
-    console.log('[AuthContext] Guest mode established after logout');
-    
-    // Only redirect if explicitly requested (not during auth checks)
-    if (shouldRedirect) {
-      window.location.href = '/';
     }
   };
 

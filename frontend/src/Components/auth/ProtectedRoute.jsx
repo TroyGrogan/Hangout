@@ -1,25 +1,10 @@
 // src/components/auth/ProtectedRoute.jsx
-import React, { useEffect } from 'react';
-import { Navigate, useLocation } from 'react-router-dom';
+import React from 'react';
+import { Navigate } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 
 export const ProtectedRoute = ({ children }) => {
   const { user, loading } = useAuth();
-  const location = useLocation();
-
-  // Defensive check for auth failures - fallback redirect
-  useEffect(() => {
-    // If not loading and no user, ensure we redirect (defensive measure)
-    if (!loading && !user) {
-      console.log('ProtectedRoute: No user detected, ensuring redirect to home');
-      // Use window.location as fallback for mobile/PWA compatibility
-      setTimeout(() => {
-        if (!user) {
-          window.location.href = '/';
-        }
-      }, 100);
-    }
-  }, [user, loading]);
 
   // Show loading state with consistent styling
   if (loading) {
@@ -51,7 +36,7 @@ export const ProtectedRoute = ({ children }) => {
     );
   }
 
-  // If no user, redirect to home
+  // If no user, redirect to home - simple and clean
   if (!user) {
     console.log('ProtectedRoute: Redirecting to home - no user found');
     return <Navigate to="/" replace />;
