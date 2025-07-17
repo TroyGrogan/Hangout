@@ -139,6 +139,9 @@ export const AuthProvider = ({ children }) => {
     setIsGuest(false);
     clearChatState();
     console.log('[AuthContext] User logged out, chat state cleared');
+    
+    // Redirect to home page after logout - will show guest experience
+    window.location.href = '/';
   };
 
   const value = {

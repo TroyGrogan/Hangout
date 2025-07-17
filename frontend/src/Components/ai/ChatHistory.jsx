@@ -107,7 +107,7 @@ const ChatHistory = () => {
   const scrollStartTimeoutRef = useRef();
   
   // Get auth context to check if user is guest
-  const { user, isGuest } = useAuth();
+  const { user, isGuest, loading: authLoading } = useAuth();
   
   // Debounce search query to avoid excessive API calls
   const debouncedSearchQuery = useDebounce(searchQuery, 300);
@@ -696,135 +696,144 @@ const ChatHistory = () => {
         </form>
       </div>
       
-      {isGuest && (
-        <div className="guest-warning-wrapper">
-          <div className="chat-history-guest-warning">
-            You are in guest mode. If you refresh or close the website, your chat history will be wiped out completely.
-          </div>
+      {authLoading ? (
+        <div className="loading-container">
+          <LoadingIndicator />
+          <p>Loading authentication status...</p>
         </div>
-      )}
-      
-      {error && <div className="error-message">{error}</div>}
-      
-      <div className={`chat-sessions ${isScrolling ? 'scrolling' : ''}`} ref={scrollContainerRef}>
-        {loading ? (
-          <div className="loading-container">
-            <LoadingIndicator />
-          </div>
-        ) : chatSessions.length === 0 ? (
-          <div className="empty-state">
-            <p>No chat sessions found{searchQuery ? ' matching your search' : ''}.</p>
-            <button onClick={goToChat} className="start-chat-button">Start a New Chat</button>
-          </div>
-        ) : (
-          <>
-            {isRestoringPosition && (
-              <div className="restoring-position-indicator">
-                <p>Restoring your position...</p>
+      ) : (
+        <>
+          {isGuest && (
+            <div className="guest-warning-wrapper">
+              <div className="chat-history-guest-warning">
+                You are in guest mode. If you refresh or close the website, your chat history will be wiped out completely.
               </div>
-            )}
-            <div className="sessions-list">
-              {chatSessions.map((session, index) => (
-                <div 
-                  key={session.id} 
-                  className={`session-item ${selectedSessionId === session.id ? 'selected' : ''} ${hoveredSessionId === session.id ? 'hovered' : ''}`}
-                  data-session-id={session.id}
-                  onClick={() => viewChatSession(session.id)}
-                  ref={index === chatSessions.length - 1 ? lastSessionElementRef : null}
-                >
-                  <div className="session-info">
-                    {renamingSessionId === session.id ? (
-                      <div className="rename-section">
-                        <input
-                          type="text"
-                          value={renameTitle}
-                          onChange={(e) => setRenameTitle(e.target.value)}
-                          className="rename-input"
-                          autoFocus
-                          onKeyDown={(e) => {
-                            if (e.key === 'Enter') {
-                              handleSaveRename(e, session.id);
-                            } else if (e.key === 'Escape') {
-                              handleCancelRename(e);
-                            }
-                          }}
-                          onClick={(e) => e.stopPropagation()}
-                        />
+            </div>
+          )}
+          
+          {error && <div className="error-message">{error}</div>}
+          
+          <div className={`chat-sessions ${isScrolling ? 'scrolling' : ''}`} ref={scrollContainerRef}>
+            {loading ? (
+              <div className="loading-container">
+                <LoadingIndicator />
+              </div>
+            ) : chatSessions.length === 0 ? (
+              <div className="empty-state">
+                <p>No chat sessions found{searchQuery ? ' matching your search' : ''}.</p>
+                <button onClick={goToChat} className="start-chat-button">Start a New Chat</button>
+              </div>
+            ) : (
+              <>
+                {isRestoringPosition && (
+                  <div className="restoring-position-indicator">
+                    <p>Restoring your position...</p>
+                  </div>
+                )}
+                <div className="sessions-list">
+                  {chatSessions.map((session, index) => (
+                    <div 
+                      key={session.id} 
+                      className={`session-item ${selectedSessionId === session.id ? 'selected' : ''} ${hoveredSessionId === session.id ? 'hovered' : ''}`}
+                      data-session-id={session.id}
+                      onClick={() => viewChatSession(session.id)}
+                      ref={index === chatSessions.length - 1 ? lastSessionElementRef : null}
+                    >
+                      <div className="session-info">
+                        {renamingSessionId === session.id ? (
+                          <div className="rename-section">
+                            <input
+                              type="text"
+                              value={renameTitle}
+                              onChange={(e) => setRenameTitle(e.target.value)}
+                              className="rename-input"
+                              autoFocus
+                              onKeyDown={(e) => {
+                                if (e.key === 'Enter') {
+                                  handleSaveRename(e, session.id);
+                                } else if (e.key === 'Escape') {
+                                  handleCancelRename(e);
+                                }
+                              }}
+                              onClick={(e) => e.stopPropagation()}
+                            />
+                          </div>
+                        ) : (
+                          <h3 className="session-title">
+                            {session.title || 'Untitled Chat'}
+                          </h3>
+                        )}
+                        <p className="session-timestamp">{formatTimestamp(session.timestamp)}</p>
+                        {/* Ensure message_count is provided by the backend */}
+                        <p className="message-count">
+                          {session.message_count || 0} {(session.message_count || 0) === 1 ? 'message' : 'messages'}
+                        </p>
                       </div>
-                    ) : (
-                      <h3 className="session-title">
-                        {session.title || 'Untitled Chat'}
-                      </h3>
-                    )}
-                    <p className="session-timestamp">{formatTimestamp(session.timestamp)}</p>
-                    {/* Ensure message_count is provided by the backend */}
-                    <p className="message-count">
-                      {session.message_count || 0} {(session.message_count || 0) === 1 ? 'message' : 'messages'}
+                      <div className="session-actions">
+                        {renamingSessionId === session.id ? (
+                          <>
+                            <button 
+                              onClick={(e) => handleSaveRename(e, session.id)}
+                              className="save-rename-button"
+                              title="Save"
+                            >
+                              ✓
+                            </button>
+                            <button 
+                              onClick={handleCancelRename}
+                              className="cancel-rename-button"
+                              title="Cancel"
+                            >
+                              ✕
+                            </button>
+                          </>
+                        ) : (
+                          <>
+                            <button 
+                              onClick={(e) => handleStartRename(e, session.id, session.title)}
+                              className="rename-button"
+                              title="Rename chat"
+                            >
+                              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
+                                <path d="m18.5 2.5 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
+                              </svg>
+                            </button>
+                            <button 
+                              onClick={(e) => handleDeleteSession(e, session.id)}
+                              className="delete-button"
+                            >
+                              Delete
+                            </button>
+                          </>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+                
+                {/* Loading indicator for infinite scroll */}
+                {loadingMore && (
+                  <div className="loading-more-container">
+                    <LoadingIndicator />
+                    <p>Loading more chats...</p>
+                  </div>
+                )}
+                
+                {/* Pagination info */}
+                {totalCount > 0 && (
+                  <div className="pagination-info">
+                    <p>
+                      Showing {actualLoadedCount} of {displayTotalCount} chat sessions
+                      {isAllLoaded ? ' (all loaded)' : ''}
                     </p>
                   </div>
-                  <div className="session-actions">
-                    {renamingSessionId === session.id ? (
-                      <>
-                        <button 
-                          onClick={(e) => handleSaveRename(e, session.id)}
-                          className="save-rename-button"
-                          title="Save"
-                        >
-                          ✓
-                        </button>
-                        <button 
-                          onClick={handleCancelRename}
-                          className="cancel-rename-button"
-                          title="Cancel"
-                        >
-                          ✕
-                        </button>
-                      </>
-                    ) : (
-                      <>
-                        <button 
-                          onClick={(e) => handleStartRename(e, session.id, session.title)}
-                          className="rename-button"
-                          title="Rename chat"
-                        >
-                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
-                            <path d="m18.5 2.5 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
-                          </svg>
-                        </button>
-                        <button 
-                          onClick={(e) => handleDeleteSession(e, session.id)}
-                          className="delete-button"
-                        >
-                          Delete
-                        </button>
-                      </>
-                    )}
-                  </div>
-                </div>
-              ))}
-            </div>
-            
-            {/* Loading indicator for infinite scroll */}
-            {loadingMore && (
-              <div className="loading-more-container">
-                <LoadingIndicator />
-                <p>Loading more chats...</p>
-              </div>
+                )}
+              </>
             )}
-            
-            {/* Pagination info */}
-            {totalCount > 0 && (
-              <div className="pagination-info">
-                <p>
-                  Showing {actualLoadedCount} of {displayTotalCount} chat sessions
-                  {isAllLoaded ? ' (all loaded)' : ''}
-                </p>
-              </div>
-            )}
-          </>
-        )}
-      </div>
+          </div>
+        </>
+      )}
     </div>
   );
 };

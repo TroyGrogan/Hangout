@@ -8,13 +8,43 @@ import { useAuth } from '../../contexts/AuthContext';
 const Suggester = () => {
   const navigate = useNavigate();
   const location = useLocation();
-  const { logout, isGuest } = useAuth();
+  const { logout, isGuest, loading: authLoading } = useAuth();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Check if the current path matches a given path for active tab styling
   const isActive = (path) => {
     return location.pathname === path;
   };
+
+  // Show loading state while auth is being determined
+  if (authLoading) {
+    return (
+      <div className="page-container suggester-page" style={{
+        backgroundColor: '#00B488',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        minHeight: '100vh'
+      }}>
+        <div style={{
+          width: '48px',
+          height: '48px',
+          border: '2px solid transparent',
+          borderTop: '2px solid #3B5998',
+          borderRadius: '50%',
+          animation: 'spin 1s linear infinite'
+        }}></div>
+        <style>
+          {`
+            @keyframes spin {
+              0% { transform: rotate(0deg); }
+              100% { transform: rotate(360deg); }
+            }
+          `}
+        </style>
+      </div>
+    );
+  }
 
   return (
     <div className="page-container suggester-page">

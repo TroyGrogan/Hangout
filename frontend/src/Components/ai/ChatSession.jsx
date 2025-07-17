@@ -10,7 +10,7 @@ import './Chat.css'; // Ensure Chat.css exists and styles are appropriate
 const ChatSession = () => {
   const { sessionId } = useParams();
   const navigate = useNavigate();
-  const { user, isGuest } = useAuth();
+  const { user, isGuest, loading: authLoading } = useAuth();
   
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -98,6 +98,36 @@ const ChatSession = () => {
     });
   }
   
+  // Show loading state while auth is being determined
+  if (authLoading) {
+    return (
+      <div className="chat-container" style={{
+        backgroundColor: '#00B488',
+        minHeight: '100vh',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
+      }}>
+        <div style={{
+          width: '48px',
+          height: '48px',
+          border: '2px solid transparent',
+          borderTop: '2px solid #3B5998',
+          borderRadius: '50%',
+          animation: 'spin 1s linear infinite'
+        }}></div>
+        <style>
+          {`
+            @keyframes spin {
+              0% { transform: rotate(0deg); }
+              100% { transform: rotate(360deg); }
+            }
+          `}
+        </style>
+      </div>
+    );
+  }
+
   // Render loading state
   if (loading) {
     return (

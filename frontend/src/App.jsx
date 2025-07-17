@@ -113,11 +113,7 @@ function App() {
             {/* AI Chat routes */}
             <Route
               path="/suggester"
-              element={
-                <ProtectedRoute>
-                  <Suggester />
-                </ProtectedRoute>
-              }
+              element={<Suggester />}
             />
             <Route
               path="/chat/:sessionId"
