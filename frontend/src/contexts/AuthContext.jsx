@@ -34,11 +34,16 @@ export const AuthProvider = ({ children }) => {
           setIsGuest(false);
           axiosInstance.defaults.headers.common['Authorization'] = `Bearer ${token}`;
         } else {
-          logout();
+          logout(false); // Don't redirect during auth check
         }
       } catch (error) {
-        logout();
+        logout(false); // Don't redirect during auth check
       }
+    } else {
+      // No token and no guest mode - establish guest mode
+      localStorage.setItem('guestMode', 'true');
+      setIsGuest(true);
+      setUser({ isGuest: true, username: 'Guest' });
     }
     setLoading(false);
   };
@@ -130,18 +135,25 @@ export const AuthProvider = ({ children }) => {
       throw error;
     }
   };
-  const logout = () => {
+  const logout = (shouldRedirect = true) => {
+    // Clear authenticated user tokens
     localStorage.removeItem('accessToken');
     localStorage.removeItem('refreshToken');
-    localStorage.removeItem('guestMode');
     delete axiosInstance.defaults.headers.common['Authorization'];
-    setUser(null);
-    setIsGuest(false);
     clearChatState();
     console.log('[AuthContext] User logged out, chat state cleared');
     
-    // Redirect to home page after logout - will show guest experience
-    window.location.href = '/';
+    // Immediately establish guest mode instead of leaving user in auth limbo
+    localStorage.setItem('guestMode', 'true');
+    setIsGuest(true);
+    setUser({ isGuest: true, username: 'Guest' });
+    
+    console.log('[AuthContext] Guest mode established after logout');
+    
+    // Only redirect if explicitly requested (not during auth checks)
+    if (shouldRedirect) {
+      window.location.href = '/';
+    }
   };
 
   const value = {

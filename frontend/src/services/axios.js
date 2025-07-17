@@ -121,8 +121,12 @@ axiosInstance.interceptors.response.use(
             localStorage.removeItem('accessToken');
             localStorage.removeItem('refreshToken');
             clearChatState(); // Clear chat state on logout
+            
+            // Establish guest mode to prevent auth limbo
+            localStorage.setItem('guestMode', 'true');
+            
             window.location.href = '/';
-            return Promise.reject(error); 
+            return Promise.reject(error);
         }
 
         try {
@@ -160,9 +164,12 @@ axiosInstance.interceptors.response.use(
             console.log('Token refresh failed - redirecting to home.');
             localStorage.removeItem('accessToken');
             localStorage.removeItem('refreshToken');
-            localStorage.removeItem('guestMode'); // Clear guest mode too
             clearChatState(); // Clear chat state on logout
-            window.location.href = '/'; 
+            
+            // Establish guest mode to prevent auth limbo
+            localStorage.setItem('guestMode', 'true');
+            
+            window.location.href = '/';
             
             return Promise.reject(refreshError);
         }
