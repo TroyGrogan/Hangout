@@ -55,11 +55,7 @@ function App() {
             />
             <Route
               path="/events/:id"
-              element={
-                <ProtectedRoute>
-                  <EventDetails />
-                </ProtectedRoute>
-              }
+              element={<EventDetails />}
             />
             <Route
               path="/events/edit/:id"

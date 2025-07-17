@@ -2155,6 +2155,7 @@ const Home = () => {
               <Link to="/profile" className="nav-link" onClick={() => setIsMenuOpen(false)}>Profile</Link>
               <button onClick={() => {
                   logout();
+                  navigate('/login');
                   setIsMenuOpen(false);
                 }} className="logout-btn">Logout</button>
             </>
@@ -2181,14 +2182,7 @@ const Home = () => {
                 className={`dates-input ${isMultiYearRange ? 'multi-year-range' : ''}`}
                 value={datesAvailableText}
                 onClick={toggleCalendar}
-                onChange={(e) => {
-                  // If user clears the input, clear the date search
-                  if (!e.target.value.trim()) {
-                    setSelectedStartDate(null);
-                    setSelectedEndDate(null);
-                    setDatesAvailableText('');
-                  }
-                }}
+                readOnly
                 onKeyDown={(e) => {
                   // Allow users to clear with backspace/delete
                   if (e.key === 'Backspace' || e.key === 'Delete') {
