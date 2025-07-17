@@ -96,7 +96,7 @@ export const Signup = () => {
   const handleGuestLogin = () => {
     try {
       guestLogin();
-      navigate('/home', { replace: true });
+      navigate('/', { replace: true });
     } catch (err) {
       console.error('Guest login error:', err);
       setError('Failed to start guest session');

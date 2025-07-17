@@ -364,7 +364,7 @@ const getDescendantIds = (categoryId, categoryMap) => {
 const Home = () => {
   const location = useLocation();
   const navigate = useNavigate();
-  const { user, isGuest, logout } = useAuth();
+  const { user, isGuest, logout, loading: authLoading } = useAuth();
   const queryClient = useQueryClient();
 
   // --- Component State (excluding fetched data) ---
@@ -2032,11 +2032,41 @@ const Home = () => {
        );
    };
 
+  // Show loading state while auth is being determined
+  if (authLoading) {
+    return (
+      <div className="page-container home-page" style={{ 
+        backgroundColor: '#00B488',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        minHeight: '100vh'
+      }}>
+        <div style={{
+          width: '48px',
+          height: '48px',
+          border: '2px solid transparent',
+          borderTop: '2px solid #3B5998',
+          borderRadius: '50%',
+          animation: 'spin 1s linear infinite'
+        }}></div>
+        <style>
+          {`
+            @keyframes spin {
+              0% { transform: rotate(0deg); }
+              100% { transform: rotate(360deg); }
+            }
+          `}
+        </style>
+      </div>
+    );
+  }
+
   return (
     <div className="page-container home-page" style={{ backgroundColor: '#00B488' }}>
       {/* 1. Main Navigation */}
       <nav className="main-nav">
-        <Link to="/home" className="nav-brand">
+        <Link to="/" className="nav-brand">
           Hangout
         </Link>
         <div className="nav-links-desktop">
@@ -2074,7 +2104,7 @@ const Home = () => {
           flexGrow: 1,
           textAlign: 'center'
         }}>
-          <Link to="/home" className={isActive('/home') ? 'active' : ''} style={{
+          <Link to="/" className={isActive('/') ? 'active' : ''} style={{
             flex: '1',
             textAlign: 'center',
             display: 'flex',
@@ -2685,8 +2715,8 @@ const Home = () => {
 
       {/* Footer */}
       <footer className="footer">
-        <Link to="/home" onClick={(e) => {
-          if (location.pathname === '/home') {
+        <Link to="/" onClick={(e) => {
+          if (location.pathname === '/') {
             e.preventDefault();
             window.scrollTo({ top: 0, behavior: 'smooth' });
           }

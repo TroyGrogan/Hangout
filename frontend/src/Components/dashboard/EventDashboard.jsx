@@ -98,7 +98,7 @@ const EventDashboard = () => {
   return (
     <div className="dashboard-container">
       <nav className="dashboard-nav">
-        <Link to="/home" className="back-link">
+        <Link to="/" className="back-link">
           <ArrowLeft size={20} /> Back Home
         </Link>
       </nav>

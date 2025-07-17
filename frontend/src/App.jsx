@@ -2,8 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import './App.css';
 
-
-
 // Import components
 import Calendar from './Components/calendar/Calendar';
 import Home from './Components/home/Home';
@@ -28,10 +26,10 @@ function App() {
       <Router>
         <div className="App">
           <Routes>
-            {/* Root path redirects to welcome for auto guest login */}
-            <Route path="/" element={<Navigate to="/welcome" replace />} />
+            {/* Main home route - handles both guest and authenticated users */}
+            <Route path="/" element={<Home />} />
             
-            {/* Auto guest login route - default landing page */}
+            {/* Auto guest login route - fallback for any auth issues */}
             <Route path="/welcome" element={<AutoGuestLogin />} />
             
             {/* Public routes */}
@@ -39,14 +37,6 @@ function App() {
             <Route path="/signup" element={<Signup />} />
             
             {/* Protected routes */}
-            <Route
-              path="/home"
-              element={
-                <ProtectedRoute>
-                  <Home />
-                </ProtectedRoute>
-              }
-            />
             <Route
               path="/events/create"
               element={
@@ -120,7 +110,7 @@ function App() {
               }
             />
             
-            {/* AI Chat routes - Added */}
+            {/* AI Chat routes */}
             <Route
               path="/suggester"
               element={
@@ -129,15 +119,6 @@ function App() {
                 </ProtectedRoute>
               }
             />
-            {/* Optional: Route /chat to /suggester if needed */}
-            {/* <Route 
-              path="/chat" 
-              element={
-                <ProtectedRoute>
-                  <Suggester /> 
-                </ProtectedRoute>
-              } 
-            /> */}
             <Route
               path="/chat/:sessionId"
               element={<ChatSession />}
@@ -147,8 +128,11 @@ function App() {
               element={<ChatHistory />}
             />
             
-            {/* Fallback route for any unmatched paths - redirect to welcome/guest login */}
-            <Route path="*" element={<Navigate to="/welcome" replace />} />
+            {/* Legacy /home route - redirect to main home */}
+            <Route path="/home" element={<Navigate to="/" replace />} />
+            
+            {/* Fallback route for any unmatched paths - redirect to main home */}
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </div>
       </Router>

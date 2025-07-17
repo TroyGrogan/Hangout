@@ -16,7 +16,7 @@ export const AutoGuestLogin = () => {
     const handleAutoGuestLogin = () => {
       try {
         guestLogin();
-        navigate('/home', { replace: true });
+        navigate('/', { replace: true });
       } catch (err) {
         console.error('Auto guest login error:', err);
         // If guest login fails, fallback to login page

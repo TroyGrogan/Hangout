@@ -20,7 +20,7 @@ const Suggester = () => {
     <div className="page-container suggester-page">
       {/* Main Navigation */}
       <nav className="main-nav">
-        <Link to="/home" className="nav-brand">
+        <Link to="/" className="nav-brand">
           Hangout
         </Link>
         <div className="nav-links-desktop">
@@ -58,7 +58,7 @@ const Suggester = () => {
           flexGrow: 1,
           textAlign: 'center'
         }}>
-          <Link to="/home" className={isActive('/home') ? 'active' : ''} style={{
+          <Link to="/" className={isActive('/') ? 'active' : ''} style={{
             flex: '1',
             textAlign: 'center',
             display: 'flex',
