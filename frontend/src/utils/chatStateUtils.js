@@ -21,15 +21,46 @@ export const clearChatState = (isGuest = false) => {
       sessionStorage.removeItem(GUEST_STORAGE_KEYS.MESSAGES);
       sessionStorage.removeItem(GUEST_STORAGE_KEYS.SELECTED_CATEGORY);
       sessionStorage.removeItem(GUEST_STORAGE_KEYS.SUGGESTION_TYPES);
-      console.log('[ChatStateUtils] Guest chat state cleared from sessionStorage');
     } else {
       // Clear authenticated user localStorage
       localStorage.removeItem(STORAGE_KEYS.SELECTED_CATEGORY);
       localStorage.removeItem(STORAGE_KEYS.SUGGESTION_TYPES);
-      console.log('[ChatStateUtils] Chat state cleared from localStorage');
     }
   } catch (error) {
     console.warn('Failed to clear chat state:', error);
+  }
+};
+
+// Comprehensive function to clear all user-related storage
+export const clearAllUserStorage = () => {
+  try {
+    // Clear all localStorage items related to authentication and user data
+    const keysToRemove = [
+      'accessToken',
+      'refreshToken', 
+      'guestMode',
+      'selectedChatSessionId',
+      STORAGE_KEYS.SELECTED_CATEGORY,
+      STORAGE_KEYS.SUGGESTION_TYPES
+    ];
+    
+    keysToRemove.forEach(key => {
+      localStorage.removeItem(key);
+    });
+    
+    // Clear all sessionStorage
+    sessionStorage.clear();
+    
+    // Clear any cached data
+    if (window.caches) {
+      caches.keys().then(names => {
+        names.forEach(name => {
+          caches.delete(name);
+        });
+      });
+    }
+  } catch (error) {
+    console.warn('Failed to clear all user storage:', error);
   }
 };
 
@@ -93,7 +124,6 @@ export const loadChatState = (isGuest = false) => {
 export const saveGuestMessages = (messages) => {
   try {
     sessionStorage.setItem(GUEST_STORAGE_KEYS.MESSAGES, JSON.stringify(messages));
-    console.log('[ChatStateUtils] Guest messages saved to sessionStorage');
   } catch (error) {
     console.warn('Failed to save guest messages to sessionStorage:', error);
   }
@@ -112,7 +142,6 @@ export const loadGuestMessages = () => {
 export const clearGuestMessages = () => {
   try {
     sessionStorage.removeItem(GUEST_STORAGE_KEYS.MESSAGES);
-    console.log('[ChatStateUtils] Guest messages cleared from sessionStorage');
   } catch (error) {
     console.warn('Failed to clear guest messages from sessionStorage:', error);
   }

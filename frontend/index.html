@@ -51,6 +51,20 @@
     <!-- SPA Routing and Page State Preservation Script -->
     <script>
       (function() {
+        // Clear any existing cache and storage on page load
+        if (window.caches) {
+          caches.keys().then(names => {
+            names.forEach(name => {
+              caches.delete(name);
+            });
+          });
+        }
+        
+        // Clear any stored credentials
+        if (navigator.credentials) {
+          navigator.credentials.preventSilentAccess();
+        }
+        
         // Capture the current URL before the page loads
         const currentPath = window.location.pathname;
         const currentSearch = window.location.search;

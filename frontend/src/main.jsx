@@ -7,10 +7,11 @@ import App from './App.jsx'
 // Create a client
 const queryClient = new QueryClient()
 
+// Make QueryClient globally accessible for manual cache clearing
+window.__REACT_QUERY_CLIENT__ = queryClient;
+
 createRoot(document.getElementById('root')).render(
-  // <StrictMode>
     <QueryClientProvider client={queryClient}>
       <App />
     </QueryClientProvider>
-  // </StrictMode>,
 )

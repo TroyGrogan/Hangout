@@ -1,6 +1,14 @@
 // src/services/axios.js
 import axios from 'axios';
-import { clearChatState } from '../utils/chatStateUtils'; // Import from utility file instead
+import { clearChatState, clearAllUserStorage } from '../utils/chatStateUtils'; // Import from utility file instead
+
+// Get the QueryClient instance - we'll need to access it from the React Query context
+let queryClientInstance = null;
+
+// Function to set the QueryClient instance (called from AuthContext)
+export const setQueryClient = (client) => {
+  queryClientInstance = client;
+};
 
 // Determine base URL based on hostname
 // const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
@@ -116,23 +124,20 @@ axiosInstance.interceptors.response.use(
             console.error('No refresh token available.');
             isRefreshing = false;
             
-            // Establish guest mode but don't redirect - let React Router handle it
-            console.log('No refresh token available - establishing guest mode.');
-            localStorage.removeItem('accessToken');
-            localStorage.removeItem('refreshToken');
-            clearChatState(); // Clear chat state on logout
-            
-            // Establish guest mode to prevent auth limbo
-            localStorage.setItem('guestMode', 'true');
+            // Complete cleanup - clear everything
+            clearAllUserStorage();
             
             // Dispatch custom event to notify AuthContext of localStorage change
             window.dispatchEvent(new CustomEvent('localStorageChange', {
-                detail: { key: 'guestMode', newValue: 'true' }
+                detail: { key: 'accessToken', newValue: null }
             }));
             
-            // Don't use window.location.href - let ProtectedRoute and AuthContext handle navigation
-            console.log('Auth state updated - React Router will handle navigation');
+            // Clear React Query cache on authentication failure
+            if (queryClientInstance) {
+                queryClientInstance.clear();
+            }
             
+            // Don't use window.location.href - let ProtectedRoute and AuthContext handle navigation
             return Promise.reject(error);
         }
 
@@ -167,23 +172,20 @@ axiosInstance.interceptors.response.use(
             processQueue(refreshError, null); // Reject queued requests
             isRefreshing = false;
             
-            // Handle logout/redirect on refresh failure - establish guest mode but don't redirect
-            console.log('Token refresh failed - establishing guest mode.');
-            localStorage.removeItem('accessToken');
-            localStorage.removeItem('refreshToken');
-            clearChatState(); // Clear chat state on logout
-            
-            // Establish guest mode to prevent auth limbo
-            localStorage.setItem('guestMode', 'true');
+            // Complete cleanup - clear everything
+            clearAllUserStorage();
             
             // Dispatch custom event to notify AuthContext of localStorage change
             window.dispatchEvent(new CustomEvent('localStorageChange', {
-                detail: { key: 'guestMode', newValue: 'true' }
+                detail: { key: 'accessToken', newValue: null }
             }));
             
-            // Don't use window.location.href - let ProtectedRoute and AuthContext handle navigation
-            console.log('Auth state updated after refresh failure - React Router will handle navigation');
+            // Clear React Query cache on authentication failure
+            if (queryClientInstance) {
+                queryClientInstance.clear();
+            }
             
+            // Don't use window.location.href - let ProtectedRoute and AuthContext handle navigation
             return Promise.reject(refreshError);
         }
     }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 import axiosInstance from '../../services/axios';
@@ -37,6 +37,17 @@ const Profile = () => {
   const [imagePreview, setImagePreview] = useState('');
   const [activeTab, setActiveTab] = useState('profile');
   const [showPasswordFields, setShowPasswordFields] = useState(false);
+  
+  // Clear cache when user changes to prevent showing stale data
+  useEffect(() => {
+    if (user && user.user_id) {
+      // Clear any existing profile data when user changes
+      queryClient.removeQueries(['profile']);
+      queryClient.removeQueries(['preferences']);
+      queryClient.removeQueries(['friends']);
+      queryClient.removeQueries(['friendRequests']);
+    }
+  }, [user?.user_id, queryClient]);
   
   // React Query hooks with caching
   const { data: profileData = {}, isLoading: profileLoading } = useQuery({

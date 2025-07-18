@@ -1,8 +1,9 @@
 // src/contexts/AuthContext.jsx
 import React, { createContext, useState, useContext, useEffect, useCallback } from 'react';
 import { jwtDecode } from 'jwt-decode';
-import axiosInstance from '../services/axios';
-import { clearChatState } from '../utils/chatStateUtils';
+import { useQueryClient } from '@tanstack/react-query';
+import axiosInstance, { setQueryClient } from '../services/axios';
+import { clearChatState, clearAllUserStorage } from '../utils/chatStateUtils';
 
 const AuthContext = createContext(null);
 
@@ -10,34 +11,35 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [isGuest, setIsGuest] = useState(false);
   const [loading, setLoading] = useState(true);
+  const queryClient = useQueryClient();
 
   // Memoized logout function to prevent recreation on every render
   const logout = useCallback((shouldRedirect = true) => {
-    console.log('[AuthContext] Logout called, shouldRedirect:', shouldRedirect);
+    // Clear ALL storage using comprehensive utility
+    clearAllUserStorage();
     
-    // Clear authenticated user tokens
-    localStorage.removeItem('accessToken');
-    localStorage.removeItem('refreshToken');
+    // Clear React Query cache completely
+    queryClient.clear();
+    
+    // Clear axios headers
     delete axiosInstance.defaults.headers.common['Authorization'];
-    clearChatState();
     
-    // Instead of leaving user in undefined state, transition to guest mode
-    // This prevents the black screen issue during auth state transitions
-    localStorage.setItem('guestMode', 'true');
-    setUser({ isGuest: true, username: 'Guest' });
-    setIsGuest(true);
+    // Force browser to clear any stored credentials
+    if (navigator.credentials) {
+      navigator.credentials.preventSilentAccess();
+    }
     
-    console.log('[AuthContext] User logged out and transitioned to guest mode');
+    // Reset auth state to null (not guest mode)
+    setUser(null);
+    setIsGuest(false);
     
     // Don't automatically redirect - let components handle navigation with React Router
     // This prevents the black screen issue caused by window.location.href
     // Components calling logout should handle their own navigation
-  }, []);
+  }, [queryClient]);
 
   // Memoized guest login function
   const guestLogin = useCallback(() => {
-    console.log('[AuthContext] Setting up guest mode');
-    
     // Clear any existing tokens
     localStorage.removeItem('accessToken');
     localStorage.removeItem('refreshToken');
@@ -49,13 +51,11 @@ export const AuthProvider = ({ children }) => {
     setUser({ isGuest: true, username: 'Guest' });
     setLoading(false);
     
-    console.log('[AuthContext] Guest mode established');
     return true;
   }, []);
 
   // Simplified checkAuth function without useCallback to prevent dependency issues
   const checkAuth = () => {
-    console.log('[AuthContext] checkAuth called');
     setLoading(true);
     
     const token = localStorage.getItem('accessToken');
@@ -63,7 +63,6 @@ export const AuthProvider = ({ children }) => {
     
     // If explicitly in guest mode, set up guest user
     if (guestMode === 'true') {
-      console.log('[AuthContext] Setting guest mode from localStorage');
       setIsGuest(true);
       setUser({ isGuest: true, username: 'Guest' });
       setLoading(false);
@@ -72,44 +71,35 @@ export const AuthProvider = ({ children }) => {
     
     // If we have a token, validate it
     if (token) {
-      console.log('[AuthContext] Found token, validating...');
       try {
         const decoded = jwtDecode(token);
         if (decoded.exp * 1000 > Date.now()) {
-          console.log('[AuthContext] Token valid, setting authenticated user');
           setUser(decoded);
           setIsGuest(false);
           axiosInstance.defaults.headers.common['Authorization'] = `Bearer ${token}`;
           setLoading(false);
           return;
         } else {
-          console.log('[AuthContext] Token expired, setting up guest mode');
-          // Token expired - clear everything and set guest mode
-          localStorage.removeItem('accessToken');
-          localStorage.removeItem('refreshToken');
+          // Token expired - clear everything completely
+          clearAllUserStorage();
+          queryClient.clear();
           delete axiosInstance.defaults.headers.common['Authorization'];
-          clearChatState();
-          localStorage.setItem('guestMode', 'true');
-          setIsGuest(true);
-          setUser({ isGuest: true, username: 'Guest' });
+          setUser(null);
+          setIsGuest(false);
           setLoading(false);
           return;
         }
       } catch (error) {
-        console.log('[AuthContext] Token decode error, setting up guest mode');
-        // Token decode error - clear everything and set guest mode
-        localStorage.removeItem('accessToken');
-        localStorage.removeItem('refreshToken');
+        // Token decode error - clear everything completely
+        clearAllUserStorage();
+        queryClient.clear();
         delete axiosInstance.defaults.headers.common['Authorization'];
-        clearChatState();
-        localStorage.setItem('guestMode', 'true');
-        setIsGuest(true);
-        setUser({ isGuest: true, username: 'Guest' });
+        setUser(null);
+        setIsGuest(false);
         setLoading(false);
         return;
       }
     } else {
-      console.log('[AuthContext] No token found, establishing guest mode');
       // No token - establish guest mode for first-time visitors
       localStorage.setItem('guestMode', 'true');
       setIsGuest(true);
@@ -124,19 +114,22 @@ export const AuthProvider = ({ children }) => {
     checkAuth();
   }, []); // Empty dependency array is safe now since checkAuth doesn't use useCallback
 
+  // Set QueryClient instance in axios service for cache clearing
+  useEffect(() => {
+    setQueryClient(queryClient);
+  }, [queryClient]);
+
   // Listen for localStorage changes (e.g., from axios interceptor)
   useEffect(() => {
     const handleStorageChange = (e) => {
       // If guestMode was set by axios interceptor, update auth state
       if (e.key === 'guestMode' && e.newValue === 'true') {
-        console.log('[AuthContext] Storage change detected - guestMode set, updating auth state');
         setIsGuest(true);
         setUser({ isGuest: true, username: 'Guest' });
         setLoading(false);
       }
       // If tokens were cleared, update auth state
       if (e.key === 'accessToken' && e.newValue === null) {
-        console.log('[AuthContext] Storage change detected - accessToken cleared');
         if (localStorage.getItem('guestMode') === 'true') {
           setIsGuest(true);
           setUser({ isGuest: true, username: 'Guest' });
@@ -165,13 +158,14 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (username, password) => {
     try {
-      console.log('Login attempt with:', { username });
       setLoading(true);
       
-      // Clear any existing tokens and guest mode
-      localStorage.removeItem('accessToken');
-      localStorage.removeItem('refreshToken');
-      localStorage.removeItem('guestMode');
+      // Complete cleanup before login - clear everything
+      clearAllUserStorage();
+      
+      // Clear React Query cache completely
+      queryClient.clear();
+      
       delete axiosInstance.defaults.headers.common['Authorization'];
 
       // Make login request
@@ -179,8 +173,6 @@ export const AuthProvider = ({ children }) => {
         username: username.trim(),
         password: password.trim()
       });
-
-      console.log('Token endpoint response received');
 
       // Check if we got the tokens
       if (!response.data.access || !response.data.refresh) {
@@ -199,7 +191,6 @@ export const AuthProvider = ({ children }) => {
       // Decode and set user
       try {
         const decoded = jwtDecode(access);
-        console.log('Decoded token, setting authenticated user');
         setUser(decoded);
         setIsGuest(false);
         setLoading(false);
@@ -223,9 +214,7 @@ export const AuthProvider = ({ children }) => {
   const register = async (userData) => {
     try {
       setLoading(true);
-      console.log('Attempting to register with:', userData);
       const registerResponse = await axiosInstance.post('/users/register/', userData);
-      console.log('Registration response:', registerResponse.data);
       
       try {
         await login(userData.username, userData.password);
