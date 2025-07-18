@@ -706,7 +706,7 @@ const ChatHistory = () => {
           {isGuest && (
             <div className="guest-warning-wrapper">
               <div className="chat-history-guest-warning">
-                You are in guest mode. If you refresh or close the website, your chat history will be wiped out completely.
+                You are in guest mode. Your chat history will be wiped out completely if you close the website.
               </div>
             </div>
           )}

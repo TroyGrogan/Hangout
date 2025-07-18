@@ -752,7 +752,7 @@ const Chat = () => {
         {/* Guest warning for live chat with messages */}
         {user?.isGuest && messages.length > 0 && (
           <div className="guest-mode-warning">
-            You are in guest mode. Your chat history will be wiped out completely if you refresh or close the website.
+            You are in guest mode. Your chat history will be wiped out completely if you close the website.
           </div>
         )}
 
@@ -762,7 +762,7 @@ const Chat = () => {
               {/* Guest Mode Warning */}
               {user?.isGuest && (
                 <div className="guest-mode-warning">
-                  You are in guest mode. Your chat history will be wiped out completely if you refresh or close the website.
+                  You are in guest mode. Your chat history will be wiped out completely if you close the website.
                 </div>
               )}
               
