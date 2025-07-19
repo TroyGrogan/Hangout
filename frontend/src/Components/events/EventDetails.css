@@ -427,11 +427,14 @@
 }
 
 .back-link {
-  color: #294C60;
+  color: #3B5998!important;
   text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
 }
 
 .back-link:hover {
+  color: #2E4578!important;
   text-decoration: underline;
 }
 

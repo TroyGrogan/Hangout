@@ -58,13 +58,31 @@ const EventDetails = () => {
 
   const backNavigation = getBackNavigation();
 
+  // Helper function to get user ID from JWT token (which can have different property names)
+  const getUserId = () => {
+    if (!user) return null;
+    return user.user_id || user.id || user.sub || null;
+  };
+
+  // Helper function to check if user is properly authenticated (not guest)
+  const isUserAuthenticated = () => {
+    // Check if user exists and has identifying properties (JWT tokens may have user_id, sub, or id)
+    const hasUserIdentity = user && getUserId();
+    // Check if not in guest mode
+    const notInGuestMode = !isGuest && (!user || !user.isGuest);
+    
+    // Debug logging (can be removed in production)
+    // console.log('EventDetails isUserAuthenticated check:', { user, userId: getUserId(), isGuest, result: hasUserIdentity && notInGuestMode });
+    
+    return hasUserIdentity && notInGuestMode;
+  };
+
   useEffect(() => {
     const fetchEventData = async () => {
       try {
         setLoading(true);
-        
         // Only fetch friends data for authenticated users, not guests
-        if (!isGuest) {
+        if (isUserAuthenticated()) {
           // Fetch friends list
           const friendsResponse = await axiosInstance.get('/users/friends/');
           setFriends(friendsResponse.data.map(friendship => friendship.friend));
@@ -102,7 +120,7 @@ const EventDetails = () => {
           }
           
           // Set current user's RSVP status if found
-          if (attendee.user_id === user?.user_id) {
+          if (attendee.user_id === getUserId()) {
             setRsvpStatus(attendee.rsvp_status);
           }
         });
@@ -111,7 +129,17 @@ const EventDetails = () => {
         
       } catch (err) {
         console.error('Error fetching event data:', err);
-        setError('Failed to load event details');
+        
+        // More specific error handling for guest users
+        if (err.response?.status === 401 && isGuest) {
+          setError('Unable to load event details. Please try refreshing the page.');
+        } else if (err.response?.status === 404) {
+          setError('Event not found.');
+        } else if (err.response?.status >= 500) {
+          setError('Server error. Please try again later.');
+        } else {
+          setError('Failed to load event details');
+        }
       } finally {
         setLoading(false);
       }
@@ -132,11 +160,12 @@ const EventDetails = () => {
         console.log('Attempting to remove RSVP...');
         
         // Find the current user's attendee record to delete it
+        const currentUserId = getUserId();
         const currentUserAttendee = [
           ...attendees.going,
           ...attendees.maybe,
           ...attendees.not_going
-        ].find(attendee => attendee.user_id === user?.user_id);
+        ].find(attendee => attendee.user_id === currentUserId);
 
         console.log('Found current user attendee:', currentUserAttendee);
 
@@ -483,7 +512,7 @@ const EventDetails = () => {
           )}
 
           {/* Enhanced RSVP Section - Hidden for guest users */}
-          {!isGuest && (
+          {user && !isGuest && (
             <div className="rsvp-section">
               <h2>Will you attend this event?</h2>
               <div className="rsvp-buttons">
@@ -538,7 +567,7 @@ const EventDetails = () => {
                       <span>{attendee.username || attendee.full_name}</span>
                       
                       {/* Don't show friend buttons for yourself or guests */}
-                      {!isGuest && attendee.user_id !== user?.user_id && (
+                      {isUserAuthenticated() && attendee.user_id !== getUserId() && (
                         <div className="friend-action">
                           {renderFriendButton(attendee)}
                         </div>
@@ -571,7 +600,7 @@ const EventDetails = () => {
                       <span>{attendee.username || attendee.full_name}</span>
                       
                       {/* Don't show friend buttons for yourself or guests */}
-                      {!isGuest && attendee.user_id !== user?.user_id && (
+                      {isUserAuthenticated() && attendee.user_id !== getUserId() && (
                         <div className="friend-action">
                           {renderFriendButton(attendee)}
                         </div>
@@ -604,7 +633,7 @@ const EventDetails = () => {
                       <span>{attendee.username || attendee.full_name}</span>
                       
                       {/* Don't show friend buttons for yourself or guests */}
-                      {!isGuest && attendee.user_id !== user?.user_id && (
+                      {isUserAuthenticated() && attendee.user_id !== getUserId() && (
                         <div className="friend-action">
                           {renderFriendButton(attendee)}
                         </div>

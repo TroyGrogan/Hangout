@@ -63,11 +63,38 @@ const processQueue = (error, token = null) => {
 axiosInstance.interceptors.request.use(
   config => {
     const accessToken = localStorage.getItem('accessToken');
-    // Don't add token for public endpoints like login, register, refresh, and categories
+    const explicitGuestMode = localStorage.getItem('guestMode') === 'true';
+    
+    // Treat users as guests if they don't have a valid access token OR if they're explicitly in guest mode
+    const isGuestOrUnauthenticated = !accessToken || explicitGuestMode;
+    
+    // Debug logging (can be removed in production)
+    // console.log('Axios interceptor:', { hasAccessToken: !!accessToken, explicitGuestMode, isGuestOrUnauthenticated, url: config.url });
+    
+    // Don't add token for public endpoints or guest/unauthenticated users
     const publicEndpoints = ['/token/', '/token/refresh/', '/users/register/', '/categories/'];
-    if (accessToken && !publicEndpoints.includes(config.url)) {
+    const isPublicEndpoint = publicEndpoints.includes(config.url);
+    
+    // Check if this is an events read operation (GET requests to /events/ endpoints)
+    const isEventsReadOperation = config.method?.toLowerCase() === 'get' && 
+                                 (config.url?.startsWith('/events/') || config.url?.includes('/events/popular/'));
+    
+    // Check if this is an event-attendees read operation (GET requests to /event-attendees/ endpoints)
+    const isAttendeesReadOperation = config.method?.toLowerCase() === 'get' && 
+                                    config.url?.startsWith('/event-attendees/');
+    
+    // Check if this is a categories read operation (GET requests to /categories/ endpoints)
+    const isCategoriesReadOperation = config.method?.toLowerCase() === 'get' && 
+                                     config.url?.startsWith('/categories/');
+    
+    // Only add authorization header if:
+    // 1. Have a valid access token AND not in guest mode
+    // 2. Not a public endpoint
+    // 3. Not a read operation on events, attendees, or categories (which should be public)
+    if (accessToken && !isGuestOrUnauthenticated && !isPublicEndpoint && !isEventsReadOperation && !isAttendeesReadOperation && !isCategoriesReadOperation) {
       config.headers['Authorization'] = `Bearer ${accessToken}`;
     }
+    
     return config;
   },
   error => {
@@ -102,6 +129,17 @@ axiosInstance.interceptors.response.use(
     // Handle 401 Unauthorized errors specifically for token refresh
     if (error.response?.status === 401 && originalRequest.url !== '/token/refresh/' && !originalRequest._retry) {
         
+        const accessToken = localStorage.getItem('accessToken');
+        const explicitGuestMode = localStorage.getItem('guestMode') === 'true';
+        const isGuestOrUnauthenticated = !accessToken || explicitGuestMode;
+        
+        // For guest/unauthenticated users, don't attempt token refresh - just reject the error
+        if (isGuestOrUnauthenticated) {
+            console.log('Guest/unauthenticated user received 401 - this should not happen for public endpoints');
+            console.log('Request details:', { url: originalRequest.url, method: originalRequest.method });
+            return Promise.reject(error);
+        }
+        
         if (isRefreshing) {
             // If token is already being refreshed, queue the original request
             return new Promise(function(resolve, reject) {
@@ -118,7 +156,6 @@ axiosInstance.interceptors.response.use(
         isRefreshing = true;
 
         const refreshToken = localStorage.getItem('refreshToken');
-        const isGuestMode = localStorage.getItem('guestMode') === 'true';
         
         if (!refreshToken) {
             console.error('No refresh token available.');

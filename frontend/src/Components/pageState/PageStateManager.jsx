@@ -1,93 +1,108 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { storeCurrentFullUrl, getStoredPage, clearStoredPage } from '../../utils/pageStateUtils';
+import { 
+  storeCurrentFullUrl, 
+  getPathToRestore, 
+  shouldRestoreRoute, 
+  isPageRefresh,
+  cleanupRouteData 
+} from '../../utils/pageStateUtils';
 import { useAuth } from '../../contexts/AuthContext';
 
 const PageStateManager = ({ children }) => {
   const navigate = useNavigate();
   const location = useLocation();
-  const { user, isGuest, loading: authLoading } = useAuth();
+  const { user, isGuest, loading: authLoading, authInitialized } = useAuth();
+  const hasAttemptedRestore = useRef(false);
 
+  // Store current page whenever location changes (for future restoration)
   useEffect(() => {
-    // Store the current page whenever the location changes (but not for base URL)
+    // Store the current URL for potential future restoration
+    // Only store non-home pages
     if (location.pathname !== '/') {
       storeCurrentFullUrl();
+      console.log('[PageStateManager] Stored current location:', location.pathname + location.search + location.hash);
     }
   }, [location]);
 
+  // Handle route restoration after auth initialization
   useEffect(() => {
-    // Only attempt path restoration after auth state is determined
-    if (authLoading) {
-      return; // Wait for auth to finish loading
+    // Wait for auth to be fully initialized
+    if (authLoading || !authInitialized) {
+      console.log('[PageStateManager] Waiting for auth initialization...');
+      return;
     }
 
-    const handlePageStateRestoration = () => {
-      // Get stored paths
-      const initialPath = window.__INITIAL_PATH__;
-      const sessionPath = getStoredPage();
-      const isDirectNavigation = window.__DIRECT_NAVIGATION__;
-      
-      console.log('[PageStateManager] Auth state determined:', {
+    // Only attempt restoration once
+    if (hasAttemptedRestore.current) {
+      console.log('[PageStateManager] Route restoration already attempted');
+      return;
+    }
+
+    hasAttemptedRestore.current = true;
+
+    const handleRouteRestoration = () => {
+      const currentPath = location.pathname;
+      const isRefreshNavigation = isPageRefresh();
+      const pathToRestore = getPathToRestore();
+
+      console.log('[PageStateManager] Route restoration evaluation:', {
+        currentPath,
+        isRefreshNavigation,
+        pathToRestore,
         user: !!user,
         isGuest,
-        currentLocation: location.pathname,
-        initialPath,
-        sessionPath,
-        isDirectNavigation
+        userIsGuest: user?.isGuest
       });
 
-      // IMPORTANT: Base URL should ALWAYS show guest interface initially
-      // Don't restore any paths when user visits base URL - let them see guest view
-      if (location.pathname === '/') {
-        console.log('[PageStateManager] Base URL accessed - showing guest interface, clearing stored paths');
-        
-        // Clean up stored paths
-        delete window.__INITIAL_PATH__;
-        delete window.__DIRECT_NAVIGATION__;
-        clearStoredPage();
-        
-        // Don't navigate anywhere - let Home component show guest interface
-        return;
-      }
+      // If we're already on the home page, handle initial load logic
+      if (currentPath === '/') {
+        // On refresh from a non-home page, restore to that page
+        if (isRefreshNavigation && pathToRestore) {
+          const shouldRestore = shouldRestoreRoute({
+            isRefresh: isRefreshNavigation,
+            user,
+            isGuest,
+            currentPath: pathToRestore
+          });
 
-      // Handle direct navigation to specific routes
-      if (isDirectNavigation && location.pathname !== '/') {
-        console.log('[PageStateManager] Direct navigation to specific route - letting React Router handle it');
-        delete window.__DIRECT_NAVIGATION__;
-        delete window.__INITIAL_PATH__;
-        return;
-      }
-
-      // Only restore paths for authenticated users who are returning to the app
-      if (user && !isGuest && (initialPath || sessionPath)) {
-        const targetPath = initialPath || sessionPath;
-        
-        // Only navigate if the target path is different from current and not base URL
-        if (targetPath !== location.pathname && targetPath !== '/') {
-          console.log('[PageStateManager] Authenticated user - restoring path:', targetPath);
-          
-          // Clean up stored paths
-          delete window.__INITIAL_PATH__;
-          delete window.__DIRECT_NAVIGATION__;
-          clearStoredPage();
-          
-          // Navigate to the stored path
-          navigate(targetPath, { replace: true });
-          return;
+          if (shouldRestore) {
+            console.log('[PageStateManager] Restoring route after refresh:', pathToRestore);
+            
+            // Navigate to the restored path
+            navigate(pathToRestore, { replace: true });
+            
+            // Clean up restoration data after successful restore
+            cleanupRouteData();
+            return;
+          }
         }
+
+        // If no restoration needed, clean up any stale data
+        console.log('[PageStateManager] No route restoration needed - staying on home page');
+        cleanupRouteData();
+        return;
       }
 
-      // Clean up any remaining stored paths
-      delete window.__INITIAL_PATH__;
-      delete window.__DIRECT_NAVIGATION__;
-      clearStoredPage();
+      // If we're not on home page, we likely got here through direct navigation
+      // or successful restoration - just clean up
+      console.log('[PageStateManager] On non-home page - cleaning up restoration data');
+      cleanupRouteData();
     };
 
-    // Small delay to ensure React Router and auth are fully initialized
-    const timer = setTimeout(handlePageStateRestoration, 100);
+    // Small delay to ensure React Router is fully ready
+    const timer = setTimeout(handleRouteRestoration, 50);
     
     return () => clearTimeout(timer);
-  }, [navigate, location.pathname, user, isGuest, authLoading]);
+  }, [navigate, location.pathname, user, isGuest, authLoading, authInitialized]);
+
+  // Clean up on unmount
+  useEffect(() => {
+    return () => {
+      // Clean up when component unmounts
+      cleanupRouteData();
+    };
+  }, []);
 
   return children;
 };

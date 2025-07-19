@@ -11,6 +11,7 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [isGuest, setIsGuest] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [authInitialized, setAuthInitialized] = useState(false);
   const queryClient = useQueryClient();
 
   // Enhanced logout function for seamless account switching
@@ -46,6 +47,7 @@ export const AuthProvider = ({ children }) => {
     setUser(null);
     setIsGuest(false);
     setLoading(false);
+    setAuthInitialized(true);
     
     console.log('[AuthContext] Logout complete - app ready for new user login');
   }, [queryClient]);
@@ -64,6 +66,7 @@ export const AuthProvider = ({ children }) => {
     setIsGuest(true);
     setUser({ isGuest: true, username: 'Guest' });
     setLoading(false);
+    setAuthInitialized(true);
     
     return true;
   }, []);
@@ -72,6 +75,7 @@ export const AuthProvider = ({ children }) => {
   const initializeAuth = useCallback(() => {
     console.log('[AuthContext] Initializing authentication state');
     setLoading(true);
+    setAuthInitialized(false);
     
     const token = localStorage.getItem('accessToken');
     const guestMode = localStorage.getItem('guestMode');
@@ -86,6 +90,7 @@ export const AuthProvider = ({ children }) => {
           setIsGuest(false);
           axiosInstance.defaults.headers.common['Authorization'] = `Bearer ${token}`;
           setLoading(false);
+          setAuthInitialized(true);
           return;
         } else {
           console.log('[AuthContext] Token expired - clearing storage');
@@ -107,6 +112,7 @@ export const AuthProvider = ({ children }) => {
       setIsGuest(true);
       setUser({ isGuest: true, username: 'Guest' });
       setLoading(false);
+      setAuthInitialized(true);
       return;
     }
     
@@ -116,6 +122,7 @@ export const AuthProvider = ({ children }) => {
     setUser(null);
     setIsGuest(false);
     setLoading(false);
+    setAuthInitialized(true);
   }, [queryClient]);
 
   // Run initialization only once on mount
@@ -137,6 +144,7 @@ export const AuthProvider = ({ children }) => {
         setUser(null);
         setIsGuest(false);
         setLoading(false);
+        setAuthInitialized(true);
       }
     };
 
@@ -158,6 +166,7 @@ export const AuthProvider = ({ children }) => {
   const login = async (username, password) => {
     try {
       setLoading(true);
+      setAuthInitialized(false);
       console.log('[AuthContext] Login attempt started');
       
       // Complete cleanup before login
@@ -189,12 +198,14 @@ export const AuthProvider = ({ children }) => {
       setUser(decoded);
       setIsGuest(false);
       setLoading(false);
+      setAuthInitialized(true);
       
       console.log('[AuthContext] Login successful');
       return true;
     } catch (error) {
       console.error('[AuthContext] Login failed:', error);
       setLoading(false);
+      setAuthInitialized(true);
       throw error;
     }
   };
@@ -202,6 +213,7 @@ export const AuthProvider = ({ children }) => {
   const register = async (userData) => {
     try {
       setLoading(true);
+      setAuthInitialized(false);
       const registerResponse = await axiosInstance.post('/users/register/', userData);
       
       try {
@@ -209,11 +221,14 @@ export const AuthProvider = ({ children }) => {
         return { ...registerResponse.data, autoLoginSuccess: true };
       } catch (loginError) {
         console.error('Auto-login failed:', loginError);
+        setLoading(false);
+        setAuthInitialized(true);
         return { ...registerResponse.data, autoLoginSuccess: false };
       }
     } catch (error) {
       console.error('Registration error:', error?.response?.data || error.message);
       setLoading(false);
+      setAuthInitialized(true);
       throw error;
     }
   };
@@ -226,6 +241,7 @@ export const AuthProvider = ({ children }) => {
     logout,
     register,
     loading,
+    authInitialized, // New flag for PageStateManager to use
   };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

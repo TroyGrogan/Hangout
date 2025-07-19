@@ -89,7 +89,7 @@ const Calendar = () => {
     }
   }, [user, authLoading]); // Add authLoading as dependency
 
-  // Update displayed events when toggle changes - only for authenticated users
+  // Update displayed events when toggle changes
   useEffect(() => {
     if (user) {
       if (showOnlyMyEvents) {
@@ -98,8 +98,8 @@ const Calendar = () => {
         setDisplayedEvents(events);
       }
     } else {
-      // For guests, always show empty events (no API access)
-      setDisplayedEvents([]);
+      // For guests, always show all events (toggle is disabled)
+      setDisplayedEvents(events);
     }
   }, [showOnlyMyEvents, events, myEvents, user]);
 
@@ -107,17 +107,8 @@ const Calendar = () => {
     setLoading(true);
     setError('');
     
-    // For guest users, show empty calendar with no API calls
-    if (!user) {
-      setEvents([]);
-      setMyEvents([]);
-      setDisplayedEvents([]);
-      setLoading(false);
-      return;
-    }
-    
     try {
-      // Get all events for authenticated users only
+      // Get all events - both for authenticated users and guests
       const response = await axiosInstance.get('/events/');
       console.log('All events:', response.data);
       
@@ -206,7 +197,8 @@ const Calendar = () => {
         // Set initial display based on toggle state
         setDisplayedEvents(showOnlyMyEvents ? userEvents : allEventsWithRecurring);
       } else {
-        // For guests, just show all events
+        // For guests, always show all events and set myEvents to empty
+        setMyEvents([]);
         setDisplayedEvents(allEventsWithRecurring);
       }
       
