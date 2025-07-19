@@ -221,11 +221,4 @@ https://hangout-2jy4.onrender.com
 **Directory where tests are located**
 
     backend\tests
-
-# Authors
-
-- Troy Grogan [tgrogan2021@gmail.com, trgrogan@email.sc.edu]
-- Rene Olea [reneolea11@gmail.com, rolea@email.sc.edu]
-- Olivia Falcione [livie.falcione@gmail.com, falcione@email.sc.edu]
-- Kara Wacenske [wacenske@email.sc.edu]
-- Alexis Hill [aah6@email.sc.edu]
+    
