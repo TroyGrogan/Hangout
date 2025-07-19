@@ -4,7 +4,7 @@ import { Navigate } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 
 export const ProtectedRoute = ({ children }) => {
-  const { user, isGuest, loading } = useAuth();
+  const { user, loading } = useAuth();
 
   // Show loading state with consistent styling - wait for auth to complete
   if (loading) {
@@ -42,9 +42,9 @@ export const ProtectedRoute = ({ children }) => {
     );
   }
 
-  // If no user or user is guest, redirect to login page
-  if (!user || isGuest) {
-    console.log('ProtectedRoute: Redirecting to login - guest user or no user found');
+  // If no authenticated user, redirect to login page
+  if (!user) {
+    console.log('ProtectedRoute: Redirecting to login - no authenticated user found');
     return <Navigate to="/login" replace />;
   }
 

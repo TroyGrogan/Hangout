@@ -13,33 +13,47 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
   const queryClient = useQueryClient();
 
-  // Memoized logout function to prevent recreation on every render
+  // Enhanced logout function for seamless account switching
   const logout = useCallback((shouldRedirect = true) => {
-    // Clear ALL storage using comprehensive utility
+    console.log('[AuthContext] Logout called - clearing all user data');
+    
+    // Clear ALL storage (tokens, cache, preferences, etc.)
     clearAllUserStorage();
     
-    // Clear React Query cache completely
+    // Clear React Query cache completely to prevent data leaks between accounts
     queryClient.clear();
     
     // Clear axios headers
     delete axiosInstance.defaults.headers.common['Authorization'];
     
-    // Force browser to clear any stored credentials
+    // Clear any browser-stored credentials
     if (navigator.credentials) {
       navigator.credentials.preventSilentAccess();
     }
     
-    // Reset auth state to null (not guest mode)
+    // Clear any cached authentication state
+    if (window.caches) {
+      caches.keys().then(names => {
+        names.forEach(name => {
+          if (name.includes('auth') || name.includes('user')) {
+            caches.delete(name);
+          }
+        });
+      });
+    }
+    
+    // Reset auth state to clean initial state
     setUser(null);
     setIsGuest(false);
+    setLoading(false);
     
-    // Don't automatically redirect - let components handle navigation with React Router
-    // This prevents the black screen issue caused by window.location.href
-    // Components calling logout should handle their own navigation
+    console.log('[AuthContext] Logout complete - app ready for new user login');
   }, [queryClient]);
 
-  // Memoized guest login function
+  // Simplified guest login function
   const guestLogin = useCallback(() => {
+    console.log('[AuthContext] Setting up guest mode');
+    
     // Clear any existing tokens
     localStorage.removeItem('accessToken');
     localStorage.removeItem('refreshToken');
@@ -54,97 +68,82 @@ export const AuthProvider = ({ children }) => {
     return true;
   }, []);
 
-  // Simplified checkAuth function without useCallback to prevent dependency issues
-  const checkAuth = () => {
+  // Simplified authentication check - runs only on mount
+  const initializeAuth = useCallback(() => {
+    console.log('[AuthContext] Initializing authentication state');
     setLoading(true);
     
     const token = localStorage.getItem('accessToken');
     const guestMode = localStorage.getItem('guestMode');
     
-    // If explicitly in guest mode, set up guest user
-    if (guestMode === 'true') {
-      setIsGuest(true);
-      setUser({ isGuest: true, username: 'Guest' });
-      setLoading(false);
-      return;
-    }
-    
-    // If we have a token, validate it
+    // Priority 1: Check for valid access token
     if (token) {
       try {
         const decoded = jwtDecode(token);
         if (decoded.exp * 1000 > Date.now()) {
+          console.log('[AuthContext] Valid token found - setting authenticated user');
           setUser(decoded);
           setIsGuest(false);
           axiosInstance.defaults.headers.common['Authorization'] = `Bearer ${token}`;
           setLoading(false);
           return;
         } else {
-          // Token expired - clear everything completely
+          console.log('[AuthContext] Token expired - clearing storage');
           clearAllUserStorage();
           queryClient.clear();
           delete axiosInstance.defaults.headers.common['Authorization'];
-          setUser(null);
-          setIsGuest(false);
-          setLoading(false);
-          return;
         }
       } catch (error) {
-        // Token decode error - clear everything completely
+        console.log('[AuthContext] Token decode error - clearing storage');
         clearAllUserStorage();
         queryClient.clear();
         delete axiosInstance.defaults.headers.common['Authorization'];
-        setUser(null);
-        setIsGuest(false);
-        setLoading(false);
-        return;
       }
-    } else {
-      // No token - establish guest mode for first-time visitors
-      localStorage.setItem('guestMode', 'true');
+    }
+    
+    // Priority 2: Check for explicit guest mode
+    if (guestMode === 'true') {
+      console.log('[AuthContext] Guest mode found - setting guest user');
       setIsGuest(true);
       setUser({ isGuest: true, username: 'Guest' });
       setLoading(false);
       return;
     }
-  };
+    
+    // Priority 3: Default state - neither guest nor authenticated
+    // This allows the Home component to show the guest interface by default
+    console.log('[AuthContext] No auth state found - showing guest interface');
+    setUser(null);
+    setIsGuest(false);
+    setLoading(false);
+  }, [queryClient]);
 
-  // Run checkAuth only once on mount
+  // Run initialization only once on mount
   useEffect(() => {
-    checkAuth();
-  }, []); // Empty dependency array is safe now since checkAuth doesn't use useCallback
+    initializeAuth();
+  }, []); // Empty dependency array is safe since initializeAuth is memoized
 
-  // Set QueryClient instance in axios service for cache clearing
+  // Set QueryClient instance in axios service
   useEffect(() => {
     setQueryClient(queryClient);
   }, [queryClient]);
 
-  // Listen for localStorage changes (e.g., from axios interceptor)
+  // Simplified storage event listener - only for logout events
   useEffect(() => {
     const handleStorageChange = (e) => {
-      // If guestMode was set by axios interceptor, update auth state
-      if (e.key === 'guestMode' && e.newValue === 'true') {
-        setIsGuest(true);
-        setUser({ isGuest: true, username: 'Guest' });
-        setLoading(false);
-      }
-      // If tokens were cleared, update auth state
+      // Only handle when access token is explicitly removed (logout)
       if (e.key === 'accessToken' && e.newValue === null) {
-        if (localStorage.getItem('guestMode') === 'true') {
-          setIsGuest(true);
-          setUser({ isGuest: true, username: 'Guest' });
-        } else {
-          setUser(null);
-          setIsGuest(false);
-        }
+        console.log('[AuthContext] Access token removed - triggering logout');
+        setUser(null);
+        setIsGuest(false);
         setLoading(false);
       }
     };
 
-    // Listen for storage events from other tabs/windows or programmatic changes
+    // Listen for storage events from other tabs
     window.addEventListener('storage', handleStorageChange);
     
-    // Also listen for custom events we can dispatch when localStorage changes in the same tab
+    // Listen for custom events from axios interceptor
     const handleCustomStorageChange = (e) => {
       handleStorageChange(e.detail);
     };
@@ -159,13 +158,11 @@ export const AuthProvider = ({ children }) => {
   const login = async (username, password) => {
     try {
       setLoading(true);
+      console.log('[AuthContext] Login attempt started');
       
-      // Complete cleanup before login - clear everything
+      // Complete cleanup before login
       clearAllUserStorage();
-      
-      // Clear React Query cache completely
       queryClient.clear();
-      
       delete axiosInstance.defaults.headers.common['Authorization'];
 
       // Make login request
@@ -174,7 +171,6 @@ export const AuthProvider = ({ children }) => {
         password: password.trim()
       });
 
-      // Check if we got the tokens
       if (!response.data.access || !response.data.refresh) {
         throw new Error('Invalid token response');
       }
@@ -189,23 +185,15 @@ export const AuthProvider = ({ children }) => {
       axiosInstance.defaults.headers.common['Authorization'] = `Bearer ${access}`;
       
       // Decode and set user
-      try {
-        const decoded = jwtDecode(access);
-        setUser(decoded);
-        setIsGuest(false);
-        setLoading(false);
-      } catch (decodeError) {
-        console.error('Token decode error:', decodeError);
-        throw new Error('Invalid token format');
-      }
-
+      const decoded = jwtDecode(access);
+      setUser(decoded);
+      setIsGuest(false);
+      setLoading(false);
+      
+      console.log('[AuthContext] Login successful');
       return true;
     } catch (error) {
-      console.error('Login failed:', {
-        error: error.message,
-        response: error.response?.data,
-        status: error.response?.status
-      });
+      console.error('[AuthContext] Login failed:', error);
       setLoading(false);
       throw error;
     }

@@ -95,10 +95,16 @@ const Chat = () => {
 
   // --- Effects --- //
   
-  // Detect user logout and clear state
+  // Track previous user state to detect actual logout (not initial guest state)
+  const prevUserRef = useRef(user);
+  
+  // Detect user logout and clear state - but not for initial guest state
   useEffect(() => {
-    if (!user) {
-      // User has logged out or is not authenticated
+    const prevUser = prevUserRef.current;
+    
+    // Only clear state if user went from authenticated to null (actual logout)
+    // Don't clear for initial guest state (when prevUser is undefined/null and user is null)
+    if (prevUser && !user) {
       console.log("[Chat.jsx] User logged out, clearing category and suggestion type state");
       clearChatState(false); // Clear localStorage for authenticated users
       clearGuestMessages(); // Also clear any guest messages
@@ -106,6 +112,9 @@ const Chat = () => {
       setSuggestionTypes({ talk: false, do: false });
       setIsStateLoaded(false);
     }
+    
+    // Update the ref for next comparison
+    prevUserRef.current = user;
   }, [user]); // Dependency on user to detect login/logout changes
 
   // --- Slider Event Handlers --- //
@@ -191,7 +200,9 @@ const Chat = () => {
 
   // Load state from storage on component mount (MUST BE AFTER logout detection)
   useEffect(() => {
+    // Handle both authenticated users and guests
     if (user) {
+      // Authenticated user or explicit guest user
       const isGuest = user.isGuest || false;
       const { selectedCategory: savedCategory, suggestionTypes: savedSuggestionTypes } = loadChatState(isGuest);
       
@@ -228,6 +239,38 @@ const Chat = () => {
       }
       
       setIsStateLoaded(true); // Mark state as loaded
+    } else {
+      // Guest user (user = null) - still need to handle state loading
+      console.log("[Chat.jsx] Loading state for guest user (user = null)");
+      
+      // For pure guests (user = null), load from sessionStorage  
+      const { selectedCategory: savedCategory, suggestionTypes: savedSuggestionTypes } = loadChatState(true);
+      
+      if (savedCategory) {
+        setSelectedCategory(savedCategory);
+      }
+      setSuggestionTypes(savedSuggestionTypes);
+      
+      // Check if coming from chat history
+      const isComingFromHistory = location.state?.fromChatHistory || location.state?.fromChatSession;
+      
+      if (isComingFromHistory) {
+        // Clear any existing messages and start fresh
+        setMessages([]);
+        clearGuestMessages(); // Clear sessionStorage messages
+        console.log("[Chat.jsx] Guest (user=null) returning from chat history - starting fresh chat");
+      } else {
+        // Load existing messages for continuing previous session
+        const guestMessages = loadGuestMessages();
+        setMessages(guestMessages);
+        console.log("[Chat.jsx] Guest (user=null) state loaded from sessionStorage:", {
+          savedCategory: savedCategory?.textName,
+          savedSuggestionTypes,
+          messageCount: guestMessages.length
+        });
+      }
+      
+      setIsStateLoaded(true); // Mark state as loaded for guests too
     }
   }, [user, location.state]); // Added location.state as dependency to detect navigation from history
 
@@ -262,14 +305,19 @@ const Chat = () => {
   // Save state to storage whenever selectedCategory or suggestionTypes change
   useEffect(() => {
     if (user) {
+      // Authenticated user or explicit guest user
       const isGuest = user.isGuest || false;
       saveChatState(selectedCategory, suggestionTypes, isGuest);
+    } else {
+      // Guest user (user = null) - save to sessionStorage
+      saveChatState(selectedCategory, suggestionTypes, true);
     }
   }, [selectedCategory, suggestionTypes, user]);
 
   // Save guest messages to sessionStorage whenever messages change
   useEffect(() => {
-    if (user?.isGuest && messages.length > 0) {
+    // Save messages for guests (either user.isGuest = true or user = null)
+    if ((user?.isGuest || !user) && messages.length > 0) {
       saveGuestMessages(messages);
     }
   }, [messages, user]);
@@ -283,7 +331,7 @@ const Chat = () => {
         console.log("[Chat.jsx useEffect[sessionId, location.search]] No session, creating new one.");
         
         // For guest users, create a local session ID instead of calling backend
-        if (user?.isGuest) {
+        if (user?.isGuest || !user) {
           currentSessionId = `guest-session-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
           console.log("[Chat.jsx] Created guest session ID:", currentSessionId);
           setSessionId(currentSessionId);
@@ -398,7 +446,7 @@ const Chat = () => {
     
     try {
       // For guest users, create a local session ID instead of calling backend
-      if (user?.isGuest) {
+      if (user?.isGuest || !user) {
         const newSessionId = `guest-session-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
         setSessionId(newSessionId);
         clearGuestMessages(); // Clear any existing guest messages
@@ -447,7 +495,7 @@ const Chat = () => {
     if (!currentSessionId) {
       try {
         // For guest users, create a local session ID instead of calling backend
-        if (user?.isGuest) {
+        if (user?.isGuest || !user) {
           currentSessionId = `guest-session-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
           setSessionId(currentSessionId);
         } else {
@@ -486,7 +534,7 @@ const Chat = () => {
       ));
 
       // For guest users, store the message pair in the guest chat history format
-      if (user?.isGuest && currentSessionId) {
+      if ((user?.isGuest || !user) && currentSessionId) {
         addGuestChatMessage(currentSessionId, userMessage.content, responseText);
       }
 
@@ -750,7 +798,7 @@ const Chat = () => {
         }}
       >
         {/* Guest warning for live chat with messages */}
-        {user?.isGuest && messages.length > 0 && (
+        {(user?.isGuest || !user) && messages.length > 0 && (
           <div className="guest-mode-warning">
             You are in guest mode. Your chat history will be wiped out completely if you close the website.
           </div>
@@ -760,7 +808,7 @@ const Chat = () => {
            // Show suggestions view only if chat is empty and not loading first message
            <div className={`empty-chat ${selectedCategory ? 'chat-category-selected-view' : ''}`} style={{ backgroundColor: '#FFFFF0' }}>
               {/* Guest Mode Warning */}
-              {user?.isGuest && (
+              {(user?.isGuest || !user) && (
                 <div className="guest-mode-warning">
                   You are in guest mode. Your chat history will be wiped out completely if you close the website.
                 </div>

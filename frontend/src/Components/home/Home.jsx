@@ -454,7 +454,7 @@ const Home = () => {
   const friendsQuery = useQuery({ 
     queryKey: ['friends'], 
     queryFn: fetchFriends,
-    enabled: !isGuest, // Only fetch for authenticated users
+    enabled: Boolean(user && !authLoading), // Only fetch for authenticated users after auth is loaded
     staleTime: 1000 * 60 * 15, // 15 minutes
     cacheTime: 1000 * 60 * 30,  // 30 minutes
     // Don't fail hard on errors
@@ -466,7 +466,7 @@ const Home = () => {
   const preferencesQuery = useQuery({ 
     queryKey: ['preferences'], 
     queryFn: fetchPreferences,
-    enabled: !isGuest, // Only fetch for authenticated users
+    enabled: Boolean(user && !authLoading), // Only fetch for authenticated users after auth is loaded
     staleTime: 1000 * 60 * 30, // 30 minutes
     cacheTime: 1000 * 60 * 60,  // 60 minutes
     // Don't fail hard on errors
@@ -478,7 +478,7 @@ const Home = () => {
   const friendEventsQuery = useQuery({ 
     queryKey: ['friendEvents'], 
     queryFn: fetchFriendEvents,
-    enabled: !isGuest, // Only fetch for authenticated users
+    enabled: Boolean(user && !authLoading), // Only fetch for authenticated users after auth is loaded
     staleTime: 1000 * 60 * 10, // 10 minutes
     cacheTime: 1000 * 60 * 30,  // 30 minutes
     // Don't fail hard on errors 
@@ -1837,12 +1837,34 @@ const Home = () => {
 
   // Check if the essential queries are loading (using simple isLoading)
   // Modified to ONLY check the categories query, as it's the only one we absolutely need
-  const isLoadingEssential = categoriesQuery.isLoading;
+  const isLoadingEssential = categoriesQuery.isLoading || authLoading;
 
-  if (isLoadingEssential) { // Updated loading check
+  // Show loading state while auth is being determined or categories are loading
+  if (isLoadingEssential) {
     return (
-      <div className="loading-container">
-        <div className="loading-spinner"></div>
+      <div className="page-container home-page" style={{ 
+        backgroundColor: '#00B488',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        minHeight: '100vh'
+      }}>
+        <div style={{
+          width: '48px',
+          height: '48px',
+          border: '2px solid transparent',
+          borderTop: '2px solid #3B5998',
+          borderRadius: '50%',
+          animation: 'spin 1s linear infinite'
+        }}></div>
+        <style>
+          {`
+            @keyframes spin {
+              0% { transform: rotate(0deg); }
+              100% { transform: rotate(360deg); }
+            }
+          `}
+        </style>
       </div>
     );
   }
@@ -1870,13 +1892,13 @@ const Home = () => {
     return null;
   };
 
-  // --- Data Extraction (use default values) ---
-  const allCategories = categoriesQuery.data || [];
-  const userPreferences = preferencesQuery.data?.preferred_categories || [];
+  // --- Data Extraction (use default values with safety checks) ---
+  const allCategories = Array.isArray(categoriesQuery.data) ? categoriesQuery.data : [];
+  const userPreferences = Array.isArray(preferencesQuery.data?.preferred_categories) ? preferencesQuery.data.preferred_categories : [];
   // Use friendEventsQuery.data directly where needed, same for popularEventsQuery.data
-  const nearbyEventsData = nearbyEventsQuery.data || []; // Use data from query
-  const friendEventsData = friendEventsQuery.data?.slice(0, 5) || []; // Slice here if needed
-  const popularEventsData = popularEventsQuery.data?.slice(0, 5) || []; // Slice here if needed
+  const nearbyEventsData = Array.isArray(nearbyEventsQuery.data) ? nearbyEventsQuery.data : [];
+  const friendEventsData = Array.isArray(friendEventsQuery.data) ? friendEventsQuery.data.slice(0, 5) : [];
+  const popularEventsData = Array.isArray(popularEventsQuery.data) ? popularEventsQuery.data.slice(0, 5) : [];
 
 
   // --- Render Logic (minor updates to use query data) ---
@@ -2032,35 +2054,7 @@ const Home = () => {
        );
    };
 
-  // Show loading state while auth is being determined
-  if (authLoading) {
-    return (
-      <div className="page-container home-page" style={{ 
-        backgroundColor: '#00B488',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        minHeight: '100vh'
-      }}>
-        <div style={{
-          width: '48px',
-          height: '48px',
-          border: '2px solid transparent',
-          borderTop: '2px solid #3B5998',
-          borderRadius: '50%',
-          animation: 'spin 1s linear infinite'
-        }}></div>
-        <style>
-          {`
-            @keyframes spin {
-              0% { transform: rotate(0deg); }
-              100% { transform: rotate(360deg); }
-            }
-          `}
-        </style>
-      </div>
-    );
-  }
+
 
   return (
     <div className="page-container home-page" style={{ backgroundColor: '#00B488' }}>
@@ -2070,7 +2064,7 @@ const Home = () => {
           Hangout
         </Link>
         <div className="nav-links-desktop">
-          {isGuest ? (
+          {!user ? (
             <>
               <Link to="/signup" className="nav-link">Sign Up</Link>
               <Link to="/login" className="logout-btn">Login</Link>
@@ -2143,9 +2137,9 @@ const Home = () => {
           </button>
         </div>
         <div className="side-menu-links">
-          {isGuest ? (
+          {!user ? (
             <>
-                              <Link to="/signup" className="nav-link" onClick={() => setIsMenuOpen(false)}>Sign Up</Link>
+              <Link to="/signup" className="nav-link" onClick={() => setIsMenuOpen(false)}>Sign Up</Link>
               <Link to="/login" className="logout-btn" onClick={() => setIsMenuOpen(false)}>Login</Link>
             </>
           ) : (
@@ -2424,7 +2418,7 @@ const Home = () => {
       </div>
 
       {/* Show Preferred Categories Toggle - Positioned above Life Categories */}
-      {!isGuest && userPreferences.length > 0 && ( 
+      {user && userPreferences.length > 0 && ( 
         <div className="centered-checkbox-container">
           <div className="preferences-toggle category-preferences-toggle">
             <label className="toggle-label">
@@ -2491,7 +2485,7 @@ const Home = () => {
                 </button>
               )}
               {/* Only show Create Event button for logged-in users */}
-              {!isGuest && (
+              {user && (
                 <button 
                   className="category-action-button create-button"
                   onClick={() => {
@@ -2656,7 +2650,7 @@ const Home = () => {
             </section>
 
             {/* Friends' Events Section - Hidden for guest users */}
-            {!isGuest && (
+            {user && (
               <section className="horizontal-section friends-events-section">
                 <h2 className="section-title">Events Your Friends Are Attending</h2>
                  {friendEventsQuery.isLoading && <p>Loading friends' events...</p>}

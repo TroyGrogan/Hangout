@@ -107,7 +107,7 @@ const ChatHistory = () => {
   const scrollStartTimeoutRef = useRef();
   
   // Get auth context to check if user is guest
-  const { user, isGuest, loading: authLoading } = useAuth();
+  const { user, loading: authLoading } = useAuth();
   
   // Debounce search query to avoid excessive API calls
   const debouncedSearchQuery = useDebounce(searchQuery, 300);
@@ -247,6 +247,11 @@ const ChatHistory = () => {
   
   // Fetch chat history on component mount or restore from saved state
   useEffect(() => {
+    // Wait for auth loading to complete before fetching data
+    if (authLoading) {
+      return;
+    }
+
     if (isReturningFromChat) {
       // Restore saved state
       const savedState = scrollPositionStorage.restore();
@@ -280,7 +285,7 @@ const ChatHistory = () => {
     if (savedSelectedId) {
       setSelectedSessionId(savedSelectedId);
     }
-  }, [isReturningFromChat]);
+  }, [isReturningFromChat, authLoading, user]); // Added authLoading and user as dependencies
   
   // Separate effect to handle scroll restoration after DOM is ready
   useEffect(() => {
@@ -404,31 +409,36 @@ const ChatHistory = () => {
       const queryToUse = isInitialLoad ? debouncedSearchQuery : searchQuery;
       
       // For guest users, always use sessionStorage - skip cache and API calls
-      if (isGuest) {
-        const response = await getGuestChatHistory(queryToUse, pageToLoad, 20);
-        
-        // Handle guest response
-        const sessions = response.results || response.data || response;
-        const totalCount = response.count || response.total || sessions.length;
-        const nextPage = response.next;
-        
-        if (isInitialLoad) {
-          setChatSessions(sessions);
-          setTotalCount(totalCount);
-        } else {
-          // For infinite scroll, append new sessions
-          setChatSessions(prev => {
-            const newSessions = [...prev, ...sessions];
-            setTotalCount(prevTotal => Math.max(prevTotal, totalCount, newSessions.length));
-            return newSessions;
-          });
+      if (user?.isGuest || !user) {
+        try {
+          const response = await getGuestChatHistory(queryToUse, pageToLoad, 20);
+          
+          // Handle guest response
+          const sessions = response.results || response.data || response;
+          const totalCount = response.count || response.total || sessions.length;
+          const nextPage = response.next;
+          
+          if (isInitialLoad) {
+            setChatSessions(sessions);
+            setTotalCount(totalCount);
+          } else {
+            // For infinite scroll, append new sessions
+            setChatSessions(prev => {
+              const newSessions = [...prev, ...sessions];
+              setTotalCount(prevTotal => Math.max(prevTotal, totalCount, newSessions.length));
+              return newSessions;
+            });
+          }
+          
+          const calculatedHasMore = !!nextPage || (sessions.length === 20 && pageToLoad * 20 < totalCount);
+          setHasMore(calculatedHasMore);
+          setCurrentPage(pageToLoad);
+          
+          performanceMonitor.end(`Guest sessionStorage fetch for ${sessions.length} sessions (page ${pageToLoad})`);
+        } catch (guestError) {
+          console.error('Error fetching guest chat history:', guestError);
+          throw guestError; // Re-throw to be caught by outer try-catch
         }
-        
-        const calculatedHasMore = !!nextPage || (sessions.length === 20 && pageToLoad * 20 < totalCount);
-        setHasMore(calculatedHasMore);
-        setCurrentPage(pageToLoad);
-        
-        performanceMonitor.end(`Guest sessionStorage fetch for ${sessions.length} sessions (page ${pageToLoad})`);
         
       } else {
         // For authenticated users, use cache and API
@@ -581,7 +591,7 @@ const ChatHistory = () => {
     if (window.confirm('Are you sure you want to delete this chat? This action cannot be undone.')) {
       try {
         // Use appropriate delete function based on user type
-        if (isGuest) {
+        if (user?.isGuest || !user) {
           await deleteGuestChatSession(sessionId);
         } else {
           await deleteChatSession(sessionId);
@@ -626,7 +636,7 @@ const ChatHistory = () => {
     
     try {
       // Use appropriate rename function based on user type
-      if (isGuest) {
+      if (user?.isGuest || !user) {
         await renameGuestChatSession(sessionId, trimmedTitle);
       } else {
         await renameChatSession(sessionId, trimmedTitle);
@@ -703,7 +713,7 @@ const ChatHistory = () => {
         </div>
       ) : (
         <>
-          {isGuest && (
+          {(user?.isGuest || !user) && (
             <div className="guest-warning-wrapper">
               <div className="chat-history-guest-warning">
                 You are in guest mode. Your chat history will be wiped out completely if you close the website.

@@ -20,14 +20,16 @@ import Suggester from './Components/ai/Suggester';
 import ChatHistory from './Components/ai/ChatHistory';
 import ChatSession from './Components/ai/ChatSession';
 import PageStateManager from './Components/pageState/PageStateManager';
+import ErrorBoundary from './Components/ErrorBoundary';
 
 function App() {
   return (
-    <AuthProvider>
-      <Router>
-        <PageStateManager>
-          <div className="App">
-            <Routes>
+    <ErrorBoundary>
+      <AuthProvider>
+        <Router>
+          <PageStateManager>
+            <div className="App">
+              <Routes>
               {/* Main home route - handles both guest and authenticated users */}
               <Route path="/" element={<Home />} />
               
@@ -124,10 +126,11 @@ function App() {
               {/* Fallback route for any unmatched paths - redirect to main home */}
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
-          </div>
-        </PageStateManager>
-      </Router>
-    </AuthProvider>
+            </div>
+          </PageStateManager>
+        </Router>
+      </AuthProvider>
+    </ErrorBoundary>
   );
 }
 

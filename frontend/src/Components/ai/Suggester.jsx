@@ -8,7 +8,7 @@ import { useAuth } from '../../contexts/AuthContext';
 const Suggester = () => {
   const navigate = useNavigate();
   const location = useLocation();
-  const { logout, isGuest, loading: authLoading } = useAuth();
+  const { user, logout, loading: authLoading } = useAuth();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Check if the current path matches a given path for active tab styling
@@ -54,7 +54,7 @@ const Suggester = () => {
           Hangout
         </Link>
         <div className="nav-links-desktop">
-          {isGuest ? (
+          {!user ? (
             <>
               <Link to="/signup" className="nav-link">Sign Up</Link>
               <Link to="/login" className="logout-btn">Login</Link>
@@ -125,10 +125,10 @@ const Suggester = () => {
             <X size={28} />
           </button>
         </div>
-        <div className="side-menu-links">
-          {isGuest ? (
+                <div className="side-menu-links">
+          {!user ? (
             <>
-                              <Link to="/signup" className="nav-link" onClick={() => setIsMenuOpen(false)}>Sign Up</Link>
+              <Link to="/signup" className="nav-link" onClick={() => setIsMenuOpen(false)}>Sign Up</Link>
               <Link to="/login" className="logout-btn" onClick={() => setIsMenuOpen(false)}>Login</Link>
             </>
           ) : (

@@ -47,51 +47,5 @@
   <body style="background-color: #00B488; margin: 0; padding: 0;">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    
-    <!-- SPA Routing and Page State Preservation Script -->
-    <script>
-      (function() {
-        // Clear any existing cache and storage on page load
-        if (window.caches) {
-          caches.keys().then(names => {
-            names.forEach(name => {
-              caches.delete(name);
-            });
-          });
-        }
-        
-        // Clear any stored credentials
-        if (navigator.credentials) {
-          navigator.credentials.preventSilentAccess();
-        }
-        
-        // Capture the current URL before the page loads
-        const currentPath = window.location.pathname;
-        const currentSearch = window.location.search;
-        const currentHash = window.location.hash;
-        const fullUrl = currentPath + currentSearch + currentHash;
-        
-        // Store the current URL for React Router to use
-        if (currentPath !== '/') {
-          window.__INITIAL_PATH__ = fullUrl;
-          console.log('[SPA Router] Captured initial path:', fullUrl);
-        }
-        
-        // Also store in sessionStorage as backup
-        if (currentPath !== '/') {
-          sessionStorage.setItem('lastVisitedPath', fullUrl);
-          console.log('[SPA Router] Stored path in sessionStorage:', fullUrl);
-        }
-        
-        // Handle direct navigation to routes
-        // This ensures that if someone navigates directly to a route,
-        // React Router will handle it properly
-        if (currentPath !== '/' && currentPath !== '/index.html') {
-          // Set a flag that React Router can check
-          window.__DIRECT_NAVIGATION__ = true;
-          console.log('[SPA Router] Direct navigation detected to:', currentPath);
-        }
-      })();
-    </script>
   </body>
 </html>

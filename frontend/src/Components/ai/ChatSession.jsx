@@ -10,7 +10,7 @@ import './Chat.css'; // Ensure Chat.css exists and styles are appropriate
 const ChatSession = () => {
   const { sessionId } = useParams();
   const navigate = useNavigate();
-  const { user, isGuest, loading: authLoading } = useAuth();
+  const { user, loading: authLoading } = useAuth();
   
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -24,10 +24,12 @@ const ChatSession = () => {
       try {
         setLoading(true);
         setError('');
+        
         // Use appropriate function based on user type
-        const data = isGuest 
+        const data = (user?.isGuest || !user)
           ? await getGuestChatSession(sessionId)
           : await getChatSession(sessionId);
+        
         if (data) {
           setSession(data);
           setTitle(data.title || 'Untitled Chat'); // Default title
@@ -42,10 +44,10 @@ const ChatSession = () => {
       }
     };
     
-    if (sessionId) {
+    if (sessionId && !authLoading) {
       fetchChatSession();
     }
-  }, [sessionId]);
+  }, [sessionId, authLoading, user]); // Added authLoading and user as dependencies
   
   // Handle session rename
   const handleRename = async () => {
@@ -57,7 +59,7 @@ const ChatSession = () => {
     
     try {
       // Use appropriate function based on user type
-      if (isGuest) {
+      if (user?.isGuest || !user) {
         await renameGuestChatSession(sessionId, trimmedTitle);
       } else {
         await renameChatSession(sessionId, trimmedTitle);
@@ -212,7 +214,7 @@ const ChatSession = () => {
       </div>
       
       <div className="messages-container" /* Add ref for scrolling if needed */>
-        {isGuest && (
+        {(user?.isGuest || !user) && (
           <div className="chat-session-guest-warning">
             You are in guest mode. If you refresh or close the website, your chat history will be wiped out completely.
           </div>

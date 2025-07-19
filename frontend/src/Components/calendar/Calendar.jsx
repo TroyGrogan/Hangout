@@ -65,7 +65,7 @@ const generateRecurringEvents = (event, monthsToGenerate = 6) => {
 };
 
 const Calendar = () => {
-  const { user, logout, isGuest } = useAuth();
+  const { user, logout, loading: authLoading } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
   const [events, setEvents] = useState([]);
@@ -81,31 +81,43 @@ const Calendar = () => {
     return location.pathname === path;
   };
 
-  // Fetch events - now available for all users including guests
+  // Fetch events - only for authenticated users
   useEffect(() => {
-    fetchEvents();
-  }, []);
+    // Wait for auth loading to complete before fetching events
+    if (!authLoading) {
+      fetchEvents();
+    }
+  }, [user, authLoading]); // Add authLoading as dependency
 
   // Update displayed events when toggle changes - only for authenticated users
   useEffect(() => {
-    if (!isGuest) {
+    if (user) {
       if (showOnlyMyEvents) {
         setDisplayedEvents(myEvents);
       } else {
         setDisplayedEvents(events);
       }
     } else {
-      // For guests, always show all events
-      setDisplayedEvents(events);
+      // For guests, always show empty events (no API access)
+      setDisplayedEvents([]);
     }
-  }, [showOnlyMyEvents, events, myEvents, isGuest]);
+  }, [showOnlyMyEvents, events, myEvents, user]);
 
   const fetchEvents = async () => {
     setLoading(true);
     setError('');
     
+    // For guest users, show empty calendar with no API calls
+    if (!user) {
+      setEvents([]);
+      setMyEvents([]);
+      setDisplayedEvents([]);
+      setLoading(false);
+      return;
+    }
+    
     try {
-      // Get all events (now public for all users including guests)
+      // Get all events for authenticated users only
       const response = await axiosInstance.get('/events/');
       console.log('All events:', response.data);
       
@@ -136,7 +148,7 @@ const Calendar = () => {
       setEvents(allEventsWithRecurring);
       
       // Only filter for user events if authenticated
-      if (!isGuest && user) {
+      if (user) {
         // For debugging
         if (allEventsWithRecurring.length > 0) {
           console.log('First event structure:', JSON.stringify(allEventsWithRecurring[0].originalEvent, null, 2));
@@ -216,7 +228,7 @@ const Calendar = () => {
 
   const handleToggleChange = () => {
     // Only allow toggle for authenticated users
-    if (!isGuest) {
+    if (user) {
       const newValue = !showOnlyMyEvents;
       console.log(`Switching to ${newValue ? 'My Events' : 'All Events'}`);
       setShowOnlyMyEvents(newValue);
@@ -231,7 +243,7 @@ const Calendar = () => {
           Hangout
         </Link>
         <div className="nav-links-desktop">
-          {isGuest ? (
+          {!user ? (
             <>
               <Link to="/signup" className="nav-link">Sign Up</Link>
               <Link to="/login" className="logout-btn">Login</Link>
@@ -302,10 +314,10 @@ const Calendar = () => {
             <X size={28} />
           </button>
         </div>
-        <div className="side-menu-links">
-          {isGuest ? (
+                <div className="side-menu-links">
+          {!user ? (
             <>
-                              <Link to="/signup" className="nav-link" onClick={() => setIsMenuOpen(false)}>Sign Up</Link>
+              <Link to="/signup" className="nav-link" onClick={() => setIsMenuOpen(false)}>Sign Up</Link>
               <Link to="/login" className="logout-btn" onClick={() => setIsMenuOpen(false)}>Login</Link>
             </>
           ) : (
@@ -330,17 +342,17 @@ const Calendar = () => {
           
           {/* Toggle switch with mode indicator - disabled for guests */}
           <div className="calendar-toggle">
-            <label className={`toggle-switch ${isGuest ? 'disabled' : ''}`}>
+            <label className={`toggle-switch ${!user ? 'disabled' : ''}`}>
               <input 
                 type="checkbox" 
                 checked={showOnlyMyEvents} 
                 onChange={handleToggleChange}
-                disabled={isGuest}
+                disabled={!user}
               />
-              <span className={`toggle-slider ${isGuest ? 'disabled' : ''}`}></span>
+              <span className={`toggle-slider ${!user ? 'disabled' : ''}`}></span>
             </label>
             <span className="toggle-label">
-              {isGuest 
+              {!user 
                 ? 'Showing all events'
                 : (showOnlyMyEvents ? 'Showing my events only' : 'Showing all events')
               }
@@ -348,20 +360,22 @@ const Calendar = () => {
           </div>
 
           {/* Loading state */}
-          {loading && (
-            <div className="loading-message">Loading events...</div>
+          {(loading || authLoading) && (
+            <div className="loading-message">
+              {authLoading ? "Loading..." : "Loading events..."}
+            </div>
           )}
           
           {/* Error state */}
-          {error && (
+          {!authLoading && error && (
             <div className="error-message">{error}</div>
           )}
           
           {/* Empty state */}
-          {!loading && !error && displayedEvents.length === 0 && (
+          {!loading && !authLoading && !error && displayedEvents.length === 0 && (
             <div className="empty-message">
-              {isGuest 
-                ? "No events available."
+              {!user 
+                ? "Sign up or log in to view and create events!"
                 : (showOnlyMyEvents 
                   ? "You don't have any events. Try creating one or RSVPing to others' events!"
                   : "No events available.")
@@ -370,7 +384,7 @@ const Calendar = () => {
           )}
 
           {/* Calendar */}
-          {!loading && !error && displayedEvents.length > 0 && (
+          {!loading && !authLoading && !error && displayedEvents.length > 0 && (
             <BigCalendar
               localizer={localizer}
               events={displayedEvents}
