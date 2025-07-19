@@ -54,7 +54,7 @@ const Suggester = () => {
           Hangout
         </Link>
         <div className="nav-links-desktop">
-          {!user ? (
+          {!user || user.isGuest ? (
             <>
               <Link to="/signup" className="nav-link">Sign Up</Link>
               <Link to="/login" className="logout-btn">Login</Link>
@@ -126,7 +126,7 @@ const Suggester = () => {
           </button>
         </div>
                 <div className="side-menu-links">
-          {!user ? (
+          {!user || user.isGuest ? (
             <>
               <Link to="/signup" className="nav-link" onClick={() => setIsMenuOpen(false)}>Sign Up</Link>
               <Link to="/login" className="logout-btn" onClick={() => setIsMenuOpen(false)}>Login</Link>

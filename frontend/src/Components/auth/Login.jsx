@@ -10,7 +10,7 @@ export const Login = () => {
   const [success, setSuccess] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const { login, guestLogin, user, loading: authLoading } = useAuth();
+  const { login, guestLogin, user, loading: authLoading, logout } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
   // Always redirect to home page after login instead of previous location
@@ -25,7 +25,7 @@ export const Login = () => {
 
   // Add effect to handle authenticated users - redirect only real authenticated users
   useEffect(() => {
-    if (user && !authLoading) {
+    if (user && !user.isGuest && !authLoading) {
       console.log('Login: Authenticated user detected, redirecting to home');
       navigate(redirectTo, { replace: true });
     }
@@ -51,6 +51,10 @@ export const Login = () => {
 
   const handleGuestLogin = () => {
     try {
+      // First logout any existing user to clear auth state
+      logout(false); // Pass false to prevent redirect from logout
+      
+      // Then set up guest mode
       guestLogin();
       navigate('/', { replace: true });
     } catch (err) {

@@ -91,7 +91,7 @@ const Calendar = () => {
 
   // Update displayed events when toggle changes
   useEffect(() => {
-    if (user) {
+    if (user && !user.isGuest) {
       if (showOnlyMyEvents) {
         setDisplayedEvents(myEvents);
       } else {
@@ -139,7 +139,7 @@ const Calendar = () => {
       setEvents(allEventsWithRecurring);
       
       // Only filter for user events if authenticated
-      if (user) {
+      if (user && !user.isGuest) {
         // For debugging
         if (allEventsWithRecurring.length > 0) {
           console.log('First event structure:', JSON.stringify(allEventsWithRecurring[0].originalEvent, null, 2));
@@ -220,7 +220,7 @@ const Calendar = () => {
 
   const handleToggleChange = () => {
     // Only allow toggle for authenticated users
-    if (user) {
+    if (user && !user.isGuest) {
       const newValue = !showOnlyMyEvents;
       console.log(`Switching to ${newValue ? 'My Events' : 'All Events'}`);
       setShowOnlyMyEvents(newValue);
@@ -235,7 +235,7 @@ const Calendar = () => {
           Hangout
         </Link>
         <div className="nav-links-desktop">
-          {!user ? (
+          {!user || user.isGuest ? (
             <>
               <Link to="/signup" className="nav-link">Sign Up</Link>
               <Link to="/login" className="logout-btn">Login</Link>
@@ -307,7 +307,7 @@ const Calendar = () => {
           </button>
         </div>
                 <div className="side-menu-links">
-          {!user ? (
+          {!user || user.isGuest ? (
             <>
               <Link to="/signup" className="nav-link" onClick={() => setIsMenuOpen(false)}>Sign Up</Link>
               <Link to="/login" className="logout-btn" onClick={() => setIsMenuOpen(false)}>Login</Link>
@@ -334,17 +334,17 @@ const Calendar = () => {
           
           {/* Toggle switch with mode indicator - disabled for guests */}
           <div className="calendar-toggle">
-            <label className={`toggle-switch ${!user ? 'disabled' : ''}`}>
+            <label className={`toggle-switch ${!user || user.isGuest ? 'disabled' : ''}`}>
               <input 
                 type="checkbox" 
                 checked={showOnlyMyEvents} 
                 onChange={handleToggleChange}
-                disabled={!user}
+                disabled={!user || user.isGuest}
               />
-              <span className={`toggle-slider ${!user ? 'disabled' : ''}`}></span>
+              <span className={`toggle-slider ${!user || user.isGuest ? 'disabled' : ''}`}></span>
             </label>
             <span className="toggle-label">
-              {!user 
+              {!user || user.isGuest
                 ? 'Showing all events'
                 : (showOnlyMyEvents ? 'Showing my events only' : 'Showing all events')
               }
@@ -366,7 +366,7 @@ const Calendar = () => {
           {/* Empty state */}
           {!loading && !authLoading && !error && displayedEvents.length === 0 && (
             <div className="empty-message">
-              {!user 
+              {!user || user.isGuest
                 ? "Sign up or log in to view and create events!"
                 : (showOnlyMyEvents 
                   ? "You don't have any events. Try creating one or RSVPing to others' events!"

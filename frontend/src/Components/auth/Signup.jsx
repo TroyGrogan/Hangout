@@ -14,7 +14,7 @@ export const Signup = () => {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const { guestLogin } = useAuth();
+  const { guestLogin, logout } = useAuth();
   const navigate = useNavigate();
 
   const handleChange = (e) => {
@@ -95,6 +95,10 @@ export const Signup = () => {
 
   const handleGuestLogin = () => {
     try {
+      // First logout any existing user to clear auth state
+      logout(false); // Pass false to prevent redirect from logout
+      
+      // Then set up guest mode
       guestLogin();
       navigate('/', { replace: true });
     } catch (err) {

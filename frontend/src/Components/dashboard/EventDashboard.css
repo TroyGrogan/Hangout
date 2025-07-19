@@ -17,7 +17,7 @@
   }
   
   .back-link {
-    color: #FFFFF0;
+    color: #FFFFF0 !important;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -26,7 +26,7 @@
   }
   
   .back-link:hover {
-    color: #ADB6C4;
+    color: #ADB6C4 !important;
     text-decoration: none;
   }
   
@@ -326,6 +326,7 @@
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 3;
+    line-clamp: 3;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
     margin-top: 0.5rem;

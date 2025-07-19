@@ -2223,7 +2223,7 @@ const Home = () => {
           Hangout
         </Link>
         <div className="nav-links-desktop">
-          {!user ? (
+          {!user || user.isGuest ? (
             <>
               <Link to="/signup" className="nav-link">Sign Up</Link>
               <Link to="/login" className="logout-btn">Login</Link>
@@ -2296,7 +2296,7 @@ const Home = () => {
           </button>
         </div>
         <div className="side-menu-links">
-          {!user ? (
+          {!user || user.isGuest ? (
             <>
               <Link to="/signup" className="nav-link" onClick={() => setIsMenuOpen(false)}>Sign Up</Link>
               <Link to="/login" className="logout-btn" onClick={() => setIsMenuOpen(false)}>Login</Link>
@@ -2577,7 +2577,7 @@ const Home = () => {
       </div>
 
       {/* Show Preferred Categories Toggle - Positioned above Life Categories */}
-      {user && userPreferences.length > 0 && ( 
+      {user && !user.isGuest && userPreferences.length > 0 && ( 
         <div className="centered-checkbox-container">
           <div className="preferences-toggle category-preferences-toggle">
             <label className="toggle-label">
@@ -2644,7 +2644,7 @@ const Home = () => {
                 </button>
               )}
               {/* Only show Create Event button for logged-in users */}
-              {user && (
+              {user && !user.isGuest && (
                 <button 
                   className="category-action-button create-button"
                   onClick={() => {
@@ -2812,7 +2812,7 @@ const Home = () => {
             </section>
 
             {/* Friends' Events Section - Hidden for guest users */}
-            {user && (
+            {user && !user.isGuest && (
               <section className="horizontal-section friends-events-section">
                 <h2 className="section-title">Events Your Friends Are Attending</h2>
                  {friendEventsQuery.isLoading && <p>Loading friends' events...</p>}
