@@ -280,14 +280,15 @@
 }
 
 /* Empty chat (normal view) styles - ensuring consistency with category view */
+/* Empty chat (normal view) styles - ensuring consistency with category view */
 .empty-chat {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start; /* Changed from center to match category view */
   text-align: center;
-  padding: 2rem;
-  margin-top: 1rem; /* Reduced from 2rem to match category view */
+  padding: 0rem 0rem !important; /* Reduced top padding for the  "‼️ Disclaimer ‼️" message in the chat for an authorized */
+  margin-top: 0rem !important; /* Reduced from 1rem */
   width: 100%;
   box-sizing: border-box;
   background-color: #FFFFF0;
@@ -296,15 +297,15 @@
 /* Ask your AI assistant for Life Suggestions, etc. part of the page */
 .empty-chat h3,
 .chat-selected-category-header h3 {
-  margin-bottom: 0rem; /* Reduced margin to decrease space */
+  margin-bottom: 0.5rem; /* Reduced from 0rem to add slight spacing but keep it minimal */
   color: #333;
   font-size: 1.2em;
-  margin-top: 0.5rem; /* Add consistent top margin */
+  margin-top: 0.25rem; /* Reduced from 0.5rem */
 }
 
 .empty-chat p {
   color: #666;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.75rem; /* Reduced from 1.5rem */
   max-width: 500px;
   padding: 0 1rem; /* Add consistent horizontal padding */
 }
@@ -336,14 +337,14 @@
 
 /* Guest mode warning in empty chat state */
 .empty-chat .guest-mode-warning {
-  margin-top: -2.5rem; /* Match disclaimer positioning */
-  margin-bottom: 1rem; /* Space between warning and disclaimer */
+  margin-top: -0.5rem !important; /* Reduced from -2.5rem to bring guest warning closer to top */
+  margin-bottom: 0.75rem; /* Reduced from 1rem to bring disclaimer closer */
 }
 
 /* Adjusted padding for disclaimer text */
 .suggestions-disclaimer {
-  margin-top: 0; /* Adjusted since guest warning now takes the top position */
-  margin-bottom: 1rem; /* Add space below the disclaimer */
+  margin-top: -0.25rem; /* Changed from 0 to negative margin to bring it closer to content above */
+  margin-bottom: 1rem; /* Keep space below the disclaimer */
   color: #666;
   text-align: center;
   max-width: 90%; /* Make it wider to use horizontal space */
@@ -555,7 +556,7 @@
     height: 18px; /* Smaller icon */
   }
   .empty-chat {
-    padding: 1rem 0.75rem; /* Reduced padding for empty state */
+    padding: 0.75rem 0.75rem; /* Reduced from 1rem 0.75rem to match desktop reduction pattern */
   }
 }
 
@@ -690,18 +691,18 @@
   
   /* Empty chat state optimizations for landscape */
   .empty-chat {
-    padding: 1rem 0.5rem; /* Reduced padding */
-    margin-top: 0.5rem; /* Less top margin */
+    padding: 0.75rem 0.5rem; /* Reduced from 1rem 0.5rem to match desktop reduction pattern */
+    margin-top: 0.25rem; /* Reduced from 0.5rem to match desktop */
   }
   
   .empty-chat h3 {
     font-size: 1.1rem; /* Smaller heading */
-    margin-bottom: 0.75rem; /* Reduced margin */
+    margin-bottom: 0.5rem; /* Reduced from 0.75rem to match desktop */
   }
   
   .empty-chat p {
     font-size: 0.9rem; /* Smaller paragraph text */
-    margin-bottom: 1rem; /* Reduced margin */
+    margin-bottom: 0.75rem; /* Reduced from 1rem to match desktop */
     line-height: 1.4; /* Tighter line height */
   }
   
@@ -836,7 +837,7 @@
 /* This controls the category selected box, more specifically, the spacing below it */
 .chat-selected-category-header {
   text-align: center;
-  margin-bottom: 0rem; /* Reduced from 2rem to match normal view spacing */
+  margin-bottom: 0rem; /* Keep at 0rem to match normal view spacing */
 }
 
 /* This controls the category selected box, more specifically, the spacing above it */
@@ -844,7 +845,7 @@
   margin-bottom: 1rem;
   color: #333;
   font-size: 1.2em;
-  margin-top: 0.5rem; /* Add consistent top margin */
+  margin-top: 0.25rem; /* Reduced from 0.5rem to match normal view */
 }
 
 .chat-selected-category-box {
@@ -857,7 +858,7 @@
   display: inline-block;
   min-width: 250px;
   text-align: center;
-  margin-bottom: 1.5rem; /* Match the spacing of the paragraph in normal view */
+  margin-bottom: 0.75rem; /* Reduced from 1.5rem to match normal view paragraph spacing */
   min-height: 20px; /* Ensure consistent height */
 }
 

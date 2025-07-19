@@ -428,6 +428,7 @@ const Home = () => {
   const calendarRef = useRef(null);
   const categorySearchSectionRef = useRef(null);
   const eventsNearYouRef = useRef(null);
+  const eventsAnchorRef = useRef(null);
 
   // --- React Query Data Fetching ---
 
@@ -636,14 +637,25 @@ const Home = () => {
         
         // Wait a bit for the component to render
         setTimeout(() => {
-          const element = document.getElementById(elementId);
+          let element = null;
+          let scrollOptions = { behavior: 'smooth', block: 'center' };
+          
+          // Special handling for events-section-anchor to use ref and custom positioning
+          if (elementId === 'events-section-anchor' && eventsAnchorRef.current) {
+            element = eventsAnchorRef.current;
+            scrollOptions = { behavior: 'smooth', block: 'start' };
+            console.log('Using ref for events-section-anchor scroll');
+          } else {
+            element = document.getElementById(elementId);
+          }
+          
           if (element) {
             console.log(`Found element with ID: ${elementId}, scrolling...`);
-            element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            element.scrollIntoView(scrollOptions);
           } else {
             console.log(`Element with ID: ${elementId} not found`);
           }
-        }, 100);
+        }, 150); // Slightly longer timeout to ensure rendering
       }
     };
 
@@ -666,6 +678,153 @@ const Home = () => {
       };
     }
   }, [showCalendar]);
+
+  // Effect: Load search values from sessionStorage on component mount
+  useEffect(() => {
+    try {
+      // Load search location
+      const savedSearchLocation = sessionStorage.getItem('hangout_searchLocation');
+      const savedIsLocationFiltered = sessionStorage.getItem('hangout_isLocationFiltered');
+      
+      if (savedSearchLocation) {
+        setSearchLocation(savedSearchLocation);
+      }
+      if (savedIsLocationFiltered) {
+        setIsLocationFiltered(JSON.parse(savedIsLocationFiltered));
+      }
+
+      // Load user location (coordinates)
+      const savedUserLocation = sessionStorage.getItem('hangout_userLocation');
+      if (savedUserLocation) {
+        setUserLocation(JSON.parse(savedUserLocation));
+      }
+
+      // Load dates
+      const savedStartDate = sessionStorage.getItem('hangout_selectedStartDate');
+      const savedEndDate = sessionStorage.getItem('hangout_selectedEndDate');
+      
+      if (savedStartDate) {
+        setSelectedStartDate(new Date(savedStartDate));
+      }
+      if (savedEndDate) {
+        setSelectedEndDate(new Date(savedEndDate));
+      }
+
+      // Load search term
+      const savedEventSearchTerm = sessionStorage.getItem('hangout_eventSearchTerm');
+      if (savedEventSearchTerm) {
+        setEventSearchTerm(savedEventSearchTerm);
+        setIsEventSearchActive(true);
+      }
+
+      // Load dates available text
+      const savedDatesAvailableText = sessionStorage.getItem('hangout_datesAvailableText');
+      if (savedDatesAvailableText) {
+        setDatesAvailableText(savedDatesAvailableText);
+      }
+
+      // Load search radius
+      const savedSearchRadius = sessionStorage.getItem('hangout_searchRadius');
+      if (savedSearchRadius) {
+        setSearchRadius(parseInt(savedSearchRadius, 10));
+      }
+
+      console.log('Search values loaded from sessionStorage');
+    } catch (error) {
+      console.error('Error loading search values from sessionStorage:', error);
+    }
+  }, []); // Run only on component mount
+
+  // Effect: Save search location to sessionStorage when it changes
+  useEffect(() => {
+    try {
+      sessionStorage.setItem('hangout_searchLocation', searchLocation);
+    } catch (error) {
+      console.error('Error saving searchLocation to sessionStorage:', error);
+    }
+  }, [searchLocation]);
+
+  // Effect: Save location filtered state to sessionStorage when it changes
+  useEffect(() => {
+    try {
+      sessionStorage.setItem('hangout_isLocationFiltered', JSON.stringify(isLocationFiltered));
+    } catch (error) {
+      console.error('Error saving isLocationFiltered to sessionStorage:', error);
+    }
+  }, [isLocationFiltered]);
+
+  // Effect: Save user location to sessionStorage when it changes
+  useEffect(() => {
+    try {
+      if (userLocation) {
+        sessionStorage.setItem('hangout_userLocation', JSON.stringify(userLocation));
+      } else {
+        sessionStorage.removeItem('hangout_userLocation');
+      }
+    } catch (error) {
+      console.error('Error saving userLocation to sessionStorage:', error);
+    }
+  }, [userLocation]);
+
+  // Effect: Save selected dates to sessionStorage when they change
+  useEffect(() => {
+    try {
+      if (selectedStartDate) {
+        sessionStorage.setItem('hangout_selectedStartDate', selectedStartDate.toISOString());
+      } else {
+        sessionStorage.removeItem('hangout_selectedStartDate');
+      }
+    } catch (error) {
+      console.error('Error saving selectedStartDate to sessionStorage:', error);
+    }
+  }, [selectedStartDate]);
+
+  useEffect(() => {
+    try {
+      if (selectedEndDate) {
+        sessionStorage.setItem('hangout_selectedEndDate', selectedEndDate.toISOString());
+      } else {
+        sessionStorage.removeItem('hangout_selectedEndDate');
+      }
+    } catch (error) {
+      console.error('Error saving selectedEndDate to sessionStorage:', error);
+    }
+  }, [selectedEndDate]);
+
+  // Effect: Save event search term to sessionStorage when it changes
+  useEffect(() => {
+    try {
+      if (eventSearchTerm.trim()) {
+        sessionStorage.setItem('hangout_eventSearchTerm', eventSearchTerm);
+      } else {
+        sessionStorage.removeItem('hangout_eventSearchTerm');
+      }
+    } catch (error) {
+      console.error('Error saving eventSearchTerm to sessionStorage:', error);
+    }
+  }, [eventSearchTerm]);
+
+  // Effect: Save dates available text to sessionStorage when it changes
+  useEffect(() => {
+    try {
+      if (datesAvailableText.trim()) {
+        sessionStorage.setItem('hangout_datesAvailableText', datesAvailableText);
+      } else {
+        sessionStorage.removeItem('hangout_datesAvailableText');
+      }
+    } catch (error) {
+      console.error('Error saving datesAvailableText to sessionStorage:', error);
+    }
+  }, [datesAvailableText]);
+
+  // Effect: Save search radius to sessionStorage when it changes
+  useEffect(() => {
+    try {
+      sessionStorage.setItem('hangout_searchRadius', searchRadius.toString());
+    } catch (error) {
+      console.error('Error saving searchRadius to sessionStorage:', error);
+    }
+  }, [searchRadius]);
 
   // Check if friends are attending an event
   const hasFriendsAttending = (eventId) => {
@@ -2566,6 +2725,9 @@ const Home = () => {
         )}
       </div>
 
+      {/* Navigation anchor for "Back to Events" button */}
+      <div id="events-section-anchor" ref={eventsAnchorRef} style={{ paddingTop: '10px', marginBottom: '5px' }}></div>
+      
       {/* Hide Past Events Toggle - Positioned above Events Near You */}
       <div className="centered-checkbox-container">
         <div className="preferences-toggle past-events-toggle">

@@ -50,7 +50,7 @@ const EventDetails = () => {
       };
     } else {
       return {
-        to: '/#events-near-you',
+        to: '/#events-section-anchor',
         text: 'Back to Events'
       };
     }

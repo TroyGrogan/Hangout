@@ -17,7 +17,9 @@ DEBUG = os.environ.get('DJANGO_DEBUG', 'False').lower() == 'true'
 # Dynamic ALLOWED_HOSTS for production
 ALLOWED_HOSTS = []
 if DEBUG:
-    ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '192.168.0.20', '100.64.5.109', '10.179.1.154', '100.64.6.77']
+    # In development, allow all hosts for maximum flexibility
+    # This includes any device on your local network (phone, tablet, etc.)
+    ALLOWED_HOSTS = ['*']
 else:
     # For production, allow any Render subdomain
     ALLOWED_HOSTS = ['*'] 
@@ -165,13 +167,13 @@ CORS_ALLOW_CREDENTIALS = True
 
 # Dynamic CORS origins based on environment
 if DEBUG:
+    # In development, CORS_ALLOW_ALL_ORIGINS is already True above
+    # But we can also specify common development URLs for clarity
     CORS_ALLOWED_ORIGINS = [
         "http://localhost:5173",
         "http://localhost:3000",
-        "http://192.168.0.20:5173",
-        "http://100.64.5.109:5173",
-        "http://10.179.1.154:5173",
-        "http://100.64.6.77:5173",
+        # Allow any IP on port 5173 (Vite dev server default)
+        "http://192.168.1.84:5173",
     ]
 else:
     # For production, add your frontend URL here
