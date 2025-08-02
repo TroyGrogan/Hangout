@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favicon Test - Hangout</title>
+    
+    <!-- Same thick H favicon configuration as main app -->
+    <link rel="icon" href="/favicon.ico?v=thick" type="image/x-icon">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3B5998">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=thick" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=thick" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=thick" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=thick" />
+    
+    <meta name="theme-color" content="#3B5998" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Hangout Test" />
+    
+    <style>
+        body {
+            font-family: 'SF Pro Display', 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #3B5998, #2d4a8a);
+            color: #FFFFF0;
+            padding: 2rem;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .favicon-display {
+            background: #FFFFF0;
+            color: #3B5998;
+            padding: 1rem;
+            border-radius: 12px;
+            margin: 1rem;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        
+        .instructions {
+            max-width: 600px;
+            line-height: 1.6;
+            text-align: center;
+        }
+        
+        .color-swatch {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 6px;
+            margin: 0 10px;
+            vertical-align: middle;
+            border: 2px solid #FFFFF0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔍 Favicon Test Page</h1>
+    
+    <div class="favicon-display">
+        <h2>Expected Favicon Colors & Font</h2>
+        <p>
+            Background: <span class="color-swatch" style="background-color: #3B5998;"></span> #3B5998 (Blue)
+        </p>
+        <p>
+            Text "H": <span class="color-swatch" style="background-color: #FFFFF0;"></span> #FFFFF0 (Off-White)
+        </p>
+        <p style="font-size: 0.9em; margin-top: 1rem;">
+            <strong>✅ Font Fix Applied:</strong> All PNG icons now use proper SF Pro Display font matching the SVG versions
+        </p>
+        <p style="font-size: 0.9em; margin-top: 0.5rem;">
+            <strong>💪 THICK H Applied:</strong> Font-weight 800 across ALL icons - matches deployed version thickness!
+        </p>
+        <p style="font-size: 0.8em; margin-top: 0.5rem; opacity: 0.8;">
+            <strong>🎯 Colors:</strong> Background #3B5998 (blue), H #FFFFF0 (off-white) - Perfect consistency!
+        </p>
+    </div>
+    
+    <div class="instructions">
+        <h3>Testing Instructions</h3>
+        <p><strong>🧹 STEP 1 - Clear ALL Safari Cache (CRITICAL!):</strong></p>
+        <ul style="text-align: left; display: inline-block; margin-bottom: 1rem;">
+            <li><strong>Safari Desktop:</strong> Develop → Empty Caches (Cmd+Opt+E)</li>
+            <li><strong>Safari Mobile:</strong> Settings → Safari → Clear History and Website Data</li>
+            <li><strong>Force Refresh:</strong> Hold Shift + Cmd + R on Mac</li>
+            <li><strong>Close Safari completely</strong> and reopen (important!)</li>
+        </ul>
+        
+        <p><strong>🧪 STEP 2 - Test Safari Favicon:</strong></p>
+        <ul style="text-align: left; display: inline-block; margin-bottom: 1rem;">
+            <li><strong>Safari Desktop Tab:</strong> Should show blue H icon</li>
+            <li><strong>Safari Bookmarks:</strong> Save bookmark and check icon</li>
+            <li><strong>Safari Pinned Tab:</strong> Right-click tab → "Pin Tab"</li>
+        </ul>
+        
+        <p><strong>📱 STEP 3 - Test iOS Safari "Add to Home Screen":</strong></p>
+        <ul style="text-align: left; display: inline-block; margin-bottom: 1rem;">
+            <li>Open in Safari Mobile</li>
+            <li>Tap Share button (box with arrow)</li>
+            <li>Tap "Add to Home Screen"</li>
+            <li>Check if icon is blue with white H</li>
+        </ul>
+        
+        <p><strong>✅ STEP 4 - Compare with Chrome:</strong> Icons should now match!</p>
+        
+        <h3>What to Look For</h3>
+        <ul style="text-align: left; display: inline-block;">
+            <li>Blue background (#3B5998) with white "H" text</li>
+            <li>No green colors from previous version</li>
+            <li>Consistent appearance across all browsers</li>
+            <li>Sharp, clear rendering on all device types</li>
+        </ul>
+    </div>
+    
+    <p style="margin-top: 2rem; opacity: 0.8;">
+        Navigate back to the main app to test the real favicon: <a href="/" style="color: #FFFFF0;">← Back to Hangout</a>
+    </p>
+</body>
+</html> 

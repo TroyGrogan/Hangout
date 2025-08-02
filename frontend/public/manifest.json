@@ -4,8 +4,8 @@
   "description": "Hangout - Connect, Chat, and Discover Events",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#00B488",
-  "theme_color": "#00B488",
+  "background_color": "#3B5998",
+  "theme_color": "#3B5998",
   "orientation": "portrait-primary",
   "icons": [
     {
@@ -103,6 +103,24 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    },
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png", 
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
   "categories": ["social", "lifestyle", "entertainment"],
