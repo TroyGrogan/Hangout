@@ -14,8 +14,8 @@ class Event(models.Model):
     category = models.IntegerField(null=True, blank=True)
     
     # Location fields
-    location_name = models.CharField(max_length=200)
-    event_address = models.CharField(max_length=255, blank=True, null=True)
+    location_name = models.CharField(max_length=200, blank=True, null=True)
+    event_address = models.CharField(max_length=255)
     latitude = models.DecimalField(max_digits=9, decimal_places=6)
     longitude = models.DecimalField(max_digits=9, decimal_places=6)
     

@@ -161,11 +161,16 @@
     outline: none;
   }
   
-  /* Specific styling for datetime inputs */
-  .form-input[type="datetime-local"] {
+  /* Specific styling for datetime inputs and location inputs */
+  .form-input[type="datetime-local"],
+  .location-group .form-input[type="text"] {
     color: white;
     cursor: pointer;
     background-color: #36454F;
+  }
+  
+  .form-input[type="datetime-local"] {
+    cursor: pointer;
   }
   
   .form-input[type="datetime-local"]:hover {
@@ -393,6 +398,12 @@
     margin-bottom: 1rem;
   }
   
+  /* Location search error - appears below search indicators */
+  .error-message.location-search-error {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
   /* Geocoding indicator styling */
   .geocoding-indicator {
     margin-top: 8px;
@@ -440,15 +451,38 @@
     gap: 8px;
   }
 
-  /* Validated input styling */
+  /* Validated input styling - keep same appearance as normal inputs */
   .form-input.validated {
-    border-color: #4caf50;
-    background-color: #f9fff9;
+    /* Explicitly maintain normal form input styling */
+    border: 2px solid #E2E8F0;
+    background-color: #36454F;
+    color: white;
   }
 
   .form-input.validated:focus {
-    border-color: #4caf50;
-    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+    /* Keep normal focus styling */
+    border-color: #3B5998;
+    outline: none;
+  }
+
+  /* Required field indicator styling */
+  .required-field-indicator {
+    margin-top: 4px;
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+  }
+
+  /* Address format hint styling */
+  .input-help.address-format-hint {
+    font-size: 13px;
+    color: #555;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    padding: 8px 12px;
   }
 
   /* Input help text styling */

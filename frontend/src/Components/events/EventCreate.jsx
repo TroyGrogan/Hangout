@@ -36,6 +36,7 @@ export default function EventCreate() {
   const [position, setPosition] = useState({ lat: 33.9937, lng: -81.0299 });
   const [geocoding, setGeocoding] = useState(false); // Add loading state for geocoding
   const [searchingField, setSearchingField] = useState(null); // Track which field is being searched
+  const [locationError, setLocationError] = useState(''); // Add separate error state for location search
   const [validatedLocations, setValidatedLocations] = useState({
     location_name: false,
     event_address: false
@@ -80,7 +81,8 @@ export default function EventCreate() {
   const validateLocation = async (address, fieldName) => {
     if (!address.trim()) {
       setValidatedLocations(prev => ({ ...prev, [fieldName]: false }));
-      return false;
+      // Allow empty location_name but not event_address
+      return fieldName === 'location_name' ? true : false;
     }
     
     try {
@@ -113,50 +115,94 @@ export default function EventCreate() {
     }
   };
 
-  // Add geocoding function
-  const geocodeAddress = async (address) => {
+  // Add geocoding function with improved address handling
+  const geocodeAddress = async (address, fieldName) => {
     if (!address.trim()) return;
     
     setGeocoding(true);
+    setLocationError(''); // Clear any previous location errors
+    
+    // Clean and format the address for better geocoding results
+    const cleanAddress = (addr) => {
+      return addr
+        .replace(/\n/g, ' ') // Replace line breaks with spaces
+        .replace(/\s+/g, ' ') // Replace multiple spaces with single space
+        .trim();
+    };
+    
+    // Try multiple address formats for better success rate
+    const addressFormats = [
+      cleanAddress(address), // Original cleaned address
+      cleanAddress(address).replace(/United States/i, 'USA'), // Replace "United States" with "USA"
+      cleanAddress(address).split(',').slice(0, -1).join(','), // Remove "United States" entirely
+    ];
+    
+    let foundResult = null;
+    
     try {
-      const response = await fetch(
-        `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}&limit=1&addressdetails=1`,
-        {
-          headers: {
-            'User-Agent': 'HangoutWebApp/1.0' // Add user agent for API courtesy
+      // Try each address format until one works
+      for (const addressToTry of addressFormats) {
+        console.log('Trying address format:', addressToTry); // Debug log
+        
+        const response = await fetch(
+          `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(addressToTry)}&limit=3&addressdetails=1&countrycodes=us`,
+          {
+            headers: {
+              'User-Agent': 'HangoutWebApp/1.0' // Add user agent for API courtesy
+            }
+          }
+        );
+        
+        if (!response.ok) {
+          continue; // Try next format
+        }
+        
+        const data = await response.json();
+        
+        if (data && data.length > 0) {
+          // Find the best match (prefer results with house numbers for addresses)
+          foundResult = data.find(result => 
+            result.display_name.toLowerCase().includes('charleston') ||
+            result.address?.city?.toLowerCase().includes('charleston') ||
+            result.address?.town?.toLowerCase().includes('charleston')
+          ) || data[0]; // Fall back to first result if no Charleston match
+          
+          if (foundResult) {
+            console.log('Found result:', foundResult.display_name); // Debug log
+            break;
           }
         }
-      );
-      
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
       }
       
-      const data = await response.json();
-      
-      if (data && data.length > 0) {
-        const result = data[0];
+      if (foundResult) {
         const newPosition = {
-          lat: parseFloat(result.lat),
-          lng: parseFloat(result.lon)
+          lat: parseFloat(foundResult.lat),
+          lng: parseFloat(foundResult.lon)
         };
         setPosition(newPosition);
         
         // Clear any previous errors
         setError('');
+        setLocationError('');
         
         // Mark the field as validated
-        setValidatedLocations(prev => ({ ...prev, [searchingField]: true }));
+        setValidatedLocations(prev => ({ ...prev, [fieldName]: true }));
       } else {
-        setError('Address not found. Please try a different search term or be more specific.');
-        setTimeout(() => setError(''), 4000); // Clear error after 4 seconds
-        setValidatedLocations(prev => ({ ...prev, [searchingField]: false }));
+        // Set different error messages based on which field was searched
+        console.log('No results found for field:', fieldName); // Debug log
+        if (fieldName === 'location_name') {
+          setLocationError('Location name not found. Please try a different search term or be more specific.');
+        } else {
+          setLocationError('Address not found. Please try a simpler format like "Street Address, City, State" or search for nearby landmarks.');
+        }
+        setTimeout(() => setLocationError(''), 6000); // Longer timeout for more detailed message
+        setValidatedLocations(prev => ({ ...prev, [fieldName]: false }));
       }
     } catch (err) {
       console.error('Geocoding error:', err);
-      setError('Failed to search for address. Please check your internet connection and try again.');
-      setTimeout(() => setError(''), 4000);
-      setValidatedLocations(prev => ({ ...prev, [searchingField]: false }));
+      setLocationError('Failed to search for location. Please check your internet connection and try again.');
+      setTimeout(() => setLocationError(''), 4000);
+      setValidatedLocations(prev => ({ ...prev, [fieldName]: false }));
     } finally {
       setGeocoding(false);
       setSearchingField(null); // Reset the searching field when done
@@ -171,8 +217,10 @@ export default function EventCreate() {
       const searchValue = e.target.value;
       if (searchValue.trim()) {
         // Set which field is being searched based on the field name
-        setSearchingField(e.target.name);
-        geocodeAddress(searchValue);
+        const fieldName = e.target.name;
+        console.log('Setting searching field:', fieldName); // Debug log
+        setSearchingField(fieldName);
+        geocodeAddress(searchValue, fieldName);
       }
     }
   };
@@ -199,28 +247,37 @@ export default function EventCreate() {
     setLoading(true);
     setError('');
 
-    // Validate locations before submission
-    const locationNameValid = await validateLocation(formData.location_name, 'location_name');
-    const eventAddressValid = await validateLocation(formData.event_address, 'event_address');
-
-    if (!locationNameValid || !eventAddressValid) {
-      let errorMessage = 'Please provide valid locations:\n';
-      if (!locationNameValid) {
-        errorMessage += '• Location Name: Please enter a valid location that can be found on the map\n';
-      }
-      if (!eventAddressValid) {
-        errorMessage += '• Event Address: Please enter a valid address that can be found on the map\n';
-      }
-      setError(errorMessage);
+    // Check validation status - only event_address is required
+    // Event address must be provided and validated
+    if (!formData.event_address.trim()) {
+      setError('Please provide an Event Address');
       setLoading(false);
       return;
     }
+
+    if (!validatedLocations.event_address) {
+      setError('Please press Enter after typing your Event Address to validate it on the map');
+      setLoading(false);
+      return;
+    }
+
+    // Location name is completely optional - no validation required
+    // If location_name has content but isn't validated, that's fine - we'll just skip geocoding for it
 
     try {
       const eventData = new FormData();
       
       // Add basic form fields with proper type conversion
       Object.keys(formData).forEach(key => {
+        // Handle location_name specially - only include if it has actual content
+        if (key === 'location_name') {
+          if (formData[key] && formData[key].trim() !== '') {
+            eventData.append(key, formData[key].trim());
+          }
+          return; // Skip the rest of the logic for location_name
+        }
+        
+        // For all other fields, include if not null and not empty
         if (formData[key] !== null && formData[key] !== '') {
           switch(key) {
             case 'price':
@@ -318,12 +375,6 @@ export default function EventCreate() {
         </div>
 
         <h2 className="event-create-title">Create New Event</h2>
-
-        {error && (
-          <div className="error-message" style={{ whiteSpace: 'pre-line' }}>
-            {error}
-          </div>
-        )}
 
         <form onSubmit={handleSubmit}>
           <div className="name-recurring-group">
@@ -425,6 +476,9 @@ export default function EventCreate() {
           <p className="input-help">
             💡 Type an Address or Location Name and press Enter to automatically locate it on the map
           </p>
+          <p className="input-help address-format-hint">
+            📍 For best results with addresses, try format: "Street Address, City, State" (e.g., "1234 Sample Name Blvd, North Charleston, SC")
+          </p>
 
           <div className="location-group">
             <div className="form-group">
@@ -437,9 +491,8 @@ export default function EventCreate() {
                 value={formData.location_name}
                 onChange={handleChange}
                 onKeyDown={handleAddressKeyPress}
-                placeholder={geocoding && searchingField === 'location_name' ? "Searching..." : "Enter Location Name"}
+                placeholder={geocoding && searchingField === 'location_name' ? "Searching..." : "Enter Location Name (Optional)"}
                 disabled={geocoding && searchingField === 'location_name'}
-                required
               />
               {geocoding && searchingField === 'location_name' && (
                 <div className="geocoding-indicator location-geocoding">
@@ -476,8 +529,17 @@ export default function EventCreate() {
                   <span>✅ Address validated</span>
                 </div>
               )}
+              <div className="required-field-indicator">
+                (Required field)
+              </div>
             </div>
           </div>
+          
+          {locationError && (
+            <div className="error-message location-search-error">
+              {locationError}
+            </div>
+          )}
           
           <div className="form-group">
             <label className="form-label">Select Location on Map</label>
@@ -551,6 +613,12 @@ export default function EventCreate() {
               />
             </div>
           </div>
+
+          {error && (
+            <div className="error-message" style={{ whiteSpace: 'pre-line' }}>
+              {error}
+            </div>
+          )}
 
           <button
             className="submit-button"
