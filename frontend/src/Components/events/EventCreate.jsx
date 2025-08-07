@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, useMapEvents } from 'react-leaflet';
 import { useNavigate, useLocation } from 'react-router-dom';
+import { useQueryClient } from '@tanstack/react-query';
 import axiosInstance from '../../services/axios';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -29,6 +30,7 @@ function LocationMarker({ position, setPosition }) {
 export default function EventCreate() {
   const navigate = useNavigate();
   const location = useLocation();
+  const queryClient = useQueryClient();
   // Use hardcoded categories with correct IDs
   const [mainCategories, setMainCategories] = useState(mainCategoriesData); 
   const [error, setError] = useState(''); 
@@ -324,6 +326,9 @@ export default function EventCreate() {
           'Content-Type': 'multipart/form-data',
         },
       });
+
+      // Invalidate the events cache to refresh the dashboard
+      queryClient.invalidateQueries({ queryKey: ['events'] });
 
       navigate(`/events/${response.data.id}`);
     } catch (err) {

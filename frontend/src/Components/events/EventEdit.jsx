@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
 import { MapContainer, TileLayer, Marker, useMapEvents } from 'react-leaflet';
+import { useParams, useNavigate } from 'react-router-dom';
+import { useQueryClient } from '@tanstack/react-query';
 import axiosInstance from '../../services/axios';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -29,6 +30,7 @@ function LocationMarker({ position, setPosition }) {
 export default function EventEdit() {
   const { id } = useParams();
   const navigate = useNavigate();
+  const queryClient = useQueryClient();
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(true);
   const [geocoding, setGeocoding] = useState(false);
@@ -291,6 +293,9 @@ export default function EventEdit() {
           'Content-Type': 'multipart/form-data',
         },
       });
+
+      // Invalidate the events cache to refresh the dashboard
+      queryClient.invalidateQueries({ queryKey: ['events'] });
 
       navigate(`/events/${response.data.id}`);
     } catch (err) {

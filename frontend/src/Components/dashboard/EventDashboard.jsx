@@ -29,6 +29,18 @@ const EventDashboard = () => {
     queryKey: ['events'],
     queryFn: fetchEvents,
     staleTime: 1000 * 60 * 2, // Cache for 2 minutes
+    onSuccess: (data) => {
+      if (process.env.NODE_ENV === 'development') {
+        console.log('Dashboard loaded events:', {
+          totalEvents: data.length,
+          eventSample: data.slice(0, 2).map(e => ({
+            id: e.id,
+            name: e.name,
+            host: e.host
+          }))
+        });
+      }
+    },
     onError: (err) => {
       console.error('Error fetching events:', err);
       setError('Failed to load your events. Please try again.');
@@ -52,9 +64,37 @@ const EventDashboard = () => {
     }
   });
 
+  // Helper function to get user ID from JWT token (which can have different property names)
+  const getUserId = () => {
+    if (!user) return null;
+    return user.user_id || user.id || user.sub || null;
+  };
+
   // Filter events on the client side (avoids re-fetching)
   const createdEvents = events.filter(
-    event => event.host?.id === user?.user_id
+    event => {
+      const currentUserId = getUserId();
+      if (!currentUserId || !event.host) return false;
+      
+      // Handle both object and primitive host representations
+      const hostId = typeof event.host === 'object' ? event.host.id : event.host;
+      const matches = hostId?.toString() === currentUserId?.toString();
+      
+      // Debug logging to help troubleshoot (can be removed later)
+      if (process.env.NODE_ENV === 'development') {
+        console.log('Event filter debug:', {
+          eventName: event.name,
+          eventId: event.id,
+          hostId,
+          currentUserId,
+          matches,
+          hostType: typeof event.host,
+          host: event.host
+        });
+      }
+      
+      return matches;
+    }
   );
   
   const attendingEvents = events.filter(
