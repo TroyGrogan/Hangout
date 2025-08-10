@@ -2,6 +2,10 @@
 
 React / Django Web Application that uses RESTful APIs. Was made during Fall 2024 and Spring 2025 for my CSCE 490/492 Capstone Computing Project Class at the University of South Carolina. Was made with a team of 5 people in total, enacting in the Software Development process.
 
+## Project Overview
+
+This project is a web application catered towards discovering and broadcasting to your local community activities that you can do with other people, like: House Parties, Soccer Games, Videogame meetups, Educational Study Groups, Cooking Classes, or even an Architectural/ Musical digest. The possiblilites are endless here. You can create an event for people to "hangout" at in regard to any of the categories that fall within life. There is also a Calendar feature, as well as an AI Suggester feature, that can suggest to you two things: "Possible Things To talk About?" or "Possible Things To Do?" with other people.
+
 ## Changes Since The Class Has Ended
 
 I personally have made signifigant improvements to the app since the class has finished. 
@@ -18,10 +22,6 @@ These things include:
 - The app now has a GUEST MODE. The user doesn't need to log in to create an account anymore to just view and get an idea of the app. 
 - The AI chat bot message history in guest mode is temporarily stored in the frontend browser's session storage. In other words, the guest mode AI chat history is not permanently stored in the app's database.
 
-
-## Project Overview
-
-This project is a web application catered towards discovering and broadcasting to your local community activities that you can do with other people, like: House Parties, Soccer Games, Videogame meetups, Educational Study Groups, Cooking Classes, or even an Architectural/ Musical digest. The possiblilites are endless here. You can create an event for people to "hangout" at in regard to any of the categories that fall within life. There is also a Calendar feature, as well as an AI Suggester feature, that can suggest to you two things: "Possible Things To talk About?" or "Possible Things To Do?" with other people.
 
 ## External Requirements
 
