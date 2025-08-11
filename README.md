@@ -191,12 +191,6 @@ Make sure to have your .env file, placed in the main backend directory, filled o
 
     Network: http://100.64.14.100:5173/
 
-# Deployment
-If you would like to visit the Deployment of our Web Application, it can be accessed at:
-
-https://hangout-2jy4.onrender.com
-
-
 # Testing
 **First, make sure you have all requirements from requirements.txt installed.** It is recommended to use a virtual enviornment during this.
 
