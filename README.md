@@ -1,4 +1,4 @@
-# Hangout Web App
+# Hangout
 
 <img width="1200" height="415" alt="HANGOUT LOGO" src="https://github.com/user-attachments/assets/24f3c05e-49b7-4486-b098-0182e39de148" />
 
