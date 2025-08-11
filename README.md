@@ -1,5 +1,7 @@
 # Hangout Web App
 
+<img width="1200" height="415" alt="HANGOUT LOGO" src="https://github.com/user-attachments/assets/24f3c05e-49b7-4486-b098-0182e39de148" />
+
 React / Django Web Application that uses RESTful APIs. Was made during Fall 2024 and Spring 2025 for my CSCE 490/492 Capstone Computing Project Class at the University of South Carolina. Was made with a team of 5 people in total, enacting in the Software Development process.
 
 ## Project Overview
