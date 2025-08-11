@@ -108,7 +108,7 @@ Verify that PostgreSQL is properly installed and accessible:
 
     deactivate
 
-Make sure you are in the backend folder/directory whenever you are entering or exiting the virtual environment.
+Make sure that you are in the same folder/directory the virtual environment was created in whenever you are activating or deactivating.
 
 **Setting Up The Frontend:**
 
