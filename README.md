@@ -8,6 +8,20 @@ React / Django Web Application that uses RESTful APIs. Was made during Fall 2024
 
 This project is a web application catered towards discovering and broadcasting to your local community activities that you can do with other people, like: House Parties, Soccer Games, Videogame meetups, Educational Study Groups, Cooking Classes, or even an Architectural/ Musical digest. The possiblilites are endless here. You can create an event for people to "hangout" at in regard to any of the categories that fall within life. There is also a Calendar feature, as well as an AI Suggester feature, that can suggest to you two things: "Possible Things To talk About?" or "Possible Things To Do?" with other people.
 
+## Functionality
+
+### Find and View Events
+
+
+### Search through Life Categories
+
+
+### View Events in Calendar
+
+
+### Ask AI for Suggestions
+
+
 ## Changes Since The Class Has Ended
 
 I personally have made signifigant improvements to the app since the class has finished. 
