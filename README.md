@@ -34,10 +34,16 @@ In order to build this project you first have to install:
 
 ## Setup
 
-**Setting up the app's virtual environment:**  
-Create and Activate a virtual enviornment in the home directory of the app.
+**Setting Up The Backend:** 
 
-In other words, create the virtual environemnt where the files and directories: backend, frontend, package-lock.json, package.json, and README.md are located.
+**1.) Navigate to the backend directory.**
+
+    cd backend
+
+
+**2.) Set up the backend's python virtual environment:**
+
+Create and Activate a virtual enviornment in the backend directory of the app.
 
 **Windows:**
 
@@ -49,13 +55,7 @@ In other words, create the virtual environemnt where the files and directories: 
     python3 -m venv env
     source env/bin/activate
 
-**Setting Up The Backend:** 
-
-**Navigate to the backend directory.**
-
-    cd backend
-
-**Next, Install Postgre-SQL on your Computer:**
+**3.) Next, Install Postgre-SQL on your Computer:**
 
 **Windows:**
 
@@ -90,7 +90,7 @@ Verify that PostgreSQL is properly installed and accessible:
 
 **-> Once PostgreSQL is successfully installed, THEN ->**
 
-**Install the Backend Dependencies.**
+**4.) Install the Backend Dependencies.**
 
     pip install -r requirements.txt
 
@@ -102,15 +102,13 @@ Verify that PostgreSQL is properly installed and accessible:
 - Run **makemigrations** when you have made changes to your Django models (e.g., adding a new field, modifying an existing one, or creating a new model).
 - Run **migrate** after **makemigrations** to apply those changes to the database.
 
-**To reenter/exit in the virtual environment.**
+**5.) To reenter/exit in the virtual environment.**
 
     source env/bin/activate
 
     deactivate
 
-Make sure you are in the main app folder, which has the directories and files:
-backend, env, frontend, packag-lock.json, and README.md
-whenever running the enter the virtual environment command.
+Make sure you are in the backend folder/directory whenever you are entering or exiting the virtual environment.
 
 **Setting Up The Frontend:**
 
