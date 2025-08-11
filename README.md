@@ -34,7 +34,7 @@ In order to build this project you first have to install:
 
 ## Setup
 
-**Setting Up The Backend:** 
+### Setting Up The Backend:
 
 **1.) Navigate to the backend directory.**
 
@@ -110,7 +110,7 @@ Verify that PostgreSQL is properly installed and accessible:
 
 Make sure that you are in the same folder/directory the virtual environment was created in whenever you are activating or deactivating.
 
-**Setting Up The Frontend:**
+### Setting Up The Frontend:
 
 **Naviagate to frontend and install dependenices.**
 
@@ -126,9 +126,9 @@ Make sure that you are in the same folder/directory the virtual environment was 
 
 
 ## Running
-For both the frontend and backend, make sure that your virtual environment (env) is activated!!
+For just the backend, make sure that your virtual environment (env) is activated!!
 
-**Running The Backend:**
+### Running The Backend:
 
 Navigate to the backend directory.
 
@@ -140,7 +140,7 @@ Then, run this command:
 
 Then, in a separate terminal, do this:
 
-**Running The Frontend:**
+### Running The Frontend:
 
 Navigate to the frontend directory.
 
