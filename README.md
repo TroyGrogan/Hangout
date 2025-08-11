@@ -37,7 +37,7 @@ In order to build this project you first have to install:
 **Setting up the app's virtual environment:**  
 Create and Activate a virtual enviornment in the home directory of the app.
 
-In other words, create the virtual environemnt where the files and directories: backend, frontend, package-lock.json, package.json, and READEME.md are located.
+In other words, create the virtual environemnt where the files and directories: backend, frontend, package-lock.json, package.json, and README.md are located.
 
 **Windows:**
 
