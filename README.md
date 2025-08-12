@@ -106,7 +106,7 @@ The model in use here is the [Gemma 3 1B Parameter 8-Bit qunatized model](https:
 **Things To Talk About Suggestions:**
 <img width="1512" height="945" alt="3 ) AI Things to talk about" src="https://github.com/user-attachments/assets/127035b4-2331-415b-ab56-96a47ad9fa75" />
 
-**Suggest based on a selected Life Categories:**
+**Suggest based on a selected Life Category:**
 <img width="1512" height="945" alt="4 ) AI Suggest Based on Life Category" src="https://github.com/user-attachments/assets/c7c26a70-5b96-4dfa-9e4f-9547b0f49e96" />
 
 **Selected "Food, Cooking, and Nutrition" Life Category:**
