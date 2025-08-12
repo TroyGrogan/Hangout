@@ -143,7 +143,7 @@ The model in use here is the [Gemma 3 1B Parameter 8-Bit qunatized model](https:
 
 <img width="1512" height="945" alt="Things To Do example output 4" src="https://github.com/user-attachments/assets/9c56f123-9703-45a5-a840-380e9e1a31ff" />
 
-### Ex.) Ask AI through Category Button:
+### Ex.) "Ask AI About The Category" Button Suggestion:
 <img width="1512" height="945" alt="Ask AI through button 1" src="https://github.com/user-attachments/assets/3446848e-7747-4ea1-9fc6-8a90703fe783" />
 
 <img width="1512" height="945" alt="Ask AI through button 2" src="https://github.com/user-attachments/assets/7196f74b-09e1-4299-9140-4715faae829d" />
