@@ -31,11 +31,11 @@ This project is a web application catered towards discovering and broadcasting t
 
 <img width="1512" height="945" alt="8 ) View Life Categories 2" src="https://github.com/user-attachments/assets/45f21e0f-4d6c-418d-9cb0-3fc3f41e1e32" />
 
-<img width="1512" height="945" alt="9 ) View Life Categories 3" src="https://github.com/user-attachments/assets/65719d42-279a-4845-b719-8dd7e9058794" />
-
 <img width="1512" height="945" alt="10 ) Architectural Design Event 1" src="https://github.com/user-attachments/assets/8ab61de4-03f0-4db6-a294-e8d7dffc6be0" />
 
 <img width="1512" height="945" alt="11 ) Architectural Design Event 2" src="https://github.com/user-attachments/assets/0642acbe-4721-4d2e-94a5-757d915fadad" />
+
+<img width="1512" height="945" alt="9 ) View Life Categories 3" src="https://github.com/user-attachments/assets/65719d42-279a-4845-b719-8dd7e9058794" />
 
 ### Search through Life Categories:
 <img width="1512" height="945" alt="12 ) Search Life Categories 1" src="https://github.com/user-attachments/assets/d74d2a81-558c-4a4f-bacb-e9964b6668d3" />
