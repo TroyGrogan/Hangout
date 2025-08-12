@@ -38,6 +38,7 @@ These things include:
 - The app now has a GUEST MODE. The user doesn't need to log in to create an account anymore to just view and get an idea of the app. 
 - The AI chat bot message history in guest mode is temporarily stored in the frontend browser's session storage. In other words, the guest mode AI chat history is not permanently stored in the app's database.
 
+# Build Instructions
 
 ## External Requirements
 
