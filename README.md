@@ -37,6 +37,8 @@ This project is a web application catered towards discovering and broadcasting t
 
 <img width="1512" height="945" alt="9 ) View Life Categories 3" src="https://github.com/user-attachments/assets/65719d42-279a-4845-b719-8dd7e9058794" />
 
+<img width="1512" height="945" alt="3D Visual Art Architecture" src="https://github.com/user-attachments/assets/be571360-9007-46b4-a3d2-a721258b9a3f" />
+
 ### Search through Life Categories:
 <img width="1512" height="945" alt="12 ) Search Life Categories 1" src="https://github.com/user-attachments/assets/d74d2a81-558c-4a4f-bacb-e9964b6668d3" />
 
