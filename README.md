@@ -53,7 +53,10 @@ This project is a web application catered towards discovering and broadcasting t
 
 <img width="1512" height="945" alt="User Searched Art and Clicked On Sports Categories Showcase" src="https://github.com/user-attachments/assets/35a14be9-2f69-408c-ae21-360f5d00a7d0" />
 
-### Search for Events Based on Dates Available, Location, and Life Topic (Can choose 1, 2, or 3 search inputs):
+### Search for Events: 
+Search is based on "Dates Available", "Location", and "Life Category/Topic".
+
+Can choose between 1, 2, or all 3 search inputs.
 
 ### All 3 search inputs:
 
@@ -93,7 +96,7 @@ This project is a web application catered towards discovering and broadcasting t
 ### Ask AI for Suggestions:
 The model in use here is the Gemma 3 1B Parameter 8-Bit qunatized model. This model is running on 1 CPU and 2 GB of RAM. It takes around ~1 min. to 2 min. on average for the AI to respond with its message.
 
-**Suggest Based On a combination of all Life Categories, 50% talk and 50% do:**
+**Suggest based on a combination of all Life Categories, 50% talk and 50% do:**
 <img width="1512" height="945" alt="1 ) AI Suggester 1" src="https://github.com/user-attachments/assets/1706553f-b2a6-4c14-93ed-cd6d7fc666ae" />
 
 **Things To Do Suggestions:**
@@ -102,10 +105,10 @@ The model in use here is the Gemma 3 1B Parameter 8-Bit qunatized model. This mo
 **Things To Talk About Suggestions:**
 <img width="1512" height="945" alt="3 ) AI Things to talk about" src="https://github.com/user-attachments/assets/127035b4-2331-415b-ab56-96a47ad9fa75" />
 
-## Suggest Based On Life Categories:**
+**Suggest based on a selected Life Categories:**
 <img width="1512" height="945" alt="4 ) AI Suggest Based on Life Category" src="https://github.com/user-attachments/assets/c7c26a70-5b96-4dfa-9e4f-9547b0f49e96" />
 
-**Ex.) Selected "Food, Cooking, and Nutrition" Life Category:**
+**Selected "Food, Cooking, and Nutrition" Life Category:**
 <img width="1512" height="945" alt="5 ) AI Food Category Selected" src="https://github.com/user-attachments/assets/b09f9c86-3a45-4b0f-ac62-8fdfa1155416" />
 
 **"Food, Cooking, and Nutrition" Things To Do Suggestions:**
@@ -114,27 +117,49 @@ The model in use here is the Gemma 3 1B Parameter 8-Bit qunatized model. This mo
 **"Food, Cooking, and Nutrition" Things To Talk About Suggestions:**
 <img width="1512" height="945" alt="7 ) AI Food Category things to talk about" src="https://github.com/user-attachments/assets/fd154a35-1d3a-4247-a574-951e328e3c0e" />
 
-### Things To Talk About Example:
+### Ex.) Things To Talk About Suggestion:
 <img width="1512" height="945" alt="8 ) AI Food Category chat Things To Talk About input 1" src="https://github.com/user-attachments/assets/6c5a3b70-cacc-4e4e-84a0-b70a83f6b0e3" />
 
-**1 to 2 minutes later...**
+**Things To Talk About Input:**
 <img width="1512" height="945" alt="9 ) AI Food Category chat Things To Talk About input 2" src="https://github.com/user-attachments/assets/28301a56-acd9-4509-9630-ee02fb371810" />
+**1 to 2 minutes later...**
 
 **Things To Talk About Output:**
 <img width="1512" height="945" alt="10 ) AI Food Category chat Things To Talk About output 3" src="https://github.com/user-attachments/assets/6e5b845b-e5d1-4de0-bb09-113c0206e655" />
 
 <img width="1512" height="945" alt="11 ) AI Food Category chat Things To Talk About output 4" src="https://github.com/user-attachments/assets/e0f1e866-c438-40f1-91d2-6545858e8d78" />
 
-**Things To Do Example:**
+### Ex.) No Categories selected Things To Do Suggestion:
+
+**Things To Do Input:**
 <img width="1512" height="945" alt="Things To Do example input 1" src="https://github.com/user-attachments/assets/c2dd4906-d2d8-4536-beca-7a483cd9ecfc" />
 
-**1 to 2 minutes later...**
 <img width="1512" height="945" alt="Things To Do example output 2" src="https://github.com/user-attachments/assets/f3d75710-30ca-40b2-a25a-a900f8feb59f" />
+
+**1 to 2 minutes later...**
 
 **Things To Do Output:**
 <img width="1512" height="945" alt="Things To Do example output 3" src="https://github.com/user-attachments/assets/b5efd11e-8fe1-4269-9922-e6d5974aa0c0" />
 
 <img width="1512" height="945" alt="Things To Do example output 4" src="https://github.com/user-attachments/assets/9c56f123-9703-45a5-a840-380e9e1a31ff" />
+
+### Ex.) Ask AI through Category Button:
+<img width="1512" height="945" alt="Ask AI through button 1" src="https://github.com/user-attachments/assets/3446848e-7747-4ea1-9fc6-8a90703fe783" />
+
+<img width="1512" height="945" alt="Ask AI through button 2" src="https://github.com/user-attachments/assets/7196f74b-09e1-4299-9140-4715faae829d" />
+
+**Ask AI through Category Button Input:**
+<img width="1512" height="945" alt="Ask AI through button 3" src="https://github.com/user-attachments/assets/63729e85-8d5e-4d5a-8e5a-92b40e0b1227" />
+
+<img width="1512" height="945" alt="Ask AI through button output 1" src="https://github.com/user-attachments/assets/bd6a3484-120c-4ef4-a551-3aa39cbbb47f" />
+
+**1 to 2 minutes later...**
+
+**Ask AI through Category Button Output:**
+
+<img width="1512" height="945" alt="Ask AI through button output 2" src="https://github.com/user-attachments/assets/980d6f6b-5d46-4fff-be77-be3a1f872767" />
+
+<img width="1512" height="945" alt="Ask AI through button output 3" src="https://github.com/user-attachments/assets/1ac7bf57-36b0-4790-9a36-ded54be3f77e" />
 
 
 ## Changes Since The Class Has Ended
