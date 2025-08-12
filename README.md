@@ -24,7 +24,24 @@ This project is a web application catered towards discovering and broadcasting t
 <img width="1512" height="945" alt="6 ) Football Event 2" src="https://github.com/user-attachments/assets/2fbe860d-7c59-4798-a2fc-f015afb8ce2f" />
 
 ### Click or Search through Life Categories
+### Click:
+<img width="1512" height="945" alt="7 ) View Life Categories 1" src="https://github.com/user-attachments/assets/8e129322-4517-44fb-b298-9912911acb8f" />
 
+<img width="1512" height="945" alt="8 ) View Life Categories 2" src="https://github.com/user-attachments/assets/45f21e0f-4d6c-418d-9cb0-3fc3f41e1e32" />
+
+<img width="1512" height="945" alt="9 ) View Life Categories 3" src="https://github.com/user-attachments/assets/65719d42-279a-4845-b719-8dd7e9058794" />
+
+<img width="1512" height="945" alt="10 ) Architectural Design Event 1" src="https://github.com/user-attachments/assets/8ab61de4-03f0-4db6-a294-e8d7dffc6be0" />
+
+<img width="1512" height="945" alt="11 ) Architectural Design Event 2" src="https://github.com/user-attachments/assets/0642acbe-4721-4d2e-94a5-757d915fadad" />
+
+### Search:
+
+<img width="1512" height="945" alt="12 ) Search Life Categories 1" src="https://github.com/user-attachments/assets/d74d2a81-558c-4a4f-bacb-e9964b6668d3" />
+
+<img width="1512" height="945" alt="13 ) Search Life Categories 2" src="https://github.com/user-attachments/assets/fd92c9f5-aafa-4316-8857-c83039c5e5d9" />
+
+<img width="1512" height="945" alt="14 ) Search Life Categories 3" src="https://github.com/user-attachments/assets/9f65695b-647a-4f4a-a6c4-7e120df1258b" />
 
 ### View Events in Calendar
 
