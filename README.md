@@ -44,7 +44,7 @@ This project is a web application catered towards discovering and broadcasting t
 
 <img width="1512" height="945" alt="14 ) Search Life Categories 3" src="https://github.com/user-attachments/assets/9f65695b-647a-4f4a-a6c4-7e120df1258b" />
 
-### Search for Events Based on Dates Available, Location, and Life Topic (Can choose 1, 2, or 3 Search inputs):
+### Search for Events Based on Dates Available, Location, and Life Topic (Can choose 1, 2, or 3 search inputs):
 
 ### All 3 search inputs:
 
