@@ -94,7 +94,7 @@ Can choose between 1, 2, or all 3 search inputs.
 <img width="1512" height="945" alt="Events Calendar 4" src="https://github.com/user-attachments/assets/6f197b45-8665-48d9-88a1-5a2d4e89b054" />
 
 ### Ask AI for Suggestions:
-The model in use here is the Gemma 3 1B Parameter 8-Bit qunatized model. This model is running on 1 CPU and 2 GB of RAM. It takes around ~1 min. to 2 min. on average for the AI to respond with its message.
+The model in use here is the [Gemma 3 1B Parameter 8-Bit qunatized model](https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF?show_file_info=gemma-3-1b-it-Q8_0.gguf). This model is running on 1 CPU and 2 GB of RAM. It takes around ~1 min. to 2 min. on average for the AI to respond with its message.
 
 **Suggest based on a combination of all Life Categories, 50% talk and 50% do:**
 <img width="1512" height="945" alt="1 ) AI Suggester 1" src="https://github.com/user-attachments/assets/1706553f-b2a6-4c14-93ed-cd6d7fc666ae" />
