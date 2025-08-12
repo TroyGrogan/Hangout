@@ -118,7 +118,7 @@ The model in use here is the [Gemma 3 1B Parameter 8-Bit qunatized model](https:
 **"Food, Cooking, and Nutrition" Things To Talk About Suggestions:**
 <img width="1512" height="945" alt="7 ) AI Food Category things to talk about" src="https://github.com/user-attachments/assets/fd154a35-1d3a-4247-a574-951e328e3c0e" />
 
-### Ex.) Things To Talk About Suggestion:
+### Ex 1.) Things To Talk About Suggestion:
 <img width="1512" height="945" alt="8 ) AI Food Category chat Things To Talk About input 1" src="https://github.com/user-attachments/assets/6c5a3b70-cacc-4e4e-84a0-b70a83f6b0e3" />
 
 **Things To Talk About Input:**
@@ -130,7 +130,7 @@ The model in use here is the [Gemma 3 1B Parameter 8-Bit qunatized model](https:
 
 <img width="1512" height="945" alt="11 ) AI Food Category chat Things To Talk About output 4" src="https://github.com/user-attachments/assets/e0f1e866-c438-40f1-91d2-6545858e8d78" />
 
-### Ex.) No Categories selected Things To Do Suggestion:
+### Ex 2.) No Categories selected Things To Do Suggestion:
 
 **Things To Do Input:**
 <img width="1512" height="945" alt="Things To Do example input 1" src="https://github.com/user-attachments/assets/c2dd4906-d2d8-4536-beca-7a483cd9ecfc" />
@@ -144,7 +144,7 @@ The model in use here is the [Gemma 3 1B Parameter 8-Bit qunatized model](https:
 
 <img width="1512" height="945" alt="Things To Do example output 4" src="https://github.com/user-attachments/assets/9c56f123-9703-45a5-a840-380e9e1a31ff" />
 
-### Ex.) "Ask AI About The Category" Button Suggestion:
+### Ex 3.) "Ask AI About The Category" Button Suggestion:
 <img width="1512" height="945" alt="Ask AI through button 1" src="https://github.com/user-attachments/assets/3446848e-7747-4ea1-9fc6-8a90703fe783" />
 
 <img width="1512" height="945" alt="Ask AI through button 2" src="https://github.com/user-attachments/assets/7196f74b-09e1-4299-9140-4715faae829d" />
