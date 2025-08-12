@@ -38,7 +38,6 @@ This project is a web application catered towards discovering and broadcasting t
 <img width="1512" height="945" alt="11 ) Architectural Design Event 2" src="https://github.com/user-attachments/assets/0642acbe-4721-4d2e-94a5-757d915fadad" />
 
 ### Search through Life Categories:
-
 <img width="1512" height="945" alt="12 ) Search Life Categories 1" src="https://github.com/user-attachments/assets/d74d2a81-558c-4a4f-bacb-e9964b6668d3" />
 
 <img width="1512" height="945" alt="13 ) Search Life Categories 2" src="https://github.com/user-attachments/assets/fd92c9f5-aafa-4316-8857-c83039c5e5d9" />
@@ -46,7 +45,8 @@ This project is a web application catered towards discovering and broadcasting t
 <img width="1512" height="945" alt="14 ) Search Life Categories 3" src="https://github.com/user-attachments/assets/9f65695b-647a-4f4a-a6c4-7e120df1258b" />
 
 ### Search for Events Based on Dates Available, Location, and Life Topic (Can choose 1, 2, or 3 Search inputs):
-#### All 3 search inputs:
+
+### All 3 search inputs:
 
 **Dates Available:**
 <img width="1512" height="945" alt="Search all 3 parameters 1" src="https://github.com/user-attachments/assets/3bdd5268-ec9d-4e78-bbc8-284c47c010a2" />
@@ -60,16 +60,19 @@ This project is a web application catered towards discovering and broadcasting t
 **Search Result (Shows events related to search query):**
 <img width="1512" height="945" alt="Search all 3 parameters 4" src="https://github.com/user-attachments/assets/e6ae03e0-009e-4355-be89-afbb7d445d10" />
 
-#### Just 1 search input:
+### Just 1 search input:
+
 <img width="1512" height="945" alt="Just Location Search 1" src="https://github.com/user-attachments/assets/6497e577-b792-46d7-a3ab-9e052b5f5325" />
 
 **Search Result (Shows events related to search query):**
 <img width="1512" height="945" alt="Just Location Search 2" src="https://github.com/user-attachments/assets/e9bd5b79-508e-4620-8682-8ccf140dd27e" />
 
 ### View Events in your Event Management Dashboard:
+
 <img width="1512" height="945" alt="Event Management Dashboard" src="https://github.com/user-attachments/assets/2a54eec0-bb7d-4b6c-b974-b4d4b4054fd1" />
 
 ### View Events in Calendar:
+
 <img width="1512" height="945" alt="Events Calendar 1" src="https://github.com/user-attachments/assets/429668af-fe47-446a-9484-906ddbbddf4b" />
 
 <img width="1512" height="945" alt="Events Calendar 2" src="https://github.com/user-attachments/assets/15ede6f5-67b4-49fc-bbf3-d327a52600c1" />
