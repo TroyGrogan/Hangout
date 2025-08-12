@@ -108,42 +108,7 @@ Create and Activate a virtual enviornment in the backend directory of the app.
     python3 -m venv env
     source env/bin/activate
 
-**3.) Next, Install Postgre-SQL on your Computer:**
-
-**Windows:**
-
-- Download the PostgreSQL 14 using https://www.postgresql.org/download/windows/
-- Run the execution file to use the Setup Wizard
-- When reaching the "Select Components" page, keep all selected that the wizard assigns
-- Continue using the "Next" button until you reach the stack builder page
-- Verify that you will be using "Postgre SQL 14 (windows size, ie x64) on port 5432"
-- Continue Setup respectively by following Setup Wizard Instructions
-
-**Mac (through homebrew):**
-
-Install the PostgreSQL 14 using Homebrew
-
-    brew install postgresql@14
-
-Start the PostgreSQL service:
-
-    brew services start postgresql@14
-   
-Add PostgreSQL binaries to your PATH
-
-    echo 'export PATH="/opt/homebrew/opt/postgresql@14/bin:$PATH"' >> ~/.zshrc
-
-Source your .zshrc file to apply the changes immediately:
-
-    source ~/.zshrc
-
-Verify that PostgreSQL is properly installed and accessible:
-
-    which pg_config/opt/homebrew/opt/postgresql@14/bin/pg_config
-
-**-> Once PostgreSQL is successfully installed, THEN ->**
-
-**4.) Install the Backend Dependencies.**
+**3.) Install the Backend Dependencies.**
 
     pip install -r requirements.txt
 
@@ -155,7 +120,7 @@ Verify that PostgreSQL is properly installed and accessible:
 - Run **makemigrations** when you have made changes to your Django models (e.g., adding a new field, modifying an existing one, or creating a new model).
 - Run **migrate** after **makemigrations** to apply those changes to the database.
 
-**5.) To reenter/exit in the virtual environment.**
+**4.) To reenter/exit in the virtual environment.**
 
     source env/bin/activate
 
@@ -204,7 +169,9 @@ Then, run this command:
     npm run dev
 
 ## Running Locally For Development
-Make sure to have your .env file, placed in the main backend directory, filled out with your correlated information, accordingly.
+
+### .env file set up:
+Make sure to have your .env file, placed in the main backend directory, filled out with your correlated information, accordingly. This app is using Django for the backend, and Supabase for the database.
 
 **.env file structure example:**
 
@@ -241,6 +208,41 @@ Make sure to have your .env file, placed in the main backend directory, filled o
 **Example of what a Local Network Link looks like:**
 
     Network: http://100.64.14.100:5173/
+
+### Installing Postgre-SQL locally on your Computer:
+
+**Windows:**
+
+- Download the PostgreSQL 14 using https://www.postgresql.org/download/windows/
+- Run the execution file to use the Setup Wizard
+- When reaching the "Select Components" page, keep all selected that the wizard assigns
+- Continue using the "Next" button until you reach the stack builder page
+- Verify that you will be using "Postgre SQL 14 (windows size, ie x64) on port 5432"
+- Continue Setup respectively by following Setup Wizard Instructions
+
+**Mac (through homebrew):**
+
+Install the PostgreSQL 14 using Homebrew
+
+    brew install postgresql@14
+
+Start the PostgreSQL service:
+
+    brew services start postgresql@14
+   
+Add PostgreSQL binaries to your PATH
+
+    echo 'export PATH="/opt/homebrew/opt/postgresql@14/bin:$PATH"' >> ~/.zshrc
+
+Source your .zshrc file to apply the changes immediately:
+
+    source ~/.zshrc
+
+Verify that PostgreSQL is properly installed and accessible:
+
+    which pg_config/opt/homebrew/opt/postgresql@14/bin/pg_config
+
+**Once PostgreSQL is successfully installed, THEN Install the Backend Dependencies**
 
 # Testing
 **First, make sure you have all requirements from requirements.txt installed.** It is recommended to use a virtual enviornment during this.
