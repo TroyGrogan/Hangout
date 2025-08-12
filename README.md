@@ -43,6 +43,9 @@ This project is a web application catered towards discovering and broadcasting t
 
 <img width="1512" height="945" alt="14 ) Search Life Categories 3" src="https://github.com/user-attachments/assets/9f65695b-647a-4f4a-a6c4-7e120df1258b" />
 
+### View Events in your Event Management Dashboard
+<img width="1512" height="945" alt="Event Management Dashboard" src="https://github.com/user-attachments/assets/2a54eec0-bb7d-4b6c-b974-b4d4b4054fd1" />
+
 ### View Events in Calendar
 <img width="1512" height="945" alt="Events Calendar 1" src="https://github.com/user-attachments/assets/429668af-fe47-446a-9484-906ddbbddf4b" />
 
