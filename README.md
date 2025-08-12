@@ -67,7 +67,7 @@ This project is a web application catered towards discovering and broadcasting t
 **Search Result (shows events related to search query):**
 <img width="1512" height="945" alt="Just Location Search 2" src="https://github.com/user-attachments/assets/e9bd5b79-508e-4620-8682-8ccf140dd27e" />
 
-### View Events in your Event Management Dashboard:
+### View your Events in the Event Management Dashboard:
 
 <img width="1512" height="945" alt="Event Management Dashboard" src="https://github.com/user-attachments/assets/2a54eec0-bb7d-4b6c-b974-b4d4b4054fd1" />
 
