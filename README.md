@@ -57,14 +57,14 @@ This project is a web application catered towards discovering and broadcasting t
 **Life Category/Topic:**
 <img width="1512" height="945" alt="Search all 3 parameters 3" src="https://github.com/user-attachments/assets/bece5b5c-8675-4fda-87dd-4ffa782ced57" />
 
-**Search Result (Shows events related to search query):**
+**Search Result (shows events related to search query):**
 <img width="1512" height="945" alt="Search all 3 parameters 4" src="https://github.com/user-attachments/assets/e6ae03e0-009e-4355-be89-afbb7d445d10" />
 
 ### Just 1 search input:
 
 <img width="1512" height="945" alt="Just Location Search 1" src="https://github.com/user-attachments/assets/6497e577-b792-46d7-a3ab-9e052b5f5325" />
 
-**Search Result (Shows events related to search query):**
+**Search Result (shows events related to search query):**
 <img width="1512" height="945" alt="Just Location Search 2" src="https://github.com/user-attachments/assets/e9bd5b79-508e-4620-8682-8ccf140dd27e" />
 
 ### View Events in your Event Management Dashboard:
