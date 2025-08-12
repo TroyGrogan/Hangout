@@ -92,6 +92,26 @@ This project is a web application catered towards discovering and broadcasting t
 
 ### Ask AI for Suggestions:
 
+<img width="1512" height="945" alt="1 ) AI Suggester 1" src="https://github.com/user-attachments/assets/1706553f-b2a6-4c14-93ed-cd6d7fc666ae" />
+
+**Things To Do Suggestions:**
+<img width="1512" height="945" alt="2 ) AI Things to do" src="https://github.com/user-attachments/assets/7cdbbbfa-703a-4f66-8d81-10ee9cac5142" />
+
+**Things To Talk About Suggestions:**
+<img width="1512" height="945" alt="3 ) AI Things to talk about" src="https://github.com/user-attachments/assets/127035b4-2331-415b-ab56-96a47ad9fa75" />
+
+**Suggest Based On Life Categories:**
+<img width="1512" height="945" alt="4 ) AI Suggest Based on Life Category" src="https://github.com/user-attachments/assets/c7c26a70-5b96-4dfa-9e4f-9547b0f49e96" />
+
+**Selected "Food, Cooking, and Nutrition" Life Category:**
+<img width="1512" height="945" alt="5 ) AI Food Category Selected" src="https://github.com/user-attachments/assets/b09f9c86-3a45-4b0f-ac62-8fdfa1155416" />
+
+**"Food, Cooking, and Nutrition" Things To Do Suggestions:**
+<img width="1512" height="945" alt="6 ) AI Food Category things to do" src="https://github.com/user-attachments/assets/67d4a118-60bf-4506-9753-188562f64873" />
+
+**"Food, Cooking, and Nutrition" Things To Talk About Suggestions:**
+<img width="1512" height="945" alt="7 ) AI Food Category things to talk about" src="https://github.com/user-attachments/assets/fd154a35-1d3a-4247-a574-951e328e3c0e" />
+
 
 ## Changes Since The Class Has Ended
 
