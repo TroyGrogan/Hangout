@@ -91,7 +91,9 @@ This project is a web application catered towards discovering and broadcasting t
 <img width="1512" height="945" alt="Events Calendar 4" src="https://github.com/user-attachments/assets/6f197b45-8665-48d9-88a1-5a2d4e89b054" />
 
 ### Ask AI for Suggestions:
+The model in use here is the Gemma 3 1B Parameter 8-Bit qunatized model. This model is running on 1 CPU and 2 GB of RAM. It takes around ~1 min. to 2 min. on average for the AI to respond with its message.
 
+**Suggest Based On a combination of all Life Categories, 50% talk and 50% do:**
 <img width="1512" height="945" alt="1 ) AI Suggester 1" src="https://github.com/user-attachments/assets/1706553f-b2a6-4c14-93ed-cd6d7fc666ae" />
 
 **Things To Do Suggestions:**
@@ -100,10 +102,10 @@ This project is a web application catered towards discovering and broadcasting t
 **Things To Talk About Suggestions:**
 <img width="1512" height="945" alt="3 ) AI Things to talk about" src="https://github.com/user-attachments/assets/127035b4-2331-415b-ab56-96a47ad9fa75" />
 
-**Suggest Based On Life Categories:**
+## Suggest Based On Life Categories:**
 <img width="1512" height="945" alt="4 ) AI Suggest Based on Life Category" src="https://github.com/user-attachments/assets/c7c26a70-5b96-4dfa-9e4f-9547b0f49e96" />
 
-**Selected "Food, Cooking, and Nutrition" Life Category:**
+**Ex.) Selected "Food, Cooking, and Nutrition" Life Category:**
 <img width="1512" height="945" alt="5 ) AI Food Category Selected" src="https://github.com/user-attachments/assets/b09f9c86-3a45-4b0f-ac62-8fdfa1155416" />
 
 **"Food, Cooking, and Nutrition" Things To Do Suggestions:**
@@ -111,6 +113,28 @@ This project is a web application catered towards discovering and broadcasting t
 
 **"Food, Cooking, and Nutrition" Things To Talk About Suggestions:**
 <img width="1512" height="945" alt="7 ) AI Food Category things to talk about" src="https://github.com/user-attachments/assets/fd154a35-1d3a-4247-a574-951e328e3c0e" />
+
+### Things To Talk About Example:
+<img width="1512" height="945" alt="8 ) AI Food Category chat Things To Talk About input 1" src="https://github.com/user-attachments/assets/6c5a3b70-cacc-4e4e-84a0-b70a83f6b0e3" />
+
+**1 to 2 minutes later...**
+<img width="1512" height="945" alt="9 ) AI Food Category chat Things To Talk About input 2" src="https://github.com/user-attachments/assets/28301a56-acd9-4509-9630-ee02fb371810" />
+
+**Things To Talk About Output:**
+<img width="1512" height="945" alt="10 ) AI Food Category chat Things To Talk About output 3" src="https://github.com/user-attachments/assets/6e5b845b-e5d1-4de0-bb09-113c0206e655" />
+
+<img width="1512" height="945" alt="11 ) AI Food Category chat Things To Talk About output 4" src="https://github.com/user-attachments/assets/e0f1e866-c438-40f1-91d2-6545858e8d78" />
+
+**Things To Do Example:**
+<img width="1512" height="945" alt="Things To Do example input 1" src="https://github.com/user-attachments/assets/c2dd4906-d2d8-4536-beca-7a483cd9ecfc" />
+
+**1 to 2 minutes later...**
+<img width="1512" height="945" alt="Things To Do example output 2" src="https://github.com/user-attachments/assets/f3d75710-30ca-40b2-a25a-a900f8feb59f" />
+
+**Things To Do Output:**
+<img width="1512" height="945" alt="Things To Do example output 3" src="https://github.com/user-attachments/assets/b5efd11e-8fe1-4269-9922-e6d5974aa0c0" />
+
+<img width="1512" height="945" alt="Things To Do example output 4" src="https://github.com/user-attachments/assets/9c56f123-9703-45a5-a840-380e9e1a31ff" />
 
 
 ## Changes Since The Class Has Ended
