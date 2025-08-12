@@ -11,9 +11,19 @@ This project is a web application catered towards discovering and broadcasting t
 ## Functionality
 
 ### Find and View Events
+<img width="1512" height="945" alt="1 ) Home Screen 1" src="https://github.com/user-attachments/assets/82d9d6db-ab4e-4bca-9c3a-ee9fb6be8cf0" />
 
+<img width="1512" height="945" alt="2 ) Home Screen 2" src="https://github.com/user-attachments/assets/865a2cef-7dca-4eaa-ab8a-746d66a486b0" />
 
-### Search through Life Categories
+<img width="1512" height="945" alt="3 ) Home Screen 3" src="https://github.com/user-attachments/assets/aeaa5c2e-a711-4d32-a229-d1cbe292ae0b" />
+
+<img width="1512" height="945" alt="4 ) Home Screen 4" src="https://github.com/user-attachments/assets/a54527e4-8a28-40f0-bfc0-2cd4f7b395d6" />
+
+<img width="1512" height="945" alt="5 ) Football Event 1" src="https://github.com/user-attachments/assets/b9d26d60-02e9-431b-a5fb-6c22dba43d5f" />
+
+<img width="1512" height="945" alt="6 ) Football Event 2" src="https://github.com/user-attachments/assets/2fbe860d-7c59-4798-a2fc-f015afb8ce2f" />
+
+### Click or Search through Life Categories
 
 
 ### View Events in Calendar
