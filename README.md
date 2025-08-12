@@ -45,6 +45,26 @@ This project is a web application catered towards discovering and broadcasting t
 
 <img width="1512" height="945" alt="14 ) Search Life Categories 3" src="https://github.com/user-attachments/assets/9f65695b-647a-4f4a-a6c4-7e120df1258b" />
 
+### Search for Events Based on Dates Available, Location, and Life Topic (Can choose 1, 2, or 3 Search inputs):
+#### All 3 search inputs:
+
+**Dates Available:**
+<img width="1512" height="945" alt="Search all 3 parameters 1" src="https://github.com/user-attachments/assets/3bdd5268-ec9d-4e78-bbc8-284c47c010a2" />
+
+**Location:**
+<img width="1512" height="945" alt="Search all 3 parameters 2" src="https://github.com/user-attachments/assets/71bb3332-97ea-4e75-af4d-91afa0e9e160" />
+
+**Life Category/Topic:**
+<img width="1512" height="945" alt="Search all 3 parameters 3" src="https://github.com/user-attachments/assets/bece5b5c-8675-4fda-87dd-4ffa782ced57" />
+
+**Search Result (Shows events related to search query):**
+<img width="1512" height="945" alt="Search all 3 parameters 4" src="https://github.com/user-attachments/assets/e6ae03e0-009e-4355-be89-afbb7d445d10" />
+
+#### Just 1 search input:
+<img width="1512" height="945" alt="Just Location Search 1" src="https://github.com/user-attachments/assets/6497e577-b792-46d7-a3ab-9e052b5f5325" />
+
+<img width="1512" height="945" alt="Just Location Search 2" src="https://github.com/user-attachments/assets/e9bd5b79-508e-4620-8682-8ccf140dd27e" />
+
 ### View Events in your Event Management Dashboard:
 <img width="1512" height="945" alt="Event Management Dashboard" src="https://github.com/user-attachments/assets/2a54eec0-bb7d-4b6c-b974-b4d4b4054fd1" />
 
