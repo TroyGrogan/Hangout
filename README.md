@@ -8,7 +8,7 @@ React / Django Web Application that uses RESTful APIs. Was made during Fall 2024
 
 This project is a web application catered towards discovering and broadcasting to your local community activities that you can do with other people, like: House Parties, Soccer Games, Videogame meetups, Educational Study Groups, Cooking Classes, or even an Architectural/ Musical digest. The possiblilites are endless here. You can create an event for people to "hangout" at in regard to any of the categories that fall within life. There is also a Calendar feature, as well as an AI Suggester feature, that can suggest to you two things: "Possible Things To talk About?" or "Possible Things To Do?" with other people.
 
-## Functionality
+## App Functionality
 
 ### Find and View Events
 <img width="1512" height="945" alt="1 ) Home Screen 1" src="https://github.com/user-attachments/assets/82d9d6db-ab4e-4bca-9c3a-ee9fb6be8cf0" />
@@ -44,7 +44,13 @@ This project is a web application catered towards discovering and broadcasting t
 <img width="1512" height="945" alt="14 ) Search Life Categories 3" src="https://github.com/user-attachments/assets/9f65695b-647a-4f4a-a6c4-7e120df1258b" />
 
 ### View Events in Calendar
+<img width="1512" height="945" alt="Events Calendar 1" src="https://github.com/user-attachments/assets/429668af-fe47-446a-9484-906ddbbddf4b" />
 
+<img width="1512" height="945" alt="Events Calendar 2" src="https://github.com/user-attachments/assets/15ede6f5-67b4-49fc-bbf3-d327a52600c1" />
+
+<img width="1512" height="945" alt="Events Calendar 3" src="https://github.com/user-attachments/assets/ac08a1fb-5cb6-4f3b-985e-3a3d62607705" />
+
+<img width="1512" height="945" alt="Events Calendar 4" src="https://github.com/user-attachments/assets/6f197b45-8665-48d9-88a1-5a2d4e89b054" />
 
 ### Ask AI for Suggestions
 
