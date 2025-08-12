@@ -10,7 +10,7 @@ This project is a web application catered towards discovering and broadcasting t
 
 ## App Functionality
 
-### Find and View Events
+### Find and View Events:
 <img width="1512" height="945" alt="1 ) Home Screen 1" src="https://github.com/user-attachments/assets/82d9d6db-ab4e-4bca-9c3a-ee9fb6be8cf0" />
 
 <img width="1512" height="945" alt="2 ) Home Screen 2" src="https://github.com/user-attachments/assets/865a2cef-7dca-4eaa-ab8a-746d66a486b0" />
@@ -23,8 +23,7 @@ This project is a web application catered towards discovering and broadcasting t
 
 <img width="1512" height="945" alt="6 ) Football Event 2" src="https://github.com/user-attachments/assets/2fbe860d-7c59-4798-a2fc-f015afb8ce2f" />
 
-### Click or Search through Life Categories
-### Click:
+### Click through Life Categories:
 <img width="1512" height="945" alt="7 ) View Life Categories 1" src="https://github.com/user-attachments/assets/8e129322-4517-44fb-b298-9912911acb8f" />
 
 <img width="1512" height="945" alt="8 ) View Life Categories 2" src="https://github.com/user-attachments/assets/45f21e0f-4d6c-418d-9cb0-3fc3f41e1e32" />
@@ -35,7 +34,7 @@ This project is a web application catered towards discovering and broadcasting t
 
 <img width="1512" height="945" alt="11 ) Architectural Design Event 2" src="https://github.com/user-attachments/assets/0642acbe-4721-4d2e-94a5-757d915fadad" />
 
-### Search:
+### Search through Life Categories:
 
 <img width="1512" height="945" alt="12 ) Search Life Categories 1" src="https://github.com/user-attachments/assets/d74d2a81-558c-4a4f-bacb-e9964b6668d3" />
 
@@ -43,10 +42,10 @@ This project is a web application catered towards discovering and broadcasting t
 
 <img width="1512" height="945" alt="14 ) Search Life Categories 3" src="https://github.com/user-attachments/assets/9f65695b-647a-4f4a-a6c4-7e120df1258b" />
 
-### View Events in your Event Management Dashboard
+### View Events in your Event Management Dashboard:
 <img width="1512" height="945" alt="Event Management Dashboard" src="https://github.com/user-attachments/assets/2a54eec0-bb7d-4b6c-b974-b4d4b4054fd1" />
 
-### View Events in Calendar
+### View Events in Calendar:
 <img width="1512" height="945" alt="Events Calendar 1" src="https://github.com/user-attachments/assets/429668af-fe47-446a-9484-906ddbbddf4b" />
 
 <img width="1512" height="945" alt="Events Calendar 2" src="https://github.com/user-attachments/assets/15ede6f5-67b4-49fc-bbf3-d327a52600c1" />
@@ -55,7 +54,7 @@ This project is a web application catered towards discovering and broadcasting t
 
 <img width="1512" height="945" alt="Events Calendar 4" src="https://github.com/user-attachments/assets/6f197b45-8665-48d9-88a1-5a2d4e89b054" />
 
-### Ask AI for Suggestions
+### Ask AI for Suggestions:
 
 
 ## Changes Since The Class Has Ended
