@@ -44,7 +44,7 @@ This project is a web application catered towards discovering and broadcasting t
 
 <img width="1512" height="945" alt="13 ) Search Life Categories 2" src="https://github.com/user-attachments/assets/fd92c9f5-aafa-4316-8857-c83039c5e5d9" />
 
-<img width="1512" height="945" alt="14 ) Search Life Categories 3" src="https://github.com/user-attachments/assets/9f65695b-647a-4f4a-a6c4-7e120df1258b" />
+<img width="1512" height="945" alt="User Searched Art and Clicked On Sports Categories Showcase" src="https://github.com/user-attachments/assets/35a14be9-2f69-408c-ae21-360f5d00a7d0" />
 
 ### Search for Events Based on Dates Available, Location, and Life Topic (Can choose 1, 2, or 3 search inputs):
 
